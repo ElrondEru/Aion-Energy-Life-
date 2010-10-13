@@ -95,7 +95,6 @@
 				return new MyLoggerInstance(); // caching with WeakHashMap can be used here	 
 			}
 		}
-
 	-->
 	<categoryFactory class="com.aionemu.commons.log4j.ThrowableAsMessageAwareFactory"/>
 </log4j:configuration>

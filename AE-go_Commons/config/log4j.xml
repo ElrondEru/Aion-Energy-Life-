@@ -55,7 +55,6 @@
 		<appender-ref ref="CONSOLE_TO_FILE"/>
 		<appender-ref ref="ERROR_APPENDER"/>
 	</root>
-
 	<!--
 		This property represents default LoggerFactory for categories.
 		For intance we have class x.y.z.Main that uses it's own name to get logger.
@@ -94,7 +93,6 @@
 				return new MyLoggerInstance(); // caching with WeakHashMap can be used here	 
 			}
 		}
-
 	-->
 	<categoryFactory class="com.aionemu.commons.log4j.ThrowableAsMessageAwareFactory"/>
 </log4j:configuration>
