@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!-- Space Of Oblivion -->
+<spawns>
+	<!-- Icaronix (NPC Normal lvl:50) (from client spawn)-->
+	<spawn map="310060000" npcid="205110" pool="1" interval="295">
+		<object x="1875.3131" y="634.126" z="1192.0" h="0"/>
+	</spawn>
+</spawns>

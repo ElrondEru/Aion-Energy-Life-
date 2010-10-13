@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quest_scripts xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="quest_script_data.xsd">
+<!--
+  ~ This file is part of aion-unique.
+  ~
+  ~ aion-unique is free software: you can redistribute it and/or modify
+  ~ it under the terms of the GNU General Public License as published by
+  ~ the Free Software Foundation, either version 3 of the License, or
+  ~ (at your option) any later version.
+  ~
+  ~ aion-unique is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~ GNU General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License
+  ~ along with aion-unique.  If not, see <http://www.gnu.org/licenses/>.
+  -->
+
+	<!-- 1000 Prologue handled by script -->
+	<!-- 1001 The Kerub Threat handled by script -->
+	<!-- 1002 Request of the Elim handled by script -->
+	<!-- 1003 Illegal Logging handled by script -->
+	<!-- 1004 Neutralizing Odium handled by script -->
+	<!-- 1005 Barring the Gate handled by script -->
+	<!-- 1100 Kalio's Call handled by script -->
+	<!-- Sleeping on the Job -->
+	<report_to start_npc_id="203049" end_npc_id="203057" id="1101"/>
+	<!-- Kerubar Hunt -->
+	<monster_hunt start_npc_id="203057" id="1102">
+		<monster_infos npc_id="210133" var_id="0" max_kill="3"/>
+		<monster_infos npc_id="210134" var_id="0" max_kill="3"/>
+	</monster_hunt>
+	<!-- Grain Thieves -->
+	<item_collecting start_npc_id="203057" action_item_id="700105" id="1103"/>
+	<!-- Report to Polina -->
+	<report_to start_npc_id="203057" end_npc_id="203059" id="1104"/>
+	<!-- The Snuffler Headache -->
+	<item_collecting start_npc_id="203050" id="1105"/>
+	<!-- Helping Kales -->
+	<report_to start_npc_id="203050" end_npc_id="203061" item_id="182200203" id="1106"/>
+	<!-- 1107 The Lost Axe handled by script -->
+	<!-- Unos Ingredients -->
+	<item_collecting start_npc_id="203061" id="1108"/>
+	<!-- Abandoned Goods -->
+	<item_collecting start_npc_id="798007" action_item_id="700106" id="1109"/>
+	<!-- A Book for Namus -->
+	<report_to start_npc_id="203065" end_npc_id="203075" item_id="182200206" id="1110"/>
+	<!-- To Fish in Peace -->
+	<monster_hunt start_npc_id="203072" id="1112">
+		<monster_infos npc_id="210259" var_id="0" max_kill="5"/>
+		<monster_infos npc_id="210660" var_id="0" max_kill="5"/>
+		<monster_infos npc_id="210065" var_id="1" max_kill="5"/>
+		<monster_infos npc_id="210066" var_id="1" max_kill="5"/>
+	</monster_hunt>
+	<!-- Mushroom Thieves -->
+	<monster_hunt start_npc_id="203076" id="1113">
+		<monster_infos npc_id="210262" var_id="0" max_kill="8"/>
+		<monster_infos npc_id="210675" var_id="0" max_kill="8"/>
+	</monster_hunt>
+	<!-- 1114 The Nymph's Gown handled by script -->
+	<!-- The Elim's Message -->
+	<xml_quest start_npc_id="203075" end_npc_id="203058" id="1115">
+		<on_talk_event ids="203072 203058">
+			<var value="0">
+				<npc id="203072">
+					<dialog id="25">
+						<operations>
+							<npc_dialog id="1352"/>
+						</operations>
+					</dialog>
+					<dialog id="10000">
+						<operations>
+							<set_quest_var var_id="0" value="1"/>
+							<npc_dialog id="1352" quest_id="0"/>
+						</operations>
+					</dialog>
+				</npc>
+			</var>
+			<var value="1">
+				<npc id="203058">
+					<dialog id="25">
+						<operations>
+							<npc_dialog id="2375"/>
+						</operations>
+					</dialog>
+					<dialog id="1009">
+						<operations override="false">
+							<set_quest_status status="REWARD"/>
+						</operations>
+					</dialog>
+				</npc>
+			</var>
+		</on_talk_event>
+	</xml_quest>
+	<!-- Pernos's Robe -->
+	<item_collecting start_npc_id="203060" id="1116"/>
+	<!-- Light up the Night -->
+	<item_collecting start_npc_id="203074" id="1117"/>
+	<!-- Polinia's Ointment -->
+	<report_to start_npc_id="203059" end_npc_id="203079" item_id="0" id="1118"/>
+	<!-- A Taste of Namus's Medicine -->
+	<report_to start_npc_id="203075" end_npc_id="203080" item_id="182200225" id="1119"/>
+	<!-- Thinning out Worgs -->
+	<monster_hunt start_npc_id="203082" id="1120">
+		<monster_infos npc_id="210143" var_id="0" max_kill="9"/>
+		<monster_infos npc_id="210142" var_id="0" max_kill="9"/>
+	</monster_hunt>
+	<!-- Oz's Prayer Beads -->
+	<item_collecting start_npc_id="203081" id="1121"/>
+	<!-- 1122 Delivering Pernos's Robe handled by script -->
+	<!-- 1123 Where's Tutty? handled by script -->
+	<!-- Avenging Tutty -->
+	<item_collecting start_npc_id="790001" id="1124"/>
+	<!-- Suspicious Ore -->
+	<item_collecting start_npc_id="203085" action_item_id="700107" id="1125"/>
+	<!-- Mushroom Research -->
+	<item_collecting start_npc_id="203079" id="1126"/>
+	<!-- Ancient Cube -->
+	<xml_quest start_npc_id="798008" end_npc_id="798008" id="1127">
+		<on_talk_event ids="700001">
+			<conditions operate="AND">
+				<quest_status value="START" op="EQUAL"/>
+			</conditions>
+			<var value="0">
+				<npc id="700001">
+					<dialog id="-1">
+						<operations>
+							<npc_use>
+								<finish>
+									<give_item item_id="182200215" count="1"/>
+									<set_quest_var var_id="0" value="1"/>
+								</finish>
+							</npc_use>
+						</operations>
+					</dialog>
+				</npc>
+			</var>
+			<var value="1">
+				<npc id="798008">
+					<dialog id="25">
+						<operations>
+							<npc_dialog id="2375"/>
+						</operations>
+					</dialog>
+					<dialog id="33">
+						<operations>
+							<collect_items>
+								<true>
+									<set_quest_status status="REWARD"/>
+									<npc_dialog id="5"/>
+								</true>
+								<false>
+									<npc_dialog id="2716"/>
+								</false>
+							</collect_items>
+						</operations>
+					</dialog>
+				</npc>
+			</var>
+		</on_talk_event>
+	</xml_quest>
+	<!-- Scouting Timolia Mine -->
+	<item_collecting start_npc_id="203085" id="1129"/>
+	<!-- 1205 A New Skill handled by script-->
+	<!-- Collecting Aria -->
+	<item_collecting start_npc_id="203059" id="1206"/>
+	<!-- Tula's Music Box -->
+	<item_collecting start_npc_id="203082" end_npc_id="203085" id="1207"/>
+</quest_scripts>
