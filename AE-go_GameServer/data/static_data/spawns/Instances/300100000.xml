@@ -1174,4 +1174,8 @@
 	<spawn interval="295" pool="1" npcid="798375" map="300100000">
 		<object x="529.74664" y="523.48047" z="952.4911" h="87"/>
 	</spawn>
+	<!-- Steel Rake Logbook -->
+	<spawn map="300100000" npcid="700524" pool="1" interval="295">
+		<object x="355.4901" y="594.5304" z="948.80914" h="30"/>
+	</spawn>
 </spawns>

@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <quest_scripts xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="quest_script_data.xsd">
 <!--
   ~ This file is part of aion-unique.
@@ -14,49 +15,50 @@
   ~
   ~ You should have received a copy of the GNU General Public License
   ~ along with aion-unique.  If not, see <http://www.gnu.org/licenses/>.
-  -->
-
-	<!-- Cursed Guardian -->
+  
+	@author Hilgert, alikasfreak, Nephis, Ares, M@xx
+-->
+	<!-- TODO: Quest Id: 1701  Governor's Directive -->
+	<!-- TODO: Quest Id: 1072  Abyss Training -->
+	<!-- TODO: Quest Id: 1717  Silver for the Fountain -->
+	<!-- Quest Id: 1721  Meeting with the Brigade General -->
+	<!-- TODO: Quest Id: 1722  Rastin's Homesickness -->
+	<!-- Quest Id: 1729  Cursed Guardian -->
 	<report_to id="1729" start_npc_id="278559" end_npc_id="278593" item_id="182202132"/>
-
-	<!-- Redeeming Ladacus -->
+	<!-- Quest Id: 1730  Redeeming Ladacus -->
 	<item_collecting id="1730" start_npc_id="278593" end_npc_id="278593"/>
-
-	<!-- Hard Bone -->
+	<!-- Quest Id: 1731  Hard Bone -->
 	<item_collecting id="1731" start_npc_id="278593" end_npc_id="278593"/>
-
-	<!-- Twilight Battlefield -->
+	<!-- Quest Id: 1741  Twilight Battlefield -->
 	<monster_hunt id="1741" start_npc_id="278591">
-    	<monster_infos npc_id="252537" var_id="0" max_kill="7"/>
-    </monster_hunt>
-
-	<!-- Immortal Soul -->
+		<monster_infos npc_id="252537" var_id="0" max_kill="7"/>
+	</monster_hunt>
+	<!-- Quest Id: 1742  Immortal Soul -->
 	<monster_hunt id="1742" start_npc_id="278591">
-	    <monster_infos npc_id="252518" var_id="0" max_kill="10"/>
+		<monster_infos npc_id="252518" var_id="0" max_kill="10"/>
 		<monster_infos npc_id="252522" var_id="1" max_kill="3"/>
 		<monster_infos npc_id="252535" var_id="2" max_kill="3"/>
-    </monster_hunt>
-	 
-	<!-- Undead Destroyer's Ring -->
+	</monster_hunt>
+	<!-- Quest Id: 1743  Undead Destroyer's Ring -->
 	<item_collecting id="1743" start_npc_id="279015" end_npc_id="279015"/>
-	
-	<!-- Fallen Warrior -->
+	<!-- TODO: Quest Id: 2701  The Governor's Summons -->
+	<!-- TODO: Quest Id: 2072  Abyss Battle Training -->
+	<!-- TODO: Quest Id: 2717  Silver for the Fountain -->
+	<!-- TODO: Quest Id: 2721  Meeting with the Brigade General -->
+	<!-- TODO: Quest Id: 2722  The Comforts of Home -->
+	<!-- Quest Id: 2743  Fallen Warrior -->
 	<monster_hunt id="2743" start_npc_id="278089">
 		<monster_infos npc_id="253001" var_id="0" max_kill="10"/>
 	</monster_hunt>
-		
-	<!-- Eerie Undead -->
+	<!-- 2741  Eerie Undead -->
 	<item_collecting id="2741" start_npc_id="278090"/>
-
-	<!-- [Group] Teach Them A Lesson -->
+	<!-- [Group] Teach Them a Lesson -->
 	<report_to id="3701" start_npc_id="278533" end_npc_id="278517"/>
-
 	<!-- [Group] Killing The Guardian Deity General Of The Training Camp -->
 	<monster_hunt id="3702" start_npc_id="278517">
 		<monster_infos npc_id="256694" var_id="0" max_kill="1"/>
 		<monster_infos npc_id="256693" var_id="0" max_kill="1"/>
 	</monster_hunt>
-
 	<!-- [Group] Cut Off The Head Of The Class -->
 	<monster_hunt id="3703" start_npc_id="278517">
 		<monster_infos npc_id="256690" var_id="0" max_kill="1"/>
@@ -64,19 +66,15 @@
 		<monster_infos npc_id="256692" var_id="1" max_kill="1"/>
 		<monster_infos npc_id="256691" var_id="1" max_kill="1"/>
 	</monster_hunt>
-
 	<!-- [Group] Weapon's Inspection -->
 	<item_collecting id="3704" start_npc_id="278627"/>
-
 	<!-- An Important Message -->
 	<report_to id="4701" start_npc_id="278035" end_npc_id="278016"/>
-
 	<!-- [Group] Killing The Guardian Deity General Of The Training Camp -->
 	<monster_hunt id="4702" start_npc_id="278016">
 		<monster_infos npc_id="256694" var_id="0" max_kill="1"/>
 		<monster_infos npc_id="256693" var_id="0" max_kill="1"/>
 	</monster_hunt>
-
 	<!-- [Group] The Draconute Instructor -->
 	<monster_hunt id="4703" start_npc_id="278016">
 		<monster_infos npc_id="256690" var_id="0" max_kill="1"/>
@@ -84,220 +82,202 @@
 		<monster_infos npc_id="256692" var_id="1" max_kill="1"/>
 		<monster_infos npc_id="256691" var_id="1" max_kill="1"/>
 	</monster_hunt>
-
 	<!-- [Group] Prototype Weapon -->
 	<item_collecting id="4704" start_npc_id="278126"/>
-
 	<!-- Disrupting The Guardians -->
 	<monster_hunt id="2742" start_npc_id="278089">
 		<monster_infos npc_id="253004" var_id="0" max_kill="8"/>
 		<monster_infos npc_id="253022" var_id="1" max_kill="6"/>
 		<monster_infos npc_id="253026" var_id="2" max_kill="3"/>
 	</monster_hunt>
-
-	<!-- Crystal Blue Persuasion -->
+	<!-- 2744  Crystal Blue Persuasion -->
 	<item_collecting id="2744" start_npc_id="278090"/>
-
-	<!-- Mokkurkalfi's Supplies -->
+	<!-- 2729  Mokkurkalfi's Supplies -->
 	<report_to id="2729" start_npc_id="278057" end_npc_id="278091" item_id="182205601"/>
-
-	<!-- Slaughter The Draconutes -->
+	<!-- 2730  Slaughter the Draconutes -->
 	<monster_hunt id="2730" start_npc_id="278091">
 		<monster_infos npc_id="253739" var_id="0" max_kill="5"/>
 		<monster_infos npc_id="253740" var_id="1" max_kill="5"/>
 	</monster_hunt>
-
-	<!-- Gems From The Vortex -->
+	<!-- 2733  Gems From the Vortex -->
 	<item_collecting id="2733" start_npc_id="278056"/>
-
+	<!-- TODO: Quest Id: 2724  Missing In Action -->
+	<!-- TODO: 2702  Defeat 9th Rank Elyos Soldiers -->
 	<!-- The Nightmare Ghosts -->
 	<monster_hunt id="1818" start_npc_id="263568">
 		<monster_infos npc_id="253012" var_id="0" max_kill="15"/>
 		<monster_infos npc_id="253017" var_id="1" max_kill="5"/>
 		<monster_infos npc_id="253029" var_id="2" max_kill="5"/>
 	</monster_hunt>
-
 	<!-- Earning Some Green -->
 	<item_collecting id="1744" start_npc_id="279015"/>
-
 	<!-- Dagger Of Love -->
 	<report_to id="1732" start_npc_id="278593" end_npc_id="278592" item_id="182202104"/>
-	
 	<!-- Pieces Of Aether -->
 	<item_collecting id="1734" start_npc_id="278556"/>
-	
+	<!-- TODO: Quest Id: 1724  Reaper Expertise -->
+	<!-- TODO: Quest Id: 1702  Defeat 9th Rank Asmodian Soldiers -->
+	<!-- TODO: Quest Id: 1703  Defeat 8th Rank Asmodian Soldiers -->
+	<!-- TODO: Quest Id: 1073  Saving Elyos Captives -->
 	<!-- Centurion's Forgetfulness -->
 	<report_to id="1725" start_npc_id="278520" end_npc_id="278590" item_id="182202153"/>
-	
 	<!-- Eliminating The Memory Reaper -->
 	<monster_hunt id="1747" start_npc_id="278098">
 		<monster_infos npc_id="278594" var_id="0" max_kill="15"/>
 	</monster_hunt>
-
 	<!-- Root Of The Problem -->
 	<monster_hunt id="1755" start_npc_id="279000">
 		<monster_infos npc_id="253706" var_id="0" max_kill="15"/>
 	</monster_hunt>
-	
 	<!-- End Of The Corrupted Elim -->
 	<monster_hunt id="1756" start_npc_id="279000">
 		<monster_infos npc_id="253694" var_id="0" max_kill="25"/>
 	</monster_hunt>
-
-	<!-- Recovered Documents -->
+	<!-- TODO: Quest Id: 2703  Defeat 8th Rank Elyos Soldiers -->
+	<!-- TODO: Quest Id: 2725  Gone Native -->
+	<!-- 2731  Recovered Documents -->
 	<report_to id="2731" start_npc_id="278091" end_npc_id="278088" item_id="182205602"/>
-
-	<!-- Don't Fear The Reapers -->
+	<!-- TODO: Quest Id: 2071  Speaking Balaur -->
+	<!-- 2747  Don't Fear the Reapers -->
 	<monster_hunt id="2747" start_npc_id="278098">
 		<monster_infos npc_id="253039" var_id="0" max_kill="9"/>
 	</monster_hunt>
-
-	<!-- Supporting The Red Hasia Legion -->
+	<!-- 2750 Supporting the Red Hasia Legion -->
 	<monster_hunt id="2750" start_npc_id="278093">
 		<monster_infos npc_id="252539" var_id="0" max_kill="15"/>
 	</monster_hunt>
-	
-	<!-- Lumping It -->
+	<!-- 2751 Lumping It -->
 	<item_collecting id="2751" start_npc_id="278088"/>
-
-	<!-- Neutralizing The Draconutes -->
+	<!-- 2753  Neutralizing the Draconutes -->
 	<monster_hunt id="2753" start_npc_id="278086">
 		<monster_infos npc_id="253614" var_id="0" max_kill="5"/>
 		<monster_infos npc_id="253619" var_id="1" max_kill="5"/>
 	</monster_hunt>
-
-	<!-- Reductions In Staff -->
+	<!-- 2754  Reductions in Staff -->
 	<item_collecting id="2754" start_npc_id="278086"/>
-
-	<!-- [Group] Killing Ladacus -->
+	<!-- TODO: Quest Id: 2073  Captured Comrades -->
+	<!-- 2728  [Group] Killing Ladacus -->
 	<item_collecting id="2728" start_npc_id="278000"/>
-
-	<!-- [Group] Assassin Mokkurkalfi -->
+	<!-- TODO: Quest Id: 2704  Defeat 7th Rank Elyos Soldiers -->
+	<!-- 1728 [Group] Assassin Mokkurkalfi -->
 	<monster_hunt id="1728" start_npc_id="278515">
 		<monster_infos npc_id="278091" var_id="0" max_kill="1"/>
 	</monster_hunt>
-
-	<!-- High-Grade Aether -->
+	<!-- TODO: Quest Id: 1704  Defeat 7th Rank Asmodian Soldiers -->
+	<!-- TODO: Quest Id: 1705  Defeat 6th Rank Asmodian Soldiers -->
+	<!-- 1735  High-Grade Aether -->
 	<item_collecting id="1735" start_npc_id="278556"/>
-
-	<!-- Nemea's Research Sample -->
+	<!-- 1751  Nemea's Research Sample -->
 	<item_collecting id="1751" start_npc_id="278588"/>
-
-	<!-- Daeva Of Flame's Request -->
+	<!-- 1752  Daeva of Flame's Request -->
 	<monster_hunt id="1752" start_npc_id="278588">
 		<monster_infos npc_id="253711" var_id="0" max_kill="6"/>
 		<monster_infos npc_id="253728" var_id="1" max_kill="14"/>
 	</monster_hunt>
-
-	<!-- [Coin] The Interfering Embers -->
+	<!-- 1753  [Coin] The Interfering Embers -->
 	<monster_hunt id="1753" start_npc_id="278589">
 		<monster_infos npc_id="253700" var_id="0" max_kill="25"/>
 	</monster_hunt>
-
-	<!-- Stop The Unavarun Legion -->
+	<!-- 1754  Stop the Unavarun Legion -->
 	<monster_hunt id="1754" start_npc_id="278589">
 		<monster_infos npc_id="253612" var_id="0" max_kill="10"/>
 		<monster_infos npc_id="253619" var_id="1" max_kill="5"/>
 	</monster_hunt>
-
-	<!-- Cannibal Worm Sap -->
+	<!-- TODO: Quest Id: 2705  Defeat 6th Rank Elyos Soldiers -->
+	<!-- 1819 Cannibal Worm Sap -->
 	<item_collecting id="1819" start_npc_id="264768"/>
-	
-	<!-- Mind The Sap -->
+	<!-- 2819 Mind the Sap -->
 	<item_collecting id="2819" start_npc_id="264769"/>
-	
-	<!-- Aether, Aether, Burning Bright -->
+	<!-- 2734 Aether, Aether, Burning Bright -->
 	<item_collecting id="2734" start_npc_id="278056"/>
-
-	<!-- Helping A Rescue Mission -->
+	<!-- 2755  Helping a Rescue Mission -->
 	<monster_hunt id="2755" start_npc_id="278589">
 		<monster_infos npc_id="253700" var_id="0" max_kill="5"/>
 		<monster_infos npc_id="253696" var_id="1" max_kill="5"/>
 	</monster_hunt>
-
-	<!-- How To Beat Fried Worms -->
+	<!-- 2756  How to Beat Fried Worms -->
 	<monster_hunt id="2756" start_npc_id="278087">
 		<monster_infos npc_id="253687" var_id="0" max_kill="5"/>
 		<monster_infos npc_id="253692" var_id="1" max_kill="3"/>
 	</monster_hunt>
-
-	<!-- An Elim In Exile -->
+	<!-- 2757  An Elim in Exile -->
 	<report_to id="2757" start_npc_id="790016" end_npc_id="279000"/>
-
-	<!-- Picking Crimson Irises -->
+	<!-- 2752  Picking Crimson Irises -->
 	<item_collecting id="2752" start_npc_id="278088"/>
-
-	<!-- [Coin] Putting the Past to Rest -->
+	<!-- 2771  [Coin] Putting the Past to Rest -->
 	<monster_hunt id="2771" start_npc_id="278104">
 		<monster_infos npc_id="254513" var_id="0" max_kill="20"/>
 		<monster_infos npc_id="254541" var_id="1" max_kill="13"/>
 	</monster_hunt>
-
-	<!-- Carry The Flame -->
+	<!-- 2758 Carry the Flame -->
 	<report_to id="2758" start_npc_id="279000" end_npc_id="790016" item_id="182205645"/>
-	
-	<!-- Rich Man, Ore Man -->
+	<!-- 2761 Rich Man, Ore Man -->
 	<item_collecting id="2761" start_npc_id="278105"/>
-
+	<!-- TODO: Quest Id: 2726  Staking a Claim -->
 	<!-- Dangerous Statue -->
 	<item_collecting id="2821" start_npc_id="266554"/>
-
-	<!-- Junjunbinerk's Goodwill -->
+	<!-- TODO: Quest Id: 2706  Defeat 5th Rank Elyos Soldiers -->
+	<!-- TODO: Quest Id: 1761  Sohonerk's Wish -->
+	<!-- 1762  Junjunbinerk's Goodwill -->
 	<item_collecting id="1762" start_npc_id="279018" end_npc_id="279014"/>
-
 	<!-- Ending The Ancients -->
 	<item_collecting id="1821" start_npc_id="266553"/>
-	
+	<!-- TODO: Quest Id: 1071  Speaking Balaur -->
+	<!-- TODO: Quest Id: 1726  Scouting the Lake -->
+	<!-- TODO: Quest Id: 1706  Defeat 5th Rank Asmodian Soldiers -->
+	<!-- TODO: Quest Id: 1707  Defeat 4th Rank Asmodian Soldiers -->
+	<!-- TODO: Quest Id: 1074  Fragment of Memory -->
+	<!-- TODO: Quest Id: 1711  [Spend Coin] Gold/Silver (Scout/Warrior) -->
+	<!-- TODO: Quest Id: 1712  [Spend Coin] Gold/Silver (Priest/Mage) -->
+	<!-- TODO: Quest Id: 1727  Recruits for Nezekan's Shield -->
 	<!-- Selling The Abyss -->
 	<item_collecting id="1764" start_npc_id="279013"/>
-	
 	<!-- Golem's Bright Marble -->
 	<item_collecting id="1772" start_npc_id="279019"/>
-	
 	<!-- Treasure Hunter Kuenunerk -->
 	<item_collecting id="1776" start_npc_id="279019"/>
-	
+	<!-- TODO: Quest Id: 2707  Defeat 4th Rank Elyos Soldiers -->
 	<!-- Making Our Own Weapons -->
 	<item_collecting id="1820" start_npc_id="271053"/>
-	
 	<!-- Medicinal Purposes -->
 	<item_collecting id="2820" start_npc_id="271054"/>
-	
-	<!-- Vindachinerk's Pupils -->
+	<!-- TODO: Quest Id: 2727  Transparent Motives -->
+	<!-- TODO: Quest Id: 2074  Looking for Leibo -->
+	<!-- TODO: Quest Id: 2711  [Spend Coin] Gold/Silver (Warrior/Scout) -->
+	<!-- TODO: Quest Id: 2712  [Spend Coin] Gold/Silver (Mage/Priest) -->
+	<!-- 2762  Vindachinerk's Pupils -->
 	<item_collecting id="2762" start_npc_id="279018" end_npc_id="279017"/>
-
-	<!-- Minonerk's Heart -->
+	<!-- 2763  Minonerk's Heart -->
 	<report_to id="2763" start_npc_id="279017" end_npc_id="279018" item_id="182205603"/>
-
-	<!-- Treasure Of The Ancient City -->
+	<!-- 2772  Treasure of the Ancient City -->
 	<item_collecting id="2772" start_npc_id="279019"/>
-
-	<!-- Seeking The Crystals -->
+	<!-- 2774  Seeking the Crystals -->
 	<item_collecting id="2774" start_npc_id="278103"/>
-
-	<!-- Collecting Ancient Swords -->
+	<!-- TODO: Quest Id: 2773  Signed, Sealed, Delivered -->
+	<!-- 1771  Collecting Ancient Swords -->
 	<item_collecting id="1771" start_npc_id="279019"/>
-
-	<!-- Minonerk's Alternative -->
+	<!-- 2708  Defeat 3rd Rank Elyos Soldiers -->
+	<monster_hunt id="2708" start_npc_id="278017">
+		<monster_infos npc_id="207724" var_id="0" max_kill="10"/>
+	</monster_hunt>
+	<!-- 1763  Minonerk's Alternative -->
 	<item_collecting id="1763" start_npc_id="279017" end_npc_id="279014"/>
-
-	<!-- Demolition Derby -->
+	<!-- 1773  Demolition Derby -->
 	<monster_hunt id="1773" start_npc_id="278604">
 		<monster_infos npc_id="254547" var_id="0" max_kill="20"/>
 	</monster_hunt>
-
-	<!-- The Drakes Keep Us Awake -->
+	<!-- 1774  The Drakes Keep Us Awake -->
 	<monster_hunt id="1774" start_npc_id="278605">
 		<monster_infos npc_id="254523" var_id="0" max_kill="15"/>
 		<monster_infos npc_id="254527" var_id="1" max_kill="20"/>
 	</monster_hunt>
-
-	<!-- Culling The Garcikhans -->
+	<!-- TODO: Quest Id: 1708  Defeat 3rd Rank Asmodian Soldiers -->
+	<!-- TODO: Quest Id: 1709  Defeat 2nd Rank Asmodian Soldiers -->
+	<!-- 1775  Culling the Garcikhans -->
 	<monster_hunt id="1775" start_npc_id="278605">
 		<monster_infos npc_id="254535" var_id="0" max_kill="5"/>
 		<monster_infos npc_id="254539" var_id="1" max_kill="5"/>
 	</monster_hunt>
-
 	<!-- Legend Of the Sword's Edge -->
 	<monster_hunt id="1765" start_npc_id="278608">
 		<monster_infos npc_id="256647" var_id="0" max_kill="10"/>
@@ -305,478 +285,437 @@
 		<monster_infos npc_id="256650" var_id="2" max_kill="2"/>
 		<monster_infos npc_id="256652" var_id="3" max_kill="2"/>
 	</monster_hunt>
-
 	<!-- Basrash Must Die -->
 	<monster_hunt id="1766" start_npc_id="278608">
 		<monster_infos npc_id="256674" var_id="0" max_kill="1"/>
 	</monster_hunt>
-
-	<!-- Smashing The Stones -->
+	<!-- TODO: Quest Id: 2709  Defeat 2nd Rank Elyos Soldiers -->
+	<!-- 2775  Smashing the Stones -->
 	<item_collecting id="2775" start_npc_id="278103"/>
-
-	<!-- Delivering Research Results -->
+	<!-- 2776 Delivering Research Results -->
 	<report_to id="2776" start_npc_id="278103" end_npc_id="278039"/>
-
-	<!-- Avenging The Family -->
+	<!-- 2764 Avenging The Family -->
 	<monster_hunt id="2764" start_npc_id="278107">
 		<monster_infos npc_id="256647" var_id="0" max_kill="7"/>
 		<monster_infos npc_id="256636" var_id="1" max_kill="3"/>
 		<monster_infos npc_id="256650" var_id="2" max_kill="3"/>
 		<monster_infos npc_id="256652" var_id="3" max_kill="3"/>
 	</monster_hunt>
-
-	<!-- Fragments For A Necklace -->
+	<!-- 2765  Fragments for a Necklace -->
 	<item_collecting id="2765" start_npc_id="278108"/>
-
-	<!-- Buckles Under Pressure -->
+	<!-- 2766  Buckles Under Pressure -->
 	<item_collecting id="2766" start_npc_id="278108"/>
-	
-	<!-- Aid The Aether Collection -->
+	<!-- TODO: Quest Id: 2710  Defeat 1st Rank Elyos Soldiers -->
+	<!-- 1764 Aid The Aether Collection -->
 	<item_collecting id="1764" start_npc_id="279013"/>
-
-	<!-- Clean The Nest -->
+	<!-- TODO: Quest Id: 1777  Call of the Governor -->
+	<!-- TODO: Quest Id: 1710  Defeat 1st Rank Asmodian Soldiers -->
+	<!-- TODO: Quest Id: 1845  Opening Doors -->
+	<!-- 1837  Clean the Nest -->
 	<monster_hunt id="1837" start_npc_id="264797">
 		<monster_infos npc_id="214733" var_id="0" max_kill="63"/>
 	</monster_hunt>
 
 	<!-- Left Wing Attack -->
 	<monster_hunt start_npc_id="263295" id="1838">
-    	<monster_infos var_id="0" npc_id="214741" max_kill="40"/>
-        <monster_infos var_id="0" npc_id="214740" max_kill="40"/>
-        <monster_infos var_id="0" npc_id="214826" max_kill="40"/>
-        <monster_infos var_id="0" npc_id="214743" max_kill="40"/>
-        <monster_infos var_id="0" npc_id="214824" max_kill="40"/>
-    	<monster_infos var_id="0" npc_id="214825" max_kill="40"/>
-    	<monster_infos var_id="0" npc_id="214742" max_kill="40"/>
-    	<monster_infos var_id="1" npc_id="215424" max_kill="1"/>
+		<monster_infos var_id="0" npc_id="214741" max_kill="40"/>
+		<monster_infos var_id="0" npc_id="214740" max_kill="40"/>
+		<monster_infos var_id="0" npc_id="214826" max_kill="40"/>
+		<monster_infos var_id="0" npc_id="214743" max_kill="40"/>
+		<monster_infos var_id="0" npc_id="214824" max_kill="40"/>
+		<monster_infos var_id="0" npc_id="214825" max_kill="40"/>
+		<monster_infos var_id="0" npc_id="214742" max_kill="40"/>
+		<monster_infos var_id="1" npc_id="215424" max_kill="1"/>
 	</monster_hunt>
-
-	<!-- A Deal With Silvius -->
+	<!-- 1839 A Deal with Silvius -->
 	<monster_hunt id="1839" start_npc_id="263597">
 		<monster_infos npc_id="214746" var_id="0" max_kill="63"/>
 	</monster_hunt>
-
+	<!-- TODO: Quest Id: 2846  The Red Matter -->
 	<!-- Balaur In the Sulfur Tree Nest -->
 	<monster_hunt id="2838" start_npc_id="264798">
 		<monster_infos npc_id="214733" var_id="0" max_kill="63"/>
 	</monster_hunt>
-
 	<!-- Threat Of The Left Wing Chamber -->
 	<monster_hunt id="2839" start_npc_id="263296">
 		<monster_infos npc_id="214740" var_id="0" max_kill="63"/>
 		<monster_infos npc_id="215424" var_id="1" max_kill="1"/>
 	</monster_hunt>
-
 	<!-- Right Wing Raid -->
 	<monster_hunt id="2840" start_npc_id="263598">
 		<monster_infos npc_id="214746" var_id="0" max_kill="63"/>
 	</monster_hunt>
-
 	<!-- Vindachinerk's Offer -->
 	<item_collecting id="2833" start_npc_id="279016"/>
-
+	<!-- TODO: Quest Id: 2713  [Spend Coin] Silver (Warrior/Scout) -->
+	<!-- TODO: Quest Id: 2714  [Spend Coin] Silver (Mage/Priest) -->
 	<!-- Vindachinerk's Demand -->
-	<item_collecting id="1796" start_npc_id="279016"/>
-	
+	<item_collecting id="1796" start_npc_id="279016"/>	
 	<!-- Vindachinerk's Scroll -->
 	<report_to id="1797" start_npc_id="279016" end_npc_id="798012" item_id="182202166"/>
-
-	<!-- Fire-Resistant Weapons -->
+	<!-- TODO: Quest Id: 1799  Pupil's Diary -->
+	<!-- TODO: Quest Id: 1800  Jaiorunerk's Tombstone -->
+	<!-- TODO: Quest Id: 1713  [Spend Coin] Silver (Scout/Warrior 36) -->
+	<!-- TODO: Quest Id: 1714  [Spend Coin] Silver (Priest/Mage 36) -->
+	<!-- TODO: Quest Id: 1075  New Wings -->
+	<!-- TODO: Quest Id: 1715  [Coin] Dousing the Flame Tribe -->
+	<!-- 1822  Fire-Resistant Weapons -->
 	<item_collecting id="1822" start_npc_id="268051"/>
-
-	<!-- Our Weapons Are Melting -->
+	<!-- 1823  Our Weapons Are Melting -->
 	<item_collecting id="1823" start_npc_id="269251"/>
-
-	<!-- Hunting Ravenous Beasts -->
+	<!-- 1824  Hunting Ravenous Beasts -->
 	<item_collecting id="1824" start_npc_id="270151"/>
-
-	<!-- Drake Raiders -->
+	<!-- 1791  Drake Raiders -->
 	<monster_hunt start_npc_id="278615" id="1791">
-    	<monster_infos var_id="0" npc_id="255702" max_kill="9"/>
-    	<monster_infos var_id="1" npc_id="256200" max_kill="9"/>
+		<monster_infos var_id="0" npc_id="255702" max_kill="9"/>
+		<monster_infos var_id="1" npc_id="256200" max_kill="9"/>
 	</monster_hunt>
-
-	<!-- Deformed Weapon -->
+	<!-- TODO: Quest Id: 2715  [Coin] Eliminating the Flame Tribe -->
+	<!-- TODO: Quest Id: 2075  Putting on the Speed -->
+	<!-- 2822  Deformed Weapon -->
 	<item_collecting id="2822" start_npc_id="268052"/>
-
-	<!-- Ravenous Hearts -->
+	<!-- 2823 Ravenous Hearts -->
 	<item_collecting id="2823" start_npc_id="269252"/>
-
-	<!-- Protect The Weapons -->
+	<!-- 2824 Protect The Weapons -->
 	<item_collecting id="2824" start_npc_id="270152"/>
-
-	<!-- Fireproof Swords -->
+	<!-- 2791  Fireproof Swords -->
 	<item_collecting id="2791" start_npc_id="278115"/>
-
-	<!-- Dredgion Salvage -->
+	<!-- 2793  Dredgion Salvage -->
 	<item_collecting id="2793" start_npc_id="278117"/>
-
-	<!-- Crystal Recovery -->
+	<!-- 2796  Crystal Recovery -->
 	<item_collecting id="2796" start_npc_id="279028" action_item_id="700307"/>
-
+	<!-- TODO: Quest Id: 2716  [Coin] Klaw of the Nebula of Blood -->
+	<!-- TODO: Quest Id: 2736  [Alliance] Base Gatekeepers -->
 	<!-- Klaws For Concern -->
 	<item_collecting id="2781" start_npc_id="278110"/>
-
 	<!-- Part Of The Crashed Dredgion -->
 	<item_collecting id="1793" start_npc_id="278617"/>
-
+	<!-- TODO: Quest Id: 1716  [Coin] Termination Klaws -->
+	<!-- TODO: Quest Id: 1736  [Alliance] Defeat Lower Gatekeepers -->
 	<!-- Klaws For Panic -->
 	<item_collecting id="1781" start_npc_id="278610"/>
-
 	<!-- End The Corruption -->
 	<monster_hunt start_npc_id="278611" id="1782">
     	<monster_infos var_id="0" npc_id="255160" max_kill="10"/>
 	</monster_hunt>
-
 	<!-- The Best Defense Is A Good Offense -->
     <item_collecting id="1784" start_npc_id="268051"/>
-
 	<!-- Clearing Out The Asmodian Landing -->
 	<item_collecting id="1778" start_npc_id="266553"/>
-
 	<!-- Tenacious Archon -->
 	<item_collecting id="1768" start_npc_id="271053"/>
-
 	<!-- Threat Of The Thunder Shout Legion -->
 	<item_collecting id="1748" start_npc_id="263568"/>
-
 	<!-- [Group] Decimate The East Garrison -->
 	<item_collecting id="1749" start_npc_id="278600"/>
-
-	<!-- Destroying The Guard Tower -->
+	<!-- 1745  Destroying the Guard Tower -->
 	<monster_hunt start_npc_id="263266" id="1745">
-    	<monster_infos var_id="0" npc_id="275116" max_kill="1"/>
+		<monster_infos var_id="0" npc_id="275116" max_kill="1"/>
 	</monster_hunt>
-
-	<!-- [Group] Decimate The West Garrison -->
+	<!-- 1746  [Group] Decimate the West Garrison -->
 	<item_collecting id="1746" start_npc_id="278595"/>
-
-	<!-- Destroying The Red Hasia Legion -->
+	<!-- 1758  Destroying the Red Hasia Legion -->
 	<item_collecting id="1758" start_npc_id="264768"/>
-
-	<!-- [Group] Decimate The Sulfur Garrison -->
+	<!-- 1759  [Group] Decimate the Sulfur Garrison -->
 	<item_collecting id="1759" start_npc_id="278590"/>
-
-	<!-- Discerning Their Intentions -->
+	<!-- TODO: Quest Id: 1737  [Alliance] Defeat Lower Generals -->
+	<!-- TODO: Quest Id: 1718  Trading Down -->
+	<!-- TODO: Quest Id: 1719  [Group] Confront Asmodian Officers -->
+	<!-- TODO: Quest Id: 1076  Fragment of Memory 2 -->
+	<!-- 1794  Discerning Their Intentions -->
 	<item_collecting id="1794" start_npc_id="270151"/>
-
-	<!-- Vengeance For Baucis -->
+	<!-- TODO: Quest Id: 1798  Jakurerk's Shot at the Big Time -->
+	<!-- 1792  Vengeance for Baucis -->
 	<monster_hunt start_npc_id="278616" id="1792">
-    	<monster_infos var_id="0" npc_id="256177" max_kill="5"/>
-	    <monster_infos var_id="1" npc_id="256181" max_kill="5"/>
-	    <monster_infos var_id="2" npc_id="256185" max_kill="5"/>
+		<monster_infos var_id="0" npc_id="256177" max_kill="5"/>
+		<monster_infos var_id="1" npc_id="256181" max_kill="5"/>
+		<monster_infos var_id="2" npc_id="256185" max_kill="5"/>
 	</monster_hunt>
-
-	<!-- Protecting The Landing -->
+	<!-- 1786  Protecting the Landing -->
 	<item_collecting id="1786" start_npc_id="278620"/>
-
-	<!-- Preparing For Inspection -->
+	<!-- 1787  Preparing for Inspection -->
 	<monster_hunt start_npc_id="278621" id="1787">
-    	<monster_infos var_id="0" npc_id="215196" max_kill="7"/>
+		<monster_infos var_id="0" npc_id="215196" max_kill="7"/>
 		<monster_infos var_id="1" npc_id="215197" max_kill="5"/>
 		<monster_infos var_id="2" npc_id="255614" max_kill="3"/>
 	</monster_hunt>
-
-	<!-- Seizing the Asmodian Supplies -->
+	<!-- 1789  Seizing the Asmodian Supplies -->
 	<item_collecting id="1789" start_npc_id="269251"/>
-
-	<!-- [Group] Capture Siel East Fortress -->
+	<!-- 1801  [Group] Capture Siel East Fortress -->
 	<item_collecting id="1801" start_npc_id="278603"/>
-
-	<!-- [Group] Assault Siel East Elites -->
+	<!-- 1802  [Group] Assault Siel East Elites -->
 	<item_collecting id="1802" start_npc_id="278599"/>
-
-	<!-- [Group] Capture Siel West Fortress -->
+	<!-- 1803  [Group] Capture Siel West Fortress -->
 	<item_collecting id="1803" start_npc_id="278598"/>
-
-	<!-- [Group] Assault Siel West Elites -->
+	<!-- 1804  [Group] Assault Siel West Elites -->
 	<item_collecting id="1804" start_npc_id="278594"/>
-
-	<!-- [Group] Capture Sulfur Fortress -->
+	<!-- 1805  [Group] Capture Sulfur Fortress -->
 	<item_collecting id="1805" start_npc_id="278590"/>
-
-	<!-- [Group] Assault Sulfur Elites -->
+	<!-- 1806  [Group] Assault Sulfur Elites -->
 	<item_collecting id="1806" start_npc_id="278588"/>
-	
-	<!-- It's Always Moinn, Moinn, Moinn -->
+	<!-- TODO: Quest Id: 1827  [Craft] Tigraki Weaponsmithing -->
+	<!-- TODO: Quest Id: 1828  [Craft] Tigraki Armorsmithing -->
+	<!-- TODO: Quest Id: 1829  [Craft] Tigraki Handicrafting -->
+	<!-- TODO: Quest Id: 1830  [Craft] Tigraki Cooking -->
+	<!-- TODO: Quest Id: 1831  [Craft] Tigraki Alchemy -->
+	<!-- TODO: Quest Id: 1832  [Craft] Tigraki Tailoring -->
+	<!-- TODO: Quest Id: 1833  [Relic Reward] Ancient Icon -->
+	<!-- TODO: Quest Id: 1834  [Relic Reward] Ancient Seal -->
+	<!-- TODO: Quest Id: 1835  [Relic Reward] Ancient Goblet -->
+	<!-- TODO: Quest Id: 1836  [Relic Reward] Ancient Crown -->
+	<!-- TODO: Quest Id: 1849  [Relic Reward] Ancient Goblet_Elyoses and Asmodians -->
+	<!-- TODO: Quest Id: 1850  [Relic Reward] Ancient Crown_Elyoses and Asmodians -->
+	<!-- 2782  It's always Moinn, Moinn, Moinn -->
 	<monster_hunt start_npc_id="278111" id="2782">
-    	<monster_infos var_id="0" npc_id="213598" max_kill="10"/>
+		<monster_infos var_id="0" npc_id="213598" max_kill="10"/>
 	</monster_hunt>
-
-	<!-- Giant's Core Weapon -->
+	<!-- 2783  Giant's Core Weapon -->
 	<item_collecting id="2783" start_npc_id="278109" end_npc_id="204170"/>
-
-	<!-- Wipe Out The Guardians -->
+	<!-- 2784  Wipe out the Guardians -->
 	<item_collecting id="2784" start_npc_id="268052"/>
-
-	<!-- Bloody Flame Spirit -->
+	<!-- 2786  Bloody Flame Spirit -->
 	<monster_hunt start_npc_id="278121" id="2786">
-    	<monster_infos var_id="0" npc_id="255664" max_kill="10"/>
+		<monster_infos var_id="0" npc_id="255664" max_kill="10"/>
 	</monster_hunt>
-
-	<!-- Murderous Naga And Nagarant -->
+	<!-- 2787  Murderous Naga and Nagarant -->
 	<monster_hunt start_npc_id="278120" id="2787">
-    	<monster_infos var_id="0" npc_id="215196" max_kill="10"/>
-	    <monster_infos var_id="1" npc_id="255614" max_kill="5"/>
+		<monster_infos var_id="0" npc_id="215196" max_kill="10"/>
+		<monster_infos var_id="1" npc_id="255614" max_kill="5"/>
 	</monster_hunt>
-
-	<!-- Drake Leather -->
+	<!-- 2788  Drake Leather -->
 	<item_collecting id="2788" start_npc_id="279028"/>
-
-	<!-- Cloak And Dagger -->
+	<!-- 2789  Cloak and Dagger -->
 	<item_collecting id="2789" start_npc_id="269252"/>
-
-	<!-- Hair Apparent -->
+	<!-- 2779  Hair Apparent -->
 	<item_collecting id="2779" start_npc_id="266554"/>
-
-	<!-- Thwart The Elyos Sabotage -->
+	<!-- 2769  Thwart the Elyos Sabotage -->
 	<monster_hunt start_npc_id="271054" id="2769">
-    	<monster_infos var_id="0" npc_id="278606" max_kill="1"/>
+		<monster_infos var_id="0" npc_id="278606" max_kill="1"/>
 		<monster_infos var_id="1" npc_id="278607" max_kill="1"/>
 		<monster_infos var_id="2" npc_id="278608" max_kill="1"/>
 		<monster_infos var_id="3" npc_id="279013" max_kill="1"/>
 		<monster_infos var_id="4" npc_id="279014" max_kill="1"/>
 	</monster_hunt>
-
-	<!-- Tenacious Guardian -->
+	<!-- 2759  Tenacious Guardian -->
 	<monster_hunt start_npc_id="264769" id="2759">
-    	<monster_infos var_id="0" npc_id="278588" max_kill="1"/>
+		<monster_infos var_id="0" npc_id="278588" max_kill="1"/>
 		<monster_infos var_id="0" npc_id="278589" max_kill="1"/>
-		<monster_infos var_id="1" npc_id="278590" max_kill="1"/>
+		<monster_infos var_id="0" npc_id="278590" max_kill="1"/>
 	</monster_hunt>
-
-	<!-- [Group] Recovering Souvenirs -->
+	<!-- 2760  [Group] Recovering Souvenirs -->
 	<item_collecting id="2760" start_npc_id="278086"/>
-
-	<!-- [Alliance] Turning The Tide -->
+	<!-- [Alliance] Turning the Tide -->
 	<monster_hunt start_npc_id="278001" id="2737">
-    	<monster_infos var_id="0" npc_id="263303" max_kill="7"/>
+		<monster_infos var_id="0" npc_id="263303" max_kill="7"/>
 	</monster_hunt>
-
 	<!-- Decimating The Gray Wind Legion -->
 	<monster_hunt start_npc_id="263569" id="2748">
-    	<monster_infos var_id="0" npc_id="278599" max_kill="1"/>
+		<monster_infos var_id="0" npc_id="278599" max_kill="1"/>
 		<monster_infos var_id="1" npc_id="278600" max_kill="1"/>
 		<monster_infos var_id="2" npc_id="278601" max_kill="1"/>
 		<monster_infos var_id="3" npc_id="278602" max_kill="1"/>
 		<monster_infos var_id="4" npc_id="278603" max_kill="1"/>
 	</monster_hunt>
-
-	<!-- Have Fun Storming The Tower -->
+	<!-- TODO: Quest Id: 2749  [Group] Defeat the Western Garrison -->
+	<!-- 2745  Have Fun Storming the Tower -->
 	<monster_hunt start_npc_id="263267" id="2745">
-    	<monster_infos var_id="0" npc_id="275112" max_kill="1"/>
+		<monster_infos var_id="0" npc_id="275112" max_kill="1"/>
 	</monster_hunt>
-
-	<!-- [Group] Defeat The Eastern Garrison -->
+	<!-- 2746  [Group] Defeat the Eastern Garrison -->
 	<item_collecting id="2746" start_npc_id="278097"/>
-	
-	<!-- Balaur Bones -->
+	<!-- TODO: Quest Id: 2718  Trading Down -->
+	<!-- TODO: Quest Id: 2719  [Group] Challenge Elyos Officers -->
+	<!-- 2797  Balaur Bones -->
 	<item_collecting id="2797" start_npc_id="279028" action_item_id="700308"/>
-
+	<!-- TODO: Quest Id: 2798  Sign on the Dotted Line -->
 	<!-- [Group] Seize Siel East Fortress -->
 	<item_collecting id="2801" start_npc_id="278101"/>
-
 	<!-- [Group] Attack Siel East Elites -->
 	<item_collecting id="2802" start_npc_id="278097"/>
-
 	<!-- [Group] Seize Siel West Fortress -->
 	<item_collecting id="2803" start_npc_id="278096"/>
-
 	<!-- [Group] Attack Siel West Elites -->
 	<item_collecting id="2804" start_npc_id="278092"/>
-
 	<!-- [Group] Seize Sulfur Fortress -->
 	<item_collecting id="2805" start_npc_id="278088"/>
-
 	<!-- [Group] Attack Sulfur Elites -->
 	<item_collecting id="2806" start_npc_id="278086"/>
-
 	<!-- Crestfallen In Defeat -->
 	<item_collecting id="2794" start_npc_id="270152"/>
-
-	<!-- Something Unfamiliar -->
+	<!-- 2792  Something Unfamiliar -->
 	<monster_hunt start_npc_id="278116" id="2792">
-    	<monster_infos var_id="0" npc_id="256177" max_kill="3"/>
+		<monster_infos var_id="0" npc_id="256177" max_kill="3"/>
 		<monster_infos var_id="1" npc_id="256181" max_kill="3"/>
 		<monster_infos var_id="2" npc_id="256185" max_kill="3"/>
 	</monster_hunt>
-
+	<!-- TODO: Quest Id: 2834  [Relic Reward] Ancient Icon -->
+	<!-- TODO: Quest Id: 2835  [Relic Reward] Ancient Seal -->
+	<!-- TODO: Quest Id: 2836  [Relic Reward] Ancient Goblet -->
+	<!-- TODO: Quest Id: 2837  [Relic Reward] Ancient Crown -->
+	<!-- TODO: Quest Id: 2827  [Craft] Tigraki Weaponsmithing -->
+	<!-- TODO: Quest Id: 2828  [Craft] Tigraki Armorsmithing -->
+	<!-- TODO: Quest Id: 2829  [Craft] Tigraki Handicrafting -->
+	<!-- TODO: Quest Id: 2830  [Craft] Tigraki Cooking -->
+	<!-- TODO: Quest Id: 2831  [Craft] Tigraki Alchemy -->
+	<!-- TODO: Quest Id: 2832  [Craft] Tigraki Tailoring -->
 	<!-- [Group] For The Black Cloud Traders -->
 	<monster_hunt start_npc_id="279010" id="3205">
     	<monster_infos var_id="0" npc_id="215049" max_kill="15"/>
 	</monster_hunt>
-
+	<!-- TODO: Quest Id: 4205  [Group] Smack the Shulack -->
+	<!-- TODO: Quest Id: 2847  It's All Balaur to Me -->
+	<!-- TODO: Quest Id: 2848  Whispering Stigma -->
 	<!-- The Balaur Enigmas -->
 	<item_collecting id="2849" start_npc_id="278006"/>
-
 	<!-- Cleansing The Asteria Chamber -->
 	<monster_hunt start_npc_id="271068" id="2841">
     	<monster_infos var_id="0" npc_id="215441" max_kill="44"/>
 	</monster_hunt>
-
 	<!-- Balaur In The Underground Fortress -->
 	<monster_hunt start_npc_id="266568" id="2842">
     	<monster_infos var_id="0" npc_id="215447" max_kill="39"/>
 	</monster_hunt>
-
 	<!-- Operation: Annihilate -->
 	<monster_hunt start_npc_id="268081" id="2843">
     	<monster_infos var_id="0" npc_id="215122" max_kill="80"/>
 		<monster_infos var_id="1" npc_id="215134" max_kill="1"/>
 	</monster_hunt>
-	
 	<!-- Simple But Difficult -->
 	<monster_hunt start_npc_id="269266" id="2844">
     	<monster_infos var_id="0" npc_id="215166" max_kill="80"/>
 		<monster_infos var_id="1" npc_id="215177" max_kill="1"/>
 	</monster_hunt>
-
 	<!-- Take Out The Trash -->
 	<monster_hunt start_npc_id="215220" id="2845">
     	<monster_infos var_id="0" npc_id="215208" max_kill="80"/>
 		<monster_infos var_id="1" npc_id="215220" max_kill="1"/>
 	</monster_hunt>
-	
+	<!-- TODO: Quest Id: 2720  [Group] Challenge Elyos Generals -->
+	<!-- TODO: Quest Id: 2076  The Shadow Summons -->
+	<!-- TODO: Quest Id: 1846  Paper Trail -->
+	<!-- TODO: Quest Id: 1847  A Strange Soul -->
 	<!-- Stones Of Time And Space -->
 	<item_collecting id="1848" start_npc_id="278506"/>
-
 	<!-- Enemy In The Abyss -->
 	<monster_hunt start_npc_id="271067" id="1840">
     	<monster_infos var_id="0" npc_id="214754" max_kill="44"/>
 	</monster_hunt>
-	
-	<!-- [Group] Inspection Concluded -->
-	<monster_hunt start_npc_id="279045" id="3714">
-    	<monster_infos var_id="0" npc_id="215390" max_kill="1"/>
-	</monster_hunt>
-
-	<!-- [Group] Steal The Surkanate -->
-	<item_collecting id="3715" start_npc_id="279045"/>
-
-	<!-- Core Competency -->
-	<item_collecting id="2825" start_npc_id="260236"/>
-
-	<!-- Muelina's Forgetfulness -->
-	<item_collecting id="2826" start_npc_id="260236"/>
-
-	<!-- [Group] Attack Asteria Elites -->
-	<item_collecting id="2808" start_npc_id="278107"/>
-
-	<!-- [Group] Seize Roah Fortress -->
-	<item_collecting id="2809" start_npc_id="278104"/>
-
-	<!-- [Group] Attack Roah Elites -->
-	<item_collecting id="2810" start_npc_id="278102"/>
-
-	<!-- [Group] Seize Krotan Refuge -->
-	<item_collecting id="2811" start_npc_id="278113"/>
-
-	<!-- [Group] Attack Krotan Elites -->
-	<item_collecting id="2812" start_npc_id="278109"/>
-
-	<!-- [Group] Seize Kysis Fortress -->
-	<item_collecting id="2813" start_npc_id="278123"/>
-
-	<!-- [Group] Attack Kysis Elites -->
-	<item_collecting id="2814" start_npc_id="278119"/>
-
-	<!-- [Group] Seize Miren Fortress -->
-	<item_collecting id="2815" start_npc_id="278118"/>
-
-	<!-- [Group] Attack Miren Elites -->
-	<item_collecting id="2816" start_npc_id="278114"/>
-	
-	<!-- [Group] Assault Asteria Elites -->
-	<item_collecting id="1808" start_npc_id="278606"/>
-
-	<!-- [Group] Capture Roah Fortress -->
-	<item_collecting id="1809" start_npc_id="278605"/>
-
-	<!-- [Group] Assault Roah Elites -->
-	<item_collecting id="1810" start_npc_id="278604"/>
-
-	<!-- [Group] Capture Krotan Refuge -->
-	<item_collecting id="1811" start_npc_id="278609"/>
-
-	<!-- [Group] Assault Krotan Elites -->
-	<item_collecting id="1812" start_npc_id="278613"/>
-
-	<!-- [Group] Capture Kysis Fortress -->
-	<item_collecting id="1813" start_npc_id="278623"/>
-
-	<!-- [Group] Assault Kysis Elites -->
-	<item_collecting id="1814" start_npc_id="278619"/>
-
-	<!-- [Group] Capture Miren Fortress -->
-	<item_collecting id="1815" start_npc_id="278618"/>
-
-	<!-- Group] Assault Miren Elites -->
-	<item_collecting id="1816" start_npc_id="278614"/>
-	
-	<!-- [Group] Door Into Darkness -->
-	<item_collecting id="3705" start_npc_id="278536" end_npc_id="204656"/>
-
-	<!-- [Group] I Need Materials! -->
-	<item_collecting id="3706" start_npc_id="279060"/>
-	
-	<!-- [Group] Essential Material -->
-	<item_collecting id="4705" start_npc_id="279027" end_npc_id="204837"/>
-
-	<!-- [Group] Artifact Activation -->
-    <item_collecting id="4706" start_npc_id="279060"/>
-	
-	<!-- Four Great Protectors -->
-	<item_collecting id="1825" start_npc_id="260235"/>
-	
-	<!-- [Group] General Death -->
-	<monster_hunt start_npc_id="278016" id="4702">
-        <monster_infos var_id="0" npc_id="256694" max_kill="1"/>
-		<monster_infos var_id="1" npc_id="256693" max_kill="1"/>
-    </monster_hunt>
-
-	<!-- Plus Two More Great Protectors -->
-	<item_collecting id="1826" start_npc_id="260235"/>
-	
 	<!-- The Balaur Below -->
 	<monster_hunt start_npc_id="266567" id="1841">
     	<monster_infos var_id="0" npc_id="215447" max_kill="39"/>
 	</monster_hunt>
-
 	<!-- A New Battle -->
 	<monster_hunt start_npc_id="268080" id="1842">
     	<monster_infos var_id="0" npc_id="215122" max_kill="80"/>
 		<monster_infos var_id="1" npc_id="215134" max_kill="1"/>
 	</monster_hunt>
-
 	<!-- Pain In The Fortress -->
 	<monster_hunt start_npc_id="269265" id="1843">
     	<monster_infos var_id="0" npc_id="215166" max_kill="80"/>
 		<monster_infos var_id="1" npc_id="215177" max_kill="1"/>
 	</monster_hunt>
-
 	<!-- Target: Balaur -->
 	<monster_hunt start_npc_id="270165" id="1844">
     	<monster_infos var_id="0" npc_id="215208" max_kill="80"/>
 		<monster_infos var_id="1" npc_id="215220" max_kill="1"/>
 	</monster_hunt>
-	
+	<!-- TODO: Quest Id: 1077  Fragment of Memory 3 -->
+	<!-- TODO: Quest Id: 1720  [Group] Confront Asmodian Generals -->
+	<!-- TODO: Quest Id: 1738  [Alliance] Defeat Upper Gatekeepers -->
+	<!-- TODO: Quest Id: 2738  [Alliance] Top Gatekeepers -->
+	<!-- TODO: Quest Id: 2739  [Alliance] Reshanta's Hero -->
+	<!-- TODO: Quest Id: 2770  Preemptive Strike -->
+	<!-- TODO: Quest Id: 2780  [Group] Defeat the Roah Garrison -->
+	<!-- TODO: Quest Id: 2790  [Group] Defeat the Kysis Garrison -->
+	<!-- TODO: Quest Id: 2785  [Group] Defeat the Krotan Garrison -->
+	<!-- 4705  [Group] Essential Material -->
+	<item_collecting id="4705" start_npc_id="279027" end_npc_id="204837"/>
+	<!-- 4706  [Group] Artifact Activation -->
+	<item_collecting id="4706" start_npc_id="279060"/>
+	<!-- TODO: Quest Id: 4711  [Group] The Dredgion Captain -->
+	<!-- TODO: Quest Id: 4712  [Group] Escape From the Dredgion! -->
 	<!-- Chaos On The Dredgion -->
 	<monster_hunt start_npc_id="279042" id="4713">
-    	<monster_infos var_id="0" npc_id="214813" max_kill="20"/>
+		<monster_infos var_id="0" npc_id="214813" max_kill="20"/>
 		<monster_infos var_id="1" npc_id="700497" max_kill="1"/>
 	</monster_hunt>
-
 	<!-- [Group] Stalk The Auditor -->
 	<monster_hunt start_npc_id="279042" id="4714">
-    	<monster_infos var_id="0" npc_id="215390" max_kill="1"/>
+		<monster_infos var_id="0" npc_id="215390" max_kill="1"/>
 	</monster_hunt>
-
 	<!-- [Group] Capturing The Surkanate -->
 	<item_collecting id="4715" start_npc_id="279042"/>
-	
+	<!-- 3705  [Group] Door Into Darkness -->
+	<item_collecting id="3705" start_npc_id="278536" end_npc_id="204656"/>
+	<!-- 3706  [Group] I Need Materials! -->
+	<item_collecting id="3706" start_npc_id="279060"/>
+	<!-- TODO: Quest Id: 3711  [Group] To Kill a Captain -->
+	<!-- TODO: Quest Id: 3712  [Group] Rescue From the Dredgion -->
 	<!-- [Group] Heart Of The Dredgion -->
 	<monster_hunt start_npc_id="279045" id="3713">
-    	<monster_infos var_id="0" npc_id="214813" max_kill="20"/>
+		<monster_infos var_id="0" npc_id="214813" max_kill="20"/>
 		<monster_infos var_id="1" npc_id="700497" max_kill="1"/>
 	</monster_hunt>
-</quest_scripts>
+	<!-- 3714  [Group] Inspection Concluded -->
+	<monster_hunt start_npc_id="279045" id="3714">
+		<monster_infos var_id="0" npc_id="215390" max_kill="1"/>
+	</monster_hunt>
+	<!-- 3715  [Group] Steal the Surkanate -->
+	<item_collecting id="3715" start_npc_id="279045"/>
+	<!-- TODO: Quest Id: 2795  [Group] Defeat the Miren Garrison -->
+	<!-- 2825  Core Competency -->
+	<item_collecting id="2825" start_npc_id="260236"/>
+	<!-- 2826  Muelina's Forgetfulness -->
+	<item_collecting id="2826" start_npc_id="260236"/>
+	<!-- 2808  [Group] Attack Asteria Elites -->
+	<item_collecting id="2808" start_npc_id="278107"/>
+	<!-- 2809  [Group] Seize Roah Fortress -->
+	<item_collecting id="2809" start_npc_id="278104"/>
+	<!-- 2810  [Group] Attack Roah Elites -->
+	<item_collecting id="2810" start_npc_id="278102"/>
+	<!-- 2811  [Group] Seize Krotan Refuge -->
+	<item_collecting id="2811" start_npc_id="278113"/>
+	<!-- 2812  [Group] Attack Krotan Elites -->
+	<item_collecting id="2812" start_npc_id="278109"/>
+	<!-- 2813  [Group] Seize Kysis Fortress -->
+	<item_collecting id="2813" start_npc_id="278123"/>
+	<!-- 2814  [Group] Attack Kysis Elites -->
+	<item_collecting id="2814" start_npc_id="278119"/>
+	<!-- 2815  [Group] Seize Miren Fortress -->
+	<item_collecting id="2815" start_npc_id="278118"/>
+	<!-- 2816  [Group] Attack Miren Elites -->
+	<item_collecting id="2816" start_npc_id="278114"/>
+	<!-- TODO: Quest Id: 1739  [Alliance] Defeat Upper Generals -->
+	<!-- TODO: Quest Id: 1769  [Group] Decimate the Asteria Garrison -->
+	<!-- TODO: Quest Id: 1779  [Group] Decimate the Roah Garrison -->
+	<!-- TODO: Quest Id: 1785  [Group] Decimate the Krotan Garrison -->
+	<!-- 1808  [Group] Assault Asteria Elites -->
+	<item_collecting id="1808" start_npc_id="278606"/>
+	<!-- 1809  [Group] Capture Roah Fortress -->
+	<item_collecting id="1809" start_npc_id="278605"/>
+	<!-- 1810  [Group] Assault Roah Elites -->
+	<item_collecting id="1810" start_npc_id="278604"/>
+	<!-- 1811  [Group] Capture Krotan Refuge -->
+	<item_collecting id="1811" start_npc_id="278609"/>
+	<!-- 1812  [Group] Assault Krotan Elites -->
+	<item_collecting id="1812" start_npc_id="278613"/>
+	<!-- 1813  [Group] Capture Kysis Fortress -->
+	<item_collecting id="1813" start_npc_id="278623"/>
+	<!-- 1814  [Group] Assault Kysis Elites -->
+	<item_collecting id="1814" start_npc_id="278619"/>
+	<!-- 1815  [Group] Capture Miren Fortress -->
+	<item_collecting id="1815" start_npc_id="278618"/>
+	<!-- 1816  [Group] Assault Miren Elites -->
+	<item_collecting id="1816" start_npc_id="278614"/>
+	<!-- TODO: Quest Id: 1790  [Group] Decimate the Kysis Garrison -->
+	<!-- TODO: Quest Id: 1795  [Group] Decimate the Miren Garrison -->
+	<!-- 1825  Four Great Protectors -->
+	<item_collecting id="1825" start_npc_id="260235"/>
+	<!-- 4702 [Group] General Death -->
+	<monster_hunt start_npc_id="278016" id="4702">
+		<monster_infos var_id="0" npc_id="256694" max_kill="1"/>
+		<monster_infos var_id="1" npc_id="256693" max_kill="1"/>
+	</monster_hunt>
+	<!-- 1826 Plus Two More Great Protectors -->
+	<item_collecting id="1826" start_npc_id="260235"/>
+ </quest_scripts>

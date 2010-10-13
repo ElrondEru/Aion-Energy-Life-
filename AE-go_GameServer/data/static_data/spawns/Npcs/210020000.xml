@@ -260,8 +260,8 @@
 		<object x="2415.60180" y="2729.06960" z="361.75000" h="57"/>
 	</spawn>
 	<!-- Eltnen Abyss Gate (Object Normal lvl:1)-->
-	<spawn map="210020000" npcid="700177" pool="1" interval="295">
-		<object x="392.33432" y="2693.9348" z="265.0103" h="42"/>
+	<spawn interval="295" map="210020000" npcid="730060" pool="1">
+		<object h="0" staticid="1107" x="287.861" y="2770.78" z="143.765"/>
 	</spawn>
 	<!-- Engraved Stone Tablet (Object Normal lvl:1)-->
 	<spawn map="210020000" npcid="700217" pool="1" interval="295">
