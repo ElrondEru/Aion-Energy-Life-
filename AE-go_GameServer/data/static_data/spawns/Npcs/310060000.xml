@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!-- Fragment Of Darkness -->
+<spawns>
+	<!-- Icaronix (NPC Normal lvl:50) (from client spawn)-->
+	<spawn map="310060000" npcid="205110" pool="1" interval="295">
+		<object x="1875.3131" y="634.126" z="1190.0188" h="61"/>
+	</spawn>
+	<!-- Icaronix's Box (Object Normal lvl:1) (from client spawn)-->
+	<spawn map="310060000" npcid="700240" pool="1" interval="295">
+		<object x="1733.2701" y="790.5267" z="1373.7461" h="38"/>
+	</spawn>
+</spawns>

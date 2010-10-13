@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--
+	This file is part of <Aion Unique>
+
+	Aion Underworld is Private software: you can redistribute it and/or modify
+	it under the terms of the GNU General Public License as published by
+	the Free Software Foundation, either version 3 of the License, or
+	(at your option) any later version.
+
+	Aion Underworld is distributed in the hope that it will be useful,
+	but WITHOUT ANY WARRANTY; without even the implied warranty of
+	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+	GNU General Public License for more details.
+
+	You should have received a copy of the GNU General Public License
+	along with Aion Underworld. If not, see <http://www.gnu.org/licenses/>.
+
+	Cromede
+
+ -->
+<spawns>
+	<!-- -->
+	<spawn map="300230000" npcid="216961" pool="2" interval="300">
+		<object x="308.519" y="260.33963" z="187.31166" h="53"/>
+		<object x="301.83643" y="283.2901" z="187.81726" h="47"/>
+	</spawn>
+	<!-- -->
+	<spawn map="300230000" npcid="216962" pool="3" interval="300">
+		<object x="293.35403" y="255.92476" z="186.78976" h="55"/>
+		<object x="322.37033" y="285.24838" z="193.3687" h="62"/>
+		<object x="333.374" y="258.25266" z="194.12135" h="41"/>
+	</spawn>
+	<!-- -->
+	<spawn map="300230000" npcid="216963" pool="4" interval="300">
+		<object x="453.95105" y="349.47052" z="172.71454" h="98"/>
+		<object x="490.87195" y="337.55698" z="168.86299" h="54"/>
+		<object x="471.7475" y="335.71255" z="170.48495" h="50"/>
+		<object x="492.1991" y="353.30457" z="170.59619" h="56"/>
+	</spawn>
+	<!-- -->
+	<spawn map="300230000" npcid="216964" pool="4" interval="300">
+		<object x="515.1767" y="221.49432" z="144.53812" h="34"/>
+		<object x="512.59595" y="264.99078" z="143.80298" h="102"/>
+		<object x="335.06317" y="258.2821" z="193.50168" h="41"/>
+		<object x="430.32925" y="336.45422" z="173.44093" h="84"/>
+	</spawn>
+	<!-- -->
+	<spawn map="300230000" npcid="216965" pool="6" interval="300">
+		<object x="371.90527" y="176.92755" z="146.71289" h="45"/>
+		<object x="359.27625" y="189.3421" z="146.71289" h="105"/>
+		<object x="529.8258" y="236.18513" z="143.84566" h="15"/>
+		<object x="407.31918" y="232.54279" z="145.48969" h="14"/>
+		<object x="414.5937" y="224.50586" z="145.48969" h="14"/>
+		<object x="473.1552" y="353.94995" z="171.0687" h="69"/>
+	</spawn>
+	<!-- -->
+	<spawn map="300230000" npcid="216966" pool="3" interval="300">
+		<object x="532.79694" y="241.82077" z="143.55586" h="14"/>
+		<object x="512.02686" y="243.23193" z="141.93791" h="44"/>
+		<object x="483.90552" y="235.13773" z="141.85661" h="14"/>
+	</spawn>
+	<!-- -->
+	<spawn map="300230000" npcid="216967" pool="1" interval="300">
+		<object x="390.87567" y="208.63707" z="145.89178" h="14"/>
+	</spawn>
+	<!-- -->
+	<spawn map="300230000" npcid="216968" pool="1" interval="300">
+		<object x="353.87488" y="171.85146" z="146.22021" h="15"/>
+	</spawn>
+	<!-- -->
+	<spawn map="300230000" npcid="216969" pool="2" interval="300">
+		<object x="663.1839" y="663.26294" z="201.82024" h="99"/>
+		<object x="654.5704" y="662.6712" z="201.79422" h="90"/>
+	</spawn>
+	<!-- -->
+	<spawn map="300230000" npcid="216970" pool="1" interval="300">
+		<object x="642.1186" y="661.9895" z="203.5281" h="89"/>
+	</spawn>
+	<!-- -->
+	<spawn map="300230000" npcid="700961" pool="1" interval="300">
+		<object x="467.02112" y="352.29105" z="170.29742" h="26"/>
+	</spawn>
+	<!-- -->
+	<spawn map="300230000" npcid="216972" pool="1" interval="300">
+		<object x="653.54126" y="650.2252" z="201.19109" h="39"/>
+	</spawn>
+	<!-- -->
+	<spawn map="300230000" npcid="216973" pool="5" interval="300">
+		<object x="679.3197" y="629.0006" z="201.05258" h="119"/>
+		<object x="687.2427" y="552.0592" z="197.90062" h="30"/>
+		<object x="708.45746" y="543.1528" z="197.88681" h="81"/>
+		<object x="732.146" y="545.44305" z="198.53848" h="60"/>
+		<object x="738.17346" y="515.98376" z="198.72131" h="57"/>
+	</spawn>
+	<!-- -->
+	<spawn map="300230000" npcid="216974" pool="3" interval="300">
+		<object x="695.6579" y="632.49774" z="200.1199" h="59"/>
+		<object x="707.1696" y="538.19385" z="197.88681" h="27"/>
+		<object x="688.3399" y="550.90936" z="197.90062" h="30"/>
+	</spawn>
+	<!-- -->
+	<spawn map="300230000" npcid="216975" pool="3" interval="300">
+		<object x="688.5287" y="594.6825" z="200.1199" h="29"/>
+		<object x="705.2622" y="544.42816" z="197.88681" h="82"/>
+		<object x="725.37933" y="521.86707" z="197.8742" h="48"/>
+	</spawn>
+	<!-- -->
+	<spawn map="300230000" npcid="216976" pool="2" interval="300">
+		<object x="668.3497" y="647.2103" z="201.19109" h="57"/>
+		<object x="693.30817" y="533.66254" z="197.90062" h="58"/>
+	</spawn>
+	<!-- -->
+	<spawn map="300230000" npcid="216977" pool="3" interval="300">
+		<object x="710.37494" y="528.8286" z="197.8742" h="75"/>
+		<object x="724.5845" y="537.7079" z="197.8742" h="108"/>
+		<object x="731.9556" y="524.0435" z="197.8742" h="71"/>
+	</spawn>
+	<!-- -->
+	<spawn map="300230000" npcid="216978" pool="1" interval="300">
+		<object x="700.01184" y="515.2454" z="197.8742" h="79"/>
+	</spawn>
+	<!-- -->
+	<spawn map="300230000" npcid="216979" pool="1" interval="300">
+		<object x="545.0883" y="640.62585" z="215.3561" h="119"/>
+	</spawn>
+	<!-- -->
+	<spawn map="300230000" npcid="216980" pool="1" interval="300">
+		<object x="689.1202" y="630.6699" z="200.1199" h="88"/>
+	</spawn>
+	<spawn map="300230000" npcid="216981" pool="1" interval="300">
+		<object x="739.32935" y="530.87506" z="199.31773" h="60"/>
+	</spawn>
+	<!-- -->
+	<spawn map="300230000" npcid="216983" pool="2" interval="300">
+		<object x="573.777" y="641.7475" z="208.1402" h="112"/>
+		<object x="531.32526" y="701.8942" z="215.55" h="59"/>
+	</spawn>
+	<!-- -->
+	<spawn map="300230000" npcid="216984" pool="1" interval="300">
+		<object x="580.10736" y="634.9506" z="208.1385" h="76"/>
+	</spawn>
+	<!-- -->
+	<spawn map="300230000" npcid="216985" pool="7" interval="300">
+		<object x="593.44604" y="637.7742" z="208.48228" h="100"/>
+		<object x="518.36017" y="753.2203" z="215.5286" h="105"/>
+		<object x="505.50983" y="779.6493" z="215.97673" h="114"/>
+		<object x="516.50085" y="771.76624" z="215.55608" h="81"/>
+		<object x="566.8684" y="779.1348" z="215.56647" h="40"/>
+		<object x="581.2479" y="794.36334" z="215.5458" h="14"/>
+		<object x="581.53064" y="762.2179" z="215.56647" h="105"/>
+	</spawn>
+	<!-- -->
+	<spawn map="300230000" npcid="216986" pool="2" interval="300">
+		<object x="590.8663" y="647.8526" z="208.44661" h="116"/>
+		<object x="566.2656" y="757.1362" z="215.53482" h="85"/>
+	</spawn>
+	<!-- -->
+	<spawn map="300230000" npcid="216987" pool="3" interval="300">
+		<object x="518.3376" y="701.5304" z="215.55972" h="60"/>
+		<object x="533.4032" y="722.5091" z="215.5286" h="110"/>
+		<object x="556.57196" y="799.4453" z="215.88853" h="26"/>
+	</spawn>
+	<!-- -->
+	<spawn map="300230000" npcid="216988" pool="1" interval="300">
+		<object x="571.57745" y="769.80115" z="215.56647" h="89"/>
+	</spawn>
+	<!-- -->
+	<spawn map="300230000" npcid="216989" pool="7" interval="300">
+		<object x="622.9114" y="580.76324" z="208.99329" h="0"/>
+		<object x="594.65216" y="595.9162" z="208.9933" h="93"/>
+		<object x="601.83026" y="614.3397" z="208.98907" h="27"/>
+		<object x="541.3015" y="629.88" z="201.63432" h="29"/>
+		<object x="576.904" y="619.50616" z="211.86147" h="30"/>
+		<object x="546.1073" y="643.07776" z="215.3561" h="119"/>
+		<object x="524.3127" y="770.6691" z="215.5286" h="77"/>
+	</spawn>
+	<!-- -->
+	<spawn map="300230000" npcid="216990" pool="8" interval="300">
+		<object x="615.4115" y="583.54315" z="208.99329" h="119"/>
+		<object x="508.27515" y="612.35016" z="201.58797" h="0"/>
+		<object x="521.76306" y="667.6793" z="201.63612" h="87"/>
+		<object x="576.7174" y="661.5713" z="211.86145" h="85"/>
+		<object x="559.7029" y="634.349" z="215.00104" h="0"/>
+		<object x="560.79144" y="619.5129" z="215.3561" h="10"/>
+		<object x="562.2139" y="661.69" z="215.3561" h="112"/>
+		<object x="512.9119" y="733.05597" z="215.52863" h="89"/>
+	</spawn>
+	<!-- -->
+	<spawn map="300230000" npcid="216991" pool="2" interval="300">
+		<object x="521.36383" y="630.0947" z="201.74944" h="52"/>
+		<object x="507.41385" y="651.48724" z="201.62625" h="83"/>
+	</spawn>
+	<!-- -->
+	<spawn map="300230000" npcid="216992" pool="2" interval="300">
+		<object x="493.04086" y="636.2674" z="201.48355" h="93"/>
+		<object x="504.56644" y="633.6001" z="201.73286" h="95"/>
+	</spawn>
+	<!-- -->
+	<spawn map="300230000" npcid="216994" pool="1" interval="300">
+		<object x="513.6203" y="763.37585" z="215.55608" h="90"/>
+	</spawn>
+	<!-- -->
+	<spawn map="300230000" npcid="216995" pool="1" interval="300">
+		<object x="510.83694" y="763.34485" z="215.55608" h="90"/>
+	</spawn>
+	<!-- -->
+	<spawn map="300230000" npcid="216997" pool="1" interval="300">
+		<object x="689.60266" y="595.0879" z="200.1199" h="29"/>
+	</spawn>
+	<!-- -->
+	<spawn map="300230000" npcid="216999" pool="1" interval="300">
+		<object x="585.0285" y="773.78156" z="215.57028" h="4"/>
+	</spawn>
+	<!-- -->
+	<spawn map="300230000" npcid="700939" pool="1" interval="300">
+		<object x="656.0843" y="584.2778" z="199.04726" h="15"/>
+	</spawn>
+	<!-- -->
+	<spawn map="300230000" npcid="217005" pool="1" interval="300">
+		<object x="662.2137" y="774.31476" z="216.26213" h="59"/>
+	</spawn>
+	<!-- -->
+	<spawn map="300230000" npcid="217030" pool="2" interval="300">
+		<object x="659.7256" y="581.67114" z="198.92381" h="4"/>
+		<object x="623.692" y="763.2829" z="216.10057" h="29"/>
+	</spawn>
+	<!-- -->
+	<spawn map="300230000" npcid="217031" pool="1" interval="300">
+		<object x="491.12106" y="700.15375" z="215.55" h="50"/>
+	</spawn>
+	<!-- -->
+	<spawn map="300230000" npcid="217033" pool="4" interval="300">
+		<object x="557.0841" y="687.0774" z="215.5286" h="90"/>
+		<object x="512.26245" y="705.80585" z="215.55972" h="90"/>
+		<object x="535.1762" y="721.42267" z="215.5286" h="51"/>
+		<object x="551.7542" y="778.97217" z="216.98428" h="92"/>
+	</spawn>
+	<!-- -->
+	<spawn map="300230000" npcid="217035" pool="1" interval="300">
+		<object x="510.3742" y="723.1475" z="215.54568" h="91"/>
+	</spawn>
+	<!-- -->
+	<spawn map="300230000" npcid="217036" pool="2" interval="300">
+		<object x="507.14017" y="666.3756" z="215.07037" h="92"/>
+		<object x="516.59595" y="665.66095" z="215.07037" h="92"/>
+	</spawn>
+	<!-- -->
+	<spawn map="300230000" npcid="217111" pool="1" interval="300">
+		<object x="661.6618" y="776.81946" z="216.26213" h="72"/>
+	</spawn>
+</spawns>
