@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<!-- Space Of Destiny -->
-<spawns>
-	<!-- Skuld (NPC Normal lvl:20)-->
-	<spawn map="320070000" npcid="204264" pool="1" interval="295">
-		<object x="245.81532" y="248.09918" z="125.8369" h="51"/>
-	</spawn>
-</spawns>
