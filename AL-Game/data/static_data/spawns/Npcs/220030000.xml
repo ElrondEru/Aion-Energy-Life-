@@ -376,7 +376,7 @@
 	</spawn>
 	<!-- Jolk (NPC Normal lvl:20)-->
 	<spawn map="220030000" npcid="203668" pool="1" interval="295">
-		<object x="1720.87240" y="2169.27420" z="258.00000" h="37"/>
+		<object x="1720.87240" y="2169.27420" z="256.69" h="37"/>
 	</spawn>
 	<!-- Kaganta (NPC Elite lvl:19)-->
 	<spawn map="220030000" npcid="203602" pool="1" interval="295">
@@ -711,7 +711,7 @@
 	</spawn>
 	<!-- Taora (NPC Normal lvl:20)-->
 	<spawn map="220030000" npcid="203669" pool="1" interval="295">
-		<object x="1719.55580" y="2167.43360" z="258.00000" h="79"/>
+		<object x="1719.55580" y="2167.43360" z="256.31" h="79"/>
 	</spawn>
 	<!-- Tatural (NPC Normal lvl:20)-->
 	<spawn map="220030000" npcid="203622" pool="1" interval="295">
