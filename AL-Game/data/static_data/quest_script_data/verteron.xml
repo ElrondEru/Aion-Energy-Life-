@@ -1,5 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <quest_scripts xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="quest_script_data.xsd">
-        <!--
+<!--
   ~ This file is part of aion-unique.
   ~
   ~ aion-unique is free software: you can redistribute it and/or modify
@@ -15,261 +16,232 @@
   ~ You should have received a copy of the GNU General Public License
   ~ along with aion-unique.  If not, see <http://www.gnu.org/licenses/>.
   -->
-        <!-- A Favor For Gaione -->
-        <monster_hunt start_npc_id="203190" id="1201">
-            <monster_infos var_id="0" npc_id="210268" max_kill="9"/>
-        </monster_hunt>
-        
-		<!-- An Honest Merchant -->
-        <item_collecting start_npc_id="203101" end_npc_id="203097" id="1132"/>
-        
-		<!-- Guardian Tog -->
-        <monster_hunt start_npc_id="203190" id="1135">
-            <monster_infos var_id="0" npc_id="210268" max_kill="9"/>
-        </monster_hunt>
-        
-		<!-- Lobnite Hunt -->
-        <monster_hunt start_npc_id="203096" id="1133">
-            <monster_infos var_id="0" npc_id="210264" max_kill="11"/>
-            <monster_infos var_id="0" npc_id="210265" max_kill="11"/>
-        </monster_hunt>
-        
-		<!-- Polluted Fountainhead -->
-        <monster_hunt start_npc_id="203102" id="1134">
-            <monster_infos var_id="0" npc_id="210203" max_kill="10"/>
-            <monster_infos var_id="0" npc_id="210204" max_kill="10"/>
-            <monster_infos var_id="1" npc_id="210063" max_kill="10"/>
-            <monster_infos var_id="1" npc_id="210064" max_kill="10"/>
-        </monster_hunt>
-        
-		<!-- Undelivered Armor -->
-		<report_to start_npc_id="798001" end_npc_id="203101" id="1131"/>
-        
-        <!-- [Manastone] New Manastones for Old -->
-        <item_collecting start_npc_id="203332" id="1161"/>
-        
-		<!-- [Manastone] New Manastones for Old (II) -->
-        <item_collecting start_npc_id="203332" id="1187"/>
-        
-		<!-- A Father's Letter -->
-        <report_to start_npc_id="790000" end_npc_id="203125" id="1150"/>
-        
-		<!-- A Mother's Worry -->
-        <report_to start_npc_id="203110" end_npc_id="203123" id="1138"/>
-        
-		<!-- Abandoned Scarecrow -->
-        <report_to start_npc_id="203123" end_npc_id="730001" id="1140"/>
-        
-		<!-- Ancient Lobnite Fossil -->
-        <item_collecting start_npc_id="203111" action_item_id="700108" id="1137"/>
-        
-		<!-- Collecting Kukuru -->
-        <item_collecting start_npc_id="203124" id="1145"/>
-    
-        <!-- Decorative Weapons -->
-        <item_collecting id="1136" start_npc_id="203100" action_item_id="700116"/>
-        <!-- Belbua is Missing -->
-        <item_collecting start_npc_id="203125" id="1151"/>
 
-        <!-- Nola's Request -->
-        <monster_hunt start_npc_id="730001" id="1143">
-            <monster_infos var_id="0" npc_id="210698" max_kill="15"/>
-            <monster_infos var_id="0" npc_id="210077" max_kill="15"/>
-        </monster_hunt>
-        
-		<!-- Odella Recipe -->
-        <item_collecting id="1152" start_npc_id="203132" end_npc_id="203130"/>
-        
-		<!-- Pumpkin Season -->
-        <item_collecting id="1144" start_npc_id="730001" end_npc_id="203130" action_item_id="700109"/>
-        
-		<!-- The Forest Outlaw -->
-        <monster_hunt start_npc_id="203124" id="1139">
-            <monster_infos var_id="0" npc_id="210138" max_kill="9"/>
-            <monster_infos var_id="0" npc_id="210139" max_kill="9"/>
-            <monster_infos var_id="1" npc_id="210140" max_kill="5"/>
-        </monster_hunt>
-        
-		<!-- The Writing on the Wall -->
-        <report_to start_npc_id="203339" end_npc_id="203098" item_id="182200559" id="1198"/>
-        
-		<!-- An Unwanted Dagger -->
-        <report_to start_npc_id="203133" end_npc_id="203100" item_id="182203101" id="1142"/>
-        
-		<!-- Feeding Hianu -->
-        <report_to start_npc_id="203130" end_npc_id="203150" item_id="182200527" id="1153"/>
-     
-        <!-- Lostes the Braggart -->
-        <item_collecting start_npc_id="203154" id="1148"/>
-        <!-- Supplies for the Watch -->
-        <report_to start_npc_id="203096" end_npc_id="203126" item_id="182200520" id="1147"/>
-        
-		<!-- Retrieving Supplies -->
-        <item_collecting start_npc_id="203126" action_item_id="700117" id="1155"/>
-        
-		<!-- Secret Trade -->
-        <item_collecting start_npc_id="203137" id="1208"/>
-        
-		<!-- Stolen Jewelry -->
-        <item_collecting start_npc_id="203127" id="1160"/>
-        
-		<!-- The Potion Maker's Mistake -->
-        <report_to start_npc_id="203131" end_npc_id="203149" item_id="182200536" id="1164"/>
-       
-        <!-- An Antidote for Roseino -->
-        <report_to start_npc_id="203103" end_npc_id="203155" item_id="182200542" id="1171"/>
-        
-		<!-- Collecting Poison Sacs -->
-        <item_collecting start_npc_id="203151" id="1159"/>
-        
-		<!-- Contaminated Samples -->
-        <item_collecting start_npc_id="203148" id="1166"/>
-        
-        <!-- Lightningfoot Tuka -->
-        <monster_hunt start_npc_id="203126" id="1169">
-            <monster_infos var_id="1" npc_id="210317" max_kill="1"/>
-        </monster_hunt>
-        
-        <!-- Pilgrim in Trouble -->
-        <item_collecting start_npc_id="203162" id="1167"/>
-        
-		<!-- Soporific Mushroom -->
-        <item_collecting start_npc_id="203163" action_item_id="700114" id="1168"/>
-        
-		<!-- A Hungry Abex -->
-        <item_collecting start_npc_id="203153" id="1213"/>
-        
-        <!-- Gift to a Pilgrim -->
-        <report_to start_npc_id="203141" end_npc_id="203163" item_id="182200537" id="1165"/>
-        
-		<!-- Ribbit Blood -->
-        <item_collecting start_npc_id="203155" id="1174"/>
-		
-		<!-- Slaying Slimes -->
-        <monster_hunt start_npc_id="203155" id="1173">
-            <monster_infos var_id="0" npc_id="210121" max_kill="12"/>
-            <monster_infos var_id="0" npc_id="210122" max_kill="12"/>
-            <monster_infos var_id="0" npc_id="210123" max_kill="12"/>
-        </monster_hunt>
-        
-		<!-- A Foolish Gamble -->
-        <item_collecting start_npc_id="203110" end_npc_id="203146" action_item_id="700115" id="1172"/>
-        
-		<!-- Dispelling Ancient Spirits -->
-        <monster_hunt start_npc_id="203158" id="1179">
-            <monster_infos var_id="0" npc_id="210343" max_kill="10"/>
-            <monster_infos var_id="0" npc_id="211099" max_kill="10"/>
-            <monster_infos var_id="0" npc_id="211135" max_kill="10"/>
-            <monster_infos var_id="0" npc_id="211153" max_kill="10"/>
-            <monster_infos var_id="0" npc_id="211960" max_kill="10"/>
-            <monster_infos var_id="0" npc_id="211961" max_kill="10"/>
-        </monster_hunt>
-        
-		<!-- Eninte's Request -->
-        <report_to start_npc_id="203161" end_npc_id="203893" item_id="182200560" id="1199"/>
-        
-		<!-- Eninte -->
-        <monster_hunt start_npc_id="203893" id="1200">
-            <monster_infos var_id="0" npc_id="210743" max_kill="1"/>
-        </monster_hunt>
-        
-		<!-- Feed a Cold -->
-        <item_collecting start_npc_id="203157" id="1210"/>
-        
-		<!-- Give and Take -->
-        <item_collecting start_npc_id="203153" end_npc_id="203157" id="1214"/>
-        
-		<!-- Kalgolem's Essence -->
-        <item_collecting start_npc_id="203158" id="1176"/>
-        
-		<!-- Mysterious Stones -->
-        <item_collecting start_npc_id="203156" end_npc_id="203157" action_item_id="700006" id="1177"/>
-        
-		<!-- Poisoned Plumas -->
-        <monster_hunt start_npc_id="203156" id="1175">
-            <monster_infos var_id="0" npc_id="210344" max_kill="9"/>
-        </monster_hunt>
-        
-		<!-- Swamp Plant Samples -->
-        <item_collecting start_npc_id="203155" action_item_id="700113" id="1178"/>
-        
-		<!-- [Coin] Dampening Spirits -->
-        <monster_hunt start_npc_id="203179" id="1196">
-            <monster_infos var_id="0" npc_id="210086" max_kill="14"/>
-            <monster_infos var_id="1" npc_id="210711" max_kill="8"/>
-        </monster_hunt>
-    	
-		<!-- [Group] Culling Krall -->
-		<monster_hunt start_npc_id="203147" id="1181">
-            <monster_infos var_id="0" npc_id="210176" max_kill="10"/>
-            <monster_infos var_id="1" npc_id="210166" max_kill="10"/>
-        </monster_hunt>
-        
-		<!-- [Group] Krall Conspiracy -->
-		<item_collecting start_npc_id="203098" id="1193"/>
-        
-		<!-- [Group] Tursin Assassination -->
-		<monster_hunt start_npc_id="203098" id="1195">
-            <monster_infos var_id="0" npc_id="210187" max_kill="1"/>
-        </monster_hunt>
-        
-        <!-- [Group] Persistent Krall -->
-		<monster_hunt start_npc_id="203147" id="1202">
-            <monster_infos var_id="0" npc_id="210176" max_kill="10"/>
-            <monster_infos var_id="1" npc_id="210166" max_kill="10"/>
-        </monster_hunt>
-        
-		<!-- Can't Please Everyone -->
-        <item_collecting start_npc_id="203172" id="1215"/>
-        
-		<!-- Investigating Wind Spirits -->
-        <report_to start_npc_id="203165" end_npc_id="203097" id="1184"/>
-        
-		<!-- Potcrab Pincers -->
-        <item_collecting start_npc_id="203166" id="1204"/>
-        
-		<!-- Potcrab, the Headache -->
-        <item_collecting start_npc_id="203166" id="1189"/>
-        
-		<!-- The Wriggot Menace -->
-        <item_collecting start_npc_id="730012" id="1186"/>
-        
-		<!-- Tribute to the Temple -->
-        <report_to start_npc_id="203157" end_npc_id="203178" item_id="182200548" id="1180"/>
-        
-		<!-- Unquiet Spirits -->
-        <monster_hunt start_npc_id="203178" id="1185">
-            <monster_infos var_id="0" npc_id="210080" max_kill="6"/>
-        </monster_hunt>
-        
-		<!-- Wriggot Resurgence -->
-        <item_collecting start_npc_id="730012" id="1203"/>
-       
-	    <!-- An Urgent Letter -->
-        <report_to start_npc_id="203099" end_npc_id="203183" item_id="182200555" id="1191"/>
-        
-		<!-- Flotsam -->
-        <monster_hunt start_npc_id="203184" id="1217">
-            <monster_infos var_id="0" npc_id="210299" max_kill="12"/>
-            <monster_infos var_id="0" npc_id="210085" max_kill="12"/>
-        </monster_hunt>
-        
-		<!-- Message From Morai -->
-        <report_to start_npc_id="203164" end_npc_id="203167" id="1188"/>
-        
-		<!-- Saving the Snappers -->
-        <monster_hunt start_npc_id="203169" id="1216">
-            <monster_infos var_id="0" npc_id="210112" max_kill="12"/>
-        </monster_hunt>
-        
-		<!-- Shipwreck Revolutionaries -->
-        <item_collecting start_npc_id="203183" id="1190"/>
-        
-		<!-- Lepharist Treasure Box -->
-        <item_collecting start_npc_id="203172" action_item_id="700283" id="1219"/>
-		
-		<!-- A Touch Of Odium -->
-	    <monster_hunt start_npc_id="203166" id="18504">
-            <monster_infos var_id="0" npc_id="216912" max_kill="65"/>
-        </monster_hunt>
+	<!-- TODO: [Spend Coin] Iron (Mage and Priest) -->
+	<!-- TODO: [Spend Coin] Iron (Warrior and Scout) -->
+	<!-- TODO: [Event] Lato's Blessing -->
+	<!-- TODO: [Event] Fei's Blessing -->
+	<!-- 1011 Danger From Above handled by script -->
+	<!-- 1012 Masked Loiterers handled by script -->
+	<!-- 1013 Hunting Lepharist Revolutionaries handled by script -->
+	<!-- 1014 Odium in the Dukaki Settlement handled by script -->
+	<!-- 1015 Frillneck Hunt handled by script -->
+	<!-- 1016 Source of the Pollution handled by script -->
+	<!-- 1017 Held Sacred handled by script -->
+	<!-- 1018 Mark of Vengeance handled by script -->
+	<!-- 1019 Flying Reconnaissance handled by script -->
+	<!-- 1020 Sealing the Abyss Gate handled by script -->
+	<!-- 1021 Trandila's Eggs handled by script-->
+	<!-- 1022 Krall Desecration handled by script -->
+	<!-- 1023 A Nest of Lepharists handled by script -->
+	<!-- 1130 Summons to the Citadel handled by script -->
+	<!-- 1131 Undelivered Armor handled by script -->
+	<!-- An Honest Merchant -->
+	<item_collecting start_npc_id="203101" end_npc_id="203097" id="1132"/>
+	<!-- Lobnite Hunt -->
+	<monster_hunt start_npc_id="203096" id="1133">
+		<monster_infos var_id="0" npc_id="210264" max_kill="11"/>
+		<monster_infos var_id="0" npc_id="210265" max_kill="11"/>
+	</monster_hunt>
+	<!-- Polluted Fountainhead -->
+	<monster_hunt start_npc_id="203102" id="1134">
+		<monster_infos var_id="0" npc_id="210203" max_kill="10"/>
+		<monster_infos var_id="0" npc_id="210204" max_kill="10"/>
+		<monster_infos var_id="1" npc_id="210063" max_kill="10"/>
+		<monster_infos var_id="1" npc_id="210064" max_kill="10"/>
+	</monster_hunt>
+	<!-- Guardian Tog -->
+	<monster_hunt start_npc_id="203190" id="1135">
+		<monster_infos var_id="0" npc_id="210268" max_kill="9"/>
+	</monster_hunt>
+	<!-- Decorative Weapons -->
+	<item_collecting start_npc_id="203100" action_item_id="700116" id="1136"/>
+	<!-- Ancient Lobnite Fossil -->
+	<item_collecting start_npc_id="203111" action_item_id="700108" id="1137"/>
+	<!-- A Mother's Worry -->
+	<report_to start_npc_id="203110" end_npc_id="203123" id="1138"/>
+	<!-- The Forest Outlaw -->
+	<monster_hunt start_npc_id="203124" id="1139">
+		<monster_infos var_id="0" npc_id="210138" max_kill="9"/>
+		<monster_infos var_id="0" npc_id="210139" max_kill="9"/>
+		<monster_infos var_id="1" npc_id="210140" max_kill="5"/>
+	</monster_hunt>
+	<!-- Abandoned Scarecrow -->
+	<report_to start_npc_id="203123" end_npc_id="730001" id="1140"/>
+	<!-- 1141 Belbua's Treasure handled by script -->
+	<!-- An Unwanted Dagger -->
+	<report_to start_npc_id="203133" end_npc_id="203100" item_id="182203101" id="1142"/>
+	<!-- Nola's Request -->
+	<monster_hunt start_npc_id="730001" id="1143">
+		<monster_infos var_id="0" npc_id="210698" max_kill="15"/>
+		<monster_infos var_id="0" npc_id="210077" max_kill="15"/>
+	</monster_hunt>
+	<!-- Pumpkin Season -->
+	<item_collecting start_npc_id="730001" end_npc_id="203130" action_item_id="700109" id="1144"/>
+	<!-- Collecting Kukuru -->
+	<item_collecting start_npc_id="203124" id="1145"/>
+	<!-- 1146 Delicate Mandrake handled by script-->
+	<!-- Supplies for the Watch -->
+	<report_to start_npc_id="203096" end_npc_id="203126" item_id="182200520" id="1147"/>
+	<!-- Lostes the Braggart -->
+	<item_collecting start_npc_id="203154" id="1148"/>
+	<!-- 1149 Missing Poppy handled by script -->
+	<!-- A Father's Letter -->
+	<report_to start_npc_id="790000" end_npc_id="203125" id="1150"/>
+	<!-- Belbua is Missing -->
+	<item_collecting start_npc_id="203125" id="1151"/>
+	<!-- Odella Recipe -->
+	<item_collecting start_npc_id="203132" end_npc_id="203130" id="1152"/>
+	<!-- Feeding Hianu -->
+	<report_to start_npc_id="203130" end_npc_id="203150" item_id="182200527" id="1153"/>
+	<!-- A Special Omelette -->
+	<item_collecting start_npc_id="203150" end_npc_id="203130" action_item_id="700031" id="1154"/>
+	<!-- Retrieving Supplies -->
+	<item_collecting start_npc_id="203126" action_item_id="700117" id="1155"/>
+	<!-- 1156 Stolen Village Seal handled by script -->
+	<!-- 1157 Gaphyrk's Love handled by script-->
+	<!-- 1158 Village Seal Found handled by script-->
+	<!-- Collecting Poison Sacs -->
+	<item_collecting start_npc_id="203151" id="1159"/>
+	<!-- Stolen Jewelry -->
+	<item_collecting start_npc_id="203127" id="1160"/>
+	<!-- [Manastone] New Manastones for Old -->
+	<item_collecting start_npc_id="203332" id="1161"/>
+	<!-- 1162 Alteno's Wedding Ring handled by script -->
+	<!-- 1163 Arachna Antidote handled by script -->
+	<!-- The Potion Maker's Mistake -->
+	<report_to start_npc_id="203131" end_npc_id="203149" item_id="182200536" id="1164"/>
+	<!-- Gift to a Pilgrim -->
+	<report_to start_npc_id="203141" end_npc_id="203163" item_id="182200537" id="1165"/>
+	<!-- Contaminated Samples -->
+	<item_collecting start_npc_id="203148" id="1166"/>
+	<!-- Pilgrim in Trouble -->
+	<item_collecting start_npc_id="203162" id="1167"/>
+	<!-- Soporific Mushroom -->
+	<item_collecting start_npc_id="203163" action_item_id="700114" id="1168"/>
+	<!-- Lightningfoot Tuka -->
+	<monster_hunt start_npc_id="203126" id="1169">
+		<monster_infos var_id="0" npc_id="210317" max_kill="1"/>
+	</monster_hunt>
+	<!-- 1170 Headless Stone Statue handled by script -->
+	<!-- An Antidote for Roseino -->
+	<report_to start_npc_id="203103" end_npc_id="203155" item_id="182200542" id="1171"/>
+	<!-- A Foolish Gamble -->
+	<item_collecting start_npc_id="203110" end_npc_id="203146" action_item_id="700115" id="1172"/>
+	<!-- Slaying Slimes -->
+	<monster_hunt start_npc_id="203155" id="1173">
+		<monster_infos var_id="0" npc_id="210121" max_kill="12"/>
+		<monster_infos var_id="0" npc_id="210122" max_kill="12"/>
+		<monster_infos var_id="0" npc_id="210123" max_kill="12"/>
+	</monster_hunt>
+	<!-- Ribbit Blood -->
+	<item_collecting start_npc_id="203155" id="1174"/>
+	<!-- Poisoned Plumas -->
+	<monster_hunt start_npc_id="203156" id="1175">
+		<monster_infos var_id="0" npc_id="210344" max_kill="9"/>
+	</monster_hunt>
+	<!-- Kalgolem's Essence -->
+	<item_collecting start_npc_id="203158" id="1176"/>
+	<!-- Mysterious Stones -->
+	<item_collecting start_npc_id="203156" end_npc_id="203157" action_item_id="700006" id="1177"/>
+	<!-- Swamp Plant Samples -->
+	<item_collecting start_npc_id="203155" action_item_id="700113" id="1178"/>
+	<!-- Dispelling Ancient Spirits -->
+	<monster_hunt start_npc_id="203158" id="1179">
+		<monster_infos var_id="0" npc_id="210343" max_kill="10"/>
+		<monster_infos var_id="0" npc_id="211099" max_kill="10"/>
+		<monster_infos var_id="0" npc_id="211135" max_kill="10"/>
+		<monster_infos var_id="0" npc_id="211153" max_kill="10"/>
+		<monster_infos var_id="0" npc_id="211960" max_kill="10"/>
+		<monster_infos var_id="0" npc_id="211961" max_kill="10"/>
+	</monster_hunt>
+	<!-- Tribute to the Temple -->
+	<report_to start_npc_id="203157" end_npc_id="203178" item_id="182200548" id="1180"/>
+	<!-- [Group] Culling Krall -->
+	<monster_hunt start_npc_id="203147" id="1181">
+		<monster_infos var_id="0" npc_id="210176" max_kill="10"/>
+		<monster_infos var_id="1" npc_id="210166" max_kill="10"/>
+	</monster_hunt>
+	<!-- 1182 Ancient Stone Fragment handled by script -->
+	<!-- 1183 Spirit Of Nature handled by script -->
+	<!-- Investigating Wind Spirits -->
+	<report_to start_npc_id="203165" end_npc_id="203097" id="1184"/>
+	<!-- Unquiet Spirits -->
+	<monster_hunt start_npc_id="203178" id="1185">
+		<monster_infos var_id="0" npc_id="210080" max_kill="6"/>
+	</monster_hunt>
+	<!-- The Wriggot Menace -->
+	<item_collecting start_npc_id="730012" id="1186"/>
+	<!-- [Manastone] New Manastones for Old (II) -->
+	<item_collecting start_npc_id="203332" id="1187"/>
+	<!-- Message From Morai -->
+	<report_to start_npc_id="203164" end_npc_id="203167" id="1188"/>
+	<!-- Potcrab, the Headache -->
+	<item_collecting start_npc_id="203166" id="1189"/>
+	<!-- Shipwreck Revolutionaries -->
+	<item_collecting start_npc_id="203183" id="1190"/>
+	<!-- An Urgent Letter -->
+	<report_to start_npc_id="203099" end_npc_id="203183" item_id="182200555" id="1191"/>
+	<!-- 1192 Verteron Reinforcements handled by script -->
+	<!-- [Group] Krall Conspiracy -->
+	<item_collecting start_npc_id="203098" id="1193"/>
+	<!-- [Group] Reducing Tursin Strength -->
+	<monster_hunt start_npc_id="203098" id="1194">
+		<monster_infos var_id="0" npc_id="210185" max_kill="10"/><!-- max_kill="9" -->
+		<monster_infos var_id="0" npc_id="210186" max_kill="10"/><!-- max_kill="9" -->
+	</monster_hunt>
+	<!-- [Group] Tursin Assassination -->
+	<monster_hunt start_npc_id="203098" id="1195">
+		<monster_infos var_id="0" npc_id="210187" max_kill="1"/>
+	</monster_hunt>
+	<!-- [Coin] Dampening Spirits -->
+	<monster_hunt start_npc_id="203179" id="1196">
+		<monster_infos var_id="0" npc_id="210086" max_kill="14"/>
+		<monster_infos var_id="1" npc_id="210711" max_kill="8"/>
+	</monster_hunt>
+	<!-- 1197 Krall Book handled by script -->
+	<!-- The Writing on the Wall -->
+	<report_to start_npc_id="203339" end_npc_id="203098" item_id="182200559" id="1198"/>
+	<!-- Eninte's Request -->
+	<report_to start_npc_id="203161" end_npc_id="203893" item_id="182200560" id="1199"/>
+	<!-- Eninte -->
+	<monster_hunt start_npc_id="203893" id="1200">
+		<monster_infos var_id="0" npc_id="210743" max_kill="1"/>
+	</monster_hunt>
+	<!-- A Favor for Gaione -->
+	<monster_hunt start_npc_id="203190" id="1201">
+		<monster_infos var_id="0" npc_id="210268" max_kill="9"/>
+	</monster_hunt>
+	<!-- [Group] Persistent Krall -->
+	<monster_hunt start_npc_id="203147" id="1202">
+		<monster_infos var_id="0" npc_id="210176" max_kill="10"/>
+		<monster_infos var_id="1" npc_id="210166" max_kill="10"/>
+	</monster_hunt>
+	<!-- Wriggot Resurgence -->
+	<item_collecting start_npc_id="730012" id="1203"/>
+	<!-- Potcrab Pincers -->
+	<item_collecting start_npc_id="203166" id="1204"/>
+	<!-- Secret Trade -->
+	<item_collecting start_npc_id="203137" id="1208"/>
+	<!-- Feed a Cold -->
+	<item_collecting start_npc_id="203157" id="1210"/>
+	<!-- A Hungry Abex -->
+	<item_collecting start_npc_id="203153" id="1213"/>
+	<!-- Give and Take -->
+	<item_collecting start_npc_id="203153" end_npc_id="203157" id="1214"/>
+	<!-- Can't Please Everyone -->
+	<item_collecting start_npc_id="203172" id="1215"/>
+	<!-- Saving the Snappers -->
+	<monster_hunt start_npc_id="203169" id="1216">
+		<monster_infos var_id="0" npc_id="210112" max_kill="12"/>
+	</monster_hunt>
+	<!-- Flotsam -->
+	<monster_hunt start_npc_id="203184" id="1217">
+		<monster_infos var_id="0" npc_id="210299" max_kill="12"/>
+		<monster_infos var_id="0" npc_id="210085" max_kill="12"/>
+	</monster_hunt>
+	<!-- 1218 Numonerk's Demand Note handled by script -->
+	<!-- Lepharist Treasure Box -->
+	<item_collecting start_npc_id="203172" action_item_id="700283" id="1219"/>
+	<!-- 1220 A Secret Delivery handled by script -->
 </quest_scripts>
