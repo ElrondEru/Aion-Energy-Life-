@@ -95,7 +95,7 @@ public class CM_ENTER_WORLD extends AionClientPacket
 	
 	static
 	{
-		String buffer = "Bienvenue Sur " + GSConfig.SERVER_NAME + " Server.\nPowered By Aion-Lightning Software Developed By http://aion-lightning.org/ Team.\n";
+		String buffer = "Welcome to " + GSConfig.SERVER_NAME + " Server.\nPowered By Aion-Lightning Software Developed By http://aion-lightning.org/ Team.\n";
 		buffer += "Copyright 2010. ";
 		if(GSConfig.SERVER_MOTD_DISPLAYREV)
 			buffer += "Server Revision: " + String.format("%-6s", new Version(GameServer.class).getRevision());
