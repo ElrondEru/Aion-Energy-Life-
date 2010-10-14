@@ -68,7 +68,7 @@
 		<entrypoint mapid="300170000" x="1028.6996" y="314.83682" z="220.96474"/>
 		<exitpoint mapid="300170000" x="790.68585" y="319.889" z="220.89594"/>
 	</portal>
-	<!-- Beshmundir Temple (Macunbello) Exit -->s
+	<!-- Beshmundir Temple (Macunbello) Exit -->
 	<portal npcid="730276" instance="true" minlevel="55" maxlevel="55" group="true">
 		<entrypoint mapid="300170000" x="790.68585" y="319.889" z="220.89594"/>
 		<exitpoint mapid="300170000" x="1028.6996" y="314.83682" z="220.96474"/>
