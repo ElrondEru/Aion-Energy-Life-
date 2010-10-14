@@ -4,13 +4,13 @@
 	<map id="110020000" name="Kaisinel" death_level="0" water_level="16" world_type="ELYSEA"/>
 	<map id="120010000" name="Pandaemonium" death_level="150" water_level="16" world_type="ASMODAE"/>
 	<map id="120020000" name="Marchutan" death_level="0" water_level="16" world_type="ASMODAE"/>
-	<map id="210010000" name="Poeta" max_user="200" twin_count="2" death_level="0" water_level="100" world_type="ELYSEA"/>
+	<map id="210010000" name="Poeta" max_user="200" twin_count="1" death_level="0" water_level="100" world_type="ELYSEA"/>
 	<map id="210020000" name="Eltnen" death_level="0" water_level="6" world_type="ELYSEA"/>
 	<map id="210030000" name="Verteron" max_user="200" death_level="0" water_level="100" world_type="ELYSEA"/>
 	<map id="210040000" name="Heiron" death_level="0" water_level="100" world_type="ELYSEA"/>
 	<map id="210050000" name="Inggison" death_level="0" water_level="16" world_type="BALAUREA"/>
 	<map id="210060000" name="Theomobos" death_level="0" water_level="1" world_type="ELYSEA"/>
-	<map id="220010000" name="Ishalgen" max_user="200" twin_count="2" death_level="0" water_level="248" world_type="ASMODAE"/>
+	<map id="220010000" name="Ishalgen" max_user="200" twin_count="1" death_level="0" water_level="248" world_type="ASMODAE"/>
 	<map id="220020000" name="Morheim" death_level="0" water_level="16" world_type="ASMODAE"/>
 	<map id="220030000" name="Altgard" max_user="200" death_level="0" water_level="248" world_type="ASMODAE"/>
 	<map id="220040000" name="Beluslan" death_level="0" water_level="16" world_type="ASMODAE"/>
