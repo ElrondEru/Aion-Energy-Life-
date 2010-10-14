@@ -133,7 +133,7 @@ public class _1004NeutralizingOdium extends QuestHandler
 								else if(qs.getQuestVarById(0) == 4)
 								{
 									qs.setQuestVarById(0, qs.getQuestVarById(0)+1);
-									ItemService.decreaseItemCountByItemId(player, 182200006, 1);
+									player.getInventory().removeFromBagByItemId(182200005, 1);
 								}
 								updateQuestStatus(player, qs);
 								PacketSendUtility.broadcastPacket(player.getTarget(), new SM_EMOTION((Creature)player.getTarget(), EmotionType.EMOTE, 128, 0));
@@ -166,7 +166,7 @@ public class _1004NeutralizingOdium extends QuestHandler
 						{
 							qs.setQuestVarById(0, 4);
 							updateQuestStatus(player, qs);
-							ItemService.decreaseItemCountByItemId(player, 182200005, 1);
+							player.getInventory().removeFromBagByItemId(182200005, 1);
 							ItemService.addItems(player, Collections.singletonList(new QuestItems(182200006, 1)));
 							PacketSendUtility.sendPacket(player, new SM_DIALOG_WINDOW(env.getVisibleObject().getObjectId(), 10));
 							return true;
