@@ -59,7 +59,7 @@ public class _2096TwiceasBright extends QuestHandler
 		final QuestState qs = player.getQuestStateList().getQuestState(questId);
 		if(targetId == 204206) //Cavalorn
 		{
-			if(qs.getStatus() == QuestStatus.START)
+			if((qs != null && qs.getStatus() == QuestStatus.START))
 			{
 				if(env.getDialogId() == 25)
 					return sendQuestDialog(player, env.getVisibleObject().getObjectId(), 1011);

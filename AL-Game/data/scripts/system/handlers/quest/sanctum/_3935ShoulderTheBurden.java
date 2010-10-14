@@ -150,9 +150,9 @@ public class _3935ShoulderTheBurden extends QuestHandler
 								return sendQuestDialog(player, env.getVisibleObject().getObjectId(), 2034);
 							// Get HACTION_CHECK_USER_HAS_QUEST_ITEM in the eddit-HyperLinks.xml
 							case 33:
-								if(player.getInventory().getItemCountByItemId(186000079) >= 30)
+								if(player.getInventory().getItemCountByItemId(186000078) >= 30)
 								{
-									player.getInventory().removeFromBagByItemId(186000079, 30);
+									player.getInventory().removeFromBagByItemId(186000078, 30);
 									qs.setQuestVarById(0, var + 1);
 									updateQuestStatus(player, qs);
 									// Send check_user_item_ok to eddit-HtmlPages.xml

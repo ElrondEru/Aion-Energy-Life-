@@ -529,10 +529,6 @@
 	<spawn map="120010000" npcid="730087" pool="1" interval="295">
 		<object x="1398.7372" y="1054.2858" z="206.77435" h="0"/>
 	</spawn>
-	<!-- Indicator Panel (Object Normal lvl:1)-->
-	<spawn map="120010000" npcid="700907" pool="1" interval="295">
-		<object x="1609.8197" y="1405.0029" z="193.12834" h="30"/>
-	</spawn>
 	<!-- Interesting Asmodae (Object Normal lvl:1)-->
 	<spawn map="120010000" npcid="730085" pool="1" interval="295">
 		<object x="1352.7966" y="1067.041" z="215.78258" h="25"/>

@@ -343,10 +343,6 @@
 	<spawn map="210010000" npcid="700083" pool="1" interval="295">
 		<object x="289.65" y="1017.06" z="132.02571" h="7"/>
 	</spawn>
-	<!-- Water Spirit (NPC Normal lvl:19)-->
-	<spawn map="210010000" npcid="201024" pool="1" interval="295">
-		<object x="817.429" y="1264.3271" z="119.162605" h="110"/>
-	</spawn>
 	<!-- Wine Barrel (Object Normal lvl:1)-->
 	<spawn map="210010000" npcid="700106" pool="12" interval="295">
 		<object x="624.92" y="872.5" z="103.25" h="95"/>
