@@ -49,7 +49,7 @@
 	<!-- To Fish in Peace -->
 	<monster_hunt start_npc_id="203072" id="1112">
 		<monster_infos npc_id="210259" var_id="0" max_kill="5"/>
-		<monster_infos npc_id="210660" var_id="0" max_kill="5"/>
+		<monster_infos npc_id="210260" var_id="0" max_kill="5"/>
 		<monster_infos npc_id="210065" var_id="1" max_kill="5"/>
 		<monster_infos npc_id="210066" var_id="1" max_kill="5"/>
 	</monster_hunt>
