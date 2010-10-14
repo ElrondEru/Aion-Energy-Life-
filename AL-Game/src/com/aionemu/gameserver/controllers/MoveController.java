@@ -201,16 +201,18 @@ public class MoveController
 
 			byte heading2 = (byte) (Math.toDegrees(Math.atan2(y2, x2))/3) ;
 
-			if(directionChanged)
+		if(directionChanged)
 			{
 				PacketSendUtility.broadcastPacket(owner, new SM_MOVE(owner.getObjectId(),	ownerX, ownerY, ownerZ,
 					(float) (x2 / 0.5) , (float) (y2 / 0.5) , 0 , heading2, MovementType.MOVEMENT_START_KEYBOARD));
 				directionChanged = false;
+				World.getInstance().updatePosition(owner, ownerX + x2, ownerY + y2, ownerZ + z2, heading2, true);
 			}
-
-			moveCounter++;
-			World.getInstance().updatePosition(owner, 
-				ownerX + x2, ownerY + y2, ownerZ + z2, heading2, moveCounter % 5 == 0);
+			else
+			{
+				World.getInstance().updatePosition(owner, ownerX + x2, ownerY + y2, ownerZ + z2, heading2, false);
+			}
+			
 		}
 		else
 		{
