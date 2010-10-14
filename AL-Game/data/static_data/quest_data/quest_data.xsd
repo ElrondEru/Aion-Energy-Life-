@@ -38,7 +38,7 @@
 		<xs:attribute name="race_permitted" type="Race"/>
 		<xs:attribute name="combineskill" type="xs:int"/>
 		<xs:attribute name="combine_skillpoint" type="xs:int"/>
-		<xs:attribute name="timer" type="xs:boolean" default="false"/>		
+		<xs:attribute name="timer" type="xs:boolean" default="false"/>
 	</xs:complexType>
 	<xs:complexType name="CollectItems">
 		<xs:sequence>

@@ -822,30 +822,30 @@
 			<xs:extension base="Effect">
 				<xs:attribute name="radius" type="xs:int"/>
 				<xs:attribute name="delta" type="xs:int"/>
-				<xs:attribute name="value" type="xs:int"/>			
+				<xs:attribute name="value" type="xs:int"/>
 			</xs:extension>
 		</xs:complexContent>
 	</xs:complexType>
 	<xs:complexType name="ReturnPointEffect">
 		<xs:complexContent>
-			<xs:extension base="Effect">		
+			<xs:extension base="Effect">
 			</xs:extension>
 		</xs:complexContent>
 	</xs:complexType>
 	<xs:complexType name="ProvokerEffect">
 		<xs:complexContent>
-			<xs:extension base="Effect">				
-				<xs:attribute name="prob2" type="xs:int"/>	
-				<xs:attribute name="prob1" type="xs:int"/>	
+			<xs:extension base="Effect">
+				<xs:attribute name="prob2" type="xs:int"/>
+				<xs:attribute name="prob1" type="xs:int"/>
 				<xs:attribute name="provoke_target" type="ProvokeTarget"/>
-				<xs:attribute name="provoke_type" type="ProvokeType"/>	
+				<xs:attribute name="provoke_type" type="ProvokeType"/>
 				<xs:attribute name="skill_id" type="xs:int"/>
 			</xs:extension>
 		</xs:complexContent>
 	</xs:complexType>
 	<xs:complexType name="SpellAtkDrainInstantEffect">
 		<xs:complexContent>
-			<xs:extension base="DamageEffect">				
+			<xs:extension base="DamageEffect">
 				<xs:attribute name="hp_percent" type="xs:int"/>
 				<xs:attribute name="mp_percent" type="xs:int"/>
 			</xs:extension>
@@ -853,8 +853,8 @@
 	</xs:complexType>
 	<xs:complexType name="SkillAtkDrainInstantEffect">
 		<xs:complexContent>
-			<xs:extension base="DamageEffect">				
-				<xs:attribute name="percent" type="xs:int"/>	
+			<xs:extension base="DamageEffect">
+				<xs:attribute name="percent" type="xs:int"/>
 				<xs:attribute name="heal_type" type="HealType"/>
 			</xs:extension>
 		</xs:complexContent>
@@ -869,7 +869,7 @@
 	<xs:complexType name="OneTimeBoostSkillAttackEffect">
 		<xs:complexContent>
 			<xs:extension base="Effect">
-				<xs:attribute name="count" type="xs:int"/>	
+				<xs:attribute name="count" type="xs:int"/>
 				<xs:attribute name="value" type="xs:int"/>
 				<xs:attribute name="type" type="skillType"/>
 			</xs:extension>
@@ -878,7 +878,7 @@
 	<xs:complexType name="OneTimeBoostSkillCriticalEffect">
 		<xs:complexContent>
 			<xs:extension base="BufEffect">
-				<xs:attribute name="count" type="xs:int"/>	
+				<xs:attribute name="count" type="xs:int"/>
 			</xs:extension>
 		</xs:complexContent>
 	</xs:complexType>
@@ -897,7 +897,7 @@
 	<xs:complexType name="RebirthEffect">
 		<xs:complexContent>
 			<xs:extension base="Effect">
-				<xs:attribute name="resurrect_percent" type="xs:int"/>	
+				<xs:attribute name="resurrect_percent" type="xs:int"/>
 			</xs:extension>
 		</xs:complexContent>
 	</xs:complexType>
@@ -1037,7 +1037,7 @@
 			<xs:enumeration value="NONE"/>
 			<xs:enumeration value="PC"/>
 		</xs:restriction>
-	</xs:simpleType>	
+	</xs:simpleType>
 	<xs:simpleType name="TargetAttribute">
 		<xs:restriction base="xs:string">
 			<xs:enumeration value="NPC"/>

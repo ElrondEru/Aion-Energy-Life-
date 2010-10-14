@@ -14,7 +14,7 @@
 			<xs:element name="item" minOccurs="0" maxOccurs="unbounded">
 				<xs:complexType>
 					<xs:attribute name="id" type="xs:int"/>
-				</xs:complexType>				
+				</xs:complexType>
 			</xs:element>
 		</xs:sequence>
 		<xs:attribute name="id" type="xs:int"/>

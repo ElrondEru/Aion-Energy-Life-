@@ -18,7 +18,7 @@
 		<xs:attribute name="successAdj" type="xs:int"/>
 		<xs:attribute name="harvestSkill" type="xs:int"/>
 		<xs:attribute name="skillLevel" type="xs:int"/>
-		<xs:attribute name="harvestCount" type="xs:int"/>	
+		<xs:attribute name="harvestCount" type="xs:int"/>
 		<xs:attribute name="sourceType" type="xs:string"/>
 		<xs:attribute name="nameId" type="xs:int"/>
 		<xs:attribute name="name" type="xs:string"/>

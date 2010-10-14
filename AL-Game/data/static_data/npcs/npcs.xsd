@@ -44,7 +44,7 @@
 				<xs:attribute name="mdef" type="xs:int" use="required"/>
 				<xs:attribute name="maxXp" type="xs:int" use="required"/>
 				<xs:attribute name="accuracy" type="xs:int" use="required"/>
-				<xs:attribute name="power" type="xs:int" use="required"/>			
+				<xs:attribute name="power" type="xs:int" use="required"/>
 			</xs:extension>
 		</xs:complexContent>
 	</xs:complexType>

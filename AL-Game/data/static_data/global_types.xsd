@@ -57,7 +57,7 @@
 			<xs:enumeration value="PC_ALL"/>
 			<xs:enumeration value="GOBLIN"/>
 			<xs:enumeration value="GENERAL"/>
-			<xs:enumeration value="NPC"/>			
+			<xs:enumeration value="NPC"/>
 		</xs:restriction>
 	</xs:simpleType>
 </xs:schema>

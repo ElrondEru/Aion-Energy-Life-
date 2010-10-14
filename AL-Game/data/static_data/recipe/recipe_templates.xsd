@@ -21,8 +21,8 @@
 		<xs:attribute name="quantity" type="xs:int"/>
 		<xs:attribute name="productid" type="xs:int"/>
 		<xs:attribute name="autolearn" type="xs:int"/>
-		<xs:attribute name="dp" type="xs:int"/>	
-		<xs:attribute name="skillpoint" type="xs:int"/>	
+		<xs:attribute name="dp" type="xs:int"/>
+		<xs:attribute name="skillpoint" type="xs:int"/>
 		<xs:attribute name="race" type="skillRace"/>
 		<xs:attribute name="skillid" type="xs:int"/>
 		<xs:attribute name="itemid" type="xs:int"/>

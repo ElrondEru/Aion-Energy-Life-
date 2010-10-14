@@ -20,7 +20,7 @@
 		</xs:sequence>
 		<xs:attribute name="name" type="xs:string"/>
 		<xs:attribute name="id" type="xs:int"/>
-	</xs:complexType>	
+	</xs:complexType>
 	<xs:complexType name="ItemPart">
 		<xs:attribute name="itemid" type="xs:int"/>
 	</xs:complexType>
