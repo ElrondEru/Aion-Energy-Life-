@@ -8,8 +8,8 @@
 	<teleloc_template loc_id="5" mapid="210020000" name="Eltnen" posX="343" posY="2724" posZ="264" heading="0"/>
 	<teleloc_template loc_id="6" mapid="210040000" name="Heiron" posX="2540" posY="343" posZ="411" heading="0"/>
 	<teleloc_template loc_id="81" mapid="210060000" name="Theobomos" posX="1398" posY="1557" posZ="31" heading="0"/>
-	<teleloc_template loc_id="24" mapid="110010000" name="LC1_Airport_SPOT_Bank" posX="1458.3" posY="1448.8" posZ="572.9" heading="0"/>
-	<teleloc_template loc_id="25" mapid="110010000" name="LC1_Airport_SPOT_Library" posX="1931.6" posY="1516.9" posZ="590.0" heading="0"/>
+	<teleloc_template loc_id="24" mapid="110010000" name="LC1_Airport_SPOT_Bank" posX="1460.6654" posY="1449.006" posZ="572.9" heading="0"/>
+	<teleloc_template loc_id="25" mapid="110010000" name="LC1_Airport_SPOT_Library" posX="1929.421" posY="1517.0503" posZ="590.02" heading="0"/>
     <teleloc_template loc_id="105" mapid="110010000" name="LC1_Airport_SPOT_Dock" posX="1817" posY="2157" posZ="527" heading="0"/>
     <teleloc_template loc_id="95" mapid="110010000" name="LC1_Airport_ZONE_Port" posX="1743.5588" posY="2059.158" posZ="518.0106" heading="0"/>
     <teleloc_template loc_id="96" mapid="210050000" name="LF4_Airport_ZONE" posX="1324.7362" posY="261.8812" posZ="591.36" heading="0"/>

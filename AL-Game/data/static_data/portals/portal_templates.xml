@@ -51,7 +51,7 @@
 	<!-- Aerolink To Sanctum -->
 	<portal npcid="730220" minlevel="50" maxlevel="55" group="false">
 		<entrypoint mapid="210050000" x="1324.0519" y="261.2691" z="591.3652"/>
-		<exitpoint mapid="110010000" x="1366.0005" y="1546.6322" z="569.0382"/>
+		<exitpoint mapid="110010000" x="1366.0005" y="1539.527" z="569.0382"/>
 	</portal>
 	<!-- Aerolink To Pandaemonium -->
 	<portal npcid="730221" minlevel="50" maxlevel="55" group="false">
@@ -68,7 +68,7 @@
 		<entrypoint mapid="300170000" x="1028.6996" y="314.83682" z="220.96474"/>
 		<exitpoint mapid="300170000" x="790.68585" y="319.889" z="220.89594"/>
 	</portal>
-	<!-- Beshmundir Temple (Macunbello) Exit -->
+	<!-- Beshmundir Temple (Macunbello) Exit -->s
 	<portal npcid="730276" instance="true" minlevel="55" maxlevel="55" group="true">
 		<entrypoint mapid="300170000" x="790.68585" y="319.889" z="220.89594"/>
 		<exitpoint mapid="300170000" x="1028.6996" y="314.83682" z="220.96474"/>
@@ -548,13 +548,13 @@
 	<!-- 1.9 ~ 2.0 PORTAL'S -->
 	<!-- Kaisinel Teleport -->
 	<portal npcid="730265" instance="false" minlevel="50" maxlevel="55" group="false">
-		<entrypoint mapid="110010000" x="1366.0005" y="1546.6322" z="569.0382"/>
-		<exitpoint mapid="110020000" x="2155.6" y="1566.9" z="1204.9"/>
+		<entrypoint mapid="110010000" x="1366.51" y="1539.527" z="569.0382"/>
+		<exitpoint mapid="110020000" x="2156.13" y="1568.13" z="1204.9"/>
 	</portal>
 	<!-- Sanctum Teleport -->
 	<portal npcid="730266" instance="false" minlevel="50" maxlevel="55" group="false">
 		<entrypoint mapid="110020000" x="2155.6" y="1566.9" z="1204.9"/>
-		<exitpoint mapid="110010000" x="1366.0005" y="1546.6322" z="569.0382"/>
+		<exitpoint mapid="110010000" x="1366.0005" y="1539.527" z="569.0382"/>
 	</portal>
 	<!-- Marchutan's Teleport -->
 	<portal npcid="730268" instance="false" minlevel="50" maxlevel="55" group="false">
