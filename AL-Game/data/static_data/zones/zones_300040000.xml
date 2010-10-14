@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<!-- Dark Poeta Author Destin ATracer -->
-<zones xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="zones.xsd">
+<!-- Dark Poeta 
+Author Destin ATracer 
+-->
+<zones>
 	<zone mapid="300040000" name="LABORATORY_OF_HEWAHEWA" priority="16">
 		<points bottom="0.1" top="300.1">
 			<point x="128.24" y="410.17"/>
