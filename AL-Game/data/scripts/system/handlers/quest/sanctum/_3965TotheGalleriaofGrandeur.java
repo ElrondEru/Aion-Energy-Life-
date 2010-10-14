@@ -89,10 +89,12 @@ public class _3965TotheGalleriaofGrandeur extends QuestHandler
 						qs.setQuestVar(++var);
 						updateQuestStatus(player, qs);
 					}
+					ItemService.addItems(player, Collections.singletonList(new QuestItems(182206120, 2)));
 					return true;
 				}
 				else
 					return defaultQuestStartDialog(env);
+					
 			}
 		}
 		else if(targetId == 798390)  // Palentine

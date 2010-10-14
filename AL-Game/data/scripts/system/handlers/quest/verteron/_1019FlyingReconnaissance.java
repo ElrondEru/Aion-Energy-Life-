@@ -23,6 +23,7 @@ import com.aionemu.gameserver.model.gameobjects.Item;
 import com.aionemu.gameserver.model.gameobjects.Npc;
 import com.aionemu.gameserver.model.gameobjects.player.Player;
 import com.aionemu.gameserver.model.templates.quest.QuestItems;
+import com.aionemu.gameserver.network.aion.serverpackets.SM_PLAY_MOVIE;
 import com.aionemu.gameserver.network.aion.serverpackets.SM_DIALOG_WINDOW;
 import com.aionemu.gameserver.network.aion.serverpackets.SM_EMOTION;
 import com.aionemu.gameserver.network.aion.serverpackets.SM_ITEM_USAGE_ANIMATION;
@@ -40,12 +41,11 @@ import com.aionemu.gameserver.utils.ThreadPoolManager;
 import com.aionemu.gameserver.world.zone.ZoneName;
 
 /**
- * @author Mr. Poke
+ * @author Mr. Poke edit Rice
  *
  */
 public class _1019FlyingReconnaissance extends QuestHandler
 {
-
 	private final static int	questId	= 1019;
 
 	public _1019FlyingReconnaissance()
@@ -57,14 +57,16 @@ public class _1019FlyingReconnaissance extends QuestHandler
 	public void register()
 	{
 		qe.addQuestLvlUp(questId);
-		qe.setNpcQuestData(203146).addOnTalkEvent(questId);
-		qe.setQuestEnterZone(ZoneName.TURSIN_OUTPOST).add(questId);
+		qe.setNpcQuestData(203146).addOnTalkEvent(questId);  		// estino
+		qe.setQuestEnterZone(ZoneName.TURSIN_OUTPOST).add(questId); 
 		qe.setNpcQuestData(203098).addOnTalkEvent(questId);
 		qe.setNpcQuestData(203147).addOnTalkEvent(questId);
 		qe.setNpcQuestData(210158).addOnAttackEvent(questId);
 		qe.setNpcQuestData(700037).addOnTalkEvent(questId);
 		qe.setQuestItemIds(182200023).add(questId);
-		qe.setNpcQuestData(210697).addOnKillEvent(questId);
+		qe.setNpcQuestData(210697).addOnKillEvent(questId);  // Ziloota the Seer
+		qe.setNpcQuestData(216891).addOnKillEvent(questId);  // adding the 2nd onKillEvent mob
+															 // High Priest Munuka 
 	}
 	
 	@Override
@@ -192,6 +194,8 @@ public class _1019FlyingReconnaissance extends QuestHandler
 		final QuestState qs = player.getQuestStateList().getQuestState(questId);
 		if(qs == null)
 			return false;
+		if(zoneName == ZoneName.TURSIN_OUTPOST_ENTRANCE)
+			PacketSendUtility.sendPacket(player, new SM_PLAY_MOVIE(0, 18));
 		if (qs.getQuestVarById(0) == 1)
 		{
 			qs.setQuestVarById(0, 2);
@@ -215,6 +219,7 @@ public class _1019FlyingReconnaissance extends QuestHandler
 			return false;
 		if (MathUtil.getDistance(env.getVisibleObject(), 1552.74f, 1160.36f, 114) < 6)
 		{
+			PacketSendUtility.sendPacket(player, new SM_PLAY_MOVIE(0, 13));
 			((Npc) env.getVisibleObject()).getController().onDie(null);
 			qs.setQuestVarById(0, qs.getQuestVarById(0) + 1);
 			updateQuestStatus(player, qs);
@@ -223,7 +228,7 @@ public class _1019FlyingReconnaissance extends QuestHandler
 	}
 
 	@Override
-	public boolean onItemUseEvent(QuestEnv env, Item item)
+	public boolean onItemUseEvent(QuestEnv env, final Item item)
 	{
 		final Player player = env.getPlayer();
 		final int id = item.getItemTemplate().getTemplateId();
@@ -265,18 +270,31 @@ public class _1019FlyingReconnaissance extends QuestHandler
 		int targetId = 0;
 		if(env.getVisibleObject() instanceof Npc)
 			targetId = ((Npc) env.getVisibleObject()).getNpcId();
-
-		if(targetId == 210697)
+		
+		if(targetId == 210158)
+		if(var == 1)
 		{
-			if(var == 10 )
-			{
-				qs.setStatus(QuestStatus.REWARD);
-				updateQuestStatus(player, qs);
-				return true;
-			}
+			PacketSendUtility.sendPacket(player, new SM_PLAY_MOVIE(0, 22));
+			qs.setStatus(QuestStatus.REWARD);
+			qs.setQuestVarById(0, qs.getQuestVarById(0) + 1);
+			updateQuestStatus(player, qs);
+		}	
+		
+		if(targetId == 210697 && var == 10)
+		{
+			qs.setStatus(QuestStatus.REWARD);
+			updateQuestStatus(player, qs);
+			return true;
+		}
+		if (targetId == 216891 && var ==10)
+		{
+			qs.setStatus(QuestStatus.REWARD);
+			updateQuestStatus(player, qs);
+			return true;
 		}
 		return false;
 	}
+	
 	@Override
 	public boolean onLvlUpEvent(QuestEnv env)
 	{
