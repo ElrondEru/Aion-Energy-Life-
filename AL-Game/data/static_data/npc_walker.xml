@@ -134,7 +134,7 @@
 			<routestep step="3" loc_x="308.08008" loc_y="157.1121" loc_z="126.7866" rest_time="0"/>
 		</routes>
 	</walker_template>
-	 	<!-- Lurking Bloodfist (Fire Temple)--> 
+		<!-- Lurking Bloodfist (Fire Temple)--> 
 	<walker_template route_id="15">
 		<routes>
 			<routestep step="1" loc_x="410.95706" loc_y="103.03791" loc_z="116.10972" rest_time="0"/>
@@ -994,1214 +994,1214 @@
 		</routes>
 	</walker_template>
 	<!--Alto, Porgus 1 (Verteron)--> 
- 	<walker_template route_id="52">
+	<walker_template route_id="52">
 		<routes>
 			<routestep step="1" loc_x="1283.3763" loc_y="2100.7202" loc_z="137.16397" rest_time="5"/> 
- 			<routestep step="2" loc_x="1314.2344" loc_y="2095.9429" loc_z="137.48535" rest_time="0"/> 
- 			<routestep step="3" loc_x="1346.3557" loc_y="2088.529" loc_z="137.875" rest_time="0"/> 
- 			<routestep step="4" loc_x="1379.0306" loc_y="2092.7744" loc_z="140.18942" rest_time="0"/> 
- 			<routestep step="5" loc_x="1384.1311" loc_y="2103.712" loc_z="139.8668" rest_time="0"/> 
- 			<routestep step="6" loc_x="1354.3384" loc_y="2129.16" loc_z="146.30135" rest_time="0"/> 
- 			<routestep step="7" loc_x="1334.5385" loc_y="2154.561" loc_z="143.90866" rest_time="0"/> 
- 			<routestep step="8" loc_x="1331.226" loc_y="2176.617" loc_z="143.58644" rest_time="0"/> 
- 			<routestep step="9" loc_x="1338.1643" loc_y="2200.0771" loc_z="142.99518" rest_time="0"/> 
- 			<routestep step="10" loc_x="1321.1665" loc_y="2216.8557" loc_z="140.19652" rest_time="0"/> 
- 			<routestep step="11" loc_x="1284.3673" loc_y="2232.6494" loc_z="142.41026" rest_time="0"/> 
- 			<routestep step="12" loc_x="1271.6451" loc_y="2235.559" loc_z="143.54974" rest_time="0"/> 
- 			<routestep step="13" loc_x="1261.3634" loc_y="2227.018" loc_z="144.875" rest_time="5"/> 
- 			<routestep step="14" loc_x="1271.6451" loc_y="2235.559" loc_z="143.54974" rest_time="0"/> 
- 			<routestep step="15" loc_x="1284.3673" loc_y="2232.6494" loc_z="142.41026" rest_time="0"/> 
- 			<routestep step="16" loc_x="1321.1665" loc_y="2216.8557" loc_z="140.19652" rest_time="0"/> 
- 			<routestep step="17" loc_x="1338.1643" loc_y="2200.0771" loc_z="142.99518" rest_time="0"/> 
- 			<routestep step="18" loc_x="1331.226" loc_y="2176.617" loc_z="143.58644" rest_time="0"/> 
- 			<routestep step="19" loc_x="1334.5385" loc_y="2154.561" loc_z="143.90866" rest_time="0"/> 
- 			<routestep step="20" loc_x="1354.3384" loc_y="2129.16" loc_z="146.30135" rest_time="0"/> 
- 			<routestep step="21" loc_x="1384.1311" loc_y="2103.712" loc_z="139.8668" rest_time="0"/> 
- 			<routestep step="22" loc_x="1379.0306" loc_y="2092.7744" loc_z="140.18942" rest_time="0"/> 
- 			<routestep step="23" loc_x="1346.3557" loc_y="2088.529" loc_z="137.875" rest_time="0"/> 
- 			<routestep step="24" loc_x="1314.2344" loc_y="2095.9429" loc_z="137.48535" rest_time="0"/> 
- 			<routestep step="25" loc_x="1283.3763" loc_y="2100.7202" loc_z="137.16397" rest_time="5"/> 
- 		</routes>
- 	</walker_template>
+			<routestep step="2" loc_x="1314.2344" loc_y="2095.9429" loc_z="137.48535" rest_time="0"/> 
+			<routestep step="3" loc_x="1346.3557" loc_y="2088.529" loc_z="137.875" rest_time="0"/> 
+			<routestep step="4" loc_x="1379.0306" loc_y="2092.7744" loc_z="140.18942" rest_time="0"/> 
+			<routestep step="5" loc_x="1384.1311" loc_y="2103.712" loc_z="139.8668" rest_time="0"/> 
+			<routestep step="6" loc_x="1354.3384" loc_y="2129.16" loc_z="146.30135" rest_time="0"/> 
+			<routestep step="7" loc_x="1334.5385" loc_y="2154.561" loc_z="143.90866" rest_time="0"/> 
+			<routestep step="8" loc_x="1331.226" loc_y="2176.617" loc_z="143.58644" rest_time="0"/> 
+			<routestep step="9" loc_x="1338.1643" loc_y="2200.0771" loc_z="142.99518" rest_time="0"/> 
+			<routestep step="10" loc_x="1321.1665" loc_y="2216.8557" loc_z="140.19652" rest_time="0"/> 
+			<routestep step="11" loc_x="1284.3673" loc_y="2232.6494" loc_z="142.41026" rest_time="0"/> 
+			<routestep step="12" loc_x="1271.6451" loc_y="2235.559" loc_z="143.54974" rest_time="0"/> 
+			<routestep step="13" loc_x="1261.3634" loc_y="2227.018" loc_z="144.875" rest_time="5"/> 
+			<routestep step="14" loc_x="1271.6451" loc_y="2235.559" loc_z="143.54974" rest_time="0"/> 
+			<routestep step="15" loc_x="1284.3673" loc_y="2232.6494" loc_z="142.41026" rest_time="0"/> 
+			<routestep step="16" loc_x="1321.1665" loc_y="2216.8557" loc_z="140.19652" rest_time="0"/> 
+			<routestep step="17" loc_x="1338.1643" loc_y="2200.0771" loc_z="142.99518" rest_time="0"/> 
+			<routestep step="18" loc_x="1331.226" loc_y="2176.617" loc_z="143.58644" rest_time="0"/> 
+			<routestep step="19" loc_x="1334.5385" loc_y="2154.561" loc_z="143.90866" rest_time="0"/> 
+			<routestep step="20" loc_x="1354.3384" loc_y="2129.16" loc_z="146.30135" rest_time="0"/> 
+			<routestep step="21" loc_x="1384.1311" loc_y="2103.712" loc_z="139.8668" rest_time="0"/> 
+			<routestep step="22" loc_x="1379.0306" loc_y="2092.7744" loc_z="140.18942" rest_time="0"/> 
+			<routestep step="23" loc_x="1346.3557" loc_y="2088.529" loc_z="137.875" rest_time="0"/> 
+			<routestep step="24" loc_x="1314.2344" loc_y="2095.9429" loc_z="137.48535" rest_time="0"/> 
+			<routestep step="25" loc_x="1283.3763" loc_y="2100.7202" loc_z="137.16397" rest_time="5"/> 
+		</routes>
+	</walker_template>
 	<!--Porgus 2 (Verteron)--> 
- 	<walker_template route_id="53">
- 		<routes>
- 			<routestep step="1" loc_x="1284.987" loc_y="2100.124" loc_z="137.125" rest_time="5"/> 
- 			<routestep step="2" loc_x="1316.0769" loc_y="2095.9321" loc_z="137.3702" rest_time="0"/> 
- 			<routestep step="3" loc_x="1348.2119" loc_y="2088.1873" loc_z="137.86176" rest_time="0"/> 
- 			<routestep step="4" loc_x="1380.4081" loc_y="2093.4312" loc_z="140.13504" rest_time="0"/> 
- 			<routestep step="5" loc_x="1382.6246" loc_y="2105.3064" loc_z="140.0426" rest_time="0"/> 
- 			<routestep step="6" loc_x="1352.9646" loc_y="2131.0864" loc_z="146.375" rest_time="0"/> 
- 			<routestep step="7" loc_x="1333.4702" loc_y="2156.7085" loc_z="143.88617" rest_time="0"/> 
- 			<routestep step="8" loc_x="1331.7527" loc_y="2178.831" loc_z="143.5" rest_time="0"/> 
- 			<routestep step="9" loc_x="1337.1909" loc_y="2201.695" loc_z="142.84349" rest_time="0"/> 
- 			<routestep step="10" loc_x="1319.3767" loc_y="2217.916" loc_z="140.0913" rest_time="0"/> 
- 			<routestep step="11" loc_x="1282.765" loc_y="2233.616" loc_z="142.65417" rest_time="0"/> 
- 			<routestep step="12" loc_x="1270.3842" loc_y="2234.1704" loc_z="143.80568" rest_time="0"/> 
- 			<routestep step="13" loc_x="1259.9296" loc_y="2226.369" loc_z="144.875" rest_time="5"/> 
- 			<routestep step="14" loc_x="1270.3842" loc_y="2234.1704" loc_z="143.80568" rest_time="0"/> 
- 			<routestep step="15" loc_x="1282.765" loc_y="2233.616" loc_z="142.65417" rest_time="0"/> 
- 			<routestep step="16" loc_x="1319.3767" loc_y="2217.916" loc_z="140.0913" rest_time="0"/> 
- 			<routestep step="17" loc_x="1337.1909" loc_y="2201.695" loc_z="142.84349" rest_time="0"/> 
- 			<routestep step="18" loc_x="1331.7527" loc_y="2178.831" loc_z="143.5" rest_time="0"/> 
- 			<routestep step="19" loc_x="1333.4702" loc_y="2156.7085" loc_z="143.88617" rest_time="0"/> 
- 			<routestep step="20" loc_x="1352.9646" loc_y="2131.0864" loc_z="146.375" rest_time="0"/> 
- 			<routestep step="21" loc_x="1382.6246" loc_y="2105.3064" loc_z="140.0426" rest_time="0"/> 
- 			<routestep step="22" loc_x="1380.4081" loc_y="2093.4312" loc_z="140.13504" rest_time="0"/> 
- 			<routestep step="23" loc_x="1348.2119" loc_y="2088.1873" loc_z="137.86176" rest_time="0"/> 
- 			<routestep step="24" loc_x="1316.0769" loc_y="2095.9321" loc_z="137.3702" rest_time="0"/> 
- 			<routestep step="25" loc_x="1284.987" loc_y="2100.124" loc_z="137.125" rest_time="5"/> 
- 		</routes>
- 	</walker_template>
+	<walker_template route_id="53">
+		<routes>
+			<routestep step="1" loc_x="1284.987" loc_y="2100.124" loc_z="137.125" rest_time="5"/> 
+			<routestep step="2" loc_x="1316.0769" loc_y="2095.9321" loc_z="137.3702" rest_time="0"/> 
+			<routestep step="3" loc_x="1348.2119" loc_y="2088.1873" loc_z="137.86176" rest_time="0"/> 
+			<routestep step="4" loc_x="1380.4081" loc_y="2093.4312" loc_z="140.13504" rest_time="0"/> 
+			<routestep step="5" loc_x="1382.6246" loc_y="2105.3064" loc_z="140.0426" rest_time="0"/> 
+			<routestep step="6" loc_x="1352.9646" loc_y="2131.0864" loc_z="146.375" rest_time="0"/> 
+			<routestep step="7" loc_x="1333.4702" loc_y="2156.7085" loc_z="143.88617" rest_time="0"/> 
+			<routestep step="8" loc_x="1331.7527" loc_y="2178.831" loc_z="143.5" rest_time="0"/> 
+			<routestep step="9" loc_x="1337.1909" loc_y="2201.695" loc_z="142.84349" rest_time="0"/> 
+			<routestep step="10" loc_x="1319.3767" loc_y="2217.916" loc_z="140.0913" rest_time="0"/> 
+			<routestep step="11" loc_x="1282.765" loc_y="2233.616" loc_z="142.65417" rest_time="0"/> 
+			<routestep step="12" loc_x="1270.3842" loc_y="2234.1704" loc_z="143.80568" rest_time="0"/> 
+			<routestep step="13" loc_x="1259.9296" loc_y="2226.369" loc_z="144.875" rest_time="5"/> 
+			<routestep step="14" loc_x="1270.3842" loc_y="2234.1704" loc_z="143.80568" rest_time="0"/> 
+			<routestep step="15" loc_x="1282.765" loc_y="2233.616" loc_z="142.65417" rest_time="0"/> 
+			<routestep step="16" loc_x="1319.3767" loc_y="2217.916" loc_z="140.0913" rest_time="0"/> 
+			<routestep step="17" loc_x="1337.1909" loc_y="2201.695" loc_z="142.84349" rest_time="0"/> 
+			<routestep step="18" loc_x="1331.7527" loc_y="2178.831" loc_z="143.5" rest_time="0"/> 
+			<routestep step="19" loc_x="1333.4702" loc_y="2156.7085" loc_z="143.88617" rest_time="0"/> 
+			<routestep step="20" loc_x="1352.9646" loc_y="2131.0864" loc_z="146.375" rest_time="0"/> 
+			<routestep step="21" loc_x="1382.6246" loc_y="2105.3064" loc_z="140.0426" rest_time="0"/> 
+			<routestep step="22" loc_x="1380.4081" loc_y="2093.4312" loc_z="140.13504" rest_time="0"/> 
+			<routestep step="23" loc_x="1348.2119" loc_y="2088.1873" loc_z="137.86176" rest_time="0"/> 
+			<routestep step="24" loc_x="1316.0769" loc_y="2095.9321" loc_z="137.3702" rest_time="0"/> 
+			<routestep step="25" loc_x="1284.987" loc_y="2100.124" loc_z="137.125" rest_time="5"/> 
+		</routes>
+	</walker_template>
 	<!-- Porgus 3 (Verteron)--> 
- 	<walker_template route_id="54">
- 		<routes>
- 			<routestep step="1" loc_x="1282.9573" loc_y="2099.357" loc_z="137.29553" rest_time="5"/> 
- 			<routestep step="2" loc_x="1313.781" loc_y="2095.0054" loc_z="137.51369" rest_time="0"/> 
- 			<routestep step="3" loc_x="1345.5201" loc_y="2087.6946" loc_z="137.85591" rest_time="0"/> 
- 			<routestep step="4" loc_x="1378.1561" loc_y="2091.468" loc_z="140.1915" rest_time="0"/> 
- 			<routestep step="5" loc_x="1385.487" loc_y="2103.0261" loc_z="139.81413" rest_time="0"/> 
- 			<routestep step="6" loc_x="1355.6451" loc_y="2129.697" loc_z="146.25323" rest_time="0"/> 
- 			<routestep step="7" loc_x="1335.8325" loc_y="2154.7463" loc_z="143.98953" rest_time="0"/> 
- 			<routestep step="8" loc_x="1332.162" loc_y="2176.041" loc_z="143.63257" rest_time="0"/> 
- 			<routestep step="9" loc_x="1339.0138" loc_y="2199.974" loc_z="143.00162" rest_time="0"/> 
- 			<routestep step="10" loc_x="1321.8599" loc_y="2217.7222" loc_z="140.14236" rest_time="0"/> 
- 			<routestep step="11" loc_x="1284.657" loc_y="2233.27" loc_z="142.45163" rest_time="0"/> 
- 			<routestep step="12" loc_x="1270.669" loc_y="2236.0085" loc_z="143.58212" rest_time="0"/> 
- 			<routestep step="13" loc_x="1260.9227" loc_y="2227.7336" loc_z="144.875" rest_time="5"/> 
- 			<routestep step="14" loc_x="1270.669" loc_y="2236.0085" loc_z="143.58212" rest_time="0"/> 
- 			<routestep step="15" loc_x="1284.657" loc_y="2233.27" loc_z="142.45163" rest_time="0"/> 
- 			<routestep step="16" loc_x="1321.8599" loc_y="2217.7222" loc_z="140.14236" rest_time="0"/> 
- 			<routestep step="17" loc_x="1339.0138" loc_y="2199.974" loc_z="143.00162" rest_time="0"/> 
- 			<routestep step="18" loc_x="1332.162" loc_y="2176.041" loc_z="143.63257" rest_time="0"/> 
- 			<routestep step="19" loc_x="1335.8325" loc_y="2154.7463" loc_z="143.98953" rest_time="0"/> 
- 			<routestep step="20" loc_x="1355.6451" loc_y="2129.697" loc_z="146.25323" rest_time="0"/> 
- 			<routestep step="21" loc_x="1385.487" loc_y="2103.0261" loc_z="139.81413" rest_time="0"/> 
- 			<routestep step="22" loc_x="1378.1561" loc_y="2091.468" loc_z="140.1915" rest_time="0"/> 
- 			<routestep step="23" loc_x="1345.5201" loc_y="2087.6946" loc_z="137.85591" rest_time="0"/> 
- 			<routestep step="24" loc_x="1313.781" loc_y="2095.0054" loc_z="137.51369" rest_time="0"/> 
- 			<routestep step="25" loc_x="1282.9573" loc_y="2099.357" loc_z="137.29553" rest_time="5"/> 
- 		</routes>
+	<walker_template route_id="54">
+		<routes>
+			<routestep step="1" loc_x="1282.9573" loc_y="2099.357" loc_z="137.29553" rest_time="5"/> 
+			<routestep step="2" loc_x="1313.781" loc_y="2095.0054" loc_z="137.51369" rest_time="0"/> 
+			<routestep step="3" loc_x="1345.5201" loc_y="2087.6946" loc_z="137.85591" rest_time="0"/> 
+			<routestep step="4" loc_x="1378.1561" loc_y="2091.468" loc_z="140.1915" rest_time="0"/> 
+			<routestep step="5" loc_x="1385.487" loc_y="2103.0261" loc_z="139.81413" rest_time="0"/> 
+			<routestep step="6" loc_x="1355.6451" loc_y="2129.697" loc_z="146.25323" rest_time="0"/> 
+			<routestep step="7" loc_x="1335.8325" loc_y="2154.7463" loc_z="143.98953" rest_time="0"/> 
+			<routestep step="8" loc_x="1332.162" loc_y="2176.041" loc_z="143.63257" rest_time="0"/> 
+			<routestep step="9" loc_x="1339.0138" loc_y="2199.974" loc_z="143.00162" rest_time="0"/> 
+			<routestep step="10" loc_x="1321.8599" loc_y="2217.7222" loc_z="140.14236" rest_time="0"/> 
+			<routestep step="11" loc_x="1284.657" loc_y="2233.27" loc_z="142.45163" rest_time="0"/> 
+			<routestep step="12" loc_x="1270.669" loc_y="2236.0085" loc_z="143.58212" rest_time="0"/> 
+			<routestep step="13" loc_x="1260.9227" loc_y="2227.7336" loc_z="144.875" rest_time="5"/> 
+			<routestep step="14" loc_x="1270.669" loc_y="2236.0085" loc_z="143.58212" rest_time="0"/> 
+			<routestep step="15" loc_x="1284.657" loc_y="2233.27" loc_z="142.45163" rest_time="0"/> 
+			<routestep step="16" loc_x="1321.8599" loc_y="2217.7222" loc_z="140.14236" rest_time="0"/> 
+			<routestep step="17" loc_x="1339.0138" loc_y="2199.974" loc_z="143.00162" rest_time="0"/> 
+			<routestep step="18" loc_x="1332.162" loc_y="2176.041" loc_z="143.63257" rest_time="0"/> 
+			<routestep step="19" loc_x="1335.8325" loc_y="2154.7463" loc_z="143.98953" rest_time="0"/> 
+			<routestep step="20" loc_x="1355.6451" loc_y="2129.697" loc_z="146.25323" rest_time="0"/> 
+			<routestep step="21" loc_x="1385.487" loc_y="2103.0261" loc_z="139.81413" rest_time="0"/> 
+			<routestep step="22" loc_x="1378.1561" loc_y="2091.468" loc_z="140.1915" rest_time="0"/> 
+			<routestep step="23" loc_x="1345.5201" loc_y="2087.6946" loc_z="137.85591" rest_time="0"/> 
+			<routestep step="24" loc_x="1313.781" loc_y="2095.0054" loc_z="137.51369" rest_time="0"/> 
+			<routestep step="25" loc_x="1282.9573" loc_y="2099.357" loc_z="137.29553" rest_time="5"/> 
+		</routes>
 	</walker_template>
 	<!-- Beris (Verteron)--> 
- 	<walker_template route_id="55">
- 		<routes>
- 			<routestep step="1" loc_x="1329.0956" loc_y="2183.046" loc_z="143.5" rest_time="0"/> 
- 			<routestep step="2" loc_x="1313.7594" loc_y="2180.244" loc_z="144.88983" rest_time="0"/> 
- 			<routestep step="3" loc_x="1302.1941" loc_y="2174.03" loc_z="148.58298" rest_time="0"/> 
- 			<routestep step="4" loc_x="1313.7594" loc_y="2180.244" loc_z="144.88983" rest_time="0"/> 
- 			<routestep step="5" loc_x="1329.0956" loc_y="2183.046" loc_z="143.5" rest_time="0"/> 
- 		</routes>
+	<walker_template route_id="55">
+		<routes>
+			<routestep step="1" loc_x="1329.0956" loc_y="2183.046" loc_z="143.5" rest_time="0"/> 
+			<routestep step="2" loc_x="1313.7594" loc_y="2180.244" loc_z="144.88983" rest_time="0"/> 
+			<routestep step="3" loc_x="1302.1941" loc_y="2174.03" loc_z="148.58298" rest_time="0"/> 
+			<routestep step="4" loc_x="1313.7594" loc_y="2180.244" loc_z="144.88983" rest_time="0"/> 
+			<routestep step="5" loc_x="1329.0956" loc_y="2183.046" loc_z="143.5" rest_time="0"/> 
+		</routes>
 	</walker_template>
 	<!-- Naia (Verteron)--> 
- 	<walker_template route_id="56">
- 		<routes>
- 			<routestep step="1" loc_x="1279.3477" loc_y="2236.2747" loc_z="143.04077" rest_time="0"/> 
- 			<routestep step="2" loc_x="1271.3844" loc_y="2219.29" loc_z="144.6132" rest_time="0"/> 
- 			<routestep step="3" loc_x="1265.5125" loc_y="2211.6436" loc_z="145.51097" rest_time="0"/> 
- 			<routestep step="4" loc_x="1260.3347" loc_y="2203.1968" loc_z="148.3258" rest_time="0"/> 
- 			<routestep step="5" loc_x="1265.5125" loc_y="2211.6436" loc_z="145.51097" rest_time="0"/> 
- 			<routestep step="6" loc_x="1271.3844" loc_y="2219.29" loc_z="144.6132" rest_time="0"/> 
- 			<routestep step="7" loc_x="1279.3477" loc_y="2236.2747" loc_z="143.04077" rest_time="0"/> 
- 		</routes>
+	<walker_template route_id="56">
+		<routes>
+			<routestep step="1" loc_x="1279.3477" loc_y="2236.2747" loc_z="143.04077" rest_time="0"/> 
+			<routestep step="2" loc_x="1271.3844" loc_y="2219.29" loc_z="144.6132" rest_time="0"/> 
+			<routestep step="3" loc_x="1265.5125" loc_y="2211.6436" loc_z="145.51097" rest_time="0"/> 
+			<routestep step="4" loc_x="1260.3347" loc_y="2203.1968" loc_z="148.3258" rest_time="0"/> 
+			<routestep step="5" loc_x="1265.5125" loc_y="2211.6436" loc_z="145.51097" rest_time="0"/> 
+			<routestep step="6" loc_x="1271.3844" loc_y="2219.29" loc_z="144.6132" rest_time="0"/> 
+			<routestep step="7" loc_x="1279.3477" loc_y="2236.2747" loc_z="143.04077" rest_time="0"/> 
+		</routes>
 	</walker_template>
 	<!-- Lusis (Verteron)--> 
- 	<walker_template route_id="57">
- 		<routes>
- 			<routestep step="1" loc_x="1247.2599" loc_y="2272.1125" loc_z="142.91452" rest_time="0"/> 
- 			<routestep step="2" loc_x="1251.6672" loc_y="2261.07" loc_z="142.55812" rest_time="0"/> 
- 			<routestep step="3" loc_x="1259.8276" loc_y="2254.3928" loc_z="142.5" rest_time="0"/> 
- 			<routestep step="4" loc_x="1251.6672" loc_y="2261.07" loc_z="142.55812" rest_time="0"/> 
- 			<routestep step="5" loc_x="1247.2599" loc_y="2272.1125" loc_z="142.91452" rest_time="0"/> 
- 		</routes>
+	<walker_template route_id="57">
+		<routes>
+			<routestep step="1" loc_x="1247.2599" loc_y="2272.1125" loc_z="142.91452" rest_time="0"/> 
+			<routestep step="2" loc_x="1251.6672" loc_y="2261.07" loc_z="142.55812" rest_time="0"/> 
+			<routestep step="3" loc_x="1259.8276" loc_y="2254.3928" loc_z="142.5" rest_time="0"/> 
+			<routestep step="4" loc_x="1251.6672" loc_y="2261.07" loc_z="142.55812" rest_time="0"/> 
+			<routestep step="5" loc_x="1247.2599" loc_y="2272.1125" loc_z="142.91452" rest_time="0"/> 
+		</routes>
 	</walker_template>
 	<!-- Spiro (Verteron)--> 
- 	<walker_template route_id="58">
- 		<routes>
- 			<routestep step="1" loc_x="1687.6349" loc_y="1483.3033" loc_z="121.5868" rest_time="20"/> 
- 			<routestep step="2" loc_x="1691.1996" loc_y="1494.4705" loc_z="121.32425" rest_time="0"/> 
- 			<routestep step="3" loc_x="1687.9252" loc_y="1500.6232" loc_z="120.8782" rest_time="0"/> 
- 			<routestep step="4" loc_x="1683.6145" loc_y="1500.8512" loc_z="120.13981" rest_time="0"/> 
- 			<routestep step="5" loc_x="1675.911" loc_y="1505.4641" loc_z="119.125" rest_time="0"/> 
- 			<routestep step="6" loc_x="1665.0492" loc_y="1504.2397" loc_z="118.875" rest_time="0"/> 
- 			<routestep step="7" loc_x="1660.956" loc_y="1490.5597" loc_z="119.25" rest_time="0"/> 
- 			<routestep step="8" loc_x="1664.4944" loc_y="1482.562" loc_z="119.68836" rest_time="0"/> 
- 			<routestep step="9" loc_x="1668.7614" loc_y="1481.0256" loc_z="120.23602" rest_time="0"/> 
- 			<routestep step="10" loc_x="1673.6757" loc_y="1475.7534" loc_z="121.33666" rest_time="0"/> 
- 			<routestep step="11" loc_x="1681.1708" loc_y="1477.7786" loc_z="121.40387" rest_time="0"/> 
- 			<routestep step="12" loc_x="1687.6349" loc_y="1483.3033" loc_z="121.5868" rest_time="20"/> 
- 		</routes>
+	<walker_template route_id="58">
+		<routes>
+			<routestep step="1" loc_x="1687.6349" loc_y="1483.3033" loc_z="121.5868" rest_time="20"/> 
+			<routestep step="2" loc_x="1691.1996" loc_y="1494.4705" loc_z="121.32425" rest_time="0"/> 
+			<routestep step="3" loc_x="1687.9252" loc_y="1500.6232" loc_z="120.8782" rest_time="0"/> 
+			<routestep step="4" loc_x="1683.6145" loc_y="1500.8512" loc_z="120.13981" rest_time="0"/> 
+			<routestep step="5" loc_x="1675.911" loc_y="1505.4641" loc_z="119.125" rest_time="0"/> 
+			<routestep step="6" loc_x="1665.0492" loc_y="1504.2397" loc_z="118.875" rest_time="0"/> 
+			<routestep step="7" loc_x="1660.956" loc_y="1490.5597" loc_z="119.25" rest_time="0"/> 
+			<routestep step="8" loc_x="1664.4944" loc_y="1482.562" loc_z="119.68836" rest_time="0"/> 
+			<routestep step="9" loc_x="1668.7614" loc_y="1481.0256" loc_z="120.23602" rest_time="0"/> 
+			<routestep step="10" loc_x="1673.6757" loc_y="1475.7534" loc_z="121.33666" rest_time="0"/> 
+			<routestep step="11" loc_x="1681.1708" loc_y="1477.7786" loc_z="121.40387" rest_time="0"/> 
+			<routestep step="12" loc_x="1687.6349" loc_y="1483.3033" loc_z="121.5868" rest_time="20"/> 
+		</routes>
 	</walker_template>
 	<!-- Aremine (Verteron)--> 
- 	<walker_template route_id="59">
- 		<routes>
- 			<routestep step="1" loc_x="1664.4967" loc_y="1499.9943" loc_z="118.875" rest_time="5"/> 
- 			<routestep step="2" loc_x="1661.8749" loc_y="1502.1238" loc_z="118.88282" rest_time="0"/> 
- 			<routestep step="3" loc_x="1653.2274" loc_y="1508.7634" loc_z="119.04829" rest_time="0"/> 
- 			<routestep step="4" loc_x="1641.8856" loc_y="1517.4712" loc_z="119.5" rest_time="0"/> 
- 			<routestep step="5" loc_x="1627.458" loc_y="1528.5481" loc_z="120.0" rest_time="5"/> 
- 			<routestep step="6" loc_x="1641.8856" loc_y="1517.4712" loc_z="119.5" rest_time="0"/> 
- 			<routestep step="7" loc_x="1653.2274" loc_y="1508.7634" loc_z="119.04829" rest_time="0"/> 
- 			<routestep step="8" loc_x="1661.8749" loc_y="1502.1238" loc_z="118.88282" rest_time="0"/> 
- 			<routestep step="9" loc_x="1664.4967" loc_y="1499.9943" loc_z="118.875" rest_time="5"/> 
- 		</routes>
+	<walker_template route_id="59">
+		<routes>
+			<routestep step="1" loc_x="1664.4967" loc_y="1499.9943" loc_z="118.875" rest_time="5"/> 
+			<routestep step="2" loc_x="1661.8749" loc_y="1502.1238" loc_z="118.88282" rest_time="0"/> 
+			<routestep step="3" loc_x="1653.2274" loc_y="1508.7634" loc_z="119.04829" rest_time="0"/> 
+			<routestep step="4" loc_x="1641.8856" loc_y="1517.4712" loc_z="119.5" rest_time="0"/> 
+			<routestep step="5" loc_x="1627.458" loc_y="1528.5481" loc_z="120.0" rest_time="5"/> 
+			<routestep step="6" loc_x="1641.8856" loc_y="1517.4712" loc_z="119.5" rest_time="0"/> 
+			<routestep step="7" loc_x="1653.2274" loc_y="1508.7634" loc_z="119.04829" rest_time="0"/> 
+			<routestep step="8" loc_x="1661.8749" loc_y="1502.1238" loc_z="118.88282" rest_time="0"/> 
+			<routestep step="9" loc_x="1664.4967" loc_y="1499.9943" loc_z="118.875" rest_time="5"/> 
+		</routes>
 	</walker_template>
 	<!-- Malonimus (Eltnen)--> 
- 	<walker_template route_id="61">
- 		<routes>
- 			<routestep step="1" loc_x="289.56946" loc_y="2748.8223" loc_z="263.49844" rest_time="5"/> 
- 			<routestep step="2" loc_x="294.22366" loc_y="2767.2087" loc_z="263.52408" rest_time="0"/> 
- 			<routestep step="3" loc_x="297.34515" loc_y="2764.3948" loc_z="263.52408" rest_time="0"/> 
- 			<routestep step="4" loc_x="302.86032" loc_y="2759.6758" loc_z="263.52408" rest_time="0"/> 
- 			<routestep step="5" loc_x="309.5009" loc_y="2753.994" loc_z="263.52408" rest_time="0"/> 
- 			<routestep step="6" loc_x="314.89084" loc_y="2749.3809" loc_z="263.52408" rest_time="0"/> 
- 			<routestep step="7" loc_x="321.08636" loc_y="2744.0798" loc_z="263.51578" rest_time="0"/> 
- 			<routestep step="8" loc_x="327.66898" loc_y="2738.4475" loc_z="263.50854" rest_time="3"/> 
- 			<routestep step="9" loc_x="321.08636" loc_y="2744.0798" loc_z="263.51578" rest_time="0"/> 
- 			<routestep step="10" loc_x="314.89084" loc_y="2749.3809" loc_z="263.52408" rest_time="0"/> 
- 			<routestep step="11" loc_x="309.5009" loc_y="2753.994" loc_z="263.52408" rest_time="0"/> 
- 			<routestep step="12" loc_x="302.86032" loc_y="2759.6758" loc_z="263.52408" rest_time="0"/> 
- 			<routestep step="13" loc_x="297.34515" loc_y="2764.3948" loc_z="263.52408" rest_time="0"/> 
- 			<routestep step="14" loc_x="294.22366" loc_y="2767.2087" loc_z="263.52408" rest_time="0"/> 
- 			<routestep step="15" loc_x="289.56946" loc_y="2748.8223" loc_z="263.49844" rest_time="5"/> 
- 		</routes>
+	<walker_template route_id="61">
+		<routes>
+			<routestep step="1" loc_x="289.56946" loc_y="2748.8223" loc_z="263.49844" rest_time="5"/> 
+			<routestep step="2" loc_x="294.22366" loc_y="2767.2087" loc_z="263.52408" rest_time="0"/> 
+			<routestep step="3" loc_x="297.34515" loc_y="2764.3948" loc_z="263.52408" rest_time="0"/> 
+			<routestep step="4" loc_x="302.86032" loc_y="2759.6758" loc_z="263.52408" rest_time="0"/> 
+			<routestep step="5" loc_x="309.5009" loc_y="2753.994" loc_z="263.52408" rest_time="0"/> 
+			<routestep step="6" loc_x="314.89084" loc_y="2749.3809" loc_z="263.52408" rest_time="0"/> 
+			<routestep step="7" loc_x="321.08636" loc_y="2744.0798" loc_z="263.51578" rest_time="0"/> 
+			<routestep step="8" loc_x="327.66898" loc_y="2738.4475" loc_z="263.50854" rest_time="3"/> 
+			<routestep step="9" loc_x="321.08636" loc_y="2744.0798" loc_z="263.51578" rest_time="0"/> 
+			<routestep step="10" loc_x="314.89084" loc_y="2749.3809" loc_z="263.52408" rest_time="0"/> 
+			<routestep step="11" loc_x="309.5009" loc_y="2753.994" loc_z="263.52408" rest_time="0"/> 
+			<routestep step="12" loc_x="302.86032" loc_y="2759.6758" loc_z="263.52408" rest_time="0"/> 
+			<routestep step="13" loc_x="297.34515" loc_y="2764.3948" loc_z="263.52408" rest_time="0"/> 
+			<routestep step="14" loc_x="294.22366" loc_y="2767.2087" loc_z="263.52408" rest_time="0"/> 
+			<routestep step="15" loc_x="289.56946" loc_y="2748.8223" loc_z="263.49844" rest_time="5"/> 
+		</routes>
 	</walker_template>
- 	<!-- Hegemene (Eltnen)-->
+	<!-- Hegemene (Eltnen)-->
 	<walker_template route_id="62">
- 		<routes>
- 			<routestep step="1" loc_x="290.5698" loc_y="2747.9036" loc_z="263.49844" rest_time="0"/> 
- 			<routestep step="2" loc_x="296.54202" loc_y="2742.6929" loc_z="263.49844" rest_time="0"/> 
- 			<routestep step="3" loc_x="300.41052" loc_y="2739.5034" loc_z="263.49844" rest_time="0"/> 
- 			<routestep step="4" loc_x="292.19394" loc_y="2729.7283" loc_z="265.62204" rest_time="0"/> 
- 			<routestep step="5" loc_x="287.01782" loc_y="2724.629" loc_z="267.06516" rest_time="0"/> 
- 			<routestep step="6" loc_x="282.41022" loc_y="2728.941" loc_z="267.06516" rest_time="0"/> 
- 			<routestep step="7" loc_x="288.29605" loc_y="2736.51" loc_z="269.77298" rest_time="0"/> 
- 			<routestep step="8" loc_x="293.64444" loc_y="2743.0728" loc_z="270.45584" rest_time="0"/> 
- 			<routestep step="9" loc_x="283.73297" loc_y="2753.4304" loc_z="270.45584" rest_time="0"/> 
- 			<routestep step="10" loc_x="293.64444" loc_y="2743.0728" loc_z="270.45584" rest_time="0"/> 
- 			<routestep step="11" loc_x="288.29605" loc_y="2736.51" loc_z="269.77298" rest_time="0"/> 
- 			<routestep step="12" loc_x="282.41022" loc_y="2728.941" loc_z="267.06516" rest_time="0"/> 
- 			<routestep step="13" loc_x="287.01782" loc_y="2724.629" loc_z="267.06516" rest_time="0"/> 
- 			<routestep step="14" loc_x="292.19394" loc_y="2729.7283" loc_z="265.62204" rest_time="0"/> 
- 			<routestep step="15" loc_x="300.41052" loc_y="2739.5034" loc_z="263.49844" rest_time="0"/> 
- 			<routestep step="16" loc_x="296.54202" loc_y="2742.6929" loc_z="263.49844" rest_time="0"/> 
- 			<routestep step="17" loc_x="290.5698" loc_y="2747.9036" loc_z="263.49844" rest_time="0"/> 
- 		</routes>
+		<routes>
+			<routestep step="1" loc_x="290.5698" loc_y="2747.9036" loc_z="263.49844" rest_time="0"/> 
+			<routestep step="2" loc_x="296.54202" loc_y="2742.6929" loc_z="263.49844" rest_time="0"/> 
+			<routestep step="3" loc_x="300.41052" loc_y="2739.5034" loc_z="263.49844" rest_time="0"/> 
+			<routestep step="4" loc_x="292.19394" loc_y="2729.7283" loc_z="265.62204" rest_time="0"/> 
+			<routestep step="5" loc_x="287.01782" loc_y="2724.629" loc_z="267.06516" rest_time="0"/> 
+			<routestep step="6" loc_x="282.41022" loc_y="2728.941" loc_z="267.06516" rest_time="0"/> 
+			<routestep step="7" loc_x="288.29605" loc_y="2736.51" loc_z="269.77298" rest_time="0"/> 
+			<routestep step="8" loc_x="293.64444" loc_y="2743.0728" loc_z="270.45584" rest_time="0"/> 
+			<routestep step="9" loc_x="283.73297" loc_y="2753.4304" loc_z="270.45584" rest_time="0"/> 
+			<routestep step="10" loc_x="293.64444" loc_y="2743.0728" loc_z="270.45584" rest_time="0"/> 
+			<routestep step="11" loc_x="288.29605" loc_y="2736.51" loc_z="269.77298" rest_time="0"/> 
+			<routestep step="12" loc_x="282.41022" loc_y="2728.941" loc_z="267.06516" rest_time="0"/> 
+			<routestep step="13" loc_x="287.01782" loc_y="2724.629" loc_z="267.06516" rest_time="0"/> 
+			<routestep step="14" loc_x="292.19394" loc_y="2729.7283" loc_z="265.62204" rest_time="0"/> 
+			<routestep step="15" loc_x="300.41052" loc_y="2739.5034" loc_z="263.49844" rest_time="0"/> 
+			<routestep step="16" loc_x="296.54202" loc_y="2742.6929" loc_z="263.49844" rest_time="0"/> 
+			<routestep step="17" loc_x="290.5698" loc_y="2747.9036" loc_z="263.49844" rest_time="0"/> 
+		</routes>
 	</walker_template>
 	<!-- Pallas (Eltnen)--> 
- 	<walker_template route_id="63">
- 		<routes>
- 			<routestep step="1" loc_x="311.05518" loc_y="2763.1216" loc_z="263.49844" rest_time="5"/> 
- 			<routestep step="2" loc_x="317.16095" loc_y="2770.2793" loc_z="263.49844" rest_time="0"/> 
- 			<routestep step="3" loc_x="306.20474" loc_y="2779.409" loc_z="263.49844" rest_time="0"/> 
- 			<routestep step="4" loc_x="313.31116" loc_y="2787.7263" loc_z="263.4901" rest_time="0"/> 
- 			<routestep step="5" loc_x="319.154" loc_y="2794.5547" loc_z="263.4901" rest_time="5"/> 
- 			<routestep step="6" loc_x="313.31116" loc_y="2787.7263" loc_z="263.4901" rest_time="0"/> 
- 			<routestep step="7" loc_x="306.20474" loc_y="2779.409" loc_z="263.49844" rest_time="0"/> 
- 			<routestep step="8" loc_x="317.16095" loc_y="2770.2793" loc_z="263.49844" rest_time="0"/> 
- 			<routestep step="9" loc_x="311.05518" loc_y="2763.1216" loc_z="263.49844" rest_time="5"/> 
- 		</routes>
+	<walker_template route_id="63">
+		<routes>
+			<routestep step="1" loc_x="311.05518" loc_y="2763.1216" loc_z="263.49844" rest_time="5"/> 
+			<routestep step="2" loc_x="317.16095" loc_y="2770.2793" loc_z="263.49844" rest_time="0"/> 
+			<routestep step="3" loc_x="306.20474" loc_y="2779.409" loc_z="263.49844" rest_time="0"/> 
+			<routestep step="4" loc_x="313.31116" loc_y="2787.7263" loc_z="263.4901" rest_time="0"/> 
+			<routestep step="5" loc_x="319.154" loc_y="2794.5547" loc_z="263.4901" rest_time="5"/> 
+			<routestep step="6" loc_x="313.31116" loc_y="2787.7263" loc_z="263.4901" rest_time="0"/> 
+			<routestep step="7" loc_x="306.20474" loc_y="2779.409" loc_z="263.49844" rest_time="0"/> 
+			<routestep step="8" loc_x="317.16095" loc_y="2770.2793" loc_z="263.49844" rest_time="0"/> 
+			<routestep step="9" loc_x="311.05518" loc_y="2763.1216" loc_z="263.49844" rest_time="5"/> 
+		</routes>
 	</walker_template>
 	<!-- Defense Commander (Eltnen)--> 
- 	<walker_template route_id="64">
- 		<routes>
- 			<routestep step="1" loc_x="264.92972" loc_y="2793.0671" loc_z="272.47702" rest_time="0"/> 
- 			<routestep step="2" loc_x="270.64917" loc_y="2788.0742" loc_z="272.477" rest_time="0"/> 
- 			<routestep step="3" loc_x="278.0744" loc_y="2781.5908" loc_z="272.477" rest_time="0"/> 
- 			<routestep step="4" loc_x="285.33853" loc_y="2775.249" loc_z="272.4496" rest_time="0"/> 
- 			<routestep step="5" loc_x="278.0744" loc_y="2781.5908" loc_z="272.477" rest_time="0"/> 
- 			<routestep step="6" loc_x="270.64917" loc_y="2788.0742" loc_z="272.477" rest_time="0"/> 
- 			<routestep step="7" loc_x="264.92972" loc_y="2793.0671" loc_z="272.47702" rest_time="0"/> 
- 		</routes>
+	<walker_template route_id="64">
+		<routes>
+			<routestep step="1" loc_x="264.92972" loc_y="2793.0671" loc_z="272.47702" rest_time="0"/> 
+			<routestep step="2" loc_x="270.64917" loc_y="2788.0742" loc_z="272.477" rest_time="0"/> 
+			<routestep step="3" loc_x="278.0744" loc_y="2781.5908" loc_z="272.477" rest_time="0"/> 
+			<routestep step="4" loc_x="285.33853" loc_y="2775.249" loc_z="272.4496" rest_time="0"/> 
+			<routestep step="5" loc_x="278.0744" loc_y="2781.5908" loc_z="272.477" rest_time="0"/> 
+			<routestep step="6" loc_x="270.64917" loc_y="2788.0742" loc_z="272.477" rest_time="0"/> 
+			<routestep step="7" loc_x="264.92972" loc_y="2793.0671" loc_z="272.47702" rest_time="0"/> 
+		</routes>
 	</walker_template>
 	<!-- Defense Commander 2 (Eltnen)--> 
- 	<walker_template route_id="65">
- 		<routes>
- 			<routestep step="1" loc_x="264.17838" loc_y="2733.7107" loc_z="270.3994" rest_time="0"/> 
- 			<routestep step="2" loc_x="269.51932" loc_y="2739.9456" loc_z="270.39938" rest_time="0"/> 
- 			<routestep step="3" loc_x="273.97522" loc_y="2745.1455" loc_z="270.3994" rest_time="0"/> 
- 			<routestep step="4" loc_x="279.6929" loc_y="2751.8206" loc_z="270.45584" rest_time="0"/> 
- 			<routestep step="5" loc_x="273.97522" loc_y="2745.1455" loc_z="270.3994" rest_time="0"/> 
- 			<routestep step="6" loc_x="269.51932" loc_y="2739.9456" loc_z="270.39938" rest_time="0"/> 
- 			<routestep step="7" loc_x="264.17838" loc_y="2733.7107" loc_z="270.3994" rest_time="0"/> 
- 		</routes>
+	<walker_template route_id="65">
+		<routes>
+			<routestep step="1" loc_x="264.17838" loc_y="2733.7107" loc_z="270.3994" rest_time="0"/> 
+			<routestep step="2" loc_x="269.51932" loc_y="2739.9456" loc_z="270.39938" rest_time="0"/> 
+			<routestep step="3" loc_x="273.97522" loc_y="2745.1455" loc_z="270.3994" rest_time="0"/> 
+			<routestep step="4" loc_x="279.6929" loc_y="2751.8206" loc_z="270.45584" rest_time="0"/> 
+			<routestep step="5" loc_x="273.97522" loc_y="2745.1455" loc_z="270.3994" rest_time="0"/> 
+			<routestep step="6" loc_x="269.51932" loc_y="2739.9456" loc_z="270.39938" rest_time="0"/> 
+			<routestep step="7" loc_x="264.17838" loc_y="2733.7107" loc_z="270.3994" rest_time="0"/> 
+		</routes>
 	</walker_template>
 	<!-- Support Leader (Eltnen)--> 
- 	<walker_template route_id="66">
- 		<routes>
- 			<routestep step="1" loc_x="287.2106" loc_y="2770.7307" loc_z="272.4496" rest_time="0"/> 
- 			<routestep step="2" loc_x="285.59027" loc_y="2768.0996" loc_z="272.4496" rest_time="0"/> 
- 			<routestep step="3" loc_x="284.6748" loc_y="2765.7307" loc_z="272.42502" rest_time="0"/> 
- 			<routestep step="4" loc_x="284.94427" loc_y="2762.757" loc_z="271.61057" rest_time="0"/> 
- 			<routestep step="5" loc_x="286.5" loc_y="2759.734" loc_z="270.58566" rest_time="0"/> 
- 			<routestep step="6" loc_x="289.14023" loc_y="2755.9539" loc_z="270.45584" rest_time="3"/> 
- 			<routestep step="7" loc_x="286.5" loc_y="2759.734" loc_z="270.58566" rest_time="0"/> 
- 			<routestep step="8" loc_x="284.94427" loc_y="2762.757" loc_z="271.61057" rest_time="0"/> 
- 			<routestep step="9" loc_x="284.6748" loc_y="2765.7307" loc_z="272.42502" rest_time="0"/> 
- 			<routestep step="10" loc_x="285.59027" loc_y="2768.0996" loc_z="272.4496" rest_time="0"/> 
- 			<routestep step="11" loc_x="287.2106" loc_y="2770.7307" loc_z="272.4496" rest_time="0"/> 
- 		</routes>
+	<walker_template route_id="66">
+		<routes>
+			<routestep step="1" loc_x="287.2106" loc_y="2770.7307" loc_z="272.4496" rest_time="0"/> 
+			<routestep step="2" loc_x="285.59027" loc_y="2768.0996" loc_z="272.4496" rest_time="0"/> 
+			<routestep step="3" loc_x="284.6748" loc_y="2765.7307" loc_z="272.42502" rest_time="0"/> 
+			<routestep step="4" loc_x="284.94427" loc_y="2762.757" loc_z="271.61057" rest_time="0"/> 
+			<routestep step="5" loc_x="286.5" loc_y="2759.734" loc_z="270.58566" rest_time="0"/> 
+			<routestep step="6" loc_x="289.14023" loc_y="2755.9539" loc_z="270.45584" rest_time="3"/> 
+			<routestep step="7" loc_x="286.5" loc_y="2759.734" loc_z="270.58566" rest_time="0"/> 
+			<routestep step="8" loc_x="284.94427" loc_y="2762.757" loc_z="271.61057" rest_time="0"/> 
+			<routestep step="9" loc_x="284.6748" loc_y="2765.7307" loc_z="272.42502" rest_time="0"/> 
+			<routestep step="10" loc_x="285.59027" loc_y="2768.0996" loc_z="272.4496" rest_time="0"/> 
+			<routestep step="11" loc_x="287.2106" loc_y="2770.7307" loc_z="272.4496" rest_time="0"/> 
+		</routes>
 	</walker_template>
 	<!-- Senior Soldier (Eltnen)--> 
- 	<walker_template route_id="67">
- 		<routes>
- 			<routestep step="1" loc_x="341.04532" loc_y="2740.0295" loc_z="263.8076" rest_time="0"/> 
- 			<routestep step="2" loc_x="346.48853" loc_y="2743.9165" loc_z="263.79797" rest_time="0"/> 
- 			<routestep step="3" loc_x="353.1584" loc_y="2748.542" loc_z="263.79797" rest_time="0"/> 
- 			<routestep step="4" loc_x="361.9524" loc_y="2754.3052" loc_z="262.26553" rest_time="0"/> 
- 			<routestep step="5" loc_x="367.82944" loc_y="2758.0398" loc_z="260.14578" rest_time="0"/> 
- 			<routestep step="6" loc_x="374.87717" loc_y="2762.3826" loc_z="259.48944" rest_time="0"/> 
- 			<routestep step="7" loc_x="367.82944" loc_y="2758.0398" loc_z="260.14578" rest_time="0"/> 
- 			<routestep step="8" loc_x="361.9524" loc_y="2754.3052" loc_z="262.26553" rest_time="0"/> 
- 			<routestep step="9" loc_x="353.1584" loc_y="2748.542" loc_z="263.79797" rest_time="0"/> 
- 			<routestep step="10" loc_x="346.48853" loc_y="2743.9165" loc_z="263.79797" rest_time="0"/> 
- 			<routestep step="11" loc_x="341.04532" loc_y="2740.0295" loc_z="263.8076" rest_time="0"/> 
- 		</routes>
+	<walker_template route_id="67">
+		<routes>
+			<routestep step="1" loc_x="341.04532" loc_y="2740.0295" loc_z="263.8076" rest_time="0"/> 
+			<routestep step="2" loc_x="346.48853" loc_y="2743.9165" loc_z="263.79797" rest_time="0"/> 
+			<routestep step="3" loc_x="353.1584" loc_y="2748.542" loc_z="263.79797" rest_time="0"/> 
+			<routestep step="4" loc_x="361.9524" loc_y="2754.3052" loc_z="262.26553" rest_time="0"/> 
+			<routestep step="5" loc_x="367.82944" loc_y="2758.0398" loc_z="260.14578" rest_time="0"/> 
+			<routestep step="6" loc_x="374.87717" loc_y="2762.3826" loc_z="259.48944" rest_time="0"/> 
+			<routestep step="7" loc_x="367.82944" loc_y="2758.0398" loc_z="260.14578" rest_time="0"/> 
+			<routestep step="8" loc_x="361.9524" loc_y="2754.3052" loc_z="262.26553" rest_time="0"/> 
+			<routestep step="9" loc_x="353.1584" loc_y="2748.542" loc_z="263.79797" rest_time="0"/> 
+			<routestep step="10" loc_x="346.48853" loc_y="2743.9165" loc_z="263.79797" rest_time="0"/> 
+			<routestep step="11" loc_x="341.04532" loc_y="2740.0295" loc_z="263.8076" rest_time="0"/> 
+		</routes>
 	</walker_template>
 	<!-- Senior Soldier 2 (Eltnen)-->
- 	<walker_template route_id="68">
- 		<routes>
- 			<routestep step="1" loc_x="325.12247" loc_y="2722.5842" loc_z="263.85086" rest_time="0"/> 
- 			<routestep step="2" loc_x="319.93668" loc_y="2715.5972" loc_z="263.858" rest_time="0"/> 
- 			<routestep step="3" loc_x="314.8394" loc_y="2708.73" loc_z="263.94943" rest_time="0"/> 
- 			<routestep step="4" loc_x="308.51395" loc_y="2700.2073" loc_z="265.68243" rest_time="0"/> 
- 			<routestep step="5" loc_x="302.2089" loc_y="2692.233" loc_z="267.2171" rest_time="0"/> 
- 			<routestep step="6" loc_x="308.51395" loc_y="2700.2073" loc_z="265.68243" rest_time="0"/> 
- 			<routestep step="7" loc_x="314.8394" loc_y="2708.73" loc_z="263.94943" rest_time="0"/> 
- 			<routestep step="8" loc_x="319.93668" loc_y="2715.5972" loc_z="263.858" rest_time="0"/> 
- 			<routestep step="9" loc_x="325.12247" loc_y="2722.5842" loc_z="263.85086" rest_time="0"/> 
- 		</routes>
+	<walker_template route_id="68">
+		<routes>
+			<routestep step="1" loc_x="325.12247" loc_y="2722.5842" loc_z="263.85086" rest_time="0"/> 
+			<routestep step="2" loc_x="319.93668" loc_y="2715.5972" loc_z="263.858" rest_time="0"/> 
+			<routestep step="3" loc_x="314.8394" loc_y="2708.73" loc_z="263.94943" rest_time="0"/> 
+			<routestep step="4" loc_x="308.51395" loc_y="2700.2073" loc_z="265.68243" rest_time="0"/> 
+			<routestep step="5" loc_x="302.2089" loc_y="2692.233" loc_z="267.2171" rest_time="0"/> 
+			<routestep step="6" loc_x="308.51395" loc_y="2700.2073" loc_z="265.68243" rest_time="0"/> 
+			<routestep step="7" loc_x="314.8394" loc_y="2708.73" loc_z="263.94943" rest_time="0"/> 
+			<routestep step="8" loc_x="319.93668" loc_y="2715.5972" loc_z="263.858" rest_time="0"/> 
+			<routestep step="9" loc_x="325.12247" loc_y="2722.5842" loc_z="263.85086" rest_time="0"/> 
+		</routes>
 	</walker_template>
 	<!-- Senior Soldier 3 (Eltnen)-->
- 	<walker_template route_id="69">
- 		<routes>
- 			<routestep step="1" loc_x="281.77597" loc_y="2778.4128" loc_z="185.90001" rest_time="0"/> 
- 			<routestep step="2" loc_x="277.31143" loc_y="2782.2246" loc_z="185.6559" rest_time="0"/> 
- 			<routestep step="3" loc_x="272.68143" loc_y="2786.1753" loc_z="185.53932" rest_time="0"/> 
- 			<routestep step="4" loc_x="267.43304" loc_y="2790.6558" loc_z="184.82497" rest_time="0"/> 
- 			<routestep step="5" loc_x="261.74487" loc_y="2795.5095" loc_z="182.36862" rest_time="0"/> 
- 			<routestep step="6" loc_x="253.86688" loc_y="2802.7805" loc_z="178.81676" rest_time="0"/> 
- 			<routestep step="7" loc_x="238.50749" loc_y="2803.204" loc_z="171.30595" rest_time="0"/> 
- 			<routestep step="8" loc_x="228.93782" loc_y="2800.197" loc_z="171.49223" rest_time="0"/> 
- 			<routestep step="9" loc_x="214.31293" loc_y="2791.404" loc_z="166.01564" rest_time="0"/> 
- 			<routestep step="10" loc_x="200.41422" loc_y="2788.0889" loc_z="159.91644" rest_time="0"/> 
- 			<routestep step="11" loc_x="188.62791" loc_y="2790.747" loc_z="156.23529" rest_time="0"/> 
- 			<routestep step="12" loc_x="181.03685" loc_y="2799.2551" loc_z="155.05116" rest_time="0"/> 
- 			<routestep step="13" loc_x="188.62791" loc_y="2790.747" loc_z="156.23529" rest_time="0"/> 
- 			<routestep step="14" loc_x="200.41422" loc_y="2788.0889" loc_z="159.91644" rest_time="0"/> 
- 			<routestep step="15" loc_x="214.31293" loc_y="2791.404" loc_z="166.01564" rest_time="0"/> 
- 			<routestep step="16" loc_x="228.93782" loc_y="2800.197" loc_z="171.49223" rest_time="0"/> 
- 			<routestep step="17" loc_x="238.50749" loc_y="2803.204" loc_z="171.30595" rest_time="0"/> 
- 			<routestep step="18" loc_x="253.86688" loc_y="2802.7805" loc_z="178.81676" rest_time="0"/> 
- 			<routestep step="19" loc_x="261.74487" loc_y="2795.5095" loc_z="182.36862" rest_time="0"/> 
- 			<routestep step="20" loc_x="267.43304" loc_y="2790.6558" loc_z="184.82497" rest_time="0"/> 
- 			<routestep step="21" loc_x="272.68143" loc_y="2786.1753" loc_z="185.53932" rest_time="0"/> 
- 			<routestep step="22" loc_x="277.31143" loc_y="2782.2246" loc_z="185.6559" rest_time="0"/> 
- 			<routestep step="23" loc_x="281.77597" loc_y="2778.4128" loc_z="185.90001" rest_time="0"/> 
- 		</routes>
+	<walker_template route_id="69">
+		<routes>
+			<routestep step="1" loc_x="281.77597" loc_y="2778.4128" loc_z="185.90001" rest_time="0"/> 
+			<routestep step="2" loc_x="277.31143" loc_y="2782.2246" loc_z="185.6559" rest_time="0"/> 
+			<routestep step="3" loc_x="272.68143" loc_y="2786.1753" loc_z="185.53932" rest_time="0"/> 
+			<routestep step="4" loc_x="267.43304" loc_y="2790.6558" loc_z="184.82497" rest_time="0"/> 
+			<routestep step="5" loc_x="261.74487" loc_y="2795.5095" loc_z="182.36862" rest_time="0"/> 
+			<routestep step="6" loc_x="253.86688" loc_y="2802.7805" loc_z="178.81676" rest_time="0"/> 
+			<routestep step="7" loc_x="238.50749" loc_y="2803.204" loc_z="171.30595" rest_time="0"/> 
+			<routestep step="8" loc_x="228.93782" loc_y="2800.197" loc_z="171.49223" rest_time="0"/> 
+			<routestep step="9" loc_x="214.31293" loc_y="2791.404" loc_z="166.01564" rest_time="0"/> 
+			<routestep step="10" loc_x="200.41422" loc_y="2788.0889" loc_z="159.91644" rest_time="0"/> 
+			<routestep step="11" loc_x="188.62791" loc_y="2790.747" loc_z="156.23529" rest_time="0"/> 
+			<routestep step="12" loc_x="181.03685" loc_y="2799.2551" loc_z="155.05116" rest_time="0"/> 
+			<routestep step="13" loc_x="188.62791" loc_y="2790.747" loc_z="156.23529" rest_time="0"/> 
+			<routestep step="14" loc_x="200.41422" loc_y="2788.0889" loc_z="159.91644" rest_time="0"/> 
+			<routestep step="15" loc_x="214.31293" loc_y="2791.404" loc_z="166.01564" rest_time="0"/> 
+			<routestep step="16" loc_x="228.93782" loc_y="2800.197" loc_z="171.49223" rest_time="0"/> 
+			<routestep step="17" loc_x="238.50749" loc_y="2803.204" loc_z="171.30595" rest_time="0"/> 
+			<routestep step="18" loc_x="253.86688" loc_y="2802.7805" loc_z="178.81676" rest_time="0"/> 
+			<routestep step="19" loc_x="261.74487" loc_y="2795.5095" loc_z="182.36862" rest_time="0"/> 
+			<routestep step="20" loc_x="267.43304" loc_y="2790.6558" loc_z="184.82497" rest_time="0"/> 
+			<routestep step="21" loc_x="272.68143" loc_y="2786.1753" loc_z="185.53932" rest_time="0"/> 
+			<routestep step="22" loc_x="277.31143" loc_y="2782.2246" loc_z="185.6559" rest_time="0"/> 
+			<routestep step="23" loc_x="281.77597" loc_y="2778.4128" loc_z="185.90001" rest_time="0"/> 
+		</routes>
 	</walker_template>
 	<!-- Scout Leader (Eltnen)-->
- 	<walker_template route_id="70">
- 		<routes>
- 			<routestep step="1" loc_x="295.5073" loc_y="2766.468" loc_z="185.89886" rest_time="0"/> 
- 			<routestep step="2" loc_x="299.84744" loc_y="2762.5857" loc_z="185.6535" rest_time="0"/> 
- 			<routestep step="3" loc_x="304.52246" loc_y="2758.8066" loc_z="185.34677" rest_time="0"/> 
- 			<routestep step="4" loc_x="309.5593" loc_y="2754.736" loc_z="185.10611" rest_time="0"/> 
- 			<routestep step="5" loc_x="315.5628" loc_y="2749.8838" loc_z="182.59535" rest_time="0"/> 
- 			<routestep step="6" loc_x="321.87756" loc_y="2744.7378" loc_z="181.35205" rest_time="0"/> 
- 			<routestep step="7" loc_x="329.02606" loc_y="2738.7454" loc_z="181.68913" rest_time="0"/> 
- 			<routestep step="8" loc_x="335.3797" loc_y="2732.9116" loc_z="182.43204" rest_time="0"/> 
- 			<routestep step="9" loc_x="342.7313" loc_y="2724.5417" loc_z="180.88516" rest_time="0"/> 
- 			<routestep step="10" loc_x="348.91467" loc_y="2718.1511" loc_z="179.09738" rest_time="0"/> 
- 			<routestep step="11" loc_x="342.7313" loc_y="2724.5417" loc_z="180.88516" rest_time="0"/> 
- 			<routestep step="12" loc_x="335.3797" loc_y="2732.9116" loc_z="182.43204" rest_time="0"/> 
- 			<routestep step="13" loc_x="329.02606" loc_y="2738.7454" loc_z="181.68913" rest_time="0"/> 
- 			<routestep step="14" loc_x="321.87756" loc_y="2744.7378" loc_z="181.35205" rest_time="0"/> 
- 			<routestep step="15" loc_x="315.5628" loc_y="2749.8838" loc_z="182.59535" rest_time="0"/> 
- 			<routestep step="16" loc_x="309.5593" loc_y="2754.736" loc_z="185.10611" rest_time="0"/> 
- 			<routestep step="17" loc_x="304.52246" loc_y="2758.8066" loc_z="185.34677" rest_time="0"/> 
- 			<routestep step="18" loc_x="299.84744" loc_y="2762.5857" loc_z="185.6535" rest_time="0"/> 
- 			<routestep step="19" loc_x="295.5073" loc_y="2766.468" loc_z="185.89886" rest_time="0"/> 
- 		</routes>
+	<walker_template route_id="70">
+		<routes>
+			<routestep step="1" loc_x="295.5073" loc_y="2766.468" loc_z="185.89886" rest_time="0"/> 
+			<routestep step="2" loc_x="299.84744" loc_y="2762.5857" loc_z="185.6535" rest_time="0"/> 
+			<routestep step="3" loc_x="304.52246" loc_y="2758.8066" loc_z="185.34677" rest_time="0"/> 
+			<routestep step="4" loc_x="309.5593" loc_y="2754.736" loc_z="185.10611" rest_time="0"/> 
+			<routestep step="5" loc_x="315.5628" loc_y="2749.8838" loc_z="182.59535" rest_time="0"/> 
+			<routestep step="6" loc_x="321.87756" loc_y="2744.7378" loc_z="181.35205" rest_time="0"/> 
+			<routestep step="7" loc_x="329.02606" loc_y="2738.7454" loc_z="181.68913" rest_time="0"/> 
+			<routestep step="8" loc_x="335.3797" loc_y="2732.9116" loc_z="182.43204" rest_time="0"/> 
+			<routestep step="9" loc_x="342.7313" loc_y="2724.5417" loc_z="180.88516" rest_time="0"/> 
+			<routestep step="10" loc_x="348.91467" loc_y="2718.1511" loc_z="179.09738" rest_time="0"/> 
+			<routestep step="11" loc_x="342.7313" loc_y="2724.5417" loc_z="180.88516" rest_time="0"/> 
+			<routestep step="12" loc_x="335.3797" loc_y="2732.9116" loc_z="182.43204" rest_time="0"/> 
+			<routestep step="13" loc_x="329.02606" loc_y="2738.7454" loc_z="181.68913" rest_time="0"/> 
+			<routestep step="14" loc_x="321.87756" loc_y="2744.7378" loc_z="181.35205" rest_time="0"/> 
+			<routestep step="15" loc_x="315.5628" loc_y="2749.8838" loc_z="182.59535" rest_time="0"/> 
+			<routestep step="16" loc_x="309.5593" loc_y="2754.736" loc_z="185.10611" rest_time="0"/> 
+			<routestep step="17" loc_x="304.52246" loc_y="2758.8066" loc_z="185.34677" rest_time="0"/> 
+			<routestep step="18" loc_x="299.84744" loc_y="2762.5857" loc_z="185.6535" rest_time="0"/> 
+			<routestep step="19" loc_x="295.5073" loc_y="2766.468" loc_z="185.89886" rest_time="0"/> 
+		</routes>
 	</walker_template>
 	<!-- Garrison Patrol, Garrison Patrol 2 (Eltnen)-->
- 	<walker_template route_id="71">
- 		<routes>
- 			<routestep step="1" loc_x="439.17996" loc_y="2567.6106" loc_z="158.0955" rest_time="0"/> 
- 			<routestep step="2" loc_x="444.4529" loc_y="2560.2166" loc_z="160.53078" rest_time="0"/> 
- 			<routestep step="3" loc_x="447.7852" loc_y="2551.2952" loc_z="163.80498" rest_time="0"/> 
- 			<routestep step="4" loc_x="457.60483" loc_y="2542.7417" loc_z="167.68654" rest_time="0"/> 
- 			<routestep step="5" loc_x="463.07144" loc_y="2531.5396" loc_z="170.91223" rest_time="0"/> 
- 			<routestep step="6" loc_x="464.1412" loc_y="2513.772" loc_z="175.20306" rest_time="0"/> 
- 			<routestep step="7" loc_x="466.8563" loc_y="2496.8933" loc_z="179.9513" rest_time="0"/> 
- 			<routestep step="8" loc_x="477.9075" loc_y="2486.076" loc_z="184.83289" rest_time="0"/> 
- 			<routestep step="9" loc_x="482.86795" loc_y="2472.7163" loc_z="189.6629" rest_time="0"/> 
- 			<routestep step="10" loc_x="490.37576" loc_y="2457.8235" loc_z="194.60355" rest_time="0"/> 
- 			<routestep step="11" loc_x="497.9564" loc_y="2442.7656" loc_z="198.09827" rest_time="0"/> 
- 			<routestep step="12" loc_x="504.91867" loc_y="2428.9338" loc_z="202.12311" rest_time="0"/> 
- 			<routestep step="13" loc_x="497.9564" loc_y="2442.7656" loc_z="198.09827" rest_time="0"/> 
- 			<routestep step="14" loc_x="490.37576" loc_y="2457.8235" loc_z="194.60355" rest_time="0"/> 
- 			<routestep step="15" loc_x="482.86795" loc_y="2472.7163" loc_z="189.6629" rest_time="0"/> 
- 			<routestep step="16" loc_x="477.9075" loc_y="2486.076" loc_z="184.83289" rest_time="0"/> 
- 			<routestep step="17" loc_x="466.8563" loc_y="2496.8933" loc_z="179.9513" rest_time="0"/> 
- 			<routestep step="18" loc_x="464.1412" loc_y="2513.772" loc_z="175.20306" rest_time="0"/> 
- 			<routestep step="19" loc_x="463.07144" loc_y="2531.5396" loc_z="170.91223" rest_time="0"/> 
- 			<routestep step="20" loc_x="457.60483" loc_y="2542.7417" loc_z="167.68654" rest_time="0"/> 
- 			<routestep step="21" loc_x="447.7852" loc_y="2551.2952" loc_z="163.80498" rest_time="0"/> 
- 			<routestep step="22" loc_x="444.4529" loc_y="2560.2166" loc_z="160.53078" rest_time="0"/> 
- 			<routestep step="23" loc_x="439.17996" loc_y="2567.6106" loc_z="158.0955" rest_time="0"/> 
- 		</routes>
+	<walker_template route_id="71">
+		<routes>
+			<routestep step="1" loc_x="439.17996" loc_y="2567.6106" loc_z="158.0955" rest_time="0"/> 
+			<routestep step="2" loc_x="444.4529" loc_y="2560.2166" loc_z="160.53078" rest_time="0"/> 
+			<routestep step="3" loc_x="447.7852" loc_y="2551.2952" loc_z="163.80498" rest_time="0"/> 
+			<routestep step="4" loc_x="457.60483" loc_y="2542.7417" loc_z="167.68654" rest_time="0"/> 
+			<routestep step="5" loc_x="463.07144" loc_y="2531.5396" loc_z="170.91223" rest_time="0"/> 
+			<routestep step="6" loc_x="464.1412" loc_y="2513.772" loc_z="175.20306" rest_time="0"/> 
+			<routestep step="7" loc_x="466.8563" loc_y="2496.8933" loc_z="179.9513" rest_time="0"/> 
+			<routestep step="8" loc_x="477.9075" loc_y="2486.076" loc_z="184.83289" rest_time="0"/> 
+			<routestep step="9" loc_x="482.86795" loc_y="2472.7163" loc_z="189.6629" rest_time="0"/> 
+			<routestep step="10" loc_x="490.37576" loc_y="2457.8235" loc_z="194.60355" rest_time="0"/> 
+			<routestep step="11" loc_x="497.9564" loc_y="2442.7656" loc_z="198.09827" rest_time="0"/> 
+			<routestep step="12" loc_x="504.91867" loc_y="2428.9338" loc_z="202.12311" rest_time="0"/> 
+			<routestep step="13" loc_x="497.9564" loc_y="2442.7656" loc_z="198.09827" rest_time="0"/> 
+			<routestep step="14" loc_x="490.37576" loc_y="2457.8235" loc_z="194.60355" rest_time="0"/> 
+			<routestep step="15" loc_x="482.86795" loc_y="2472.7163" loc_z="189.6629" rest_time="0"/> 
+			<routestep step="16" loc_x="477.9075" loc_y="2486.076" loc_z="184.83289" rest_time="0"/> 
+			<routestep step="17" loc_x="466.8563" loc_y="2496.8933" loc_z="179.9513" rest_time="0"/> 
+			<routestep step="18" loc_x="464.1412" loc_y="2513.772" loc_z="175.20306" rest_time="0"/> 
+			<routestep step="19" loc_x="463.07144" loc_y="2531.5396" loc_z="170.91223" rest_time="0"/> 
+			<routestep step="20" loc_x="457.60483" loc_y="2542.7417" loc_z="167.68654" rest_time="0"/> 
+			<routestep step="21" loc_x="447.7852" loc_y="2551.2952" loc_z="163.80498" rest_time="0"/> 
+			<routestep step="22" loc_x="444.4529" loc_y="2560.2166" loc_z="160.53078" rest_time="0"/> 
+			<routestep step="23" loc_x="439.17996" loc_y="2567.6106" loc_z="158.0955" rest_time="0"/> 
+		</routes>
 	</walker_template>
 	<!-- Elias (Eltnen)-->
- 	<walker_template route_id="72">
- 		<routes>
- 			<routestep step="1" loc_x="1854.1865" loc_y="2000.6853" loc_z="351.699" rest_time="5"/> 
- 			<routestep step="2" loc_x="1853.0908" loc_y="2009.6667" loc_z="352.8125" rest_time="0"/> 
- 			<routestep step="3" loc_x="1864.6884" loc_y="2021.2374" loc_z="355.56805" rest_time="0"/> 
- 			<routestep step="4" loc_x="1881.3955" loc_y="2025.6837" loc_z="359.86688" rest_time="0"/> 
- 			<routestep step="5" loc_x="1899.5027" loc_y="2029.4224" loc_z="361.625" rest_time="0"/> 
- 			<routestep step="6" loc_x="1914.5835" loc_y="2032.5221" loc_z="361.5691" rest_time="5"/> 
- 			<routestep step="7" loc_x="1899.5027" loc_y="2029.4224" loc_z="361.625" rest_time="0"/> 
- 			<routestep step="8" loc_x="1881.3955" loc_y="2025.6837" loc_z="359.86688" rest_time="0"/> 
- 			<routestep step="9" loc_x="1864.6884" loc_y="2021.2374" loc_z="355.56805" rest_time="0"/> 
- 			<routestep step="10" loc_x="1853.0908" loc_y="2009.6667" loc_z="352.8125" rest_time="0"/> 
- 			<routestep step="11" loc_x="1854.1865" loc_y="2000.6853" loc_z="351.699" rest_time="5"/> 
- 		</routes>
+	<walker_template route_id="72">
+		<routes>
+			<routestep step="1" loc_x="1854.1865" loc_y="2000.6853" loc_z="351.699" rest_time="5"/> 
+			<routestep step="2" loc_x="1853.0908" loc_y="2009.6667" loc_z="352.8125" rest_time="0"/> 
+			<routestep step="3" loc_x="1864.6884" loc_y="2021.2374" loc_z="355.56805" rest_time="0"/> 
+			<routestep step="4" loc_x="1881.3955" loc_y="2025.6837" loc_z="359.86688" rest_time="0"/> 
+			<routestep step="5" loc_x="1899.5027" loc_y="2029.4224" loc_z="361.625" rest_time="0"/> 
+			<routestep step="6" loc_x="1914.5835" loc_y="2032.5221" loc_z="361.5691" rest_time="5"/> 
+			<routestep step="7" loc_x="1899.5027" loc_y="2029.4224" loc_z="361.625" rest_time="0"/> 
+			<routestep step="8" loc_x="1881.3955" loc_y="2025.6837" loc_z="359.86688" rest_time="0"/> 
+			<routestep step="9" loc_x="1864.6884" loc_y="2021.2374" loc_z="355.56805" rest_time="0"/> 
+			<routestep step="10" loc_x="1853.0908" loc_y="2009.6667" loc_z="352.8125" rest_time="0"/> 
+			<routestep step="11" loc_x="1854.1865" loc_y="2000.6853" loc_z="351.699" rest_time="5"/> 
+		</routes>
 	</walker_template>
 	<!-- Tenemi, Senior Soldier 4, Senior Soldier 5 (Eltnen)-->
- 	<walker_template route_id="73">
- 		<routes>
- 			<routestep step="1" loc_x="1951.8983" loc_y="2018.4343" loc_z="361.6377" rest_time="5"/> 
- 			<routestep step="2" loc_x="1960.9146" loc_y="2003.9812" loc_z="361.37384" rest_time="0"/> 
- 			<routestep step="3" loc_x="1957.6483" loc_y="1990.2246" loc_z="358.43036" rest_time="0"/> 
- 			<routestep step="4" loc_x="1955.7948" loc_y="1981.069" loc_z="356.41885" rest_time="0"/> 
- 			<routestep step="5" loc_x="1969.7004" loc_y="1976.6592" loc_z="358.0" rest_time="5"/> 
- 			<routestep step="6" loc_x="1955.7948" loc_y="1981.069" loc_z="356.41885" rest_time="0"/> 
- 			<routestep step="7" loc_x="1957.6483" loc_y="1990.2246" loc_z="358.43036" rest_time="0"/> 
- 			<routestep step="8" loc_x="1960.9146" loc_y="2003.9812" loc_z="361.37384" rest_time="0"/> 
- 			<routestep step="9" loc_x="1951.8983" loc_y="2018.4343" loc_z="361.6377" rest_time="5"/> 
- 		</routes>
+	<walker_template route_id="73">
+		<routes>
+			<routestep step="1" loc_x="1951.8983" loc_y="2018.4343" loc_z="361.6377" rest_time="5"/> 
+			<routestep step="2" loc_x="1960.9146" loc_y="2003.9812" loc_z="361.37384" rest_time="0"/> 
+			<routestep step="3" loc_x="1957.6483" loc_y="1990.2246" loc_z="358.43036" rest_time="0"/> 
+			<routestep step="4" loc_x="1955.7948" loc_y="1981.069" loc_z="356.41885" rest_time="0"/> 
+			<routestep step="5" loc_x="1969.7004" loc_y="1976.6592" loc_z="358.0" rest_time="5"/> 
+			<routestep step="6" loc_x="1955.7948" loc_y="1981.069" loc_z="356.41885" rest_time="0"/> 
+			<routestep step="7" loc_x="1957.6483" loc_y="1990.2246" loc_z="358.43036" rest_time="0"/> 
+			<routestep step="8" loc_x="1960.9146" loc_y="2003.9812" loc_z="361.37384" rest_time="0"/> 
+			<routestep step="9" loc_x="1951.8983" loc_y="2018.4343" loc_z="361.6377" rest_time="5"/> 
+		</routes>
 	</walker_template>
 	<!-- Senior Soldier 6 (Eltnen)-->
- 	<walker_template route_id="74">
- 		<routes>
- 			<routestep step="1" loc_x="1951.5024" loc_y="1948.4879" loc_z="349.7811" rest_time="0"/> 
- 			<routestep step="2" loc_x="1954.2617" loc_y="1937.3649" loc_z="350.0" rest_time="0"/> 
- 			<routestep step="3" loc_x="1954.3378" loc_y="1922.514" loc_z="350.0" rest_time="0"/> 
- 			<routestep step="4" loc_x="1954.4811" loc_y="1905.5828" loc_z="350.0" rest_time="0"/> 
- 			<routestep step="5" loc_x="1954.5365" loc_y="1899.0518" loc_z="350.0" rest_time="0"/> 
- 			<routestep step="6" loc_x="1962.0756" loc_y="1890.5825" loc_z="349.12027" rest_time="0"/> 
- 			<routestep step="7" loc_x="1970.3685" loc_y="1886.022" loc_z="349.0" rest_time="0"/> 
- 			<routestep step="8" loc_x="1991.5969" loc_y="1884.9288" loc_z="349.8498" rest_time="0"/> 
- 			<routestep step="9" loc_x="2006.2665" loc_y="1884.1432" loc_z="351.83453" rest_time="0"/> 
- 			<routestep step="10" loc_x="2019.5073" loc_y="1889.2467" loc_z="355.01633" rest_time="0"/> 
- 			<routestep step="11" loc_x="2006.2665" loc_y="1884.1432" loc_z="351.83453" rest_time="0"/> 
- 			<routestep step="12" loc_x="1991.5969" loc_y="1884.9288" loc_z="349.8498" rest_time="0"/> 
- 			<routestep step="13" loc_x="1970.3685" loc_y="1886.022" loc_z="349.0" rest_time="0"/> 
- 			<routestep step="14" loc_x="1962.0756" loc_y="1890.5825" loc_z="349.12027" rest_time="0"/> 
- 			<routestep step="15" loc_x="1954.5365" loc_y="1899.0518" loc_z="350.0" rest_time="0"/> 
- 			<routestep step="16" loc_x="1954.4811" loc_y="1905.5828" loc_z="350.0" rest_time="0"/> 
- 			<routestep step="17" loc_x="1954.3378" loc_y="1922.514" loc_z="350.0" rest_time="0"/> 
- 			<routestep step="18" loc_x="1954.2617" loc_y="1937.3649" loc_z="350.0" rest_time="0"/> 
- 			<routestep step="19" loc_x="1951.5024" loc_y="1948.4879" loc_z="349.7811" rest_time="0"/> 
- 		</routes>
+	<walker_template route_id="74">
+		<routes>
+			<routestep step="1" loc_x="1951.5024" loc_y="1948.4879" loc_z="349.7811" rest_time="0"/> 
+			<routestep step="2" loc_x="1954.2617" loc_y="1937.3649" loc_z="350.0" rest_time="0"/> 
+			<routestep step="3" loc_x="1954.3378" loc_y="1922.514" loc_z="350.0" rest_time="0"/> 
+			<routestep step="4" loc_x="1954.4811" loc_y="1905.5828" loc_z="350.0" rest_time="0"/> 
+			<routestep step="5" loc_x="1954.5365" loc_y="1899.0518" loc_z="350.0" rest_time="0"/> 
+			<routestep step="6" loc_x="1962.0756" loc_y="1890.5825" loc_z="349.12027" rest_time="0"/> 
+			<routestep step="7" loc_x="1970.3685" loc_y="1886.022" loc_z="349.0" rest_time="0"/> 
+			<routestep step="8" loc_x="1991.5969" loc_y="1884.9288" loc_z="349.8498" rest_time="0"/> 
+			<routestep step="9" loc_x="2006.2665" loc_y="1884.1432" loc_z="351.83453" rest_time="0"/> 
+			<routestep step="10" loc_x="2019.5073" loc_y="1889.2467" loc_z="355.01633" rest_time="0"/> 
+			<routestep step="11" loc_x="2006.2665" loc_y="1884.1432" loc_z="351.83453" rest_time="0"/> 
+			<routestep step="12" loc_x="1991.5969" loc_y="1884.9288" loc_z="349.8498" rest_time="0"/> 
+			<routestep step="13" loc_x="1970.3685" loc_y="1886.022" loc_z="349.0" rest_time="0"/> 
+			<routestep step="14" loc_x="1962.0756" loc_y="1890.5825" loc_z="349.12027" rest_time="0"/> 
+			<routestep step="15" loc_x="1954.5365" loc_y="1899.0518" loc_z="350.0" rest_time="0"/> 
+			<routestep step="16" loc_x="1954.4811" loc_y="1905.5828" loc_z="350.0" rest_time="0"/> 
+			<routestep step="17" loc_x="1954.3378" loc_y="1922.514" loc_z="350.0" rest_time="0"/> 
+			<routestep step="18" loc_x="1954.2617" loc_y="1937.3649" loc_z="350.0" rest_time="0"/> 
+			<routestep step="19" loc_x="1951.5024" loc_y="1948.4879" loc_z="349.7811" rest_time="0"/> 
+		</routes>
 	</walker_template>
 	<!-- Sentinel Leader (Eltnen)-->
- 	<walker_template route_id="75">
- 		<routes>
- 			<routestep step="1" loc_x="1947.106" loc_y="1947.4446" loc_z="350.13324" rest_time="0"/> 
- 			<routestep step="2" loc_x="1948.6023" loc_y="1936.4585" loc_z="350.0" rest_time="0"/> 
- 			<routestep step="3" loc_x="1948.5747" loc_y="1922.2775" loc_z="349.91092" rest_time="0"/> 
- 			<routestep step="4" loc_x="1947.427" loc_y="1905.4789" loc_z="349.96417" rest_time="0"/> 
- 			<routestep step="5" loc_x="1948.8995" loc_y="1894.1964" loc_z="350.0" rest_time="0"/> 
- 			<routestep step="6" loc_x="1958.428" loc_y="1885.0181" loc_z="349.8215" rest_time="0"/> 
- 			<routestep step="7" loc_x="1970.3496" loc_y="1880.0609" loc_z="348.89685" rest_time="0"/> 
- 			<routestep step="8" loc_x="1991.2532" loc_y="1878.7389" loc_z="349.4533" rest_time="0"/> 
- 			<routestep step="9" loc_x="2008.395" loc_y="1879.1477" loc_z="351.7708" rest_time="0"/> 
- 			<routestep step="10" loc_x="2021.9856" loc_y="1884.3812" loc_z="355.02203" rest_time="0"/> 
- 			<routestep step="11" loc_x="2008.395" loc_y="1879.1477" loc_z="351.7708" rest_time="0"/> 
- 			<routestep step="12" loc_x="1991.2532" loc_y="1878.7389" loc_z="349.4533" rest_time="0"/> 
- 			<routestep step="13" loc_x="1970.3496" loc_y="1880.0609" loc_z="348.89685" rest_time="0"/> 
- 			<routestep step="14" loc_x="1958.428" loc_y="1885.0181" loc_z="349.8215" rest_time="0"/> 
- 			<routestep step="15" loc_x="1948.8995" loc_y="1894.1964" loc_z="350.0" rest_time="0"/> 
- 			<routestep step="16" loc_x="1947.427" loc_y="1905.4789" loc_z="349.96417" rest_time="0"/> 
- 			<routestep step="17" loc_x="1948.5747" loc_y="1922.2775" loc_z="349.91092" rest_time="0"/> 
- 			<routestep step="18" loc_x="1948.6023" loc_y="1936.4585" loc_z="350.0" rest_time="0"/> 
- 			<routestep step="19" loc_x="1947.106" loc_y="1947.4446" loc_z="350.13324" rest_time="0"/> 
- 		</routes>
+	<walker_template route_id="75">
+		<routes>
+			<routestep step="1" loc_x="1947.106" loc_y="1947.4446" loc_z="350.13324" rest_time="0"/> 
+			<routestep step="2" loc_x="1948.6023" loc_y="1936.4585" loc_z="350.0" rest_time="0"/> 
+			<routestep step="3" loc_x="1948.5747" loc_y="1922.2775" loc_z="349.91092" rest_time="0"/> 
+			<routestep step="4" loc_x="1947.427" loc_y="1905.4789" loc_z="349.96417" rest_time="0"/> 
+			<routestep step="5" loc_x="1948.8995" loc_y="1894.1964" loc_z="350.0" rest_time="0"/> 
+			<routestep step="6" loc_x="1958.428" loc_y="1885.0181" loc_z="349.8215" rest_time="0"/> 
+			<routestep step="7" loc_x="1970.3496" loc_y="1880.0609" loc_z="348.89685" rest_time="0"/> 
+			<routestep step="8" loc_x="1991.2532" loc_y="1878.7389" loc_z="349.4533" rest_time="0"/> 
+			<routestep step="9" loc_x="2008.395" loc_y="1879.1477" loc_z="351.7708" rest_time="0"/> 
+			<routestep step="10" loc_x="2021.9856" loc_y="1884.3812" loc_z="355.02203" rest_time="0"/> 
+			<routestep step="11" loc_x="2008.395" loc_y="1879.1477" loc_z="351.7708" rest_time="0"/> 
+			<routestep step="12" loc_x="1991.2532" loc_y="1878.7389" loc_z="349.4533" rest_time="0"/> 
+			<routestep step="13" loc_x="1970.3496" loc_y="1880.0609" loc_z="348.89685" rest_time="0"/> 
+			<routestep step="14" loc_x="1958.428" loc_y="1885.0181" loc_z="349.8215" rest_time="0"/> 
+			<routestep step="15" loc_x="1948.8995" loc_y="1894.1964" loc_z="350.0" rest_time="0"/> 
+			<routestep step="16" loc_x="1947.427" loc_y="1905.4789" loc_z="349.96417" rest_time="0"/> 
+			<routestep step="17" loc_x="1948.5747" loc_y="1922.2775" loc_z="349.91092" rest_time="0"/> 
+			<routestep step="18" loc_x="1948.6023" loc_y="1936.4585" loc_z="350.0" rest_time="0"/> 
+			<routestep step="19" loc_x="1947.106" loc_y="1947.4446" loc_z="350.13324" rest_time="0"/> 
+		</routes>
 	</walker_template>
 	<!-- Sentinel Leader 2, Senior Soldier 7, Senior Soldier 8 (Eltnen)-->
- 	<walker_template route_id="76">
- 		<routes>
- 			<routestep step="1" loc_x="1931.3821" loc_y="1968.1628" loc_z="349.875" rest_time="0"/> 
- 			<routestep step="2" loc_x="1908.4468" loc_y="1974.17" loc_z="349.875" rest_time="0"/> 
- 			<routestep step="3" loc_x="1881.1233" loc_y="1990.484" loc_z="349.875" rest_time="0"/> 
- 			<routestep step="4" loc_x="1858.4458" loc_y="1994.2996" loc_z="350.69043" rest_time="0"/> 
- 			<routestep step="5" loc_x="1861.8418" loc_y="1967.7433" loc_z="342.67593" rest_time="0"/> 
- 			<routestep step="6" loc_x="1873.7941" loc_y="1940.4745" loc_z="336.8261" rest_time="0"/> 
- 			<routestep step="7" loc_x="1861.8418" loc_y="1967.7433" loc_z="342.67593" rest_time="0"/> 
- 			<routestep step="8" loc_x="1858.4458" loc_y="1994.2996" loc_z="350.69043" rest_time="0"/> 
- 			<routestep step="9" loc_x="1881.1233" loc_y="1990.484" loc_z="349.875" rest_time="0"/> 
- 			<routestep step="10" loc_x="1908.4468" loc_y="1974.17" loc_z="349.875" rest_time="0"/> 
- 			<routestep step="11" loc_x="1931.3821" loc_y="1968.1628" loc_z="349.875" rest_time="0"/> 
- 		</routes>
+	<walker_template route_id="76">
+		<routes>
+			<routestep step="1" loc_x="1931.3821" loc_y="1968.1628" loc_z="349.875" rest_time="0"/> 
+			<routestep step="2" loc_x="1908.4468" loc_y="1974.17" loc_z="349.875" rest_time="0"/> 
+			<routestep step="3" loc_x="1881.1233" loc_y="1990.484" loc_z="349.875" rest_time="0"/> 
+			<routestep step="4" loc_x="1858.4458" loc_y="1994.2996" loc_z="350.69043" rest_time="0"/> 
+			<routestep step="5" loc_x="1861.8418" loc_y="1967.7433" loc_z="342.67593" rest_time="0"/> 
+			<routestep step="6" loc_x="1873.7941" loc_y="1940.4745" loc_z="336.8261" rest_time="0"/> 
+			<routestep step="7" loc_x="1861.8418" loc_y="1967.7433" loc_z="342.67593" rest_time="0"/> 
+			<routestep step="8" loc_x="1858.4458" loc_y="1994.2996" loc_z="350.69043" rest_time="0"/> 
+			<routestep step="9" loc_x="1881.1233" loc_y="1990.484" loc_z="349.875" rest_time="0"/> 
+			<routestep step="10" loc_x="1908.4468" loc_y="1974.17" loc_z="349.875" rest_time="0"/> 
+			<routestep step="11" loc_x="1931.3821" loc_y="1968.1628" loc_z="349.875" rest_time="0"/> 
+		</routes>
 	</walker_template>
 	<!-- Legionary (Eltnen)-->
- 	<walker_template route_id="77">
- 		<routes>
- 			<routestep step="1" loc_x="623.7322" loc_y="466.63797" loc_z="329.19977" rest_time="0"/> 
- 			<routestep step="2" loc_x="581.27295" loc_y="464.22757" loc_z="313.6648" rest_time="0"/> 
- 			<routestep step="3" loc_x="581.0173" loc_y="453.95035" loc_z="314.63242" rest_time="0"/> 
- 			<routestep step="4" loc_x="606.17737" loc_y="428.98532" loc_z="322.16934" rest_time="0"/> 
- 			<routestep step="5" loc_x="630.286" loc_y="405.55402" loc_z="323.91864" rest_time="0"/> 
- 			<routestep step="6" loc_x="654.64923" loc_y="393.7923" loc_z="324.93182" rest_time="0"/> 
- 			<routestep step="7" loc_x="672.91205" loc_y="390.99823" loc_z="324.8694" rest_time="0"/> 
- 			<routestep step="8" loc_x="682.2682" loc_y="387.14795" loc_z="324.68" rest_time="0"/> 
- 			<routestep step="9" loc_x="699.7425" loc_y="411.66647" loc_z="325.25" rest_time="0"/> 
- 			<routestep step="10" loc_x="720.62085" loc_y="437.96008" loc_z="326.5313" rest_time="0"/> 
- 			<routestep step="11" loc_x="726.1927" loc_y="457.0037" loc_z="328.78613" rest_time="0"/> 
- 			<routestep step="12" loc_x="724.05304" loc_y="461.57205" loc_z="328.75333" rest_time="0"/> 
- 			<routestep step="13" loc_x="704.7451" loc_y="459.94662" loc_z="331.35696" rest_time="0"/> 
- 			<routestep step="14" loc_x="681.0801" loc_y="462.54868" loc_z="331.7943" rest_time="0"/> 
- 			<routestep step="15" loc_x="657.2252" loc_y="464.63113" loc_z="331.79843" rest_time="0"/> 
- 			<routestep step="16" loc_x="639.75885" loc_y="465.928" loc_z="331.10992" rest_time="0"/> 
- 			<routestep step="17" loc_x="603.685" loc_y="465.8557" loc_z="322.2749" rest_time="0"/> 
- 			<routestep step="18" loc_x="593.8483" loc_y="443.30023" loc_z="319.41507" rest_time="0"/> 
- 			<routestep step="19" loc_x="618.88025" loc_y="416.09445" loc_z="323.47595" rest_time="0"/> 
- 			<routestep step="20" loc_x="642.7715" loc_y="398.7327" loc_z="324.5792" rest_time="0"/> 
- 			<routestep step="21" loc_x="691.32086" loc_y="399.8065" loc_z="325.125" rest_time="0"/> 
- 			<routestep step="22" loc_x="710.356" loc_y="425.5551" loc_z="325.22775" rest_time="0"/> 
- 			<routestep step="23" loc_x="692.4583" loc_y="461.24744" loc_z="332.0" rest_time="0"/> 
- 			<routestep step="24" loc_x="667.56366" loc_y="463.6664" loc_z="331.77728" rest_time="0"/> 
- 			<routestep step="25" loc_x="623.7322" loc_y="466.63797" loc_z="329.19977" rest_time="0"/> 
- 		</routes>
+	<walker_template route_id="77">
+		<routes>
+			<routestep step="1" loc_x="623.7322" loc_y="466.63797" loc_z="329.19977" rest_time="0"/> 
+			<routestep step="2" loc_x="581.27295" loc_y="464.22757" loc_z="313.6648" rest_time="0"/> 
+			<routestep step="3" loc_x="581.0173" loc_y="453.95035" loc_z="314.63242" rest_time="0"/> 
+			<routestep step="4" loc_x="606.17737" loc_y="428.98532" loc_z="322.16934" rest_time="0"/> 
+			<routestep step="5" loc_x="630.286" loc_y="405.55402" loc_z="323.91864" rest_time="0"/> 
+			<routestep step="6" loc_x="654.64923" loc_y="393.7923" loc_z="324.93182" rest_time="0"/> 
+			<routestep step="7" loc_x="672.91205" loc_y="390.99823" loc_z="324.8694" rest_time="0"/> 
+			<routestep step="8" loc_x="682.2682" loc_y="387.14795" loc_z="324.68" rest_time="0"/> 
+			<routestep step="9" loc_x="699.7425" loc_y="411.66647" loc_z="325.25" rest_time="0"/> 
+			<routestep step="10" loc_x="720.62085" loc_y="437.96008" loc_z="326.5313" rest_time="0"/> 
+			<routestep step="11" loc_x="726.1927" loc_y="457.0037" loc_z="328.78613" rest_time="0"/> 
+			<routestep step="12" loc_x="724.05304" loc_y="461.57205" loc_z="328.75333" rest_time="0"/> 
+			<routestep step="13" loc_x="704.7451" loc_y="459.94662" loc_z="331.35696" rest_time="0"/> 
+			<routestep step="14" loc_x="681.0801" loc_y="462.54868" loc_z="331.7943" rest_time="0"/> 
+			<routestep step="15" loc_x="657.2252" loc_y="464.63113" loc_z="331.79843" rest_time="0"/> 
+			<routestep step="16" loc_x="639.75885" loc_y="465.928" loc_z="331.10992" rest_time="0"/> 
+			<routestep step="17" loc_x="603.685" loc_y="465.8557" loc_z="322.2749" rest_time="0"/> 
+			<routestep step="18" loc_x="593.8483" loc_y="443.30023" loc_z="319.41507" rest_time="0"/> 
+			<routestep step="19" loc_x="618.88025" loc_y="416.09445" loc_z="323.47595" rest_time="0"/> 
+			<routestep step="20" loc_x="642.7715" loc_y="398.7327" loc_z="324.5792" rest_time="0"/> 
+			<routestep step="21" loc_x="691.32086" loc_y="399.8065" loc_z="325.125" rest_time="0"/> 
+			<routestep step="22" loc_x="710.356" loc_y="425.5551" loc_z="325.22775" rest_time="0"/> 
+			<routestep step="23" loc_x="692.4583" loc_y="461.24744" loc_z="332.0" rest_time="0"/> 
+			<routestep step="24" loc_x="667.56366" loc_y="463.6664" loc_z="331.77728" rest_time="0"/> 
+			<routestep step="25" loc_x="623.7322" loc_y="466.63797" loc_z="329.19977" rest_time="0"/> 
+		</routes>
 	</walker_template>
 	<!-- Garrison Patrol 3 (Eltnen)-->
- 	<walker_template route_id="78">
- 		<routes>
- 			<routestep step="1" loc_x="554.82324" loc_y="447.57974" loc_z="306.93265" rest_time="0"/> 
- 			<routestep step="2" loc_x="580.97217" loc_y="453.20123" loc_z="314.66797" rest_time="0"/> 
- 			<routestep step="3" loc_x="588.5763" loc_y="449.02817" loc_z="317.24084" rest_time="0"/> 
- 			<routestep step="4" loc_x="599.1455" loc_y="436.44366" loc_z="320.68704" rest_time="0"/> 
- 			<routestep step="5" loc_x="612.99786" loc_y="420.3714" loc_z="322.96057" rest_time="0"/> 
- 			<routestep step="6" loc_x="631.54767" loc_y="404.6952" loc_z="324.15002" rest_time="0"/> 
- 			<routestep step="7" loc_x="651.699" loc_y="396.1158" loc_z="324.7312" rest_time="0"/> 
- 			<routestep step="8" loc_x="671.0959" loc_y="391.0547" loc_z="324.81592" rest_time="0"/> 
- 			<routestep step="9" loc_x="692.1578" loc_y="378.19562" loc_z="324.50986" rest_time="0"/> 
- 			<routestep step="10" loc_x="714.9641" loc_y="366.1192" loc_z="320.0767" rest_time="0"/> 
- 			<routestep step="11" loc_x="738.032" loc_y="354.2456" loc_z="313.996" rest_time="0"/> 
- 			<routestep step="12" loc_x="762.2245" loc_y="343.80237" loc_z="307.70792" rest_time="0"/> 
- 			<routestep step="13" loc_x="776.0528" loc_y="338.54337" loc_z="304.61182" rest_time="0"/> 
- 			<routestep step="14" loc_x="749.296" loc_y="349.08548" loc_z="311.632" rest_time="0"/> 
- 			<routestep step="15" loc_x="681.6074" loc_y="385.2644" loc_z="324.57904" rest_time="0"/> 
- 			<routestep step="16" loc_x="621.8349" loc_y="411.9784" loc_z="323.3503" rest_time="0"/> 
- 			<routestep step="17" loc_x="641.7187" loc_y="400.01718" loc_z="324.51437" rest_time="0"/> 
- 			<routestep step="18" loc_x="567.53094" loc_y="451.6261" loc_z="311.80072" rest_time="0"/> 
- 			<routestep step="19" loc_x="641.7187" loc_y="400.01718" loc_z="324.51437" rest_time="0"/> 
- 			<routestep step="20" loc_x="621.8349" loc_y="411.9784" loc_z="323.3503" rest_time="0"/> 
- 			<routestep step="21" loc_x="681.6074" loc_y="385.2644" loc_z="324.57904" rest_time="0"/> 
- 			<routestep step="22" loc_x="749.296" loc_y="349.08548" loc_z="311.632" rest_time="0"/> 
- 			<routestep step="23" loc_x="776.0528" loc_y="338.54337" loc_z="304.61182" rest_time="0"/> 
- 			<routestep step="24" loc_x="762.2245" loc_y="343.80237" loc_z="307.70792" rest_time="0"/> 
- 			<routestep step="25" loc_x="738.032" loc_y="354.2456" loc_z="313.996" rest_time="0"/> 
- 			<routestep step="26" loc_x="714.9641" loc_y="366.1192" loc_z="320.0767" rest_time="0"/> 
- 			<routestep step="27" loc_x="692.1578" loc_y="378.19562" loc_z="324.50986" rest_time="0"/> 
- 			<routestep step="28" loc_x="671.0959" loc_y="391.0547" loc_z="324.81592" rest_time="0"/> 
- 			<routestep step="29" loc_x="651.699" loc_y="396.1158" loc_z="324.7312" rest_time="0"/> 
- 			<routestep step="30" loc_x="631.54767" loc_y="404.6952" loc_z="324.15002" rest_time="0"/> 
- 			<routestep step="31" loc_x="612.99786" loc_y="420.3714" loc_z="322.96057" rest_time="0"/> 
- 			<routestep step="32" loc_x="599.1455" loc_y="436.44366" loc_z="320.68704" rest_time="0"/> 
- 			<routestep step="33" loc_x="588.5763" loc_y="449.02817" loc_z="317.24084" rest_time="0"/> 
- 			<routestep step="34" loc_x="580.97217" loc_y="453.20123" loc_z="314.66797" rest_time="0"/> 
- 			<routestep step="35" loc_x="554.82324" loc_y="447.57974" loc_z="306.93265" rest_time="0"/> 
- 		</routes>
+	<walker_template route_id="78">
+		<routes>
+			<routestep step="1" loc_x="554.82324" loc_y="447.57974" loc_z="306.93265" rest_time="0"/> 
+			<routestep step="2" loc_x="580.97217" loc_y="453.20123" loc_z="314.66797" rest_time="0"/> 
+			<routestep step="3" loc_x="588.5763" loc_y="449.02817" loc_z="317.24084" rest_time="0"/> 
+			<routestep step="4" loc_x="599.1455" loc_y="436.44366" loc_z="320.68704" rest_time="0"/> 
+			<routestep step="5" loc_x="612.99786" loc_y="420.3714" loc_z="322.96057" rest_time="0"/> 
+			<routestep step="6" loc_x="631.54767" loc_y="404.6952" loc_z="324.15002" rest_time="0"/> 
+			<routestep step="7" loc_x="651.699" loc_y="396.1158" loc_z="324.7312" rest_time="0"/> 
+			<routestep step="8" loc_x="671.0959" loc_y="391.0547" loc_z="324.81592" rest_time="0"/> 
+			<routestep step="9" loc_x="692.1578" loc_y="378.19562" loc_z="324.50986" rest_time="0"/> 
+			<routestep step="10" loc_x="714.9641" loc_y="366.1192" loc_z="320.0767" rest_time="0"/> 
+			<routestep step="11" loc_x="738.032" loc_y="354.2456" loc_z="313.996" rest_time="0"/> 
+			<routestep step="12" loc_x="762.2245" loc_y="343.80237" loc_z="307.70792" rest_time="0"/> 
+			<routestep step="13" loc_x="776.0528" loc_y="338.54337" loc_z="304.61182" rest_time="0"/> 
+			<routestep step="14" loc_x="749.296" loc_y="349.08548" loc_z="311.632" rest_time="0"/> 
+			<routestep step="15" loc_x="681.6074" loc_y="385.2644" loc_z="324.57904" rest_time="0"/> 
+			<routestep step="16" loc_x="621.8349" loc_y="411.9784" loc_z="323.3503" rest_time="0"/> 
+			<routestep step="17" loc_x="641.7187" loc_y="400.01718" loc_z="324.51437" rest_time="0"/> 
+			<routestep step="18" loc_x="567.53094" loc_y="451.6261" loc_z="311.80072" rest_time="0"/> 
+			<routestep step="19" loc_x="641.7187" loc_y="400.01718" loc_z="324.51437" rest_time="0"/> 
+			<routestep step="20" loc_x="621.8349" loc_y="411.9784" loc_z="323.3503" rest_time="0"/> 
+			<routestep step="21" loc_x="681.6074" loc_y="385.2644" loc_z="324.57904" rest_time="0"/> 
+			<routestep step="22" loc_x="749.296" loc_y="349.08548" loc_z="311.632" rest_time="0"/> 
+			<routestep step="23" loc_x="776.0528" loc_y="338.54337" loc_z="304.61182" rest_time="0"/> 
+			<routestep step="24" loc_x="762.2245" loc_y="343.80237" loc_z="307.70792" rest_time="0"/> 
+			<routestep step="25" loc_x="738.032" loc_y="354.2456" loc_z="313.996" rest_time="0"/> 
+			<routestep step="26" loc_x="714.9641" loc_y="366.1192" loc_z="320.0767" rest_time="0"/> 
+			<routestep step="27" loc_x="692.1578" loc_y="378.19562" loc_z="324.50986" rest_time="0"/> 
+			<routestep step="28" loc_x="671.0959" loc_y="391.0547" loc_z="324.81592" rest_time="0"/> 
+			<routestep step="29" loc_x="651.699" loc_y="396.1158" loc_z="324.7312" rest_time="0"/> 
+			<routestep step="30" loc_x="631.54767" loc_y="404.6952" loc_z="324.15002" rest_time="0"/> 
+			<routestep step="31" loc_x="612.99786" loc_y="420.3714" loc_z="322.96057" rest_time="0"/> 
+			<routestep step="32" loc_x="599.1455" loc_y="436.44366" loc_z="320.68704" rest_time="0"/> 
+			<routestep step="33" loc_x="588.5763" loc_y="449.02817" loc_z="317.24084" rest_time="0"/> 
+			<routestep step="34" loc_x="580.97217" loc_y="453.20123" loc_z="314.66797" rest_time="0"/> 
+			<routestep step="35" loc_x="554.82324" loc_y="447.57974" loc_z="306.93265" rest_time="0"/> 
+		</routes>
 	</walker_template>
 	<!-- Garrison Patrol 4, Garrison Patrol 5 (Eltnen)-->
- 	<walker_template route_id="79">
- 		<routes>
- 			<routestep step="1" loc_x="636.2292" loc_y="481.77405" loc_z="331.8607" rest_time="0"/> 
- 			<routestep step="2" loc_x="637.242" loc_y="471.25668" loc_z="331.14178" rest_time="0"/> 
- 			<routestep step="3" loc_x="637.9055" loc_y="462.02963" loc_z="331.12094" rest_time="0"/> 
- 			<routestep step="4" loc_x="645.9377" loc_y="453.7728" loc_z="331.7681" rest_time="0"/> 
- 			<routestep step="5" loc_x="652.1485" loc_y="442.99875" loc_z="331.875" rest_time="0"/> 
- 			<routestep step="6" loc_x="661.35657" loc_y="433.5392" loc_z="331.875" rest_time="0"/> 
- 			<routestep step="7" loc_x="672.9567" loc_y="432.0802" loc_z="331.875" rest_time="0"/> 
- 			<routestep step="8" loc_x="677.04944" loc_y="431.41846" loc_z="331.90424" rest_time="0"/> 
- 			<routestep step="9" loc_x="677.90845" loc_y="440.56155" loc_z="331.875" rest_time="0"/> 
- 			<routestep step="10" loc_x="678.6543" loc_y="448.49994" loc_z="331.875" rest_time="0"/> 
- 			<routestep step="11" loc_x="679.3926" loc_y="453.72726" loc_z="331.875" rest_time="0"/> 
- 			<routestep step="12" loc_x="672.0477" loc_y="457.28168" loc_z="331.71478" rest_time="0"/> 
- 			<routestep step="13" loc_x="664.4745" loc_y="460.94666" loc_z="331.84534" rest_time="0"/> 
- 			<routestep step="14" loc_x="656.27185" loc_y="464.91614" loc_z="331.858" rest_time="0"/> 
- 			<routestep step="15" loc_x="646.56464" loc_y="470.1604" loc_z="331.51" rest_time="0"/> 
- 			<routestep step="16" loc_x="642.9247" loc_y="473.6651" loc_z="331.70813" rest_time="0"/> 
- 			<routestep step="17" loc_x="639.99207" loc_y="479.4126" loc_z="331.8378" rest_time="0"/> 
- 			<routestep step="18" loc_x="636.2292" loc_y="481.77405" loc_z="331.8607" rest_time="0"/> 
- 		</routes>
+	<walker_template route_id="79">
+		<routes>
+			<routestep step="1" loc_x="636.2292" loc_y="481.77405" loc_z="331.8607" rest_time="0"/> 
+			<routestep step="2" loc_x="637.242" loc_y="471.25668" loc_z="331.14178" rest_time="0"/> 
+			<routestep step="3" loc_x="637.9055" loc_y="462.02963" loc_z="331.12094" rest_time="0"/> 
+			<routestep step="4" loc_x="645.9377" loc_y="453.7728" loc_z="331.7681" rest_time="0"/> 
+			<routestep step="5" loc_x="652.1485" loc_y="442.99875" loc_z="331.875" rest_time="0"/> 
+			<routestep step="6" loc_x="661.35657" loc_y="433.5392" loc_z="331.875" rest_time="0"/> 
+			<routestep step="7" loc_x="672.9567" loc_y="432.0802" loc_z="331.875" rest_time="0"/> 
+			<routestep step="8" loc_x="677.04944" loc_y="431.41846" loc_z="331.90424" rest_time="0"/> 
+			<routestep step="9" loc_x="677.90845" loc_y="440.56155" loc_z="331.875" rest_time="0"/> 
+			<routestep step="10" loc_x="678.6543" loc_y="448.49994" loc_z="331.875" rest_time="0"/> 
+			<routestep step="11" loc_x="679.3926" loc_y="453.72726" loc_z="331.875" rest_time="0"/> 
+			<routestep step="12" loc_x="672.0477" loc_y="457.28168" loc_z="331.71478" rest_time="0"/> 
+			<routestep step="13" loc_x="664.4745" loc_y="460.94666" loc_z="331.84534" rest_time="0"/> 
+			<routestep step="14" loc_x="656.27185" loc_y="464.91614" loc_z="331.858" rest_time="0"/> 
+			<routestep step="15" loc_x="646.56464" loc_y="470.1604" loc_z="331.51" rest_time="0"/> 
+			<routestep step="16" loc_x="642.9247" loc_y="473.6651" loc_z="331.70813" rest_time="0"/> 
+			<routestep step="17" loc_x="639.99207" loc_y="479.4126" loc_z="331.8378" rest_time="0"/> 
+			<routestep step="18" loc_x="636.2292" loc_y="481.77405" loc_z="331.8607" rest_time="0"/> 
+		</routes>
 	</walker_template>
 	<!-- Garrison Patrol 6, Garrison Patrol 7 (Eltnen)-->
- 	<walker_template route_id="80">
- 		<routes>
- 			<routestep step="1" loc_x="748.56445" loc_y="445.95532" loc_z="329.49164" rest_time="0"/> 
- 			<routestep step="2" loc_x="743.0086" loc_y="452.5421" loc_z="330.53967" rest_time="0"/> 
- 			<routestep step="3" loc_x="736.35876" loc_y="460.42618" loc_z="330.66986" rest_time="0"/> 
- 			<routestep step="4" loc_x="729.78064" loc_y="468.22516" loc_z="329.37537" rest_time="0"/> 
- 			<routestep step="5" loc_x="724.7695" loc_y="474.16635" loc_z="329.6354" rest_time="0"/> 
- 			<routestep step="5" loc_x="726.64624" loc_y="487.74915" loc_z="329.5651" rest_time="0"/> 
- 			<routestep step="6" loc_x="728.6238" loc_y="500.09155" loc_z="328.5608" rest_time="0"/> 
- 			<routestep step="7" loc_x="730.6937" loc_y="513.01056" loc_z="326.58408" rest_time="0"/> 
- 			<routestep step="8" loc_x="725.1667" loc_y="521.1611" loc_z="323.28336" rest_time="0"/> 
- 			<routestep step="9" loc_x="719.79425" loc_y="529.66785" loc_z="319.2367" rest_time="0"/> 
- 			<routestep step="10" loc_x="716.5216" loc_y="543.45886" loc_z="314.29532" rest_time="0"/> 
- 			<routestep step="11" loc_x="715.2047" loc_y="558.18005" loc_z="308.66815" rest_time="0"/> 
- 			<routestep step="12" loc_x="714.8404" loc_y="574.52704" loc_z="302.54578" rest_time="0"/> 
- 			<routestep step="13" loc_x="715.2047" loc_y="558.18005" loc_z="308.66815" rest_time="0"/> 
- 			<routestep step="14" loc_x="716.5216" loc_y="543.45886" loc_z="314.29532" rest_time="0"/> 
- 			<routestep step="15" loc_x="719.79425" loc_y="529.66785" loc_z="319.2367" rest_time="0"/> 
- 			<routestep step="16" loc_x="725.1667" loc_y="521.1611" loc_z="323.28336" rest_time="0"/> 
- 			<routestep step="17" loc_x="730.6937" loc_y="513.01056" loc_z="326.58408" rest_time="0"/> 
- 			<routestep step="18" loc_x="728.6238" loc_y="500.09155" loc_z="328.5608" rest_time="0"/> 
- 			<routestep step="19" loc_x="726.64624" loc_y="487.74915" loc_z="329.5651" rest_time="0"/> 
- 			<routestep step="20" loc_x="724.7695" loc_y="474.16635" loc_z="329.6354" rest_time="0"/> 
- 			<routestep step="21" loc_x="729.78064" loc_y="468.22516" loc_z="329.37537" rest_time="0"/> 
- 			<routestep step="22" loc_x="736.35876" loc_y="460.42618" loc_z="330.66986" rest_time="0"/> 
- 			<routestep step="23" loc_x="743.0086" loc_y="452.5421" loc_z="330.53967" rest_time="0"/> 
- 			<routestep step="24" loc_x="748.56445" loc_y="445.95532" loc_z="329.49164" rest_time="0"/> 
- 		</routes>
+	<walker_template route_id="80">
+		<routes>
+			<routestep step="1" loc_x="748.56445" loc_y="445.95532" loc_z="329.49164" rest_time="0"/> 
+			<routestep step="2" loc_x="743.0086" loc_y="452.5421" loc_z="330.53967" rest_time="0"/> 
+			<routestep step="3" loc_x="736.35876" loc_y="460.42618" loc_z="330.66986" rest_time="0"/> 
+			<routestep step="4" loc_x="729.78064" loc_y="468.22516" loc_z="329.37537" rest_time="0"/> 
+			<routestep step="5" loc_x="724.7695" loc_y="474.16635" loc_z="329.6354" rest_time="0"/> 
+			<routestep step="5" loc_x="726.64624" loc_y="487.74915" loc_z="329.5651" rest_time="0"/> 
+			<routestep step="6" loc_x="728.6238" loc_y="500.09155" loc_z="328.5608" rest_time="0"/> 
+			<routestep step="7" loc_x="730.6937" loc_y="513.01056" loc_z="326.58408" rest_time="0"/> 
+			<routestep step="8" loc_x="725.1667" loc_y="521.1611" loc_z="323.28336" rest_time="0"/> 
+			<routestep step="9" loc_x="719.79425" loc_y="529.66785" loc_z="319.2367" rest_time="0"/> 
+			<routestep step="10" loc_x="716.5216" loc_y="543.45886" loc_z="314.29532" rest_time="0"/> 
+			<routestep step="11" loc_x="715.2047" loc_y="558.18005" loc_z="308.66815" rest_time="0"/> 
+			<routestep step="12" loc_x="714.8404" loc_y="574.52704" loc_z="302.54578" rest_time="0"/> 
+			<routestep step="13" loc_x="715.2047" loc_y="558.18005" loc_z="308.66815" rest_time="0"/> 
+			<routestep step="14" loc_x="716.5216" loc_y="543.45886" loc_z="314.29532" rest_time="0"/> 
+			<routestep step="15" loc_x="719.79425" loc_y="529.66785" loc_z="319.2367" rest_time="0"/> 
+			<routestep step="16" loc_x="725.1667" loc_y="521.1611" loc_z="323.28336" rest_time="0"/> 
+			<routestep step="17" loc_x="730.6937" loc_y="513.01056" loc_z="326.58408" rest_time="0"/> 
+			<routestep step="18" loc_x="728.6238" loc_y="500.09155" loc_z="328.5608" rest_time="0"/> 
+			<routestep step="19" loc_x="726.64624" loc_y="487.74915" loc_z="329.5651" rest_time="0"/> 
+			<routestep step="20" loc_x="724.7695" loc_y="474.16635" loc_z="329.6354" rest_time="0"/> 
+			<routestep step="21" loc_x="729.78064" loc_y="468.22516" loc_z="329.37537" rest_time="0"/> 
+			<routestep step="22" loc_x="736.35876" loc_y="460.42618" loc_z="330.66986" rest_time="0"/> 
+			<routestep step="23" loc_x="743.0086" loc_y="452.5421" loc_z="330.53967" rest_time="0"/> 
+			<routestep step="24" loc_x="748.56445" loc_y="445.95532" loc_z="329.49164" rest_time="0"/> 
+		</routes>
 	</walker_template>
 	<!-- Garrison Patrol 8 (Eltnen)-->
 	<walker_template route_id="81">
 		<routes>
- 			<routestep step="1" loc_x="1063.7828" loc_y="345.276" loc_z="306.69458" rest_time="0"/> 
- 			<routestep step="2" loc_x="1071.2361" loc_y="338.15057" loc_z="307.02893" rest_time="0"/> 
- 			<routestep step="3" loc_x="1073.5837" loc_y="326.50836" loc_z="307.61923" rest_time="0"/> 
- 			<routestep step="4" loc_x="1068.2664" loc_y="315.98972" loc_z="309.35468" rest_time="0"/> 
- 			<routestep step="5" loc_x="1056.0231" loc_y="311.5888" loc_z="310.2058" rest_time="0"/> 
- 			<routestep step="6" loc_x="1045.4027" loc_y="319.0714" loc_z="309.34537" rest_time="0"/> 
- 			<routestep step="7" loc_x="1042.2084" loc_y="330.62878" loc_z="309.25" rest_time="0"/> 
- 			<routestep step="8" loc_x="1051.6709" loc_y="344.99637" loc_z="307.4377" rest_time="0"/> 
- 			<routestep step="9" loc_x="1063.7828" loc_y="345.276" loc_z="306.69458" rest_time="0"/> 
- 		</routes>
+			<routestep step="1" loc_x="1063.7828" loc_y="345.276" loc_z="306.69458" rest_time="0"/> 
+			<routestep step="2" loc_x="1071.2361" loc_y="338.15057" loc_z="307.02893" rest_time="0"/> 
+			<routestep step="3" loc_x="1073.5837" loc_y="326.50836" loc_z="307.61923" rest_time="0"/> 
+			<routestep step="4" loc_x="1068.2664" loc_y="315.98972" loc_z="309.35468" rest_time="0"/> 
+			<routestep step="5" loc_x="1056.0231" loc_y="311.5888" loc_z="310.2058" rest_time="0"/> 
+			<routestep step="6" loc_x="1045.4027" loc_y="319.0714" loc_z="309.34537" rest_time="0"/> 
+			<routestep step="7" loc_x="1042.2084" loc_y="330.62878" loc_z="309.25" rest_time="0"/> 
+			<routestep step="8" loc_x="1051.6709" loc_y="344.99637" loc_z="307.4377" rest_time="0"/> 
+			<routestep step="9" loc_x="1063.7828" loc_y="345.276" loc_z="306.69458" rest_time="0"/> 
+		</routes>
 	</walker_template>
 	<!-- Kalitrates (Eltnen)-->
 	<walker_template route_id="82">
 		<routes>
- 			<routestep step="1" loc_x="763.3444" loc_y="989.78253" loc_z="282.66806" rest_time="5"/> 
- 			<routestep step="2" loc_x="770.7226" loc_y="995.53174" loc_z="283.25" rest_time="0"/> 
- 			<routestep step="3" loc_x="775.4628" loc_y="1005.48785" loc_z="284.218" rest_time="5"/> 
- 			<routestep step="4" loc_x="770.7226" loc_y="995.53174" loc_z="283.25" rest_time="0"/> 
- 			<routestep step="5" loc_x="763.3444" loc_y="989.78253" loc_z="282.66806" rest_time="5"/> 
- 		</routes>
+			<routestep step="1" loc_x="763.3444" loc_y="989.78253" loc_z="282.66806" rest_time="5"/> 
+			<routestep step="2" loc_x="770.7226" loc_y="995.53174" loc_z="283.25" rest_time="0"/> 
+			<routestep step="3" loc_x="775.4628" loc_y="1005.48785" loc_z="284.218" rest_time="5"/> 
+			<routestep step="4" loc_x="770.7226" loc_y="995.53174" loc_z="283.25" rest_time="0"/> 
+			<routestep step="5" loc_x="763.3444" loc_y="989.78253" loc_z="282.66806" rest_time="5"/> 
+		</routes>
 	</walker_template>
 	<!--Makarion (Eltnen)-->
 	<walker_template route_id="83">
 		<routes>
- 			<routestep step="1" loc_x="755.4216" loc_y="985.8871" loc_z="282.46384" rest_time="5"/> 
- 			<routestep step="2" loc_x="745.71436" loc_y="985.5474" loc_z="282.375" rest_time="0"/> 
- 			<routestep step="3" loc_x="737.2476" loc_y="986.0632" loc_z="282.4181" rest_time="0"/> 
- 			<routestep step="4" loc_x="732.2244" loc_y="987.63617" loc_z="282.73596" rest_time="0"/> 
- 			<routestep step="5" loc_x="729.53577" loc_y="995.0968" loc_z="283.0121" rest_time="5"/> 
- 			<routestep step="6" loc_x="732.2244" loc_y="987.63617" loc_z="282.73596" rest_time="0"/> 
- 			<routestep step="7" loc_x="737.2476" loc_y="986.0632" loc_z="282.4181" rest_time="0"/> 
- 			<routestep step="8" loc_x="745.71436" loc_y="985.5474" loc_z="282.375" rest_time="0"/> 
- 			<routestep step="9" loc_x="755.4216" loc_y="985.8871" loc_z="282.46384" rest_time="5"/> 
- 		</routes>
+			<routestep step="1" loc_x="755.4216" loc_y="985.8871" loc_z="282.46384" rest_time="5"/> 
+			<routestep step="2" loc_x="745.71436" loc_y="985.5474" loc_z="282.375" rest_time="0"/> 
+			<routestep step="3" loc_x="737.2476" loc_y="986.0632" loc_z="282.4181" rest_time="0"/> 
+			<routestep step="4" loc_x="732.2244" loc_y="987.63617" loc_z="282.73596" rest_time="0"/> 
+			<routestep step="5" loc_x="729.53577" loc_y="995.0968" loc_z="283.0121" rest_time="5"/> 
+			<routestep step="6" loc_x="732.2244" loc_y="987.63617" loc_z="282.73596" rest_time="0"/> 
+			<routestep step="7" loc_x="737.2476" loc_y="986.0632" loc_z="282.4181" rest_time="0"/> 
+			<routestep step="8" loc_x="745.71436" loc_y="985.5474" loc_z="282.375" rest_time="0"/> 
+			<routestep step="9" loc_x="755.4216" loc_y="985.8871" loc_z="282.46384" rest_time="5"/> 
+		</routes>
 	</walker_template>
 	<!-- Acaste (Eltnen)-->
 	<walker_template route_id="84">
 		<routes>
- 			<routestep step="1" loc_x="757.55115" loc_y="979.99176" loc_z="282.72195" rest_time="5"/> 
- 			<routestep step="2" loc_x="751.21954" loc_y="980.09985" loc_z="282.5" rest_time="0"/> 
- 			<routestep step="3" loc_x="743.42755" loc_y="981.00116" loc_z="282.375" rest_time="0"/> 
- 			<routestep step="4" loc_x="733.7008" loc_y="984.51154" loc_z="282.6437" rest_time="0"/> 
- 			<routestep step="5" loc_x="727.5219" loc_y="989.9848" loc_z="283.02988" rest_time="0"/> 
- 			<routestep step="6" loc_x="724.4744" loc_y="999.4186" loc_z="283.25" rest_time="0"/> 
- 			<routestep step="7" loc_x="726.01465" loc_y="1009.6032" loc_z="283.25" rest_time="0"/> 
- 			<routestep step="8" loc_x="729.4952" loc_y="1017.89575" loc_z="283.125" rest_time="0"/> 
- 			<routestep step="9" loc_x="737.30835" loc_y="1027.0975" loc_z="283.73215" rest_time="0"/> 
- 			<routestep step="10" loc_x="747.859" loc_y="1032.1304" loc_z="284.52576" rest_time="0"/> 
- 			<routestep step="11" loc_x="758.7876" loc_y="1031.866" loc_z="284.17422" rest_time="0"/> 
- 			<routestep step="12" loc_x="770.5374" loc_y="1025.8871" loc_z="285.77652" rest_time="0"/> 
- 			<routestep step="13" loc_x="779.85864" loc_y="1015.1355" loc_z="284.8379" rest_time="0"/> 
- 			<routestep step="14" loc_x="780.8204" loc_y="999.46484" loc_z="283.59155" rest_time="0"/> 
- 			<routestep step="15" loc_x="777.6653" loc_y="987.22797" loc_z="283.0" rest_time="0"/> 
- 			<routestep step="16" loc_x="762.4364" loc_y="979.9782" loc_z="282.75137" rest_time="0"/> 
- 			<routestep step="17" loc_x="757.55115" loc_y="979.99176" loc_z="282.72195" rest_time="5"/> 
- 		</routes>
+			<routestep step="1" loc_x="757.55115" loc_y="979.99176" loc_z="282.72195" rest_time="5"/> 
+			<routestep step="2" loc_x="751.21954" loc_y="980.09985" loc_z="282.5" rest_time="0"/> 
+			<routestep step="3" loc_x="743.42755" loc_y="981.00116" loc_z="282.375" rest_time="0"/> 
+			<routestep step="4" loc_x="733.7008" loc_y="984.51154" loc_z="282.6437" rest_time="0"/> 
+			<routestep step="5" loc_x="727.5219" loc_y="989.9848" loc_z="283.02988" rest_time="0"/> 
+			<routestep step="6" loc_x="724.4744" loc_y="999.4186" loc_z="283.25" rest_time="0"/> 
+			<routestep step="7" loc_x="726.01465" loc_y="1009.6032" loc_z="283.25" rest_time="0"/> 
+			<routestep step="8" loc_x="729.4952" loc_y="1017.89575" loc_z="283.125" rest_time="0"/> 
+			<routestep step="9" loc_x="737.30835" loc_y="1027.0975" loc_z="283.73215" rest_time="0"/> 
+			<routestep step="10" loc_x="747.859" loc_y="1032.1304" loc_z="284.52576" rest_time="0"/> 
+			<routestep step="11" loc_x="758.7876" loc_y="1031.866" loc_z="284.17422" rest_time="0"/> 
+			<routestep step="12" loc_x="770.5374" loc_y="1025.8871" loc_z="285.77652" rest_time="0"/> 
+			<routestep step="13" loc_x="779.85864" loc_y="1015.1355" loc_z="284.8379" rest_time="0"/> 
+			<routestep step="14" loc_x="780.8204" loc_y="999.46484" loc_z="283.59155" rest_time="0"/> 
+			<routestep step="15" loc_x="777.6653" loc_y="987.22797" loc_z="283.0" rest_time="0"/> 
+			<routestep step="16" loc_x="762.4364" loc_y="979.9782" loc_z="282.75137" rest_time="0"/> 
+			<routestep step="17" loc_x="757.55115" loc_y="979.99176" loc_z="282.72195" rest_time="5"/> 
+		</routes>
 	</walker_template>
 	<!--Garrison Patrol 9 (Eltnen)-->
 	<walker_template route_id="85">
 		<routes>
- 			<routestep step="1" loc_x="1394.0155" loc_y="630.03864" loc_z="352.08768" rest_time="0"/> 
- 			<routestep step="2" loc_x="1396.4698" loc_y="624.188" loc_z="351.215" rest_time="0"/> 
- 			<routestep step="3" loc_x="1399.7542" loc_y="615.77057" loc_z="351.0468" rest_time="0"/> 
- 			<routestep step="4" loc_x="1402.8899" loc_y="608.2944" loc_z="351.94" rest_time="0"/> 
- 			<routestep step="5" loc_x="1404.3638" loc_y="604.7884" loc_z="352.5444" rest_time="0"/> 
- 			<routestep step="6" loc_x="1407.8639" loc_y="600.27924" loc_z="351.09753" rest_time="0"/> 
- 			<routestep step="7" loc_x="1413.4763" loc_y="593.3742" loc_z="350.29712" rest_time="0"/> 
- 			<routestep step="8" loc_x="1418.9205" loc_y="586.488" loc_z="350.63977" rest_time="0"/> 
- 			<routestep step="9" loc_x="1423.9647" loc_y="580.2949" loc_z="352.0536" rest_time="0"/> 
- 			<routestep step="10" loc_x="1430.5951" loc_y="576.15015" loc_z="351.1021" rest_time="0"/> 
- 			<routestep step="11" loc_x="1437.5592" loc_y="572.30255" loc_z="351.19922" rest_time="0"/> 
- 			<routestep step="12" loc_x="1445.0061" loc_y="568.46533" loc_z="352.29245" rest_time="0"/> 
- 			<routestep step="13" loc_x="1453.9979" loc_y="563.89453" loc_z="355.0062" rest_time="0"/> 
- 			<routestep step="14" loc_x="1445.0061" loc_y="568.46533" loc_z="352.29245" rest_time="0"/> 
- 			<routestep step="15" loc_x="1437.5592" loc_y="572.30255" loc_z="351.19922" rest_time="0"/> 
- 			<routestep step="16" loc_x="1430.5951" loc_y="576.15015" loc_z="351.1021" rest_time="0"/> 
- 			<routestep step="17" loc_x="1423.9647" loc_y="580.2949" loc_z="352.0536" rest_time="0"/> 
- 			<routestep step="18" loc_x="1418.9205" loc_y="586.488" loc_z="350.63977" rest_time="0"/> 
- 			<routestep step="19" loc_x="1413.4763" loc_y="593.3742" loc_z="350.29712" rest_time="0"/> 
- 			<routestep step="20" loc_x="1407.8639" loc_y="600.27924" loc_z="351.09753" rest_time="0"/> 
- 			<routestep step="21" loc_x="1404.3638" loc_y="604.7884" loc_z="352.5444" rest_time="0"/> 
- 			<routestep step="22" loc_x="1402.8899" loc_y="608.2944" loc_z="351.94" rest_time="0"/> 
- 			<routestep step="23" loc_x="1399.7542" loc_y="615.77057" loc_z="351.0468" rest_time="0"/> 
- 			<routestep step="24" loc_x="1396.4698" loc_y="624.188" loc_z="351.215" rest_time="0"/> 
- 			<routestep step="25" loc_x="1394.0155" loc_y="630.03864" loc_z="352.08768" rest_time="0"/> 
- 		</routes>
+			<routestep step="1" loc_x="1394.0155" loc_y="630.03864" loc_z="352.08768" rest_time="0"/> 
+			<routestep step="2" loc_x="1396.4698" loc_y="624.188" loc_z="351.215" rest_time="0"/> 
+			<routestep step="3" loc_x="1399.7542" loc_y="615.77057" loc_z="351.0468" rest_time="0"/> 
+			<routestep step="4" loc_x="1402.8899" loc_y="608.2944" loc_z="351.94" rest_time="0"/> 
+			<routestep step="5" loc_x="1404.3638" loc_y="604.7884" loc_z="352.5444" rest_time="0"/> 
+			<routestep step="6" loc_x="1407.8639" loc_y="600.27924" loc_z="351.09753" rest_time="0"/> 
+			<routestep step="7" loc_x="1413.4763" loc_y="593.3742" loc_z="350.29712" rest_time="0"/> 
+			<routestep step="8" loc_x="1418.9205" loc_y="586.488" loc_z="350.63977" rest_time="0"/> 
+			<routestep step="9" loc_x="1423.9647" loc_y="580.2949" loc_z="352.0536" rest_time="0"/> 
+			<routestep step="10" loc_x="1430.5951" loc_y="576.15015" loc_z="351.1021" rest_time="0"/> 
+			<routestep step="11" loc_x="1437.5592" loc_y="572.30255" loc_z="351.19922" rest_time="0"/> 
+			<routestep step="12" loc_x="1445.0061" loc_y="568.46533" loc_z="352.29245" rest_time="0"/> 
+			<routestep step="13" loc_x="1453.9979" loc_y="563.89453" loc_z="355.0062" rest_time="0"/> 
+			<routestep step="14" loc_x="1445.0061" loc_y="568.46533" loc_z="352.29245" rest_time="0"/> 
+			<routestep step="15" loc_x="1437.5592" loc_y="572.30255" loc_z="351.19922" rest_time="0"/> 
+			<routestep step="16" loc_x="1430.5951" loc_y="576.15015" loc_z="351.1021" rest_time="0"/> 
+			<routestep step="17" loc_x="1423.9647" loc_y="580.2949" loc_z="352.0536" rest_time="0"/> 
+			<routestep step="18" loc_x="1418.9205" loc_y="586.488" loc_z="350.63977" rest_time="0"/> 
+			<routestep step="19" loc_x="1413.4763" loc_y="593.3742" loc_z="350.29712" rest_time="0"/> 
+			<routestep step="20" loc_x="1407.8639" loc_y="600.27924" loc_z="351.09753" rest_time="0"/> 
+			<routestep step="21" loc_x="1404.3638" loc_y="604.7884" loc_z="352.5444" rest_time="0"/> 
+			<routestep step="22" loc_x="1402.8899" loc_y="608.2944" loc_z="351.94" rest_time="0"/> 
+			<routestep step="23" loc_x="1399.7542" loc_y="615.77057" loc_z="351.0468" rest_time="0"/> 
+			<routestep step="24" loc_x="1396.4698" loc_y="624.188" loc_z="351.215" rest_time="0"/> 
+			<routestep step="25" loc_x="1394.0155" loc_y="630.03864" loc_z="352.08768" rest_time="0"/> 
+		</routes>
 	</walker_template>
 	<!-- Garrison Patrol 10 (Eltnen)-->
 	<walker_template route_id="86">
 		<routes>
- 			<routestep step="1" loc_x="1768.6484" loc_y="881.23016" loc_z="421.1867" rest_time="0"/> 
- 			<routestep step="2" loc_x="1772.7822" loc_y="887.2091" loc_z="422.125" rest_time="0"/> 
- 			<routestep step="3" loc_x="1781.936" loc_y="896.2518" loc_z="422.0" rest_time="0"/> 
- 			<routestep step="4" loc_x="1788.4376" loc_y="902.3904" loc_z="422.52432" rest_time="0"/> 
- 			<routestep step="5" loc_x="1788.824" loc_y="912.24664" loc_z="422.3596" rest_time="0"/> 
- 			<routestep step="6" loc_x="1787.6827" loc_y="922.6813" loc_z="422.125" rest_time="0"/> 
- 			<routestep step="7" loc_x="1786.5299" loc_y="933.22284" loc_z="422.26544" rest_time="0"/> 
- 			<routestep step="8" loc_x="1785.3591" loc_y="943.93604" loc_z="422.125" rest_time="0"/> 
- 			<routestep step="9" loc_x="1781.6848" loc_y="951.52057" loc_z="421.63525" rest_time="0"/> 
- 			<routestep step="10" loc_x="1785.3591" loc_y="943.93604" loc_z="422.125" rest_time="0"/> 
- 			<routestep step="11" loc_x="1786.5299" loc_y="933.22284" loc_z="422.26544" rest_time="0"/> 
- 			<routestep step="12" loc_x="1787.6827" loc_y="922.6813" loc_z="422.125" rest_time="0"/> 
- 			<routestep step="13" loc_x="1788.824" loc_y="912.24664" loc_z="422.3596" rest_time="0"/> 
- 			<routestep step="14" loc_x="1788.4376" loc_y="902.3904" loc_z="422.52432" rest_time="0"/> 
- 			<routestep step="15" loc_x="1781.936" loc_y="896.2518" loc_z="422.0" rest_time="0"/> 
- 			<routestep step="16" loc_x="1772.7822" loc_y="887.2091" loc_z="422.125" rest_time="0"/> 
- 			<routestep step="17" loc_x="1768.6484" loc_y="881.23016" loc_z="421.1867" rest_time="0"/> 
- 		</routes>
+			<routestep step="1" loc_x="1768.6484" loc_y="881.23016" loc_z="421.1867" rest_time="0"/> 
+			<routestep step="2" loc_x="1772.7822" loc_y="887.2091" loc_z="422.125" rest_time="0"/> 
+			<routestep step="3" loc_x="1781.936" loc_y="896.2518" loc_z="422.0" rest_time="0"/> 
+			<routestep step="4" loc_x="1788.4376" loc_y="902.3904" loc_z="422.52432" rest_time="0"/> 
+			<routestep step="5" loc_x="1788.824" loc_y="912.24664" loc_z="422.3596" rest_time="0"/> 
+			<routestep step="6" loc_x="1787.6827" loc_y="922.6813" loc_z="422.125" rest_time="0"/> 
+			<routestep step="7" loc_x="1786.5299" loc_y="933.22284" loc_z="422.26544" rest_time="0"/> 
+			<routestep step="8" loc_x="1785.3591" loc_y="943.93604" loc_z="422.125" rest_time="0"/> 
+			<routestep step="9" loc_x="1781.6848" loc_y="951.52057" loc_z="421.63525" rest_time="0"/> 
+			<routestep step="10" loc_x="1785.3591" loc_y="943.93604" loc_z="422.125" rest_time="0"/> 
+			<routestep step="11" loc_x="1786.5299" loc_y="933.22284" loc_z="422.26544" rest_time="0"/> 
+			<routestep step="12" loc_x="1787.6827" loc_y="922.6813" loc_z="422.125" rest_time="0"/> 
+			<routestep step="13" loc_x="1788.824" loc_y="912.24664" loc_z="422.3596" rest_time="0"/> 
+			<routestep step="14" loc_x="1788.4376" loc_y="902.3904" loc_z="422.52432" rest_time="0"/> 
+			<routestep step="15" loc_x="1781.936" loc_y="896.2518" loc_z="422.0" rest_time="0"/> 
+			<routestep step="16" loc_x="1772.7822" loc_y="887.2091" loc_z="422.125" rest_time="0"/> 
+			<routestep step="17" loc_x="1768.6484" loc_y="881.23016" loc_z="421.1867" rest_time="0"/> 
+		</routes>
 	</walker_template>
 	<!--Garrison Patrol 11 (Eltnen)-->
 	<walker_template route_id="87">
 		<routes>
- 			<routestep step="1" loc_x="1799.1023" loc_y="920.38605" loc_z="422.125" rest_time="0"/> 
- 			<routestep step="2" loc_x="1796.6532" loc_y="926.5635" loc_z="422.125" rest_time="0"/> 
- 			<routestep step="3" loc_x="1794.7847" loc_y="934.8728" loc_z="422.29904" rest_time="0"/> 
- 			<routestep step="4" loc_x="1791.012" loc_y="945.8017" loc_z="422.125" rest_time="0"/> 
- 			<routestep step="5" loc_x="1785.0908" loc_y="942.43933" loc_z="422.125" rest_time="0"/> 
- 			<routestep step="6" loc_x="1776.8557" loc_y="937.7626" loc_z="422.4818" rest_time="0"/> 
- 			<routestep step="7" loc_x="1778.1328" loc_y="926.3453" loc_z="422.1333" rest_time="0"/> 
- 			<routestep step="8" loc_x="1778.515" loc_y="913.63605" loc_z="422.125" rest_time="0"/> 
- 			<routestep step="9" loc_x="1777.9867" loc_y="903.5024" loc_z="422.12418" rest_time="0"/> 
- 			<routestep step="10" loc_x="1772.1992" loc_y="898.72107" loc_z="422.0" rest_time="0"/> 
- 			<routestep step="11" loc_x="1769.3801" loc_y="891.7965" loc_z="422.125" rest_time="0"/> 
- 			<routestep step="12" loc_x="1765.69" loc_y="884.48816" loc_z="421.71365" rest_time="0"/> 
- 			<routestep step="13" loc_x="1771.9746" loc_y="882.6785" loc_z="421.87405" rest_time="0"/> 
- 			<routestep step="14" loc_x="1778.8077" loc_y="887.3029" loc_z="422.03787" rest_time="0"/> 
- 			<routestep step="15" loc_x="1788.05" loc_y="891.5915" loc_z="422.0" rest_time="0"/> 
- 			<routestep step="16" loc_x="1794.4723" loc_y="897.1183" loc_z="422.3199" rest_time="0"/> 
- 			<routestep step="17" loc_x="1800.8555" loc_y="903.09784" loc_z="422.125" rest_time="0"/> 
- 			<routestep step="18" loc_x="1800.271" loc_y="913.9437" loc_z="422.125" rest_time="0"/> 
- 			<routestep step="19" loc_x="1799.1023" loc_y="920.38605" loc_z="422.125" rest_time="0"/> 
- 		</routes>
+			<routestep step="1" loc_x="1799.1023" loc_y="920.38605" loc_z="422.125" rest_time="0"/> 
+			<routestep step="2" loc_x="1796.6532" loc_y="926.5635" loc_z="422.125" rest_time="0"/> 
+			<routestep step="3" loc_x="1794.7847" loc_y="934.8728" loc_z="422.29904" rest_time="0"/> 
+			<routestep step="4" loc_x="1791.012" loc_y="945.8017" loc_z="422.125" rest_time="0"/> 
+			<routestep step="5" loc_x="1785.0908" loc_y="942.43933" loc_z="422.125" rest_time="0"/> 
+			<routestep step="6" loc_x="1776.8557" loc_y="937.7626" loc_z="422.4818" rest_time="0"/> 
+			<routestep step="7" loc_x="1778.1328" loc_y="926.3453" loc_z="422.1333" rest_time="0"/> 
+			<routestep step="8" loc_x="1778.515" loc_y="913.63605" loc_z="422.125" rest_time="0"/> 
+			<routestep step="9" loc_x="1777.9867" loc_y="903.5024" loc_z="422.12418" rest_time="0"/> 
+			<routestep step="10" loc_x="1772.1992" loc_y="898.72107" loc_z="422.0" rest_time="0"/> 
+			<routestep step="11" loc_x="1769.3801" loc_y="891.7965" loc_z="422.125" rest_time="0"/> 
+			<routestep step="12" loc_x="1765.69" loc_y="884.48816" loc_z="421.71365" rest_time="0"/> 
+			<routestep step="13" loc_x="1771.9746" loc_y="882.6785" loc_z="421.87405" rest_time="0"/> 
+			<routestep step="14" loc_x="1778.8077" loc_y="887.3029" loc_z="422.03787" rest_time="0"/> 
+			<routestep step="15" loc_x="1788.05" loc_y="891.5915" loc_z="422.0" rest_time="0"/> 
+			<routestep step="16" loc_x="1794.4723" loc_y="897.1183" loc_z="422.3199" rest_time="0"/> 
+			<routestep step="17" loc_x="1800.8555" loc_y="903.09784" loc_z="422.125" rest_time="0"/> 
+			<routestep step="18" loc_x="1800.271" loc_y="913.9437" loc_z="422.125" rest_time="0"/> 
+			<routestep step="19" loc_x="1799.1023" loc_y="920.38605" loc_z="422.125" rest_time="0"/> 
+		</routes>
 	</walker_template>
 	<!-- Trader's Bodyguard, Trader's Bodyguard 2 (Theobomos)-->
 	<walker_template route_id="88">
 		<routes>
- 			<routestep step="1" loc_x="1468.216" loc_y="1535.2245" loc_z="29.95951" rest_time="5"/> 
- 			<routestep step="2" loc_x="1461.4846" loc_y="1535.3242" loc_z="30.407211" rest_time="0"/> 
- 			<routestep step="3" loc_x="1453.2666" loc_y="1536.0265" loc_z="30.5" rest_time="0"/> 
- 			<routestep step="4" loc_x="1444.7985" loc_y="1536.419" loc_z="30.424904" rest_time="0"/> 
- 			<routestep step="5" loc_x="1435.269" loc_y="1536.8606" loc_z="30.5" rest_time="0"/> 
- 			<routestep step="6" loc_x="1425.5308" loc_y="1537.3115" loc_z="30.529327" rest_time="0"/> 
- 			<routestep step="7" loc_x="1415.0729" loc_y="1534.3466" loc_z="30.35334" rest_time="0"/> 
- 			<routestep step="8" loc_x="1402.444" loc_y="1530.7638" loc_z="30.625" rest_time="0"/> 
- 			<routestep step="9" loc_x="1390.6334" loc_y="1529.2166" loc_z="30.875" rest_time="0"/> 
- 			<routestep step="10" loc_x="1377.3079" loc_y="1528.9965" loc_z="30.831741" rest_time="0"/> 
- 			<routestep step="11" loc_x="1362.8014" loc_y="1528.7572" loc_z="31.122238" rest_time="5"/> 
- 			<routestep step="12" loc_x="1377.3079" loc_y="1528.9965" loc_z="30.831741" rest_time="0"/> 
- 			<routestep step="13" loc_x="1390.6334" loc_y="1529.2166" loc_z="30.875" rest_time="0"/> 
- 			<routestep step="14" loc_x="1402.444" loc_y="1530.7638" loc_z="30.625" rest_time="0"/> 
- 			<routestep step="15" loc_x="1415.0729" loc_y="1534.3466" loc_z="30.35334" rest_time="0"/> 
- 			<routestep step="16" loc_x="1425.5308" loc_y="1537.3115" loc_z="30.529327" rest_time="0"/> 
- 			<routestep step="17" loc_x="1435.269" loc_y="1536.8606" loc_z="30.5" rest_time="0"/> 
- 			<routestep step="18" loc_x="1444.7985" loc_y="1536.419" loc_z="30.424904" rest_time="0"/> 
- 			<routestep step="19" loc_x="1453.2666" loc_y="1536.0265" loc_z="30.5" rest_time="0"/> 
- 			<routestep step="20" loc_x="1461.4846" loc_y="1535.3242" loc_z="30.407211" rest_time="0"/> 
- 			<routestep step="21" loc_x="1468.216" loc_y="1535.2245" loc_z="29.95951" rest_time="5"/> 
- 		</routes>
+			<routestep step="1" loc_x="1468.216" loc_y="1535.2245" loc_z="29.95951" rest_time="5"/> 
+			<routestep step="2" loc_x="1461.4846" loc_y="1535.3242" loc_z="30.407211" rest_time="0"/> 
+			<routestep step="3" loc_x="1453.2666" loc_y="1536.0265" loc_z="30.5" rest_time="0"/> 
+			<routestep step="4" loc_x="1444.7985" loc_y="1536.419" loc_z="30.424904" rest_time="0"/> 
+			<routestep step="5" loc_x="1435.269" loc_y="1536.8606" loc_z="30.5" rest_time="0"/> 
+			<routestep step="6" loc_x="1425.5308" loc_y="1537.3115" loc_z="30.529327" rest_time="0"/> 
+			<routestep step="7" loc_x="1415.0729" loc_y="1534.3466" loc_z="30.35334" rest_time="0"/> 
+			<routestep step="8" loc_x="1402.444" loc_y="1530.7638" loc_z="30.625" rest_time="0"/> 
+			<routestep step="9" loc_x="1390.6334" loc_y="1529.2166" loc_z="30.875" rest_time="0"/> 
+			<routestep step="10" loc_x="1377.3079" loc_y="1528.9965" loc_z="30.831741" rest_time="0"/> 
+			<routestep step="11" loc_x="1362.8014" loc_y="1528.7572" loc_z="31.122238" rest_time="5"/> 
+			<routestep step="12" loc_x="1377.3079" loc_y="1528.9965" loc_z="30.831741" rest_time="0"/> 
+			<routestep step="13" loc_x="1390.6334" loc_y="1529.2166" loc_z="30.875" rest_time="0"/> 
+			<routestep step="14" loc_x="1402.444" loc_y="1530.7638" loc_z="30.625" rest_time="0"/> 
+			<routestep step="15" loc_x="1415.0729" loc_y="1534.3466" loc_z="30.35334" rest_time="0"/> 
+			<routestep step="16" loc_x="1425.5308" loc_y="1537.3115" loc_z="30.529327" rest_time="0"/> 
+			<routestep step="17" loc_x="1435.269" loc_y="1536.8606" loc_z="30.5" rest_time="0"/> 
+			<routestep step="18" loc_x="1444.7985" loc_y="1536.419" loc_z="30.424904" rest_time="0"/> 
+			<routestep step="19" loc_x="1453.2666" loc_y="1536.0265" loc_z="30.5" rest_time="0"/> 
+			<routestep step="20" loc_x="1461.4846" loc_y="1535.3242" loc_z="30.407211" rest_time="0"/> 
+			<routestep step="21" loc_x="1468.216" loc_y="1535.2245" loc_z="29.95951" rest_time="5"/> 
+		</routes>
 	</walker_template>
 	<!--Trader's Bodyguard 3 (Theobomos)-->
 	<walker_template route_id="89">
- 		<routes>
- 			<routestep step="1" loc_x="1385.2885" loc_y="1543.8969" loc_z="31.300919" rest_time="5"/> 
- 			<routestep step="2" loc_x="1379.1216" loc_y="1547.2678" loc_z="31.984802" rest_time="0"/> 
- 			<routestep step="3" loc_x="1369.9456" loc_y="1552.2776" loc_z="33.024155" rest_time="0"/> 
- 			<routestep step="4" loc_x="1360.9192" loc_y="1557.214" loc_z="34.920174" rest_time="0"/> 
- 			<routestep step="5" loc_x="1352.8282" loc_y="1546.3579" loc_z="32.846504" rest_time="0"/> 
- 			<routestep step="6" loc_x="1345.2274" loc_y="1534.5293" loc_z="32.375" rest_time="0"/> 
- 			<routestep step="7" loc_x="1343.5378" loc_y="1520.7299" loc_z="32.5" rest_time="0"/> 
- 			<routestep step="8" loc_x="1344.4806" loc_y="1509.779" loc_z="32.47238" rest_time="0"/> 
- 			<routestep step="9" loc_x="1347.9825" loc_y="1497.6787" loc_z="31.75" rest_time="0"/> 
- 			<routestep step="10" loc_x="1351.4792" loc_y="1486.2113" loc_z="32.361794" rest_time="0"/> 
- 			<routestep step="11" loc_x="1364.9542" loc_y="1485.9623" loc_z="33.05728" rest_time="0"/> 
- 			<routestep step="12" loc_x="1373.0748" loc_y="1494.6625" loc_z="33.650772" rest_time="0"/> 
- 			<routestep step="13" loc_x="1374.8538" loc_y="1505.6493" loc_z="32.584038" rest_time="0"/> 
- 			<routestep step="14" loc_x="1387.0712" loc_y="1509.9811" loc_z="32.316948" rest_time="0"/> 
- 			<routestep step="15" loc_x="1392.5977" loc_y="1511.7324" loc_z="32.317017" rest_time="0"/> 
- 			<routestep step="16" loc_x="1390.3846" loc_y="1523.219" loc_z="31.316917" rest_time="0"/> 
- 			<routestep step="17" loc_x="1389.8324" loc_y="1537.7721" loc_z="31.385475" rest_time="0"/> 
- 			<routestep step="18" loc_x="1385.2885" loc_y="1543.8969" loc_z="31.300919" rest_time="5"/> 
- 		</routes>
+		<routes>
+			<routestep step="1" loc_x="1385.2885" loc_y="1543.8969" loc_z="31.300919" rest_time="5"/> 
+			<routestep step="2" loc_x="1379.1216" loc_y="1547.2678" loc_z="31.984802" rest_time="0"/> 
+			<routestep step="3" loc_x="1369.9456" loc_y="1552.2776" loc_z="33.024155" rest_time="0"/> 
+			<routestep step="4" loc_x="1360.9192" loc_y="1557.214" loc_z="34.920174" rest_time="0"/> 
+			<routestep step="5" loc_x="1352.8282" loc_y="1546.3579" loc_z="32.846504" rest_time="0"/> 
+			<routestep step="6" loc_x="1345.2274" loc_y="1534.5293" loc_z="32.375" rest_time="0"/> 
+			<routestep step="7" loc_x="1343.5378" loc_y="1520.7299" loc_z="32.5" rest_time="0"/> 
+			<routestep step="8" loc_x="1344.4806" loc_y="1509.779" loc_z="32.47238" rest_time="0"/> 
+			<routestep step="9" loc_x="1347.9825" loc_y="1497.6787" loc_z="31.75" rest_time="0"/> 
+			<routestep step="10" loc_x="1351.4792" loc_y="1486.2113" loc_z="32.361794" rest_time="0"/> 
+			<routestep step="11" loc_x="1364.9542" loc_y="1485.9623" loc_z="33.05728" rest_time="0"/> 
+			<routestep step="12" loc_x="1373.0748" loc_y="1494.6625" loc_z="33.650772" rest_time="0"/> 
+			<routestep step="13" loc_x="1374.8538" loc_y="1505.6493" loc_z="32.584038" rest_time="0"/> 
+			<routestep step="14" loc_x="1387.0712" loc_y="1509.9811" loc_z="32.316948" rest_time="0"/> 
+			<routestep step="15" loc_x="1392.5977" loc_y="1511.7324" loc_z="32.317017" rest_time="0"/> 
+			<routestep step="16" loc_x="1390.3846" loc_y="1523.219" loc_z="31.316917" rest_time="0"/> 
+			<routestep step="17" loc_x="1389.8324" loc_y="1537.7721" loc_z="31.385475" rest_time="0"/> 
+			<routestep step="18" loc_x="1385.2885" loc_y="1543.8969" loc_z="31.300919" rest_time="5"/> 
+		</routes>
 	</walker_template>
 	<!-- Trader's Bodyguard 4 (Theobomos)-->
- 	<walker_template route_id="90">
- 		<routes>
- 			<routestep step="1" loc_x="1395.446" loc_y="1541.3717" loc_z="31.215378" rest_time="5"/> 
- 			<routestep step="2" loc_x="1395.8477" loc_y="1532.0128" loc_z="30.752403" rest_time="0"/> 
- 			<routestep step="3" loc_x="1396.2878" loc_y="1521.7495" loc_z="32.0" rest_time="0"/> 
- 			<routestep step="4" loc_x="1404.8743" loc_y="1520.0607" loc_z="32.742416" rest_time="0"/> 
- 			<routestep step="5" loc_x="1416.8799" loc_y="1520.9551" loc_z="32.2453" rest_time="0"/> 
- 			<routestep step="6" loc_x="1427.3646" loc_y="1520.6202" loc_z="32.836235" rest_time="0"/> 
- 			<routestep step="7" loc_x="1437.593" loc_y="1520.2928" loc_z="32.900436" rest_time="0"/> 
- 			<routestep step="8" loc_x="1452.182" loc_y="1518.9692" loc_z="31.75" rest_time="0"/> 
- 			<routestep step="9" loc_x="1463.3315" loc_y="1519.6973" loc_z="31.621063" rest_time="0"/> 
- 			<routestep step="10" loc_x="1463.5815" loc_y="1533.231" loc_z="30.324219" rest_time="0"/> 
- 			<routestep step="11" loc_x="1464.2045" loc_y="1545.9784" loc_z="31.625" rest_time="0"/> 
- 			<routestep step="12" loc_x="1451.0253" loc_y="1548.0505" loc_z="30.875" rest_time="0"/> 
- 			<routestep step="13" loc_x="1438.442" loc_y="1550.574" loc_z="30.875" rest_time="0"/> 
- 			<routestep step="14" loc_x="1426.9828" loc_y="1548.5708" loc_z="31.214325" rest_time="0"/> 
- 			<routestep step="15" loc_x="1414.347" loc_y="1546.7574" loc_z="30.91838" rest_time="0"/> 
- 			<routestep step="16" loc_x="1399.5059" loc_y="1547.9308" loc_z="30.879326" rest_time="0"/> 
- 			<routestep step="17" loc_x="1395.446" loc_y="1541.3717" loc_z="31.215378" rest_time="5"/> 
- 		</routes>
+	<walker_template route_id="90">
+		<routes>
+			<routestep step="1" loc_x="1395.446" loc_y="1541.3717" loc_z="31.215378" rest_time="5"/> 
+			<routestep step="2" loc_x="1395.8477" loc_y="1532.0128" loc_z="30.752403" rest_time="0"/> 
+			<routestep step="3" loc_x="1396.2878" loc_y="1521.7495" loc_z="32.0" rest_time="0"/> 
+			<routestep step="4" loc_x="1404.8743" loc_y="1520.0607" loc_z="32.742416" rest_time="0"/> 
+			<routestep step="5" loc_x="1416.8799" loc_y="1520.9551" loc_z="32.2453" rest_time="0"/> 
+			<routestep step="6" loc_x="1427.3646" loc_y="1520.6202" loc_z="32.836235" rest_time="0"/> 
+			<routestep step="7" loc_x="1437.593" loc_y="1520.2928" loc_z="32.900436" rest_time="0"/> 
+			<routestep step="8" loc_x="1452.182" loc_y="1518.9692" loc_z="31.75" rest_time="0"/> 
+			<routestep step="9" loc_x="1463.3315" loc_y="1519.6973" loc_z="31.621063" rest_time="0"/> 
+			<routestep step="10" loc_x="1463.5815" loc_y="1533.231" loc_z="30.324219" rest_time="0"/> 
+			<routestep step="11" loc_x="1464.2045" loc_y="1545.9784" loc_z="31.625" rest_time="0"/> 
+			<routestep step="12" loc_x="1451.0253" loc_y="1548.0505" loc_z="30.875" rest_time="0"/> 
+			<routestep step="13" loc_x="1438.442" loc_y="1550.574" loc_z="30.875" rest_time="0"/> 
+			<routestep step="14" loc_x="1426.9828" loc_y="1548.5708" loc_z="31.214325" rest_time="0"/> 
+			<routestep step="15" loc_x="1414.347" loc_y="1546.7574" loc_z="30.91838" rest_time="0"/> 
+			<routestep step="16" loc_x="1399.5059" loc_y="1547.9308" loc_z="30.879326" rest_time="0"/> 
+			<routestep step="17" loc_x="1395.446" loc_y="1541.3717" loc_z="31.215378" rest_time="5"/> 
+		</routes>
 	</walker_template>
 	<!-- Inn Worker Jamanok 2 (Theobomos)-->
- 	<walker_template route_id="91">
- 		<routes>
- 			<routestep step="1" loc_x="399.35925" loc_y="1232.7662" loc_z="134.589" rest_time="5"/> 
- 			<routestep step="2" loc_x="395.54065" loc_y="1232.7721" loc_z="134.589" rest_time="0"/> 
- 			<routestep step="3" loc_x="392.51614" loc_y="1232.7767" loc_z="134.6056" rest_time="0"/> 
- 			<routestep step="4" loc_x="390.75183" loc_y="1232.6975" loc_z="134.60553" rest_time="0"/> 
- 			<routestep step="5" loc_x="390.7264" loc_y="1237.3922" loc_z="134.60995" rest_time="0"/> 
- 			<routestep step="6" loc_x="390.70325" loc_y="1241.6765" loc_z="133.52898" rest_time="0"/> 
- 			<routestep step="7" loc_x="390.68924" loc_y="1244.2552" loc_z="133.52898" rest_time="0"/> 
- 			<routestep step="8" loc_x="397.2732" loc_y="1243.7072" loc_z="131.99805" rest_time="0"/> 
- 			<routestep step="9" loc_x="405.3609" loc_y="1243.9271" loc_z="130.6062" rest_time="0"/> 
- 			<routestep step="10" loc_x="413.44247" loc_y="1243.7764" loc_z="130.62032" rest_time="0"/> 
- 			<routestep step="11" loc_x="416.7561" loc_y="1240.5939" loc_z="130.71759" rest_time="0"/> 
- 			<routestep step="12" loc_x="416.8806" loc_y="1233.8282" loc_z="130.68703" rest_time="0"/> 
- 			<routestep step="13" loc_x="417.00427" loc_y="1227.0983" loc_z="130.63318" rest_time="0"/> 
- 			<routestep step="14" loc_x="416.8806" loc_y="1233.8282" loc_z="130.68703" rest_time="0"/> 
- 			<routestep step="15" loc_x="416.7561" loc_y="1240.5939" loc_z="130.71759" rest_time="0"/> 
- 			<routestep step="16" loc_x="413.44247" loc_y="1243.7764" loc_z="130.62032" rest_time="0"/> 
- 			<routestep step="17" loc_x="405.3609" loc_y="1243.9271" loc_z="130.6062" rest_time="0"/> 
- 			<routestep step="18" loc_x="397.2732" loc_y="1243.7072" loc_z="131.99805" rest_time="0"/> 
- 			<routestep step="19" loc_x="390.68924" loc_y="1244.2552" loc_z="133.52898" rest_time="0"/> 
- 			<routestep step="20" loc_x="390.70325" loc_y="1241.6765" loc_z="133.52898" rest_time="0"/> 
- 			<routestep step="21" loc_x="390.7264" loc_y="1237.3922" loc_z="134.60995" rest_time="0"/> 
- 			<routestep step="22" loc_x="390.75183" loc_y="1232.6975" loc_z="134.60553" rest_time="0"/> 
- 			<routestep step="23" loc_x="392.51614" loc_y="1232.7767" loc_z="134.6056" rest_time="0"/> 
- 			<routestep step="24" loc_x="395.54065" loc_y="1232.7721" loc_z="134.589" rest_time="0"/> 
- 			<routestep step="25" loc_x="399.35925" loc_y="1232.7662" loc_z="134.589" rest_time="5"/> 
- 		</routes>
+	<walker_template route_id="91">
+		<routes>
+			<routestep step="1" loc_x="399.35925" loc_y="1232.7662" loc_z="134.589" rest_time="5"/> 
+			<routestep step="2" loc_x="395.54065" loc_y="1232.7721" loc_z="134.589" rest_time="0"/> 
+			<routestep step="3" loc_x="392.51614" loc_y="1232.7767" loc_z="134.6056" rest_time="0"/> 
+			<routestep step="4" loc_x="390.75183" loc_y="1232.6975" loc_z="134.60553" rest_time="0"/> 
+			<routestep step="5" loc_x="390.7264" loc_y="1237.3922" loc_z="134.60995" rest_time="0"/> 
+			<routestep step="6" loc_x="390.70325" loc_y="1241.6765" loc_z="133.52898" rest_time="0"/> 
+			<routestep step="7" loc_x="390.68924" loc_y="1244.2552" loc_z="133.52898" rest_time="0"/> 
+			<routestep step="8" loc_x="397.2732" loc_y="1243.7072" loc_z="131.99805" rest_time="0"/> 
+			<routestep step="9" loc_x="405.3609" loc_y="1243.9271" loc_z="130.6062" rest_time="0"/> 
+			<routestep step="10" loc_x="413.44247" loc_y="1243.7764" loc_z="130.62032" rest_time="0"/> 
+			<routestep step="11" loc_x="416.7561" loc_y="1240.5939" loc_z="130.71759" rest_time="0"/> 
+			<routestep step="12" loc_x="416.8806" loc_y="1233.8282" loc_z="130.68703" rest_time="0"/> 
+			<routestep step="13" loc_x="417.00427" loc_y="1227.0983" loc_z="130.63318" rest_time="0"/> 
+			<routestep step="14" loc_x="416.8806" loc_y="1233.8282" loc_z="130.68703" rest_time="0"/> 
+			<routestep step="15" loc_x="416.7561" loc_y="1240.5939" loc_z="130.71759" rest_time="0"/> 
+			<routestep step="16" loc_x="413.44247" loc_y="1243.7764" loc_z="130.62032" rest_time="0"/> 
+			<routestep step="17" loc_x="405.3609" loc_y="1243.9271" loc_z="130.6062" rest_time="0"/> 
+			<routestep step="18" loc_x="397.2732" loc_y="1243.7072" loc_z="131.99805" rest_time="0"/> 
+			<routestep step="19" loc_x="390.68924" loc_y="1244.2552" loc_z="133.52898" rest_time="0"/> 
+			<routestep step="20" loc_x="390.70325" loc_y="1241.6765" loc_z="133.52898" rest_time="0"/> 
+			<routestep step="21" loc_x="390.7264" loc_y="1237.3922" loc_z="134.60995" rest_time="0"/> 
+			<routestep step="22" loc_x="390.75183" loc_y="1232.6975" loc_z="134.60553" rest_time="0"/> 
+			<routestep step="23" loc_x="392.51614" loc_y="1232.7767" loc_z="134.6056" rest_time="0"/> 
+			<routestep step="24" loc_x="395.54065" loc_y="1232.7721" loc_z="134.589" rest_time="0"/> 
+			<routestep step="25" loc_x="399.35925" loc_y="1232.7662" loc_z="134.589" rest_time="5"/> 
+		</routes>
 	</walker_template>
 	<!-- Jamanok Inn Guard, Jamanok Inn Scout (Theobomos)-->
- 	<walker_template route_id="92">
- 		<routes>
- 			<routestep step="1" loc_x="455.4262" loc_y="1244.8145" loc_z="126.5" rest_time="5"/> 
- 			<routestep step="2" loc_x="454.18848" loc_y="1235.2101" loc_z="126.46241" rest_time="0"/> 
- 			<routestep step="3" loc_x="450.8516" loc_y="1225.2609" loc_z="124.82431" rest_time="0"/> 
- 			<routestep step="4" loc_x="447.57657" loc_y="1216.7285" loc_z="124.40147" rest_time="0"/> 
- 			<routestep step="5" loc_x="452.99615" loc_y="1209.7366" loc_z="122.9845" rest_time="0"/> 
- 			<routestep step="6" loc_x="462.93716" loc_y="1204.0806" loc_z="121.38286" rest_time="0"/> 
- 			<routestep step="7" loc_x="475.39297" loc_y="1199.6631" loc_z="118.21776" rest_time="0"/> 
- 			<routestep step="8" loc_x="488.93103" loc_y="1196.407" loc_z="113.5513" rest_time="0"/> 
- 			<routestep step="9" loc_x="501.49945" loc_y="1191.5076" loc_z="109.90541" rest_time="0"/> 
- 			<routestep step="10" loc_x="506.14166" loc_y="1188.9574" loc_z="109.69016" rest_time="0"/> 
- 			<routestep step="11" loc_x="509.3655" loc_y="1198.8007" loc_z="107.899506" rest_time="0"/> 
- 			<routestep step="12" loc_x="511.1261" loc_y="1209.749" loc_z="103.75797" rest_time="0"/> 
- 			<routestep step="13" loc_x="512.24164" loc_y="1224.0358" loc_z="98.80565" rest_time="0"/> 
- 			<routestep step="14" loc_x="514.5911" loc_y="1234.7711" loc_z="94.77611" rest_time="0"/> 
- 			<routestep step="15" loc_x="517.13086" loc_y="1244.9088" loc_z="91.13402" rest_time="0"/> 
- 			<routestep step="16" loc_x="525.92896" loc_y="1245.2422" loc_z="89.806244" rest_time="0"/> 
- 			<routestep step="17" loc_x="534.73865" loc_y="1235.8862" loc_z="89.5" rest_time="0"/> 
- 			<routestep step="18" loc_x="543.4159" loc_y="1226.3447" loc_z="89.51496" rest_time="0"/> 
- 			<routestep step="19" loc_x="552.01306" loc_y="1217.7059" loc_z="89.5" rest_time="0"/> 
- 			<routestep step="20" loc_x="562.8991" loc_y="1211.6761" loc_z="89.5" rest_time="0"/> 
- 			<routestep step="21" loc_x="573.4559" loc_y="1207.1034" loc_z="89.5" rest_time="0"/> 
- 			<routestep step="22" loc_x="582.97076" loc_y="1202.8447" loc_z="89.5" rest_time="0"/> 
- 			<routestep step="23" loc_x="573.4559" loc_y="1207.1034" loc_z="89.5" rest_time="0"/> 
- 			<routestep step="24" loc_x="562.8991" loc_y="1211.6761" loc_z="89.5" rest_time="0"/> 
- 			<routestep step="25" loc_x="552.01306" loc_y="1217.7059" loc_z="89.5" rest_time="0"/> 
- 			<routestep step="26" loc_x="543.4159" loc_y="1226.3447" loc_z="89.51496" rest_time="0"/> 
- 			<routestep step="27" loc_x="534.73865" loc_y="1235.8862" loc_z="89.5" rest_time="0"/> 
- 			<routestep step="28" loc_x="525.92896" loc_y="1245.2422" loc_z="89.806244" rest_time="0"/> 
- 			<routestep step="29" loc_x="517.13086" loc_y="1244.9088" loc_z="91.13402" rest_time="0"/> 
- 			<routestep step="30" loc_x="514.5911" loc_y="1234.7711" loc_z="94.77611" rest_time="0"/> 
- 			<routestep step="31" loc_x="512.24164" loc_y="1224.0358" loc_z="98.80565" rest_time="0"/> 
- 			<routestep step="32" loc_x="511.1261" loc_y="1209.749" loc_z="103.75797" rest_time="0"/> 
- 			<routestep step="33" loc_x="509.3655" loc_y="1198.8007" loc_z="107.899506" rest_time="0"/> 
- 			<routestep step="34" loc_x="506.14166" loc_y="1188.9574" loc_z="109.69016" rest_time="0"/> 
- 			<routestep step="35" loc_x="501.49945" loc_y="1191.5076" loc_z="109.90541" rest_time="0"/> 
- 			<routestep step="36" loc_x="488.93103" loc_y="1196.407" loc_z="113.5513" rest_time="0"/> 
- 			<routestep step="37" loc_x="475.39297" loc_y="1199.6631" loc_z="118.21776" rest_time="0"/> 
- 			<routestep step="38" loc_x="462.93716" loc_y="1204.0806" loc_z="121.38286" rest_time="0"/> 
- 			<routestep step="39" loc_x="452.99615" loc_y="1209.7366" loc_z="122.9845" rest_time="0"/> 
- 			<routestep step="40" loc_x="447.57657" loc_y="1216.7285" loc_z="124.40147" rest_time="0"/> 
- 			<routestep step="41" loc_x="450.8516" loc_y="1225.2609" loc_z="124.82431" rest_time="0"/> 
- 			<routestep step="42" loc_x="454.18848" loc_y="1235.2101" loc_z="126.46241" rest_time="0"/> 
- 			<routestep step="43" loc_x="455.4262" loc_y="1244.8145" loc_z="126.5" rest_time="5"/> 
- 		</routes>
+	<walker_template route_id="92">
+		<routes>
+			<routestep step="1" loc_x="455.4262" loc_y="1244.8145" loc_z="126.5" rest_time="5"/> 
+			<routestep step="2" loc_x="454.18848" loc_y="1235.2101" loc_z="126.46241" rest_time="0"/> 
+			<routestep step="3" loc_x="450.8516" loc_y="1225.2609" loc_z="124.82431" rest_time="0"/> 
+			<routestep step="4" loc_x="447.57657" loc_y="1216.7285" loc_z="124.40147" rest_time="0"/> 
+			<routestep step="5" loc_x="452.99615" loc_y="1209.7366" loc_z="122.9845" rest_time="0"/> 
+			<routestep step="6" loc_x="462.93716" loc_y="1204.0806" loc_z="121.38286" rest_time="0"/> 
+			<routestep step="7" loc_x="475.39297" loc_y="1199.6631" loc_z="118.21776" rest_time="0"/> 
+			<routestep step="8" loc_x="488.93103" loc_y="1196.407" loc_z="113.5513" rest_time="0"/> 
+			<routestep step="9" loc_x="501.49945" loc_y="1191.5076" loc_z="109.90541" rest_time="0"/> 
+			<routestep step="10" loc_x="506.14166" loc_y="1188.9574" loc_z="109.69016" rest_time="0"/> 
+			<routestep step="11" loc_x="509.3655" loc_y="1198.8007" loc_z="107.899506" rest_time="0"/> 
+			<routestep step="12" loc_x="511.1261" loc_y="1209.749" loc_z="103.75797" rest_time="0"/> 
+			<routestep step="13" loc_x="512.24164" loc_y="1224.0358" loc_z="98.80565" rest_time="0"/> 
+			<routestep step="14" loc_x="514.5911" loc_y="1234.7711" loc_z="94.77611" rest_time="0"/> 
+			<routestep step="15" loc_x="517.13086" loc_y="1244.9088" loc_z="91.13402" rest_time="0"/> 
+			<routestep step="16" loc_x="525.92896" loc_y="1245.2422" loc_z="89.806244" rest_time="0"/> 
+			<routestep step="17" loc_x="534.73865" loc_y="1235.8862" loc_z="89.5" rest_time="0"/> 
+			<routestep step="18" loc_x="543.4159" loc_y="1226.3447" loc_z="89.51496" rest_time="0"/> 
+			<routestep step="19" loc_x="552.01306" loc_y="1217.7059" loc_z="89.5" rest_time="0"/> 
+			<routestep step="20" loc_x="562.8991" loc_y="1211.6761" loc_z="89.5" rest_time="0"/> 
+			<routestep step="21" loc_x="573.4559" loc_y="1207.1034" loc_z="89.5" rest_time="0"/> 
+			<routestep step="22" loc_x="582.97076" loc_y="1202.8447" loc_z="89.5" rest_time="0"/> 
+			<routestep step="23" loc_x="573.4559" loc_y="1207.1034" loc_z="89.5" rest_time="0"/> 
+			<routestep step="24" loc_x="562.8991" loc_y="1211.6761" loc_z="89.5" rest_time="0"/> 
+			<routestep step="25" loc_x="552.01306" loc_y="1217.7059" loc_z="89.5" rest_time="0"/> 
+			<routestep step="26" loc_x="543.4159" loc_y="1226.3447" loc_z="89.51496" rest_time="0"/> 
+			<routestep step="27" loc_x="534.73865" loc_y="1235.8862" loc_z="89.5" rest_time="0"/> 
+			<routestep step="28" loc_x="525.92896" loc_y="1245.2422" loc_z="89.806244" rest_time="0"/> 
+			<routestep step="29" loc_x="517.13086" loc_y="1244.9088" loc_z="91.13402" rest_time="0"/> 
+			<routestep step="30" loc_x="514.5911" loc_y="1234.7711" loc_z="94.77611" rest_time="0"/> 
+			<routestep step="31" loc_x="512.24164" loc_y="1224.0358" loc_z="98.80565" rest_time="0"/> 
+			<routestep step="32" loc_x="511.1261" loc_y="1209.749" loc_z="103.75797" rest_time="0"/> 
+			<routestep step="33" loc_x="509.3655" loc_y="1198.8007" loc_z="107.899506" rest_time="0"/> 
+			<routestep step="34" loc_x="506.14166" loc_y="1188.9574" loc_z="109.69016" rest_time="0"/> 
+			<routestep step="35" loc_x="501.49945" loc_y="1191.5076" loc_z="109.90541" rest_time="0"/> 
+			<routestep step="36" loc_x="488.93103" loc_y="1196.407" loc_z="113.5513" rest_time="0"/> 
+			<routestep step="37" loc_x="475.39297" loc_y="1199.6631" loc_z="118.21776" rest_time="0"/> 
+			<routestep step="38" loc_x="462.93716" loc_y="1204.0806" loc_z="121.38286" rest_time="0"/> 
+			<routestep step="39" loc_x="452.99615" loc_y="1209.7366" loc_z="122.9845" rest_time="0"/> 
+			<routestep step="40" loc_x="447.57657" loc_y="1216.7285" loc_z="124.40147" rest_time="0"/> 
+			<routestep step="41" loc_x="450.8516" loc_y="1225.2609" loc_z="124.82431" rest_time="0"/> 
+			<routestep step="42" loc_x="454.18848" loc_y="1235.2101" loc_z="126.46241" rest_time="0"/> 
+			<routestep step="43" loc_x="455.4262" loc_y="1244.8145" loc_z="126.5" rest_time="5"/> 
+		</routes>
 	</walker_template>
 	<!-- Jamanok Inn Guard 2, Jamanok Inn Scout 2 (Theobomos)-->
- 	<walker_template route_id="93">
- 		<routes>
- 			<routestep step="1" loc_x="591.261" loc_y="1259.819" loc_z="89.625" rest_time="5"/> 
- 			<routestep step="2" loc_x="595.08813" loc_y="1252.3905" loc_z="89.625" rest_time="0"/> 
- 			<routestep step="3" loc_x="598.5261" loc_y="1240.9193" loc_z="89.5" rest_time="0"/> 
- 			<routestep step="4" loc_x="596.64856" loc_y="1232.3834" loc_z="89.5" rest_time="0"/> 
- 			<routestep step="5" loc_x="590.7581" loc_y="1222.5004" loc_z="89.5" rest_time="0"/> 
- 			<routestep step="6" loc_x="584.6211" loc_y="1211.2013" loc_z="89.53882" rest_time="0"/> 
- 			<routestep step="7" loc_x="583.97156" loc_y="1204.6034" loc_z="89.5" rest_time="0"/> 
- 			<routestep step="8" loc_x="584.68365" loc_y="1194.4684" loc_z="89.5" rest_time="0"/> 
- 			<routestep step="9" loc_x="587.5301" loc_y="1183.2504" loc_z="89.23251" rest_time="0"/> 
- 			<routestep step="10" loc_x="587.8321" loc_y="1173.9965" loc_z="88.5201" rest_time="0"/> 
- 			<routestep step="11" loc_x="587.5301" loc_y="1183.2504" loc_z="89.23251" rest_time="0"/> 
- 			<routestep step="12" loc_x="584.68365" loc_y="1194.4684" loc_z="89.5" rest_time="0"/> 
- 			<routestep step="13" loc_x="583.97156" loc_y="1204.6034" loc_z="89.5" rest_time="0"/> 
- 			<routestep step="14" loc_x="584.6211" loc_y="1211.2013" loc_z="89.53882" rest_time="0"/> 
- 			<routestep step="15" loc_x="590.7581" loc_y="1222.5004" loc_z="89.5" rest_time="0"/> 
- 			<routestep step="16" loc_x="596.64856" loc_y="1232.3834" loc_z="89.5" rest_time="0"/> 
- 			<routestep step="17" loc_x="598.5261" loc_y="1240.9193" loc_z="89.5" rest_time="0"/> 
- 			<routestep step="18" loc_x="595.08813" loc_y="1252.3905" loc_z="89.625" rest_time="0"/> 
- 			<routestep step="19" loc_x="591.261" loc_y="1259.819" loc_z="89.625" rest_time="5"/> 
- 		</routes>
+	<walker_template route_id="93">
+		<routes>
+			<routestep step="1" loc_x="591.261" loc_y="1259.819" loc_z="89.625" rest_time="5"/> 
+			<routestep step="2" loc_x="595.08813" loc_y="1252.3905" loc_z="89.625" rest_time="0"/> 
+			<routestep step="3" loc_x="598.5261" loc_y="1240.9193" loc_z="89.5" rest_time="0"/> 
+			<routestep step="4" loc_x="596.64856" loc_y="1232.3834" loc_z="89.5" rest_time="0"/> 
+			<routestep step="5" loc_x="590.7581" loc_y="1222.5004" loc_z="89.5" rest_time="0"/> 
+			<routestep step="6" loc_x="584.6211" loc_y="1211.2013" loc_z="89.53882" rest_time="0"/> 
+			<routestep step="7" loc_x="583.97156" loc_y="1204.6034" loc_z="89.5" rest_time="0"/> 
+			<routestep step="8" loc_x="584.68365" loc_y="1194.4684" loc_z="89.5" rest_time="0"/> 
+			<routestep step="9" loc_x="587.5301" loc_y="1183.2504" loc_z="89.23251" rest_time="0"/> 
+			<routestep step="10" loc_x="587.8321" loc_y="1173.9965" loc_z="88.5201" rest_time="0"/> 
+			<routestep step="11" loc_x="587.5301" loc_y="1183.2504" loc_z="89.23251" rest_time="0"/> 
+			<routestep step="12" loc_x="584.68365" loc_y="1194.4684" loc_z="89.5" rest_time="0"/> 
+			<routestep step="13" loc_x="583.97156" loc_y="1204.6034" loc_z="89.5" rest_time="0"/> 
+			<routestep step="14" loc_x="584.6211" loc_y="1211.2013" loc_z="89.53882" rest_time="0"/> 
+			<routestep step="15" loc_x="590.7581" loc_y="1222.5004" loc_z="89.5" rest_time="0"/> 
+			<routestep step="16" loc_x="596.64856" loc_y="1232.3834" loc_z="89.5" rest_time="0"/> 
+			<routestep step="17" loc_x="598.5261" loc_y="1240.9193" loc_z="89.5" rest_time="0"/> 
+			<routestep step="18" loc_x="595.08813" loc_y="1252.3905" loc_z="89.625" rest_time="0"/> 
+			<routestep step="19" loc_x="591.261" loc_y="1259.819" loc_z="89.625" rest_time="5"/> 
+		</routes>
 	</walker_template>
 	<!-- Observatory Protector (Theobomos)-->
- 	<walker_template route_id="94">
- 		<routes>
- 			<routestep step="1" loc_x="2271.0176" loc_y="2218.24" loc_z="57.424393" rest_time="5"/> 
- 			<routestep step="2" loc_x="2265.1538" loc_y="2214.3105" loc_z="54.9382" rest_time="0"/> 
- 			<routestep step="3" loc_x="2257.1184" loc_y="2211.8484" loc_z="52.08055" rest_time="0"/> 
- 			<routestep step="4" loc_x="2246.879" loc_y="2214.0334" loc_z="49.147568" rest_time="0"/> 
- 			<routestep step="5" loc_x="2237.0906" loc_y="2220.4438" loc_z="46.676743" rest_time="0"/> 
- 			<routestep step="6" loc_x="2230.789" loc_y="2226.9783" loc_z="44.988174" rest_time="0"/> 
- 			<routestep step="7" loc_x="2229.307" loc_y="2239.2517" loc_z="44.66336" rest_time="0"/> 
- 			<routestep step="8" loc_x="2230.1138" loc_y="2249.7031" loc_z="45.47711" rest_time="0"/> 
- 			<routestep step="9" loc_x="2232.6494" loc_y="2261.436" loc_z="46.970093" rest_time="0"/> 
- 			<routestep step="10" loc_x="2234.026" loc_y="2271.518" loc_z="49.037872" rest_time="0"/> 
- 			<routestep step="11" loc_x="2235.0657" loc_y="2279.1333" loc_z="50.0" rest_time="0"/> 
- 			<routestep step="12" loc_x="2234.026" loc_y="2271.518" loc_z="49.037872" rest_time="0"/> 
- 			<routestep step="13" loc_x="2232.6494" loc_y="2261.436" loc_z="46.970093" rest_time="0"/> 
- 			<routestep step="14" loc_x="2230.1138" loc_y="2249.7031" loc_z="45.47711" rest_time="0"/> 
- 			<routestep step="15" loc_x="2229.307" loc_y="2239.2517" loc_z="44.66336" rest_time="0"/> 
- 			<routestep step="16" loc_x="2230.789" loc_y="2226.9783" loc_z="44.988174" rest_time="0"/> 
- 			<routestep step="17" loc_x="2237.0906" loc_y="2220.4438" loc_z="46.676743" rest_time="0"/> 
- 			<routestep step="18" loc_x="2246.879" loc_y="2214.0334" loc_z="49.147568" rest_time="0"/> 
- 			<routestep step="19" loc_x="2257.1184" loc_y="2211.8484" loc_z="52.08055" rest_time="0"/> 
- 			<routestep step="20" loc_x="2265.1538" loc_y="2214.3105" loc_z="54.9382" rest_time="0"/> 
- 			<routestep step="21" loc_x="2271.0176" loc_y="2218.24" loc_z="57.424393" rest_time="5"/> 
- 		</routes>
+	<walker_template route_id="94">
+		<routes>
+			<routestep step="1" loc_x="2271.0176" loc_y="2218.24" loc_z="57.424393" rest_time="5"/> 
+			<routestep step="2" loc_x="2265.1538" loc_y="2214.3105" loc_z="54.9382" rest_time="0"/> 
+			<routestep step="3" loc_x="2257.1184" loc_y="2211.8484" loc_z="52.08055" rest_time="0"/> 
+			<routestep step="4" loc_x="2246.879" loc_y="2214.0334" loc_z="49.147568" rest_time="0"/> 
+			<routestep step="5" loc_x="2237.0906" loc_y="2220.4438" loc_z="46.676743" rest_time="0"/> 
+			<routestep step="6" loc_x="2230.789" loc_y="2226.9783" loc_z="44.988174" rest_time="0"/> 
+			<routestep step="7" loc_x="2229.307" loc_y="2239.2517" loc_z="44.66336" rest_time="0"/> 
+			<routestep step="8" loc_x="2230.1138" loc_y="2249.7031" loc_z="45.47711" rest_time="0"/> 
+			<routestep step="9" loc_x="2232.6494" loc_y="2261.436" loc_z="46.970093" rest_time="0"/> 
+			<routestep step="10" loc_x="2234.026" loc_y="2271.518" loc_z="49.037872" rest_time="0"/> 
+			<routestep step="11" loc_x="2235.0657" loc_y="2279.1333" loc_z="50.0" rest_time="0"/> 
+			<routestep step="12" loc_x="2234.026" loc_y="2271.518" loc_z="49.037872" rest_time="0"/> 
+			<routestep step="13" loc_x="2232.6494" loc_y="2261.436" loc_z="46.970093" rest_time="0"/> 
+			<routestep step="14" loc_x="2230.1138" loc_y="2249.7031" loc_z="45.47711" rest_time="0"/> 
+			<routestep step="15" loc_x="2229.307" loc_y="2239.2517" loc_z="44.66336" rest_time="0"/> 
+			<routestep step="16" loc_x="2230.789" loc_y="2226.9783" loc_z="44.988174" rest_time="0"/> 
+			<routestep step="17" loc_x="2237.0906" loc_y="2220.4438" loc_z="46.676743" rest_time="0"/> 
+			<routestep step="18" loc_x="2246.879" loc_y="2214.0334" loc_z="49.147568" rest_time="0"/> 
+			<routestep step="19" loc_x="2257.1184" loc_y="2211.8484" loc_z="52.08055" rest_time="0"/> 
+			<routestep step="20" loc_x="2265.1538" loc_y="2214.3105" loc_z="54.9382" rest_time="0"/> 
+			<routestep step="21" loc_x="2271.0176" loc_y="2218.24" loc_z="57.424393" rest_time="5"/> 
+		</routes>
 	</walker_template>
 	<!-- Observatory Protector 2 (Theobomos)-->
- 	<walker_template route_id="95">
- 		<routes>
- 			<routestep step="1" loc_x="2267.6328" loc_y="2208.554" loc_z="54.692825" rest_time="5"/> 
- 			<routestep step="2" loc_x="2257.6501" loc_y="2203.9355" loc_z="51.89067" rest_time="0"/> 
- 			<routestep step="3" loc_x="2248.408" loc_y="2202.846" loc_z="50.14862" rest_time="0"/> 
- 			<routestep step="4" loc_x="2242.6448" loc_y="2201.7913" loc_z="48.99063" rest_time="0"/> 
- 			<routestep step="5" loc_x="2235.6443" loc_y="2193.4407" loc_z="49.80719" rest_time="0"/> 
- 			<routestep step="6" loc_x="2228.7686" loc_y="2185.2212" loc_z="50.923035" rest_time="0"/> 
- 			<routestep step="7" loc_x="2224.0557" loc_y="2176.8857" loc_z="51.81964" rest_time="0"/> 
- 			<routestep step="8" loc_x="2220.3145" loc_y="2166.6992" loc_z="53.037598" rest_time="0"/> 
- 			<routestep step="9" loc_x="2216.8623" loc_y="2153.3032" loc_z="54.739655" rest_time="0"/> 
- 			<routestep step="10" loc_x="2219.7812" loc_y="2139.1973" loc_z="56.914185" rest_time="0"/> 
- 			<routestep step="11" loc_x="2218.585" loc_y="2126.357" loc_z="59.499207" rest_time="0"/> 
- 			<routestep step="12" loc_x="2215.438" loc_y="2116.218" loc_z="61.1465" rest_time="0"/> 
- 			<routestep step="13" loc_x="2218.585" loc_y="2126.357" loc_z="59.499207" rest_time="0"/> 
- 			<routestep step="14" loc_x="2219.7812" loc_y="2139.1973" loc_z="56.914185" rest_time="0"/> 
- 			<routestep step="15" loc_x="2216.8623" loc_y="2153.3032" loc_z="54.739655" rest_time="0"/> 
- 			<routestep step="16" loc_x="2220.3145" loc_y="2166.6992" loc_z="53.037598" rest_time="0"/> 
- 			<routestep step="17" loc_x="2224.0557" loc_y="2176.8857" loc_z="51.81964" rest_time="0"/> 
- 			<routestep step="18" loc_x="2228.7686" loc_y="2185.2212" loc_z="50.923035" rest_time="0"/> 
- 			<routestep step="19" loc_x="2235.6443" loc_y="2193.4407" loc_z="49.80719" rest_time="0"/> 
- 			<routestep step="20" loc_x="2242.6448" loc_y="2201.7913" loc_z="48.99063" rest_time="0"/> 
- 			<routestep step="21" loc_x="2248.408" loc_y="2202.846" loc_z="50.14862" rest_time="0"/> 
- 			<routestep step="22" loc_x="2257.6501" loc_y="2203.9355" loc_z="51.89067" rest_time="0"/> 
- 			<routestep step="23" loc_x="2267.6328" loc_y="2208.554" loc_z="54.692825" rest_time="5"/> 
- 		</routes>
+	<walker_template route_id="95">
+		<routes>
+			<routestep step="1" loc_x="2267.6328" loc_y="2208.554" loc_z="54.692825" rest_time="5"/> 
+			<routestep step="2" loc_x="2257.6501" loc_y="2203.9355" loc_z="51.89067" rest_time="0"/> 
+			<routestep step="3" loc_x="2248.408" loc_y="2202.846" loc_z="50.14862" rest_time="0"/> 
+			<routestep step="4" loc_x="2242.6448" loc_y="2201.7913" loc_z="48.99063" rest_time="0"/> 
+			<routestep step="5" loc_x="2235.6443" loc_y="2193.4407" loc_z="49.80719" rest_time="0"/> 
+			<routestep step="6" loc_x="2228.7686" loc_y="2185.2212" loc_z="50.923035" rest_time="0"/> 
+			<routestep step="7" loc_x="2224.0557" loc_y="2176.8857" loc_z="51.81964" rest_time="0"/> 
+			<routestep step="8" loc_x="2220.3145" loc_y="2166.6992" loc_z="53.037598" rest_time="0"/> 
+			<routestep step="9" loc_x="2216.8623" loc_y="2153.3032" loc_z="54.739655" rest_time="0"/> 
+			<routestep step="10" loc_x="2219.7812" loc_y="2139.1973" loc_z="56.914185" rest_time="0"/> 
+			<routestep step="11" loc_x="2218.585" loc_y="2126.357" loc_z="59.499207" rest_time="0"/> 
+			<routestep step="12" loc_x="2215.438" loc_y="2116.218" loc_z="61.1465" rest_time="0"/> 
+			<routestep step="13" loc_x="2218.585" loc_y="2126.357" loc_z="59.499207" rest_time="0"/> 
+			<routestep step="14" loc_x="2219.7812" loc_y="2139.1973" loc_z="56.914185" rest_time="0"/> 
+			<routestep step="15" loc_x="2216.8623" loc_y="2153.3032" loc_z="54.739655" rest_time="0"/> 
+			<routestep step="16" loc_x="2220.3145" loc_y="2166.6992" loc_z="53.037598" rest_time="0"/> 
+			<routestep step="17" loc_x="2224.0557" loc_y="2176.8857" loc_z="51.81964" rest_time="0"/> 
+			<routestep step="18" loc_x="2228.7686" loc_y="2185.2212" loc_z="50.923035" rest_time="0"/> 
+			<routestep step="19" loc_x="2235.6443" loc_y="2193.4407" loc_z="49.80719" rest_time="0"/> 
+			<routestep step="20" loc_x="2242.6448" loc_y="2201.7913" loc_z="48.99063" rest_time="0"/> 
+			<routestep step="21" loc_x="2248.408" loc_y="2202.846" loc_z="50.14862" rest_time="0"/> 
+			<routestep step="22" loc_x="2257.6501" loc_y="2203.9355" loc_z="51.89067" rest_time="0"/> 
+			<routestep step="23" loc_x="2267.6328" loc_y="2208.554" loc_z="54.692825" rest_time="5"/> 
+		</routes>
 	</walker_template>
 	<!-- Shugo Porter (Theobomos)-->
- 	<walker_template route_id="96">
- 		<routes>
- 			<routestep step="1" loc_x="2684.8489" loc_y="814.7683" loc_z="138.36707" rest_time="5"/> 
- 			<routestep step="2" loc_x="2688.9363" loc_y="815.4143" loc_z="138.36707" rest_time="0"/> 
- 			<routestep step="3" loc_x="2693.43" loc_y="819.6875" loc_z="138.36707" rest_time="0"/> 
- 			<routestep step="4" loc_x="2692.229" loc_y="824.60266" loc_z="138.36707" rest_time="0"/> 
- 			<routestep step="5" loc_x="2688.4268" loc_y="828.626" loc_z="138.36707" rest_time="0"/> 
- 			<routestep step="6" loc_x="2683.2476" loc_y="825.11847" loc_z="138.36707" rest_time="0"/> 
- 			<routestep step="7" loc_x="2678.3071" loc_y="821.76294" loc_z="138.36707" rest_time="0"/> 
- 			<routestep step="8" loc_x="2679.4788" loc_y="816.84515" loc_z="138.36707" rest_time="0"/> 
- 			<routestep step="9" loc_x="2684.8489" loc_y="814.7683" loc_z="138.36707" rest_time="5"/> 
- 		</routes>
+	<walker_template route_id="96">
+		<routes>
+			<routestep step="1" loc_x="2684.8489" loc_y="814.7683" loc_z="138.36707" rest_time="5"/> 
+			<routestep step="2" loc_x="2688.9363" loc_y="815.4143" loc_z="138.36707" rest_time="0"/> 
+			<routestep step="3" loc_x="2693.43" loc_y="819.6875" loc_z="138.36707" rest_time="0"/> 
+			<routestep step="4" loc_x="2692.229" loc_y="824.60266" loc_z="138.36707" rest_time="0"/> 
+			<routestep step="5" loc_x="2688.4268" loc_y="828.626" loc_z="138.36707" rest_time="0"/> 
+			<routestep step="6" loc_x="2683.2476" loc_y="825.11847" loc_z="138.36707" rest_time="0"/> 
+			<routestep step="7" loc_x="2678.3071" loc_y="821.76294" loc_z="138.36707" rest_time="0"/> 
+			<routestep step="8" loc_x="2679.4788" loc_y="816.84515" loc_z="138.36707" rest_time="0"/> 
+			<routestep step="9" loc_x="2684.8489" loc_y="814.7683" loc_z="138.36707" rest_time="5"/> 
+		</routes>
 	</walker_template>
 	<!-- Defense Commander, Senior Soldier, Senior Soldier 2 (Heiron)-->
- 	<walker_template route_id="97">
- 		<routes>
- 			<routestep step="1" loc_x="2604.3928" loc_y="413.65408" loc_z="399.6365" rest_time="5"/> 
- 			<routestep step="2" loc_x="2597.7651" loc_y="410.27917" loc_z="403.4124" rest_time="0"/> 
- 			<routestep step="3" loc_x="2590.7678" loc_y="406.71512" loc_z="407.39914" rest_time="0"/> 
- 			<routestep step="4" loc_x="2584.031" loc_y="403.28458" loc_z="411.2372" rest_time="0"/> 
- 			<routestep step="5" loc_x="2577.0627" loc_y="399.73596" loc_z="415.2072" rest_time="0"/> 
- 			<routestep step="6" loc_x="2569.8625" loc_y="396.06952" loc_z="417.19647" rest_time="0"/> 
- 			<routestep step="7" loc_x="2561.6694" loc_y="391.8974" loc_z="417.16293" rest_time="0"/> 
- 			<routestep step="8" loc_x="2553.71" loc_y="387.84387" loc_z="417.1303" rest_time="0"/> 
- 			<routestep step="9" loc_x="2546.3074" loc_y="384.0744" loc_z="417.128" rest_time="5"/> 
- 			<routestep step="10" loc_x="2553.71" loc_y="387.84387" loc_z="417.1303" rest_time="0"/> 
- 			<routestep step="11" loc_x="2561.6694" loc_y="391.8974" loc_z="417.16293" rest_time="0"/> 
- 			<routestep step="12" loc_x="2569.8625" loc_y="396.06952" loc_z="417.19647" rest_time="0"/> 
- 			<routestep step="13" loc_x="2577.0627" loc_y="399.73596" loc_z="415.2072" rest_time="0"/> 
- 			<routestep step="14" loc_x="2584.031" loc_y="403.28458" loc_z="411.2372" rest_time="0"/> 
- 			<routestep step="15" loc_x="2590.7678" loc_y="406.71512" loc_z="407.39914" rest_time="0"/> 
- 			<routestep step="16" loc_x="2597.7651" loc_y="410.27917" loc_z="403.4124" rest_time="0"/> 
- 			<routestep step="17" loc_x="2604.3928" loc_y="413.65408" loc_z="399.6365" rest_time="5"/> 
- 		</routes>
+	<walker_template route_id="97">
+		<routes>
+			<routestep step="1" loc_x="2604.3928" loc_y="413.65408" loc_z="399.6365" rest_time="5"/> 
+			<routestep step="2" loc_x="2597.7651" loc_y="410.27917" loc_z="403.4124" rest_time="0"/> 
+			<routestep step="3" loc_x="2590.7678" loc_y="406.71512" loc_z="407.39914" rest_time="0"/> 
+			<routestep step="4" loc_x="2584.031" loc_y="403.28458" loc_z="411.2372" rest_time="0"/> 
+			<routestep step="5" loc_x="2577.0627" loc_y="399.73596" loc_z="415.2072" rest_time="0"/> 
+			<routestep step="6" loc_x="2569.8625" loc_y="396.06952" loc_z="417.19647" rest_time="0"/> 
+			<routestep step="7" loc_x="2561.6694" loc_y="391.8974" loc_z="417.16293" rest_time="0"/> 
+			<routestep step="8" loc_x="2553.71" loc_y="387.84387" loc_z="417.1303" rest_time="0"/> 
+			<routestep step="9" loc_x="2546.3074" loc_y="384.0744" loc_z="417.128" rest_time="5"/> 
+			<routestep step="10" loc_x="2553.71" loc_y="387.84387" loc_z="417.1303" rest_time="0"/> 
+			<routestep step="11" loc_x="2561.6694" loc_y="391.8974" loc_z="417.16293" rest_time="0"/> 
+			<routestep step="12" loc_x="2569.8625" loc_y="396.06952" loc_z="417.19647" rest_time="0"/> 
+			<routestep step="13" loc_x="2577.0627" loc_y="399.73596" loc_z="415.2072" rest_time="0"/> 
+			<routestep step="14" loc_x="2584.031" loc_y="403.28458" loc_z="411.2372" rest_time="0"/> 
+			<routestep step="15" loc_x="2590.7678" loc_y="406.71512" loc_z="407.39914" rest_time="0"/> 
+			<routestep step="16" loc_x="2597.7651" loc_y="410.27917" loc_z="403.4124" rest_time="0"/> 
+			<routestep step="17" loc_x="2604.3928" loc_y="413.65408" loc_z="399.6365" rest_time="5"/> 
+		</routes>
 	</walker_template>
 	<!-- Support Leader (Heiron)-->
- 	<walker_template route_id="103">
- 		<routes>
- 			<routestep step="1" loc_x="2525.9233" loc_y="353.29373" loc_z="411.29468" rest_time="5"/> 
- 			<routestep step="2" loc_x="2526.5684" loc_y="338.0218" loc_z="412.8855" rest_time="0"/> 
- 			<routestep step="3" loc_x="2516.037" loc_y="330.04382" loc_z="414.28226" rest_time="0"/> 
- 			<routestep step="4" loc_x="2498.0679" loc_y="319.68277" loc_z="414.9017" rest_time="0"/> 
- 			<routestep step="5" loc_x="2482.005" loc_y="317.5074" loc_z="414.24414" rest_time="0"/> 
- 			<routestep step="6" loc_x="2464.543" loc_y="322.41757" loc_z="414.30832" rest_time="0"/> 
- 			<routestep step="7" loc_x="2455.9204" loc_y="330.43005" loc_z="415.13327" rest_time="0"/> 
- 			<routestep step="8" loc_x="2447.296" loc_y="343.6304" loc_z="414.32678" rest_time="0"/> 
- 			<routestep step="9" loc_x="2450.1624" loc_y="358.1562" loc_z="413.74796" rest_time="0"/> 
- 			<routestep step="10" loc_x="2455.5269" loc_y="375.15182" loc_z="413.62442" rest_time="0"/> 
- 			<routestep step="11" loc_x="2451.67" loc_y="377.47147" loc_z="413.41833" rest_time="0"/> 
- 			<routestep step="12" loc_x="2455.0554" loc_y="386.52255" loc_z="412.43533" rest_time="0"/> 
- 			<routestep step="13" loc_x="2467.3315" loc_y="386.94418" loc_z="411.7413" rest_time="0"/> 
- 			<routestep step="14" loc_x="2484.5713" loc_y="376.6519" loc_z="407.79074" rest_time="0"/> 
- 			<routestep step="15" loc_x="2500.8142" loc_y="370.87833" loc_z="408.25" rest_time="0"/> 
- 			<routestep step="16" loc_x="2523.6028" loc_y="362.35986" loc_z="408.75232" rest_time="0"/> 
- 			<routestep step="17" loc_x="2525.9233" loc_y="353.29373" loc_z="411.29468" rest_time="5"/> 
- 		</routes>
+	<walker_template route_id="103">
+		<routes>
+			<routestep step="1" loc_x="2525.9233" loc_y="353.29373" loc_z="411.29468" rest_time="5"/> 
+			<routestep step="2" loc_x="2526.5684" loc_y="338.0218" loc_z="412.8855" rest_time="0"/> 
+			<routestep step="3" loc_x="2516.037" loc_y="330.04382" loc_z="414.28226" rest_time="0"/> 
+			<routestep step="4" loc_x="2498.0679" loc_y="319.68277" loc_z="414.9017" rest_time="0"/> 
+			<routestep step="5" loc_x="2482.005" loc_y="317.5074" loc_z="414.24414" rest_time="0"/> 
+			<routestep step="6" loc_x="2464.543" loc_y="322.41757" loc_z="414.30832" rest_time="0"/> 
+			<routestep step="7" loc_x="2455.9204" loc_y="330.43005" loc_z="415.13327" rest_time="0"/> 
+			<routestep step="8" loc_x="2447.296" loc_y="343.6304" loc_z="414.32678" rest_time="0"/> 
+			<routestep step="9" loc_x="2450.1624" loc_y="358.1562" loc_z="413.74796" rest_time="0"/> 
+			<routestep step="10" loc_x="2455.5269" loc_y="375.15182" loc_z="413.62442" rest_time="0"/> 
+			<routestep step="11" loc_x="2451.67" loc_y="377.47147" loc_z="413.41833" rest_time="0"/> 
+			<routestep step="12" loc_x="2455.0554" loc_y="386.52255" loc_z="412.43533" rest_time="0"/> 
+			<routestep step="13" loc_x="2467.3315" loc_y="386.94418" loc_z="411.7413" rest_time="0"/> 
+			<routestep step="14" loc_x="2484.5713" loc_y="376.6519" loc_z="407.79074" rest_time="0"/> 
+			<routestep step="15" loc_x="2500.8142" loc_y="370.87833" loc_z="408.25" rest_time="0"/> 
+			<routestep step="16" loc_x="2523.6028" loc_y="362.35986" loc_z="408.75232" rest_time="0"/> 
+			<routestep step="17" loc_x="2525.9233" loc_y="353.29373" loc_z="411.29468" rest_time="5"/> 
+		</routes>
 	</walker_template>
 	<!-- Medic Leader (Heiron)-->
- 	<walker_template route_id="104">
- 		<routes>
- 			<routestep step="1" loc_x="2509.2073" loc_y="402.44232" loc_z="408.6365" rest_time="5"/> 
- 			<routestep step="2" loc_x="2518.8193" loc_y="413.46176" loc_z="408.40878" rest_time="0"/> 
- 			<routestep step="3" loc_x="2529.566" loc_y="408.67346" loc_z="413.00864" rest_time="0"/> 
- 			<routestep step="4" loc_x="2538.9248" loc_y="399.98337" loc_z="418.81854" rest_time="0"/> 
- 			<routestep step="5" loc_x="2546.281" loc_y="384.65384" loc_z="417.128" rest_time="0"/> 
- 			<routestep step="6" loc_x="2554.092" loc_y="369.64697" loc_z="418.81854" rest_time="0"/> 
- 			<routestep step="7" loc_x="2555.6511" loc_y="350.04526" loc_z="411.5325" rest_time="0"/> 
- 			<routestep step="8" loc_x="2550.903" loc_y="346.19592" loc_z="411.07556" rest_time="0"/> 
- 			<routestep step="9" loc_x="2540.5896" loc_y="352.7856" loc_z="411.28052" rest_time="0"/> 
- 			<routestep step="10" loc_x="2527.4148" loc_y="349.02844" loc_z="411.34647" rest_time="0"/> 
- 			<routestep step="11" loc_x="2519.0527" loc_y="370.5154" loc_z="408.625" rest_time="0"/> 
- 			<routestep step="12" loc_x="2512.1628" loc_y="387.17212" loc_z="408.41788" rest_time="0"/> 
- 			<routestep step="13" loc_x="2509.2073" loc_y="402.44232" loc_z="408.6365" rest_time="5"/> 
- 		</routes>
+	<walker_template route_id="104">
+		<routes>
+			<routestep step="1" loc_x="2509.2073" loc_y="402.44232" loc_z="408.6365" rest_time="5"/> 
+			<routestep step="2" loc_x="2518.8193" loc_y="413.46176" loc_z="408.40878" rest_time="0"/> 
+			<routestep step="3" loc_x="2529.566" loc_y="408.67346" loc_z="413.00864" rest_time="0"/> 
+			<routestep step="4" loc_x="2538.9248" loc_y="399.98337" loc_z="418.81854" rest_time="0"/> 
+			<routestep step="5" loc_x="2546.281" loc_y="384.65384" loc_z="417.128" rest_time="0"/> 
+			<routestep step="6" loc_x="2554.092" loc_y="369.64697" loc_z="418.81854" rest_time="0"/> 
+			<routestep step="7" loc_x="2555.6511" loc_y="350.04526" loc_z="411.5325" rest_time="0"/> 
+			<routestep step="8" loc_x="2550.903" loc_y="346.19592" loc_z="411.07556" rest_time="0"/> 
+			<routestep step="9" loc_x="2540.5896" loc_y="352.7856" loc_z="411.28052" rest_time="0"/> 
+			<routestep step="10" loc_x="2527.4148" loc_y="349.02844" loc_z="411.34647" rest_time="0"/> 
+			<routestep step="11" loc_x="2519.0527" loc_y="370.5154" loc_z="408.625" rest_time="0"/> 
+			<routestep step="12" loc_x="2512.1628" loc_y="387.17212" loc_z="408.41788" rest_time="0"/> 
+			<routestep step="13" loc_x="2509.2073" loc_y="402.44232" loc_z="408.6365" rest_time="5"/> 
+		</routes>
 	</walker_template>
 	<!-- Mato (Heiron)-->
- 	<walker_template route_id="105">
- 		<routes>
- 			<routestep step="1" loc_x="2515.9016" loc_y="379.5252" loc_z="408.36884" rest_time="5"/> 
- 			<routestep step="2" loc_x="2501.4646" loc_y="383.0069" loc_z="408.25" rest_time="0"/> 
- 			<routestep step="3" loc_x="2485.5803" loc_y="374.95178" loc_z="407.75" rest_time="0"/> 
- 			<routestep step="4" loc_x="2472.8303" loc_y="360.1416" loc_z="409.2016" rest_time="0"/> 
- 			<routestep step="5" loc_x="2479.9912" loc_y="346.34222" loc_z="410.31192" rest_time="0"/> 
- 			<routestep step="6" loc_x="2494.9749" loc_y="341.93073" loc_z="410.63367" rest_time="0"/> 
- 			<routestep step="7" loc_x="2509.1404" loc_y="358.53656" loc_z="408.78775" rest_time="0"/> 
- 			<routestep step="8" loc_x="2523.5745" loc_y="367.33102" loc_z="408.75" rest_time="0"/> 
- 			<routestep step="9" loc_x="2515.9016" loc_y="379.5252" loc_z="408.36884" rest_time="5"/> 
- 		</routes>
+	<walker_template route_id="105">
+		<routes>
+			<routestep step="1" loc_x="2515.9016" loc_y="379.5252" loc_z="408.36884" rest_time="5"/> 
+			<routestep step="2" loc_x="2501.4646" loc_y="383.0069" loc_z="408.25" rest_time="0"/> 
+			<routestep step="3" loc_x="2485.5803" loc_y="374.95178" loc_z="407.75" rest_time="0"/> 
+			<routestep step="4" loc_x="2472.8303" loc_y="360.1416" loc_z="409.2016" rest_time="0"/> 
+			<routestep step="5" loc_x="2479.9912" loc_y="346.34222" loc_z="410.31192" rest_time="0"/> 
+			<routestep step="6" loc_x="2494.9749" loc_y="341.93073" loc_z="410.63367" rest_time="0"/> 
+			<routestep step="7" loc_x="2509.1404" loc_y="358.53656" loc_z="408.78775" rest_time="0"/> 
+			<routestep step="8" loc_x="2523.5745" loc_y="367.33102" loc_z="408.75" rest_time="0"/> 
+			<routestep step="9" loc_x="2515.9016" loc_y="379.5252" loc_z="408.36884" rest_time="5"/> 
+		</routes>
 	</walker_template>
 	<!-- Scout Leader (Heiron)-->
- 	<walker_template route_id="106">
- 		<routes>
- 			<routestep step="1" loc_x="2503.3047" loc_y="354.79092" loc_z="408.77612" rest_time="5"/> 
- 			<routestep step="2" loc_x="2516.483" loc_y="365.3029" loc_z="408.79358" rest_time="0"/> 
- 			<routestep step="3" loc_x="2534.272" loc_y="374.77063" loc_z="412.36978" rest_time="0"/> 
- 			<routestep step="4" loc_x="2546.2644" loc_y="381.26337" loc_z="417.128" rest_time="0"/> 
- 			<routestep step="5" loc_x="2568.8926" loc_y="393.05264" loc_z="417.18832" rest_time="0"/> 
- 			<routestep step="6" loc_x="2592.0647" loc_y="404.61508" loc_z="407.2965" rest_time="0"/> 
- 			<routestep step="7" loc_x="2616.0847" loc_y="416.98404" loc_z="399.0" rest_time="0"/> 
- 			<routestep step="8" loc_x="2642.619" loc_y="428.28583" loc_z="398.94345" rest_time="0"/> 
- 			<routestep step="9" loc_x="2656.0872" loc_y="438.6085" loc_z="398.3315" rest_time="0"/> 
- 			<routestep step="10" loc_x="2659.7769" loc_y="460.09402" loc_z="397.02985" rest_time="0"/> 
- 			<routestep step="11" loc_x="2658.7644" loc_y="483.0636" loc_z="385.78262" rest_time="0"/> 
- 			<routestep step="12" loc_x="2656.4746" loc_y="508.98367" loc_z="380.2879" rest_time="0"/> 
- 			<routestep step="13" loc_x="2653.659" loc_y="536.6066" loc_z="367.8371" rest_time="0"/> 
- 			<routestep step="14" loc_x="2635.4941" loc_y="558.0907" loc_z="359.31924" rest_time="0"/> 
- 			<routestep step="15" loc_x="2616.6873" loc_y="578.2949" loc_z="352.09808" rest_time="0"/> 
- 			<routestep step="16" loc_x="2598.9849" loc_y="597.11035" loc_z="343.3037" rest_time="0"/> 
- 			<routestep step="17" loc_x="2582.7893" loc_y="606.0136" loc_z="341.023" rest_time="0"/> 
- 			<routestep step="18" loc_x="2598.9849" loc_y="597.11035" loc_z="343.3037" rest_time="0"/> 
- 			<routestep step="19" loc_x="2616.6873" loc_y="578.2949" loc_z="352.09808" rest_time="0"/> 
- 			<routestep step="20" loc_x="2635.4941" loc_y="558.0907" loc_z="359.31924" rest_time="0"/> 
- 			<routestep step="21" loc_x="2653.659" loc_y="536.6066" loc_z="367.8371" rest_time="0"/> 
- 			<routestep step="22" loc_x="2656.4746" loc_y="508.98367" loc_z="380.2879" rest_time="0"/> 
- 			<routestep step="23" loc_x="2658.7644" loc_y="483.0636" loc_z="385.78262" rest_time="0"/> 
- 			<routestep step="24" loc_x="2659.7769" loc_y="460.09402" loc_z="397.02985" rest_time="0"/> 
- 			<routestep step="25" loc_x="2656.0872" loc_y="438.6085" loc_z="398.3315" rest_time="0"/> 
- 			<routestep step="26" loc_x="2642.619" loc_y="428.28583" loc_z="398.94345" rest_time="0"/> 
- 			<routestep step="27" loc_x="2616.0847" loc_y="416.98404" loc_z="399.0" rest_time="0"/> 
- 			<routestep step="28" loc_x="2592.0647" loc_y="404.61508" loc_z="407.2965" rest_time="0"/> 
- 			<routestep step="29" loc_x="2568.8926" loc_y="393.05264" loc_z="417.18832" rest_time="0"/> 
- 			<routestep step="30" loc_x="2546.2644" loc_y="381.26337" loc_z="417.128" rest_time="0"/> 
- 			<routestep step="31" loc_x="2534.272" loc_y="374.77063" loc_z="412.36978" rest_time="0"/> 
- 			<routestep step="32" loc_x="2516.483" loc_y="365.3029" loc_z="408.79358" rest_time="0"/> 
- 			<routestep step="33" loc_x="2503.3047" loc_y="354.79092" loc_z="408.77612" rest_time="5"/> 
- 		</routes>
+	<walker_template route_id="106">
+		<routes>
+			<routestep step="1" loc_x="2503.3047" loc_y="354.79092" loc_z="408.77612" rest_time="5"/> 
+			<routestep step="2" loc_x="2516.483" loc_y="365.3029" loc_z="408.79358" rest_time="0"/> 
+			<routestep step="3" loc_x="2534.272" loc_y="374.77063" loc_z="412.36978" rest_time="0"/> 
+			<routestep step="4" loc_x="2546.2644" loc_y="381.26337" loc_z="417.128" rest_time="0"/> 
+			<routestep step="5" loc_x="2568.8926" loc_y="393.05264" loc_z="417.18832" rest_time="0"/> 
+			<routestep step="6" loc_x="2592.0647" loc_y="404.61508" loc_z="407.2965" rest_time="0"/> 
+			<routestep step="7" loc_x="2616.0847" loc_y="416.98404" loc_z="399.0" rest_time="0"/> 
+			<routestep step="8" loc_x="2642.619" loc_y="428.28583" loc_z="398.94345" rest_time="0"/> 
+			<routestep step="9" loc_x="2656.0872" loc_y="438.6085" loc_z="398.3315" rest_time="0"/> 
+			<routestep step="10" loc_x="2659.7769" loc_y="460.09402" loc_z="397.02985" rest_time="0"/> 
+			<routestep step="11" loc_x="2658.7644" loc_y="483.0636" loc_z="385.78262" rest_time="0"/> 
+			<routestep step="12" loc_x="2656.4746" loc_y="508.98367" loc_z="380.2879" rest_time="0"/> 
+			<routestep step="13" loc_x="2653.659" loc_y="536.6066" loc_z="367.8371" rest_time="0"/> 
+			<routestep step="14" loc_x="2635.4941" loc_y="558.0907" loc_z="359.31924" rest_time="0"/> 
+			<routestep step="15" loc_x="2616.6873" loc_y="578.2949" loc_z="352.09808" rest_time="0"/> 
+			<routestep step="16" loc_x="2598.9849" loc_y="597.11035" loc_z="343.3037" rest_time="0"/> 
+			<routestep step="17" loc_x="2582.7893" loc_y="606.0136" loc_z="341.023" rest_time="0"/> 
+			<routestep step="18" loc_x="2598.9849" loc_y="597.11035" loc_z="343.3037" rest_time="0"/> 
+			<routestep step="19" loc_x="2616.6873" loc_y="578.2949" loc_z="352.09808" rest_time="0"/> 
+			<routestep step="20" loc_x="2635.4941" loc_y="558.0907" loc_z="359.31924" rest_time="0"/> 
+			<routestep step="21" loc_x="2653.659" loc_y="536.6066" loc_z="367.8371" rest_time="0"/> 
+			<routestep step="22" loc_x="2656.4746" loc_y="508.98367" loc_z="380.2879" rest_time="0"/> 
+			<routestep step="23" loc_x="2658.7644" loc_y="483.0636" loc_z="385.78262" rest_time="0"/> 
+			<routestep step="24" loc_x="2659.7769" loc_y="460.09402" loc_z="397.02985" rest_time="0"/> 
+			<routestep step="25" loc_x="2656.0872" loc_y="438.6085" loc_z="398.3315" rest_time="0"/> 
+			<routestep step="26" loc_x="2642.619" loc_y="428.28583" loc_z="398.94345" rest_time="0"/> 
+			<routestep step="27" loc_x="2616.0847" loc_y="416.98404" loc_z="399.0" rest_time="0"/> 
+			<routestep step="28" loc_x="2592.0647" loc_y="404.61508" loc_z="407.2965" rest_time="0"/> 
+			<routestep step="29" loc_x="2568.8926" loc_y="393.05264" loc_z="417.18832" rest_time="0"/> 
+			<routestep step="30" loc_x="2546.2644" loc_y="381.26337" loc_z="417.128" rest_time="0"/> 
+			<routestep step="31" loc_x="2534.272" loc_y="374.77063" loc_z="412.36978" rest_time="0"/> 
+			<routestep step="32" loc_x="2516.483" loc_y="365.3029" loc_z="408.79358" rest_time="0"/> 
+			<routestep step="33" loc_x="2503.3047" loc_y="354.79092" loc_z="408.77612" rest_time="5"/> 
+		</routes>
 	</walker_template>
 	<!-- Senior Soldier (Heiron)-->
- 	<walker_template route_id="107">
- 		<routes>
- 			<routestep step="1" loc_x="1446.7576" loc_y="1323.122" loc_z="174.52277" rest_time="5"/> 
- 			<routestep step="2" loc_x="1452.7151" loc_y="1309.9515" loc_z="171.15152" rest_time="0"/> 
- 			<routestep step="3" loc_x="1460.1025" loc_y="1291.0691" loc_z="168.13364" rest_time="0"/> 
- 			<routestep step="4" loc_x="1466.6082" loc_y="1270.8612" loc_z="166.44464" rest_time="0"/> 
- 			<routestep step="5" loc_x="1472.9858" loc_y="1251.283" loc_z="163.07251" rest_time="0"/> 
- 			<routestep step="6" loc_x="1481.0175" loc_y="1225.8473" loc_z="157.33682" rest_time="0"/> 
- 			<routestep step="7" loc_x="1490.6149" loc_y="1204.3857" loc_z="153.75" rest_time="0"/> 
- 			<routestep step="8" loc_x="1500.702" loc_y="1184.6873" loc_z="155.38255" rest_time="0"/> 
- 			<routestep step="9" loc_x="1490.6149" loc_y="1204.3857" loc_z="153.75" rest_time="0"/> 
- 			<routestep step="10" loc_x="1481.0175" loc_y="1225.8473" loc_z="157.33682" rest_time="0"/> 
- 			<routestep step="11" loc_x="1472.9858" loc_y="1251.283" loc_z="163.07251" rest_time="0"/> 
- 			<routestep step="12" loc_x="1466.6082" loc_y="1270.8612" loc_z="166.44464" rest_time="0"/> 
- 			<routestep step="13" loc_x="1460.1025" loc_y="1291.0691" loc_z="168.13364" rest_time="0"/> 
- 			<routestep step="14" loc_x="1452.7151" loc_y="1309.9515" loc_z="171.15152" rest_time="0"/> 
- 			<routestep step="15" loc_x="1446.7576" loc_y="1323.122" loc_z="174.52277" rest_time="5"/> 
- 		</routes>
+	<walker_template route_id="107">
+		<routes>
+			<routestep step="1" loc_x="1446.7576" loc_y="1323.122" loc_z="174.52277" rest_time="5"/> 
+			<routestep step="2" loc_x="1452.7151" loc_y="1309.9515" loc_z="171.15152" rest_time="0"/> 
+			<routestep step="3" loc_x="1460.1025" loc_y="1291.0691" loc_z="168.13364" rest_time="0"/> 
+			<routestep step="4" loc_x="1466.6082" loc_y="1270.8612" loc_z="166.44464" rest_time="0"/> 
+			<routestep step="5" loc_x="1472.9858" loc_y="1251.283" loc_z="163.07251" rest_time="0"/> 
+			<routestep step="6" loc_x="1481.0175" loc_y="1225.8473" loc_z="157.33682" rest_time="0"/> 
+			<routestep step="7" loc_x="1490.6149" loc_y="1204.3857" loc_z="153.75" rest_time="0"/> 
+			<routestep step="8" loc_x="1500.702" loc_y="1184.6873" loc_z="155.38255" rest_time="0"/> 
+			<routestep step="9" loc_x="1490.6149" loc_y="1204.3857" loc_z="153.75" rest_time="0"/> 
+			<routestep step="10" loc_x="1481.0175" loc_y="1225.8473" loc_z="157.33682" rest_time="0"/> 
+			<routestep step="11" loc_x="1472.9858" loc_y="1251.283" loc_z="163.07251" rest_time="0"/> 
+			<routestep step="12" loc_x="1466.6082" loc_y="1270.8612" loc_z="166.44464" rest_time="0"/> 
+			<routestep step="13" loc_x="1460.1025" loc_y="1291.0691" loc_z="168.13364" rest_time="0"/> 
+			<routestep step="14" loc_x="1452.7151" loc_y="1309.9515" loc_z="171.15152" rest_time="0"/> 
+			<routestep step="15" loc_x="1446.7576" loc_y="1323.122" loc_z="174.52277" rest_time="5"/> 
+		</routes>
 	</walker_template>
 	<!-- Crisius, Despoina, Efrosini (Verteron)-->
- 	<walker_template route_id="108">
- 		<routes>
- 			<routestep step="1" loc_x="1601.4259" loc_y="1548.8326" loc_z="116.36124" rest_time="5"/> 
- 			<routestep step="2" loc_x="1591.5889" loc_y="1557.1184" loc_z="113.15811" rest_time="0"/> 
- 			<routestep step="3" loc_x="1579.7401" loc_y="1569.9242" loc_z="109.35673" rest_time="0"/> 
- 			<routestep step="4" loc_x="1576.4335" loc_y="1588.5259" loc_z="105.96136" rest_time="0"/> 
- 			<routestep step="5" loc_x="1566.3293" loc_y="1606.5881" loc_z="103.645584" rest_time="0"/> 
- 			<routestep step="6" loc_x="1559.2814" loc_y="1622.37" loc_z="103.77179" rest_time="0"/> 
- 			<routestep step="7" loc_x="1545.5415" loc_y="1640.4241" loc_z="104.28081" rest_time="0"/> 
- 			<routestep step="8" loc_x="1531.7942" loc_y="1657.5402" loc_z="105.62199" rest_time="0"/> 
- 			<routestep step="9" loc_x="1516.3766" loc_y="1679.2698" loc_z="109.555824" rest_time="0"/> 
- 			<routestep step="10" loc_x="1495.312" loc_y="1694.6747" loc_z="113.293" rest_time="0"/> 
- 			<routestep step="11" loc_x="1471.8334" loc_y="1698.8491" loc_z="115.95931" rest_time="0"/> 
- 			<routestep step="12" loc_x="1439.9158" loc_y="1692.18" loc_z="119.89079" rest_time="0"/> 
- 			<routestep step="13" loc_x="1421.6174" loc_y="1695.7848" loc_z="123.03437" rest_time="0"/> 
- 			<routestep step="14" loc_x="1439.9158" loc_y="1692.18" loc_z="119.89079" rest_time="0"/> 
- 			<routestep step="15" loc_x="1471.8334" loc_y="1698.8491" loc_z="115.95931" rest_time="0"/> 
- 			<routestep step="16" loc_x="1495.312" loc_y="1694.6747" loc_z="113.293" rest_time="0"/> 
- 			<routestep step="17" loc_x="1516.3766" loc_y="1679.2698" loc_z="109.555824" rest_time="0"/> 
- 			<routestep step="18" loc_x="1531.7942" loc_y="1657.5402" loc_z="105.62199" rest_time="0"/> 
- 			<routestep step="19" loc_x="1545.5415" loc_y="1640.4241" loc_z="104.28081" rest_time="0"/> 
- 			<routestep step="20" loc_x="1559.2814" loc_y="1622.37" loc_z="103.77179" rest_time="0"/> 
- 			<routestep step="21" loc_x="1566.3293" loc_y="1606.5881" loc_z="103.645584" rest_time="0"/> 
- 			<routestep step="22" loc_x="1576.4335" loc_y="1588.5259" loc_z="105.96136" rest_time="0"/> 
- 			<routestep step="23" loc_x="1579.7401" loc_y="1569.9242" loc_z="109.35673" rest_time="0"/> 
- 			<routestep step="24" loc_x="1591.5889" loc_y="1557.1184" loc_z="113.15811" rest_time="0"/> 
- 			<routestep step="25" loc_x="1601.4259" loc_y="1548.8326" loc_z="116.36124" rest_time="5"/> 
- 		</routes>
+	<walker_template route_id="108">
+		<routes>
+			<routestep step="1" loc_x="1601.4259" loc_y="1548.8326" loc_z="116.36124" rest_time="5"/> 
+			<routestep step="2" loc_x="1591.5889" loc_y="1557.1184" loc_z="113.15811" rest_time="0"/> 
+			<routestep step="3" loc_x="1579.7401" loc_y="1569.9242" loc_z="109.35673" rest_time="0"/> 
+			<routestep step="4" loc_x="1576.4335" loc_y="1588.5259" loc_z="105.96136" rest_time="0"/> 
+			<routestep step="5" loc_x="1566.3293" loc_y="1606.5881" loc_z="103.645584" rest_time="0"/> 
+			<routestep step="6" loc_x="1559.2814" loc_y="1622.37" loc_z="103.77179" rest_time="0"/> 
+			<routestep step="7" loc_x="1545.5415" loc_y="1640.4241" loc_z="104.28081" rest_time="0"/> 
+			<routestep step="8" loc_x="1531.7942" loc_y="1657.5402" loc_z="105.62199" rest_time="0"/> 
+			<routestep step="9" loc_x="1516.3766" loc_y="1679.2698" loc_z="109.555824" rest_time="0"/> 
+			<routestep step="10" loc_x="1495.312" loc_y="1694.6747" loc_z="113.293" rest_time="0"/> 
+			<routestep step="11" loc_x="1471.8334" loc_y="1698.8491" loc_z="115.95931" rest_time="0"/> 
+			<routestep step="12" loc_x="1439.9158" loc_y="1692.18" loc_z="119.89079" rest_time="0"/> 
+			<routestep step="13" loc_x="1421.6174" loc_y="1695.7848" loc_z="123.03437" rest_time="0"/> 
+			<routestep step="14" loc_x="1439.9158" loc_y="1692.18" loc_z="119.89079" rest_time="0"/> 
+			<routestep step="15" loc_x="1471.8334" loc_y="1698.8491" loc_z="115.95931" rest_time="0"/> 
+			<routestep step="16" loc_x="1495.312" loc_y="1694.6747" loc_z="113.293" rest_time="0"/> 
+			<routestep step="17" loc_x="1516.3766" loc_y="1679.2698" loc_z="109.555824" rest_time="0"/> 
+			<routestep step="18" loc_x="1531.7942" loc_y="1657.5402" loc_z="105.62199" rest_time="0"/> 
+			<routestep step="19" loc_x="1545.5415" loc_y="1640.4241" loc_z="104.28081" rest_time="0"/> 
+			<routestep step="20" loc_x="1559.2814" loc_y="1622.37" loc_z="103.77179" rest_time="0"/> 
+			<routestep step="21" loc_x="1566.3293" loc_y="1606.5881" loc_z="103.645584" rest_time="0"/> 
+			<routestep step="22" loc_x="1576.4335" loc_y="1588.5259" loc_z="105.96136" rest_time="0"/> 
+			<routestep step="23" loc_x="1579.7401" loc_y="1569.9242" loc_z="109.35673" rest_time="0"/> 
+			<routestep step="24" loc_x="1591.5889" loc_y="1557.1184" loc_z="113.15811" rest_time="0"/> 
+			<routestep step="25" loc_x="1601.4259" loc_y="1548.8326" loc_z="116.36124" rest_time="5"/> 
+		</routes>
 	</walker_template>
 	<!-- Mesarion (Verteron)-->
- 	<walker_template route_id="109">
- 		<routes>
- 			<routestep step="1" loc_x="2065.0476" loc_y="2417.766" loc_z="274.17584" rest_time="5"/> 
- 			<routestep step="2" loc_x="2054.1829" loc_y="2420.0874" loc_z="274.0" rest_time="0"/> 
- 			<routestep step="3" loc_x="2041.761" loc_y="2424.023" loc_z="274.00143" rest_time="0"/> 
- 			<routestep step="4" loc_x="2027.6063" loc_y="2428.5076" loc_z="274.76422" rest_time="0"/> 
- 			<routestep step="5" loc_x="2014.6248" loc_y="2432.6199" loc_z="273.875" rest_time="0"/> 
- 			<routestep step="6" loc_x="2005.8346" loc_y="2449.5784" loc_z="275.45764" rest_time="0"/> 
- 			<routestep step="7" loc_x="2009.6984" loc_y="2471.3252" loc_z="279.4112" rest_time="0"/> 
- 			<routestep step="8" loc_x="2005.8346" loc_y="2449.5784" loc_z="275.45764" rest_time="0"/> 
- 			<routestep step="9" loc_x="2014.6248" loc_y="2432.6199" loc_z="273.875" rest_time="0"/> 
- 			<routestep step="10" loc_x="2027.6063" loc_y="2428.5076" loc_z="274.76422" rest_time="0"/> 
- 			<routestep step="11" loc_x="2041.761" loc_y="2424.023" loc_z="274.00143" rest_time="0"/> 
- 			<routestep step="12" loc_x="2054.1829" loc_y="2420.0874" loc_z="274.0" rest_time="0"/> 
- 			<routestep step="13" loc_x="2065.0476" loc_y="2417.766" loc_z="274.17584" rest_time="5"/> 
- 		</routes>
+	<walker_template route_id="109">
+		<routes>
+			<routestep step="1" loc_x="2065.0476" loc_y="2417.766" loc_z="274.17584" rest_time="5"/> 
+			<routestep step="2" loc_x="2054.1829" loc_y="2420.0874" loc_z="274.0" rest_time="0"/> 
+			<routestep step="3" loc_x="2041.761" loc_y="2424.023" loc_z="274.00143" rest_time="0"/> 
+			<routestep step="4" loc_x="2027.6063" loc_y="2428.5076" loc_z="274.76422" rest_time="0"/> 
+			<routestep step="5" loc_x="2014.6248" loc_y="2432.6199" loc_z="273.875" rest_time="0"/> 
+			<routestep step="6" loc_x="2005.8346" loc_y="2449.5784" loc_z="275.45764" rest_time="0"/> 
+			<routestep step="7" loc_x="2009.6984" loc_y="2471.3252" loc_z="279.4112" rest_time="0"/> 
+			<routestep step="8" loc_x="2005.8346" loc_y="2449.5784" loc_z="275.45764" rest_time="0"/> 
+			<routestep step="9" loc_x="2014.6248" loc_y="2432.6199" loc_z="273.875" rest_time="0"/> 
+			<routestep step="10" loc_x="2027.6063" loc_y="2428.5076" loc_z="274.76422" rest_time="0"/> 
+			<routestep step="11" loc_x="2041.761" loc_y="2424.023" loc_z="274.00143" rest_time="0"/> 
+			<routestep step="12" loc_x="2054.1829" loc_y="2420.0874" loc_z="274.0" rest_time="0"/> 
+			<routestep step="13" loc_x="2065.0476" loc_y="2417.766" loc_z="274.17584" rest_time="5"/> 
+		</routes>
 	</walker_template>
- 	<!-- Ursuras (Verteron)-->
- 	<walker_template route_id="110">
- 		<routes>
- 			<routestep step="1" loc_x="1368.8868" loc_y="1855.1455" loc_z="123.52021" rest_time="5"/> 
- 			<routestep step="2" loc_x="1366.9808" loc_y="1871.9176" loc_z="126.6657" rest_time="0"/> 
- 			<routestep step="3" loc_x="1363.8811" loc_y="1894.5688" loc_z="131.2879" rest_time="0"/> 
- 			<routestep step="4" loc_x="1359.9597" loc_y="1916.2942" loc_z="135.67513" rest_time="0"/> 
- 			<routestep step="5" loc_x="1374.5314" loc_y="1940.6287" loc_z="138.375" rest_time="0"/> 
- 			<routestep step="6" loc_x="1398.2114" loc_y="1967.3383" loc_z="137.77814" rest_time="0"/> 
- 			<routestep step="7" loc_x="1419.1624" loc_y="1980.7374" loc_z="134.76253" rest_time="0"/> 
- 			<routestep step="8" loc_x="1447.7183" loc_y="2009.1" loc_z="137.23239" rest_time="0"/> 
- 			<routestep step="9" loc_x="1419.1624" loc_y="1980.7374" loc_z="134.76253" rest_time="0"/> 
- 			<routestep step="10" loc_x="1398.2114" loc_y="1967.3383" loc_z="137.77814" rest_time="0"/> 
- 			<routestep step="11" loc_x="1374.5314" loc_y="1940.6287" loc_z="138.375" rest_time="0"/> 
- 			<routestep step="12" loc_x="1359.9597" loc_y="1916.2942" loc_z="135.67513" rest_time="0"/> 
- 			<routestep step="13" loc_x="1363.8811" loc_y="1894.5688" loc_z="131.2879" rest_time="0"/> 
- 			<routestep step="14" loc_x="1366.9808" loc_y="1871.9176" loc_z="126.6657" rest_time="0"/> 
- 			<routestep step="15" loc_x="1368.8868" loc_y="1855.1455" loc_z="123.52021" rest_time="5"/> 
- 		</routes>
+	<!-- Ursuras (Verteron)-->
+	<walker_template route_id="110">
+		<routes>
+			<routestep step="1" loc_x="1368.8868" loc_y="1855.1455" loc_z="123.52021" rest_time="5"/> 
+			<routestep step="2" loc_x="1366.9808" loc_y="1871.9176" loc_z="126.6657" rest_time="0"/> 
+			<routestep step="3" loc_x="1363.8811" loc_y="1894.5688" loc_z="131.2879" rest_time="0"/> 
+			<routestep step="4" loc_x="1359.9597" loc_y="1916.2942" loc_z="135.67513" rest_time="0"/> 
+			<routestep step="5" loc_x="1374.5314" loc_y="1940.6287" loc_z="138.375" rest_time="0"/> 
+			<routestep step="6" loc_x="1398.2114" loc_y="1967.3383" loc_z="137.77814" rest_time="0"/> 
+			<routestep step="7" loc_x="1419.1624" loc_y="1980.7374" loc_z="134.76253" rest_time="0"/> 
+			<routestep step="8" loc_x="1447.7183" loc_y="2009.1" loc_z="137.23239" rest_time="0"/> 
+			<routestep step="9" loc_x="1419.1624" loc_y="1980.7374" loc_z="134.76253" rest_time="0"/> 
+			<routestep step="10" loc_x="1398.2114" loc_y="1967.3383" loc_z="137.77814" rest_time="0"/> 
+			<routestep step="11" loc_x="1374.5314" loc_y="1940.6287" loc_z="138.375" rest_time="0"/> 
+			<routestep step="12" loc_x="1359.9597" loc_y="1916.2942" loc_z="135.67513" rest_time="0"/> 
+			<routestep step="13" loc_x="1363.8811" loc_y="1894.5688" loc_z="131.2879" rest_time="0"/> 
+			<routestep step="14" loc_x="1366.9808" loc_y="1871.9176" loc_z="126.6657" rest_time="0"/> 
+			<routestep step="15" loc_x="1368.8868" loc_y="1855.1455" loc_z="123.52021" rest_time="5"/> 
+		</routes>
 	</walker_template>
 	<!-- Fredge, Nier (Poeta)--> 
 	<walker_template route_id="111">
- 		<routes>
- 			<routestep step="1" loc_x="563.46" loc_y="1396.6" loc_z="114.28" rest_time="0"/> 
- 			<routestep step="2" loc_x="562.27" loc_y="1405.39" loc_z="112.45" rest_time="0"/> 
- 			<routestep step="3" loc_x="573.75" loc_y="1473.75" loc_z="113.28" rest_time="0"/> 
- 			<routestep step="4" loc_x="573.24" loc_y="1434.2" loc_z="111.64" rest_time="0"/> 
- 			<routestep step="5" loc_x="579.75" loc_y="1455.75" loc_z="111.06" rest_time="0"/> 
- 			<routestep step="6" loc_x="579.75" loc_y="1457.75" loc_z="111.33" rest_time="0"/> 
- 			<routestep step="7" loc_x="579.24" loc_y="1487.71" loc_z="114.28" rest_time="0"/> 
- 			<routestep step="8" loc_x="592.67" loc_y="1512.75" loc_z="114.85" rest_time="0"/> 
- 			<routestep step="9" loc_x="597.25" loc_y="1511.75" loc_z="114.62" rest_time="0"/> 
- 			<routestep step="10" loc_x="600.25" loc_y="1521.75" loc_z="114.78" rest_time="0"/> 
- 			<routestep step="11" loc_x="615.25" loc_y="1545.75" loc_z="115.92" rest_time="0"/> 
- 			<routestep step="12" loc_x="615.46" loc_y="1557.05" loc_z="116.16" rest_time="0"/> 
- 			<routestep step="13" loc_x="627.26" loc_y="1573.66" loc_z="118.37" rest_time="0"/> 
- 			<routestep step="14" loc_x="628.91" loc_y="1386.52" loc_z="117.82" rest_time="0"/> 
- 			<routestep step="15" loc_x="625.45" loc_y="1594.89" loc_z="117.62" rest_time="0"/> 
- 			<routestep step="16" loc_x="623.25" loc_y="1600.25" loc_z="117.57" rest_time="0"/> 
- 			<routestep step="17" loc_x="616.25" loc_y="1604.75" loc_z="117.29" rest_time="0"/> 
- 			<routestep step="18" loc_x="575.91" loc_y="1616.75" loc_z="115.36" rest_time="0"/> 
- 			<routestep step="19" loc_x="565.52" loc_y="1621.03" loc_z="115.11" rest_time="0"/> 
- 			<routestep step="20" loc_x="559.52" loc_y="1625.48" loc_z="115" rest_time="0"/> 
- 			<routestep step="21" loc_x="565.52" loc_y="1621.03" loc_z="115.11" rest_time="0"/> 
- 			<routestep step="22" loc_x="575.91" loc_y="1616.75" loc_z="115.36" rest_time="0"/> 
- 			<routestep step="23" loc_x="616.25" loc_y="1604.75" loc_z="117.29" rest_time="0"/> 
- 			<routestep step="24" loc_x="623.25" loc_y="1600.25" loc_z="117.57" rest_time="0"/> 
- 			<routestep step="25" loc_x="625.45" loc_y="1594.89" loc_z="117.62" rest_time="0"/> 
- 			<routestep step="26" loc_x="628.91" loc_y="1386.52" loc_z="117.82" rest_time="0"/> 
- 			<routestep step="27" loc_x="627.26" loc_y="1573.66" loc_z="118.37" rest_time="0"/> 
- 			<routestep step="28" loc_x="615.46" loc_y="1557.05" loc_z="116.16" rest_time="0"/> 
- 			<routestep step="29" loc_x="615.25" loc_y="1545.75" loc_z="115.92" rest_time="0"/> 
- 			<routestep step="30" loc_x="600.25" loc_y="1521.75" loc_z="114.78" rest_time="0"/> 
- 			<routestep step="31" loc_x="597.25" loc_y="1511.75" loc_z="114.62" rest_time="0"/> 
- 			<routestep step="32" loc_x="592.67" loc_y="1512.75" loc_z="114.85" rest_time="0"/> 
- 			<routestep step="33" loc_x="579.24" loc_y="1487.71" loc_z="114.28" rest_time="0"/> 
- 			<routestep step="34" loc_x="579.75" loc_y="1457.75" loc_z="111.33" rest_time="0"/> 
- 			<routestep step="35" loc_x="579.75" loc_y="1455.75" loc_z="111.06" rest_time="0"/> 
- 			<routestep step="36" loc_x="573.24" loc_y="1434.2" loc_z="111.64" rest_time="0"/> 
- 			<routestep step="37" loc_x="573.75" loc_y="1473.75" loc_z="113.28" rest_time="0"/> 
- 			<routestep step="38" loc_x="562.27" loc_y="1405.39" loc_z="112.45" rest_time="0"/> 
- 			<routestep step="39" loc_x="563.46" loc_y="1396.6" loc_z="114.28" rest_time="0"/> 
- 		</routes>
+		<routes>
+			<routestep step="1" loc_x="563.46" loc_y="1396.6" loc_z="114.28" rest_time="0"/> 
+			<routestep step="2" loc_x="562.27" loc_y="1405.39" loc_z="112.45" rest_time="0"/> 
+			<routestep step="3" loc_x="573.75" loc_y="1473.75" loc_z="113.28" rest_time="0"/> 
+			<routestep step="4" loc_x="573.24" loc_y="1434.2" loc_z="111.64" rest_time="0"/> 
+			<routestep step="5" loc_x="579.75" loc_y="1455.75" loc_z="111.06" rest_time="0"/> 
+			<routestep step="6" loc_x="579.75" loc_y="1457.75" loc_z="111.33" rest_time="0"/> 
+			<routestep step="7" loc_x="579.24" loc_y="1487.71" loc_z="114.28" rest_time="0"/> 
+			<routestep step="8" loc_x="592.67" loc_y="1512.75" loc_z="114.85" rest_time="0"/> 
+			<routestep step="9" loc_x="597.25" loc_y="1511.75" loc_z="114.62" rest_time="0"/> 
+			<routestep step="10" loc_x="600.25" loc_y="1521.75" loc_z="114.78" rest_time="0"/> 
+			<routestep step="11" loc_x="615.25" loc_y="1545.75" loc_z="115.92" rest_time="0"/> 
+			<routestep step="12" loc_x="615.46" loc_y="1557.05" loc_z="116.16" rest_time="0"/> 
+			<routestep step="13" loc_x="627.26" loc_y="1573.66" loc_z="118.37" rest_time="0"/> 
+			<routestep step="14" loc_x="628.91" loc_y="1386.52" loc_z="117.82" rest_time="0"/> 
+			<routestep step="15" loc_x="625.45" loc_y="1594.89" loc_z="117.62" rest_time="0"/> 
+			<routestep step="16" loc_x="623.25" loc_y="1600.25" loc_z="117.57" rest_time="0"/> 
+			<routestep step="17" loc_x="616.25" loc_y="1604.75" loc_z="117.29" rest_time="0"/> 
+			<routestep step="18" loc_x="575.91" loc_y="1616.75" loc_z="115.36" rest_time="0"/> 
+			<routestep step="19" loc_x="565.52" loc_y="1621.03" loc_z="115.11" rest_time="0"/> 
+			<routestep step="20" loc_x="559.52" loc_y="1625.48" loc_z="115" rest_time="0"/> 
+			<routestep step="21" loc_x="565.52" loc_y="1621.03" loc_z="115.11" rest_time="0"/> 
+			<routestep step="22" loc_x="575.91" loc_y="1616.75" loc_z="115.36" rest_time="0"/> 
+			<routestep step="23" loc_x="616.25" loc_y="1604.75" loc_z="117.29" rest_time="0"/> 
+			<routestep step="24" loc_x="623.25" loc_y="1600.25" loc_z="117.57" rest_time="0"/> 
+			<routestep step="25" loc_x="625.45" loc_y="1594.89" loc_z="117.62" rest_time="0"/> 
+			<routestep step="26" loc_x="628.91" loc_y="1386.52" loc_z="117.82" rest_time="0"/> 
+			<routestep step="27" loc_x="627.26" loc_y="1573.66" loc_z="118.37" rest_time="0"/> 
+			<routestep step="28" loc_x="615.46" loc_y="1557.05" loc_z="116.16" rest_time="0"/> 
+			<routestep step="29" loc_x="615.25" loc_y="1545.75" loc_z="115.92" rest_time="0"/> 
+			<routestep step="30" loc_x="600.25" loc_y="1521.75" loc_z="114.78" rest_time="0"/> 
+			<routestep step="31" loc_x="597.25" loc_y="1511.75" loc_z="114.62" rest_time="0"/> 
+			<routestep step="32" loc_x="592.67" loc_y="1512.75" loc_z="114.85" rest_time="0"/> 
+			<routestep step="33" loc_x="579.24" loc_y="1487.71" loc_z="114.28" rest_time="0"/> 
+			<routestep step="34" loc_x="579.75" loc_y="1457.75" loc_z="111.33" rest_time="0"/> 
+			<routestep step="35" loc_x="579.75" loc_y="1455.75" loc_z="111.06" rest_time="0"/> 
+			<routestep step="36" loc_x="573.24" loc_y="1434.2" loc_z="111.64" rest_time="0"/> 
+			<routestep step="37" loc_x="573.75" loc_y="1473.75" loc_z="113.28" rest_time="0"/> 
+			<routestep step="38" loc_x="562.27" loc_y="1405.39" loc_z="112.45" rest_time="0"/> 
+			<routestep step="39" loc_x="563.46" loc_y="1396.6" loc_z="114.28" rest_time="0"/> 
+		</routes>
 	</walker_template>
- 	<walker_template route_id="112">
- 	<!-- Toleo (Poeta)--> 
- 		<routes>
- 			<routestep step="1" loc_x="823.7035" loc_y="1237.5942" loc_z="118.91644" rest_time="0"/> 
- 			<routestep step="2" loc_x="851.91644" loc_y="1236.7667" loc_z="119.00522" rest_time="0"/> 
- 			<routestep step="3" loc_x="861.64624" loc_y="1227.815" loc_z="118.875" rest_time="0"/> 
- 			<routestep step="4" loc_x="864.2056" loc_y="1207.2758" loc_z="117.114204" rest_time="0"/> 
- 			<routestep step="5" loc_x="849.36206" loc_y="1220.375" loc_z="118.75" rest_time="0"/> 
- 			<routestep step="6" loc_x="837.17834" loc_y="1222.9266" loc_z="118.942085" rest_time="0"/> 
- 			<routestep step="7" loc_x="814.7258" loc_y="1217.3505" loc_z="117.126656" rest_time="0"/> 
- 		</routes>
+	<walker_template route_id="112">
+	<!-- Toleo (Poeta)--> 
+		<routes>
+			<routestep step="1" loc_x="823.7035" loc_y="1237.5942" loc_z="118.91644" rest_time="0"/> 
+			<routestep step="2" loc_x="851.91644" loc_y="1236.7667" loc_z="119.00522" rest_time="0"/> 
+			<routestep step="3" loc_x="861.64624" loc_y="1227.815" loc_z="118.875" rest_time="0"/> 
+			<routestep step="4" loc_x="864.2056" loc_y="1207.2758" loc_z="117.114204" rest_time="0"/> 
+			<routestep step="5" loc_x="849.36206" loc_y="1220.375" loc_z="118.75" rest_time="0"/> 
+			<routestep step="6" loc_x="837.17834" loc_y="1222.9266" loc_z="118.942085" rest_time="0"/> 
+			<routestep step="7" loc_x="814.7258" loc_y="1217.3505" loc_z="117.126656" rest_time="0"/> 
+		</routes>
 	</walker_template>
- 			</npc_walker>
+</npc_walker>

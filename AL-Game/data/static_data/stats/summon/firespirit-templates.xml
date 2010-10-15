@@ -102,5 +102,4 @@
 	<summon_stats npc_id_light="201034" npc_id_dark="201035" level="50">
 		<stats_template maxHp="6196" pdefense="1075" mresist="949" main_hand_attack="292" run_speed="8.0"/>
 	</summon_stats>
-	</summon_stats_templates>
-	
+</summon_stats_templates>
