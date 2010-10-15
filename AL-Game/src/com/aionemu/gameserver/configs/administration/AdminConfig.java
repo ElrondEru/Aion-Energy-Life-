@@ -207,6 +207,9 @@ public class AdminConfig
 	@Property(key = "gameserver.administration.command.system", defaultValue = "3")
 	public static int	COMMAND_SYSTEM;
 
+	@Property(key = "gameserver.administration.command.time", defaultValue = "3")
+	public static int	COMMAND_TIME;
+
 	@Property(key = "gameserver.administration.command.unloadspawn", defaultValue = "3")
 	public static int	COMMAND_UNLOADSPAWN;
 
