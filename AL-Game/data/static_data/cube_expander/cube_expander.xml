@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <cube_expander xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="cube_expander.xsd">
-<!-- 
-    Cube Expander
- -->
+<!-- Cube Expander -->
 	<!-- Poeta -->
 	<cube_npc id="798008" name="Baevrunerk">
 		<expand level="1" price="1000"/>
