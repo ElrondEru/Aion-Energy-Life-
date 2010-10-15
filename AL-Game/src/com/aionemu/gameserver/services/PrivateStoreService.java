@@ -153,16 +153,10 @@ public class PrivateStoreService
 		long price = getTotalPrice(store, tradeList);
 
 		/**
-		 * Check if player has enough kinah and remove it
+		 * Check if player has enough kinah
 		 */
 		if(getKinahAmount(buyer) >= price)
 		{
-			/**
-			 * Decrease kinah for buyer and Increase kinah for seller
-			 */
-			decreaseKinahAmount(buyer, price);
-			increaseKinahAmount(seller, price);
-
 			List<Item> newItems = new ArrayList<Item>();
 			for(TradeItem tradeItem : tradeList.getTradeItems())
 			{
@@ -170,12 +164,21 @@ public class PrivateStoreService
 				if(item != null)
 				{
 					TradePSItem storeItem = store.getTradeItemById(tradeItem.getItemId());
-					
+					//Fix "Private store stackable items dupe" by Asanka
+					if(item.getItemCount() < tradeItem.getCount()) 
+					{	
+						PacketSendUtility.sendMessage(buyer, "You cannot buy more than player can sell.");
+						return;
+					}
 					Set<ManaStone> manaStones = null;
 					if(item.hasManaStones())
 						manaStones = item.getItemStones();
 					
 					GodStone godStone = item.getGodStone();
+					// Decrease kinah for buyer and Increase kinah for seller
+					decreaseKinahAmount(buyer, price);
+					increaseKinahAmount(seller, price);
+					// Decrease/remove item from store and add them to buyer
 					decreaseItemFromPlayer(seller, item, tradeItem);
 					ItemService.addFullItem(buyer, item.getItemTemplate().getTemplateId(), tradeItem.getCount(), manaStones, godStone, item.getEnchantLevel());
 					if(storeItem.getCount() == tradeItem.getCount())
