@@ -14,5 +14,6 @@
 	<classpathentry kind="lib" path="lib/log4j-1.2.16.jar" sourcepath="libsrc/log4j-1.2.6-src.zip"/>
 	<classpathentry kind="lib" path="lib/commons-dbcp-1.4.jar" sourcepath="libsrc/commons-dbcp-1.4-sources.jar"/>
 	<classpathentry kind="lib" path="lib/javolution-5.5.1.jar" sourcepath="libsrc/javolution-5.5.1-sources.jar"/>
+	<classpathentry kind="lib" path="lib/netty-4.0.0.Alpha1-SNAPSHOT.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
