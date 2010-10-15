@@ -17,18 +17,18 @@
 		<exitpoint mapid="320120000" x="407.6533" y="399.1897" z="245.10768"/>
 	</portal>
 	<!-- Haramel -->
-	<portal npcid="700852" instance="true" minlevel="18" maxlevel="22" group="false">
+	<portal npcid="700852" instance="true" minlevel="18" maxlevel="22" group="false" usedelay="10800">
 		<entrypoint mapid="210030000" x="2538.578" y="834.9309" z="103.967476" race="ELYOS"/>
 		<entrypoint mapid="220030000" x="2911.1519" y="1454.4619" z="252.59264" race="ASMODIANS"/>
 		<exitpoint mapid="300200000" x="182.29105" y="20.523394" z="144.2241"/>
 	</portal>
-	<!-- Core -->
-	<portal npcid="282014" instance="true" minlevel="50" maxlevel="55" group="true">
+	<!-- Abyssal Splinter -->
+	<portal npcid="282014" instance="true" minlevel="50" maxlevel="55" group="true" usedelay="165600">
 		<entrypoint mapid="400010000" x="2203.18700" y="1928.18119" z="2303.04434"/>
 		<exitpoint mapid="300220000" x="706.3924" y="159.45154" z="453.42126"/>
 	</portal>
 	<!-- Kromede's Trial -->
-	<portal npcid="281906" instance="true" minlevel="37" maxlevel="44" group="false">
+	<portal npcid="281906" instance="true" minlevel="37" maxlevel="44" group="false" usedelay="79200">
 		<entrypoint mapid="210040000" x="170.42387" y="1619.6165" z="120.853546" race="ELYOS"/>
 		<entrypoint mapid="220040000" x="1929.999" y="507.82068" z="412.25" race="ASMODIANS"/>
 		<exitpoint mapid="300230000" x="228.86" y="251.32818" z="191.239"/>
@@ -59,7 +59,7 @@
 		<exitpoint mapid="120010000" x="1602.999" y="1389.1866" z="193.12862"/>
 	</portal>
 	<!-- Beshmundir Temple -->
-	<portal npcid="730286" instance="true" minlevel="55" maxlevel="55" group="true">
+	<portal npcid="730286" instance="true" minlevel="55" maxlevel="55" group="true" usedelay="43200">
 		<entrypoint mapid="600010000" x="1417.427" y="767.18164" z="312.86633"/>
 		<exitpoint mapid="300170000" x="1480.8746" y="255.21692" z="243.45709"/>
 	</portal>
@@ -83,14 +83,14 @@
 		<entrypoint mapid="120010000" x="1685.5969" y="1400.5013" z="195.3448"/>
 		<exitpoint mapid="220070000" x="1771.5" y="2892.2" z="548.8"/>
 	</portal>
-	<!-- Udas Temple Up -->
-	<portal npcid="730272" instance="true" minlevel="52" maxlevel="55" group="true">
+	<!-- Udas Temple -->
+	<portal npcid="730272" instance="true" minlevel="52" maxlevel="55" group="true" usedelay="21600">
 		<entrypoint mapid="210050000" x="351.95800" y="1377.43119" z="336.43300" race="ELYOS"/>
 		<entrypoint mapid="220070000" x="2265.386" y="1605.9316" z="310.72098" race="ASMODIANS"/>
 		<exitpoint mapid="300150000" x="636.698" y="660.3391" z="133.69518"/>
 	</portal>
-	<!-- Udas Temple Lower -->
-	<portal npcid="730273" instance="true" minlevel="52" maxlevel="55" group="true">
+	<!-- Lower Udas Temple -->
+	<portal npcid="730273" instance="true" minlevel="52" maxlevel="55" group="true" usedelay="21600">
 		<entrypoint mapid="210050000" x="362.27300" y="1370.20119" z="336.43300" race="ELYOS"/>
 		<entrypoint mapid="220070000" x="2269.52" y="1595.2424" z="310.29895" race="ASMODIANS"/>
 		<exitpoint mapid="300160000" x="1145.9927" y="354.37845" z="110.07721"/>
@@ -111,64 +111,57 @@
 		<exitpoint mapid="210050000" x="1094.249" y="2172.9402" z="341.3571"/>
 	</portal>
 	<!-- Taloc's Hollow -->
-	<portal npcid="799022" instance="true" minlevel="51" maxlevel="55" group="false">
+	<portal npcid="799022" instance="true" minlevel="51" maxlevel="55" group="false" usedelay="165600">
 		<entrypoint mapid="210050000" x="2895.888" y="352.69165" z="299.68256"/>
 		<exitpoint mapid="300190000" x="199.87788" y="212.72118" z="1098.889"/>
 	</portal>
-		<!-- Silentera Canyon -->
+	<!-- Silentera Canyon -->
 	<portal npcid="730274" instance="false" minlevel="50" maxlevel="55" group="false" race="ELYOS">
-	    <entrypoint mapid="210050000" x="1362.5396" y="2302.1187" z="296.6737" race="ELYOS"/>
+		<entrypoint mapid="210050000" x="1362.5396" y="2302.1187" z="296.6737" race="ELYOS"/>
 		<exitpoint mapid="600010000" x="1352.5563" y="767.6168" z="312.77734"/>
 	</portal>
-	
 	<!-- Inggison > Silentera Canyon -->
 	<portal npcid="730256" instance="false" minlevel="50" maxlevel="55" group="true">
 		<entrypoint mapid="210050000" x="0" y="0" z="0"/>
 		<exitpoint mapid="600010000" x="907.7394" y="157.7938" z="342.514"/>
 	</portal>
-
 	<!-- Silentera Canyon Exit > Inggison -->
 	<portal npcid="730257" instance="false" minlevel="50" maxlevel="55" group="false">
 		<entrypoint mapid="600010000" x="486.70847" y="105.148705" z="326.16504"/>
 		<exitpoint mapid="210050000" x="707.1648" y="2057.8748" z="353.875"/>
 	</portal>
-
 	<!-- Silentera Canyon > Inggison -->
 	<portal npcid="730258" instance="false" minlevel="50" maxlevel="55" group="false">
 		<entrypoint mapid="600010000" x="920.4469" y="148.93167" z="347.11508"/>
 		<exitpoint mapid="210050000" x="1363.0831" y="2297.2302" z="296.6737"/>
 	</portal>
-	
 	<!-- Catacombs > Inggison -->
 	<portal npcid="730259" instance="false" minlevel="50" maxlevel="55" group="false" race="ELYOS">
 		<entrypoint mapid="300170000" x="0" y="0" z="0" race="ELYOS"/>
 		<exitpoint mapid="210050000" x="1363.0831" y="2297.2302" z="296.6737"/>
 	</portal>
-
 	<!-- Gelkmaros > Silentera Canyon -->
 	<portal npcid="730260" instance="true" minlevel="50" maxlevel="55" group="true">
 		<entrypoint mapid="220070000" x="0" y="0" z="0"/>
 		<exitpoint mapid="600010000" x="926.1586" y="1395.7484" z="340.34335"/>
 	</portal>
-	
 	<!-- Catacombs > Gelkmaros -->
 	<portal npcid="730261" instance="false" minlevel="50" maxlevel="55" group="false" race="ASMODIANS">
 		<entrypoint mapid="300170000" x="0" y="0" z="0" race="ASMODIANS"/>
 		<exitpoint mapid="220070000" x="1448.0195" y="911.6332" z="294.02194"/>
 	</portal>
-	
 	<!-- Silentera Canyon > Gelkmaros -->
 	<portal npcid="730262" instance="false" minlevel="50" maxlevel="55" group="false">
 		<entrypoint mapid="600010000" x="0" y="0" z="0"/>
 		<exitpoint mapid="220070000" x="1448.0195" y="911.6332" z="294.02194"/>
 	</portal>
 	<!-- Steel Rake Elyos -->
-	<portal npcid="798378" instance="true" minlevel="40" maxlevel="55" group="true" race="ELYOS">
+	<portal npcid="798378" instance="true" minlevel="40" maxlevel="55" group="true" race="ELYOS" usedelay="18000">
 		<entrypoint mapid="110010000" x="1869.8866" y="2067.3823" z="517.9073"/>
 		<exitpoint mapid="300100000" x="234.7316" y="505.87134" z="948.6736"/>
 	 </portal>
 	<!-- Steel Rake Asmodians -->
-	<portal npcid="798379" instance="true" minlevel="40" maxlevel="55" group="true" race="ASMODIANS">
+	<portal npcid="798379" instance="true" minlevel="40" maxlevel="55" group="true" race="ASMODIANS" usedelay="18000">
 		<entrypoint mapid="120010000" x="949.4451" y="1157.7664" z="195.88037"/>
 		<exitpoint mapid="300100000" x="234.7316" y="505.87134" z="948.6736"/>
 	</portal>
@@ -208,7 +201,7 @@
 		<exitpoint mapid="320050000" x="218.24738" y="287.34573" z="550.68805"/>
 	</portal>
 	<!-- Sulfur Tree Nest -->
-	<portal npcid="730042" instance="true" minlevel="30" maxlevel="55" group="true" usedelay="57600">
+	<portal npcid="730042" instance="true" minlevel="30" maxlevel="55" group="true" usedelay="64800">
 		<entrypoint mapid="400010000" x="1327.103" y="1230.7574" z="1496.5812"/>
 		<exitpoint mapid="300060000" x="462.352" y="345.609" z="162.817"/>
 	</portal>
@@ -223,7 +216,7 @@
 		<exitpoint mapid="210020000" x="446.38937" y="428.9423" z="274.5"/>
 	</portal>
 	<!-- Adma Stronghold -->
-	<portal npcid="730165" instance="true" minlevel="46" maxlevel="55" group="true" usedelay="14400">
+	<portal npcid="730165" instance="true" minlevel="46" maxlevel="55" group="true" usedelay="10800">
 		<entrypoint mapid="220050000" x="2339.747" y="160.00119" z="246.44734"/>
 		<exitpoint mapid="320130000" x="450.66864" y="199.70248" z="167.84444"/>
 	</portal>
@@ -233,7 +226,7 @@
 		<exitpoint mapid="320130000" x="450.66864" y="199.70248" z="167.84444"/>
 	</portal>
 	<!-- Asteria Chamber -->
-	<portal npcid="700460" instance="true" minlevel="41" maxlevel="55" group="true" usedelay="57600">
+	<portal npcid="700460" instance="true" minlevel="41" maxlevel="55" group="true" usedelay="64800">
 		<entrypoint mapid="400010000" x="705.45" y="2921.74" z="2880.84"/>
 		<exitpoint mapid="300050000" x="469.343" y="567.713" z="201.732"/>
 	</portal>
@@ -258,7 +251,7 @@
 		<exitpoint mapid="300070000" x="503.74" y="395.70" z="94.34"/>
 	</portal>
 	<!-- Alquimia Research Center Entrance -->
-	<portal npcid="730110" instance="true" minlevel="40" maxlevel="55" group="true" usedelay="540">
+	<portal npcid="730110" instance="true" minlevel="40" maxlevel="55" group="true" usedelay="600">
 		<entrypoint mapid="220040000" x="2203.19" y="2923.57" z="699.81"/>
 		<exitpoint mapid="320110000" x="602.62976" y="526.6474" z="200.05792"/>
 	</portal>
@@ -273,13 +266,13 @@
 		<exitpoint mapid="300030000" x="509.60684" y="553.53436" z="331.8459"/>
 	</portal>
 	<!-- Fire Temple-->
-    <portal npcid="730047" instance="true" minlevel="25" maxlevel="38" group="true" usedelay="1800">
-	    <entrypoint mapid="220020000" x="1591.3123" y="975.1045" z="140.75" race="ASMODIANS"/>
-	    <entrypoint mapid="210020000" x="1343.28" y="350.96" z="348.67" race="ELYOS"/>
-	    <exitpoint mapid="320100000" x="148.256" y="460.857" z="141.713"/>
-    </portal>
+	<portal npcid="730047" instance="true" minlevel="25" maxlevel="38" group="true" usedelay="1800">
+		<entrypoint mapid="220020000" x="1591.3123" y="975.1045" z="140.75" race="ASMODIANS"/>
+		<entrypoint mapid="210020000" x="1343.28" y="350.96" z="348.67" race="ELYOS"/>
+		<exitpoint mapid="320100000" x="148.256" y="460.857" z="141.713"/>
+	</portal>
 	<!-- Draupnir Cave Entrance -->
-	<portal npcid="700370" instance="true" minlevel="43" maxlevel="48" group="true" usedelay="43200">
+	<portal npcid="700370" instance="true" minlevel="43" maxlevel="48" group="true" usedelay="21600">
 		<entrypoint mapid="220040000" x="1605.27" y="2729.9" z="705.345"/>
 		<exitpoint mapid="320080000" x="491" y="373" z="622"/>
 	</portal>
@@ -320,7 +313,7 @@
 		<exitpoint mapid="300040000" x="1188.80707" y="1241.4151" z="143.85065"/>
 	</portal>
 	<!-- Azoturan Fortress -->
-	<portal npcid="700364" instance="true" minlevel="40" maxlevel="50" group="true" usedelay="64800">
+	<portal npcid="700364" instance="true" minlevel="40" maxlevel="50" group="true">
 		<entrypoint mapid="210040000" x="542.84" y="712.9" z="153.03"/>
 		<exitpoint mapid="310100000" x="304.16013" y="323.43713" z="1021.4955"/>
 	</portal>
@@ -330,17 +323,17 @@
 		<exitpoint mapid="310110000" x="476.96606" y="201.32736" z="169.98848"/>
 	</portal>
 	<!-- Krotan Chamber -->
-	<portal npcid="700458" instance="true" minlevel="45" maxlevel="55" group="true" usedelay="57600">
+	<portal npcid="700458" instance="true" minlevel="45" maxlevel="55" group="true" usedelay="64800">
 		<entrypoint mapid="400010000" x="2011.3734" y="1251.6195" z="2945.3445"/>
 		<exitpoint mapid="300140000" x="527.79846" y="109.320755" z="175.92393"/>
 	</portal>
 	<!-- Miren Chamber -->
-	<portal npcid="730043" instance="true" minlevel="40" maxlevel="55" group="true" usedelay="57600">
+	<portal npcid="730043" instance="true" minlevel="40" maxlevel="55" group="true" usedelay="64800">
 		<entrypoint mapid="400010000" x="1827.2914" y="2305.899" z="2931.5413"/>
 		<exitpoint mapid="300130000" x="527.5752" y="119.29071" z="175.89603"/>
 	</portal>
 	<!-- Kysis Chamber -->
-	<portal npcid="730045" instance="true" minlevel="40" maxlevel="55" group="true" usedelay="57600">
+	<portal npcid="730045" instance="true" minlevel="40" maxlevel="55" group="true" usedelay="64800">
 		<entrypoint mapid="400010000" x="2514.6416" y="2057.9045" z="3031.8384"/>
 		<exitpoint mapid="300120000" x="527.33484" y="122.05632" z="175.95427"/>
 	</portal>
@@ -362,7 +355,7 @@
 		<exitpoint mapid="320110000" x="609.808" y="527.38477" z="200.05792"/>
 	</portal>
 	<!-- Indratu Fortress Entrance -->
-	<portal npcid="700565" instance="true" minlevel="41" maxlevel="48" group="true">
+	<portal npcid="700565" instance="true" minlevel="41" maxlevel="48" group="true" usedelay="43200">
 		<entrypoint mapid="210040000" x="781.1078" y="1665.9824" z="104.672005" race="ELYOS"/>
 		<entrypoint mapid="220040000" x="1466.8792" y="1947.9192" z="588.06555" race="ASMODIANS"/>
 		<exitpoint mapid="310090000" x="562.4863" y="335.8061" z="1015.81885"/>
