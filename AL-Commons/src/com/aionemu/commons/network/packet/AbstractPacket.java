@@ -16,6 +16,8 @@
  */
 package com.aionemu.commons.network.packet;
 
+import org.jboss.netty.buffer.ChannelBuffer;
+
 /**
  * @author ATracer
  */
@@ -23,6 +25,7 @@ public abstract class AbstractPacket
 {
 	protected int opCode;
 	
+	protected ChannelBuffer	buf;
 	/**
 	 * 
 	 * @param opCode
@@ -38,5 +41,21 @@ public abstract class AbstractPacket
 	public int getOpCode()
 	{
 		return opCode;
+	}
+	
+	/**
+	 * @return the buf
+	 */
+	public ChannelBuffer getBuf()
+	{
+		return buf;
+	}
+
+	/**
+	 * @param buf the buf to set
+	 */
+	public void setBuf(ChannelBuffer buf)
+	{
+		this.buf = buf;
 	}
 }

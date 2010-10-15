@@ -18,28 +18,23 @@ package com.aionemu.commons.network.packet;
 
 
 import org.apache.log4j.Logger;
-import org.jboss.netty.buffer.ChannelBuffer;
 
 import com.aionemu.commons.network.netty.handler.AbstractChannelHandler;
 
-public abstract class AbstractClientPacket extends AbstractPacket
+public abstract class AbstractClientPacket extends AbstractPacket implements Runnable,Cloneable
 {
 	private static final Logger log = Logger.getLogger(AbstractClientPacket.class);
 
 	protected AbstractChannelHandler	channelHandler;
-	
-	private ChannelBuffer buf;
-	
+		
 	/**
 	 * 
 	 * @param channelBuffer
 	 * @param opCode
 	 */
-	public AbstractClientPacket(AbstractChannelHandler channelhandler, ChannelBuffer channelBuffer, int opCode)
+	public AbstractClientPacket(int opCode)
 	{
 		super(opCode);
-		this.buf = channelBuffer;
-		this.channelHandler = channelhandler;
 	}
 	
 	public int getRemainingBytes()
@@ -246,4 +241,27 @@ public abstract class AbstractClientPacket extends AbstractPacket
 	{
 		channelHandler.sendPacket(packet);
 	}
+	
+	/**
+	 * Clones this packet object.
+	 * 
+	 * @return AionClientPacket
+	 */
+	public AbstractClientPacket clonePacket()
+	{
+		try
+		{
+			return (AbstractClientPacket) super.clone();
+		}
+		catch(CloneNotSupportedException e)
+		{
+			return null;
+		}
+	}
+	
+	public void setChannelHandler(AbstractChannelHandler channelHandler)
+	{
+		this.channelHandler = channelHandler;
+	}
+
 }

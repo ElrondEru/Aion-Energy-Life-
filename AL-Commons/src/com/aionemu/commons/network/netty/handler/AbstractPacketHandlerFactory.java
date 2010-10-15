@@ -16,24 +16,29 @@
  */
 package com.aionemu.commons.network.netty.handler;
 
-import org.apache.log4j.Logger;
-
+import com.aionemu.commons.network.netty.handler.AbstractChannelHandler.State;
+import com.aionemu.commons.network.packet.AbstractClientPacket;
 
 /**
- * @author ATracer
+ * @author lyahim
+ *
  */
-public abstract class AbstractPacketHandler
-{	
-	private static final Logger log = Logger.getLogger(AbstractPacketHandler.class);
+public abstract class AbstractPacketHandlerFactory
+{
+	private PacketHandler handler;
 	
-	/**
-	 *  Unknown packet
-	 *  
-	 * @param id
-	 * @param state
-	 */
-	protected static void unknownPacket(int id, String state)
+	protected AbstractPacketHandlerFactory()
 	{
-		log.warn(String.format("Unknown packet received from Game server: 0x%02X state=%s", id, state));
-	}	
+		handler = new PacketHandler();
+	}
+	
+	protected void addPacket(AbstractClientPacket prototype, State... states)
+	{
+		handler.addPacketPrototype(prototype, states);
+	}
+	
+	public PacketHandler getPacketHandler()
+	{
+		return handler;
+	}
 }
