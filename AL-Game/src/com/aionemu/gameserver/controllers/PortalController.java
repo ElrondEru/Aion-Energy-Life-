@@ -84,51 +84,130 @@ public class PortalController extends NpcController
 			 */
 			private void analyzePortation(final Player player)
 			{
-				if(portalTemplate.getIdTitle() !=0 && player.getCommonData().getTitleId() != portalTemplate.getIdTitle())
+				if(portalTemplate.getIdTitle() !=0 && player.getCommonData().getTitleId() != portalTemplate.getIdTitle() && CustomConfig.INSTANCES_TITLE_REQ)
 					return;
 
-				if(portalTemplate.getRace() != null && !portalTemplate.getRace().equals(player.getCommonData().getRace()))
+				if(portalTemplate.getRace() != null && !portalTemplate.getRace().equals(player.getCommonData().getRace()) && CustomConfig.INSTANCES_RACE_REQ)
 				{
 					PacketSendUtility.sendPacket(player, SM_SYSTEM_MESSAGE.STR_MOVE_PORTAL_ERROR_INVALID_RACE);
 					return;
 				}
 
-				if((portalTemplate.getMaxLevel() != 0 && player.getLevel() > portalTemplate.getMaxLevel())
-					|| player.getLevel() < portalTemplate.getMinLevel())
+				if(((portalTemplate.getMaxLevel() != 0 && player.getLevel() > portalTemplate.getMaxLevel()) || player.getLevel() < portalTemplate.getMinLevel()) && CustomConfig.INSTANCES_LEVEL_REQ)
 				{
 					PacketSendUtility.sendPacket(player, SM_SYSTEM_MESSAGE.STR_MSG_CANT_INSTANCE_ENTER_LEVEL);
 					return;
 				}
 
 				PlayerGroup group = player.getPlayerGroup();
-				if(portalTemplate.isGroup() && group == null)
+				if(portalTemplate.isGroup() && group == null && CustomConfig.INSTANCES_GROUP_REQ)
 				{
 					PacketSendUtility.sendPacket(player, SM_SYSTEM_MESSAGE.STR_MSG_ENTER_ONLY_PARTY_DON);
 					return;
 				}
 
-        if(player.isPortalUseDisabled(portalTemplate.getExitPoint().getMapId()) && portalTemplate.getUseDelay()>0)
-         {
-         PacketSendUtility.sendPacket(player, SM_SYSTEM_MESSAGE.STR_MSG_CANNOT_MAKE_INSTANCE_COOL_TIME);
-         return;
-         }
-         
-				if(portalTemplate.isGroup() && group != null)
+				int useDelay;
+				try
 				{
-					WorldMapInstance instance = InstanceService.getRegisteredInstance(portalTemplate.getExitPoint()
-						.getMapId(), group.getGroupId());
-					// register if not yet created
-					if(instance == null)
+					useDelay = portalTemplate.getUseDelay()/CustomConfig.INSTANCES_COOLDOWN;
+				}
+				catch (ArithmeticException e)
+				{
+					useDelay = 0;
+				}
+
+				if(player.isPortalUseDisabled(portalTemplate.getExitPoint().getMapId()) && useDelay > 0)
+				{
+					PacketSendUtility.sendPacket(player, SM_SYSTEM_MESSAGE.STR_MSG_CANNOT_MAKE_INSTANCE_COOL_TIME);
+					return;
+				}
+         
+				if((portalTemplate.isGroup() && group != null) || (portalTemplate.isGroup() && !CustomConfig.INSTANCES_GROUP_REQ))
+				{
+					WorldMapInstance instance;
+
+					// If there is a group (whatever group requirement exists or not)...
+					if(group != null)
+					{
+						instance = InstanceService.getRegisteredInstance(portalTemplate.getExitPoint().getMapId(), group.getGroupId());
+					}
+					// But if there is no group (and solo is enabled, of course)
+					else
+					{
+						instance = InstanceService.getRegisteredInstance(portalTemplate.getExitPoint().getMapId(), player.getObjectId());
+					}
+
+					// No instance (for group), group on and default requirement off
+					if(instance == null && group != null && !CustomConfig.INSTANCES_GROUP_REQ)
+					{					
+						// For each player from group
+						for(Player member : group.getMembers())
+						{
+							// Get his instance
+							instance = InstanceService.getRegisteredInstance(portalTemplate.getExitPoint().getMapId(), member.getObjectId());
+
+							// If some player is soloing and I found no one else yet, I get his instance
+							if(instance != null)
+							{
+								break;
+							}
+						}
+
+						// No solo instance found
+						if(instance == null)
+							instance = registerGroup(group);
+					}
+
+					// No instance and default requirement on = Group on
+					else if(instance == null && CustomConfig.INSTANCES_GROUP_REQ)
 					{
 						instance = registerGroup(group);
 					}
-
+					// No instance, default requirement off, no group = Register new instance with player ID
+					else if(instance == null && !CustomConfig.INSTANCES_GROUP_REQ && group == null)
+					{
+						instance = InstanceService.getNextAvailableInstance(portalTemplate.getExitPoint().getMapId());
+						InstanceService.registerPlayerWithInstance(instance, player);
+					}
+				
 					transfer(player, instance);
 				}
 				else if(!portalTemplate.isGroup())
 				{
-					WorldMapInstance instance = InstanceService.getRegisteredInstance(portalTemplate.getExitPoint()
-						.getMapId(), player.getObjectId());
+					WorldMapInstance instance;
+
+					// If there is a group (whatever group requirement exists or not)...
+					if(group != null && !CustomConfig.INSTANCES_GROUP_REQ)
+					{
+						instance = InstanceService.getRegisteredInstance(portalTemplate.getExitPoint().getMapId(), group.getGroupId());
+					}
+					// But if there is no group, go to solo
+					else
+					{
+						instance = InstanceService.getRegisteredInstance(portalTemplate.getExitPoint().getMapId(), player.getObjectId());
+					}
+
+					// No group instance, group on and default requirement off
+					if(instance == null && group != null && !CustomConfig.INSTANCES_GROUP_REQ)
+					{
+						// For each player from group
+						for(Player member : group.getMembers())
+						{
+							// Get his instance
+							instance = InstanceService.getRegisteredInstance(portalTemplate.getExitPoint().getMapId(), member.getObjectId());
+
+							// If some player is soloing and I found no one else yet, I get his instance
+							if(instance != null)
+							{
+								break;
+							}
+						}
+
+						// No solo instance found
+						if(instance == null)
+							instance = registerGroup(group);
+					}
+
 					// if already registered - just teleport
 					if(instance != null)
 					{
@@ -185,8 +264,7 @@ public class PortalController extends NpcController
 	private void transfer(Player player, WorldMapInstance instance)
 	{
 		ExitPoint exitPoint = portalTemplate.getExitPoint();
-		TeleportService.teleportTo(player, exitPoint.getMapId(), instance.getInstanceId(),
-			exitPoint.getX(), exitPoint.getY(), exitPoint.getZ(), 0);
+		TeleportService.teleportTo(player, exitPoint.getMapId(), instance.getInstanceId(), exitPoint.getX(), exitPoint.getY(), exitPoint.getZ(), 0);
 			int useDelay = portalTemplate.getUseDelay();
 			if (useDelay > 0)
 			player.addPortalCoolDown(exitPoint.getMapId(), System.currentTimeMillis() + (useDelay * 1000), useDelay);

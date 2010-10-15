@@ -16,6 +16,7 @@
  */
 package com.aionemu.gameserver.restrictions;
 
+import com.aionemu.gameserver.configs.main.GroupConfig;
 import com.aionemu.gameserver.model.alliance.PlayerAlliance;
 import com.aionemu.gameserver.model.gameobjects.Creature;
 import com.aionemu.gameserver.model.gameobjects.Monster;
@@ -112,7 +113,7 @@ public class PlayerRestrictions extends AbstractRestrictions
 			PacketSendUtility.sendPacket(player, SM_SYSTEM_MESSAGE.INVITED_PLAYER_OFFLINE());
 			return false;
 		}
-		else if(target.getCommonData().getRace() != player.getCommonData().getRace())
+		else if(target.getCommonData().getRace() != player.getCommonData().getRace() && !GroupConfig.GROUP_INVITEOTHERFACTION)
 		{
 			PacketSendUtility.sendPacket(player, SM_SYSTEM_MESSAGE.STR_PARTY_CANT_INVITE_OTHER_RACE());
 			return false;
@@ -157,7 +158,7 @@ public class PlayerRestrictions extends AbstractRestrictions
 			return false;
 		}
 		
-		if(target.getCommonData().getRace() != player.getCommonData().getRace())
+		if(target.getCommonData().getRace() != player.getCommonData().getRace() && !GroupConfig.ALLIANCE_INVITEOTHERFACTION)
 		{
 			PacketSendUtility.sendPacket(player, SM_SYSTEM_MESSAGE.STR_PARTY_CANT_INVITE_OTHER_RACE());
 			return false;

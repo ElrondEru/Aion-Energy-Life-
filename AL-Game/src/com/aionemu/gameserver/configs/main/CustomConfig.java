@@ -30,31 +30,31 @@ public class CustomConfig
 	* Factions search mode
 	*/
 	@Property(key = "gameserver.factions.search.mode", defaultValue = "false")
-	public static boolean	FACTIONS_SEARCH_MODE;
+	public static boolean		FACTIONS_SEARCH_MODE;
 
 	/**
 	 * Skill autolearn
 	 */
 	@Property(key = "gameserver.skill.autolearn", defaultValue = "false")
-	public static boolean	SKILL_AUTOLEARN;
+	public static boolean		SKILL_AUTOLEARN;
 
 	/**
 	 * Stigma autolearn		
 	 */		
 	@Property(key = "gameserver.stigma.autolearn", defaultValue = "false")		
-	public static boolean	STIGMA_AUTOLEARN;		
+	public static boolean		STIGMA_AUTOLEARN;		
 		
 	/**
 	 * Disable monsters aggressive behave
 	 */
 	@Property(key = "gameserver.disable.mob.aggro", defaultValue = "false")
-	public static boolean	DISABLE_MOB_AGGRO;
+	public static boolean		DISABLE_MOB_AGGRO;
 
 	/**
 	 * Enable 2nd class change simple mode
 	 */
 	@Property(key = "gameserver.enable.simple.2ndclass", defaultValue = "false")
-	public static boolean	ENABLE_SIMPLE_2NDCLASS;
+	public static boolean		ENABLE_SIMPLE_2NDCLASS;
 
 	/**
 	 * Unstuck delay
@@ -66,43 +66,73 @@ public class CustomConfig
 	 * Enable instances
 	 */
 	@Property(key = "gameserver.instances.enable", defaultValue = "true")
-	public static boolean	ENABLE_INSTANCES;
-	
+	public static boolean		ENABLE_INSTANCES;
+
+	/**
+	 * Enable level requirement for instances
+	 */
+	@Property(key = "instances.title.requirement", defaultValue = "true")
+	public static boolean		INSTANCES_TITLE_REQ;
+
+	/**
+	 * Enable level requirement for instances
+	 */
+	@Property(key = "instances.race.requirement", defaultValue = "true")
+	public static boolean		INSTANCES_RACE_REQ;
+
+	/**
+	 * Enable level requirement for instances
+	 */
+	@Property(key = "instances.level.requirement", defaultValue = "true")
+	public static boolean		INSTANCES_LEVEL_REQ;
+
+	/**
+	 * Enable group requirement for group instances
+	 */
+	@Property(key = "instances.group.requirement", defaultValue = "true")
+	public static boolean		INSTANCES_GROUP_REQ;
+
+	/**
+	 * Enable cooldown for instances
+	 */
+	@Property(key = "instances.cooldown.rate", defaultValue = "1")
+	public static int		INSTANCES_COOLDOWN;
+
 	/**
 	 * Base Fly Time
 	 */
 	@Property(key = "gameserver.base.flytime", defaultValue = "60")
 	public static int		BASE_FLYTIME;
 
-    /**
+	/**
 	* Allows players of opposite factions to bind in enemy territory
 	*/
 	@Property(key = "gameserver.cross.faction.binding", defaultValue = "false")
-	public static boolean				ENABLE_CROSS_FACTION_BINDING;
+	public static boolean		ENABLE_CROSS_FACTION_BINDING;
 	
 	/**
 	* Disable drop rate reduction based on level diference between players and mobs
 	*/
 	@Property(key = "gameserver.disable.drop.reduction", defaultValue = "false")
-	public static boolean				DISABLE_DROP_REDUCTION;
+	public static boolean		DISABLE_DROP_REDUCTION;
 	
 	/**
 	* Allowed Kills in 24 hours for full AP. Move to separate config when more pvp options. 
 	*/
 	@Property(key = "gameserver.pvp.maxkills", defaultValue = "5")
-	public static int					MAX_DAILY_PVP_KILLS; 	
+	public static int		MAX_DAILY_PVP_KILLS; 	
 	
 	/**
 	* Chain trigger rate. If false all Chain are 100% sucess.
 	*/
 	@Property(key = "gameserver.skill.chain.triggerrate", defaultValue = "true")
-	public static boolean				SKILL_CHAIN_TRIGGERRATE;
+	public static boolean		SKILL_CHAIN_TRIGGERRATE;
 	
-    /**
+	/**
 	* Add a reward to player for pvp kills
 	*/
 	@Property(key = "gameserver.enable.kill.reward", defaultValue = "false")
-	public static boolean				ENABLE_KILL_REWARD;
+	public static boolean		ENABLE_KILL_REWARD;
 
 	/**
 	 * Kills needed for item reward
@@ -114,7 +144,7 @@ public class CustomConfig
 	@Property(key = "gameserver.kills.needed3", defaultValue = "15")
 	public static int		KILLS_NEEDED3;
 
-    /**
+	/**
 	 * Item Rewards
 	 */
 	@Property(key = "gameserver.item.reward1", defaultValue = "186000031")
