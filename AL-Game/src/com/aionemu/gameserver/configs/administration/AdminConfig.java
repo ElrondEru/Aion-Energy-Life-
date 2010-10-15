@@ -86,6 +86,9 @@ public class AdminConfig
 
 	@Property(key = "gameserver.administration.command.gmlist", defaultValue = "3")
 	public static int	COMMAND_GMLIST;
+	
+	@Property(key = "administration.command.grouptome", defaultValue = "3")
+	public static int         COMMAND_GROUPTOME;
 
 	@Property(key = "gameserver.administration.command.goto", defaultValue = "3")
 	public static int	COMMAND_GOTO;
