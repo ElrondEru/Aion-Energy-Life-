@@ -40,7 +40,7 @@
 	</spawn>
 	<!-- Blue Power Generator (Object Normal lvl:20)-->
 	<spawn map="210010000" npcid="700082" pool="1" interval="295">
-		<object x="226.31" y="1011.86" z="121.18602" h="15"/>
+		<object staticid="2" x="226.31" y="1011.86" z="121.18602" h="15"/>
 	</spawn>
 	<!-- Brutus (NPC Normal lvl:3)-->
 	<spawn map="210010000" npcid="203068" pool="1" interval="295">
@@ -93,7 +93,7 @@
 	</spawn>
 	<!-- Green Power Generator (Object Normal lvl:20)-->
 	<spawn map="210010000" npcid="700081" pool="1" interval="295">
-		<object x="254.15" y="1065.97" z="120.792946" h="96"/>
+		<object staticid="3" x="254.15" y="1065.97" z="120.792946" h="96"/>
 	</spawn>
 	<!-- Ino (NPC Normal lvl:20)-->
 	<spawn map="210010000" npcid="203086" pool="1" interval="295">
@@ -341,7 +341,7 @@
 	</spawn>
 	<!-- Violet Power Generator (Object Normal lvl:20)-->
 	<spawn map="210010000" npcid="700083" pool="1" interval="295">
-		<object x="289.65" y="1017.06" z="132.02571" h="7"/>
+		<object staticid="1" x="289.65" y="1017.06" z="132.02571" h="7"/>
 	</spawn>
 	<!-- Wine Barrel (Object Normal lvl:1)-->
 	<spawn map="210010000" npcid="700106" pool="12" interval="295">

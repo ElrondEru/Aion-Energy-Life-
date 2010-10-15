@@ -47,7 +47,7 @@ public class _2007WheresRaeThisTime extends QuestHandler
 	@Override
 	public void register()
 	{
-		int[] talkNpcs = {203516, 203519, 203539, 203552 ,203554, 700081, 700082, 700083};
+		int[] talkNpcs = {203516, 203519, 203539, 203552 ,203554, 700085, 700086, 700087};
 		qe.addQuestLvlUp(questId);
 		for (int id : talkNpcs)
 			qe.setNpcQuestData(id).addOnTalkEvent(questId);
@@ -164,21 +164,21 @@ public class _2007WheresRaeThisTime extends QuestHandler
 							}
 					}
 					break;
-				case 700081:
+				case 700085:
 					if (var == 5)
 					{
 						destroy(6, env);
 						return false;
 					}
 					break;
-				case 700082:
+				case 700086:
 					if (var == 6)
 					{
 						destroy(7, env);
 						return false;
 					}
 					break;
-				case 700083:
+				case 700087:
 					if (var == 7)
 					{
 						destroy(-1, env);						

@@ -37,7 +37,6 @@ import com.aionemu.gameserver.utils.ThreadPoolManager;
  */
 public class _1005BarringtheGate extends QuestHandler
 {
-
 	private final static int	questId	= 1005;
 
 	public _1005BarringtheGate()
@@ -48,7 +47,7 @@ public class _1005BarringtheGate extends QuestHandler
 	@Override
 	public void register()
 	{
-		int[] talkNpcs = {203067, 203081, 790001, 203085, 203086, 700080, 700081, 700082, 700083, 203067};
+		int[] talkNpcs = {203067, 203081, 790001, 203085, 203086, 700080, 700081, 700082, 700083};
 		qe.addQuestLvlUp(questId);
 		for (int id : talkNpcs)
 			qe.setNpcQuestData(id).addOnTalkEvent(questId);

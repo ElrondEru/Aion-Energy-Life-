@@ -46,7 +46,7 @@
 		<object x="938.75543" y="2299.856" z="266.14658" h="101"/>
 	</spawn>
 	<!-- Blue Power Generator (Object Normal lvl:20)-->
-	<spawn map="220010000" npcid="700082" pool="1" interval="295">
+	<spawn map="220010000" npcid="700086" pool="1" interval="295">
 		<object staticid="517" x="625.11725" y="893.55707" z="309.80624" h="0"/>
 	</spawn>
 	<!-- Bolir (NPC Normal lvl:10)-->
@@ -193,7 +193,7 @@
 		<object x="537.0023" y="2424.401" z="276.46298" h="7"/>
 	</spawn>
 	<!-- Green Power Generator (Object Normal lvl:20)-->
-	<spawn map="220010000" npcid="700081" pool="1" interval="295">
+	<spawn map="220010000" npcid="700085" pool="1" interval="295">
 		<object staticid="516" x="677.56061" y="908.01007" z="310.58929" h="0"/>
 	</spawn>
 	<!-- Guheitun (NPC Normal lvl:20)-->
@@ -514,7 +514,7 @@
 		<object x="937.9509" y="2298.1074" z="266.13477" h="102"/>
 	</spawn>
 	<!-- Violet Power Generator (Object Normal lvl:20)-->
-	<spawn map="220010000" npcid="700083" pool="1" interval="295">
+	<spawn map="220010000" npcid="700087" pool="1" interval="295">
 		<object staticid="518" x="666.14319" y="857.90411" z="321.27649" h="0"/>
 	</spawn>
 	<!-- Wiokan (NPC Normal lvl:10)-->
