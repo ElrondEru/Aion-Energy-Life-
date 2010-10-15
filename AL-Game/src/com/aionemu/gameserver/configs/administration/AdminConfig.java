@@ -179,6 +179,21 @@ public class AdminConfig
 
 	@Property(key = "gameserver.administration.command.sendrawpacket", defaultValue = "3")
 	public static int	COMMAND_SENDRAWPACKET;
+	
+	@Property(key = "gameserver.administration.command.say", defaultValue = "3")
+	public static int	COMMAND_SAY;
+	
+	@Property(key = "administration.command.enchant", defaultValue = "3")
+	public static int	COMMAND_ENCHANT;
+	
+	@Property(key = "administration.command.socket", defaultValue = "3")
+	public static int	COMMAND_SOCKET;
+
+	@Property(key = "administration.command.powerup", defaultValue = "3")
+	public static int	COMMAND_POWERUP;
+		
+	@Property(key = "administration.command.godstone", defaultValue = "3")
+	public static int	COMMAND_GODSTONE;
 
 	@Property(key = "gameserver.administration.command.setap", defaultValue = "3")
 	public static int	COMMAND_SETAP;
