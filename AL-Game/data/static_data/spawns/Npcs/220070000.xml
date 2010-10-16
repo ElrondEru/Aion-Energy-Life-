@@ -327,7 +327,7 @@
 	</spawn>
 	<!-- Feles -->
 	<spawn map="220070000" npcid="799252" pool="1" interval="295">
-		<object x="588.0347" y="1225.3032" z="292.78485" h="0"/>
+		<object h="60" x="530.901" y="2387.1" z="433.556"/>
 	</spawn>
 	<!-- Olga -->
 	<spawn map="220070000" npcid="799319" pool="1" interval="295">
@@ -882,7 +882,7 @@
 		<object x="2052.7725" y="2569.54" z="449.99078" h="41"/>
 	</spawn>
 	<!-- Gelkmaros Guard -->
-	<spawn map="220070000" npcid="216685" pool="15" interval="295">
+	<spawn map="220070000" npcid="216685" pool="16" interval="295">
 		<object x="2179.793" y="2636.0752" z="459.5047" h="110"/>
 		<object x="2104.7305" y="2600.881" z="454.1156" h="6"/>
 		<object x="2017.4366" y="2626.8948" z="475.9567" h="84"/>
@@ -898,6 +898,7 @@
 		<object x="1800.0" y="2714.0" z="529.1886" h="12"/>
 		<object x="1621.1405" y="2606.1694" z="481.4251" h="76"/>
 		<object x="1597.8364" y="2619.768" z="484.09174" h="83"/>
+		<object x="2165" y="2605.01" h="0" z="458.562"/>
 	</spawn>
 	<!-- Gelkmaros Field Monitor -->
 	<spawn map="220070000" npcid="700778" pool="2" interval="295">
@@ -1025,13 +1026,15 @@
 		<object x="1794.29" y="2828.23" h="0" z="536.205"/>
 	</spawn>
 	<!-- Detachment Commander -->
-	<spawn interval="295" map="220070000" npcid="209208" pool="6">
+	<spawn interval="295" map="220070000" npcid="209208" pool="8">
 		<object x="1830.96" y="2923.91" h="0" z="548.526"/>
 		<object x="1796.92" y="2847.26" h="0" z="536.205"/>
 		<object x="1719.2" y="2678.36" h="0" z="511.122"/>
 		<object x="1861.7" y="2854.49" h="0" z="536.205"/>
 		<object x="1924.74" y="2823.38" h="0" z="529.189"/>
 		<object x="1708.61" y="2692.13" h="0" z="511.555"/>
+		<object x="1719.2" y="2678.36" h="30" z="511.122"/>
+		<object x="1708.61" y="2692.13" h="30" z="511.555"/>
 	</spawn>
 	<!-- Detachment Commander -->
 	<spawn interval="295" map="220070000" npcid="209238" pool="4">
