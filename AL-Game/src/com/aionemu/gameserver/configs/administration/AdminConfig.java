@@ -1,18 +1,18 @@
 /*
- * This file is part of aion-unique <aion-unique.org>.
+ * This file is part of aion-lightning <aion-lightning.org>.
  *
- *  aion-unique is free software: you can redistribute it and/or modify
+ *  aion-lightning is free software: you can redistribute it and/or modify
  *  it under the terms of the GNU General Public License as published by
  *  the Free Software Foundation, either version 3 of the License, or
  *  (at your option) any later version.
  *
- *  aion-unique is distributed in the hope that it will be useful,
+ *  aion-lightning is distributed in the hope that it will be useful,
  *  but WITHOUT ANY WARRANTY; without even the implied warranty of
  *  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
  *  GNU General Public License for more details.
  *
  *  You should have received a copy of the GNU General Public License
- *  along with aion-unique.  If not, see <http://www.gnu.org/licenses/>.
+ *  along with aion-emu.  If not, see <http://www.gnu.org/licenses/>.
  */
 package com.aionemu.gameserver.configs.administration;
 
@@ -88,7 +88,7 @@ public class AdminConfig
 	public static int	COMMAND_GMLIST;
 	
 	@Property(key = "administration.command.grouptome", defaultValue = "3")
-	public static int         COMMAND_GROUPTOME;
+	public static int	COMMAND_GROUPTOME;
 
 	@Property(key = "gameserver.administration.command.goto", defaultValue = "3")
 	public static int	COMMAND_GOTO;
@@ -134,6 +134,15 @@ public class AdminConfig
 
 	@Property(key = "gameserver.administration.command.movetome", defaultValue = "3")
 	public static int	COMMAND_MOVETOME;
+	
+	@Property(key = "gameserver.administration.command.movetomeallall", defaultValue = "3")
+	public static int   COMMAND_MOVETOMEALL;
+ 
+	@Property(key = "gameserver.administration.command.movetomeallelyos", defaultValue = "3")
+	public static int   COMMAND_MOVETOMEALLELYOS;
+
+	@Property(key = "gameserver.administration.command.movetomeallasmos", defaultValue = "3")
+	public static int   COMMAND_MOVETOMEALLASMOS;
 
 	@Property(key = "gameserver.administration.command.movetoplayer", defaultValue = "3")
 	public static int	COMMAND_MOVETOPLAYER;

@@ -383,9 +383,12 @@ public final class ZoneService extends AbstractFIFOPeriodicTaskManager<Creature>
 				//TODO retail emotion, attack_status packets sending
 				if(!player.getLifeStats().isAlreadyDead())
 				{
-					player.getLifeStats().reduceHp(value, null);
-					player.getLifeStats().sendHpPacketUpdate();
-				}
+					if(!player.isInvul())
+					{
+						player.getLifeStats().reduceHp(value, null);
+						player.getLifeStats().sendHpPacketUpdate();
+					}
+				}	
 				else
 				{
 					stopDrowning(player);

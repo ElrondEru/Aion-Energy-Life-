@@ -18,7 +18,7 @@
 package com.aionemu.gameserver.network.aion.clientpackets;
 
 import org.apache.log4j.Logger;
-
+import com.aionemu.gameserver.configs.main.CustomConfig;
 import com.aionemu.gameserver.configs.main.GSConfig;
 import com.aionemu.gameserver.model.ChatType;
 import com.aionemu.gameserver.model.gameobjects.player.Player;
@@ -90,9 +90,9 @@ public class CM_CHAT_MESSAGE_WHISPER extends AionClientPacket
 		{
 			sendPacket(SM_SYSTEM_MESSAGE.PLAYER_IS_OFFLINE(formatname));
 		}
-		else if(sender.getLevel() < 10)
+		else if(sender.getLevel() < CustomConfig.LEVEL_TO_WHISPER)
 		{
-			sendPacket(SM_SYSTEM_MESSAGE.LEVEL_NOT_ENOUGH_FOR_WHISPER("10"));
+			sendPacket(SM_SYSTEM_MESSAGE.LEVEL_NOT_ENOUGH_FOR_WHISPER(String.valueOf(CustomConfig.LEVEL_TO_WHISPER)));
 		}
 		else if (receiver.getBlockList().contains(sender.getObjectId()))
 		{

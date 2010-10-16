@@ -127,7 +127,19 @@ public class CustomConfig
 	*/
 	@Property(key = "gameserver.skill.chain.triggerrate", defaultValue = "true")
 	public static boolean		SKILL_CHAIN_TRIGGERRATE;
-	
+
+	/**
+	* Select minimum level to whisper
+	*/
+	@Property(key = "gameserver.chat.whisper.level", defaultValue = "10")
+	public static int		LEVEL_TO_WHISPER;
+
+	/**
+	* Select minimum level to search
+	*/
+	@Property(key = "gameserver.player.search.level", defaultValue = "10")
+	public static int		LEVEL_TO_SEARCH;
+
 	/**
 	* Add a reward to player for pvp kills
 	*/

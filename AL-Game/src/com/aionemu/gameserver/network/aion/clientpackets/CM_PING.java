@@ -70,11 +70,9 @@ public class CM_PING extends AionClientPacket
 				if(getConnection().getActivePlayer() != null)
 					name = getConnection().getActivePlayer().getName();
 				log.info("[AUDIT] possible client timer cheat kicking player: " + pingInterval + " by " + name + ", ip=" + ip);
-				
-				PacketSendUtility.sendMessage(getConnection().getActivePlayer(), "Vous Avez Ete Pris Entraint D'Utilisez Un Speed Hack, Vous Serez Deconnectez.");
+				PacketSendUtility.sendMessage(getConnection().getActivePlayer(), "You have been triggered Speed Hack detection so you're disconnected.");
 				getConnection().getActivePlayer().getClientConnection().close(true);
 			}
-
 		}
 		getConnection().setLastPingTimeMS(System.currentTimeMillis());
 		sendPacket(new SM_PONG());
