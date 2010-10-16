@@ -1,5 +1,23 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<!-- Beluslan -->
+<!--
+	This file is part of aion-unique <aion-unique.org>.
+
+	aion-unique is free software: you can redistribute it and/or modify
+	it under the terms of the GNU General Public License as published by
+	the Free Software Foundation, either version 3 of the License, or
+	(at your option) any later version.
+
+	aion-unique is distributed in the hope that it will be useful,
+	but WITHOUT ANY WARRANTY; without even the implied warranty of
+	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+	GNU General Public License for more details.
+
+	You should have received a copy of the GNU General Public License
+	along with aion-unique.  If not, see <http://www.gnu.org/licenses/>.
+	
+	Beluslan
+	@author Atomix
+ -->
 <spawns>
 	<!-- Aarien the Seacaller (Named Mob Hero lvl:43)-->
 	<spawn map="220040000" npcid="213738" pool="1" interval="14400">
@@ -2386,24 +2404,6 @@
 		<object x="1097.5624" y="1771.19" z="239.69577" h="55"/>
 		<object x="1057.2872" y="1776.9738" z="239.60541" h="100"/>
 	</spawn>
-	<!-- Decent Water Spirit (Monster Elite lvl:43)-->
-	<spawn map="220040000" npcid="280706" pool="15" interval="300">
-		<object x="225.32" y="1591.7" z="212.20628" h="83"/>
-		<object x="224.56" y="1603.69" z="214.88597" h="105"/>
-		<object x="216.84" y="1594.82" z="211.96346" h="2"/>
-		<object x="213.46" y="1596.16" z="212.5008" h="82"/>
-		<object x="220.46" y="1601.81" z="214.30103" h="100"/>
-		<object x="209.49" y="1592.64" z="211.47498" h="77"/>
-		<object x="208.5" y="1596.1" z="212.68648" h="106"/>
-		<object x="220.74" y="1599.16" z="213.39172" h="107"/>
-		<object x="209.1" y="1602.9" z="214.96179" h="0"/>
-		<object x="210.55" y="1598.49" z="213.4098" h="49"/>
-		<object x="224.64" y="1598.79" z="213.2108" h="95"/>
-		<object x="218.79" y="1590.69" z="211.01439" h="92"/>
-		<object x="220.42" y="1596.67" z="212.5455" h="25"/>
-		<object x="208.24" y="1591.92" z="211.28336" h="35"/>
-		<object x="220.88" y="1602.63" z="206.375" h="114"/>
-	</spawn>
 	<!-- Deep Sea Crynac (Monster Normal lvl:44)-->
 	<spawn map="220040000" npcid="213375" pool="6" interval="295">
 		<object x="747.89075" y="2869.2068" z="183.75" h="91"/>
@@ -2572,36 +2572,6 @@
 	<spawn map="220040000" npcid="213731" pool="1" interval="1800">
 		<object x="2545.0" y="1603.0" z="410.56073" h="29"/>
 		<object x="2767.413" y="1336.916" z="388.75" h="25"/>
-	</spawn>
-	<!-- Faithful Servant (Monster Elite lvl:43)-->
-	<spawn map="220040000" npcid="280715" pool="15" interval="300">
-		<object x="366.16" y="1686.92" z="214.15938" h="31"/>
-		<object x="214.85" y="1599.44" z="213.5697" h="93"/>
-		<object x="219.99" y="1604.08" z="215.0831" h="88"/>
-		<object x="216.52" y="1611.24" z="217.51285" h="39"/>
-		<object x="216.9557" y="1609.5919" z="217.00868" h="38"/>
-		<object x="218.24" y="1611.04" z="217.48547" h="58"/>
-		<object x="182.51" y="1724.9" z="223.98076" h="116"/>
-		<object x="186.2" y="1722.75" z="223.42828" h="110"/>
-		<object x="166.5" y="1751.36" z="225.20757" h="47"/>
-		<object x="176.02" y="1745.24" z="225.85655" h="81"/>
-		<object x="173.56" y="1711.36" z="223.20026" h="74"/>
-		<object x="172.52" y="1718.55" z="224.2514" h="70"/>
-		<object x="172.78" y="1721.74" z="224.62923" h="90"/>
-		<object x="214.78" y="1603.32" z="214.89627" h="27"/>
-		<object x="200.83" y="1634.52" z="218.91422" h="68"/>
-	</spawn>
-	<!-- Faithful Servant (Monster Normal lvl:46)-->
-	<spawn map="220040000" npcid="280712" pool="9" interval="295">
-		<object x="798.9" y="2953.84" z="397.66016" h="79"/>
-		<object x="810.13" y="2964.51" z="400.30344" h="90"/>
-		<object x="812.03" y="2967.29" z="400.72232" h="36"/>
-		<object x="796.7" y="2952.22" z="397.20135" h="46"/>
-		<object x="796.5" y="2950.12" z="396.79547" h="75"/>
-		<object x="795.48" y="2953.47" z="397.19934" h="36"/>
-		<object x="797.88" y="2951.23" z="397.22595" h="85"/>
-		<object x="797.5967" y="2950.4421" z="397.0263" h="69"/>
-		<object x="798.14" y="2951.73" z="397.33652" h="37"/>
 	</spawn>
 	<!-- Faithful Underling (Monster Normal lvl:44)-->
 	<spawn map="220040000" npcid="280645" pool="13" interval="295">
@@ -3253,25 +3223,6 @@
 		<object x="880.6509" y="2104.928" z="254.89232" h="119"/>
 		<object x="921.0616" y="2145.664" z="261.29535" h="116"/>
 		<object x="909.1921" y="2094.03" z="255.125" h="64"/>
-	</spawn>
-	<!-- Gloomy Water Spirit (Monster Elite lvl:43)-->
-	<spawn map="220040000" npcid="280705" pool="16" interval="300">
-		<object x="219.12" y="1602.69" z="214.62036" h="21"/>
-		<object x="211.13" y="1596.77" z="212.80391" h="94"/>
-		<object x="210.71" y="1601.04" z="214.26575" h="29"/>
-		<object x="214.51" y="1597.89" z="213.04492" h="118"/>
-		<object x="223.7" y="1602.52" z="214.49829" h="29"/>
-		<object x="210.88" y="1591.45" z="211.0147" h="59"/>
-		<object x="217.43" y="1595.93" z="212.33449" h="100"/>
-		<object x="219.56" y="1594.97" z="211.9767" h="70"/>
-		<object x="224.24" y="1602.68" z="214.54541" h="65"/>
-		<object x="212.09" y="1596.36" z="212.62534" h="106"/>
-		<object x="225.11" y="1602.37" z="214.42732" h="12"/>
-		<object x="221.91" y="1603.07" z="214.7112" h="64"/>
-		<object x="214.54" y="1596.9" z="212.70627" h="105"/>
-		<object x="194.7" y="1643.96" z="217.7908" h="81"/>
-		<object x="196.55" y="1647.05" z="217.81137" h="37"/>
-		<object x="225.07" y="1596.9" z="212.55907" h="49"/>
 	</spawn>
 	<!-- Graveknight Guard (Monster Normal lvl:40)-->
 	<spawn map="220040000" npcid="213172" pool="7" interval="295">
@@ -4626,27 +4577,8 @@
 		<object x="658.6307" y="1395.435" z="231.92117" h="90"/>
 	</spawn>
 	<!-- Officer Poretti (Monster Elite lvl:37)-->
-	<spawn map="220040000" npcid="213720" pool="20" interval="300">
-		<object x="1519.0" y="1456.0" z="304.5" h="73"/>
-		<object x="1454.75" y="1233.75" z="235.03125" h="119"/>
-		<object x="1439.65" y="1240.01" z="234.60312" h="65"/>
-		<object x="1456.25" y="1232.25" z="235.04688" h="37"/>
-		<object x="1416.12" y="1327.35" z="259.5575" h="89"/>
-		<object x="1467.7" y="1222.07" z="234.35062" h="81"/>
-		<object x="1480.48" y="1212.7" z="234.1175" h="48"/>
-		<object x="1434.35" y="1245.22" z="234.29938" h="59"/>
-		<object x="1483.07" y="1457.09" z="296.25" h="44"/>
-		<object x="1471.75" y="1218.25" z="234.375" h="92"/>
-		<object x="1458.5" y="1230.18" z="235.085" h="81"/>
-		<object x="1425.75" y="1311.75" z="253.78125" h="79"/>
-		<object x="1455.86" y="1232.67" z="235.03313" h="114"/>
-		<object x="1494.17" y="1458.37" z="300.18304" h="84"/>
-		<object x="1431.25" y="1290.25" z="247.0729" h="6"/>
-		<object x="1443.75" y="1236.75" z="234.65625" h="36"/>
-		<object x="1423.75" y="1315.75" z="255.3125" h="91"/>
-		<object x="1431.75" y="1276.27" z="241.32922" h="110"/>
-		<object x="1408.07" y="1361.11" z="271.2225" h="3"/>
-		<object x="1468.42" y="1221.67" z="234.39189" h="116"/>
+	<spawn map="220040000" npcid="213720" pool="1" interval="300">
+		<object x="1430.1803" y="1294.275" h="91" z="247.51718"/>
 	</spawn>
 	<!-- Old Wise Skiron (Named Mob Hero lvl:45)-->
 	<spawn map="220040000" npcid="213746" pool="1" interval="14400">
@@ -6342,25 +6274,6 @@
 		<object x="2013.924" y="2093.13" z="595.2996" h="20"/>
 		<object x="2034.348" y="2187.314" z="580.2803" h="86"/>
 		<object x="1999.473" y="2122.582" z="590.57153" h="10"/>
-	</spawn>
-	<!-- Splendid Water Spirit (Monster Elite lvl:43)-->
-	<spawn map="220040000" npcid="280707" pool="16" interval="300">
-		<object x="225.91" y="1598.03" z="212.9334" h="112"/>
-		<object x="223.08" y="1591.14" z="211.77124" h="2"/>
-		<object x="234.68" y="1634.15" z="220.06544" h="107"/>
-		<object x="243.47" y="1624.59" z="217.57773" h="65"/>
-		<object x="227.12" y="1636.95" z="220.28073" h="54"/>
-		<object x="243.02" y="1632.48" z="218.21573" h="97"/>
-		<object x="227.16" y="1622.34" z="218.77875" h="105"/>
-		<object x="243.17" y="1631.18" z="218.09332" h="54"/>
-		<object x="236.7" y="1623.7" z="219.06422" h="31"/>
-		<object x="236.43" y="1628.4" z="219.44223" h="23"/>
-		<object x="222.51" y="1645.28" z="220.10031" h="107"/>
-		<object x="228.89" y="1648.42" z="220.00381" h="116"/>
-		<object x="237.45" y="1654.74" z="218.75894" h="87"/>
-		<object x="237.3" y="1647.91" z="219.55829" h="71"/>
-		<object x="221.96" y="1659.46" z="218.85982" h="91"/>
-		<object x="219.79" y="1649.05" z="219.7074" h="53"/>
 	</spawn>
 	<!-- Spriggle Bundler (Monster Normal lvl:34)-->
 	<spawn map="220040000" npcid="213031" pool="8" interval="295">
