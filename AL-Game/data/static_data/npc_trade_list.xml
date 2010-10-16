@@ -2305,4 +2305,25 @@
 		<tradelist id="100"/>
 		<tradelist id="465"/>
 	</tradelist_template>
+	<tradelist_template npc_id="204761" name="Cinnia" count="5">
+		<tradelist id="1000"/>
+		<tradelist id="1001"/>
+		<tradelist id="1002"/>
+		<tradelist id="1003"/>
+		<tradelist id="1004"/>
+	</tradelist_template>	
+	<tradelist_template npc_id="204766" name="Maponus" count="5">
+		<tradelist id="1000"/>
+		<tradelist id="1001"/>
+		<tradelist id="1002"/>
+		<tradelist id="1003"/>
+		<tradelist id="1004"/>
+	</tradelist_template>
+  <tradelist_template npc_id="278023" name="Ozur" count="5">
+		<tradelist id="1000"/>
+		<tradelist id="1001"/>
+		<tradelist id="1002"/>
+		<tradelist id="1003"/>
+		<tradelist id="1004"/>
+	</tradelist_template>	
 </npc_trade_list>
