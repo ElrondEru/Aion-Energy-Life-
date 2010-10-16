@@ -36,6 +36,7 @@ import com.aionemu.gameserver.skillengine.model.Effect;
 import com.aionemu.gameserver.skillengine.model.HopType;
 import com.aionemu.gameserver.skillengine.model.SkillTemplate;
 import com.aionemu.gameserver.utils.stats.StatFunctions;
+import com.aionemu.gameserver.model.gameobjects.Creature;
 
 /**
  * @author ATracer
@@ -255,34 +256,44 @@ public abstract class EffectTemplate
  	{ 
  		// TODO: Need correct value in client. 1000 = 100% 
 		int effectPower = 1000; 
- 		                 
- 		//first resist? 
- 		if (statEnum != null) 
- 		{ 
-			int stat = effect.getEffected().getGameStats().getCurrentStat(statEnum); 
- 		    effectPower -= stat; 
- 		} 
- 		 
- 		int attackerLevel = effect.getEffector().getLevel(); 
- 		int targetLevel = effect.getEffected().getLevel(); 
- 		                 
- 		float multipler = 0.0f; 
-	    int differ = (targetLevel - attackerLevel); 
-	    //lvl mod 
- 	    if(differ > 0 && differ < 8 ) 
-	    { 
-	        multipler = differ / 10f; 
- 	        effectPower -= Math.round((effectPower * multipler)); 
-        } 
-        else if (differ >= 8) 
- 	    { 
-	        effectPower -= Math.round((effectPower * 0.80f)); 
-	    } 
-	    if (effect.getEffected() instanceof Npc) 
-	    { 
-	        float hpGaugeMod = ((Npc) effect.getEffected()).getObjectTemplate().getHpGauge(); 
-	        effectPower -= (200*(1+(hpGaugeMod/10))); 
-	    } 
-	    return  (Rnd.get()*1000 < effectPower); 
+		
+ 		Creature effector = effect.getEffector();
+		Creature effected = effect.getEffected();
+		int resistRate = StatFunctions.calculateMagicalResistRate(effector,effected);
+		//first resist
+		if (Rnd.get(100)<=resistRate)
+		return false;
+		else
+		{
+			//second resist
+			if (statEnum != null) 
+			{ 
+				int stat = effect.getEffected().getGameStats().getCurrentStat(statEnum); 
+				effectPower -= stat; 
+			} 
+			 
+			int attackerLevel = effect.getEffector().getLevel(); 
+			int targetLevel = effect.getEffected().getLevel(); 
+							 
+			float multipler = 0.0f; 
+			int differ = (targetLevel - attackerLevel); 
+			//lvl mod 
+			if(differ > 0 && differ < 8 ) 
+			{ 
+				multipler = differ / 10f; 
+				effectPower -= Math.round((effectPower * multipler)); 
+			} 
+			else if (differ >= 8) 
+			{ 
+				effectPower -= Math.round((effectPower * 0.80f)); 
+			} 
+			if (effect.getEffected() instanceof Npc) 
+			{ 
+				float hpGaugeMod = ((Npc) effect.getEffected()).getObjectTemplate().getHpGauge(); 
+				effectPower -= (200*(1+(hpGaugeMod/10))); 
+			} 
+			return  (Rnd.get()*1000 < effectPower); 
+		}
+		
 	} 
 }
