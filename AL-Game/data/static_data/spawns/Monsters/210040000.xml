@@ -2,15 +2,15 @@
 <!-- Heiron -->
 <spawns>
 	<!-- Adjutant Ursanafi (Named Mob Hero lvl:48)-->
-	<spawn map="210040000" npcid="214163" pool="1" interval="180">
+	<spawn map="210040000" npcid="214163" pool="1" interval="14400">
 		<object x="1881.30220" y="2588.33370" z="139.97415" h="28"/>
 	</spawn>
 	<!-- Aeution Firemane (Named Mob Elite lvl:40)-->
-	<spawn map="210040000" npcid="211171" pool="1" interval="180">
+	<spawn map="210040000" npcid="211171" pool="1" interval="3600">
 		<object x="768.70940" y="249.49560" z="125.99089" h="88"/>
 	</spawn>
 	<!-- Aged Ginseng (Named Mob Normal lvl:36)-->
-	<spawn map="210040000" npcid="211928" pool="1" interval="180">
+	<spawn map="210040000" npcid="211928" pool="1" interval="1800">
 		<object x="1392.21800" y="1600.90300" z="116.25000" h="68"/>
 	</spawn>
 	<!-- Algae-Covered Box (Monster Normal lvl:33)-->
@@ -290,7 +290,7 @@
 		<object x="2899.49200" y="2350.56500" z="130.00000" h="14"/>
 	</spawn>
 	<!-- Azos Rainroot (Named Mob Normal lvl:38)-->
-	<spawn map="210040000" npcid="212329" pool="1" interval="180">
+	<spawn map="210040000" npcid="212329" pool="1" interval="1800">
 		<object x="1728.03700" y="338.83330" z="148.22571" h="2"/>
 	</spawn>
 	<!-- Baby Flamehide Monitor (Monster Normal lvl:44)-->
@@ -482,7 +482,7 @@
 		<object x="1182.6414" y="1787.216" z="117.27699" h="36"/>
 	</spawn>
 	<!-- Bollvig Blackheart (Named Mob Legendary lvl:50)-->
-	<spawn map="210040000" npcid="212314" pool="1" interval="180">
+	<spawn map="210040000" npcid="212314" pool="1" interval="21600">
 		<object x="1001.48800" y="2828.53600" z="235.65085" h="99"/>
 	</spawn>
 	<!-- Branchling Agrint (Monster Normal lvl:35)-->
@@ -534,7 +534,7 @@
 		<object x="520.25000" y="1396.58000" z="114.68250" h="79"/>
 	</spawn>
 	<!-- Branyaka the Weary (Monster Hero lvl:47)-->
-	<spawn map="210040000" npcid="212309" pool="1" interval="180">
+	<spawn map="210040000" npcid="212309" pool="1" interval="14400">
 		<object x="2301.84900" y="2432.13900" z="119.23001" h="49"/>
 	</spawn>
 	<!-- Bred Drake (Monster Normal lvl:42)-->
@@ -559,23 +559,23 @@
 		<object x="319.45544" y="1587.4695" z="107.034035" h="19"/>
 	</spawn>
 	<!-- Bulwark Jeshuchi (Monster Hero lvl:47)-->
-	<spawn map="210040000" npcid="212282" pool="1" interval="180">
+	<spawn map="210040000" npcid="212282" pool="1" interval="14400">
 		<object x="2793.84600" y="2596.46900" z="160.74524" h="27"/>
 	</spawn>
 	<!-- Butler Duterran (Named Mob Elite lvl:43)-->
-	<spawn map="210040000" npcid="212130" pool="1" interval="180">
+	<spawn map="210040000" npcid="212130" pool="1" interval="3600">
 		<object x="682.23640" y="2118.78100" z="118.51477" h="87"/>
 	</spawn>
 	<!-- Captain Berus (Named Mob Elite lvl:43)-->
-	<spawn map="210040000" npcid="212331" pool="1" interval="180">
+	<spawn map="210040000" npcid="212331" pool="1" interval="3600">
 		<object x="461.50340" y="2960.23200" z="101.05380" h="18"/>
 	</spawn>
 	<!-- Captain Kabaltu (Monster Elite lvl:42)-->
-	<spawn map="210040000" npcid="212614" pool="1" interval="180">
+	<spawn map="210040000" npcid="212614" pool="1" interval="1800">
 		<object x="2721.8667" y="1311.5292" z="314.43256" h="75"/>
 	</spawn>
 	<!-- Captain Zorejas (Monster Hero lvl:44)-->
-	<spawn map="210040000" npcid="212279" pool="1" interval="180">
+	<spawn map="210040000" npcid="212279" pool="1" interval="14400">
 		<object x="3015.45600" y="2128.80200" z="166.87210" h="90"/>
 	</spawn>
 	<!-- Captured Ghost (Monster Normal lvl:43)-->
@@ -590,15 +590,15 @@
 		<object x="560.07090" y="2870.22200" z="105.23170" h="1"/>
 	</spawn>
 	<!-- Chairman Garnis (Named Mob Hero lvl:43)-->
-	<spawn map="210040000" npcid="212151" pool="1" interval="180">
+	<spawn map="210040000" npcid="212151" pool="1" interval="14400">
 		<object x="473.62170" y="1038.16100" z="122.12656" h="106"/>
 	</spawn>
 	<!-- Chieftain Chantar (Boss Hero lvl:40)-->
-	<spawn map="210040000" npcid="212227" pool="1" interval="180">
+	<spawn map="210040000" npcid="212227" pool="1" interval="14400">
 		<object x="2656.58200" y="1541.46000" z="164.21022" h="75"/>
 	</spawn>
 	<!-- Chieftain Kunpapa (Boss Hero lvl:42)-->
-	<spawn map="210040000" npcid="212247" pool="1" interval="180">
+	<spawn map="210040000" npcid="212247" pool="1" interval="14400">
 		<object x="2766.86800" y="1227.54400" z="315.67072" h="33"/>
 	</spawn>
 	<!-- Clayfoot Mudthorn (Monster Normal lvl:36)-->
@@ -671,15 +671,15 @@
 		<object x="1652.58730" y="2806.58540" z="101.89000" h="72"/>
 	</spawn>
 	<!-- Commander Ashutang (Monster Hero lvl:44)-->
-	<spawn map="210040000" npcid="212266" pool="1" interval="180">
+	<spawn map="210040000" npcid="212266" pool="1" interval="14400">
 		<object x="2216.49800" y="2317.94900" z="132.39640" h="109"/>
 	</spawn>
 	<!-- Commander Gitimuka (Boss Hero lvl:48)-->
-	<spawn map="210040000" npcid="212307" pool="1" interval="180">
+	<spawn map="210040000" npcid="212307" pool="1" interval="14400">
 		<object x="1983.47300" y="2639.16800" z="137.99860" h="71"/>
 	</spawn>
 	<!-- Commander Inshar (Named Mob Elite lvl:48)-->
-	<spawn map="210040000" npcid="214157" pool="1" interval="180">
+	<spawn map="210040000" npcid="214157" pool="1" interval="3600">
 		<object x="1876.42600" y="2585.19920" z="140.72950" h="75"/>
 	</spawn>
 	<!-- Contaminated Terra Spirit (Monster Normal lvl:35)-->
@@ -1394,7 +1394,7 @@
 		<object x="1550.12000" y="1966.43000" z="114.10562" h="75"/>
 	</spawn>
 	<!-- Dedrun the Sentinel (Named Mob Hero lvl:43)-->
-	<spawn map="210040000" npcid="211088" pool="1" interval="180">
+	<spawn map="210040000" npcid="211088" pool="1" interval="14400">
 		<object x="1592.72300" y="1879.84800" z="123.63450" h="44"/>
 	</spawn>
 	<!-- Defiant Water Spirit (Monster Normal lvl:45)-->
@@ -1404,11 +1404,11 @@
 		<object x="342.13306" y="2915.20800" z="100.25000" h="114"/>
 	</spawn>
 	<!-- Depie the Loner (Named Mob Normal lvl:39)-->
-	<spawn map="210040000" npcid="212125" pool="1" interval="180">
+	<spawn map="210040000" npcid="212125" pool="1" interval="1800">
 		<object x="609.38800" y="1665.14300" z="110.68881" h="100"/>
 	</spawn>
 	<!-- Deputy Hanuman (Boss Legendary lvl:48)-->
-	<spawn map="210040000" npcid="212306" pool="1" interval="180">
+	<spawn map="210040000" npcid="212306" pool="1" interval="21600">
 		<object x="1933.25100" y="2612.44700" z="140.57487" h="32"/>
 	</spawn>
 	<!-- Deshirung the Blimp (Named Mob Elite lvl:43)-->
@@ -1516,11 +1516,11 @@
 		<object x="124.17652" y="2730.79000" z="123.62500" h="22"/>
 	</spawn>
 	<!-- Equitatus Hero (Named Mob Elite lvl:45)-->
-	<spawn map="210040000" npcid="212324" pool="1" interval="180">
+	<spawn map="210040000" npcid="212324" pool="1" interval="3600">
 		<object x="192.04190" y="2704.87600" z="115.80737" h="92"/>
 	</spawn>
 	<!-- Ethereal Windwisp (Named Mob Normal lvl:43)-->
-	<spawn map="210040000" npcid="211990" pool="1" interval="180">
+	<spawn map="210040000" npcid="211990" pool="1" interval="1800">
 		<object x="407.59460" y="2434.50200" z="128.34363" h="1"/>
 	</spawn>
 	<!-- Ethereal Windwisp (Monster Normal lvl:41)-->
@@ -1548,7 +1548,7 @@
 		<object x="1027.2565" y="2340.8433" z="148.11359" h="34"/>
 	</spawn>
 	<!-- Exedil (Monster Hero lvl:49)-->
-	<spawn map="210040000" npcid="212317" pool="1" interval="144" time="NIGHT">
+	<spawn map="210040000" npcid="212317" pool="1" interval="14400" time="NIGHT">
 		<object x="957.96704" y="2803.12600" z="158.93300" h="93"/>
 	</spawn>
 	<!-- Faithful Subordinate (Monster Normal lvl:43)-->
@@ -1840,7 +1840,7 @@
 		<object x="876.3798" y="1426.2504" z="102.33622" h="17"/>
 	</spawn>
 	<!-- Fortune (Named Mob Normal lvl:37)-->
-	<spawn map="210040000" npcid="211132" pool="1" interval="180">
+	<spawn map="210040000" npcid="211132" pool="1" interval="1800">
 		<object x="503.06000" y="1357.37000" z="124.00000" h="26"/>
 		<object x="766.38000" y="1469.61000" z="129.77875" h="10"/>
 		<object x="633.38000" y="1248.06000" z="116.19999" h="28"/>
@@ -1855,11 +1855,11 @@
 		<object x="1639.66990" y="559.86010" z="109.69125" h="20"/>
 	</spawn>
 	<!-- Furol the Gray (Named Mob Normal lvl:37)-->
-	<spawn map="210040000" npcid="212127" pool="1" interval="180">
+	<spawn map="210040000" npcid="212127" pool="1" interval="1800">
 		<object x="864.38760" y="1566.57600" z="111.37500" h="117"/>
 	</spawn>
 	<!-- Garnisian Spawn (Monster Elite lvl:43)-->
-	<spawn map="210040000" npcid="280793" pool="15" interval="300">
+	<spawn map="210040000" npcid="280793" pool="15" interval="600">
 		<object x="523.45000" y="1040.98000" z="130.34220" h="59"/>
 		<object x="502.85000" y="1040.21000" z="122.87627" h="54"/>
 		<object x="508.36000" y="1041.55000" z="124.13993" h="119"/>
@@ -1881,7 +1881,7 @@
 		<object x="249.27716" y="537.18365" z="157.72119" h="3"/>
 	</spawn>
 	<!-- Gellar (Named Mob Normal lvl:41)-->
-	<spawn map="210040000" npcid="211196" pool="1" interval="180" time="NIGHT">
+	<spawn map="210040000" npcid="211196" pool="1" interval="1800" time="NIGHT">
 		<object x="1646.43500" y="2256.58400" z="160.15054" h="28"/>
 	</spawn>
 	<!-- Geschphalt's Minion (Monster Normal lvl:43)-->
@@ -1946,7 +1946,7 @@
 		<object x="219.53052" y="2040.4457" z="112.16346" h="96"/>
 	</spawn>
 	<!-- Gojira (Monster Hero lvl:47)-->
-	<spawn map="210040000" npcid="211897" pool="1" interval="180">
+	<spawn map="210040000" npcid="211897" pool="1" interval="14400">
 		<object x="804.56040" y="1042.29640" z="122.43057" h="11"/>
 	</spawn>
 	<!-- Goldenback Arachna (Monster Normal lvl:35)-->
@@ -2179,7 +2179,7 @@
 		<object x="681.0258" y="1809.206" z="110.13437" h="88"/>
 	</spawn>
 	<!-- Greatmage Shivhaz (Monster Hero lvl:45)-->
-	<spawn map="210040000" npcid="212278" pool="1" interval="180">
+	<spawn map="210040000" npcid="212278" pool="1" interval="14400">
 		<object x="2460.32030" y="2840.29420" z="157.96678" h="72"/>
 	</spawn>
 	<!-- Greenclaw Rotron (Monster Normal lvl:34)-->
@@ -2233,7 +2233,7 @@
 		<object x="2207.20100" y="602.07180" z="262.97516" h="47"/>
 	</spawn>
 	<!-- Guardian Drafala (Monster Hero lvl:47)-->
-	<spawn map="210040000" npcid="212588" pool="1" interval="180">
+	<spawn map="210040000" npcid="212588" pool="1" interval="295">
 		<object x="2126.9373" y="2517.6855" z="138.80573" h="110"/>
 	</spawn>
 	<!-- Guardian Vampire (Monster Elite lvl:45)-->
@@ -2245,7 +2245,7 @@
 		<object x="983.40180" y="2852.78880" z="237.25470" h="103"/>
 	</spawn>
 	<!-- Guardian Vingeveu (Monster Hero lvl:46)-->
-	<spawn map="210040000" npcid="212281" pool="1" interval="180">
+	<spawn map="210040000" npcid="212281" pool="1" interval="14400">
 		<object x="2855.47700" y="2503.97400" z="145.13977" h="25"/>
 	</spawn>
 	<!-- Gumi (Monster Normal lvl:2)-->
@@ -2313,7 +2313,7 @@
 		<object x="994.9927" y="418.98624" z="103.374596" h="68"/>
 	</spawn>
 	<!-- Hallion (Monster Hero lvl:49)-->
-	<spawn map="210040000" npcid="212316" pool="1" interval="180">
+	<spawn map="210040000" npcid="212316" pool="1" interval="14400">
 		<object x="1019.73706" y="2880.78270" z="182.11472" h="81"/>
 	</spawn>
 	<!-- Harvested Soul (Monster Normal lvl:43)-->
@@ -2344,11 +2344,11 @@
 		<object x="2486.82900" y="1540.86950" z="124.49531" h="53"/>
 	</spawn>
 	<!-- High Mage Brashuna (Monster Hero lvl:47)-->
-	<spawn map="210040000" npcid="212310" pool="1" interval="180">
+	<spawn map="210040000" npcid="212310" pool="1" interval="14400">
 		<object x="2309.35160" y="2669.40380" z="138.16720" h="101"/>
 	</spawn>
 	<!-- High Priest Yatri (Monster Hero lvl:47)-->
-	<spawn map="210040000" npcid="212308" pool="1" interval="180">
+	<spawn map="210040000" npcid="212308" pool="1" interval="14000">
 		<object x="2110.48270" y="2409.29860" z="128.94885" h="44"/>
 	</spawn>
 	<!-- High Shaman Kanshasha (Monster Elite lvl:39)-->
@@ -2549,7 +2549,7 @@
 		<object x="2481.57200" y="2370.65400" z="148.95761" h="99"/>
 	</spawn>
 	<!-- Indratu Assassin (Monster Hero lvl:46)-->
-	<spawn map="210040000" npcid="212312" pool="1" interval="180">
+	<spawn map="210040000" npcid="212312" pool="1" interval="14400">
 		<object x="2365.75440" y="2615.25900" z="157.70648" h="108"/>
 	</spawn>
 	<!-- Indratu Bloodbinder (Monster Elite lvl:42)-->
@@ -3938,7 +3938,7 @@
 		<object x="2889.97300" y="2344.07810" z="130.00000" h="38"/>
 	</spawn>
 	<!-- Jaku the Glutton (Named Mob Normal lvl:37)-->
-	<spawn map="210040000" npcid="212143" pool="1" interval="180">
+	<spawn map="210040000" npcid="212143" pool="1" interval="1800">
 		<object x="1013.00300" y="2067.55200" z="130.87500" h="92"/>
 	</spawn>
 	<!-- Jungle Vespine (Monster Normal lvl:39)-->
@@ -4075,7 +4075,7 @@
 		<object x="1425.9429" y="1246.0134" z="150.24286" h="24"/>
 	</spawn>
 	<!-- King Klawtan (Named Mob Elite lvl:39)-->
-	<spawn map="210040000" npcid="212330" pool="1" interval="180">
+	<spawn map="210040000" npcid="212330" pool="1" interval="3600">
 		<object x="1188.00000" y="162.31330" z="118.26958" h="4"/>
 	</spawn>
 	<!-- Kirca (Monster Normal lvl:1)-->
@@ -4508,12 +4508,15 @@
 		<object x="1515.73000" y="393.26000" z="104.23686" h="97"/>
 		<object x="1460.25000" y="368.75000" z="109.09375" h="116"/>
 	</spawn>
-	<!-- Lab Researcher -->
-	<spawn map="210040000" npcid="211913" pool="9" interval="295">
+	<!-- Lab Researcher lvl:41-->
+	<spawn map="210040000" npcid="212152" pool="9" interval="295">
 		<object x="315.4628" y="526.7982" z="123.53774"/>
 		<object x="381.14392" y="681.40234" z="138.15038" h="90"/>
 		<object x="381.10855" y="694.8567" z="140.23334" h="85"/>
 		<object x="398.81137" y="925.1461" z="121.41276" h="15"/>
+	</spawn>
+	<!-- Lab Researcher lvl:42-->
+	<spawn map="210040000" npcid="212153" pool="9" interval="295">
 		<object x="541.5605" y="926.37646" z="131.50394" h="25"/>
 		<object x="549.72205" y="923.29456" z="131.52672" h="17"/>
 		<object x="671.8575" y="872.2644" z="131.5" h="22"/>
@@ -4521,7 +4524,7 @@
 		<object x="579.3546" y="966.11273" z="137.29088" h="43"/>
 	</spawn>
 	<!-- Lambos (Named Mob Normal lvl:42)-->
-	<spawn map="210040000" npcid="212132" pool="1" interval="180">
+	<spawn map="210040000" npcid="212132" pool="1" interval="1800">
 		<object x="492.00000" y="2979.00000" z="123.68862" h="28"/>
 	</spawn>
 	<!-- Lich High Priest (Monster Elite lvl:45)-->
@@ -4548,7 +4551,7 @@
 		<object x="604.16950" y="2708.11650" z="138.22153" h="88"/>
 	</spawn>
 	<!-- Little Floel (Named Mob Normal lvl:37)-->
-	<spawn map="210040000" npcid="212119" pool="1" interval="180">
+	<spawn map="210040000" npcid="212119" pool="1" interval="1800">
 		<object x="1635.00000" y="737.00000" z="113.62500" h="2"/>
 		<object x="1715.05000" y="570.14000" z="112.19312" h="27"/>
 		<object x="1406.00000" y="729.00000" z="125.12500" h="103"/>
@@ -4712,7 +4715,7 @@
 		<object x="441.26350" y="2944.19290" z="106.12031" h="4"/>
 	</spawn>
 	<!-- Medeus the Vile (Named Mob Hero lvl:45)-->
-	<spawn map="210040000" npcid="211265" pool="1" interval="140" time="NIGHT">
+	<spawn map="210040000" npcid="211265" pool="1" interval="1440" time="NIGHT">
 		<object x="210.07890" y="2509.71400" z="119.50000" h="51"/>
 	</spawn>
 	<!-- Medic (Monster Normal lvl:42)-->
@@ -4727,7 +4730,7 @@
 		<object x="488.66034" y="1023.50330" z="122.20395" h="71"/>
 	</spawn>
 	<!-- Medic Mahashi (Monster Hero lvl:44)-->
-	<spawn map="210040000" npcid="212267" pool="1" interval="180">
+	<spawn map="210040000" npcid="212267" pool="1" interval="14400">
 		<object x="2840.96500" y="1764.30640" z="176.23103" h="48"/>
 	</spawn>
 	<!-- Melantis Gargoyle (Monster Normal lvl:45)-->
@@ -4744,7 +4747,7 @@
 		<object x="233.02850" y="2476.44340" z="121.12500" h="99"/>
 	</spawn>
 	<!-- Melita Poisonthorn (Named Mob Normal lvl:39)-->
-	<spawn map="210040000" npcid="212122" pool="1" interval="180">
+	<spawn map="210040000" npcid="212122" pool="1" interval="1800">
 		<object x="1043.03700" y="1047.67100" z="129.07300" h="99"/>
 	</spawn>
 	<!-- Merciless Specter (Monster Normal lvl:45)-->
@@ -4775,11 +4778,11 @@
 		<object x="348.02277" y="2872.94070" z="103.63526" h="41"/>
 	</spawn>
 	<!-- Midas (Named Mob Normal lvl:38)-->
-	<spawn map="210040000" npcid="212128" pool="1" interval="180">
+	<spawn map="210040000" npcid="212128" pool="1" interval="1800">
 		<object x="692.50420" y="1373.70200" z="113.11353" h="1"/>
 	</spawn>
 	<!-- Miserable Prote (Named Mob Elite lvl:42)-->
-	<spawn map="210040000" npcid="212146" pool="1" interval="180">
+	<spawn map="210040000" npcid="212146" pool="1" interval="3600">
 		<object x="402.99180" y="2634.08900" z="147.50000" h="27"/>
 	</spawn>
 	<!-- Miserly Iscraw (Monster Normal lvl:38)-->
@@ -4939,7 +4942,7 @@
 		<object x="1005.3267" y="2499.5342" z="136.25443" h="33"/>
 	</spawn>
 	<!-- Obsidia (Named Mob Elite lvl:45)-->
-	<spawn map="210040000" npcid="212347" pool="1" interval="180">
+	<spawn map="210040000" npcid="212347" pool="1" interval="3600">
 		<object x="2879.13800" y="2336.92200" z="130.30388" h="51"/>
 	</spawn>
 	<!-- Octacide (Monster Junk lvl:1)-->
@@ -5151,7 +5154,7 @@
 		<object x="876.188" y="2353.103" z="163.24619" h="6"/>
 	</spawn>
 	<!-- Queen Taklaw (Named Mob Normal lvl:39)-->
-	<spawn map="210040000" npcid="212120" pool="1" interval="180">
+	<spawn map="210040000" npcid="212120" pool="1" interval="1800">
 		<object x="1097.68000" y="365.84000" z="103.49001" h="85"/>
 		<object x="1112.60000" y="336.09000" z="106.96500" h="112"/>
 		<object x="1160.55000" y="212.14000" z="108.36688" h="119"/>
@@ -5173,7 +5176,7 @@
 		<object x="1083.49000" y="365.87000" z="104.63812" h="113"/>
 	</spawn>
 	<!-- Ragenon Souleater (Named Mob Elite lvl:43)-->
-	<spawn map="210040000" npcid="212145" pool="1" interval="180" time="DAY">
+	<spawn map="210040000" npcid="212145" pool="1" interval="3600" time="DAY">
 		<object x="1673.78000" y="2252.02000" z="157.74875" h="32"/>
 		<object x="1661.37000" y="2244.17000" z="157.75000" h="97"/>
 		<object x="1559.86000" y="1996.67000" z="113.54188" h="21"/>
@@ -5243,7 +5246,7 @@
 		<object x="1135.5701" y="2046.1842" z="120.125" h="111"/>
 	</spawn>
 	<!-- Raky Redmagma (Named Mob Elite lvl:42)-->
-	<spawn map="210040000" npcid="212268" pool="1" interval="180">
+	<spawn map="210040000" npcid="212268" pool="1" interval="3600">
 		<object x="2528.85000" y="2094.34000" z="150.95340" h="45"/>
 		<object x="2532.67000" y="2096.36000" z="150.95340" h="92"/>
 		<object x="2838.76000" y="1990.84000" z="144.38914" h="22"/>
@@ -5400,7 +5403,7 @@
 		<object x="746.94730" y="2688.63900" z="108.72032" h="118"/>
 	</spawn>
 	<!-- Rinokero (Named Mob Normal lvl:35)-->
-	<spawn map="210040000" npcid="212124" pool="1" interval="180">
+	<spawn map="210040000" npcid="212124" pool="1" interval="1800">
 		<object x="1423.65500" y="1727.71500" z="118.25000" h="37"/>
 	</spawn>
 	<!-- Rockscale Monitor (Monster Normal lvl:35)-->
@@ -5682,7 +5685,7 @@
 		<object x="1339.3059" y="949.1336" z="143.23923" h="50"/>
 	</spawn>
 	<!-- Scout Dehavi (Monster Hero lvl:46)-->
-	<spawn map="210040000" npcid="212311" pool="1" interval="180">
+	<spawn map="210040000" npcid="212311" pool="1" interval="14400">
 		<object x="2444.73410" y="2530.43970" z="144.91830" h="70"/>
 	</spawn>
 	<!-- Scout Fighter (Monster Normal lvl:33)-->
@@ -5854,7 +5857,7 @@
 		<object x="307.48000" y="1463.46000" z="113.25625" h="104"/>
 	</spawn>
 	<!-- Shadekirrin Lutis (Named Mob Normal lvl:41)-->
-	<spawn map="210040000" npcid="212123" pool="1" interval="180">
+	<spawn map="210040000" npcid="212123" pool="1" interval="1800">
 		<object x="618.19730" y="997.02730" z="124.66113" h="107"/>
 	</spawn>
 	<!-- Shaman Spirit (Monster Normal lvl:40)-->
@@ -5983,7 +5986,7 @@
 		<object x="927.29000" y="1129.93000" z="143.00436" h="62"/>
 	</spawn>
 	<!-- Skinripper (Named Mob Elite lvl:44)-->
-	<spawn map="210040000" npcid="212269" pool="1" interval="180">
+	<spawn map="210040000" npcid="212269" pool="1" interval="3600">
 		<object x="2596.00000" y="2075.00000" z="148.12500" h="85"/>
 		<object x="2564.25000" y="2015.75000" z="143.85938" h="8"/>
 		<object x="2592.25000" y="2250.75000" z="138.46294" h="32"/>
@@ -6139,7 +6142,7 @@
 		<object x="1016.5393" y="2796.3345" z="206.08151" h="103"/>
 	</spawn>
 	<!-- Spirit King Agro (Monster Hero lvl:43)-->
-	<spawn map="210040000" npcid="211908" pool="1" interval="180">
+	<spawn map="210040000" npcid="211908" pool="1" interval="14400">
 		<object x="263.60895" y="774.88165" z="130.63980" h="39"/>
 	</spawn>
 	<!-- Spitting Mudthorn (Monster Normal lvl:33)-->
@@ -6223,7 +6226,7 @@
 		<object x="773.20280" y="1378.99070" z="117.46227" h="28"/>
 	</spawn>
 	<!-- Staff Captain Lahumu (Named Mob Hero lvl:48)-->
-	<spawn map="210040000" npcid="214158" pool="1" interval="180">
+	<spawn map="210040000" npcid="214158" pool="1" interval="14400">
 		<object x="1862.24050" y="2617.77540" z="142.04106" h="34"/>
 	</spawn>
 	<!-- Starved Vampire (Monster Elite lvl:45)-->
@@ -6260,7 +6263,7 @@
 		<object x="1711.2053" y="1101.9497" z="167.83939" h="81"/>
 	</spawn>
 	<!-- Stench (Named Mob Normal lvl:39)-->
-	<spawn map="210040000" npcid="212121" pool="1" interval="180">
+	<spawn map="210040000" npcid="212121" pool="1" interval="1800">
 		<object x="1049.80000" y="408.07000" z="105.01624" h="41"/>
 		<object x="1152.00000" y="341.00000" z="110.75000" h="101"/>
 		<object x="1218.00000" y="430.00000" z="117.25000" h="58"/>
@@ -6442,7 +6445,7 @@
 		<object x="535.80000" y="791.32000" z="142.87500" h="95"/>
 	</spawn>
 	<!-- Takun the Terrible (Monster Hero lvl:47)-->
-	<spawn map="210040000" npcid="211900" pool="1" interval="180">
+	<spawn map="210040000" npcid="211900" pool="1" interval="14400">
 		<object x="690.41050" y="528.49970" z="116.25000" h="73"/>
 	</spawn>
 	<!-- Tantuka the Blacksmith (Monster Elite lvl:40)-->
@@ -6533,7 +6536,7 @@
 		<object x="247.74350" y="582.59950" z="147.57532" h="97"/>
 	</spawn>
 	<!-- The Curser's Spirit (Named Mob Elite lvl:42)-->
-	<spawn map="210040000" npcid="212144" pool="1" interval="180">
+	<spawn map="210040000" npcid="212144" pool="1" interval="3600">
 		<object x="197.44240" y="1922.03900" z="114.11770" h="76"/>
 	</spawn>
 	<!-- Thorn Clodworm (Monster Normal lvl:41)-->
@@ -6930,7 +6933,7 @@
 		<object x="1389.28080" y="2503.58890" z="127.39380" h="93"/>
 	</spawn>
 	<!-- Ulan (Monster Hero lvl:49)-->
-	<spawn map="210040000" npcid="212315" pool="1" interval="140" time="NIGHT">
+	<spawn map="210040000" npcid="212315" pool="1" interval="14400" time="NIGHT">
 		<object x="1058.83420" y="2795.05100" z="209.07100" h="71"/>
 	</spawn>
 	<!-- Undead Farmer (Monster Normal lvl:36)-->
@@ -7250,7 +7253,7 @@
 		<object x="1212.76920" y="2816.99660" z="127.93686" h="92"/>
 	</spawn>
 	<!-- Wailing Moroch (Named Mob Normal lvl:35)-->
-	<spawn map="210040000" npcid="212116" pool="1" interval="180" time="NIGHT">
+	<spawn map="210040000" npcid="212116" pool="1" interval="1800" time="NIGHT">
 		<object x="2417.00000" y="691.00000" z="369.55500" h="112"/>
 	</spawn>
 	<!-- Warrior Spirit (Monster Normal lvl:25)-->
@@ -7351,7 +7354,7 @@
 		<object x="967.02760" y="2152.30250" z="128.88190" h="86"/>
 	</spawn>
 	<!-- Watch Leader (Boss Elite lvl:39)-->
-	<spawn map="210040000" npcid="211109" pool="1" interval="180">
+	<spawn map="210040000" npcid="211109" pool="1" interval="3600">
 		<object x="956.65200" y="2181.94100" z="130.15210" h="12"/>
 	</spawn>
 	<!-- Watch Reviver (Monster Normal lvl:38)-->
@@ -7370,7 +7373,7 @@
 		<object x="934.68050" y="2172.46630" z="129.75000" h="94"/>
 	</spawn>
 	<!-- Watcher Zapiel (Monster Legendary lvl:48)-->
-	<spawn map="210040000" npcid="212283" pool="1" interval="180">
+	<spawn map="210040000" npcid="212283" pool="1" interval="21600">
 		<object x="2921.10300" y="2567.74900" z="181.89156" h="87"/>
 	</spawn>
 	<!-- Wave Spirit (Monster Normal lvl:44)-->
