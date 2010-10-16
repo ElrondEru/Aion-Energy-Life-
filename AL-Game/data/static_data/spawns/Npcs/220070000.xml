@@ -1026,15 +1026,13 @@
 		<object x="1794.29" y="2828.23" h="0" z="536.205"/>
 	</spawn>
 	<!-- Detachment Commander -->
-	<spawn interval="295" map="220070000" npcid="209208" pool="8">
+	<spawn interval="295" map="220070000" npcid="209208" pool="6">
 		<object x="1830.96" y="2923.91" h="0" z="548.526"/>
 		<object x="1796.92" y="2847.26" h="0" z="536.205"/>
 		<object x="1719.2" y="2678.36" h="0" z="511.122"/>
 		<object x="1861.7" y="2854.49" h="0" z="536.205"/>
 		<object x="1924.74" y="2823.38" h="0" z="529.189"/>
 		<object x="1708.61" y="2692.13" h="0" z="511.555"/>
-		<object x="1719.2" y="2678.36" h="30" z="511.122"/>
-		<object x="1708.61" y="2692.13" h="30" z="511.555"/>
 	</spawn>
 	<!-- Detachment Commander -->
 	<spawn interval="295" map="220070000" npcid="209238" pool="4">
