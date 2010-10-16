@@ -23,7 +23,7 @@ import javax.xml.bind.annotation.XmlType;
 
 import com.aionemu.gameserver.model.gameobjects.Creature;
 import com.aionemu.gameserver.skillengine.model.Effect;
-
+import com.aionemu.gameserver.utils.stats.StatFunctions;
 /**
  * @author ATracer
  *
@@ -40,6 +40,7 @@ public class SignetBurstEffect extends DamageEffect
 	@Override
 	public void calculate(Effect effect)
 	{
+		Creature effector = effect.getEffector();
 		Creature effected = effect.getEffected();
 		Effect signetEffect = effected.getEffectController().getAnormalEffect(signet);
 		if(signetEffect == null)
@@ -47,7 +48,9 @@ public class SignetBurstEffect extends DamageEffect
 		
 		int level = signetEffect.getSkillLevel();
 		int valueWithDelta = value + delta * effect.getSkillLevel();
-		int finalDamage = valueWithDelta * level / 5;
+		int totalDamage = valueWithDelta * level / 5;
+		
+		int finalDamage =StatFunctions.calculateMagicDamageToTarget(effector, effected, totalDamage, getElement());
 		
 		effect.setReserved1(finalDamage);		
 		effect.addSucessEffect(this);
