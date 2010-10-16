@@ -161,7 +161,6 @@
 		<quest_drop drop_each_member="true" chance="100" item_id="182200025" npc_id="210184"/>
 		<quest_drop drop_each_member="true" chance="100" item_id="182200025" npc_id="210183"/>
 		<quest_drop drop_each_member="true" chance="100" item_id="182200025" npc_id="210170"/>
-		<quest_drop drop_each_member="false" chance="100" item_id="182200025" npc_id="216913"/>
 	</quest>
 	<quest race_permitted="ELYOS" cannot_giveup="true" cannot_share="true" max_repeat_count="1" minlevel_permitted="13" nameId="2204037" name="Mark of Vengeance" id="1018">
 		<collect_items>
@@ -215,17 +214,13 @@
 		<rewards exp="54000">
 			<reward_item count="1" item_id="120000859"/>
 		</rewards>
-		<finished_quest_conds>
-			<condition quest="1015"/>
-		</finished_quest_conds>
+		<finished_quest_conds>1015</finished_quest_conds>
 	</quest>
 	<quest race_permitted="ELYOS" cannot_giveup="true" cannot_share="true" max_repeat_count="1" minlevel_permitted="14" nameId="2204045" name="Krall Desecration" id="1022">
 		<rewards exp="86400">
 			<reward_item count="1" item_id="123000879"/>
 		</rewards>
-		<finished_quest_conds>
-			<condition quest="1017"/>
-		</finished_quest_conds>
+		<finished_quest_conds>1017</finished_quest_conds>
 	</quest>
 	<quest race_permitted="ELYOS" cannot_giveup="true" cannot_share="true" max_repeat_count="1" minlevel_permitted="15" nameId="2204047" name="A Nest of Lepharists" id="1023">
 		<collect_items>
@@ -238,10 +233,11 @@
 			<selectable_reward_item count="1" item_id="125001842"/>
 		</rewards>
 		<quest_drop drop_each_member="true" chance="100" item_id="182200026" npc_id="210075"/>
-		<finished_quest_conds>
-			<condition quest="1013"/>
-		</finished_quest_conds>
+		<finished_quest_conds>1013</finished_quest_conds>
 	</quest>
+	<quest race_permitted="ELYOS" max_repeat_count="1" minlevel_permitted="99" nameId="2200801" name="Temporary" id="1024"/>
+	<quest race_permitted="ELYOS" max_repeat_count="1" minlevel_permitted="99" nameId="2200801" name="Temporary" id="1025"/>
+	<quest race_permitted="ELYOS" max_repeat_count="1" minlevel_permitted="99" nameId="2200801" name="Temporary" id="1026"/>
 	<quest race_permitted="ELYOS" cannot_giveup="true" cannot_share="true" max_repeat_count="1" minlevel_permitted="19" nameId="2204101" name="The Manduri's Secret" id="1031">
 		<rewards exp="120000">
 			<selectable_reward_item count="1" item_id="114100809"/>
@@ -367,18 +363,13 @@
 		<rewards exp="633400">
 			<reward_item count="1" item_id="121000771"/>
 		</rewards>
-		<finished_quest_conds>
-			<condition quest="1016"/>
-			<condition quest="1035"/>
-		</finished_quest_conds>
+		<finished_quest_conds>1035 1016</finished_quest_conds>
 	</quest>
 	<quest race_permitted="ELYOS" cannot_giveup="true" cannot_share="true" max_repeat_count="1" minlevel_permitted="31" nameId="2204119" name="Scouting the Scouts" id="1040">
 		<rewards exp="987100">
 			<reward_item count="1" item_id="120000848"/>
 		</rewards>
-		<finished_quest_conds>
-			<condition quest="1036"/>
-		</finished_quest_conds>
+		<finished_quest_conds>1036</finished_quest_conds>
 	</quest>
 	<quest race_permitted="ELYOS" cannot_giveup="true" cannot_share="true" max_repeat_count="1" minlevel_permitted="33" nameId="2204121" name="A Dangerous Artifact" id="1041">
 		<rewards title="11" exp="1496700">
@@ -387,9 +378,7 @@
 			<selectable_reward_item count="1" item_id="113500774"/>
 			<selectable_reward_item count="1" item_id="113600747"/>
 		</rewards>
-		<finished_quest_conds>
-			<condition quest="1034"/>
-		</finished_quest_conds>
+		<finished_quest_conds>1034</finished_quest_conds>
 	</quest>
 	<quest race_permitted="ELYOS" cannot_giveup="true" cannot_share="true" max_repeat_count="1" minlevel_permitted="35" nameId="2204123" name="Keeper of the Kaidan Key" id="1042">
 		<collect_items>
@@ -399,9 +388,7 @@
 			<reward_item count="1" item_id="122000895"/>
 		</rewards>
 		<quest_drop drop_each_member="true" chance="100" item_id="182201018" npc_id="212351"/>
-		<finished_quest_conds>
-			<condition quest="1040"/>
-		</finished_quest_conds>
+		<finished_quest_conds>1040</finished_quest_conds>
 	</quest>
 	<quest race_permitted="ELYOS" cannot_giveup="true" cannot_share="true" max_repeat_count="1" minlevel_permitted="35" nameId="2204125" name="Balaur Conspiracy" id="1043">
 		<rewards title="12" exp="2467700">
@@ -413,9 +400,7 @@
 	</quest>
 	<quest race_permitted="ELYOS" use_class_reward="true" cannot_giveup="true" cannot_share="true" max_repeat_count="1" minlevel_permitted="25" nameId="2204127" name="Testing Flight Skills" id="1044">
 		<rewards exp="134300"/>
-		<finished_quest_conds>
-			<condition quest="1922"/>
-		</finished_quest_conds>
+		<finished_quest_conds>1922</finished_quest_conds>
 		<fighter_selectable_reward count="1" item_id="169500019"/>
 		<knight_selectable_reward count="1" item_id="169500116"/>
 		<ranger_selectable_reward count="1" item_id="169500181"/>
@@ -425,6 +410,9 @@
 		<priest_selectable_reward count="1" item_id="169500367"/>
 		<chanter_selectable_reward count="1" item_id="169500451"/>
 	</quest>
+	<quest race_permitted="ELYOS" max_repeat_count="1" minlevel_permitted="99" nameId="2200801" name="Temporary" id="1045"/>
+	<quest race_permitted="ELYOS" max_repeat_count="1" minlevel_permitted="99" nameId="2200801" name="Temporary" id="1046"/>
+	<quest race_permitted="ELYOS" max_repeat_count="1" minlevel_permitted="99" nameId="2200801" name="Temporary" id="1047"/>
 	<quest race_permitted="ELYOS" cannot_giveup="true" cannot_share="true" max_repeat_count="1" minlevel_permitted="30" nameId="2204201" name="The Ruins of Roah" id="1051">
 		<collect_items>
 			<collect_item count="1" item_id="182201602"/>
@@ -483,11 +471,7 @@
 		<quest_drop drop_each_member="true" chance="100" item_id="182201608" npc_id="211131"/>
 		<quest_drop drop_each_member="true" chance="100" item_id="182201608" npc_id="211111"/>
 		<quest_drop drop_each_member="true" chance="100" item_id="182201608" npc_id="211126"/>
-		<finished_quest_conds>
-			<condition quest="1002"/>
-			<condition quest="1032"/>
-			<condition quest="1052"/>
-		</finished_quest_conds>
+		<finished_quest_conds>1002 1032 1052</finished_quest_conds>
 	</quest>
 	<quest race_permitted="ELYOS" cannot_giveup="true" cannot_share="true" max_repeat_count="1" minlevel_permitted="34" nameId="2204209" name="Eternal Rest" id="1055">
 		<collect_items>
@@ -517,10 +501,7 @@
 		</rewards>
 		<quest_drop drop_each_member="true" chance="50" item_id="182201614" npc_id="211911"/>
 		<quest_drop drop_each_member="true" chance="50" item_id="182201614" npc_id="211912"/>
-		<finished_quest_conds>
-			<condition quest="1016"/>
-			<condition quest="1039"/>
-		</finished_quest_conds>
+		<finished_quest_conds>1016 1039</finished_quest_conds>
 	</quest>
 	<quest race_permitted="ELYOS" cannot_giveup="true" cannot_share="true" max_repeat_count="1" minlevel_permitted="37" nameId="2204213" name="Creating a Monster" id="1057">
 		<collect_items>
@@ -532,9 +513,7 @@
 			<selectable_reward_item count="1" item_id="112500724"/>
 			<selectable_reward_item count="1" item_id="112600735"/>
 		</rewards>
-		<finished_quest_conds>
-			<condition quest="1056"/>
-		</finished_quest_conds>
+		<finished_quest_conds>1056</finished_quest_conds>
 	</quest>
 	<quest race_permitted="ELYOS" cannot_giveup="true" cannot_share="true" max_repeat_count="1" minlevel_permitted="38" nameId="2204215" name="Aether Insanity" id="1058">
 		<collect_items>
@@ -560,9 +539,7 @@
 		<quest_drop drop_each_member="true" chance="100" item_id="182201617" npc_id="212241"/>
 		<quest_drop drop_each_member="true" chance="100" item_id="182201617" npc_id="212242"/>
 		<quest_drop drop_each_member="true" chance="100" item_id="182201618" npc_id="212614"/>
-		<finished_quest_conds>
-			<condition quest="1036"/>
-		</finished_quest_conds>
+		<finished_quest_conds>1036</finished_quest_conds>
 	</quest>
 	<quest race_permitted="ELYOS" cannot_giveup="true" cannot_share="true" max_repeat_count="1" minlevel_permitted="36" nameId="2204217" name="The Archon of Storms" id="1059">
 		<rewards exp="2467700">
@@ -642,12 +619,10 @@
 		</rewards>
 	</quest>
 	<quest race_permitted="ELYOS" cannot_giveup="true" cannot_share="true" max_repeat_count="1" minlevel_permitted="32" nameId="2204249" name="New Wings" id="1075">
-		<rewards reward_abyss_point="2000" exp="1301000" gold="27550">
+		<rewards reward_abyss_point="2000" exp="1301000" gold="10000">
 			<reward_item count="5" item_id="162000027"/>
 		</rewards>
-		<finished_quest_conds>
-			<condition quest="1072"/>
-		</finished_quest_conds>
+		<finished_quest_conds>1072</finished_quest_conds>
 	</quest>
 	<quest race_permitted="ELYOS" cannot_giveup="true" cannot_share="true" max_repeat_count="1" minlevel_permitted="35" nameId="2204251" name="Fragment of Memory 2" id="1076">
 		<collect_items>
@@ -655,12 +630,9 @@
 			<collect_item count="1" item_id="152000309"/>
 			<collect_item count="3" item_id="182202003"/>
 		</collect_items>
-		<rewards reward_abyss_point="2500" exp="2108600" gold="106270"/>
+		<rewards reward_abyss_point="2500" exp="2108600" gold="40000"/>
 		<quest_drop drop_each_member="true" chance="100" item_id="182202003" npc_id="255160"/>
-		<finished_quest_conds>
-			<condition quest="1038"/>
-			<condition quest="1074"/>
-		</finished_quest_conds>
+		<finished_quest_conds>1074 1038</finished_quest_conds>
 	</quest>
 	<quest race_permitted="ELYOS" cannot_giveup="true" cannot_share="true" max_repeat_count="1" minlevel_permitted="35" nameId="2204253" name="Fragment of Memory 3" id="1077">
 		<rewards title="46" reward_abyss_point="3000" exp="3693300">
@@ -668,6 +640,8 @@
 			<selectable_reward_item count="1" item_id="121000780"/>
 		</rewards>
 	</quest>
+	<quest race_permitted="ELYOS" cannot_giveup="true" cannot_share="true" max_repeat_count="1" minlevel_permitted="99" nameId="2200801" name="Temporary" id="1078"/>
+	<quest race_permitted="ELYOS" cannot_giveup="true" cannot_share="true" max_repeat_count="1" minlevel_permitted="99" nameId="2200801" name="Temporary" id="1079"/>
 	<quest race_permitted="ELYOS" cannot_giveup="true" cannot_share="true" max_repeat_count="1" minlevel_permitted="45" nameId="2204261" name="A Request From Atropos" id="1091">
 		<rewards exp="100000"/>
 	</quest>
@@ -691,9 +665,7 @@
 			<selectable_reward_item count="1" item_id="122000923"/>
 			<selectable_reward_item count="1" item_id="122000924"/>
 		</rewards>
-		<finished_quest_conds>
-			<condition quest="1092"/>
-		</finished_quest_conds>
+		<finished_quest_conds>1092</finished_quest_conds>
 	</quest>
 	<quest race_permitted="ELYOS" cannot_giveup="true" cannot_share="true" max_repeat_count="1" minlevel_permitted="46" nameId="2204267" name="Project Drakanhammer" id="1094">
 		<collect_items>
@@ -709,22 +681,11 @@
 		<quest_drop drop_each_member="true" chance="100" item_id="182208019" npc_id="214616"/>
 		<quest_drop drop_each_member="true" chance="100" item_id="182208020" npc_id="214617"/>
 		<quest_drop drop_each_member="true" chance="100" item_id="182208021" npc_id="214618"/>
-		<finished_quest_conds>
-			<condition quest="1071"/>
-			<condition quest="1093"/>
-		</finished_quest_conds>
+		<finished_quest_conds>1093 1071</finished_quest_conds>
 	</quest>
 	<quest race_permitted="ELYOS" cannot_giveup="true" cannot_share="true" max_repeat_count="1" minlevel_permitted="50" nameId="2204269" name="A Past Mission" id="1096">
-		<rewards exp="730350" gold="527480"/>
-		<finished_quest_conds>
-			<condition quest="1005"/>
-			<condition quest="1020"/>
-			<condition quest="1043"/>
-			<condition quest="1063"/>
-			<condition quest="1077"/>
-			<condition quest="1094"/>
-			<condition quest="1929"/>
-		</finished_quest_conds>
+		<rewards exp="730350"/>
+		<finished_quest_conds>1005 1020 1043 1063 1077 1094 1929</finished_quest_conds>
 	</quest>
 	<quest race_permitted="ELYOS" cannot_giveup="true" cannot_share="true" max_repeat_count="1" minlevel_permitted="50" nameId="2204271" name="Sword of Transcendence" id="1097">
 		<collect_items>
@@ -736,18 +697,14 @@
 		<quest_drop drop_each_member="true" chance="100" item_id="182206059" npc_id="700509"/>
 		<quest_drop drop_each_member="true" chance="100" item_id="182206060" npc_id="700510"/>
 		<quest_drop drop_each_member="true" chance="100" item_id="182206061" npc_id="214669"/>
-		<finished_quest_conds>
-			<condition quest="1096"/>
-		</finished_quest_conds>
+		<finished_quest_conds>1096</finished_quest_conds>
 		<quest_work_items>
 			<quest_work_item count="1" item_id="182206058"/>
 		</quest_work_items>
 	</quest>
 	<quest race_permitted="ELYOS" cannot_giveup="true" cannot_share="true" max_repeat_count="1" minlevel_permitted="50" nameId="2204273" name="Pearl of Protection" id="1098">
 		<rewards exp="7303500"/>
-		<finished_quest_conds>
-			<condition quest="1097"/>
-		</finished_quest_conds>
+		<finished_quest_conds>1097</finished_quest_conds>
 		<quest_work_items>
 			<quest_work_item count="1" item_id="182206062"/>
 			<quest_work_item count="1" item_id="182206063"/>
@@ -764,9 +721,7 @@
 			<selectable_reward_item count="1" item_id="121000842"/>
 			<selectable_reward_item count="1" item_id="121000843"/>
 		</rewards>
-		<finished_quest_conds>
-			<condition quest="1098"/>
-		</finished_quest_conds>
+		<finished_quest_conds>1098</finished_quest_conds>
 		<quest_work_items>
 			<quest_work_item count="1" item_id="182206066"/>
 			<quest_work_item count="1" item_id="182206067"/>
@@ -779,45 +734,37 @@
 		<rewards exp="50" gold="30"/>
 	</quest>
 	<quest race_permitted="ELYOS" cannot_share="true" max_repeat_count="1" minlevel_permitted="1" nameId="2204405" name="Kerubar Hunt" id="1102">
-		<rewards exp="330" gold="400"/>
-		<finished_quest_conds>
-			<condition quest="1101"/>
-		</finished_quest_conds>
+		<rewards exp="330" gold="100"/>
+		<finished_quest_conds>1101</finished_quest_conds>
 	</quest>
 	<quest race_permitted="ELYOS" cannot_share="true" max_repeat_count="1" minlevel_permitted="1" nameId="2204407" name="Grain Thieves" id="1103">
 		<collect_items>
 			<collect_item count="4" item_id="182200201"/>
 		</collect_items>
-		<rewards exp="380" gold="290"/>
+		<rewards exp="380" gold="80"/>
 		<quest_drop drop_each_member="false" chance="100" item_id="182200201" npc_id="700105"/>
-		<finished_quest_conds>
-			<condition quest="1102"/>
-		</finished_quest_conds>
+		<finished_quest_conds>1102</finished_quest_conds>
 	</quest>
 	<quest race_permitted="ELYOS" cannot_share="true" max_repeat_count="1" minlevel_permitted="1" nameId="2204409" name="Report to Polinia" id="1104">
-		<rewards exp="210" gold="90"/>
-		<finished_quest_conds>
-			<condition quest="1103"/>
-		</finished_quest_conds>
+		<rewards exp="210" gold="30"/>
+		<finished_quest_conds>1103</finished_quest_conds>
 	</quest>
 	<quest race_permitted="ELYOS" max_repeat_count="1" minlevel_permitted="1" nameId="2204411" name="The Snuffler Headache" id="1105">
 		<collect_items>
 			<collect_item count="4" item_id="182200202"/>
 		</collect_items>
-		<rewards exp="530" gold="450"/>
+		<rewards exp="530" gold="120"/>
 		<quest_drop drop_each_member="false" chance="100" item_id="182200202" npc_id="210079"/>
 	</quest>
 	<quest race_permitted="ELYOS" cannot_share="true" max_repeat_count="1" minlevel_permitted="1" nameId="2204413" name="Helping Kales" id="1106">
 		<rewards exp="300"/>
-		<finished_quest_conds>
-			<condition quest="1105"/>
-		</finished_quest_conds>
+		<finished_quest_conds>1105</finished_quest_conds>
 		<quest_work_items>
 			<quest_work_item count="1" item_id="182200203"/>
 		</quest_work_items>
 	</quest>
 	<quest race_permitted="ELYOS" cannot_share="true" max_repeat_count="1" minlevel_permitted="3" nameId="2204415" name="The Lost Axe" id="1107">
-		<rewards exp="420" gold="1560"/>
+		<rewards exp="420" gold="400"/>
 		<quest_work_items>
 			<quest_work_item count="1" item_id="182200501"/>
 		</quest_work_items>
@@ -826,7 +773,7 @@
 		<collect_items>
 			<collect_item count="6" item_id="182200204"/>
 		</collect_items>
-		<rewards exp="610" gold="1240"/>
+		<rewards exp="610" gold="320"/>
 		<quest_drop drop_each_member="false" chance="90" item_id="182200204" npc_id="210668"/>
 		<quest_drop drop_each_member="false" chance="90" item_id="182200204" npc_id="210205"/>
 	</quest>
@@ -834,11 +781,11 @@
 		<collect_items>
 			<collect_item count="5" item_id="182200205"/>
 		</collect_items>
-		<rewards exp="750" gold="770"/>
+		<rewards exp="750" gold="200"/>
 		<quest_drop drop_each_member="false" chance="100" item_id="182200205" npc_id="700106"/>
 	</quest>
 	<quest race_permitted="ELYOS" cannot_share="true" max_repeat_count="1" minlevel_permitted="4" nameId="2204421" name="A Book for Namus" id="1110">
-		<rewards exp="450" gold="170"/>
+		<rewards exp="450" gold="50"/>
 		<quest_work_items>
 			<quest_work_item count="1" item_id="182200206"/>
 		</quest_work_items>
@@ -847,13 +794,13 @@
 		<collect_items>
 			<collect_item count="5" item_id="182200223"/>
 		</collect_items>
-		<rewards exp="1450" gold="960"/>
+		<rewards exp="1450" gold="250"/>
 		<rewards exp="1150" gold="450"/>
 		<quest_drop drop_each_member="false" chance="80" item_id="182200223" npc_id="210261"/>
 		<quest_drop drop_each_member="false" chance="80" item_id="182200223" npc_id="210674"/>
 	</quest>
 	<quest race_permitted="ELYOS" max_repeat_count="1" minlevel_permitted="3" nameId="2204425" name="To Fish in Peace" id="1112">
-		<rewards exp="1250" gold="1810"/>
+		<rewards exp="1250" gold="470"/>
 	</quest>
 	<quest race_permitted="ELYOS" max_repeat_count="1" minlevel_permitted="4" nameId="2204427" name="Mushroom Thieves" id="1113">
 		<rewards exp="1580">
@@ -861,20 +808,20 @@
 		</rewards>
 	</quest>
 	<quest race_permitted="ELYOS" cannot_share="true" max_repeat_count="1" minlevel_permitted="4" nameId="2204429" name="The Nymph's Gown" id="1114">
-		<rewards exp="3970" gold="1920"/>
+		<rewards exp="3970" gold="500"/>
 		<rewards exp="3120" gold="960"/>
 		<quest_work_items>
 			<quest_work_item count="1" item_id="182200217"/>
 		</quest_work_items>
 	</quest>
 	<quest race_permitted="ELYOS" max_repeat_count="1" minlevel_permitted="4" nameId="2204431" name="The Elim's Message" id="1115">
-		<rewards exp="2430" gold="680"/>
+		<rewards exp="2430" gold="180"/>
 	</quest>
 	<quest race_permitted="ELYOS" max_repeat_count="1" minlevel_permitted="5" nameId="2204433" name="Pernos's Robe" id="1116">
 		<collect_items>
 			<collect_item count="5" item_id="182200207"/>
 		</collect_items>
-		<rewards exp="2740" gold="2080"/>
+		<rewards exp="2740" gold="550"/>
 		<quest_drop drop_each_member="false" chance="80" item_id="182200207" npc_id="210195"/>
 		<quest_drop drop_each_member="false" chance="80" item_id="182200207" npc_id="210196"/>
 	</quest>
@@ -882,7 +829,7 @@
 		<collect_items>
 			<collect_item count="6" item_id="182200208"/>
 		</collect_items>
-		<rewards exp="2250" gold="1690"/>
+		<rewards exp="2250" gold="450"/>
 		<quest_drop drop_each_member="false" chance="70" item_id="182200208" npc_id="210676"/>
 		<quest_drop drop_each_member="false" chance="70" item_id="182200208" npc_id="210119"/>
 	</quest>
@@ -893,23 +840,28 @@
 		</quest_work_items>
 	</quest>
 	<quest race_permitted="ELYOS" cannot_share="true" max_repeat_count="1" minlevel_permitted="6" nameId="2204439" name="A Taste of Namus's Medicine" id="1119">
-		<rewards exp="1680" gold="370"/>
+		<rewards exp="1680" gold="150"/>
 		<quest_work_items>
 			<quest_work_item count="1" item_id="182200225"/>
 		</quest_work_items>
 	</quest>
 	<quest race_permitted="ELYOS" max_repeat_count="1" minlevel_permitted="6" nameId="2204441" name="Thinning out Worgs" id="1120">
-		<rewards exp="4050" gold="3040"/>
+		<rewards exp="4050" gold="800"/>
 	</quest>
 	<quest race_permitted="ELYOS" max_repeat_count="1" minlevel_permitted="6" nameId="2204443" name="Oz's Prayer Beads" id="1121">
 		<collect_items>
 			<collect_item count="3" item_id="182200209"/>
 		</collect_items>
-		<rewards exp="3350" gold="2360"/>
+		<rewards exp="3350" gold="630"/>
 		<quest_drop drop_each_member="false" chance="50" item_id="182200209" npc_id="210120"/>
 		<quest_drop drop_each_member="false" chance="65" item_id="182200209" npc_id="210114"/>
 	</quest>
 	<quest race_permitted="ELYOS" cannot_share="true" max_repeat_count="1" minlevel_permitted="7" nameId="2204445" name="Delivering Pernos's Robe" id="1122">
+		<collect_items>
+			<collect_item count="1" item_id="182200218"/>
+			<collect_item count="1" item_id="182200219"/>
+			<collect_item count="1" item_id="182200220"/>
+		</collect_items>
 		<rewards exp="5420">
 			<reward_item count="1" item_id="123000878"/>
 		</rewards>
@@ -924,9 +876,7 @@
 		<quest_drop drop_each_member="false" chance="100" item_id="182200219" npc_id="210196"/>
 		<quest_drop drop_each_member="false" chance="100" item_id="182200220" npc_id="210259"/>
 		<quest_drop drop_each_member="false" chance="100" item_id="182200220" npc_id="210260"/>
-		<finished_quest_conds>
-			<condition quest="1116"/>
-		</finished_quest_conds>
+		<finished_quest_conds>1116</finished_quest_conds>
 		<quest_work_items>
 			<quest_work_item count="1" item_id="182200216"/>
 		</quest_work_items>
@@ -940,34 +890,32 @@
 		<collect_items>
 			<collect_item count="5" item_id="182200210"/>
 		</collect_items>
-		<rewards title="7" exp="6050" gold="2250">
+		<rewards title="7" exp="6050" gold="600">
 			<reward_item count="4" item_id="162000012"/>
 		</rewards>
 		<quest_drop drop_each_member="false" chance="75" item_id="182200210" npc_id="210092"/>
 		<quest_drop drop_each_member="false" chance="75" item_id="182200210" npc_id="210096"/>
-		<finished_quest_conds>
-			<condition quest="1123"/>
-		</finished_quest_conds>
+		<finished_quest_conds>1123</finished_quest_conds>
 	</quest>
 	<quest race_permitted="ELYOS" max_repeat_count="1" minlevel_permitted="7" nameId="2204451" name="Suspicious Ore" id="1125">
 		<collect_items>
 			<collect_item count="6" item_id="182200211"/>
 		</collect_items>
-		<rewards exp="5540" gold="4050"/>
+		<rewards exp="5540" gold="1090"/>
 		<quest_drop drop_each_member="false" chance="100" item_id="182200211" npc_id="700107"/>
 	</quest>
 	<quest race_permitted="ELYOS" max_repeat_count="1" minlevel_permitted="7" nameId="2204453" name="Mushroom Research" id="1126">
 		<collect_items>
 			<collect_item count="5" item_id="182200212"/>
 		</collect_items>
-		<rewards exp="4950" gold="3300"/>
+		<rewards exp="4950" gold="890"/>
 		<quest_drop drop_each_member="false" chance="70" item_id="182200212" npc_id="210192"/>
 	</quest>
 	<quest race_permitted="ELYOS" cannot_share="true" max_repeat_count="1" minlevel_permitted="6" nameId="2204455" name="Ancient Cube" id="1127">
 		<collect_items>
 			<collect_item count="1" item_id="182200215"/>
 		</collect_items>
-		<rewards exp="3650" gold="2400"/>
+		<rewards exp="3650" gold="640"/>
 		<quest_work_items>
 			<quest_work_item count="1" item_id="182200215"/>
 		</quest_work_items>
@@ -992,7 +940,7 @@
 		<rewards exp="1500"/>
 	</quest>
 	<quest race_permitted="ELYOS" cannot_share="true" max_repeat_count="1" minlevel_permitted="10" nameId="2204603" name="Undelivered Armor" id="1131">
-		<rewards exp="2120" gold="610"/>
+		<rewards exp="2120" gold="170"/>
 		<quest_work_items>
 			<quest_work_item count="1" item_id="182200507"/>
 			<quest_work_item count="1" item_id="182200506"/>
@@ -1003,29 +951,27 @@
 			<collect_item count="6" item_id="182200508"/>
 			<collect_item count="5" item_id="182200509"/>
 		</collect_items>
-		<rewards exp="9780" gold="2290">
+		<rewards exp="9780" gold="800">
 			<reward_item count="3" item_id="164000067"/>
 		</rewards>
 		<quest_drop drop_each_member="false" chance="85" item_id="182200509" npc_id="210266"/>
 		<quest_drop drop_each_member="false" chance="85" item_id="182200509" npc_id="210267"/>
 		<quest_drop drop_each_member="false" chance="75" item_id="182200508" npc_id="210269"/>
 		<quest_drop drop_each_member="false" chance="75" item_id="182200508" npc_id="210320"/>
-		<finished_quest_conds>
-			<condition quest="1131"/>
-		</finished_quest_conds>
+		<finished_quest_conds>1131</finished_quest_conds>
 	</quest>
 	<quest race_permitted="ELYOS" max_repeat_count="1" minlevel_permitted="10" nameId="2204607" name="Lobnite Hunt" id="1133">
-		<rewards exp="11600" gold="3640">
+		<rewards exp="11600" gold="1000">
 			<reward_item count="2" item_id="162000007"/>
 		</rewards>
 	</quest>
 	<quest race_permitted="ELYOS" max_repeat_count="1" minlevel_permitted="10" nameId="2204609" name="Polluted Fountainhead" id="1134">
-		<rewards exp="15890" gold="5460">
+		<rewards exp="15890" gold="1500">
 			<reward_item count="50" item_id="169000004"/>
 		</rewards>
 	</quest>
 	<quest race_permitted="ELYOS" max_repeat_count="1" minlevel_permitted="10" nameId="2204611" name="Guardian Tog" id="1135">
-		<rewards exp="9500" gold="1810">
+		<rewards exp="9500" gold="500">
 			<reward_item count="2" item_id="162000002"/>
 		</rewards>
 	</quest>
@@ -1033,50 +979,48 @@
 		<collect_items>
 			<collect_item count="5" item_id="182200511"/>
 		</collect_items>
-		<rewards exp="4920" gold="3610"/>
+		<rewards exp="4920" gold="1000"/>
 		<quest_drop drop_each_member="false" chance="100" item_id="182200511" npc_id="700116"/>
 	</quest>
 	<quest race_permitted="ELYOS" cannot_share="true" max_repeat_count="1" minlevel_permitted="10" nameId="2204615" name="Ancient Lobnite Fossil" id="1137">
 		<collect_items>
 			<collect_item count="1" item_id="182200513"/>
 		</collect_items>
-		<rewards exp="3500" gold="2520"/>
+		<rewards exp="3500" gold="700"/>
 		<quest_drop drop_each_member="false" chance="100" item_id="182200513" npc_id="700108"/>
 		<quest_work_items>
 			<quest_work_item count="1" item_id="182200512"/>
 		</quest_work_items>
 	</quest>
 	<quest race_permitted="ELYOS" max_repeat_count="1" minlevel_permitted="11" nameId="2204617" name="A Mother's Worry" id="1138">
-		<rewards exp="3820" gold="1440"/>
+		<rewards exp="3820" gold="400"/>
 	</quest>
 	<quest race_permitted="ELYOS" max_repeat_count="1" minlevel_permitted="11" nameId="2204619" name="The Forest Outlaw" id="1139">
-		<rewards exp="18700" gold="7480"/>
+		<rewards exp="18700" gold="2100"/>
 	</quest>
 	<quest race_permitted="ELYOS" max_repeat_count="1" minlevel_permitted="11" nameId="2204621" name="Abandoned Scarecrow" id="1140">
-		<rewards exp="2780" gold="450"/>
+		<rewards exp="2780" gold="130"/>
 	</quest>
 	<quest race_permitted="ELYOS" cannot_share="true" max_repeat_count="1" minlevel_permitted="11" nameId="2204623" name="Belbua's Treasure" id="1141">
 		<rewards exp="3620">
 			<reward_item count="2" item_id="160000003"/>
 		</rewards>
-		<finished_quest_conds>
-			<condition quest="1143"/>
-		</finished_quest_conds>
+		<finished_quest_conds>1143</finished_quest_conds>
 	</quest>
 	<quest race_permitted="ELYOS" cannot_share="true" max_repeat_count="1" minlevel_permitted="13" nameId="2204625" name="An Unwanted Dagger" id="1142">
-		<rewards exp="10800" gold="3170"/>
+		<rewards exp="10800" gold="900"/>
 		<quest_work_items>
 			<quest_work_item count="1" item_id="182203101"/>
 		</quest_work_items>
 	</quest>
 	<quest race_permitted="ELYOS" max_repeat_count="1" minlevel_permitted="11" nameId="2204627" name="Nola's Request" id="1143">
-		<rewards title="6" exp="19500" gold="6420"/>
+		<rewards title="6" exp="19500" gold="1800"/>
 	</quest>
 	<quest race_permitted="ELYOS" max_repeat_count="1" minlevel_permitted="11" nameId="2204629" name="Pumpkin Season" id="1144">
 		<collect_items>
 			<collect_item count="7" item_id="182200515"/>
 		</collect_items>
-		<rewards exp="8710" gold="2660">
+		<rewards exp="8710" gold="750">
 			<reward_item count="2" item_id="160003003"/>
 		</rewards>
 		<quest_drop drop_each_member="false" chance="100" item_id="182200515" npc_id="700109"/>
@@ -1085,16 +1029,16 @@
 		<collect_items>
 			<collect_item count="4" item_id="152000001"/>
 		</collect_items>
-		<rewards exp="4530" gold="1440"/>
+		<rewards exp="4530" gold="400"/>
 	</quest>
 	<quest race_permitted="ELYOS" cannot_share="true" max_repeat_count="1" minlevel_permitted="12" nameId="2204633" name="Delicate Mandrake" id="1146">
-		<rewards exp="7120" gold="1620"/>
+		<rewards exp="7120" gold="460"/>
 		<quest_work_items>
 			<quest_work_item count="1" item_id="182200519"/>
 		</quest_work_items>
 	</quest>
 	<quest race_permitted="ELYOS" cannot_share="true" max_repeat_count="1" minlevel_permitted="12" nameId="2204635" name="Supplies for the Watch" id="1147">
-		<rewards exp="10340" gold="2100">
+		<rewards exp="10340" gold="600">
 			<reward_item count="30" item_id="169300003"/>
 		</rewards>
 		<quest_work_items>
@@ -1106,7 +1050,7 @@
 			<collect_item count="7" item_id="182200521"/>
 			<collect_item count="5" item_id="182200522"/>
 		</collect_items>
-		<rewards exp="18970" gold="5640">
+		<rewards exp="18970" gold="1600">
 			<reward_item count="3" item_id="162000012"/>
 		</rewards>
 		<quest_drop drop_each_member="false" chance="75" item_id="182200521" npc_id="210188"/>
@@ -1114,10 +1058,10 @@
 		<quest_drop drop_each_member="false" chance="80" item_id="182200522" npc_id="210193"/>
 	</quest>
 	<quest race_permitted="ELYOS" cannot_share="true" max_repeat_count="1" minlevel_permitted="14" nameId="2204639" name="Missing Poppy" id="1149">
-		<rewards exp="30400" gold="5230"/>
+		<rewards exp="30400" gold="1500"/>
 	</quest>
 	<quest race_permitted="ELYOS" cannot_share="true" max_repeat_count="1" minlevel_permitted="11" nameId="2204641" name="A Father's Letter" id="1150">
-		<rewards exp="7890" gold="2880"/>
+		<rewards exp="7890" gold="800"/>
 		<quest_work_items>
 			<quest_work_item count="1" item_id="182200523"/>
 		</quest_work_items>
@@ -1126,17 +1070,15 @@
 		<collect_items>
 			<collect_item count="1" item_id="182200524"/>
 		</collect_items>
-		<rewards exp="12000" gold="4980"/>
+		<rewards exp="12000" gold="1400"/>
 		<quest_drop drop_each_member="false" chance="50" item_id="182200524" npc_id="210688"/>
-		<finished_quest_conds>
-			<condition quest="1150"/>
-		</finished_quest_conds>
+		<finished_quest_conds>1150</finished_quest_conds>
 	</quest>
 	<quest race_permitted="ELYOS" cannot_share="true" max_repeat_count="1" minlevel_permitted="12" nameId="2204645" name="Odella Recipe" id="1152">
 		<collect_items>
 			<collect_item count="1" item_id="169400112"/>
 		</collect_items>
-		<rewards exp="21200" gold="6230"/>
+		<rewards exp="21200" gold="1750"/>
 		<quest_work_items>
 			<quest_work_item count="1" item_id="182200526"/>
 		</quest_work_items>
@@ -1145,9 +1087,7 @@
 		<rewards exp="6480">
 			<reward_item count="2" item_id="160000004"/>
 		</rewards>
-		<finished_quest_conds>
-			<condition quest="1152"/>
-		</finished_quest_conds>
+		<finished_quest_conds>1152</finished_quest_conds>
 		<quest_work_items>
 			<quest_work_item count="1" item_id="182200527"/>
 		</quest_work_items>
@@ -1156,7 +1096,7 @@
 		<collect_items>
 			<collect_item count="6" item_id="182200528"/>
 		</collect_items>
-		<rewards exp="16810" gold="2930">
+		<rewards exp="16810" gold="840">
 			<reward_item count="2" item_id="160000005"/>
 		</rewards>
 		<quest_drop drop_each_member="false" chance="100" item_id="182200528" npc_id="700031"/>
@@ -1166,20 +1106,16 @@
 		<collect_items>
 			<collect_item count="7" item_id="182200529"/>
 		</collect_items>
-		<rewards exp="11000" gold="7850"/>
+		<rewards exp="11000" gold="2250"/>
 		<quest_drop drop_each_member="false" chance="100" item_id="182200529" npc_id="700117"/>
-		<finished_quest_conds>
-			<condition quest="1147"/>
-		</finished_quest_conds>
+		<finished_quest_conds>1147</finished_quest_conds>
 	</quest>
 	<quest race_permitted="ELYOS" max_repeat_count="1" minlevel_permitted="14" nameId="2204653" name="Stolen Village Seal" id="1156">
 		<rewards exp="14900"/>
 	</quest>
 	<quest race_permitted="ELYOS" cannot_share="true" max_repeat_count="1" minlevel_permitted="14" nameId="2204655" name="Gaphyrk's Love" id="1157">
 		<rewards exp="15500"/>
-		<finished_quest_conds>
-			<condition quest="1156"/>
-		</finished_quest_conds>
+		<finished_quest_conds>1156</finished_quest_conds>
 	</quest>
 	<quest race_permitted="ELYOS" cannot_share="true" max_repeat_count="1" minlevel_permitted="14" nameId="2204657" name="Village Seal Found" id="1158">
 		<rewards exp="21600">
@@ -1188,9 +1124,7 @@
 			<selectable_reward_item count="1" item_id="167000427"/>
 			<selectable_reward_item count="1" item_id="167000423"/>
 		</rewards>
-		<finished_quest_conds>
-			<condition quest="1157"/>
-		</finished_quest_conds>
+		<finished_quest_conds>1157</finished_quest_conds>
 		<quest_work_items>
 			<quest_work_item count="1" item_id="182200502"/>
 		</quest_work_items>
@@ -1199,7 +1133,7 @@
 		<collect_items>
 			<collect_item count="1" item_id="182200530"/>
 		</collect_items>
-		<rewards exp="12700" gold="3980"/>
+		<rewards exp="12700" gold="1140"/>
 		<quest_drop drop_each_member="false" chance="75" item_id="182200530" npc_id="210689"/>
 	</quest>
 	<quest race_permitted="ELYOS" max_repeat_count="1" minlevel_permitted="14" nameId="2204661" name="Stolen Jewelry" id="1160">
@@ -1208,7 +1142,7 @@
 			<collect_item count="1" item_id="182200532"/>
 			<collect_item count="1" item_id="182200533"/>
 		</collect_items>
-		<rewards exp="26500" gold="9080"/>
+		<rewards exp="26500" gold="2600"/>
 		<quest_drop drop_each_member="false" chance="30" item_id="182200531" npc_id="210098"/>
 		<quest_drop drop_each_member="false" chance="30" item_id="182200531" npc_id="210099"/>
 		<quest_drop drop_each_member="false" chance="30" item_id="182200532" npc_id="210090"/>
@@ -1228,7 +1162,7 @@
 		<collect_items>
 			<collect_item count="1" item_id="182200563"/>
 		</collect_items>
-		<rewards exp="20400" gold="4140">
+		<rewards exp="20400" gold="1200">
 			<reward_item count="2" item_id="160000006"/>
 		</rewards>
 		<rewards exp="13500" gold="1800"/>
@@ -1237,12 +1171,10 @@
 		</quest_work_items>
 	</quest>
 	<quest race_permitted="ELYOS" cannot_share="true" max_repeat_count="1" minlevel_permitted="15" nameId="2204667" name="Arachna Antidote" id="1163">
-		<rewards exp="37680" gold="10370">
+		<rewards exp="37680" gold="3000">
 			<reward_item count="4" item_id="162000022"/>
 		</rewards>
-		<finished_quest_conds>
-			<condition quest="1016"/>
-		</finished_quest_conds>
+		<finished_quest_conds>1016</finished_quest_conds>
 		<quest_work_items>
 			<quest_work_item count="1" item_id="182200564"/>
 		</quest_work_items>
@@ -1267,7 +1199,7 @@
 		<collect_items>
 			<collect_item count="10" item_id="182200538"/>
 		</collect_items>
-		<rewards exp="25480" gold="14840"/>
+		<rewards exp="25480" gold="4250"/>
 		<quest_drop drop_each_member="false" chance="75" item_id="182200538" npc_id="210200"/>
 		<quest_drop drop_each_member="false" chance="75" item_id="182200538" npc_id="210201"/>
 		<quest_drop drop_each_member="false" chance="75" item_id="182200538" npc_id="210130"/>
@@ -1279,7 +1211,7 @@
 			<collect_item count="3" item_id="182200539"/>
 			<collect_item count="5" item_id="182200540"/>
 		</collect_items>
-		<rewards exp="21450" gold="8480"/>
+		<rewards exp="21450" gold="2430"/>
 		<quest_drop drop_each_member="false" chance="50" item_id="182200539" npc_id="210270"/>
 		<quest_drop drop_each_member="false" chance="75" item_id="182200540" npc_id="210271"/>
 		<quest_drop drop_each_member="false" chance="75" item_id="182200540" npc_id="210272"/>
@@ -1288,16 +1220,14 @@
 		<collect_items>
 			<collect_item count="5" item_id="182200541"/>
 		</collect_items>
-		<rewards exp="8240" gold="2860"/>
+		<rewards exp="8240" gold="820"/>
 		<quest_drop drop_each_member="false" chance="100" item_id="182200541" npc_id="700114"/>
 	</quest>
 	<quest race_permitted="ELYOS" cannot_share="true" max_repeat_count="1" minlevel_permitted="14" nameId="2204679" name="Lightningfoot Tuka" id="1169">
 		<rewards title="3" exp="9980">
 			<reward_item count="5" item_id="164000074"/>
 		</rewards>
-		<finished_quest_conds>
-			<condition quest="1158"/>
-		</finished_quest_conds>
+		<finished_quest_conds>1158</finished_quest_conds>
 	</quest>
 	<quest race_permitted="ELYOS" cannot_share="true" max_repeat_count="1" minlevel_permitted="15" nameId="2204681" name="Headless Stone Statue" id="1170">
 		<rewards exp="8410"/>
@@ -1306,7 +1236,7 @@
 		</quest_work_items>
 	</quest>
 	<quest race_permitted="ELYOS" cannot_share="true" max_repeat_count="1" minlevel_permitted="14" nameId="2204683" name="An Antidote for Roseino" id="1171">
-		<rewards exp="31580" gold="6280">
+		<rewards exp="31580" gold="1800">
 			<reward_item count="4" item_id="162000012"/>
 		</rewards>
 		<quest_work_items>
@@ -1317,11 +1247,11 @@
 		<collect_items>
 			<collect_item count="8" item_id="182200543"/>
 		</collect_items>
-		<rewards exp="37200" gold="10600"/>
+		<rewards exp="37200" gold="3100"/>
 		<quest_drop drop_each_member="false" chance="100" item_id="182200543" npc_id="700115"/>
 	</quest>
 	<quest race_permitted="ELYOS" max_repeat_count="1" minlevel_permitted="16" nameId="2204687" name="Slaying Slimes" id="1173">
-		<rewards exp="26000" gold="3440">
+		<rewards exp="26000" gold="500">
 			<reward_item count="2" item_id="164000086"/>
 		</rewards>
 	</quest>
@@ -1329,17 +1259,17 @@
 		<collect_items>
 			<collect_item count="5" item_id="182200544"/>
 		</collect_items>
-		<rewards exp="31500" gold="5630"/>
+		<rewards exp="31500" gold="1630"/>
 		<quest_drop drop_each_member="false" chance="70" item_id="182200544" npc_id="210273"/>
 	</quest>
 	<quest race_permitted="ELYOS" max_repeat_count="1" minlevel_permitted="16" nameId="2204691" name="Poisoned Plumas" id="1175">
-		<rewards exp="29700" gold="9150"/>
+		<rewards exp="29700" gold="2680"/>
 	</quest>
 	<quest race_permitted="ELYOS" max_repeat_count="1" minlevel_permitted="16" nameId="2204693" name="Kalgolem's Essence" id="1176">
 		<collect_items>
 			<collect_item count="8" item_id="182200545"/>
 		</collect_items>
-		<rewards exp="33500" gold="9910"/>
+		<rewards exp="33500" gold="2900"/>
 		<quest_drop drop_each_member="false" chance="60" item_id="182200545" npc_id="210106"/>
 		<quest_drop drop_each_member="false" chance="60" item_id="182200545" npc_id="210107"/>
 	</quest>
@@ -1347,7 +1277,7 @@
 		<collect_items>
 			<collect_item count="7" item_id="182200546"/>
 		</collect_items>
-		<rewards exp="17050" gold="2900">
+		<rewards exp="17050" gold="850">
 			<reward_item count="100" item_id="169000004"/>
 		</rewards>
 		<quest_drop drop_each_member="false" chance="100" item_id="182200546" npc_id="700006"/>
@@ -1356,7 +1286,7 @@
 		<collect_items>
 			<collect_item count="7" item_id="182200547"/>
 		</collect_items>
-		<rewards exp="20130" gold="5400"/>
+		<rewards exp="20130" gold="1580"/>
 		<quest_drop drop_each_member="false" chance="100" item_id="182200547" npc_id="700113"/>
 	</quest>
 	<quest race_permitted="ELYOS" max_repeat_count="1" minlevel_permitted="17" nameId="2204699" name="Dispelling Ancient Spirits" id="1179">
@@ -1373,12 +1303,12 @@
 		</quest_work_items>
 	</quest>
 	<quest race_permitted="ELYOS" max_repeat_count="1" minlevel_permitted="17" nameId="2204703" name="[Group] Culling Krall" id="1181">
-		<rewards exp="33000" gold="33170">
+		<rewards exp="33000" gold="9800">
 			<reward_item count="10" item_id="164000067"/>
 		</rewards>
 	</quest>
 	<quest race_permitted="ELYOS" cannot_share="true" max_repeat_count="1" minlevel_permitted="18" nameId="2204705" name="Ancient Stone Fragment" id="1182">
-		<rewards exp="33600" gold="14200"/>
+		<rewards exp="33600" gold="4200"/>
 		<quest_work_items>
 			<quest_work_item count="1" item_id="182200549"/>
 		</quest_work_items>
@@ -1393,13 +1323,13 @@
 		</quest_work_items>
 	</quest>
 	<quest race_permitted="ELYOS" cannot_share="true" max_repeat_count="1" minlevel_permitted="18" nameId="2204709" name="Investigating Wind Spirits" id="1184">
-		<rewards exp="41400" gold="15560"/>
+		<rewards exp="41400" gold="4600"/>
 		<quest_work_items>
 			<quest_work_item count="1" item_id="182200551"/>
 		</quest_work_items>
 	</quest>
 	<quest race_permitted="ELYOS" max_repeat_count="1" minlevel_permitted="18" nameId="2204711" name="Unquiet Spirits" id="1185">
-		<rewards exp="22300" gold="6820"/>
+		<rewards exp="22300" gold="2020"/>
 	</quest>
 	<quest race_permitted="ELYOS" max_repeat_count="1" minlevel_permitted="18" nameId="2204713" name="The Wriggot Menace" id="1186">
 		<collect_items>
@@ -1410,7 +1340,7 @@
 		</rewards>
 		<quest_drop drop_each_member="false" chance="55" item_id="182200552" npc_id="210274"/>
 	</quest>
-	<quest race_permitted="ELYOS" max_repeat_count="255" minlevel_permitted="10" nameId="2204715" name="[Manastone] Lovely Manastones" id="1187">
+	<quest race_permitted="ELYOS" max_repeat_count="255" minlevel_permitted="10" nameId="2204715" name="[Manastone] New Manastones for Old (II)" id="1187">
 		<collect_items>
 			<collect_item count="1" item_id="167000259"/>
 			<collect_item count="1" item_id="167000261"/>
@@ -1419,13 +1349,13 @@
 		<rewards exp="300"/>
 	</quest>
 	<quest race_permitted="ELYOS" max_repeat_count="1" minlevel_permitted="18" nameId="2204717" name="Message From Morai" id="1188">
-		<rewards exp="28400" gold="6690"/>
+		<rewards exp="28400" gold="2000"/>
 	</quest>
 	<quest race_permitted="ELYOS" max_repeat_count="1" minlevel_permitted="18" nameId="2204719" name="Potcrab, the Headache" id="1189">
 		<collect_items>
 			<collect_item count="7" item_id="182200553"/>
 		</collect_items>
-		<rewards exp="32800" gold="8460"/>
+		<rewards exp="32800" gold="2500"/>
 		<quest_drop drop_each_member="false" chance="60" item_id="182200553" npc_id="210331"/>
 		<quest_drop drop_each_member="false" chance="60" item_id="182200553" npc_id="210275"/>
 	</quest>
@@ -1433,11 +1363,11 @@
 		<collect_items>
 			<collect_item count="1" item_id="182200554"/>
 		</collect_items>
-		<rewards exp="32400" gold="7350"/>
+		<rewards exp="32400" gold="2200"/>
 		<quest_drop drop_each_member="false" chance="25" item_id="182200554" npc_id="210074"/>
 	</quest>
 	<quest race_permitted="ELYOS" cannot_share="true" max_repeat_count="1" minlevel_permitted="18" nameId="2204723" name="An Urgent Letter" id="1191">
-		<rewards exp="31600" gold="8720"/>
+		<rewards exp="31600" gold="2610"/>
 		<quest_work_items>
 			<quest_work_item count="1" item_id="182200555"/>
 		</quest_work_items>
@@ -1452,43 +1382,35 @@
 		<collect_items>
 			<collect_item count="1" item_id="182200557"/>
 		</collect_items>
-		<rewards exp="24000" gold="10040">
+		<rewards exp="24000" gold="3000">
 			<reward_item count="3" item_id="164000074"/>
 		</rewards>
-		<quest_drop drop_each_member="false" chance="50" item_id="182200557" npc_id="210159"/>
-		<quest_drop drop_each_member="false" chance="50" item_id="182200557" npc_id="210708"/>
-		<finished_quest_conds>
-			<condition quest="1192"/>
-		</finished_quest_conds>
+		<quest_drop drop_each_member="false" chance="100" item_id="182200557" npc_id="210159"/>
+		<quest_drop drop_each_member="false" chance="100" item_id="182200557" npc_id="210708"/>
 	</quest>
 	<quest race_permitted="ELYOS" cannot_share="true" max_repeat_count="1" minlevel_permitted="19" nameId="2204729" name="[Group] Reducing Tursin Strength" id="1194">
 		<rewards exp="60000">
 			<selectable_reward_item count="1" item_id="121000766"/>
 			<selectable_reward_item count="1" item_id="121000767"/>
 		</rewards>
-		<finished_quest_conds>
-			<condition quest="1193"/>
-		</finished_quest_conds>
 	</quest>
 	<quest race_permitted="ELYOS" cannot_share="true" max_repeat_count="1" minlevel_permitted="19" nameId="2204731" name="[Group] Tursin Assassination" id="1195">
 		<rewards exp="34200" gold="6600"/>
-		<finished_quest_conds>
-			<condition quest="1194"/>
-		</finished_quest_conds>
+		<finished_quest_conds>1194</finished_quest_conds>
 	</quest>
-	<quest race_permitted="ELYOS" max_repeat_count="255" minlevel_permitted="16" nameId="2204733" name="[Coin] Dampening Spirits" id="1196">
+	<quest race_permitted="ELYOS" max_repeat_count="100" minlevel_permitted="16" nameId="2204733" name="[Coin] Dampening Spirits" id="1196">
 		<rewards exp="16800">
 			<reward_item count="1" item_id="186000001"/>
 		</rewards>
 	</quest>
 	<quest race_permitted="ELYOS" cannot_share="true" max_repeat_count="1" minlevel_permitted="14" nameId="2204735" name="Krall Book" id="1197">
-		<rewards exp="14850" gold="2860"/>
+		<rewards exp="14850" gold="820"/>
 		<quest_work_items>
 			<quest_work_item count="1" item_id="182200558"/>
 		</quest_work_items>
 	</quest>
 	<quest race_permitted="ELYOS" cannot_share="true" max_repeat_count="1" minlevel_permitted="12" nameId="2204737" name="The Writing on the Wall" id="1198">
-		<rewards exp="11900" gold="3910"/>
+		<rewards exp="11900" gold="1100"/>
 		<quest_work_items>
 			<quest_work_item count="1" item_id="182200559"/>
 		</quest_work_items>
@@ -1503,23 +1425,17 @@
 		<rewards exp="47000">
 			<reward_item count="1" item_id="121000764"/>
 		</rewards>
-		<finished_quest_conds>
-			<condition quest="1199"/>
-		</finished_quest_conds>
+		<finished_quest_conds>1199</finished_quest_conds>
 	</quest>
 	<quest race_permitted="ELYOS" cannot_share="true" max_repeat_count="100" minlevel_permitted="10" nameId="2204743" name="A Favor for Gaione" id="1201">
 		<rewards exp="1500" gold="500">
 			<reward_item count="1" item_id="162000002"/>
 		</rewards>
-		<finished_quest_conds>
-			<condition quest="1135"/>
-		</finished_quest_conds>
+		<finished_quest_conds>1135</finished_quest_conds>
 	</quest>
 	<quest race_permitted="ELYOS" cannot_share="true" max_repeat_count="100" minlevel_permitted="17" nameId="2204745" name="[Group] Persistent Krall" id="1202">
 		<rewards exp="34200" gold="5600"/>
-		<finished_quest_conds>
-			<condition quest="1181"/>
-		</finished_quest_conds>
+		<finished_quest_conds>1181</finished_quest_conds>
 	</quest>
 	<quest race_permitted="ELYOS" cannot_share="true" max_repeat_count="100" minlevel_permitted="18" nameId="2204747" name="Wriggot Resurgence" id="1203">
 		<collect_items>
@@ -1529,9 +1445,7 @@
 			<reward_item count="2" item_id="160000007"/>
 		</rewards>
 		<quest_drop drop_each_member="false" chance="35" item_id="182200561" npc_id="210274"/>
-		<finished_quest_conds>
-			<condition quest="1186"/>
-		</finished_quest_conds>
+		<finished_quest_conds>1186</finished_quest_conds>
 	</quest>
 	<quest race_permitted="ELYOS" cannot_share="true" max_repeat_count="100" minlevel_permitted="18" nameId="2204749" name="Potcrab Pincers" id="1204">
 		<collect_items>
@@ -1540,9 +1454,7 @@
 		<rewards exp="9800" gold="2100"/>
 		<quest_drop drop_each_member="false" chance="40" item_id="182200562" npc_id="210331"/>
 		<quest_drop drop_each_member="false" chance="40" item_id="182200562" npc_id="210275"/>
-		<finished_quest_conds>
-			<condition quest="1189"/>
-		</finished_quest_conds>
+		<finished_quest_conds>1189</finished_quest_conds>
 	</quest>
 	<quest race_permitted="ELYOS" cannot_giveup="true" cannot_share="true" max_repeat_count="1" minlevel_permitted="3" nameId="2204751" name="A New Skill" id="1205">
 		<rewards exp="250"/>
@@ -1573,9 +1485,9 @@
 		<collect_items>
 			<collect_item count="5" item_id="152000101"/>
 		</collect_items>
-		<rewards exp="5000" gold="2610"/>
+		<rewards exp="5000" gold="750"/>
 	</quest>
-	<quest race_permitted="ELYOS" cannot_share="true" max_repeat_count="255" minlevel_permitted="99" nameId="2204759" name="[Spend Coin] Iron (Warrior and Scout)" id="1209">
+	<quest race_permitted="ELYOS" cannot_share="true" max_repeat_count="255" minlevel_permitted="1" nameId="2204759" name="[Spend Coin] Iron (Warrior and Scout)" id="1209">
 		<class_permitted>WARRIOR SCOUT GLADIATOR TEMPLAR ASSASSIN RANGER</class_permitted>
 	</quest>
 	<quest race_permitted="ELYOS" max_repeat_count="1" minlevel_permitted="16" nameId="2204761" name="Feed a Cold" id="1210">
@@ -1583,39 +1495,39 @@
 			<collect_item count="10" item_id="152000601"/>
 			<collect_item count="5" item_id="152000702"/>
 		</collect_items>
-		<rewards exp="17500" gold="5120"/>
+		<rewards exp="17500" gold="1500"/>
 	</quest>
 	<quest race_permitted="ELYOS" max_repeat_count="1" minlevel_permitted="99" nameId="2204763" name="Targena for Titania" id="1211">
 		<collect_items>
 			<collect_item count="10" item_id="152000403"/>
 		</collect_items>
 	</quest>
-	<quest race_permitted="ELYOS" cannot_share="true" max_repeat_count="255" minlevel_permitted="99" nameId="2204765" name="[Spend Coin] Iron (Mage and Priest)" id="1212">
+	<quest race_permitted="ELYOS" cannot_share="true" max_repeat_count="255" minlevel_permitted="1" nameId="2204765" name="[Spend Coin] Iron (Mage and Priest)" id="1212">
 		<class_permitted>MAGE PRIEST SORCERER SPIRIT_MASTER CHANTER CLERIC</class_permitted>
 	</quest>
 	<quest race_permitted="ELYOS" max_repeat_count="1" minlevel_permitted="15" nameId="2204767" name="A Hungry Abex" id="1213">
 		<collect_items>
 			<collect_item count="12" item_id="152000403"/>
 		</collect_items>
-		<rewards exp="10000" gold="4140"/>
+		<rewards exp="10000" gold="1200"/>
 	</quest>
 	<quest race_permitted="ELYOS" max_repeat_count="1" minlevel_permitted="15" nameId="2204769" name="Give and Take" id="1214">
 		<collect_items>
 			<collect_item count="12" item_id="152000002"/>
 		</collect_items>
-		<rewards exp="15000" gold="4100"/>
+		<rewards exp="15000" gold="1200"/>
 	</quest>
 	<quest race_permitted="ELYOS" max_repeat_count="1" minlevel_permitted="18" nameId="2204771" name="Can't Please Everyone" id="1215">
 		<collect_items>
 			<collect_item count="15" item_id="152001002"/>
 		</collect_items>
-		<rewards exp="12500" gold="7610"/>
+		<rewards exp="12500" gold="2250"/>
 	</quest>
 	<quest race_permitted="ELYOS" max_repeat_count="1" minlevel_permitted="18" nameId="2204773" name="Saving the Snappers" id="1216">
-		<rewards exp="38700" gold="9360"/>
+		<rewards exp="38700" gold="2800"/>
 	</quest>
 	<quest race_permitted="ELYOS" max_repeat_count="1" minlevel_permitted="18" nameId="2204775" name="Flotsam" id="1217">
-		<rewards exp="31500" gold="9160"/>
+		<rewards exp="31500" gold="2740"/>
 	</quest>
 	<quest race_permitted="ELYOS" cannot_share="true" max_repeat_count="1" minlevel_permitted="19" nameId="2204777" name="Numonerk's Demand Note" id="1218">
 		<rewards exp="40200"/>
@@ -1629,29 +1541,17 @@
 		</collect_items>
 		<rewards exp="32200"/>
 		<quest_drop drop_each_member="false" chance="100" item_id="182200567" npc_id="700283"/>
-		<finished_quest_conds>
-			<condition quest="1218"/>
-		</finished_quest_conds>
+		<finished_quest_conds>1218</finished_quest_conds>
 	</quest>
 	<quest race_permitted="ELYOS" cannot_share="true" max_repeat_count="1" minlevel_permitted="19" nameId="2204781" name="A Secret Delivery" id="1220">
-		<rewards exp="61300" gold="1218">
+		<rewards exp="61900" gold="2000">
 			<reward_item count="1" item_id="166000020"/>
 		</rewards>
-		<finished_quest_conds>
-			<condition quest="1219"/>
-		</finished_quest_conds>
+		<finished_quest_conds>1219</finished_quest_conds>
 		<quest_work_items>
 			<quest_work_item count="1" item_id="182200568"/>
 			<quest_work_item count="1" item_id="182200569"/>
 		</quest_work_items>
-	</quest>
-	<quest race_permitted="ELYOS" cannot_share="true" max_repeat_count="5" minlevel_permitted="13" nameId="2204783" name="Brainwashed Tursin Krall" id="1221">
-		<rewards exp="46500" gold="5440">
-			<reward_item count="10" item_id="182200020"/>
-		</rewards>
-		<acquired_quest_conds>
-			<condition quest="1018"/>
-		</acquired_quest_conds>
 	</quest>
 	<quest race_permitted="ELYOS" cannot_giveup="true" cannot_share="true" max_repeat_count="1" minlevel_permitted="19" nameId="2204801" name="Orders from Telemachus" id="1300">
 		<rewards exp="10000"/>
@@ -1671,27 +1571,21 @@
 		<collect_items>
 			<collect_item count="9" item_id="182201301"/>
 		</collect_items>
-		<rewards exp="43500" gold="12570">
+		<rewards exp="43500" gold="3800">
 			<reward_item count="5" item_id="162000003"/>
 		</rewards>
 		<quest_drop drop_each_member="false" chance="60" item_id="182201301" npc_id="211684"/>
 		<quest_drop drop_each_member="false" chance="60" item_id="182201301" npc_id="211685"/>
 	</quest>
 	<quest race_permitted="ELYOS" cannot_share="true" max_repeat_count="1" minlevel_permitted="19" nameId="2204809" name="Nature's Balance" id="1304">
-		<rewards exp="36000" gold="9100">
+		<rewards exp="36000" gold="2750">
 			<reward_item count="5" item_id="162000008"/>
 		</rewards>
-		<finished_quest_conds>
-			<condition quest="1303"/>
-		</finished_quest_conds>
+		<finished_quest_conds>1303</finished_quest_conds>
 	</quest>
 	<quest race_permitted="ELYOS" cannot_share="true" max_repeat_count="10" minlevel_permitted="20" nameId="2204811" name="More Manduri Frillnecks" id="1305">
-		<rewards exp="44600" gold="2800">
-			<reward_item count="1" item_id="188050588"/>
-		</rewards>
-		<finished_quest_conds>
-			<condition quest="1421"/>
-		</finished_quest_conds>
+		<rewards exp="46600" gold="2800"/>
+		<finished_quest_conds>1421</finished_quest_conds>
 	</quest>
 	<quest race_permitted="ELYOS" cannot_share="true" max_repeat_count="10" minlevel_permitted="20" nameId="2204813" name="Cleansing The Forest" id="1306">
 		<rewards exp="46600" gold="2700"/>
