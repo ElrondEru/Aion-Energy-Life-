@@ -1,31 +1,49 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!-- Steel Rake -->
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--
+	This file is part of aion-unique <aion-unique.org>.
+
+	aion-unique is free software: you can redistribute it and/or modify
+	it under the terms of the GNU General Public License as published by
+	the Free Software Foundation, either version 3 of the License, or
+	(at your option) any later version.
+
+	aion-unique is distributed in the hope that it will be useful,
+	but WITHOUT ANY WARRANTY; without even the implied warranty of
+	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+	GNU General Public License for more details.
+
+	You should have received a copy of the GNU General Public License
+	along with aion-unique.If not, see <http://www.gnu.org/licenses/>.
+
+	Steel Rake
+
+-->
 <spawns>
-	<!-- Guard Quest SensoryA (Object Normal) (from client spawn)-->
+	<!-- Guard Quest SensoryA (Object Normal) -->
 	<spawn interval="295" pool="1" npcid="206093" map="300100000">
 		<object x="444.75378" y="459.2648" z="889.15454" h="60"/>
 	</spawn>
-	<!-- Guard Quest SensoryB (Object Normal) (from client spawn)-->
+	<!-- Guard Quest SensoryB (Object Normal) -->
 	<spawn interval="295" pool="1" npcid="206094" map="300100000">
 		<object x="481.5267" y="459.03934" z="889.15454" h="60"/>
 	</spawn>
-	<!-- Shulack Captain's Cabin Entrance Sensory (Object Normal) (from client spawn)-->
+	<!-- Shulack Captain's Cabin Entrance Sensory (Object Normal) -->
 	<spawn interval="295" pool="1" npcid="206098" map="300100000">
 		<object x="384.996" y="524.75806" z="1074.1727" h="60"/>
 	</spawn>
-	<!-- Shulack Pirate Ship Boarding Related Sensory 01 (Object Normal) (from client spawn)-->
+	<!-- Shulack Pirate Ship Boarding Related Sensory 01 (Object Normal) -->
 	<spawn interval="295" pool="1" npcid="206099" map="300100000">
 		<object x="240.90179" y="505.54016" z="950.72504" h="0"/>
 	</spawn>
-	<!-- Shulack Pirate Ship Boarding Related Sensory 01 (Object Normal) (from client spawn)-->
+	<!-- Shulack Pirate Ship Boarding Related Sensory 01 (Object Normal) -->
 	<spawn interval="295" pool="1" npcid="206100" map="300100000">
 		<object x="409.45447" y="509.67691" z="889.15454" h="0"/>
 	</spawn>
-	<!-- IDShualckShip Loot Depository Sensory Timer (Object Normal) (from client spawn)-->
+	<!-- IDShualckShip Loot Depository Sensory Timer (Object Normal) -->
 	<spawn interval="295" pool="1" npcid="206103" map="300100000">
 		<object x="611.67365" y="550.35852" z="938.73639" h="60"/>
 	</spawn>
-	<!-- Cockroach (Monsster Normal lvl:1) (from client spawn)-->
+	<!-- Cockroach (Monsster Normal lvl:1) -->
 	<spawn interval="295" pool="5" npcid="214714" map="300100000">
 		<object x="665.15808" y="452.33481" z="1018.0287" h="0"/>
 		<object x="546.3916" y="537.69958" z="958.55066" h="0"/>
@@ -33,7 +51,7 @@
 		<object x="696.63654" y="457.89456" z="1016.11835" h="0"/>
 		<object x="540.55005" y="557.40857" z="956.73059" h="0"/>
 	</spawn>
-	<!-- Steel Rake Swabbie (Moster Elite lvl:41) (from client spawn)-->
+	<!-- Steel Rake Swabbie (Moster Elite lvl:41) -->
 	<spawn interval="295" pool="8" npcid="214905" map="300100000">
 		<object x="608.6369" y="523.91278" z="936.0408" h="0"/>
 		<object x="495.50549" y="488.07437" z="951.7039" h="60"/>
@@ -44,31 +62,31 @@
 		<object x="460.478" y="518.07013" z="958.70844" h="90"/>
 		<object x="379.21356" y="445.60721" z="947.66534" h="90"/>
 	</spawn>
-	<!-- Steel Rake Swabbie (Moster Elite lvl:41) (from client spawn)-->
+	<!-- Steel Rake Swabbie (Moster Elite lvl:41) -->
 	<spawn interval="295" pool="1" npcid="214906" map="300100000">
 		<object x="459.04709" y="557.58472" z="951.7026" h="118"/>
 	</spawn>
-	<!-- Steel Rake Swabbie (Moster Elite lvl:41) (from client spawn)-->
+	<!-- Steel Rake Swabbie (Moster Elite lvl:41) -->
 	<spawn interval="295" pool="2" npcid="214907" map="300100000">
 		<object x="608.37061" y="529.15405" z="942.2848" h="63"/>
 		<object x="257.43692" y="488.13367" z="948.66534" h="23"/>
 	</spawn>
-	<!-- Steel Rake Swabbie (Moster Elite lvl:41) (from client spawn)-->
+	<!-- Steel Rake Swabbie (Moster Elite lvl:41) -->
 	<spawn interval="295" pool="3" npcid="214908" map="300100000">
 		<object x="622.12146" y="529.87" z="936.0587" h="0"/>
 		<object x="686.02875" y="498.78397" z="942.3741" h="60"/>
 		<object x="415.85733" y="616.82849" z="949.66534" h="60"/>
 	</spawn>
-	<!-- Steel Rake Swabbie (Moster Elite lvl:41) (from client spawn)-->
+	<!-- Steel Rake Swabbie (Moster Elite lvl:41) -->
 	<spawn interval="295" pool="2" npcid="214909" map="300100000">
 		<object x="491.88284" y="546.64014" z="953.3825" h="90"/>
 		<object x="490.19614" y="483.5585" z="951.7034" h="60"/>
 	</spawn>
-	<!-- Steel Rake Swabbie (Moster Elite lvl:41) (from client spawn)-->
+	<!-- Steel Rake Swabbie (Moster Elite lvl:41) -->
 	<spawn interval="295" pool="1" npcid="214910" map="300100000">
 		<object x="359.276" y="493.75931" z="950.0182" h="37"/>
 	</spawn>
-	<!-- Steel Rake Swabbie (Moster Elite lvl:41) (from client spawn)-->
+	<!-- Steel Rake Swabbie (Moster Elite lvl:41) -->
 	<spawn interval="295" pool="9" npcid="214911" map="300100000">
 		<object x="532.80078" y="485.83044" z="958.70844" h="80"/>
 		<object x="725.76886" y="540.18439" z="942.3539" h="117"/>
@@ -80,7 +98,7 @@
 		<object x="570.29321" y="540.15942" z="951.7029" h="87"/>
 		<object x="354.26627" y="597.23541" z="948.01495" h="90"/>
 	</spawn>
-	<!-- Steel Rake Swabbie (Moster Elite lvl:41) (from client spawn)-->
+	<!-- Steel Rake Swabbie (Moster Elite lvl:41) -->
 	<spawn interval="295" pool="7" npcid="214912" map="300100000">
 		<object x="520.20245" y="538.68164" z="952.46075" h="67"/>
 		<object x="309.70474" y="581.34912" z="953.73706" h="117"/>
@@ -90,7 +108,7 @@
 		<object x="319.6868" y="564.62274" z="953.80176" h="30"/>
 		<object x="472.63641" y="574.8667" z="958.0783" h="12"/>
 	</spawn>
-	<!-- Steel Rake Sailor (Moster Elite lvl:44) (from client spawn)-->
+	<!-- Steel Rake Sailor (Moster Elite lvl:44) -->
 	<spawn interval="295" pool="8" npcid="214913" map="300100000">
 		<object x="270.75238" y="517.02698" z="900.3699" h="90"/>
 		<object x="725.64105" y="512.33063" z="1012.6848" h="0"/>
@@ -101,17 +119,17 @@
 		<object x="725.72516" y="505.67563" z="1012.6848" h="0"/>
 		<object x="386.62607" y="530.01715" z="899.45966" h="60"/>
 	</spawn>
-	<!-- Steel Rake Sailor (Moster Elite lvl:44) (from client spawn)-->
+	<!-- Steel Rake Sailor (Moster Elite lvl:44) -->
 	<spawn interval="295" pool="1" npcid="214914" map="300100000">
 		<object x="598.1994" y="447.19592" z="1021.27325" h="55"/>
 	</spawn>
-	<!-- Steel Rake Sailor (Moster Elite lvl:44) (from client spawn)-->
+	<!-- Steel Rake Sailor (Moster Elite lvl:44) -->
 	<spawn interval="295" pool="3" npcid="214915" map="300100000">
 		<object x="540.04071" y="572.90356" z="1021.2808" h="50"/>
 		<object x="523.53381" y="572.57544" z="1021.2844" h="0"/>
 		<object x="578.10187" y="441.2775" z="1021.27325" h="0"/>
 	</spawn>
-	<!-- Steel Rake Sailor (Moster Elite lvl:44) (from client spawn)-->
+	<!-- Steel Rake Sailor (Moster Elite lvl:44) -->
 	<spawn interval="295" pool="9" npcid="214916" map="300100000">
 		<object x="478.27097" y="556.58813" z="1033.1794" h="0"/>
 		<object x="602.27911" y="567.46124" z="1021.34607" h="27"/>
@@ -123,7 +141,7 @@
 		<object x="594.47754" y="446.25818" z="1021.27325" h="17"/>
 		<object x="467.55844" y="479.54233" z="1033.1982" h="108"/>
 	</spawn>
-	<!-- Steel Rake Sailor (Moster Elite lvl:44) (from client spawn)-->
+	<!-- Steel Rake Sailor (Moster Elite lvl:44) -->
 	<spawn interval="295" pool="10" npcid="214919" map="300100000">
 		<object x="692.65326" y="507.80765" z="1022.92957" h="30"/>
 		<object x="473.96207" y="461.83112" z="1033.2914" h="30"/>
@@ -136,11 +154,11 @@
 		<object x="611.82666" y="455.91144" z="1021.79736" h="20"/>
 		<object x="664.2016" y="543.74719" z="1022.8051" h="33"/>
 	</spawn>
-	<!-- Steel Rake Sailor (Moster Elite lvl:44) (from client spawn)-->
+	<!-- Steel Rake Sailor (Moster Elite lvl:44) -->
 	<spawn interval="295" pool="1" npcid="214920" map="300100000">
 		<object x="486.10898" y="519.34717" z="951.3347" h="15"/>
 	</spawn>
-	<!-- Steel Rake Pirate (Moster Elite lvl:45) (from client spawn)-->
+	<!-- Steel Rake Pirate (Moster Elite lvl:45) -->
 	<spawn interval="295" pool="12" npcid="214921" map="300100000">
 		<object x="741.49744" y="508.86316" z="1011.692" h="0"/>
 		<object x="330.39767" y="469.88553" z="897.1657" h="30"/>
@@ -155,7 +173,7 @@
 		<object x="493.00534" y="510.15967" z="886.0192" h="60"/>
 		<object x="654.85901" y="511.50369" z="875.2937" h="60"/>
 	</spawn>
-	<!-- Steel Rake Pirate (Moster Elite lvl:45) (from client spawn)-->
+	<!-- Steel Rake Pirate (Moster Elite lvl:45) -->
 	<spawn interval="295" pool="5" npcid="214922" map="300100000">
 		<object x="536.54175" y="550.44196" z="1021.81036" h="90"/>
 		<object x="342.08902" y="445.98389" z="894.5658" h="0"/>
@@ -163,7 +181,7 @@
 		<object x="356.54706" y="518.46973" z="894.4312" h="90"/>
 		<object x="540.12775" y="472.10031" z="1021.82764" h="75"/>
 	</spawn>
-	<!-- Steel Rake Pirate (Moster Elite lvl:45) (from client spawn)-->
+	<!-- Steel Rake Pirate (Moster Elite lvl:45) -->
 	<spawn interval="295" pool="7" npcid="214924" map="300100000">
 		<object x="678.17657" y="551.96149" z="1022.37274" h="118"/>
 		<object x="253.56255" y="503.94843" z="900.5438" h="0"/>
@@ -173,11 +191,11 @@
 		<object x="506.01468" y="436.09818" z="885.1844" h="30"/>
 		<object x="693.43536" y="525.99872" z="1022.5903" h="73"/>
 	</spawn>
-	<!-- Steel Rake Pirate (Moster Elite lvl:45) (from client spawn)-->
+	<!-- Steel Rake Pirate (Moster Elite lvl:45) -->
 	<spawn interval="295" pool="1" npcid="214926" map="300100000">
 		<object x="615.27313" y="439.17471" z="1031.037" h="82"/>
 	</spawn>
-	<!-- Steel Rake Pirate (Moster Elite lvl:45) (from client spawn)-->
+	<!-- Steel Rake Pirate (Moster Elite lvl:45) -->
 	<spawn interval="295" pool="7" npcid="214927" map="300100000">
 		<object x="605.93695" y="523.85583" z="879.7747" h="60"/>
 		<object x="500.40353" y="536.90118" z="1033.1573" h="30"/>
@@ -187,7 +205,7 @@
 		<object x="436.94208" y="539.10986" z="886.01807" h="0"/>
 		<object x="557.70386" y="552.14209" z="882.0682" h="30"/>
 	</spawn>
-	<!-- Steel Rake Lookout (Moster Elite lvl:41) (from client spawn)-->
+	<!-- Steel Rake Lookout (Moster Elite lvl:41) -->
 	<spawn interval="295" pool="10" npcid="214929" map="300100000">
 		<object x="491.20734" y="479.55551" z="958.70844" h="60"/>
 		<object x="636.60803" y="505.25854" z="942.24" h="60"/>
@@ -200,30 +218,30 @@
 		<object x="384.25565" y="487.63101" z="946.792" h="60"/>
 		<object x="268.31915" y="477.75171" z="948.66534" h="45"/>
 	</spawn>
-	<!-- Steel Rake Lookout (Moster Elite lvl:41) (from client spawn)-->
+	<!-- Steel Rake Lookout (Moster Elite lvl:41) -->
 	<spawn interval="295" pool="2" npcid="214931" map="300100000">
 		<object x="564.93365" y="504.30988" z="951.70294" h="93"/>
 		<object x="627.48126" y="525.04218" z="942.24" h="0"/>
 	</spawn>
-	<!-- Steel Rake Lookout (Moster Elite lvl:41) (from client spawn)-->
+	<!-- Steel Rake Lookout (Moster Elite lvl:41) -->
 	<spawn interval="295" pool="2" npcid="214934" map="300100000">
 		<object x="402.08411" y="500.60077" z="945.171" h="60"/>
 		<object x="362.11768" y="530.19116" z="950.0182" h="42"/>
 	</spawn>
-	<!-- Steel Rake Lookout (Moster Elite lvl:41) (from client spawn)-->
+	<!-- Steel Rake Lookout (Moster Elite lvl:41) -->
 	<spawn interval="295" pool="4" npcid="214935" map="300100000">
 		<object x="613.74957" y="539.04181" z="942.24" h="0"/>
 		<object x="478.15457" y="573.33685" z="951.7026" h="90"/>
 		<object x="313.07153" y="554.07343" z="951.7954" h="72"/>
 		<object x="746.83911" y="450.83704" z="942.3539" h="0"/>
 	</spawn>
-	<!-- Steel Rake Lookout (Moster Elite lvl:41) (from client spawn)-->
+	<!-- Steel Rake Lookout (Moster Elite lvl:41) -->
 	<spawn interval="295" pool="3" npcid="214936" map="300100000">
 		<object x="309.74347" y="566.14807" z="953.80176" h="13"/>
 		<object x="504.20248" y="517.88086" z="951.3878" h="102"/>
 		<object x="495.6441" y="535.36633" z="952.3826" h="110"/>
 	</spawn>
-	<!-- Steel Rake Marine (Moster Elite lvl:44) (from client spawn)-->
+	<!-- Steel Rake Marine (Moster Elite lvl:44) -->
 	<spawn interval="295" pool="19" npcid="214937" map="300100000">
 		<object x="476.64999" y="479.53" z="1033.1997" h="0"/>
 		<object x="616.89069" y="507.47372" z="879.77423" h="60"/>
@@ -245,11 +263,11 @@
 		<object x="720.17108" y="508.93756" z="1012.8969" h="60"/>
 		<object x="688.96271" y="480.98682" z="1022.6727" h="90"/>
 	</spawn>
-	<!-- Steel Rake Marine (Moster Elite lvl:44) (from client spawn)-->
+	<!-- Steel Rake Marine (Moster Elite lvl:44) -->
 	<spawn interval="295" pool="1" npcid="214938" map="300100000">
 		<object x="328.77469" y="504.57266" z="894.4312" h="0"/>
 	</spawn>
-	<!-- Steel Rake Marine (Moster Elite lvl:44) (from client spawn)-->
+	<!-- Steel Rake Marine (Moster Elite lvl:44) -->
 	<spawn interval="295" pool="6" npcid="214943" map="300100000">
 		<object x="427.74957" y="468.25351" z="885.4785" h="60"/>
 		<object x="512.62622" y="544.54669" z="885.4783" h="8"/>
@@ -258,11 +276,11 @@
 		<object x="567.18091" y="439.68869" z="1021.27325" h="30"/>
 		<object x="246.74503" y="524.98743" z="900.5438" h="0"/>
 	</spawn>
-	<!-- Steel Rake Marine (Moster Elite lvl:44) (from client spawn)-->
+	<!-- Steel Rake Marine (Moster Elite lvl:44) -->
 	<spawn interval="295" pool="1" npcid="214944" map="300100000">
 		<object x="351.86639" y="473.66998" z="897.1657" h="60"/>
 	</spawn>
-	<!-- Steel Rake Elite Vaegir (Moster Elite lvl:41) (from client spawn)-->
+	<!-- Steel Rake Elite Vaegir (Moster Elite lvl:41) -->
 	<spawn interval="295" pool="5" npcid="214945" map="300100000">
 		<object x="620.51343" y="461.91751" z="942.24" h="0"/>
 		<object x="615.57556" y="510.00592" z="942.24" h="80"/>
@@ -270,24 +288,24 @@
 		<object x="728.91443" y="464.6185" z="942.3539" h="60"/>
 		<object x="382.25281" y="523.56439" z="944.07" h="60"/>
 	</spawn>
-	<!-- Steel Rake Elite Vaegir (Moster Elite lvl:41) (from client spawn)-->
+	<!-- Steel Rake Elite Vaegir (Moster Elite lvl:41) -->
 	<spawn interval="295" pool="3" npcid="214946" map="300100000">
 		<object x="379.24084" y="471.74228" z="946.11145" h="27"/>
 		<object x="483.88071" y="533.58936" z="951.70215" h="60"/>
 		<object x="412.91086" y="440.48645" z="945.7788" h="0"/>
 	</spawn>
-	<!-- Steel Rake Elite Vaegir (Moster Elite lvl:41) (from client spawn)-->
+	<!-- Steel Rake Elite Vaegir (Moster Elite lvl:41) -->
 	<spawn interval="295" pool="1" npcid="214947" map="300100000">
 		<object x="462.2153" y="555.42212" z="951.7026" h="30"/>
 	</spawn>
-	<!-- Steel Rake Elite Vaegir (Moster Elite lvl:41) (from client spawn)-->
+	<!-- Steel Rake Elite Vaegir (Moster Elite lvl:41) -->
 	<spawn interval="295" pool="4" npcid="214949" map="300100000">
 		<object x="507.74957" y="536.49274" z="953.4225" h="0"/>
 		<object x="470.78146" y="537.87183" z="951.69995" h="30"/>
 		<object x="472.33646" y="538.36829" z="951.7005" h="45"/>
 		<object x="508.92731" y="536.47272" z="953.4225" h="60"/>
 	</spawn>
-	<!-- Steel Rake Elite Vaegir (Moster Elite lvl:41) (from client spawn)-->
+	<!-- Steel Rake Elite Vaegir (Moster Elite lvl:41) -->
 	<spawn interval="295" pool="5" npcid="214950" map="300100000">
 		<object x="609.15399" y="480.41977" z="936.0304" h="90"/>
 		<object x="349.22427" y="488.5881" z="950.0182" h="45"/>
@@ -295,7 +313,7 @@
 		<object x="656.51086" y="486.25464" z="935.99066" h="0"/>
 		<object x="351.64151" y="524.80823" z="950.0182" h="47"/>
 	</spawn>
-	<!-- Steel Rake Elite Vaegir (Moster Elite lvl:41) (from client spawn)-->
+	<!-- Steel Rake Elite Vaegir (Moster Elite lvl:41) -->
 	<spawn interval="295" pool="6" npcid="214951" map="300100000">
 		<object x="530.3811" y="539.05182" z="959.26044" h="60"/>
 		<object x="706.70752" y="546.87628" z="942.3539" h="57"/>
@@ -304,7 +322,7 @@
 		<object x="727.62988" y="539.02716" z="942.3539" h="57"/>
 		<object x="532.18988" y="484.39526" z="958.70844" h="23"/>
 	</spawn>
-	<!-- Steel Rake Elite Vaegir (Moster Elite lvl:41) (from client spawn)-->
+	<!-- Steel Rake Elite Vaegir (Moster Elite lvl:41) -->
 	<spawn interval="295" pool="5" npcid="214952" map="300100000">
 		<object x="507.56921" y="501.7468" z="951.7033" h="105"/>
 		<object x="499.02869" y="533.04053" z="952.38885" h="52"/>
@@ -312,7 +330,7 @@
 		<object x="482.04166" y="548.00391" z="958.70844" h="60"/>
 		<object x="529.84985" y="521.07184" z="952.49146" h="30"/>
 	</spawn>
-	<!-- Steel Rake Scout (Moster Elite lvl:44) (from client spawn)-->
+	<!-- Steel Rake Scout (Moster Elite lvl:44) -->
 	<spawn interval="295" pool="13" npcid="214953" map="300100000">
 		<object x="525.72296" y="571.25751" z="1021.2894" h="30"/>
 		<object x="320.65558" y="556.74438" z="901.7134" h="37"/>
@@ -328,7 +346,7 @@
 		<object x="616.76202" y="531.87427" z="879.709" h="60"/>
 		<object x="705.42017" y="528.31842" z="1013.11865" h="77"/>
 	</spawn>
-	<!-- Steel Rake Scout (Moster Elite lvl:44) (from client spawn)-->
+	<!-- Steel Rake Scout (Moster Elite lvl:44) -->
 	<spawn interval="295" pool="7" npcid="214954" map="300100000">
 		<object x="664.79346" y="510.26688" z="1022.92957" h="105"/>
 		<object x="547.88" y="479.81137" z="882.0684" h="117"/>
@@ -338,16 +356,16 @@
 		<object x="718.26501" y="491.86725" z="1013.11865" h="3"/>
 		<object x="573.72455" y="566.15509" z="882.0682" h="117"/>
 	</spawn>
-	<!-- Steel Rake Scout (Moster Elite lvl:44) (from client spawn)-->
+	<!-- Steel Rake Scout (Moster Elite lvl:44) -->
 	<spawn interval="295" pool="2" npcid="214955" map="300100000">
 		<object x="578.02148" y="576.90179" z="1021.27325" h="0"/>
 		<object x="680.05176" y="548.0307" z="1022.37274" h="23"/>
 	</spawn>
-	<!-- Steel Rake Scout (Moster Elite lvl:44) (from client spawn)-->
+	<!-- Steel Rake Scout (Moster Elite lvl:44) -->
 	<spawn interval="295" pool="1" npcid="214958" map="300100000">
 		<object x="617.01459" y="574.2688" z="1031.0483" h="77"/>
 	</spawn>
-	<!-- Steel Rake Scout (Moster Elite lvl:44) (from client spawn)-->
+	<!-- Steel Rake Scout (Moster Elite lvl:44) -->
 	<spawn interval="295" pool="12" npcid="214959" map="300100000">
 		<object x="499.1871" y="552.17645" z="885.4783" h="17"/>
 		<object x="409.38364" y="545.54919" z="885.4783" h="45"/>
@@ -362,7 +380,7 @@
 		<object x="574.38336" y="553.11115" z="882.0682" h="37"/>
 		<object x="270.7005" y="515.6015" z="900.3699" h="30"/>
 	</spawn>
-	<!-- Steel Rake Raider (Moster Elite lvl:45) (from client spawn)-->
+	<!-- Steel Rake Raider (Moster Elite lvl:45) -->
 	<spawn interval="295" pool="17" npcid="214961" map="300100000">
 		<object x="391.03604" y="547.9126" z="1072.0844" h="8"/>
 		<object x="557.80914" y="531.69336" z="1023.4255" h="30"/>
@@ -382,14 +400,14 @@
 		<object x="667.80267" y="473.99133" z="1022.6727" h="0"/>
 		<object x="553.64716" y="531.5874" z="882.21277" h="0"/>
 	</spawn>
-	<!-- Shugo Minion (NPC Mormal lvl:40) (from client spawn)-->
+	<!-- Shugo Minion (NPC Mormal lvl:40) -->
 	<spawn interval="295" pool="4" npcid="214965" map="300100000">
 		<object x="562.71484" y="466.25574" z="882.0684" h="67"/>
 		<object x="561.75916" y="468.27603" z="882.0684" h="72"/>
 		<object x="574.60065" y="442.98874" z="882.0684" h="67"/>
 		<object x="574.51361" y="441.11902" z="882.0684" h="48"/>
 	</spawn>
-	<!-- Shugo Minion (NPC Mormal lvl:40) (from client spawn)-->
+	<!-- Shugo Minion (NPC Mormal lvl:40) -->
 	<spawn interval="295" pool="5" npcid="214966" map="300100000">
 		<object x="600.1087" y="477.45776" z="869.7917" h="60"/>
 		<object x="597.31171" y="479.63898" z="869.7917" h="60"/>
@@ -397,16 +415,16 @@
 		<object x="571.38062" y="576.14075" z="882.0682" h="60"/>
 		<object x="590.53888" y="532.13531" z="869.7271" h="67"/>
 	</spawn>
-	<!-- Steel Rake Mate (Moster Elite lvl:44) (from client spawn)-->
+	<!-- Steel Rake Mate (Moster Elite lvl:44) -->
 	<spawn interval="295" pool="2" npcid="214967" map="300100000">
 		<object x="390.1669" y="432.52676" z="891.70435" h="30"/>
 		<object x="366.09055" y="449.98712" z="892.03107" h="80"/>
 	</spawn>
-	<!-- Steel Rake Mate (Moster Elite lvl:44) (from client spawn)-->
+	<!-- Steel Rake Mate (Moster Elite lvl:44) -->
 	<spawn interval="295" pool="1" npcid="214968" map="300100000">
 		<object x="518.96289" y="509.12674" z="1023.46735" h="0"/>
 	</spawn>
-	<!-- Steel Rake Archer (Moster Elite lvl:41) (from client spawn)-->
+	<!-- Steel Rake Archer (Moster Elite lvl:41) -->
 	<spawn interval="295" pool="11" npcid="214969" map="300100000">
 		<object x="337.09964" y="515.9137" z="949.7315" h="90"/>
 		<object x="375.33316" y="521.42572" z="944.0651" h="90"/>
@@ -420,33 +438,33 @@
 		<object x="334.37671" y="609.70514" z="950.66534" h="60"/>
 		<object x="386.98569" y="616.80212" z="948.10394" h="60"/>
 	</spawn>
-	<!-- Steel Rake Archer (Moster Elite lvl:41) (from client spawn)-->
+	<!-- Steel Rake Archer (Moster Elite lvl:41) -->
 	<spawn interval="295" pool="2" npcid="214971" map="300100000">
 		<object x="705.45929" y="546.96997" z="942.3539" h="117"/>
 		<object x="727.48657" y="464.59811" z="942.3539" h="0"/>
 	</spawn>
-	<!-- Steel Rake Archer (Moster Elite lvl:41) (from client spawn)-->
+	<!-- Steel Rake Archer (Moster Elite lvl:41) -->
 	<spawn interval="295" pool="1" npcid="214973" map="300100000">
 		<object x="488.94305" y="483.57047" z="951.7034" h="0"/>
 	</spawn>
-	<!-- Steel Rake Archer (Moster Elite lvl:41) (from client spawn)-->
+	<!-- Steel Rake Archer (Moster Elite lvl:41) -->
 	<spawn interval="295" pool="3" npcid="214974" map="300100000">
 		<object x="349.28174" y="501.54852" z="950.0182" h="73"/>
 		<object x="393.384" y="498.56494" z="945.171" h="37"/>
 		<object x="651.40894" y="541.19885" z="936.09424" h="0"/>
 	</spawn>
-	<!-- Steel Rake Archer (Moster Elite lvl:41) (from client spawn)-->
+	<!-- Steel Rake Archer (Moster Elite lvl:41) -->
 	<spawn interval="295" pool="2" npcid="214975" map="300100000">
 		<object x="461.07407" y="485.82922" z="958.7086" h="53"/>
 		<object x="463.90497" y="571.42816" z="951.7026" h="90"/>
 	</spawn>
-	<!-- Steel Rake Archer (Moster Elite lvl:41) (from client spawn)-->
+	<!-- Steel Rake Archer (Moster Elite lvl:41) -->
 	<spawn interval="295" pool="3" npcid="214976" map="300100000">
 		<object x="468.3681" y="514.23895" z="952.5329" h="60"/>
 		<object x="519.95178" y="491.56076" z="951.70355" h="60"/>
 		<object x="468.21777" y="512.91095" z="958.70844" h="0"/>
 	</spawn>
-	<!-- Steel Rake Sniper (Moster Elite lvl:44) (from client spawn)-->
+	<!-- Steel Rake Sniper (Moster Elite lvl:44) -->
 	<spawn interval="295" pool="22" npcid="214977" map="300100000">
 		<object x="500.16101" y="553.85065" z="885.4783" h="78"/>
 		<object x="290.44528" y="504.34747" z="899.9443" h="60"/>
@@ -471,44 +489,44 @@
 		<object x="593.77332" y="506.52005" z="879.77423" h="90"/>
 		<object x="533.05713" y="445.16107" z="882.1325" h="60"/>
 	</spawn>
-	<!-- Steel Rake Sniper (Moster Elite lvl:44) (from client spawn)-->
+	<!-- Steel Rake Sniper (Moster Elite lvl:44) -->
 	<spawn interval="295" pool="1" npcid="214978" map="300100000">
 		<object x="458.71375" y="457.94901" z="1032.9943" h="75"/>
 	</spawn>
-	<!-- Steel Rake Sniper (Moster Elite lvl:44) (from client spawn)-->
+	<!-- Steel Rake Sniper (Moster Elite lvl:44) -->
 	<spawn interval="295" pool="2" npcid="214979" map="300100000">
 		<object x="681.66968" y="527.1889" z="1022.5903" h="30"/>
 		<object x="558.68231" y="495.9024" z="882.19867" h="102"/>
 	</spawn>
-	<!-- Steel Rake Sniper (Moster Elite lvl:44) (from client spawn)-->
+	<!-- Steel Rake Sniper (Moster Elite lvl:44) -->
 	<spawn interval="295" pool="2" npcid="214982" map="300100000">
 		<object x="455.51041" y="562.7605" z="1032.8864" h="117"/>
 		<object x="618.99768" y="573.07837" z="1031.0461" h="90"/>
 	</spawn>
-	<!-- Steel Rake Sniper (Moster Elite lvl:44) (from client spawn)-->
+	<!-- Steel Rake Sniper (Moster Elite lvl:44) -->
 	<spawn interval="295" pool="2" npcid="214983" map="300100000">
 		<object x="589.625" y="553.047" z="1021.79736" h="45"/>
 		<object x="556.10443" y="437.70804" z="882.0684" h="7"/>
 	</spawn>
-	<!-- Steel Rake Shaman (Moster Elite lvl:41) (from client spawn)-->
+	<!-- Steel Rake Shaman (Moster Elite lvl:41) -->
 	<spawn interval="295" pool="4" npcid="214985" map="300100000">
 		<object x="291.46118" y="536.31641" z="952.644" h="60"/>
 		<object x="364.27451" y="488.56479" z="946.81714" h="105"/>
 		<object x="464.60052" y="446.72656" z="946.0647" h="60"/>
 		<object x="291.77823" y="476.04916" z="952.644" h="60"/>
 	</spawn>
-	<!-- Steel Rake Shaman (Moster Elite lvl:41) (from client spawn)-->
+	<!-- Steel Rake Shaman (Moster Elite lvl:41) -->
 	<spawn interval="295" pool="4" npcid="214987" map="300100000">
 		<object x="606.56049" y="463.90347" z="942.24" h="60"/>
 		<object x="618.51471" y="465.78397" z="936.075" h="60"/>
 		<object x="615.85101" y="539.05945" z="942.24" h="60"/>
 		<object x="387.17453" y="513.33649" z="943.9403" h="100"/>
 	</spawn>
-	<!-- Steel Rake Shaman (Moster Elite lvl:41) (from client spawn)-->
+	<!-- Steel Rake Shaman (Moster Elite lvl:41) -->
 	<spawn interval="295" pool="1" npcid="214990" map="300100000">
 		<object x="350.74042" y="538.87628" z="950.0182" h="75"/>
 	</spawn>
-	<!-- Steel Rake Shaman (Moster Elite lvl:41) (from client spawn)-->
+	<!-- Steel Rake Shaman (Moster Elite lvl:41) -->
 	<spawn interval="295" pool="5" npcid="214991" map="300100000">
 		<object x="355.34567" y="593.49591" z="948.01495" h="30"/>
 		<object x="610.44336" y="494.85489" z="942.24" h="57"/>
@@ -516,18 +534,18 @@
 		<object x="648.27563" y="529.29962" z="936.05786" h="0"/>
 		<object x="633.01575" y="559.71429" z="936.6849" h="30"/>
 	</spawn>
-	<!-- Steel Rake Shaman (Moster Elite lvl:41) (from client spawn)-->
+	<!-- Steel Rake Shaman (Moster Elite lvl:41) -->
 	<spawn interval="295" pool="2" npcid="214992" map="300100000">
 		<object x="504.93256" y="516.76208" z="951.40405" h="42"/>
 		<object x="489.3317" y="482.43585" z="958.70844" h="30"/>
 	</spawn>
-	<!-- Steel Rake Dark Mage (Moster Elite lvl:44) (from client spawn)-->
+	<!-- Steel Rake Dark Mage (Moster Elite lvl:44) -->
 	<spawn interval="295" pool="3" npcid="214994" map="300100000">
 		<object x="581.31537" y="574.6734" z="1021.27325" h="30"/>
 		<object x="480.35172" y="556.56403" z="1033.1794" h="60"/>
 		<object x="666.93341" y="546.16309" z="1022.8051" h="60"/>
 	</spawn>
-	<!-- Steel Rake Dark Mage (Moster Elite lvl:44) (from client spawn)-->
+	<!-- Steel Rake Dark Mage (Moster Elite lvl:44) -->
 	<spawn interval="295" pool="6" npcid="214995" map="300100000">
 		<object x="540.72498" y="566.95544" z="882.0682" h="98"/>
 		<object x="604.21887" y="567.55414" z="1021.3366" h="50"/>
@@ -536,11 +554,11 @@
 		<object x="345.07043" y="507.88907" z="894.4312" h="60"/>
 		<object x="501.9147" y="537.02191" z="885.4783" h="50"/>
 	</spawn>
-	<!-- Steel Rake Dark Mage (Moster Elite lvl:44) (from client spawn)-->
+	<!-- Steel Rake Dark Mage (Moster Elite lvl:44) -->
 	<spawn interval="295" pool="1" npcid="214998" map="300100000">
 		<object x="454.8768" y="560.87781" z="1032.9231" h="117"/>
 	</spawn>
-	<!-- Steel Rake Dark Mage (Moster Elite lvl:44) (from client spawn)-->
+	<!-- Steel Rake Dark Mage (Moster Elite lvl:44) -->
 	<spawn interval="295" pool="7" npcid="214999" map="300100000">
 		<object x="588.11017" y="477.67743" z="1021.79736" h="60"/>
 		<object x="623.16071" y="529.35217" z="1031.0707" h="2"/>
@@ -550,7 +568,7 @@
 		<object x="380.86667" y="472.66058" z="894.76385" h="57"/>
 		<object x="704.03552" y="526.65314" z="1013.11865" h="12"/>
 	</spawn>
-	<!-- Steel Rake Healer (Moster Elite lvl:41) (from client spawn)-->
+	<!-- Steel Rake Healer (Moster Elite lvl:41) -->
 	<spawn interval="295" pool="6" npcid="215003" map="300100000">
 		<object x="372.24002" y="462.38193" z="946.11145" h="0"/>
 		<object x="610.58746" y="497.12653" z="942.24" h="60"/>
@@ -559,22 +577,22 @@
 		<object x="717.92114" y="532.58124" z="942.3539" h="30"/>
 		<object x="634.1394" y="488.42792" z="942.24" h="12"/>
 	</spawn>
-	<!-- Steel Rake Healer (Moster Elite lvl:41) (from client spawn)-->
+	<!-- Steel Rake Healer (Moster Elite lvl:41) -->
 	<spawn interval="295" pool="4" npcid="215007" map="300100000">
 		<object x="748.2016" y="452.4986" z="942.3539" h="90"/>
 		<object x="459.48535" y="486.73114" z="958.7086" h="105"/>
 		<object x="570.2865" y="537.32385" z="951.7029" h="33"/>
 		<object x="287.02658" y="525.29529" z="950.66534" h="0"/>
 	</spawn>
-	<!-- Steel Rake Priest (Moster Elite lvl:44) (from client spawn)-->
+	<!-- Steel Rake Priest (Moster Elite lvl:44) -->
 	<spawn interval="295" pool="1" npcid="215009" map="300100000">
 		<object x="541.95825" y="568.3382" z="882.0682" h="117"/>
 	</spawn>
-	<!-- Steel Rake Priest (Moster Elite lvl:44) (from client spawn)-->
+	<!-- Steel Rake Priest (Moster Elite lvl:44) -->
 	<spawn interval="295" pool="1" npcid="215010" map="300100000">
 		<object x="457.84457" y="561.14667" z="1032.9487" h="55"/>
 	</spawn>
-	<!-- Steel Rake Priest (Moster Elite lvl:44) (from client spawn)-->
+	<!-- Steel Rake Priest (Moster Elite lvl:44) -->
 	<spawn interval="295" pool="8" npcid="215011" map="300100000">
 		<object x="343.93506" y="519.30817" z="894.4312" h="65"/>
 		<object x="703.67627" y="516.26996" z="1012.8969" h="105"/>
@@ -585,7 +603,7 @@
 		<object x="604.9043" y="569.13019" z="1021.317" h="53"/>
 		<object x="493.06268" y="507.98514" z="886.0192" h="60"/>
 	</spawn>
-	<!-- Steel Rake Priest (Moster Elite lvl:44) (from client spawn)-->
+	<!-- Steel Rake Priest (Moster Elite lvl:44) -->
 	<spawn interval="295" pool="9" npcid="215015" map="300100000">
 		<object x="526.07971" y="445.9682" z="1021.28284" h="55"/>
 		<object x="588.11542" y="554.36182" z="1021.79736" h="105"/>
@@ -597,12 +615,12 @@
 		<object x="502.74878" y="474.69699" z="1033.1614" h="70"/>
 		<object x="329.23294" y="516.49109" z="894.4312" h="32"/>
 	</spawn>
-	<!-- Kobold Worker (Moster Elite lvl:41) (from client spawn)-->
+	<!-- Kobold Worker (Moster Elite lvl:41) -->
 	<spawn interval="295" pool="2" npcid="215017" map="300100000">
 		<object x="643.7088" y="507.21707" z="935.6727" h="15"/>
 		<object x="396.75314" y="594.91614" z="948.0126" h="60"/>
 	</spawn>
-	<!-- Kobold Worker (Moster Elite lvl:41) (from client spawn)-->
+	<!-- Kobold Worker (Moster Elite lvl:41) -->
 	<spawn interval="295" pool="17" npcid="215018" map="300100000">
 		<object x="531.79926" y="504.02158" z="951.70264" h="90"/>
 		<object x="719.96466" y="536.77954" z="942.4268" h="75"/>
@@ -622,17 +640,17 @@
 		<object x="742.19873" y="454.03452" z="942.50854" h="75"/>
 		<object x="279.45416" y="517.99573" z="950.66534" h="20"/>
 	</spawn>
-	<!-- Kobold Worker (Moster Elite lvl:41) (from client spawn)-->
+	<!-- Kobold Worker (Moster Elite lvl:41) -->
 	<spawn interval="295" pool="3" npcid="215019" map="300100000">
 		<object x="311.64786" y="552.81262" z="951.7954" h="18"/>
 		<object x="489.60016" y="485.37347" z="951.7033" h="90"/>
 		<object x="402.62537" y="511.08429" z="944.6922" h="53"/>
 	</spawn>
-	<!-- Kobold Peon (Moster Elite lvl:44) (from client spawn)-->
+	<!-- Kobold Peon (Moster Elite lvl:44) -->
 	<spawn interval="295" pool="1" npcid="215020" map="300100000">
 		<object x="573.63831" y="554.80682" z="882.0682" h="97"/>
 	</spawn>
-	<!-- Kobold Peon (Moster Elite lvl:44) (from client spawn)-->
+	<!-- Kobold Peon (Moster Elite lvl:44) -->
 	<spawn interval="295" pool="30" npcid="215021" map="300100000">
 		<object x="368.40131" y="514.34796" z="894.43115" h="30"/>
 		<object x="490.3331" y="462.76434" z="1033.3134" h="0"/>
@@ -665,13 +683,13 @@
 		<object x="608.77606" y="509.41092" z="1023.2103" h="0"/>
 		<object x="604.20758" y="470.57669" z="869.7917" h="60"/>
 	</spawn>
-	<!-- Kobold Peon (Moster Elite lvl:44) (from client spawn)-->
+	<!-- Kobold Peon (Moster Elite lvl:44) -->
 	<spawn interval="295" pool="3" npcid="215022" map="300100000">
 		<object x="343.86014" y="447.30475" z="894.5658" h="77"/>
 		<object x="343.78055" y="444.46906" z="894.5658" h="45"/>
 		<object x="406.20352" y="432.24069" z="891.69305" h="30"/>
 	</spawn>
-	<!-- Skurv Warrior (Moster Elite lvl:41) (from client spawn)-->
+	<!-- Skurv Warrior (Moster Elite lvl:41) -->
 	<spawn interval="295" pool="6" npcid="215023" map="300100000">
 		<object x="382.6893" y="599.30835" z="946.0964" h="93"/>
 		<object x="306.67395" y="507.71765" z="950.66534" h="60"/>
@@ -680,7 +698,7 @@
 		<object x="306.72119" y="504.7634" z="950.66534" h="60"/>
 		<object x="384.25592" y="599.24573" z="946.0964" h="83"/>
 	</spawn>
-	<!-- Skurv Rake Warrior (Moster Elite lvl:44) (from client spawn)-->
+	<!-- Skurv Rake Warrior (Moster Elite lvl:44) -->
 	<spawn interval="295" pool="12" npcid="215024" map="300100000">
 		<object x="298.04086" y="525.33105" z="900.3699" h="27"/>
 		<object x="524.0387" y="445.36951" z="1021.2832" h="8"/>
@@ -695,14 +713,14 @@
 		<object x="379.94199" y="474.55588" z="894.76385" h="90"/>
 		<object x="672.12225" y="530.60675" z="1022.5903" h="60"/>
 	</spawn>
-	<!-- Skurv Hunter (Moster Elite lvl:41) (from client spawn)-->
+	<!-- Skurv Hunter (Moster Elite lvl:41) -->
 	<spawn interval="295" pool="4" npcid="215025" map="300100000">
 		<object x="288.05685" y="486.72839" z="950.66534" h="30"/>
 		<object x="372.11661" y="495.7774" z="944.0651" h="30"/>
 		<object x="379.06039" y="495.66763" z="944.0651" h="30"/>
 		<object x="288.96823" y="525.30243" z="950.66534" h="60"/>
 	</spawn>
-	<!-- Skurv Rake Hunter (Moster Elite lvl:44) (from client spawn)-->
+	<!-- Skurv Rake Hunter (Moster Elite lvl:44) -->
 	<spawn interval="295" pool="5" npcid="215026" map="300100000">
 		<object x="690.94464" y="467.34418" z="1022.6727" h="30"/>
 		<object x="248.06993" y="526.36639" z="900.5438" h="90"/>
@@ -710,7 +728,7 @@
 		<object x="671.59839" y="529.3371" z="1022.5903" h="45"/>
 		<object x="566.29498" y="440.85031" z="1021.27325" h="100"/>
 	</spawn>
-	<!-- Patrol Tog (Moster Elite lvl:41) (from client spawn)-->
+	<!-- Patrol Tog (Moster Elite lvl:41) -->
 	<spawn interval="295" pool="6" npcid="215027" map="300100000">
 		<object x="380.81415" y="556.73151" z="946.0964" h="20"/>
 		<object x="514.78839" y="469.63553" z="951.70465" h="90"/>
@@ -719,7 +737,7 @@
 		<object x="618.94733" y="531.28314" z="936.06366" h="60"/>
 		<object x="511.88046" y="469.64368" z="951.70465" h="90"/>
 	</spawn>
-	<!-- Guard Tog (Moster Elite lvl:44) (from client spawn)-->
+	<!-- Guard Tog (Moster Elite lvl:44) -->
 	<spawn interval="295" pool="9" npcid="215028" map="300100000">
 		<object x="511.68878" y="459.30096" z="885.4783" h="60"/>
 		<object x="253.91408" y="483.90723" z="900.5438" h="0"/>
@@ -731,7 +749,7 @@
 		<object x="358.12106" y="518.74438" z="894.4312" h="90"/>
 		<object x="465.69247" y="477.62369" z="1033.2162" h="108"/>
 	</spawn>
-	<!-- Calydon Corsair (Moster Elite lvl:41) (from client spawn)-->
+	<!-- Calydon Corsair (Moster Elite lvl:41) -->
 	<spawn interval="295" pool="8" npcid="215029" map="300100000">
 		<object x="409.46072" y="554.42407" z="946.0964" h="45"/>
 		<object x="337.33734" y="486.4364" z="949.7315" h="30"/>
@@ -742,7 +760,7 @@
 		<object x="411.58304" y="556.54761" z="946.0964" h="45"/>
 		<object x="434.54684" y="528.44385" z="946.6583" h="45"/>
 	</spawn>
-	<!-- Calydon Corsair (Moster Elite lvl:41) (from client spawn)-->
+	<!-- Calydon Corsair (Moster Elite lvl:41) -->
 	<spawn interval="295" pool="7" npcid="215030" map="300100000">
 		<object x="410.81128" y="541.84485" z="947.20374" h="37"/>
 		<object x="417.39694" y="527.32269" z="947.20374" h="105"/>
@@ -752,7 +770,7 @@
 		<object x="410.06113" y="567.24115" z="948.0602" h="87"/>
 		<object x="427.26273" y="525.43597" z="947.20374" h="105"/>
 	</spawn>
-	<!-- Calydon Corsair (Moster Elite lvl:41) (from client spawn)-->
+	<!-- Calydon Corsair (Moster Elite lvl:41) -->
 	<spawn interval="295" pool="6" npcid="215031" map="300100000">
 		<object x="492.93268" y="498.28058" z="951.7033" h="2"/>
 		<object x="395.12106" y="584.94995" z="948.0071" h="90"/>
@@ -761,33 +779,33 @@
 		<object x="487.0195" y="482.26709" z="958.70844" h="30"/>
 		<object x="321.4754" y="567.40881" z="953.80176" h="75"/>
 	</spawn>
-	<!-- Calydon Sentry (Moster Elite lvl:44) (from client spawn)-->
+	<!-- Calydon Sentry (Moster Elite lvl:44) -->
 	<spawn interval="295" pool="2" npcid="215032" map="300100000">
 		<object x="366.7717" y="526.03619" z="899.9866" h="60"/>
 		<object x="252.75659" y="501.66483" z="900.5438" h="0"/>
 	</spawn>
-	<!-- Calydon Sentry (Moster Elite lvl:44) (from client spawn)-->
+	<!-- Calydon Sentry (Moster Elite lvl:44) -->
 	<spawn interval="295" pool="1" npcid="215033" map="300100000">
 		<object x="456.65182" y="455.74319" z="1032.9595" h="108"/>
 	</spawn>
-	<!-- Calydon Shaman (Moster Elite lvl:41) (from client spawn)-->
+	<!-- Calydon Shaman (Moster Elite lvl:41) -->
 	<spawn interval="295" pool="3" npcid="215035" map="300100000">
 		<object x="437.33029" y="531.30066" z="946.6583" h="45"/>
 		<object x="423.14096" y="543.96423" z="945.90643" h="45"/>
 		<object x="406.08911" y="583.43616" z="948.04865" h="60"/>
 	</spawn>
-	<!-- Calydon Shaman (Moster Elite lvl:41) (from client spawn)-->
+	<!-- Calydon Shaman (Moster Elite lvl:41) -->
 	<spawn interval="295" pool="1" npcid="215036" map="300100000">
 		<object x="413.43207" y="532.04279" z="947.20374" h="10"/>
 	</spawn>
-	<!-- Kaneron Agent (Moster Elite lvl:44) (from client spawn)-->
+	<!-- Kaneron Agent (Moster Elite lvl:44) -->
 	<spawn interval="295" pool="4" npcid="215041" map="300100000">
 		<object x="516.19836" y="489.70801" z="885.76025" h="60"/>
 		<object x="517.67804" y="485.83215" z="886.3983" h="83"/>
 		<object x="515.22455" y="493.45975" z="885.76025" h="15"/>
 		<object x="511.5993" y="486.33777" z="886.4081" h="30"/>
 	</spawn>
-	<!-- Krall Elite Prison Guard (Moster Elite lvl:44) (from client spawn)-->
+	<!-- Krall Elite Prison Guard (Moster Elite lvl:44) -->
 	<spawn interval="295" pool="42" npcid="215048" map="300100000">
 		<object x="575.72784" y="565.92004" z="882.0682" h="57"/>
 		<object x="572.6355" y="478.05206" z="882.0684" h="90"/>
@@ -832,7 +850,7 @@
 		<object x="515.28033" y="543.43964" z="885.4783" h="48"/>
 		<object x="572.15369" y="578.80164" z="882.0682" h="90"/>
 	</spawn>
-	<!-- Petrahulk Sentinel (Moster Elite lvl:41) (from client spawn)-->
+	<!-- Petrahulk Sentinel (Moster Elite lvl:41) -->
 	<spawn interval="295" pool="17" npcid="215049" map="300100000">
 		<object x="669.71851" y="482.9357" z="942.3741" h="0"/>
 		<object x="676.46631" y="519.83044" z="942.3741" h="60"/>
@@ -852,92 +870,92 @@
 		<object x="611.50928" y="512.38647" z="935.71136" h="30"/>
 		<object x="579.24414" y="560.80145" z="944.6704" h="90"/>
 	</spawn>
-	<!-- Flame Wing Griffon (Moster Normal lvl:44) (from client spawn)-->
+	<!-- Flame Wing Griffon (Moster Normal lvl:44) -->
 	<spawn interval="295" pool="2" npcid="215051" map="300100000">
 		<object x="406.17163" y="434.69254" z="891.69305" h="90"/>
 		<object x="404.79501" y="443.51703" z="891.693" h="60"/>
 	</spawn>
-	<!-- Bronze Teeth Mosbear (Moster Normal lvl:44) (from client spawn)-->
+	<!-- Bronze Teeth Mosbear (Moster Normal lvl:44) -->
 	<spawn interval="295" pool="3" npcid="215052" map="300100000">
 		<object x="390.52155" y="441.95419" z="891.7043" h="60"/>
 		<object x="389.20029" y="434.54419" z="891.7054" h="92"/>
 		<object x="391.72009" y="434.1738" z="891.7014" h="75"/>
 	</spawn>
-	<!-- Silk Hair Arachna (Moster Normal lvl:44) (from client spawn)-->
+	<!-- Silk Hair Arachna (Moster Normal lvl:44) -->
 	<spawn interval="295" pool="4" npcid="215053" map="300100000">
 		<object x="358.08606" y="444.33856" z="893.47833" h="60"/>
 		<object x="373.49493" y="440.91779" z="891.73224" h="60"/>
 		<object x="366.19788" y="447.01181" z="892.0504" h="30"/>
 		<object x="363.92871" y="449.13864" z="892.45087" h="8"/>
 	</spawn>
-	<!-- Warden Tantaka (Named Mob Elite lvl:44) (from client spawn)-->
+	<!-- Warden Tantaka (Named Mob Elite lvl:44) -->
 	<spawn interval="295" pool="1" npcid="215056" map="300100000">
 		<object x="461.75592" y="570.70447" z="887.4175" h="90"/>
 	</spawn>
-	<!-- Kedomke the Drinker (Named Mob Elite lvl:42) (from client spawn)-->
+	<!-- Kedomke the Drinker (Named Mob Elite lvl:42) -->
 	<spawn interval="295" pool="1" npcid="215057" map="300100000">
 		<object x="398.59241" y="572.09576" z="948.0369" h="40"/>
 	</spawn>
-	<!-- Timid Alakin (Named Mob Elite lvl:45) (from client spawn)-->
+	<!-- Timid Alakin (Named Mob Elite lvl:45) -->
 	<spawn interval="295" pool="1" npcid="215058" map="300100000">
 		<object x="463.45206" y="537.51526" z="886.01807" h="60"/>
 	</spawn>
-	<!-- Bhagwaninerk (Named Mob Elite lvl:42) (from client spawn)-->
+	<!-- Bhagwaninerk (Named Mob Elite lvl:42) -->
 	<spawn interval="295" pool="1" npcid="215063" map="300100000">
 		<object x="400.13132" y="512.1405" z="945.683" h="118"/>
 	</spawn>
-	<!-- Technician Binukin (Named Mob Elite lvl:45) (from client spawn)-->
+	<!-- Technician Binukin (Named Mob Elite lvl:45) -->
 	<spawn interval="295" pool="1" npcid="215066" map="300100000">
 		<object x="544.71136" y="550.89099" z="882.0682" h="90"/>
 	</spawn>
-	<!-- Chief Mate Menekiki (Moster Elite lvl:45) (from client spawn)-->
+	<!-- Chief Mate Menekiki (Moster Elite lvl:45) -->
 	<spawn interval="295" pool="1" npcid="215069" map="300100000">
 		<object x="473.17783" y="508.96564" z="1032.8387" h="0"/>
 	</spawn>
-	<!-- Chief Gunner Koakoa (Named Mob Hero lvl:45) (from client spawn)-->
+	<!-- Chief Gunner Koakoa (Named Mob Hero lvl:45) -->
 	<spawn interval="295" pool="1" npcid="215070" map="300100000">
 		<object x="755.77679" y="509.02036" z="1012.30084" h="60"/>
 	</spawn>
-	<!-- Firelord Kadomch (Named Mob Elite lvl:43) (from client spawn)-->
+	<!-- Firelord Kadomch (Named Mob Elite lvl:43) -->
 	<spawn interval="295" pool="1" npcid="215072" map="300100000">
 		<object x="435.34842" y="530.32227" z="946.6583" h="45"/>
 	</spawn>
-	<!-- Freed Genie (Named Mob Elite lvl:44) (from client spawn)-->
+	<!-- Freed Genie (Named Mob Elite lvl:44) -->
 	<spawn interval="295" pool="1" npcid="215073" map="300100000">
 		<object x="316.85077" y="574.41003" z="900.98566" h="60"/>
 	</spawn>
-	<!-- Special Delivery (Named Mob Hero lvl:44) (from client spawn)-->
+	<!-- Special Delivery (Named Mob Hero lvl:44) -->
 	<spawn interval="295" pool="1" npcid="215075" map="300100000">
 		<object x="461.93335" y="510.54565" z="877.6181" h="90"/>
 	</spawn>
-	<!-- Madame Bovariki (Named Mob Hero lvl:42)-->
+	<!-- Madame Bovariki (Named Mob Hero lvl:42) -->
 	<spawn interval="295" pool="1" npcid="215078" map="300100000">
 		<object x="460.9045" y="512.6853" z="952.5492" h="0"/>
 	</spawn>
-	<!-- Golden Eye Mantutu (Named Mob Hero lvl:43) (from client spawn)-->
+	<!-- Golden Eye Mantutu (Named Mob Hero lvl:43) -->
 	<spawn interval="295" pool="1" npcid="215079" map="300100000">
 		<object x="732.64862" y="500.58621" z="941.4781" h="60"/>
 	</spawn>
-	<!-- Engineer Lahulahu (Moster Hero lvl:45) (from client spawn)-->
+	<!-- Engineer Lahulahu (Moster Hero lvl:45) -->
 	<spawn interval="295" pool="1" npcid="215080" map="300100000">
 		<object x="697.74097" y="508.53439" z="867.6557" h="60"/>
 	</spawn>
-	<!-- Brass-Eye Grogget (Moster Hero lvl:46) (from client spawn)-->
+	<!-- Brass-Eye Grogget (Moster Hero lvl:46) -->
 	<spawn interval="295" pool="1" npcid="215081" map="300100000">
 		<object x="427.59854" y="509.88449" z="1075.3801" h="60"/>
 	</spawn>
-	<!-- Sturdy Bubukin (Moster Elite lvl:45) (from client spawn)-->
+	<!-- Sturdy Bubukin (Moster Elite lvl:45) -->
 	<spawn interval="295" pool="1" npcid="215401" map="300100000">
 		<object x="357.5961" y="506.38663" z="894.43115" h="60"/>
 	</spawn>
-	<!-- Steel Rake Mate (Moster Elite lvl:44) (from client spawn)-->
+	<!-- Steel Rake Mate (Moster Elite lvl:44) -->
 	<spawn interval="295" pool="4" npcid="215402" map="300100000">
 		<object x="523.41986" y="500.38156" z="1023.20886" h="45"/>
 		<object x="528.8714" y="507.59579" z="1023.1978" h="57"/>
 		<object x="523.87891" y="514.12048" z="1023.20465" h="75"/>
 		<object x="528.69678" y="513.43597" z="1023.20215" h="67"/>
 	</spawn>
-	<!-- Steel Rake Gunner (Moster Elite lvl:44) (from client spawn)-->
+	<!-- Steel Rake Gunner (Moster Elite lvl:44) -->
 	<spawn interval="295" pool="6" npcid="215403" map="300100000">
 		<object x="526.33319" y="501.09882" z="1023.2066" h="47"/>
 		<object x="518.35052" y="511.4787" z="1023.70123" h="0"/>
@@ -946,26 +964,26 @@
 		<object x="526.40576" y="507.99994" z="1023.1976" h="60"/>
 		<object x="523.82007" y="506.18951" z="1023.1997" h="47"/>
 	</spawn>
-	<!-- Calydon Sellsword (Moster Elite lvl:44) (from client spawn)-->
+	<!-- Calydon Sellsword (Moster Elite lvl:44) -->
 	<spawn interval="295" pool="4" npcid="215404" map="300100000">
 		<object x="524.24188" y="510.00162" z="1023.1978" h="60"/>
 		<object x="523.82434" y="517.49359" z="1023.2094" h="80"/>
 		<object x="527.77264" y="503.9736" z="1023.2019" h="48"/>
 		<object x="530.19897" y="509.80792" z="1023.22186" h="60"/>
 	</spawn>
-	<!-- Calydon Dark Shaman (Moster Elite lvl:44) (from client spawn)-->
+	<!-- Calydon Dark Shaman (Moster Elite lvl:44) -->
 	<spawn interval="295" pool="4" npcid="215405" map="300100000">
 		<object x="528.03857" y="510.73761" z="1024.7974" h="60"/>
 		<object x="524.88971" y="503.25323" z="1023.2036" h="50"/>
 		<object x="529.65625" y="505.17035" z="1023.19995" h="57"/>
 		<object x="526.25623" y="516.04443" z="1023.2068" h="77"/>
 	</spawn>
-	<!-- Steel Rake Swabbie (Moster Elite lvl:41) (from client spawn)-->
+	<!-- Steel Rake Swabbie (Moster Elite lvl:41) -->
 	<spawn interval="295" pool="2" npcid="215406" map="300100000">
 		<object x="491.94128" y="545.56915" z="953.3825" h="30"/>
 		<object x="471.27014" y="539.34747" z="951.7005" h="105"/>
 	</spawn>
-	<!-- Calydon Sentry (Moster Elite lvl:44) (from client spawn)-->
+	<!-- Calydon Sentry (Moster Elite lvl:44) -->
 	<spawn interval="295" pool="7" npcid="215408" map="300100000">
 		<object x="502.60828" y="539.42334" z="1033.1554" h="67"/>
 		<object x="583.0434" y="507.45303" z="1023.20197" h="30"/>
@@ -975,13 +993,13 @@
 		<object x="521.61066" y="548.91003" z="1021.82715" h="30"/>
 		<object x="720.05975" y="526.2301" z="1013.11865" h="75"/>
 	</spawn>
-	<!-- Calydon Shaman (Moster Elite lvl:41) (from client spawn)-->
+	<!-- Calydon Shaman (Moster Elite lvl:41) -->
 	<spawn interval="295" pool="3" npcid="215409" map="300100000">
 		<object x="487.58316" y="520.79761" z="951.33496" h="75"/>
 		<object x="415.41885" y="530.92432" z="946.6583" h="47"/>
 		<object x="430.36743" y="552.29993" z="945.90643" h="118"/>
 	</spawn>
-	<!-- Calydon Mystic (Moster Elite lvl:44) (from client spawn)-->
+	<!-- Calydon Mystic (Moster Elite lvl:44) -->
 	<spawn interval="295" pool="5" npcid="215410" map="300100000">
 		<object x="556.98096" y="579.20123" z="1021.27325" h="77"/>
 		<object x="624.76837" y="531.25623" z="1031.0673" h="90"/>
@@ -989,15 +1007,15 @@
 		<object x="536.94495" y="445.35431" z="1021.27325" h="117"/>
 		<object x="329.25098" y="518.59479" z="894.4312" h="93"/>
 	</spawn>
-	<!-- Zerkin the One-eyed (Moster Elite lvl:44) (from client spawn)-->
+	<!-- Zerkin the One-eyed (Moster Elite lvl:44) -->
 	<spawn interval="295" pool="1" npcid="215411" map="300100000">
 		<object x="716.97681" y="509.16806" z="1012.8969" h="90"/>
 	</spawn>
-	<!-- Tamer Anikiki (NPC Normal lvl:42) (from client spawn)-->
+	<!-- Tamer Anikiki (NPC Normal lvl:42) -->
 	<spawn interval="295" pool="1" npcid="215412" map="300100000">
 		<object x="736.3537" y="510.07132" z="941.4781" h="75"/>
 	</spawn>
-	<!-- Kobold Worker (Moster Elite lvl:41) (from client spawn)-->
+	<!-- Kobold Worker (Moster Elite lvl:41) -->
 	<spawn interval="295" pool="5" npcid="215416" map="300100000">
 		<object x="480.28558" y="546.46075" z="951.70264" h="90"/>
 		<object x="482.0932" y="533.54419" z="951.7016" h="0"/>
@@ -1005,24 +1023,24 @@
 		<object x="459.55334" y="564.34357" z="952.862" h="90"/>
 		<object x="495.38559" y="490.53296" z="951.70386" h="60"/>
 	</spawn>
-	<!-- Shugo Minion (NPC Normal lvl:40) (from client spawn)-->
+	<!-- Shugo Minion (NPC Normal lvl:40) -->
 	<spawn interval="295" pool="2" npcid="215418" map="300100000">
 		<object x="281.31213" y="508.13345" z="900.3699" h="90"/>
 		<object x="280.09448" y="506.74252" z="900.09937" h="90"/>
 	</spawn>
-	<!-- Shugo Minion (NPC Normal lvl:40) (from client spawn)-->
+	<!-- Shugo Minion (NPC Normal lvl:40) -->
 	<spawn interval="295" pool="2" npcid="215419" map="300100000">
 		<object x="379.18729" y="498.16248" z="894.792" h="90"/>
 		<object x="376.4346" y="497.32947" z="894.792" h="90"/>
 	</spawn>
-	<!-- Treasure Box (NPC Normal lvl:18) (from client spawn)-->
+	<!-- Treasure Box (NPC Normal lvl:18) -->
 	<spawn interval="295" pool="4" npcid="215421" map="300100000">
 		<object x="471.09451" y="576.66321" z="887.46" h="30"/>
 		<object x="472.58823" y="514.17548" z="877.6181" h="60"/>
 		<object x="450.94534" y="515.00836" z="877.6181" h="45"/>
 		<object x="451.16104" y="575.93811" z="887.4103" h="30"/>
 	</spawn>
-	<!-- Shugo Minion (NPC Normal lvl:40) (from client spawn)-->
+	<!-- Shugo Minion (NPC Normal lvl:40) -->
 	<spawn interval="295" pool="5" npcid="215435" map="300100000">
 		<object x="559.22931" y="556.37769" z="882.0682" h="87"/>
 		<object x="559.75781" y="543.17712" z="882.0682" h="60"/>
@@ -1030,63 +1048,63 @@
 		<object x="557.78027" y="557.6543" z="882.0682" h="90"/>
 		<object x="559.75708" y="544.65277" z="882.0682" h="60"/>
 	</spawn>
-	<!-- Tamer Anikiki (Moster Normal lvl:42) (from client spawn)-->
+	<!-- Tamer Anikiki (Moster Normal lvl:42) -->
 	<spawn interval="295" pool="1" npcid="215436" map="300100000">
 		<object x="611.65271" y="544.30304" z="937.1569" h="30"/>
 	</spawn>
-	<!-- Treasure Box (NPC Normal lvl:18) (from client spawn)-->
+	<!-- Treasure Box (NPC Normal lvl:18) -->
 	<spawn interval="295" pool="1" npcid="215489" map="300100000">
 		<object x="497.03101" y="550.87201" z="959.01532" h="0"/>
 	</spawn>
-	<!-- Steam Effusion Nozzle (Object Normal lvl:45) (from client spawn)-->
+	<!-- Steam Effusion Nozzle (Object Normal lvl:45) -->
 	<spawn interval="295" pool="1" npcid="281108" map="300100000">
 		<object x="704.33759" y="486.97458" z="868" h="0"/>
 	</spawn>
-	<!-- Steam Effusion Nozzle (Object Normal lvl:45) (from client spawn)-->
+	<!-- Steam Effusion Nozzle (Object Normal lvl:45) -->
 	<spawn interval="295" pool="1" npcid="281109" map="300100000">
 		<object x="688.16754" y="482.26172" z="868" h="0"/>
 	</spawn>
-	<!-- Steam Effusion Nozzle (Object Normal lvl:45) (from client spawn)-->
+	<!-- Steam Effusion Nozzle (Object Normal lvl:45) -->
 	<spawn interval="295" pool="1" npcid="281110" map="300100000">
 		<object x="671.04315" y="488.81934" z="868" h="0"/>
 	</spawn>
-	<!-- Steam Effusion Nozzle (Object Normal lvl:45) (from client spawn)-->
+	<!-- Steam Effusion Nozzle (Object Normal lvl:45) -->
 	<spawn interval="295" pool="1" npcid="281111" map="300100000">
 		<object x="661.37946" y="509.58582" z="868" h="0"/>
 	</spawn>
-	<!-- Steam Effusion Nozzle (Object Normal lvl:45) (from client spawn)-->
+	<!-- Steam Effusion Nozzle (Object Normal lvl:45) -->
 	<spawn interval="295" pool="1" npcid="281112" map="300100000">
 		<object x="669.50995" y="528.69495" z="868" h="0"/>
 	</spawn>
-	<!-- Steam Effusion Nozzle (Object Normal lvl:45) (from client spawn)-->
+	<!-- Steam Effusion Nozzle (Object Normal lvl:45) -->
 	<spawn interval="295" pool="1" npcid="281113" map="300100000">
 		<object x="688.36316" y="536.82043" z="868" h="0"/>
 	</spawn>
-	<!-- Steam Effusion Nozzle (Object Normal lvl:45) (from client spawn)-->
+	<!-- Steam Effusion Nozzle (Object Normal lvl:45) -->
 	<spawn interval="295" pool="1" npcid="281114" map="300100000">
 		<object x="707.26508" y="529.43347" z="868" h="0"/>
 	</spawn>
-	<!-- Stigma Amplifier (Object Hero lvl:45) (from client spawn)-->
+	<!-- Stigma Amplifier (Object Hero lvl:45) -->
 	<spawn interval="295" pool="1" npcid="281180" map="300100000">
 		<object x="403.18384" y="510.16531" z="1076.364" h="0"/>
 	</spawn>
-	<!-- Steam Effusion Nozzle (Object Normal lvl:45) (from client spawn)-->
+	<!-- Steam Effusion Nozzle (Object Normal lvl:45) -->
 	<spawn interval="295" pool="1" npcid="281322" map="300100000">
 		<object x="716.04797" y="507.12592" z="868" h="0"/>
 	</spawn>
-	<!-- Steam Effusion Nozzle (Object Normal lvl:45) (from client spawn)-->
+	<!-- Steam Effusion Nozzle (Object Normal lvl:45) -->
 	<spawn interval="295" pool="1" npcid="281323" map="300100000">
 		<object x="701.68793" y="508.98944" z="868" h="0"/>
 	</spawn>
-	<!-- Steam Effusion Nozzle (Object Normal lvl:45) (from client spawn)-->
+	<!-- Steam Effusion Nozzle (Object Normal lvl:45) -->
 	<spawn interval="295" pool="1" npcid="281324" map="300100000">
 		<object x="689.33539" y="495.92416" z="868" h="0"/>
 	</spawn>
-	<!-- Steam Effusion Nozzle (Object Normal lvl:45) (from client spawn)-->
+	<!-- Steam Effusion Nozzle (Object Normal lvl:45) -->
 	<spawn interval="295" pool="1" npcid="281325" map="300100000">
 		<object x="675.68774" y="509.44177" z="868" h="0"/>
 	</spawn>
-	<!-- Steam Effusion Nozzle (Object Normal lvl:45) (from client spawn)-->
+	<!-- Steam Effusion Nozzle (Object Normal lvl:45) -->
 	<spawn interval="295" pool="1" npcid="281326" map="300100000">
 		<object x="689.13721" y="522.36523" z="868" h="0"/>
 	</spawn>
@@ -1102,34 +1120,34 @@
 	<spawn interval="295" pool="1" npcid="700548" map="300100000">
 		<object x="578.5104" y="531.8033" z="1023.4215" h="6"/>
 	</spawn>
-	<!-- Pirate Ship Treasure Box (Object Normal lvl:45) (from client spawn)-->
+	<!-- Pirate Ship Treasure Box (Object Normal lvl:45) -->
 	<spawn interval="295" pool="4" npcid="700554" map="300100000">
 		<object x="736.64728" y="493.73834" z="941.4781" h="45"/>
 		<object x="720.41028" y="511.63718" z="939.7604" h="90"/>
 		<object x="739.51251" y="506.14313" z="941.4781" h="77"/>
 		<object x="721.76172" y="491.83142" z="939.6068" h="32"/>
 	</spawn>
-	<!-- Genie's Incense Burner (Object Normal lvl:1)-->
+	<!-- Genie's Incense Burner (Object Normal lvl:1) -->
 	<spawn interval="295" pool="1" npcid="700557" map="300100000">
 		<object x="319.39453" y="569.5196" z="900.98566" h="0"/>
 	</spawn>
-	<!-- Strongbox (Object Normal lvl:1) (from client spawn)-->
+	<!-- Strongbox (Object Normal lvl:1) -->
 	<spawn interval="295" pool="1" npcid="700562" map="300100000">
 		<object x="352.39999" y="587.79999" z="948.01495" h="15"/>
 	</spawn>
-	<!-- Old Book (Object Normal lvl:1) (from client spawn)-->
+	<!-- Old Book (Object Normal lvl:1) -->
 	<spawn interval="295" pool="1" npcid="730195" map="300100000">
 		<object x="696.92181" y="506.83789" z="939.85016" h="15"/>
 	</spawn>
-	<!-- Grogget's Safe Door (Object Normal lvl:1)-->
+	<!-- Grogget's Safe Door (Object Normal lvl:1) -->
 	<spawn interval="295" pool="1" npcid="730199" map="300100000">
 		<object x="690.6555" y="500.8247" z="942.3741" h="30"/>
 	</spawn>
-	<!-- Drana Generator Chamber Access Door (Object Normal lvl:1)-->
+	<!-- Drana Generator Chamber Access Door (Object Normal lvl:1) -->
 	<spawn interval="295" pool="1" npcid="730202" map="300100000">
 		<object x="657.11066" y="509.10962" z="872.94763" h="0"/>
 	</spawn>
-	<!-- Prison Door (Object Normal lvl:1)-->
+	<!-- Prison Door (Object Normal lvl:1) -->
 	<spawn interval="295" pool="6" npcid="730208" map="300100000">
 		<object x="420.71338" y="492.3274" z="887.7454" h="0"/>
 		<object x="420.64603" y="527.7367" z="887.7454" h="0"/>
@@ -1138,15 +1156,15 @@
 		<object x="479.66812" y="454.4123" z="889.7911" h="30"/>
 		<object x="444.11234" y="454.30072" z="889.7911" h="30"/>
 	</spawn>
-	<!-- Pirate Ship Anchor (Object Normal lvl:1)-->
+	<!-- Pirate Ship Anchor (Object Normal lvl:1) -->
 	<spawn interval="295" pool="1" npcid="730209" map="300100000">
 		<object x="727.4591" y="463.3543" z="867.66626" h="22"/>
 	</spawn>
-	<!-- Elevator Lever (Object Normal lvl:1)-->
+	<!-- Elevator Lever (Object Normal lvl:1) -->
 	<spawn interval="295" pool="1" npcid="730210" map="300100000">
 		<object x="283.81892" y="451.8091" z="952.5578" h="0"/>
 	</spawn>
-	<!-- Rabinerk (NPC Normal lvl:45) (from client spawn)-->
+	<!-- Rabinerk (NPC Normal lvl:45) -->
 	<spawn interval="295" pool="1" npcid="798331" map="300100000">
 		<object x="705.17999" y="466.29999" z="1016" h="90"/>
 	</spawn>
@@ -1154,23 +1172,23 @@
 	<spawn map="300100000" npcid="798332" pool="1" interval="295">
 		<object x="406.31213" y="499.5642" z="885.7603" h="30"/>
 	</spawn>
-	<!-- Amabille (NPC Normal lvl:45) (from client spawn)-->
+	<!-- Amabille (NPC Normal lvl:45) -->
 	<spawn interval="295" pool="1" npcid="798334" map="300100000">
 		<object x="480.55374" y="438.38553" z="887.706" h="30"/>
 	</spawn>
-	<!-- Nasuri (NPC Normal lvl:45) (from client spawn)-->
+	<!-- Nasuri (NPC Normal lvl:45) -->
 	<spawn interval="295" pool="1" npcid="798335" map="300100000">
 		<object x="419.32736" y="531.35291" z="885.7603" h="0"/>
 	</spawn>
-	<!-- Parten (NPC Normal lvl:45) (from client spawn)-->
+	<!-- Parten (NPC Normal lvl:45) -->
 	<spawn interval="295" pool="1" npcid="798336" map="300100000">
 		<object x="504.29877" y="523.83997" z="885.76025" h="60"/>
 	</spawn>
-	<!-- Sidrunerk (NPC Normal lvl:45) (from client spawn)-->
+	<!-- Sidrunerk (NPC Normal lvl:45) -->
 	<spawn interval="295" pool="1" npcid="798337" map="300100000">
 		<object x="445.57547" y="441.81815" z="887.706" h="30"/>
 	</spawn>
-	<!-- Sommelikinerk (NPC Normal lvl:45) (from client spawn)-->
+	<!-- Sommelikinerk (NPC Normal lvl:45) -->
 	<spawn interval="295" pool="1" npcid="798375" map="300100000">
 		<object x="529.74664" y="523.48047" z="952.4911" h="87"/>
 	</spawn>

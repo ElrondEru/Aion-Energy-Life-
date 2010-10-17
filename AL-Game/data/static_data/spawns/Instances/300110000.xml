@@ -1,33 +1,51 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<!-- Dredgion -->
+<!--
+	This file is part of aion-unique <aion-unique.org>.
+
+	aion-unique is free software: you can redistribute it and/or modify
+	it under the terms of the GNU General Public License as published by
+	the Free Software Foundation, either version 3 of the License, or
+	(at your option) any later version.
+
+	aion-unique is distributed in the hope that it will be useful,
+	but WITHOUT ANY WARRANTY; without even the implied warranty of
+	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+	GNU General Public License for more details.
+
+	You should have received a copy of the GNU General Public License
+	along with aion-unique.If not, see <http://www.gnu.org/licenses/>.
+
+	Dredgion
+
+-->
 <spawns>
-	<!-- Adjutant Kalanadi (Named Mob Elite lvl:50) (from client spawn)-->
+	<!-- Adjutant Kalanadi (Named Mob Elite lvl:50) -->
 	<spawn map="300110000" npcid="215093" pool="1" interval="3600">
 		<object x="485.41727" y="319.09863" z="403.26712" h="110"/>
 	</spawn>
-	<!-- Adjutant Kundhan (Named Mob Elite lvl:50) (from client spawn)-->
+	<!-- Adjutant Kundhan (Named Mob Elite lvl:50) -->
 	<spawn map="300110000" npcid="215085" pool="1" interval="3600">
 		<object x="464.3075" y="605.24493" z="391.57822" h="77"/>
 	</spawn>
-	<!-- Air Captain Girana (Monster Elite lvl:50) (from client spawn)-->
+	<!-- Air Captain Girana (Monster Elite lvl:50) -->
 	<spawn map="300110000" npcid="215089" pool="1" interval="300">
 		<object x="414.7938" y="492.80225" z="393.6765" h="43"/>
 	</spawn>
-	<!-- Assistant Malakun (Monster Elite lvl:50) (from client spawn)-->
+	<!-- Assistant Malakun (Monster Elite lvl:50) -->
 	<spawn map="300110000" npcid="215084" pool="1" interval="300">
 		<object x="623.9866" y="410.7633" z="410.62592" h="12"/>
 	</spawn>
-	<!-- Auditor Nirshaka (Monster Hero lvl:50) (from client spawn)-->
+	<!-- Auditor Nirshaka (Monster Hero lvl:50) -->
 	<spawn map="300110000" npcid="215390" pool="1" interval="14400">
 		<object x="460.6112" y="877.78595" z="405.04514" h="76"/>
 	</spawn>
-	<!-- Baranath Curatus (Monster Elite lvl:50) (from client spawn)-->
+	<!-- Baranath Curatus (Monster Elite lvl:50) -->
 	<spawn map="300110000" npcid="214822" pool="3" interval="300">
 		<object x="575.2557" y="701.5945" z="402.22125" h="19"/>
 		<object x="483.26056" y="827.46765" z="416.64606" h="112"/>
 		<object x="394.84332" y="700.8232" z="402.21982" h="23"/>
 	</spawn>
-	<!-- Baranath Fleshmender (Monster Elite lvl:50) (from client spawn)-->
+	<!-- Baranath Fleshmender (Monster Elite lvl:50) -->
 	<spawn map="300110000" npcid="214814" pool="7" interval="300">
 		<object x="563.9849" y="282.02573" z="409.7311" h="16"/>
 		<object x="627.97577" y="387.5712" z="412.93585" h="76"/>
@@ -37,7 +55,7 @@
 		<object x="500.43945" y="510.79272" z="399.10974" h="25"/>
 		<object x="494.55823" y="310.29318" z="403.05508" h="54"/>
 	</spawn>
-	<!-- Baranath Legatus (Monster Elite lvl:50) (from client spawn)-->
+	<!-- Baranath Legatus (Monster Elite lvl:50) -->
 	<spawn map="300110000" npcid="214819" pool="19" interval="300">
 		<object x="490.36096" y="653.37646" z="388.04727" h="100"/>
 		<object x="479.85324" y="653.5875" z="387.96146" h="114"/>
@@ -59,7 +77,7 @@
 		<object x="480.22598" y="617.8998" z="390.39767" h="66"/>
 		<object x="490.49988" y="617.68365" z="390.39767" h="16"/>
 	</spawn>
-	<!-- Baranath Magus (Monster Elite lvl:50) (from client spawn)-->
+	<!-- Baranath Magus (Monster Elite lvl:50) -->
 	<spawn map="300110000" npcid="214821" pool="10" interval="300">
 		<object x="375.84406" y="575.53314" z="413.97467" h="33"/>
 		<object x="508.35822" y="809.9451" z="416.6536" h="43"/>
@@ -72,7 +90,7 @@
 		<object x="565.076" y="708.2572" z="402.2726" h="98"/>
 		<object x="399.7776" y="552.60504" z="409.13202" h="53"/>
 	</spawn>
-	<!-- Baranath Mariner (Monster Elite lvl:50) (from client spawn)-->
+	<!-- Baranath Mariner (Monster Elite lvl:50) -->
 	<spawn map="300110000" npcid="214806" pool="10" interval="300">
 		<object x="515.16785" y="310.9258" z="404.0724" h="106"/>
 		<object x="480.60208" y="467.6344" z="398.2182" h="76"/>
@@ -85,12 +103,12 @@
 		<object x="543.83295" y="267.91086" z="409.7311" h="88"/>
 		<object x="480.8273" y="527.4115" z="397.53683" h="29"/>
 	</spawn>
-	<!-- Baranath Priest (Monster Elite lvl:50) (from client spawn)-->
+	<!-- Baranath Priest (Monster Elite lvl:50) -->
 	<spawn map="300110000" npcid="214812" pool="2" interval="300">
 		<object x="497.1245" y="882.9597" z="405.52075" h="41"/>
 		<object x="466.49197" y="508.99283" z="399.17773" h="80"/>
 	</spawn>
-	<!-- Baranath Scourge (Monster Elite lvl:50) (from client spawn)-->
+	<!-- Baranath Scourge (Monster Elite lvl:50) -->
 	<spawn map="300110000" npcid="214813" pool="18" interval="300">
 		<object x="426.9357" y="292.9924" z="409.73624" h="33"/>
 		<object x="376.0839" y="422.28775" z="411.90588" h="23"/>
@@ -111,14 +129,14 @@
 		<object x="542.3743" y="292.11777" z="409.73737" h="87"/>
 		<object x="565.42145" y="295.45868" z="409.9734" h="46"/>
 	</spawn>
-	<!-- Baranath Serpentguard (Monster Elite lvl:50) (from client spawn)-->
+	<!-- Baranath Serpentguard (Monster Elite lvl:50) -->
 	<spawn map="300110000" npcid="214811" pool="4" interval="300">
 		<object x="473.78033" y="883.1947" z="405.53262" h="97"/>
 		<object x="395.75104" y="568.56445" z="409.20224" h="114"/>
 		<object x="505.02054" y="505.8924" z="399.00134" h="45"/>
 		<object x="582.0374" y="565.1502" z="408.8257" h="17"/>
 	</spawn>
-	<!-- Baranath Triaris (Monster Elite lvl:50) (from client spawn)-->
+	<!-- Baranath Triaris (Monster Elite lvl:50) -->
 	<spawn map="300110000" npcid="214820" pool="9" interval="300">
 		<object x="522.8803" y="805.94135" z="415.49344" h="58"/>
 		<object x="541.67596" y="798.03375" z="413.4558" h="86"/>
@@ -130,7 +148,7 @@
 		<object x="393.16635" y="717.5349" z="402.22354" h="53"/>
 		<object x="445.6545" y="804.94946" z="415.18478" h="60"/>
 	</spawn>
-	<!-- Baranath Trooper (Monster Elite lvl:50) (from client spawn)-->
+	<!-- Baranath Trooper (Monster Elite lvl:50) -->
 	<spawn map="300110000" npcid="214808" pool="6" interval="300">
 		<object x="354.38672" y="398.2208" z="412.00592" h="51"/>
 		<object x="509.99982" y="895.0094" z="405.2038" h="73"/>
@@ -139,52 +157,52 @@
 		<object x="455.91672" y="310.9253" z="404.07346" h="58"/>
 		<object x="509.04312" y="314.11237" z="403.61923" h="70"/>
 	</spawn>
-	<!-- Captain Adhati (Boss Hero lvl:50) (from client spawn)-->
+	<!-- Captain Adhati (Boss Hero lvl:50) -->
 	<spawn map="300110000" npcid="214823" pool="1" interval="14400">
 		<object x="485.2116" y="807.46875" z="416.86816" h="117"/>
 	</spawn>
-	<!-- First Mate Aznaya (Boss Hero lvl:50) (from client spawn)-->
+	<!-- First Mate Aznaya (Boss Hero lvl:50) -->
 	<spawn map="300110000" npcid="215086" pool="1" interval="14400">
 		<object x="485.09537" y="883.9128" z="405.01978" h="60"/>
 	</spawn>
-	<!-- Gun Captain Ankrana (Monster Elite lvl:50) (from client spawn)-->
+	<!-- Gun Captain Ankrana (Monster Elite lvl:50) -->
 	<spawn map="300110000" npcid="215092" pool="1" interval="300">
 		<object x="577.79663" y="568.3712" z="408.84637" h="85"/>
 	</spawn>
-	<!-- Navigator Nevikah (Monster Elite lvl:50) (from client spawn)-->
+	<!-- Navigator Nevikah (Monster Elite lvl:50) -->
 	<spawn map="300110000" npcid="215083" pool="1" interval="300">
 		<object x="344.3065" y="416.23328" z="410.39886" h="61"/>
 	</spawn>
-	<!-- Prison Guard Mahnena (Named Mob Elite lvl:50) (from client spawn)-->
+	<!-- Prison Guard Mahnena (Named Mob Elite lvl:50) -->
 	<spawn map="300110000" npcid="215088" pool="1" interval="3600">
 		<object x="580.7651" y="697.2317" z="402.21442" h="18"/>
 	</spawn>
-	<!-- Quartermaster Vujara (Monster Elite lvl:50) (from client spawn)-->
+	<!-- Quartermaster Vujara (Monster Elite lvl:50) -->
 	<spawn map="300110000" npcid="215391" pool="2" interval="300">
 		<object x="415.2769" y="282.0216" z="409.7311" h="118"/>
 		<object x="556.53534" y="279.2918" z="409.7311" h="33"/>
 	</spawn>
-	<!-- Sentinel Garkusa (Named Mob Elite lvl:50) (from client spawn)-->
+	<!-- Sentinel Garkusa (Named Mob Elite lvl:50) -->
 	<spawn map="300110000" npcid="215087" pool="1" interval="3600">
 		<object x="387.82343" y="696.40704" z="402.213" h="108"/>
 	</spawn>
-	<!-- Supervisor Lakhane (Named Mob Elite lvl:50) (from client spawn)-->
+	<!-- Supervisor Lakhane (Named Mob Elite lvl:50) -->
 	<spawn map="300110000" npcid="215427" pool="1" interval="3600">
 		<object x="504.50238" y="607.6224" z="394.73" h="33"/>
 	</spawn>
-	<!-- Technician Sarpa (Monster Elite lvl:50) (from client spawn)-->
+	<!-- Technician Sarpa (Monster Elite lvl:50) -->
 	<spawn map="300110000" npcid="215082" pool="1" interval="300">
 		<object x="485.1836" y="296.88266" z="402.20407" h="71"/>
 	</spawn>
-	<!-- Vice Air Captain Kai (Monster Elite lvl:50) (from client spawn)-->
+	<!-- Vice Air Captain Kai (Monster Elite lvl:50) -->
 	<spawn map="300110000" npcid="215090" pool="1" interval="300">
 		<object x="556.17444" y="488.71484" z="393.58517" h="36"/>
 	</spawn>
-	<!-- Vice Gun Captain Zha (Monster Elite lvl:50) (from client spawn)-->
+	<!-- Vice Gun Captain Zha (Monster Elite lvl:50) -->
 	<spawn map="300110000" npcid="215091" pool="1" interval="300">
 		<object x="391.25076" y="564.9824" z="408.92206" h="98"/>
 	</spawn>
-	<!-- Captain's Cabin Power Surkana (Object Normal lvl:50) (from client spawn)-->
+	<!-- Captain's Cabin Power Surkana (Object Normal lvl:50) -->
 	<spawn map="300110000" npcid="700498" pool="14" interval="295">
 		<object staticid="26" x="485.34122" y="817.6004" z="416.67175" h="62"/>
 		<object staticid="19" x="484.983" y="292.94415" z="402.24442" h="46"/>
@@ -201,28 +219,28 @@
 		<object staticid="31" x="579.9327" y="566.6443" z="408.83307" h="78"/>
 		<object staticid="32" x="555.7624" y="491.23868" z="393.66724" h="55"/>
 	</spawn>
-	<!-- Captured Archon (NPC Normal lvl:45) (from client spawn)-->
+	<!-- Captured Archon (NPC Normal lvl:45) -->
 	<spawn map="300110000" npcid="798328" pool="1" interval="295">
 		<object x="380.00824" y="697.2482" z="404.06964" h="59"/>
 	</spawn>
-	<!-- Captured Asmodian Scholar (NPC Normal lvl:45) (from client spawn)-->
+	<!-- Captured Asmodian Scholar (NPC Normal lvl:45) -->
 	<spawn map="300110000" npcid="798330" pool="1" interval="295">
 		<object x="591.78174" y="711.6214" z="403.9692" h="107"/>
 	</spawn>
-	<!-- Captured Elyos Scholar (NPC Normal lvl:45) (from client spawn)-->
+	<!-- Captured Elyos Scholar (NPC Normal lvl:45) -->
 	<spawn map="300110000" npcid="798326" pool="1" interval="295">
 		<object x="589.89355" y="697.2634" z="403.9616" h="54"/>
 	</spawn>
-	<!-- Captured Guardian (NPC Normal lvl:45) (from client spawn)-->
+	<!-- Captured Guardian (NPC Normal lvl:45) -->
 	<spawn map="300110000" npcid="798324" pool="1" interval="295">
 		<object x="378.52005" y="712.3478" z="404.10086" h="59"/>
 	</spawn>
-	<!-- Exhausted Shugo (NPC Normal lvl:45) (from client spawn)-->
+	<!-- Exhausted Shugo (NPC Normal lvl:45) -->
 	<spawn map="300110000" npcid="730196" pool="2" interval="295">
 		<object x="388.76578" y="173.58968" z="432.5741" h="52"/>
 		<object x="583.13477" y="172.48105" z="432.59354" h="56"/>
 	</spawn>
-	<!-- No. 2 Nuclear Control Room Teleporter (Object Normal lvl:1) (from client spawn)-->
+	<!-- No. 2 Nuclear Control Room Teleporter (Object Normal lvl:1) -->
 	<spawn map="300110000" npcid="730214" pool="5" interval="295">
 		<object staticid="9" x="571.88" y="160.62" z="432.2848" h="112"/>
 		<object staticid="10" x="398.4565" y="160.15234" z="432.28445" h="20"/>
@@ -230,22 +248,22 @@
 		<object staticid="65" x="567.5912" y="175.19655" z="432.2847" h="64"/>
 		<object staticid="91" x="484.72" y="761.42" z="388.6547" h="29"/>
 	</spawn>
-	<!-- Starboard Defense Shield (Object Normal lvl:50) (from client spawn)-->
+	<!-- Starboard Defense Shield (Object Normal lvl:50) -->
 	<spawn map="300110000" npcid="700502" pool="2" interval="295">
 		<object staticid="12" x="448.3915" y="493.6418" z="395.04062" h="108"/>
 		<object staticid="16" x="520.87555" y="493.40115" z="395.3418" h="28"/>
 	</spawn>
-	<!-- Starboard Defense Shield Generator (Object Normal lvl:1) (from client spawn)-->
+	<!-- Starboard Defense Shield Generator (Object Normal lvl:1) -->
 	<spawn map="300110000" npcid="700508" pool="2" interval="295">
 		<object staticid="6" x="513" y="310.22" z="404.0853" h="58"/>
 		<object staticid="7" x="458.01" y="310.14" z="404.08" h="8"/>
 	</spawn>
-	<!-- Starboard Door of Captain's Cabin (Object Normal lvl:50) (from client spawn)-->
+	<!-- Starboard Door of Captain's Cabin (Object Normal lvl:50) -->
 	<spawn map="300110000" npcid="700504" pool="2" interval="295">
 		<object staticid="1" x="512.8729" y="812.5232" z="416.6392" h="112"/>
 		<object staticid="5" x="456.71008" y="812.3168" z="416.72446" h="35"/>
 	</spawn>
-	<!-- Starboard Teleporter Generator (Object Normal lvl:1) (from client spawn)-->
+	<!-- Starboard Teleporter Generator (Object Normal lvl:1) -->
 	<spawn map="300110000" npcid="700506" pool="2" interval="295">
 		<object staticid="131" x="467.42523" y="586.23065" z="391.57822" h="78"/>
 		<object staticid="133" x="503.4529" y="586.89984" z="392.51694" h="37"/>

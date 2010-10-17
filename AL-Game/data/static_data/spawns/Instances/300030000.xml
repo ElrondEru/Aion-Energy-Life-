@@ -1,16 +1,34 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<!-- Nochsana Training Camp -->
+<!--
+	This file is part of aion-unique <aion-unique.org>.
+
+	aion-unique is free software: you can redistribute it and/or modify
+	it under the terms of the GNU General Public License as published by
+	the Free Software Foundation, either version 3 of the License, or
+	(at your option) any later version.
+
+	aion-unique is distributed in the hope that it will be useful,
+	but WITHOUT ANY WARRANTY; without even the implied warranty of
+	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+	GNU General Public License for more details.
+
+	You should have received a copy of the GNU General Public License
+	along with aion-unique.If not, see <http://www.gnu.org/licenses/>.
+
+	Nochsana Training Camp
+
+-->
 <spawns>
-	<!-- Aetheric Field Guard (Monster Elite lvl:26)-->
+	<!-- Aetheric Field Guard (Monster Elite lvl:26) -->
 	<spawn map="300030000" npcid="256692" pool="2" interval="295">
 		<object x="472.38974" y="700.18304" z="344.75528" h="89"/>
 		<object x="461.7673" y="700.2549" z="345.03323" h="89"/>
 	</spawn>
-	<!-- Nochsana General (Monster Elite lvl:27)-->
+	<!-- Nochsana General (Monster Elite lvl:27) -->
 	<spawn map="300030000" npcid="256693" pool="1" interval="295">
 		<object x="332.34122" y="275.02066" z="384.55338" h="27"/>
 	</spawn>
-	<!-- Nochsana Guard (Monster Elite lvl:26)-->
+	<!-- Nochsana Guard (Monster Elite lvl:26) -->
 	<spawn map="300030000" npcid="256689" pool="5" interval="295">
 		<object x="378.91443" y="645.65076" z="365.5368" h="104"/>
 		<object x="414.33298" y="660.4168" z="361.2346" h="113"/>
@@ -18,14 +36,14 @@
 		<object x="437.95114" y="692.1171" z="357.82993" h="107"/>
 		<object x="424.36197" y="677.2743" z="356.42245" h="105"/>
 	</spawn>
-	<!-- Nochsana Protector (Monster Elite lvl:26)-->
+	<!-- Nochsana Protector (Monster Elite lvl:26) -->
 	<spawn map="300030000" npcid="256690" pool="4" interval="295">
 		<object x="342.86984" y="304.58017" z="380.09628" h="26"/>
 		<object x="332.10486" y="306.30084" z="380.09628" h="26"/>
 		<object x="338.61588" y="311.7658" z="380.09628" h="26"/>
 		<object x="336.09323" y="297.09915" z="382.0576" h="27"/>
 	</spawn>
-	<!-- Nochsana Doc (Monster Elite lvl:25)-->
+	<!-- Nochsana Doc (Monster Elite lvl:25) -->
 	<spawn map="300030000" npcid="256688" pool="24" interval="295">
 		<object x="361.55518" y="320.888" z="393.09567" h="72"/>
 		<object x="370.93915" y="295.3864" z="397.2218" h="27"/>
@@ -52,7 +70,7 @@
 		<object x="374.0476" y="282.99835" z="397.33844" h="50"/>
 		<object x="367.62784" y="274.87228" z="397.2383" h="43"/>
 	</spawn>
-	<!-- Nochsana Drake (Monster Normal lvl:25)-->
+	<!-- Nochsana Drake (Monster Normal lvl:25) -->
 	<spawn map="300030000" npcid="256678" pool="30" interval="295">
 		<object x="444.28378" y="560.64667" z="335.0162" h="10"/>
 		<object x="434.66187" y="565.89136" z="334.04755" h="24"/>
@@ -85,7 +103,7 @@
 		<object x="429.82217" y="514.31213" z="361.1688" h="32"/>
 		<object x="400.8876" y="501.79425" z="367.42853" h="43"/>
 	</spawn>
-	<!-- Nochsana Picket (Monster Elite lvl:25)-->
+	<!-- Nochsana Picket (Monster Elite lvl:25) -->
 	<spawn map="300030000" npcid="256683" pool="47" interval="295">
 		<object x="386.39844" y="496.00314" z="358.48813" h="79"/>
 		<object x="381.77933" y="499.0647" z="360.03757" h="79"/>
@@ -135,7 +153,7 @@
 		<object x="371.46738" y="337.75427" z="393.1098" h="8"/>
 		<object x="318.43463" y="349.00488" z="393.1098" h="39"/>
 	</spawn>
-	<!-- Nochsana Recondo (Monster Elite lvl:25)-->
+	<!-- Nochsana Recondo (Monster Elite lvl:25) -->
 	<spawn map="300030000" npcid="256682" pool="24" interval="295">
 		<object x="508.83328" y="600.3089" z="332.1176" h="91"/>
 		<object x="525.354" y="596.3972" z="333.7329" h="86"/>
@@ -162,7 +180,7 @@
 		<object x="472.58038" y="660.4802" z="335.6712" h="119"/>
 		<object x="529.3993" y="622.2791" z="333.5749" h="84"/>
 	</spawn>
-	<!-- Nochsana Recruit (Monster Normal lvl:25)-->
+	<!-- Nochsana Recruit (Monster Normal lvl:25) -->
 	<spawn map="300030000" npcid="256679" pool="25" interval="295">
 		<object x="343.03143" y="369.36047" z="377.14047" h="19"/>
 		<object x="354.6732" y="366.7788" z="377.29208" h="31"/>
@@ -190,7 +208,7 @@
 		<object x="500.09048" y="611.7193" z="331.61993" h="1"/>
 		<object x="515.2531" y="635.8567" z="331.1004" h="103"/>
 	</spawn>
-	<!-- Nochsana Runner (Monster Elite lvl:25)-->
+	<!-- Nochsana Runner (Monster Elite lvl:25) -->
 	<spawn map="300030000" npcid="256685" pool="18" interval="295">
 		<object x="303.13794" y="333.12848" z="397.22763" h="44"/>
 		<object x="298.79608" y="328.9388" z="397.246" h="44"/>
@@ -211,7 +229,7 @@
 		<object x="367.92838" y="264.4032" z="396.9789" h="103"/>
 		<object x="379.995" y="274.7507" z="397.7162" h="103"/>
 	</spawn>
-	<!-- Nochsana Teleporter (Monster Elite lvl:26)-->
+	<!-- Nochsana Teleporter (Monster Elite lvl:26) -->
 	<spawn map="300030000" npcid="256691" pool="14" interval="295">
 		<object x="358.1518" y="319.9616" z="380.41458" h="64"/>
 		<object x="360.13718" y="315.8372" z="380.41458" h="73"/>
@@ -228,11 +246,11 @@
 		<object x="362.70078" y="295.50323" z="380.09625" h="41"/>
 		<object x="369.73447" y="300.19742" z="380.09628" h="41"/>
 	</spawn>
-	<!-- Nochsana Artifact (Object Normal lvl:1)-->
+	<!-- Nochsana Artifact (Object Normal lvl:1) -->
 	<spawn map="300030000" npcid="700437" pool="1" interval="295">
 		<object staticid="32" x="312.7441" y="596.14636" z="373.53244" h="93"/>
 	</spawn>
-	<!-- Treasure Chest (Object Normal lvl:50)-->
+	<!-- Treasure Chest (Object Normal lvl:50) -->
 	<spawn map="300030000" npcid="214804" pool="28" interval="295">
 		<object staticid="15" x="378.12918" y="320.85995" z="397.22217" h="79"/>
 		<object staticid="22" x="284.64728" y="345.3849" z="379.1711" h="104"/>

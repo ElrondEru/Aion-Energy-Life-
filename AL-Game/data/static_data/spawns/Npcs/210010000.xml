@@ -1,117 +1,135 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<!-- Poeta -->
+<!--
+	This file is part of aion-unique <aion-unique.org>.
+
+	aion-unique is free software: you can redistribute it and/or modify
+	it under the terms of the GNU General Public License as published by
+	the Free Software Foundation, either version 3 of the License, or
+	(at your option) any later version.
+
+	aion-unique is distributed in the hope that it will be useful,
+	but WITHOUT ANY WARRANTY; without even the implied warranty of
+	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+	GNU General Public License for more details.
+
+	You should have received a copy of the GNU General Public License
+	along with aion-unique.If not, see <http://www.gnu.org/licenses/>.
+
+	Poeta
+
+-->
 <spawns>
-	<!-- Aero (NPC Normal lvl:40)-->
+	<!-- Aero (NPC Normal lvl:40) -->
 	<spawn map="210010000" npcid="203083" pool="1" interval="295">
 		<object x="425.42764" y="1739.6117" z="119.925865" h="23"/>
 	</spawn>
-	<!-- Ager (NPC Normal lvl:10)-->
+	<!-- Ager (NPC Normal lvl:10) -->
 	<spawn map="210010000" npcid="203062" pool="1" interval="295">
 		<object x="868.68896" y="1218.4867" z="118.875" h="62"/>
 	</spawn>
-	<!-- Ampeis (NPC Normal lvl:20)-->
+	<!-- Ampeis (NPC Normal lvl:20) -->
 	<spawn map="210010000" npcid="203076" pool="1" interval="295">
 		<object x="571.57184" y="1358.7362" z="119.70952" h="94"/>
 	</spawn>
-	<!-- Amus (NPC Normal lvl:10)-->
+	<!-- Amus (NPC Normal lvl:10) -->
 	<spawn map="210010000" npcid="203063" pool="1" interval="295">
 		<object x="866.84735" y="1252.5845" z="119.13331" h="75"/>
 	</spawn>
-	<!-- Ancient Cube (Object Normal lvl:1)-->
+	<!-- Ancient Cube (Object Normal lvl:1) -->
 	<spawn map="210010000" npcid="700001" pool="1" interval="295">
 		<object x="231.51" y="2006.31" z="150.65562" h="69"/>
 	</spawn>
-	<!-- Asteros (NPC Normal lvl:10)-->
+	<!-- Asteros (NPC Normal lvl:10) -->
 	<spawn map="210010000" npcid="203058" pool="1" interval="295">
 		<object x="823.37933" y="1267.4412" z="119.18467" h="90"/>
 	</spawn>
-	<!-- Baevrunerk (NPC Normal lvl:9)-->
+	<!-- Baevrunerk (NPC Normal lvl:9) -->
 	<spawn map="210010000" npcid="798008" pool="1" interval="295">
 		<object x="839.7195" y="1257.1952" z="118.875" h="97"/>
 	</spawn>
-	<!-- Ben (NPC Normal lvl:10)-->
+	<!-- Ben (NPC Normal lvl:10) -->
 	<spawn map="210010000" npcid="203073" pool="1" interval="295">
 		<object x="602.31085" y="1090.2725" z="100.35982" h="102"/>
 	</spawn>
-	<!-- Bidshulack (Object Normal lvl:1)-->
+	<!-- Bidshulack (Object Normal lvl:1) -->
 	<spawn map="210010000" npcid="700962" pool="2" interval="295">
 		<object x="805.80273" y="1242.6023" z="118.98627" h="55"/>
 		<object x="426.5383" y="1740.2396" z="119.925865" h="82"/>
 	</spawn>
-	<!-- Blue Power Generator (Object Normal lvl:20)-->
+	<!-- Blue Power Generator (Object Normal lvl:20) -->
 	<spawn map="210010000" npcid="700082" pool="1" interval="295">
 		<object staticid="2" x="226.31" y="1011.86" z="121.18602" h="15"/>
 	</spawn>
-	<!-- Brutus (NPC Normal lvl:3)-->
+	<!-- Brutus (NPC Normal lvl:3) -->
 	<spawn map="210010000" npcid="203068" pool="1" interval="295">
 		<object x="869.65936" y="1197.7462" z="115.12311" h="94"/>
 	</spawn>
-	<!-- Daines (NPC Normal lvl:40)-->
+	<!-- Daines (NPC Normal lvl:40) -->
 	<spawn map="210010000" npcid="203194" pool="1" interval="295">
 		<object x="804.9242" y="1244.5981" z="118.98627" h="112"/>
 	</spawn>
-	<!-- Daminu (NPC Normal lvl:50)-->
+	<!-- Daminu (NPC Normal lvl:50) -->
 	<spawn map="210010000" npcid="730008" pool="1" interval="295">
 		<object x="600.0" y="1542.0" z="116.375" h="90"/>
 	</spawn>
-	<!-- Elpas (NPC Normal lvl:20)-->
+	<!-- Elpas (NPC Normal lvl:20) -->
 	<spawn map="210010000" npcid="203049" pool="1" interval="295">
 		<object x="1204.2906" y="1053.1835" z="138.96237" h="110"/>
 	</spawn>
-	<!-- Esera (NPC Normal lvl:10)-->
+	<!-- Esera (NPC Normal lvl:10) -->
 	<spawn map="210010000" npcid="203089" pool="1" interval="295">
 		<object x="818.20496" y="1265.2709" z="119.162605" h="110"/>
 	</spawn>
-	<!-- Farm Worker (NPC Normal lvl:2)-->
+	<!-- Farm Worker (NPC Normal lvl:2) -->
 	<spawn map="210010000" npcid="203051" pool="2" interval="295">
 		<object x="953.765" y="1102.309" z="108.30238" h="48"/>
 		<object x="977.5476" y="1130.644" z="108.052155" h="12"/>
 	</spawn>
-	<!-- Feira (NPC Normal lvl:10)-->
+	<!-- Feira (NPC Normal lvl:10) -->
 	<spawn map="210010000" npcid="203072" pool="1" interval="295">
 		<object x="588.6266" y="1095.1138" z="101.49129" h="64"/>
 	</spawn>
-	<!-- Forest Protector Noah (NPC Normal lvl:10)-->
+	<!-- Forest Protector Noah (NPC Normal lvl:10) -->
 	<spawn map="210010000" npcid="730007" pool="1" interval="295">
 		<object x="558.42" y="1375.59" z="119.999374" h="14"/>
 	</spawn>
-	<!-- Fredge (NPC Normal lvl:20)-->
+	<!-- Fredge (NPC Normal lvl:20) -->
 	<spawn map="210010000" npcid="203078" pool="1" interval="295">
 		<object x="563.46" y="1396.6" z="114.28" h="26" w="111"/>
 	</spawn>
-	<!-- Fulla (NPC Elite lvl:45)-->
+	<!-- Fulla (NPC Elite lvl:45) -->
 	<spawn map="210010000" npcid="203064" pool="1" interval="295">
 		<object x="851.51044" y="1208.5535" z="117.815186" h="20"/>
 	</spawn>
-	<!-- Fungen Boy Shroomy (NPC Normal lvl:10)-->
+	<!-- Fungen Boy Shroomy (NPC Normal lvl:10) -->
 	<spawn map="210010000" npcid="203185" pool="1" interval="295">
 		<object x="242.35413" y="1633.8169" z="100.386444" h="113"/>
 	</spawn>
-	<!-- Gilden (NPC Normal lvl:10)-->
+	<!-- Gilden (NPC Normal lvl:10) -->
 	<spawn map="210010000" npcid="203088" pool="1" interval="295">
 		<object x="864.35706" y="1235.5753" z="118.875" h="90"/>
 	</spawn>
-	<!-- Green Power Generator (Object Normal lvl:20)-->
+	<!-- Green Power Generator (Object Normal lvl:20) -->
 	<spawn map="210010000" npcid="700081" pool="1" interval="295">
 		<object staticid="3" x="254.15" y="1065.97" z="120.792946" h="96"/>
 	</spawn>
-	<!-- Ino (NPC Normal lvl:20)-->
+	<!-- Ino (NPC Normal lvl:20) -->
 	<spawn map="210010000" npcid="203086" pool="1" interval="295">
 		<object x="166.23222" y="1141.4475" z="119.50536" h="4"/>
 	</spawn>
-	<!-- Kagas (NPC Normal lvl:10)-->
+	<!-- Kagas (NPC Normal lvl:10) -->
 	<spawn map="210010000" npcid="203090" pool="1" interval="295">
 		<object x="828.656" y="1265.2003" z="119.162605" h="90"/>
 	</spawn>
-	<!-- Kales (NPC Normal lvl:10)-->
+	<!-- Kales (NPC Normal lvl:10) -->
 	<spawn map="210010000" npcid="203050" pool="1" interval="295">
 		<object x="984.9941" y="1133.9397" z="108.566635" h="90"/>
 	</spawn>
-	<!-- Kalio (NPC Normal lvl:20)-->
+	<!-- Kalio (NPC Normal lvl:20) -->
 	<spawn map="210010000" npcid="203067" pool="1" interval="295">
 		<object x="820.9077" y="1241.0469" z="118.68173" h="110"/>
 	</spawn>
-	<!-- Kerub Grain Sack (Object Normal lvl:1)-->
+	<!-- Kerub Grain Sack (Object Normal lvl:1) -->
 	<spawn map="210010000" npcid="700105" pool="32" interval="295">
 		<object x="134.33926" y="985.18567" z="288.8833" h="47"/>
 		<object x="1119.259" y="975.0611" z="131.895" h="72"/>
@@ -146,146 +164,146 @@
 		<object x="1029.0316" y="991.6886" z="129.375" h="21"/>
 		<object x="1031.6038" y="987.91437" z="129.42393" h="101"/>
 	</spawn>
-	<!-- Kunandes (NPC Normal lvl:10)-->
+	<!-- Kunandes (NPC Normal lvl:10) -->
 	<spawn map="210010000" npcid="203087" pool="1" interval="295">
 		<object x="840.4939" y="1217.087" z="119.06794" h="8"/>
 	</spawn>
-	<!-- Kustanon (NPC Normal lvl:40)-->
+	<!-- Kustanon (NPC Normal lvl:40) -->
 	<spawn map="210010000" npcid="203070" pool="1" interval="295">
 		<object x="803.91504" y="1242.1477" z="118.98627" h="1"/>
 	</spawn>
-	<!-- Lonian (NPC Normal lvl:10)-->
+	<!-- Lonian (NPC Normal lvl:10) -->
 	<spawn map="210010000" npcid="203080" pool="1" interval="295">
 		<object x="423.15802" y="1748.3923" z="120.01" h="2"/>
 	</spawn>
-	<!-- Mailbox (Object Normal lvl:1)-->
+	<!-- Mailbox (Object Normal lvl:1) -->
 	<spawn map="210010000" npcid="700000" pool="1" interval="295">
 		<object x="827.18" y="1243.24" z="118.875" h="95"/>
 	</spawn>
-	<!-- Melampus (NPC Normal lvl:20)-->
+	<!-- Melampus (NPC Normal lvl:20) -->
 	<spawn map="210010000" npcid="203065" pool="1" interval="295">
 		<object x="785.59576" y="1187.5854" z="106.04856" h="76"/>
 	</spawn>
-	<!-- Melponeh (NPC Normal lvl:10)-->
+	<!-- Melponeh (NPC Normal lvl:10) -->
 	<spawn map="210010000" npcid="203079" pool="1" interval="295">
 		<object x="421.36108" y="1754.2916" z="119.93316" h="96"/>
 	</spawn>
-	<!-- Mercenary - Gladiator (NPC Normal lvl:2)-->
+	<!-- Mercenary - Gladiator (NPC Normal lvl:2) -->
 	<spawn map="210010000" npcid="203055" pool="2" interval="295">
 		<object x="1190.048" y="1169.5519" z="136.656" h="67"/>
 		<object x="1125.2765" y="983.1209" z="132.12407" h="40"/>
 	</spawn>
-	<!-- Mercenary - Gladiator (NPC Normal lvl:9)-->
+	<!-- Mercenary - Gladiator (NPC Normal lvl:9) -->
 	<spawn map="210010000" npcid="203197" pool="1" interval="295">
 		<object x="843.9797" y="1215.5027" z="118.90735" h="88"/>
 	</spawn>
-	<!-- Mercenary - Assassin (NPC Normal lvl:9)-->
+	<!-- Mercenary - Assassin (NPC Normal lvl:9) -->
 	<spawn map="210010000" npcid="203198" pool="1" interval="295">
 		<object x="846.45575" y="1214.7573" z="118.740364" h="91"/>
 	</spawn>
-	<!-- Mercenary - Templar (NPC Normal lvl:2)-->
+	<!-- Mercenary - Templar (NPC Normal lvl:2) -->
 	<spawn map="210010000" npcid="203053" pool="2" interval="295">
 		<object x="1025.321" y="975.2266" z="130.46117" h="12"/>
 		<object x="1049.111" y="1208.146" z="109.578926" h="79"/>
 	</spawn>
-	<!-- Minalinerk (NPC Normal lvl:9)-->
+	<!-- Minalinerk (NPC Normal lvl:9) -->
 	<spawn map="210010000" npcid="798007" pool="1" interval="295">
 		<object x="851.6706" y="1252.6691" z="118.83318" h="80"/>
 	</spawn>
-	<!-- Mires (NPC Normal lvl:20)-->
+	<!-- Mires (NPC Normal lvl:20) -->
 	<spawn map="210010000" npcid="203057" pool="1" interval="295">
 		<object x="1141.0" y="1032.0" z="128.875" h="30"/>
 	</spawn>
-	<!-- Mune (NPC Normal lvl:10)-->
+	<!-- Mune (NPC Normal lvl:10) -->
 	<spawn map="210010000" npcid="203060" pool="1" interval="295">
 		<object x="868.7704" y="1248.559" z="119.133766" h="60"/>
 	</spawn>
-	<!-- Muranes (NPC Normal lvl:20)-->
+	<!-- Muranes (NPC Normal lvl:20) -->
 	<spawn map="210010000" npcid="203071" pool="1" interval="295">
 		<object x="744.4367" y="1156.2408" z="104.4727" h="30"/>
 	</spawn>
-	<!-- Naeru (NPC Elite lvl:45)-->
+	<!-- Naeru (NPC Elite lvl:45) -->
 	<spawn map="210010000" npcid="203084" pool="1" interval="295">
 		<object x="422.0657" y="1744.0328" z="119.995895" h="4"/>
 	</spawn>
-	<!-- Namus (NPC Normal lvl:20)-->
+	<!-- Namus (NPC Normal lvl:20) -->
 	<spawn map="210010000" npcid="203075" pool="1" interval="295">
 		<object x="558.4866" y="1379.1592" z="119.66928" h="2"/>
 	</spawn>
-	<!-- Navid (NPC Normal lvl:40)-->
+	<!-- Navid (NPC Normal lvl:40) -->
 	<spawn map="210010000" npcid="798360" pool="1" interval="295">
 		<object x="160.81151" y="1552.627" z="99.992065" h="5"/>
 	</spawn>
-	<!-- Nier (NPC Normal lvl:20)-->
+	<!-- Nier (NPC Normal lvl:20) -->
 	<spawn map="210010000" npcid="203077" pool="1" interval="295">
 		<object x="562.69" y="1395.5" z="114.61" h="27" w="111"/>
 	</spawn>
-	<!-- Obelisk Melponeh Campsite (Object Normal lvl:3)-->
+	<!-- Obelisk Melponeh Campsite (Object Normal lvl:3) -->
 	<spawn map="210010000" npcid="700014" pool="1" interval="295">
 		<object x="423.08667" y="1742.2821" z="120.478806" h="23"/>
 	</spawn>
-	<!-- Obelisk Akarios Village (Object Normal lvl:3)-->
+	<!-- Obelisk Akarios Village (Object Normal lvl:3) -->
 	<spawn map="210010000" npcid="700013" pool="1" interval="295">
 		<object x="853.09705" y="1206.9664" z="118.432625" h="20"/>
 	</spawn>
-	<!-- Odium Cauldron (Object Normal lvl:1)-->
+	<!-- Odium Cauldron (Object Normal lvl:1) -->
 	<spawn map="210010000" npcid="700030" pool="1" interval="295">
 		<object x="292.93555" y="2075.9937" z="170.4163" h="75"/>
 	</spawn>
-	<!-- Oz (NPC Normal lvl:20)-->
+	<!-- Oz (NPC Normal lvl:20) -->
 	<spawn map="210010000" npcid="203081" pool="1" interval="295">
 		<object x="433.11313" y="1752.6931" z="119.75" h="48"/>
 	</spawn>
-	<!-- Pernos (NPC Normal lvl:50)-->
+	<!-- Pernos (NPC Normal lvl:50) -->
 	<spawn map="210010000" npcid="790001" pool="1" interval="295">
 		<object x="241.09402" y="1639.461" z="100.375" h="112"/>
 	</spawn>
-	<!-- Poa (NPC Normal lvl:20)-->
+	<!-- Poa (NPC Normal lvl:20) -->
 	<spawn map="210010000" npcid="203085" pool="1" interval="295">
 		<object x="262.5719" y="1276.7648" z="108.24366" h="31"/>
 	</spawn>
-	<!-- Poeta Abyss Gate (Object Normal lvl:3)-->
+	<!-- Poeta Abyss Gate (Object Normal lvl:3) -->
 	<spawn map="210010000" npcid="700080" pool="1" interval="295">
 		<object x="299.44205" y="1016.1417" z="131.55842" h="54"/>
 	</spawn>
-	<!-- Polinia (NPC Normal lvl:10)-->
+	<!-- Polinia (NPC Normal lvl:10) -->
 	<spawn map="210010000" npcid="203059" pool="1" interval="295">
 		<object x="825.4364" y="1241.9847" z="118.83882" h="90"/>
 	</spawn>
-	<!-- Pranoa (NPC Normal lvl:10)-->
+	<!-- Pranoa (NPC Normal lvl:10) -->
 	<spawn map="210010000" npcid="203074" pool="1" interval="295">
 		<object x="692.0093" y="1205.8406" z="108.62384" h="4"/>
 	</spawn>
-	<!-- Protector Of Daminu (NPC Normal lvl:20)-->
+	<!-- Protector Of Daminu (NPC Normal lvl:20) -->
 	<spawn map="210010000" npcid="730009" pool="2" interval="295">
 		<object x="592.0" y="1539.0" z="116.125" h="90"/>
 		<object x="608.5164" y="1543.891" z="116.46091" h="61"/>
 	</spawn>
-	<!-- Rusty Windmill Gears (Object Normal lvl:1)-->
+	<!-- Rusty Windmill Gears (Object Normal lvl:1) -->
 	<spawn map="210010000" npcid="700035" pool="1" interval="295">
 		<object x="246.71" y="1193.22" z="114.467186" h="115"/>
 	</spawn>
-	<!-- Seirenia's Clothes (Object Normal lvl:1)-->
+	<!-- Seirenia's Clothes (Object Normal lvl:1) -->
 	<spawn map="210010000" npcid="700008" pool="1" interval="295">
 		<object x="477.8" y="1543.43" z="108.29341" h="21"/>
 	</spawn>
-	<!-- Seril (NPC Normal lvl:20)-->
+	<!-- Seril (NPC Normal lvl:20) -->
 	<spawn map="210010000" npcid="203336" pool="1" interval="295">
 		<object x="862.71423" y="1251.586" z="119.13391" h="110"/>
 	</spawn>
-	<!-- Shroomba (NPC Normal lvl:10)-->
+	<!-- Shroomba (NPC Normal lvl:10) -->
 	<spawn map="210010000" npcid="203187" pool="1" interval="295">
 		<object x="242.99" y="1642.36" z="100.375" h="72"/>
 	</spawn>
-	<!-- Shroomer (NPC Normal lvl:10)-->
+	<!-- Shroomer (NPC Normal lvl:10) -->
 	<spawn map="210010000" npcid="203188" pool="1" interval="295">
 		<object x="249.55" y="1635.79" z="100.64937" h="114"/>
 	</spawn>
-	<!-- Shroomin (NPC Normal lvl:10)-->
+	<!-- Shroomin (NPC Normal lvl:10) -->
 	<spawn map="210010000" npcid="203186" pool="1" interval="295">
 		<object x="243.96457" y="1635.3628" z="100.375" h="75" w="72"/>
 	</spawn>
-	<!-- Sleeping Elder (NPC Normal lvl:35)-->
+	<!-- Sleeping Elder (NPC Normal lvl:35) -->
 	<spawn map="210010000" npcid="730010" pool="6" interval="295">
 		<object x="528.0191" y="1541.4235" z="112.27287" h="28"/>
 		<object x="524.0951" y="1584.8158" z="112.4141" h="104"/>
@@ -294,15 +312,15 @@
 		<object x="709.77026" y="1549.9213" z="126.88976" h="60"/>
 		<object x="659.7924" y="1603.4248" z="124.8319" h="108"/>
 	</spawn>
-	<!-- Start (NPC Normal lvl:3)-->
+	<!-- Start (NPC Normal lvl:3) -->
 	<spawn map="210010000" npcid="206002" pool="1" interval="295">
 		<object x="1214.911" y="1050.575" z="140.70294" h="15"/>
 	</spawn>
-	<!-- Strong Fishing Rod (Object Normal lvl:1)-->
+	<!-- Strong Fishing Rod (Object Normal lvl:1) -->
 	<spawn map="210010000" npcid="730191" pool="1" interval="295">
 		<object x="606.12836" y="1090.4089" z="99.375" h="37"/>
 	</spawn>
-	<!-- Suspicious Box (Object Normal lvl:1)-->
+	<!-- Suspicious Box (Object Normal lvl:1) -->
 	<spawn map="210010000" npcid="700107" pool="14" interval="295">
 		<object x="171.14" y="1096.12" z="128.84935" h="1"/>
 		<object x="169.2" y="1107.24" z="131.25537" h="89"/>
@@ -319,31 +337,31 @@
 		<object x="237.29" y="1131.36" z="103.78494" h="51"/>
 		<object x="180.18" y="1133.11" z="113.44005" h="81"/>
 	</spawn>
-	<!-- Tamed Griffon (NPC Elite lvl:20)-->
+	<!-- Tamed Griffon (NPC Elite lvl:20) -->
 	<spawn map="210010000" npcid="203351" pool="1" interval="295">
 		<object x="819.722" y="1240.3114" z="118.625" h="104"/>
 	</spawn>
-	<!-- Toleo (NPC Normal lvl:20)-->
+	<!-- Toleo (NPC Normal lvl:20) -->
 	<spawn map="210010000" npcid="203066" pool="1" interval="295" >
 		<object x="814.7258" y="1217.3505" z="117.126656" h="41" w="112"/>
 	</spawn>
-	<!-- Tula (NPC Normal lvl:20)-->
+	<!-- Tula (NPC Normal lvl:20) -->
 	<spawn map="210010000" npcid="203082" pool="1" interval="295">
 		<object x="429.73135" y="1756.6022" z="119.75" h="31"/>
 	</spawn>
-	<!-- Uno (NPC Normal lvl:10)-->
+	<!-- Uno (NPC Normal lvl:10) -->
 	<spawn map="210010000" npcid="203061" pool="1" interval="295">
 		<object x="847.26337" y="1256.8829" z="118.75" h="85"/>
 	</spawn>
-	<!-- Utenion (NPC Normal lvl:20)-->
+	<!-- Utenion (NPC Normal lvl:20) -->
 	<spawn map="210010000" npcid="203069" pool="1" interval="295">
 		<object x="863.17993" y="1195.449" z="114.645874" h="94"/>
 	</spawn>
-	<!-- Violet Power Generator (Object Normal lvl:20)-->
+	<!-- Violet Power Generator (Object Normal lvl:20) -->
 	<spawn map="210010000" npcid="700083" pool="1" interval="295">
 		<object staticid="1" x="289.65" y="1017.06" z="132.02571" h="7"/>
 	</spawn>
-	<!-- Wine Barrel (Object Normal lvl:1)-->
+	<!-- Wine Barrel (Object Normal lvl:1) -->
 	<spawn map="210010000" npcid="700106" pool="12" interval="295">
 		<object x="624.92" y="872.5" z="103.25" h="95"/>
 		<object x="612.03" y="894.53" z="103.125" h="113"/>

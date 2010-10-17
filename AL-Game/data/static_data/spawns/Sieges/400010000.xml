@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <!--
-	This file is part of aion-lightning<aion-lightning.com>.
+	This file is part of aion-lightning <aion-lightning.com>.
 
 	aion-lightning is free software: you can redistribute it and/or modify
 	it under the terms of the GNU General Public License as published by
@@ -9,16 +9,15 @@
 
 	aion-lightning is distributed in the hope that it will be useful,
 	but WITHOUT ANY WARRANTY; without even the implied warranty of
-	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
 	GNU General Public License for more details.
 
 	You should have received a copy of the GNU General Public License
-	along with aion-lightning.  If not, see<http://www.gnu.org/licenses/>.
+	along with aion-lightning. If not, see<http://www.gnu.org/licenses/>.
 
+	NOTE: Do not change spawns of artifacts, they are right, but ingame you will see them wrong because geodata is not implemented yet!!!
 	Reshanta Sieges
 	@author Gigi, Titus, Mcrizza (Thanks to Bluecrime, Sagitrio and ViAl)
-	
-	Do not change spawns of artifacts, they are right, but ingame you will see them wrong because geodata is not implemented yet!!!
  -->
 <spawns>
 	<!-- GATES -->
@@ -439,13 +438,13 @@
 		<object x="1728.7653" y="2440.4136" z="2940.1167" h="0"/>
 	</spawn>
 	<spawn siegeid="1251" interval="295" map="400010000" npcid="276755" race="BALAUR" pool="1" stype="ARTIFACT">
-		<object x="694.1477" y="3186.6453" z="2909.8875"  h="0"/>
+		<object x="694.1477" y="3186.6453" z="2909.8875" h="0"/>
 	</spawn>
 	<spawn siegeid="1251" interval="295" map="400010000" npcid="276758" race="BALAUR" pool="1" stype="ARTIFACT">
-		<object x="833.222" y="3026.171" z="3047.2979"  h="0"/>
+		<object x="833.222" y="3026.171" z="3047.2979" h="0"/>
 	</spawn>
 	<spawn siegeid="1251" interval="295" map="400010000" npcid="276761" race="BALAUR" pool="1" stype="ARTIFACT">
-		<object x="627.5095" y="2881.5784" z="2684.9917"  h="0"/>
+		<object x="627.5095" y="2881.5784" z="2684.9917" h="0"/>
 	</spawn>
 	<spawn siegeid="1251" interval="295" map="400010000" npcid="277065" race="BALAUR" pool="1" stype="ARTIFACT">
 		<object x="707.92676" y="2915.9836" z="2877.6128" h="0"/>
@@ -1930,7 +1929,7 @@
 		<object x="1308.89" y="1397.5898" z="1691.6088" h="30"/>
 	</spawn>
 	<spawn siegeid="1146" interval="295" pool="1" npcid="266070" race="ASMODIANS" map="400010000">
-	  	<object x="1300.9082" y="1382.146" z="1695.9728" h="0"/>
+		<object x="1300.9082" y="1382.146" z="1695.9728" h="0"/>
 	</spawn>
 	<!-- ELYOS -->
 	<spawn siegeid="1146" interval="295" pool="1" npcid="266005" race="ELYOS" map="400010000" stype="PROTECTOR">
@@ -4803,15 +4802,15 @@
 		<object x="3012.0435" y="911.84491" z="2842.798" h="10"/>
 	</spawn>
 	<spawn siegeid="1214" interval="295" pool="3" npcid="267260" race="BALAUR" map="400010000">
-	  	<object x="3015.7686" y="889.42883" z="2843.1228" h="113"/>
-	  	<object x="2978.0615" y="898.29559" z="2843.0781" h="90"/>
-	  	<object x="2989.3801" y="916.10571" z="2844.3733" h="43"/>
+		<object x="3015.7686" y="889.42883" z="2843.1228" h="113"/>
+		<object x="2978.0615" y="898.29559" z="2843.0781" h="90"/>
+		<object x="2989.3801" y="916.10571" z="2844.3733" h="43"/>
 	</spawn>
 	<spawn siegeid="1214" interval="295" pool="1" npcid="267215" race="BALAUR" map="400010000" stype="PROTECTOR">
-	  	<object x="3008.4797" y="904.62549" z="2845.2305" h="70"/>
+		<object x="3008.4797" y="904.62549" z="2845.2305" h="70"/>
 	</spawn>
 	<spawn siegeid="1214" interval="295" pool="1" npcid="267275" race="BALAUR" map="400010000">
-	  	<object x="2993.0315" y="895.44061" z="2845.9917" h="70"/>
+		<object x="2993.0315" y="895.44061" z="2845.9917" h="70"/>
 	</spawn>
 	<!-- ASMODIANS -->
 	<spawn siegeid="1214" interval="295" pool="2" npcid="267240" race="ASMODIANS" map="400010000">
@@ -4827,7 +4826,7 @@
 		<object x="3012.0435" y="911.84491" z="2842.798" h="10"/>
 	</spawn>
 	<spawn siegeid="1214" interval="295" pool="3" npcid="267255" race="ASMODIANS" map="400010000">
-	  	<object x="3015.7686" y="889.42883" z="2843.1228" h="113"/>
+		<object x="3015.7686" y="889.42883" z="2843.1228" h="113"/>
 		<object x="2978.0615" y="898.29559" z="2843.0781" h="90"/>
 		<object x="2989.3801" y="916.10571" z="2844.3733" h="43"/>
 	</spawn>
@@ -5003,7 +5002,7 @@
 	</spawn>
 	<!-- ELYOS -->
 	<spawn siegeid="1223" interval="295" pool="3" npcid="268435" race="ELYOS" map="400010000">
-	  	<object x="2036.223" y="1446.25" z="2964.8896" h="77"/>
+		<object x="2036.223" y="1446.25" z="2964.8896" h="77"/>
 		<object x="2055.0642" y="1464.8162" z="2965.6118" h="20"/>
 		<object x="2065.5554" y="1445.8866" z="2965.9033" h="0"/>
 	</spawn>

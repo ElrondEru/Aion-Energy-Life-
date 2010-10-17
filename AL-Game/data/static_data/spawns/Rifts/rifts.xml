@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<!--
-	Rifts
- -->
+<!-- Rifts -->
 <spawns>
 	<!-- Rift Eltnen Master -->
 	<spawn map="210020000" npcid="700137" pool="1" handler="RIFT" anchor="ELTNEN_AM">

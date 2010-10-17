@@ -1,7 +1,25 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<!-- Sulfur Tree Nest -->
+<!--
+	This file is part of aion-unique <aion-unique.org>.
+
+	aion-unique is free software: you can redistribute it and/or modify
+	it under the terms of the GNU General Public License as published by
+	the Free Software Foundation, either version 3 of the License, or
+	(at your option) any later version.
+
+	aion-unique is distributed in the hope that it will be useful,
+	but WITHOUT ANY WARRANTY; without even the implied warranty of
+	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+	GNU General Public License for more details.
+
+	You should have received a copy of the GNU General Public License
+	along with aion-unique.If not, see <http://www.gnu.org/licenses/>.
+
+	Sulfur Tree Nest
+
+-->
 <spawns>
-	<!-- Ashikar Escort (Monster Elite lvl:35)-->
+	<!-- Ashikar Escort (Monster Elite lvl:35) -->
 	<spawn map="300060000" npcid="214734" pool="12" interval="300">
 		<object x="429.35876" y="395.37857" z="165.78033" h="40"/>
 		<object x="449.87512" y="401.4326" z="165.78334" h="114"/>
@@ -16,7 +34,7 @@
 		<object x="412.23602" y="425.88657" z="163.91075" h="42"/>
 		<object x="519.2232" y="438.2741" z="164.01657" h="70"/>
 	</spawn>
-	<!-- Ashikar Geomancer (Monster Elite lvl:35)-->
+	<!-- Ashikar Geomancer (Monster Elite lvl:35) -->
 	<spawn map="300060000" npcid="214736" pool="5" interval="300">
 		<object x="528.73175" y="479.82678" z="164.01668" h="51"/>
 		<object x="511.84274" y="519.23895" z="164.01678" h="21"/>
@@ -24,7 +42,7 @@
 		<object x="385.83176" y="479.81046" z="164.01706" h="59"/>
 		<object x="425.91187" y="395.4148" z="165.77994" h="103"/>
 	</spawn>
-	<!-- Ashikar Sarhang (Monster Elite lvl:35)-->
+	<!-- Ashikar Sarhang (Monster Elite lvl:35) -->
 	<spawn map="300060000" npcid="214739" pool="7" interval="300">
 		<object x="466.1575" y="462.4482" z="163.1594" h="60"/>
 		<object x="479.04193" y="521.2662" z="162.71265" h="112"/>
@@ -34,7 +52,7 @@
 		<object x="439.7423" y="515.9775" z="162.71384" h="29"/>
 		<object x="471.00125" y="583.70105" z="165.77994" h="10"/>
 	</spawn>
-	<!-- Ashikar Scourge (Monster Elite lvl:35)-->
+	<!-- Ashikar Scourge (Monster Elite lvl:35) -->
 	<spawn map="300060000" npcid="214737" pool="11" interval="300">
 		<object x="420.52133" y="451.1877" z="162.71101" h="75"/>
 		<object x="453.9806" y="560.4933" z="165.77994" h="30"/>
@@ -48,7 +66,7 @@
 		<object x="456.44086" y="582.2223" z="165.77994" h="92"/>
 		<object x="463.1256" y="450.6665" z="162.78937" h="1"/>
 	</spawn>
-	<!-- Ashikar Sentinel (Monster Elite lvl:35)-->
+	<!-- Ashikar Sentinel (Monster Elite lvl:35) -->
 	<spawn map="300060000" npcid="214733" pool="16" interval="300">
 		<object x="512.4972" y="423.99707" z="164.24539" h="95"/>
 		<object x="421.93997" y="412.23837" z="165.77994" h="105"/>
@@ -67,7 +85,7 @@
 		<object x="505.2795" y="532.03845" z="164.01208" h="99"/>
 		<object x="456.5189" y="417.3537" z="163.92717" h="56"/>
 	</spawn>
-	<!-- Ashikar Sentinel (Monster Elite lvl:35)-->
+	<!-- Ashikar Sentinel (Monster Elite lvl:35) -->
 	<spawn map="300060000" npcid="214735" pool="6" interval="300">
 		<object x="515.3419" y="397.18652" z="165.77994" h="107"/>
 		<object x="388.87167" y="447.74084" z="164.01668" h="80"/>
@@ -76,7 +94,7 @@
 		<object x="527.5656" y="443.91592" z="164.01666" h="3"/>
 		<object x="533.8549" y="467.93707" z="164.01668" h="4"/>
 	</spawn>
-	<!-- Ashikar Supplicator (Monster Elite lvl:35)-->
+	<!-- Ashikar Supplicator (Monster Elite lvl:35) -->
 	<spawn map="300060000" npcid="214738" pool="6" interval="300">
 		<object x="422.5832" y="475.0415" z="162.80374" h="76"/>
 		<object x="496.24167" y="452.4829" z="162.71072" h="1"/>
@@ -85,7 +103,7 @@
 		<object x="452.6109" y="437.8379" z="162.80061" h="84"/>
 		<object x="485.1807" y="571.7166" z="165.77994" h="96"/>
 	</spawn>
-	<!-- Pesky Drakie (Monster Normal lvl:35)-->
+	<!-- Pesky Drakie (Monster Normal lvl:35) -->
 	<spawn map="300060000" npcid="214803" pool="31" interval="295">
 		<object x="476.52518" y="519.81866" z="162.71266" h="33"/>
 		<object x="410.6018" y="527.24133" z="164.01859" h="119"/>
@@ -119,7 +137,7 @@
 		<object x="493.4985" y="399.64093" z="165.7825" h="110"/>
 		<object x="500.30923" y="415.9239" z="165.77994" h="69"/>
 	</spawn>
-	<!-- Sealed Gold Chest (Object Hero lvl:35)-->
+	<!-- Sealed Gold Chest (Object Hero lvl:35) -->
 	<spawn map="300060000" npcid="214804" pool="41" interval="295">
 		<object x="440.1223" y="437.10226" z="162.76569" h="7"/>
 		<object x="417.64334" y="433.4477" z="163.95964" h="79"/>

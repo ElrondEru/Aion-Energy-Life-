@@ -1,7 +1,23 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <!--
-	Inggison 	
- -->
+	This file is part of aion-unique <aion-unique.org>.
+
+	aion-unique is free software: you can redistribute it and/or modify
+	it under the terms of the GNU General Public License as published by
+	the Free Software Foundation, either version 3 of the License, or
+	(at your option) any later version.
+
+	aion-unique is distributed in the hope that it will be useful,
+	but WITHOUT ANY WARRANTY; without even the implied warranty of
+	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+	GNU General Public License for more details.
+
+	You should have received a copy of the GNU General Public License
+	along with aion-unique.If not, see <http://www.gnu.org/licenses/>.
+
+	Inggison
+
+-->
 <spawns>
 	<!-- Lord Skyrose -->
 	<spawn map="210050000" npcid="296488" pool="1" interval="295">
@@ -679,7 +695,7 @@
 	<spawn map="210050000" npcid="203351" pool="1" interval="295">
         <object x="1351.4493" y="259.7737" z="589.333" h="45"/>
 	</spawn>
-	<!-- Bidshulack (Object Normal lvl:1)-->
+	<!-- Bidshulack (Object Normal lvl:1) -->
     <spawn map="210050000" npcid="700962" pool="3" interval="295">
         <object x="1333.9741" y="273.8155" z="589.49347" h="72"/>
         <object x="398.9299" y="949.9596" z="460.53894" h="67"/>
@@ -689,7 +705,7 @@
 	<spawn map="210050000" npcid="700640" pool="1" interval="295">
         <object x="1376.0514" y="368.0446" z="589.62537" h="79"/>
     </spawn>
-	<!-- Veille (Monster Legendary lvl:57)-->
+	<!-- Veille (Monster Legendary lvl:57) -->
 	<spawn map="210050000" npcid="258200" pool="1" interval="295">
         <object x="1079.375" y="1492.676" z="404.86075" h="90"/>
     </spawn>
@@ -745,7 +761,7 @@
 	<spawn map="210050000" npcid="730235" pool="1" interval="295">
         <object x="1889.8127" y="1748.8434" z="328.40555" h="116"/>
     </spawn>
-	<!-- Mail Box (Object Normal lvl:1)-->
+	<!-- Mail Box (Object Normal lvl:1) -->
 	<spawn map="210050000" npcid="700000" pool="3" interval="295">
         <object x="1379.0" y="256.0" z="590.0" h="57"/>
         <object x="2764.518" y="1438.5369" z="384.66205" h="45"/>
@@ -756,7 +772,7 @@
         <object x="1345.985" y="467.83075" z="542.40015" h="38"/>
         <object x="1337.7637" y="462.1117" z="542.5008" h="39"/>
     </spawn>
-	<!-- Pluma Bait (Object Normal lvl:1)-->
+	<!-- Pluma Bait (Object Normal lvl:1) -->
 	<spawn map="210050000" npcid="700759" pool="1" interval="295">
         <object x="899.4796" y="342.65494" z="527.8015" h="43"/>
     </spawn>

@@ -1,7 +1,25 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<!-- Left Wing Chamber -->
+<!--
+	This file is part of aion-unique <aion-unique.org>.
+
+	aion-unique is free software: you can redistribute it and/or modify
+	it under the terms of the GNU General Public License as published by
+	the Free Software Foundation, either version 3 of the License, or
+	(at your option) any later version.
+
+	aion-unique is distributed in the hope that it will be useful,
+	but WITHOUT ANY WARRANTY; without even the implied warranty of
+	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+	GNU General Public License for more details.
+
+	You should have received a copy of the GNU General Public License
+	along with aion-unique.If not, see <http://www.gnu.org/licenses/>.
+
+	Left Wing Chamber
+
+-->
 <spawns>
-	<!-- Ashikar Ambusher (Monster Normal lvl:35) (from client spawn)-->
+	<!-- Ashikar Ambusher (Monster Normal lvl:35) -->
 	<spawn map="300080000" npcid="214741" pool="22" interval="295">
 		<object x="335.22107" y="473.95657" z="362.00156" h="48"/>
 		<object x="511.09937" y="591.4014" z="351.15314" h="75"/>
@@ -26,7 +44,7 @@
 		<object x="574.9002" y="592.8974" z="351.15314" h="40"/>
 		<object x="439.75064" y="551.8069" z="353.865" h="110"/>
 	</spawn>
-	<!-- Ashikar Assailant (Monster Normal lvl:35) (from client spawn)-->
+	<!-- Ashikar Assailant (Monster Normal lvl:35) -->
 	<spawn map="300080000" npcid="214740" pool="26" interval="295">
 		<object x="280.89102" y="708.25244" z="364.93622" h="8"/>
 		<object x="399.22473" y="538.31604" z="358.90497" h="112"/>
@@ -55,7 +73,7 @@
 		<object x="485.2344" y="522.0616" z="352.94528" h="87"/>
 		<object x="496.60776" y="581.8544" z="354.911" h="114"/>
 	</spawn>
-	<!-- Ashikar Fleshmender (Monster Elite lvl:35) (from client spawn)-->
+	<!-- Ashikar Fleshmender (Monster Elite lvl:35) -->
 	<spawn map="300080000" npcid="214826" pool="7" interval="300">
 		<object x="498.62015" y="488.06284" z="352.7172" h="104"/>
 		<object x="492.48242" y="632.71277" z="352.94638" h="49"/>
@@ -65,7 +83,7 @@
 		<object x="491.3378" y="536.70935" z="352.9463" h="10"/>
 		<object x="451.36746" y="585.7708" z="352.69846" h="31"/>
 	</spawn>
-	<!-- Ashikar Healer (Monster Normal lvl:35) (from client spawn)-->
+	<!-- Ashikar Healer (Monster Normal lvl:35) -->
 	<spawn map="300080000" npcid="214743" pool="14" interval="295">
 		<object x="482.3519" y="602.68115" z="352.9456" h="61"/>
 		<object x="261.32263" y="545.6874" z="364.93622" h="109"/>
@@ -82,7 +100,7 @@
 		<object x="349.8518" y="570.3008" z="361.6428" h="6"/>
 		<object x="319.36856" y="611.75684" z="362.12466" h="99"/>
 	</spawn>
-	<!-- Ashikar Serpentguard (Monster Elite lvl:35) (from client spawn)-->
+	<!-- Ashikar Serpentguard (Monster Elite lvl:35) -->
 	<spawn map="300080000" npcid="214824" pool="7" interval="300">
 		<object x="554.1064" y="589.22253" z="350.90677" h="71"/>
 		<object x="459.0746" y="554.4599" z="352.69846" h="88"/>
@@ -92,7 +110,7 @@
 		<object x="552.075" y="581.686" z="350.90677" h="88"/>
 		<object x="492.10605" y="534.2591" z="352.94604" h="90"/>
 	</spawn>
-	<!-- Ashikar Shaman (Monster Elite lvl:35) (from client spawn)-->
+	<!-- Ashikar Shaman (Monster Elite lvl:35) -->
 	<spawn map="300080000" npcid="214825" pool="8" interval="300">
 		<object x="485.5887" y="585.4208" z="355.34595" h="29"/>
 		<object x="497.4278" y="681.7858" z="352.69922" h="19"/>
@@ -103,7 +121,7 @@
 		<object x="536.67444" y="585.7708" z="350.90677" h="105"/>
 		<object x="466.73724" y="654.71027" z="352.69922" h="34"/>
 	</spawn>
-	<!-- Ashikar Sniper (Monster Normal lvl:35) (from client spawn)-->
+	<!-- Ashikar Sniper (Monster Normal lvl:35) -->
 	<spawn map="300080000" npcid="214742" pool="14" interval="295">
 		<object x="317.02393" y="706.3012" z="361.78036" h="48"/>
 		<object x="471.04312" y="553.08966" z="352.9456" h="46"/>
@@ -120,11 +138,11 @@
 		<object x="408.5752" y="508.37042" z="359.01425" h="92"/>
 		<object x="290.68695" y="733.0676" z="364.93622" h="73"/>
 	</spawn>
-	<!-- Shining Magic Ward (Object Normal lvl:1) (from client spawn)-->
+	<!-- Shining Magic Ward (Object Normal lvl:1) -->
 	<spawn map="300080000" npcid="700530" pool="1" interval="295">
 		<object staticid="1" x="672.83" y="606.22" z="321.19" h="66"/>
 	</spawn>
-	<!-- TreasureRoom_Sensory_C (NPC Normal lvl:3) (from client spawn)-->
+	<!-- TreasureRoom_Sensory_C (NPC Normal lvl:3) -->
 	<spawn map="300080000" npcid="206089" pool="1" interval="295">
 		<object x="572.7178" y="585.92645" z="354.0" h="60"/>
 	</spawn>

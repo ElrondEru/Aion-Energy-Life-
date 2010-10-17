@@ -1,7 +1,25 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<!-- Theobomos Lab -->
+<!--
+	This file is part of aion-unique <aion-unique.org>.
+
+	aion-unique is free software: you can redistribute it and/or modify
+	it under the terms of the GNU General Public License as published by
+	the Free Software Foundation, either version 3 of the License, or
+	(at your option) any later version.
+
+	aion-unique is distributed in the hope that it will be useful,
+	but WITHOUT ANY WARRANTY; without even the implied warranty of
+	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+	GNU General Public License for more details.
+
+	You should have received a copy of the GNU General Public License
+	along with aion-unique.If not, see <http://www.gnu.org/licenses/>.
+
+	Theobomos Lab
+
+-->
 <spawns>
-	<!-- Aetheric Malekor (Monster Elite lvl:50) (from client spawn)-->
+	<!-- Aetheric Malekor (Monster Elite lvl:50) -->
 	<spawn map="310110000" npcid="214645" pool="10" interval="300">
 		<object x="540.1716" y="416.6813" z="185.78856" h="100"/>
 		<object x="523.9256" y="416.42688" z="185.78621" h="16"/>
@@ -14,7 +32,7 @@
 		<object x="530.9498" y="343.52734" z="183.91608" h="92"/>
 		<object x="412.51703" y="685.3985" z="187.76215" h="93"/>
 	</spawn>
-	<!-- Agitated Sheluk (Monster Elite lvl:50) (from client spawn)-->
+	<!-- Agitated Sheluk (Monster Elite lvl:50) -->
 	<spawn map="310110000" npcid="214647" pool="22" interval="300">
 		<object x="376.73196" y="183.34155" z="169.10449" h="107"/>
 		<object x="590.7001" y="846.19885" z="165.53493" h="91"/>
@@ -39,7 +57,7 @@
 		<object x="295.26697" y="185.3799" z="173.09653" h="50"/>
 		<object x="541.9923" y="812.66156" z="166.14923" h="28"/>
 	</spawn>
-	<!-- Ancient Earth Spirit (Monster Elite lvl:50) (from client spawn)-->
+	<!-- Ancient Earth Spirit (Monster Elite lvl:50) -->
 	<spawn map="310110000" npcid="214654" pool="9" interval="300">
 		<object x="395.7488" y="546.5606" z="184.2323" h="67"/>
 		<object x="380.5362" y="478.09525" z="186.13626" h="51"/>
@@ -51,7 +69,7 @@
 		<object x="393.476" y="518.77795" z="186.20251" h="19"/>
 		<object x="393.45404" y="493.37863" z="186.20251" h="26"/>
 	</spawn>
-	<!-- Ancient Fire Spirit (Monster Elite lvl:50) (from client spawn)-->
+	<!-- Ancient Fire Spirit (Monster Elite lvl:50) -->
 	<spawn map="310110000" npcid="214651" pool="5" interval="300">
 		<object x="639.5767" y="156.20528" z="166.03618" h="72"/>
 		<object x="654.47284" y="141.32204" z="166.09023" h="19"/>
@@ -59,7 +77,7 @@
 		<object x="669.73883" y="156.72101" z="166.09023" h="18"/>
 		<object x="635.6102" y="155.49065" z="166.09291" h="29"/>
 	</spawn>
-	<!-- Ancient Water Spirit (Monster Elite lvl:50) (from client spawn)-->
+	<!-- Ancient Water Spirit (Monster Elite lvl:50) -->
 	<spawn map="310110000" npcid="214655" pool="14" interval="300">
 		<object x="266.00885" y="512.264" z="187.79453" h="96"/>
 		<object x="347.0386" y="567.3307" z="187.8289" h="42"/>
@@ -76,7 +94,7 @@
 		<object x="284.05695" y="493.91644" z="187.79453" h="61"/>
 		<object x="361.59293" y="589.39197" z="187.79451" h="116"/>
 	</spawn>
-	<!-- Ancient Wind Spirit (Monster Elite lvl:50) (from client spawn)-->
+	<!-- Ancient Wind Spirit (Monster Elite lvl:50) -->
 	<spawn map="310110000" npcid="214653" pool="15" interval="300">
 		<object x="476.6153" y="530.7289" z="187.79453" h="10"/>
 		<object x="396.64246" y="588.66046" z="187.76947" h="33"/>
@@ -94,7 +112,7 @@
 		<object x="458.16516" y="512.50543" z="187.79453" h="4"/>
 		<object x="446.01553" y="475.05576" z="187.82571" h="84"/>
 	</spawn>
-	<!-- Baby Agitated Sheluk (Monster Elite lvl:50) (from client spawn)-->
+	<!-- Baby Agitated Sheluk (Monster Elite lvl:50) -->
 	<spawn map="310110000" npcid="214648" pool="23" interval="300">
 		<object x="452.683" y="775.3739" z="157.93695" h="87"/>
 		<object x="384.52744" y="172.4962" z="170.29732" h="28"/>
@@ -120,11 +138,11 @@
 		<object x="271.65704" y="208.42415" z="174.99982" h="36"/>
 		<object x="589.34265" y="847.9483" z="165.53493" h="79"/>
 	</spawn>
-	<!-- Beautiful Galateia (Named Mob Elite lvl:50) (from client spawn)-->
+	<!-- Beautiful Galateia (Named Mob Elite lvl:50) -->
 	<spawn map="310110000" npcid="215382" pool="1" interval="3600">
 		<object x="543.6723" y="733.3934" z="202.06831" h="2"/>
 	</spawn>
-	<!-- Big Wing Fangwing (Monster Elite lvl:50) (from client spawn)-->
+	<!-- Big Wing Fangwing (Monster Elite lvl:50) -->
 	<spawn map="310110000" npcid="214643" pool="19" interval="300">
 		<object x="501.91165" y="251.53635" z="172.95157" h="61"/>
 		<object x="380.46942" y="302.45618" z="169.10449" h="55"/>
@@ -146,7 +164,7 @@
 		<object x="386.26224" y="268.7299" z="168.82072" h="64"/>
 		<object x="405.36032" y="311.2428" z="173" h="68"/>
 	</spawn>
-	<!-- Cockroach (Monster Junk lvl:1) (from client spawn)-->
+	<!-- Cockroach (Monster Junk lvl:1) -->
 	<spawn map="310110000" npcid="214714" pool="16" interval="295">
 		<object x="548.9243" y="826.28754" z="164.71877" h="9"/>
 		<object x="455.3256" y="694.4803" z="157.0225" h="72"/>
@@ -165,11 +183,11 @@
 		<object x="430.9846" y="779.2684" z="158.62494" h="41"/>
 		<object x="455.2591" y="847.068" z="158.55878" h="93"/>
 	</spawn>
-	<!-- Cracked Nuhas (Monster Elite lvl:50) (from client spawn)-->
+	<!-- Cracked Nuhas (Monster Elite lvl:50) -->
 	<spawn map="310110000" npcid="214661" pool="1" interval="300">
 		<object x="532.09424" y="431.78012" z="187.12476" h="116"/>
 	</spawn>
-	<!-- Cursed Nagolem (Monster Elite lvl:50) (from client spawn)-->
+	<!-- Cursed Nagolem (Monster Elite lvl:50) -->
 	<spawn map="310110000" npcid="214641" pool="43" interval="300">
 		<object x="531.3768" y="659.9904" z="202.0637" h="98"/>
 		<object x="525.7474" y="414.93094" z="185.78569" h="71"/>
@@ -215,7 +233,7 @@
 		<object x="389.61862" y="383.40625" z="187.76872" h="74"/>
 		<object x="540.8467" y="684.20013" z="202.11754" h="46"/>
 	</spawn>
-	<!-- Fragmented Icy Kalgolem (Monster Elite lvl:50) (from client spawn)-->
+	<!-- Fragmented Icy Kalgolem (Monster Elite lvl:50) -->
 	<spawn map="310110000" npcid="214730" pool="30" interval="300">
 		<object x="602.23016" y="266.04382" z="166.0479" h="41"/>
 		<object x="704.4908" y="263.36865" z="175.50578" h="90"/>
@@ -248,7 +266,7 @@
 		<object x="607.3388" y="264.1557" z="166.0479" h="57"/>
 		<object x="551.9142" y="297.46082" z="170.31474" h="60"/>
 	</spawn>
-	<!-- Frozen Blobble (Monster Elite lvl:50) (from client spawn)-->
+	<!-- Frozen Blobble (Monster Elite lvl:50) -->
 	<spawn map="310110000" npcid="214649" pool="7" interval="300">
 		<object x="675.9223" y="203.84436" z="167.6411" h="20"/>
 		<object x="688.10254" y="264.01523" z="174.16684" h="37"/>
@@ -258,11 +276,11 @@
 		<object x="624.10864" y="203.23221" z="171.50554" h="15"/>
 		<object x="580.32983" y="203.43288" z="170.55753" h="5"/>
 	</spawn>
-	<!-- Frozen Harint (Monster Elite lvl:50) (from client spawn)-->
+	<!-- Frozen Harint (Monster Elite lvl:50) -->
 	<spawn map="310110000" npcid="214660" pool="1" interval="300">
 		<object x="647.2851" y="201.91957" z="166.04839" h="49"/>
 	</spawn>
-	<!-- Icy Kalgolem (Monster Elite lvl:50) (from client spawn)-->
+	<!-- Icy Kalgolem (Monster Elite lvl:50) -->
 	<spawn map="310110000" npcid="214729" pool="17" interval="300">
 		<object x="647.24915" y="199.0736" z="166.04839" h="51"/>
 		<object x="548.7617" y="201.66574" z="175.50539" h="100"/>
@@ -282,7 +300,7 @@
 		<object x="653.5482" y="214.12834" z="166.04839" h="3"/>
 		<object x="544.77924" y="300.6375" z="171.47403" h="39"/>
 	</spawn>
-	<!-- Kirrin Scout (Monster Elite lvl:50) (from client spawn)-->
+	<!-- Kirrin Scout (Monster Elite lvl:50) -->
 	<spawn map="310110000" npcid="214656" pool="10" interval="300">
 		<object x="354.4809" y="410.1558" z="187.76947" h="70"/>
 		<object x="535.4299" y="340.819" z="183.9121" h="98"/>
@@ -295,7 +313,7 @@
 		<object x="477.66193" y="344.64508" z="176.12785" h="82"/>
 		<object x="547.20935" y="580.61786" z="203.67274" h="78"/>
 	</spawn>
-	<!-- Magical Malekor (Monster Elite lvl:50) (from client spawn)-->
+	<!-- Magical Malekor (Monster Elite lvl:50) -->
 	<spawn map="310110000" npcid="214644" pool="8" interval="300">
 		<object x="411.2841" y="731.2785" z="188.14403" h="80"/>
 		<object x="484.9403" y="352.75204" z="176.12785" h="82"/>
@@ -306,7 +324,7 @@
 		<object x="477.74225" y="239.50839" z="173.00807" h="3"/>
 		<object x="470.62433" y="352.75204" z="176.12785" h="62"/>
 	</spawn>
-	<!-- Mutated Caltrops (Monster Elite lvl:50) (from client spawn)-->
+	<!-- Mutated Caltrops (Monster Elite lvl:50) -->
 	<spawn map="310110000" npcid="214658" pool="16" interval="300">
 		<object x="453.56586" y="801.1414" z="158.7147" h="98"/>
 		<object x="553.83746" y="847.2598" z="165.5998" h="109"/>
@@ -325,22 +343,22 @@
 		<object x="430.2571" y="786.1011" z="158.63402" h="40"/>
 		<object x="589.82263" y="691.0916" z="165.5932" h="41"/>
 	</spawn>
-	<!-- Naughty Pocaching (Monster Elite lvl:50) (from client spawn)-->
+	<!-- Naughty Pocaching (Monster Elite lvl:50) -->
 	<spawn map="310110000" npcid="214662" pool="1" interval="300">
 		<object x="596.5083" y="593.8291" z="159.42465" h="65"/>
 	</spawn>
-	<!-- Pure Elemental Core (Monster Normal lvl:50) (from client spawn)-->
+	<!-- Pure Elemental Core (Monster Normal lvl:50) -->
 	<spawn map="310110000" npcid="281033" pool="4" interval="295">
 		<object x="397.61127" y="761.9753" z="189.38629" h="105"/>
 		<object x="385.86676" y="761.20935" z="189.38628" h="117"/>
 		<object x="392.6172" y="744.142" z="189.38644" h="72"/>
 		<object x="391.9376" y="763.77905" z="189.38632" h="89"/>
 	</spawn>
-	<!-- Queen Arachne (Monster Elite lvl:50) (from client spawn)-->
+	<!-- Queen Arachne (Monster Elite lvl:50) -->
 	<spawn map="310110000" npcid="214659" pool="1" interval="300">
 		<object x="249.48694" y="186.44658" z="174.01396" h="15"/>
 	</spawn>
-	<!-- Ravenous Bloodwing (Monster Elite lvl:50) (from client spawn)-->
+	<!-- Ravenous Bloodwing (Monster Elite lvl:50) -->
 	<spawn map="310110000" npcid="214642" pool="10" interval="300">
 		<object x="375.44943" y="288.75574" z="169.10449" h="4"/>
 		<object x="580.5552" y="638.05023" z="162.73445" h="58"/>
@@ -353,7 +371,7 @@
 		<object x="498.9373" y="276.94632" z="172.95158" h="37"/>
 		<object x="372.70026" y="303.7368" z="170.30168" h="86"/>
 	</spawn>
-	<!-- Sanctified Malekor (Monster Elite lvl:50) (from client spawn)-->
+	<!-- Sanctified Malekor (Monster Elite lvl:50) -->
 	<spawn map="310110000" npcid="214646" pool="6" interval="300">
 		<object x="396.5622" y="702.6065" z="187.80052" h="12"/>
 		<object x="542.03265" y="485.8697" z="196.75607" h="110"/>
@@ -362,11 +380,11 @@
 		<object x="522.0797" y="490.65253" z="196.75917" h="84"/>
 		<object x="388.50766" y="702.68475" z="187.90306" h="20"/>
 	</spawn>
-	<!-- Silikor Of Memory (Monster Hero lvl:50) (from client spawn)-->
+	<!-- Silikor Of Memory (Monster Hero lvl:50) -->
 	<spawn map="310110000" npcid="214668" pool="1" interval="180">
 		<object x="392.5771" y="744.2743" z="189.38637" h="41"/>
 	</spawn>
-	<!-- Titanium Protector (Monster Elite lvl:50) (from client spawn)-->
+	<!-- Titanium Protector (Monster Elite lvl:50) -->
 	<spawn map="310110000" npcid="214670" pool="21" interval="300">
 		<object x="379.9905" y="409.9083" z="187.03484" h="70"/>
 		<object x="407.48077" y="617.5556" z="187.68259" h="33"/>
@@ -390,11 +408,11 @@
 		<object x="534.2952" y="554.8083" z="203.72974" h="29"/>
 		<object x="529.6526" y="530.9363" z="202.33481" h="89"/>
 	</spawn>
-	<!-- Torch Spirit Iprita (Monster Elite lvl:50) (from client spawn)-->
+	<!-- Torch Spirit Iprita (Monster Elite lvl:50) -->
 	<spawn map="310110000" npcid="214663" pool="1" interval="300">
 		<object x="654.26807" y="157.54248" z="165.93904" h="39"/>
 	</spawn>
-	<!-- Toxic Thorny Ampha (Monster Elite lvl:50) (from client spawn)-->
+	<!-- Toxic Thorny Ampha (Monster Elite lvl:50) -->
 	<spawn map="310110000" npcid="214657" pool="14" interval="300">
 		<object x="503.2226" y="844.87427" z="165.49367" h="96"/>
 		<object x="461.95605" y="834.7417" z="158.63603" h="88"/>
@@ -411,31 +429,31 @@
 		<object x="446.2139" y="761.57916" z="157.6339" h="76"/>
 		<object x="597.85657" y="820.6798" z="164.09773" h="42"/>
 	</spawn>
-	<!-- Unstable Triroan (Monster Hero lvl:50) (from client spawn)-->
+	<!-- Unstable Triroan (Monster Hero lvl:50) -->
 	<spawn map="310110000" npcid="214669" pool="1" interval="300">
 		<object x="616.1688" y="488.75793" z="196.01509" h="62"/>
 	</spawn>
-	<!-- BIDLF2A_BabyElementalSummon_50_n (NPC Normal lvl:50) (from client spawn)-->
+	<!-- BIDLF2A_BabyElementalSummon_50_n (NPC Normal lvl:50) -->
 	<spawn map="310110000" npcid="280983" pool="1" interval="295">
 		<object x="602.1701" y="488.8053" z="196.02222" h="11"/>
 	</spawn>
-	<!-- Hidden Escape Exit (Object Normal lvl:1) (from client spawn)-->
+	<!-- Hidden Escape Exit (Object Normal lvl:1) -->
 	<spawn map="310110000" npcid="730206" pool="1" interval="295">
 		<object staticid="74" x="477.62" y="196.8" z="170.13184" h="106"/>
 	</spawn>
-	<!-- Kypros (NPC Normal lvl:50) (from client spawn)-->
+	<!-- Kypros (NPC Normal lvl:50) -->
 	<spawn map="310110000" npcid="798226" pool="1" interval="295">
 		<object x="473.8976" y="634.0264" z="199.2172" h="90"/>
 	</spawn>
-	<!-- Q1094 (NPC Normal lvl:3) (from client spawn)-->
+	<!-- Q1094 (NPC Normal lvl:3) -->
 	<spawn map="310110000" npcid="206084" pool="1" interval="295">
 		<object x="522.9093" y="734.77985" z="202.83875" h="34"/>
 	</spawn>
-	<!-- Red Journal (Object Normal lvl:1) (from client spawn)-->
+	<!-- Red Journal (Object Normal lvl:1) -->
 	<spawn map="310110000" npcid="730148" pool="1" interval="295">
 		<object staticid="268" x="542.863" y="741.07666" z="203.00626" h="111"/>
 	</spawn>
-	<!-- Wind Element Device (Object Normal lvl:3) (from client spawn)-->
+	<!-- Wind Element Device (Object Normal lvl:3) -->
 	<spawn map="310110000" npcid="700426" pool="4" interval="295">
 		<object staticid="264" x="380.75" y="509.44" z="186.03194" h="96"/>
 		<object staticid="265" x="282.12234" y="514.5352" z="187.60928" h="62"/>

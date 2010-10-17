@@ -72,7 +72,7 @@
 	<!-- Reshanta -->
 	<bind_point name="Teminon Fortresss" npcid="730071" bindid="53" mapid="400010000" posX="2986.6" posY="899.1" posZ="1545.5" price="10500"/>
 	<bind_point name="Primum Fortress" npcid="730072" bindid="54" mapid="400010000" posX="926.4" posY="3002.9" posZ="1655.3525" price="10500"/>
-    <!-- Inggison -->
+	<!-- Inggison -->
 	<bind_point name="Inggison Illusion Fortress" npcid="700400" bindid="55" mapid="210050000" posX="1386.1" posY="308.9" posZ="589.4" price="1540"/>
 	<bind_point name="Undirborg Observation Post" npcid="700816" bindid="56" mapid="210050000" posX="379.18988" posY="952.37225" posZ="461.39877" price="2540"/>
 	<bind_point name="Soteria Sanctuary" npcid="700817" bindid="57" mapid="210050000" posX="2714.857" posY="1482.2314" posZ="384.63666" price="3540"/>

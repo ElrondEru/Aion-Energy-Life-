@@ -1,11 +1,29 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<!-- Silver Of Darkness -->
+<!--
+	This file is part of aion-unique <aion-unique.org>.
+
+	aion-unique is free software: you can redistribute it and/or modify
+	it under the terms of the GNU General Public License as published by
+	the Free Software Foundation, either version 3 of the License, or
+	(at your option) any later version.
+
+	aion-unique is distributed in the hope that it will be useful,
+	but WITHOUT ANY WARRANTY; without even the implied warranty of
+	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+	GNU General Public License for more details.
+
+	You should have received a copy of the GNU General Public License
+	along with aion-unique.If not, see <http://www.gnu.org/licenses/>.
+
+	Silver Of Darkness
+
+-->
 <spawns>
-	<!-- Icaronix (Npc Normal lvl:50)-->
+	<!-- Icaronix (Npc Normal lvl:50) -->
 	<spawn map="310070000" npcid="205110" pool="1" interval="295">
 		<object x="338.0" y="103.0" z="1191.0" h="0"/>
 	</spawn>
-	<!-- Icaronix's Box (Object Normal lvl:1) (from client spawn)-->
+	<!-- Icaronix's Box (Object Normal lvl:1) -->
 	<spawn map="310070000" npcid="700240" pool="1" interval="10">
 		<object staticid="7" h="0" z="1374.0813" y="263.43832" x="196.1182"/>
 	</spawn>

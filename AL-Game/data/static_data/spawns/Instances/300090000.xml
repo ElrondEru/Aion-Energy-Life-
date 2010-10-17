@@ -1,7 +1,25 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<!-- Right Wing Chamber -->
+<!--
+	This file is part of aion-unique <aion-unique.org>.
+
+	aion-unique is free software: you can redistribute it and/or modify
+	it under the terms of the GNU General Public License as published by
+	the Free Software Foundation, either version 3 of the License, or
+	(at your option) any later version.
+
+	aion-unique is distributed in the hope that it will be useful,
+	but WITHOUT ANY WARRANTY; without even the implied warranty of
+	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+	GNU General Public License for more details.
+
+	You should have received a copy of the GNU General Public License
+	along with aion-unique.If not, see <http://www.gnu.org/licenses/>.
+
+	Right Wing Chamber
+
+-->
 <spawns>
-	<!-- Ancient Treasure Box (Object Normal lvl:1) (from client spawn)-->
+	<!-- Ancient Treasure Box (Object Normal lvl:1) -->
 	<spawn map="300090000" npcid="700471" pool="135" interval="295">
 		<object x="219.61551" y="227.06093" z="102.33293" h="117"/>
 		<object x="288.77032" y="245.76599" z="102.33297" h="50"/>
@@ -139,11 +157,11 @@
 		<object x="244.16022" y="233.41878" z="102.33295" h="49"/>
 		<object x="259.54358" y="263.90216" z="102.33312" h="32"/>
 	</spawn>
-	<!-- TreasureRoom_Sensory_D (NPC Normal lvl:3) (from client spawn)-->
+	<!-- TreasureRoom_Sensory_D (NPC Normal lvl:3) -->
 	<spawn map="300090000" npcid="206090" pool="1" interval="295">
 		<object x="265.30643" y="349.7378" z="104.64167" h="66"/>
 	</spawn>
-	<!-- Ashikar Bloodbinder (Monster Elite lvl:35) (from client spawn)-->
+	<!-- Ashikar Bloodbinder (Monster Elite lvl:35) -->
 	<spawn map="300090000" npcid="214747" pool="8" interval="300">
 		<object x="305.57474" y="330.91666" z="103.13803" h="99"/>
 		<object x="281.91803" y="244.57292" z="102.33299" h="60"/>
@@ -154,7 +172,7 @@
 		<object x="215.00543" y="251.3848" z="101.84082" h="107"/>
 		<object x="243.91237" y="168.87727" z="101.8409" h="3"/>
 	</spawn>
-	<!-- Ashikar Clutch (Monster Elite lvl:35) (from client spawn)-->
+	<!-- Ashikar Clutch (Monster Elite lvl:35) -->
 	<spawn map="300090000" npcid="214751" pool="9" interval="300">
 		<object x="264.14606" y="242.9778" z="102.33308" h="29"/>
 		<object x="306.45764" y="217.35368" z="102.33297" h="71"/>
@@ -166,7 +184,7 @@
 		<object x="366.0945" y="214.84323" z="103.138" h="62"/>
 		<object x="260.76398" y="194.06882" z="102.33298" h="15"/>
 	</spawn>
-	<!-- Ashikar Guard (Monster Elite lvl:35) (from client spawn)-->
+	<!-- Ashikar Guard (Monster Elite lvl:35) -->
 	<spawn map="300090000" npcid="214748" pool="8" interval="300">
 		<object x="258.65762" y="126.80566" z="103.13947" h="38"/>
 		<object x="233.11867" y="249.51523" z="102.33294" h="24"/>
@@ -177,7 +195,7 @@
 		<object x="299.4453" y="142.9044" z="103.1399" h="8"/>
 		<object x="262.45673" y="222.40105" z="102.33297" h="94"/>
 	</spawn>
-	<!-- Ashikar Manbane (Monster Elite lvl:35) (from client spawn)-->
+	<!-- Ashikar Manbane (Monster Elite lvl:35) -->
 	<spawn map="300090000" npcid="214746" pool="12" interval="300">
 		<object x="203.77426" y="317.9626" z="103.13814" h="74"/>
 		<object x="313.16818" y="165.94812" z="101.845024" h="37"/>
@@ -192,7 +210,7 @@
 		<object x="190.45068" y="217.52448" z="101.84086" h="92"/>
 		<object x="314.37375" y="167.17854" z="101.84086" h="27"/>
 	</spawn>
-	<!-- Ashikar Priest (Monster Elite lvl:35) (from client spawn)-->
+	<!-- Ashikar Priest (Monster Elite lvl:35) -->
 	<spawn map="300090000" npcid="214750" pool="5" interval="300">
 		<object x="232.43814" y="187.77742" z="102.33332" h="78"/>
 		<object x="190.56029" y="148.00653" z="103.13824" h="89"/>
@@ -200,7 +218,7 @@
 		<object x="262.8564" y="115.67551" z="103.13823" h="120"/>
 		<object x="236.66916" y="220.28476" z="102.33295" h="93"/>
 	</spawn>
-	<!-- Ashikar Sorcerer (Monster Elite lvl:35) (from client spawn)-->
+	<!-- Ashikar Sorcerer (Monster Elite lvl:35) -->
 	<spawn map="300090000" npcid="214749" pool="5" interval="300">
 		<object x="260.66098" y="115.30315" z="103.13806" h="22"/>
 		<object x="334.53928" y="143.68509" z="103.13806" h="26"/>
@@ -208,7 +226,7 @@
 		<object x="161.3016" y="220.3415" z="103.13797" h="25"/>
 		<object x="264.19244" y="261.26437" z="102.333145" h="45"/>
 	</spawn>
-	<!-- Ashikar Swordlord (Monster Elite lvl:35) (from client spawn)-->
+	<!-- Ashikar Swordlord (Monster Elite lvl:35) -->
 	<spawn map="300090000" npcid="214744" pool="9" interval="300">
 		<object x="303.45166" y="260.9256" z="101.84086" h="12"/>
 		<object x="245.48656" y="192.8168" z="102.33297" h="88"/>
@@ -220,7 +238,7 @@
 		<object x="305.85413" y="292.18542" z="103.139534" h="20"/>
 		<object x="263.84454" y="147.85841" z="101.84086" h="40"/>
 	</spawn>
-	<!-- Ashikar Trooper (Monster Elite lvl:35) (from client spawn)-->
+	<!-- Ashikar Trooper (Monster Elite lvl:35) -->
 	<spawn map="300090000" npcid="214745" pool="11" interval="300">
 		<object x="340.23523" y="263.16962" z="103.13907" h="17"/>
 		<object x="214.43233" y="166.51413" z="101.84104" h="57"/>
@@ -234,7 +252,7 @@
 		<object x="203.10867" y="316.09863" z="103.13816" h="18"/>
 		<object x="183.29659" y="240.27946" z="103.139824" h="17"/>
 	</spawn>
-	<!-- Pesky Drakie (Monster Normal lvl:35) (from client spawn)-->
+	<!-- Pesky Drakie (Monster Normal lvl:35) -->
 	<spawn map="300090000" npcid="214803" pool="33" interval="295">
 		<object x="287.14578" y="270.52274" z="101.84097" h="88"/>
 		<object x="203.58975" y="154.33722" z="103.14008" h="40"/>

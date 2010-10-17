@@ -1,60 +1,78 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<!-- Adma Stronghold -->
+<!--
+	This file is part of aion-unique <aion-unique.org>.
+
+	aion-unique is free software: you can redistribute it and/or modify
+	it under the terms of the GNU General Public License as published by
+	the Free Software Foundation, either version 3 of the License, or
+	(at your option) any later version.
+
+	aion-unique is distributed in the hope that it will be useful,
+	but WITHOUT ANY WARRANTY; without even the implied warranty of
+	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+	GNU General Public License for more details.
+
+	You should have received a copy of the GNU General Public License
+	along with aion-unique.If not, see <http://www.gnu.org/licenses/>.
+
+	Adma Stronghold
+
+-->
 <spawns>
-	<!-- Genie's Incense Burner (Object Normal lvl:1) (from client spawn)-->
+	<!-- Genie's Incense Burner (Object Normal lvl:1) -->
 	<spawn map="320130000" npcid="700557" pool="1" interval="295">
 		<object staticid="161" x="595.72003" y="609.56067" z="191.08676" h="89"/>
 	</spawn>
-	<!-- Glowing Grain Sack (Object Normal lvl:3) (from client spawn)-->
+	<!-- Glowing Grain Sack (Object Normal lvl:3) -->
 	<spawn map="320130000" npcid="700433" pool="2" interval="295">
 		<object staticid="93" x="354.56226" y="214.0249" z="164.00677" h="100"/>
 		<object staticid="96" x="494.56824" y="212.22911" z="164.00676" h="44"/>
 	</spawn>
-	<!-- Golden Goblet (Object Normal lvl:3) (from client spawn)-->
+	<!-- Golden Goblet (Object Normal lvl:3) -->
 	<spawn map="320130000" npcid="700435" pool="1" interval="295">
 		<object staticid="98" x="470.3033" y="383.16382" z="190.31592" h="16"/>
 	</spawn>
-	<!-- Imowen (NPC Normal lvl:48) (from client spawn)-->
+	<!-- Imowen (NPC Normal lvl:48) -->
 	<spawn map="320130000" npcid="205206" pool="1" interval="295">
 		<object x="455.23825" y="591.75420" z="163.99910" h="85"/>
 	</spawn>
-	<!-- Jewel Box (Object Normal lvl:1) (from client spawn)-->
+	<!-- Jewel Box (Object Normal lvl:1) -->
 	<spawn map="320130000" npcid="730032" pool="1" interval="295">
 		<object staticid="97" x="602.6906" y="632.4575" z="191.52599" h="61"/>
 	</spawn>
-	<!-- Ntuamu's Teddy Bear (Object Normal lvl:1) (from client spawn)-->
+	<!-- Ntuamu's Teddy Bear (Object Normal lvl:1) -->
 	<spawn map="320130000" npcid="700396" pool="1" interval="295">
 		<object staticid="160" x="650.9656" y="608.5318" z="191.0868" h="44"/>
 	</spawn>
-	<!-- Q2094 (NPC Normal lvl:3) (from client spawn)-->
+	<!-- Q2094 (NPC Normal lvl:3) -->
 	<spawn map="320130000" npcid="206079" pool="1" interval="295">
 		<object x="473.1933" y="812.337" z="165.54733" h="62"/>
 	</spawn>
-	<!-- Suspicious Coffin (Object Junk lvl:50) (from client spawn)-->
+	<!-- Suspicious Coffin (Object Junk lvl:50) -->
 	<spawn map="320130000" npcid="281057" pool="1" interval="295">
 		<object x="582.4945" y="750.6145" z="198.60979" h="40"/>
 	</spawn>
-	<!-- Suspicious Coffin (Object Normal lvl:50) (from client spawn)-->
+	<!-- Suspicious Coffin (Object Normal lvl:50) -->
 	<spawn map="320130000" npcid="280942" pool="1" interval="295">
 		<object x="600.93933" y="768.17395" z="198.62938" h="84"/>
 	</spawn>
-	<!-- Suspicious Coffin (Object Junk lvl:50) (from client spawn)-->
+	<!-- Suspicious Coffin (Object Junk lvl:50) -->
 	<spawn map="320130000" npcid="281056" pool="1" interval="295">
 		<object x="595.97644" y="721.2781" z="198.62476" h="90"/>
 	</spawn>
-	<!-- Suspicious Coffin (Object Junk lvl:50) (from client spawn)-->
+	<!-- Suspicious Coffin (Object Junk lvl:50) -->
 	<spawn map="320130000" npcid="281055" pool="1" interval="295">
 		<object x="574.20996" y="722.4946" z="198.64093" h="6"/>
 	</spawn>
-	<!-- Suspicious Coffin (Object Normal lvl:50) (from client spawn)-->
+	<!-- Suspicious Coffin (Object Normal lvl:50) -->
 	<spawn map="320130000" npcid="281058" pool="1" interval="295">
 		<object x="622.8963" y="760.1835" z="198.61732" h="6"/>
 	</spawn>
-	<!-- Suspicious Coffin (Object Normal lvl:50) (from client spawn)-->
+	<!-- Suspicious Coffin (Object Normal lvl:50) -->
 	<spawn map="320130000" npcid="280950" pool="1" interval="295">
 		<object x="621.0434" y="722.87054" z="198.61337" h="75"/>
 	</spawn>
-	<!-- Banshee Cook (Monster Elite lvl:50) (from client spawn)-->
+	<!-- Banshee Cook (Monster Elite lvl:50) -->
 	<spawn map="320130000" npcid="214723" pool="15" interval="300">
 		<object x="473.13052" y="383.9411" z="189.39104" h="8"/>
 		<object x="477.25992" y="467.7842" z="189.42679" h="62"/>
@@ -72,7 +90,7 @@
 		<object x="348.50073" y="388.39462" z="186.59567" h="22"/>
 		<object x="347.18066" y="400.7566" z="186.59567" h="80"/>
 	</spawn>
-	<!-- Banshee Handmaid (Monster Elite lvl:50) (from client spawn)-->
+	<!-- Banshee Handmaid (Monster Elite lvl:50) -->
 	<spawn map="320130000" npcid="214674" pool="6" interval="300">
 		<object x="652.0183" y="606.2591" z="191.08678" h="48"/>
 		<object x="595.78577" y="611.5318" z="191.08676" h="76"/>
@@ -81,7 +99,7 @@
 		<object x="625.4274" y="536.27057" z="189.40324" h="83"/>
 		<object x="608.1601" y="598.6908" z="190.58563" h="120"/>
 	</spawn>
-	<!-- Banshee Maid (Monster Elite lvl:50) (from client spawn)-->
+	<!-- Banshee Maid (Monster Elite lvl:50) -->
 	<spawn map="320130000" npcid="214722" pool="7" interval="300">
 		<object x="495.31262" y="550.8349" z="189.46513" h="22"/>
 		<object x="485.26175" y="534.023" z="189.46513" h="72"/>
@@ -91,7 +109,7 @@
 		<object x="504.49588" y="523.94476" z="189.49" h="74"/>
 		<object x="518.2476" y="554.6365" z="189.49" h="15"/>
 	</spawn>
-	<!-- Banshee Maidservant (Monster Elite lvl:50) (from client spawn)-->
+	<!-- Banshee Maidservant (Monster Elite lvl:50) -->
 	<spawn map="320130000" npcid="214721" pool="5" interval="300">
 		<object x="650.059" y="610.28735" z="191.08685" h="25"/>
 		<object x="610.1477" y="596.98914" z="190.63615" h="87"/>
@@ -99,13 +117,13 @@
 		<object x="636.25165" y="597.33105" z="190.4295" h="36"/>
 		<object x="596.49585" y="607.96356" z="191.08676" h="37"/>
 	</spawn>
-	<!-- Banshee Peon (Monster Elite lvl:50) (from client spawn)-->
+	<!-- Banshee Peon (Monster Elite lvl:50) -->
 	<spawn map="320130000" npcid="214672" pool="3" interval="300">
 		<object x="341.984" y="211.41898" z="164.00677" h="85"/>
 		<object x="353.28693" y="258.9318" z="164.00676" h="54"/>
 		<object x="338.4478" y="215.40425" z="164.00677" h="37"/>
 	</spawn>
-	<!-- Banshee Runner (Monster Elite lvl:50) (from client spawn)-->
+	<!-- Banshee Runner (Monster Elite lvl:50) -->
 	<spawn map="320130000" npcid="214690" pool="31" interval="300">
 		<object x="594.01276" y="424.8179" z="189.473" h="31"/>
 		<object x="565.8971" y="217.99765" z="164.00676" h="115"/>
@@ -139,7 +157,7 @@
 		<object x="623.7623" y="464.26843" z="190.4758" h="115"/>
 		<object x="558.68555" y="300.56555" z="164.12949" h="102"/>
 	</spawn>
-	<!-- Banshee Sweeper (Monster Elite lvl:50) (from client spawn)-->
+	<!-- Banshee Sweeper (Monster Elite lvl:50) -->
 	<spawn map="320130000" npcid="214679" pool="9" interval="300">
 		<object x="487.1015" y="523.5028" z="189.40549" h="14"/>
 		<object x="480.48956" y="545.2436" z="189.49" h="81"/>
@@ -151,27 +169,27 @@
 		<object x="502.63522" y="525.3073" z="189.46513" h="85"/>
 		<object x="510.092" y="532.87445" z="189.49" h="116"/>
 	</spawn>
-	<!-- Bard Guionbark (Named Mob Elite lvl:50) (from client spawn)-->
+	<!-- Bard Guionbark (Named Mob Elite lvl:50) -->
 	<spawn map="320130000" npcid="214698" pool="1" interval="3600">
 		<object x="451.44528" y="312.72443" z="174.00125" h="18"/>
 	</spawn>
-	<!-- Bloodthirster (Named Mob Elite lvl:50) (from client spawn)-->
+	<!-- Bloodthirster (Named Mob Elite lvl:50) -->
 	<spawn map="320130000" npcid="214694" pool="1" interval="3600">
 		<object x="453.17838" y="716.3176" z="155.98996" h="22"/>
 	</spawn>
-	<!-- Butler Luitart (Named Mob Elite lvl:50) (from client spawn)-->
+	<!-- Butler Luitart (Named Mob Elite lvl:50) -->
 	<spawn map="320130000" npcid="214692" pool="1" interval="3600">
 		<object x="472.50647" y="381.72968" z="189.39104" h="47"/>
 	</spawn>
-	<!-- Captain Mundirve (Named Mob Elite lvl:50) (from client spawn)-->
+	<!-- Captain Mundirve (Named Mob Elite lvl:50) -->
 	<spawn map="320130000" npcid="214691" pool="1" interval="3600">
 		<object x="349.24872" y="539.8199" z="181.0277" h="10"/>
 	</spawn>
-	<!-- Chief Maid Miladi (Named Mob Elite lvl:50) (from client spawn)-->
+	<!-- Chief Maid Miladi (Named Mob Elite lvl:50) -->
 	<spawn map="320130000" npcid="214693" pool="1" interval="3600">
 		<object x="497.13446" y="575.6712" z="189.49" h="77"/>
 	</spawn>
-	<!-- Fattened Bloodwing (Monster Normal lvl:50) (from client spawn)-->
+	<!-- Fattened Bloodwing (Monster Normal lvl:50) -->
 	<spawn map="320130000" npcid="214718" pool="42" interval="295">
 		<object x="394.93063" y="216.61942" z="164.00676" h="85"/>
 		<object x="490.8978" y="236.07921" z="164.00676" h="95"/>
@@ -216,7 +234,7 @@
 		<object x="368.3097" y="229.98163" z="164.00676" h="23"/>
 		<object x="357.52017" y="217.21733" z="164.9956" h="57"/>
 	</spawn>
-	<!-- Filthy Sewer Cellatu (Monster Elite lvl:50) (from client spawn)-->
+	<!-- Filthy Sewer Cellatu (Monster Elite lvl:50) -->
 	<spawn map="320130000" npcid="214683" pool="18" interval="300">
 		<object x="394.47418" y="652.4332" z="168.9041" h="32"/>
 		<object x="359.5488" y="620.74225" z="168.9041" h="17"/>
@@ -237,7 +255,7 @@
 		<object x="431.96133" y="647.7455" z="161.73526" h="106"/>
 		<object x="433.9386" y="646.76904" z="161.52826" h="29"/>
 	</spawn>
-	<!-- Ghost Trap (Monster Normal lvl:50) (from client spawn)-->
+	<!-- Ghost Trap (Monster Normal lvl:50) -->
 	<spawn map="320130000" npcid="281073" pool="7" interval="295">
 		<object x="363.7004" y="442.12042" z="185.7147" h="28"/>
 		<object x="615.27454" y="517.8094" z="189.41225" h="97"/>
@@ -247,7 +265,7 @@
 		<object x="564.1587" y="425.7378" z="189.40125" h="59"/>
 		<object x="613.7202" y="513.18726" z="192.99959" h="53"/>
 	</spawn>
-	<!-- Graveknight Templar (Monster Elite lvl:50) (from client spawn)-->
+	<!-- Graveknight Templar (Monster Elite lvl:50) -->
 	<spawn map="320130000" npcid="214689" pool="52" interval="300">
 		<object x="371.76135" y="467.95532" z="185.68999" h="15"/>
 		<object x="530.33777" y="429.61075" z="186.04892" h="9"/>
@@ -302,7 +320,7 @@
 		<object x="443.86038" y="342.95145" z="173.98683" h="14"/>
 		<object x="579.5779" y="482.87357" z="189.473" h="75"/>
 	</spawn>
-	<!-- Lean Bloodwing (Monster Normal lvl:50) (from client spawn)-->
+	<!-- Lean Bloodwing (Monster Normal lvl:50) -->
 	<spawn map="320130000" npcid="214719" pool="9" interval="295">
 		<object x="548.28546" y="704.0102" z="173.48601" h="8"/>
 		<object x="551.2548" y="728.69763" z="173.48601" h="81"/>
@@ -314,7 +332,7 @@
 		<object x="548.9349" y="729.7684" z="173.48601" h="35"/>
 		<object x="548.04297" y="732.5271" z="173.48601" h="34"/>
 	</spawn>
-	<!-- Lich Noble (Monster Elite lvl:50) (from client spawn)-->
+	<!-- Lich Noble (Monster Elite lvl:50) -->
 	<spawn map="320130000" npcid="214688" pool="20" interval="300">
 		<object x="615.04486" y="462.78345" z="190.4758" h="39"/>
 		<object x="512.7002" y="436.51312" z="185.6985" h="72"/>
@@ -337,7 +355,7 @@
 		<object x="347.0799" y="402.64688" z="186.59567" h="94"/>
 		<object x="617.9263" y="485.24908" z="190.4758" h="111"/>
 	</spawn>
-	<!-- Lich Overseer (Monster Elite lvl:50) (from client spawn)-->
+	<!-- Lich Overseer (Monster Elite lvl:50) -->
 	<spawn map="320130000" npcid="214681" pool="9" interval="300">
 		<object x="384.09653" y="524.00244" z="179.66106" h="68"/>
 		<object x="368.04025" y="552.643" z="179.66106" h="106"/>
@@ -349,7 +367,7 @@
 		<object x="383.7555" y="540.2754" z="179.66106" h="17"/>
 		<object x="382.42117" y="522.5573" z="179.66106" h="98"/>
 	</spawn>
-	<!-- Lich Retainer (Monster Elite lvl:50) (from client spawn)-->
+	<!-- Lich Retainer (Monster Elite lvl:50) -->
 	<spawn map="320130000" npcid="214675" pool="10" interval="300">
 		<object x="435.58316" y="420.47607" z="187.4932" h="24"/>
 		<object x="436.04156" y="382.12784" z="187.50375" h="93"/>
@@ -362,11 +380,11 @@
 		<object x="453.75546" y="399.80762" z="187.4987" h="89"/>
 		<object x="434.32346" y="388.32993" z="187.50198" h="72"/>
 	</spawn>
-	<!-- Lord Lannok (Named Mob Hero lvl:50) (from client spawn)-->
+	<!-- Lord Lannok (Named Mob Hero lvl:50) -->
 	<spawn map="320130000" npcid="214696" pool="1" interval="14400">
 		<object x="606.483" y="745.0968" z="197.72092" h="61"/>
 	</spawn>
-	<!-- Nanny Temptress (Monster Elite lvl:50) (from client spawn)-->
+	<!-- Nanny Temptress (Monster Elite lvl:50) -->
 	<spawn map="320130000" npcid="214673" pool="8" interval="300">
 		<object x="627.0375" y="617.6636" z="190.11342" h="77"/>
 		<object x="649.6609" y="608.50775" z="191.08688" h="5"/>
@@ -377,7 +395,7 @@
 		<object x="636.74963" y="621.96185" z="190.56194" h="58"/>
 		<object x="608.74164" y="621.4807" z="190.69861" h="58"/>
 	</spawn>
-	<!-- Noble Vampire (Named Mob Elite lvl:50) (from client spawn)-->
+	<!-- Noble Vampire (Named Mob Elite lvl:50) -->
 	<spawn map="320130000" npcid="214687" pool="1" interval="3600">
 		<object x="478.32874" y="486.8278" z="189.4268" h="41"/>
 		<object x="610.4163" y="446.72443" z="190.48291" h="110"/>
@@ -405,7 +423,7 @@
 		<object x="601.66034" y="404.01855" z="190.9723" h="101"/>
 		<object x="429.65424" y="256.09103" z="170.81258" h="89"/>
 	</spawn>
-	<!-- Noblewoman Vampire (Monster Elite lvl:50) (from client spawn)-->
+	<!-- Noblewoman Vampire (Monster Elite lvl:50) -->
 	<spawn map="320130000" npcid="214686" pool="25" interval="300">
 		<object x="586.5159" y="504.3921" z="190.56598" h="66"/>
 		<object x="440.56375" y="275.23273" z="170.05344" h="2"/>
@@ -433,18 +451,18 @@
 		<object x="582.3745" y="406.82208" z="190.65984" h="11"/>
 		<object x="469.71646" y="258.60568" z="170.80956" h="50"/>
 	</spawn>
-	<!-- Pirate's Treasure Box (Monster Normal lvl:1) (from client spawn)-->
+	<!-- Pirate's Treasure Box (Monster Normal lvl:1) -->
 	<spawn map="320130000" npcid="730109" pool="1" interval="295">
 		<object staticid="120" x="356.01193" y="559.3606" z="180.49405" h="111"/>
 	</spawn>
-	<!-- Poison Trap (Monster Normal lvl:50) (from client spawn)-->
+	<!-- Poison Trap (Monster Normal lvl:50) -->
 	<spawn map="320130000" npcid="281026" pool="4" interval="295">
 		<object x="538.7138" y="473.66135" z="186.64528" h="33"/>
 		<object x="512.64954" y="473.57904" z="188.71002" h="119"/>
 		<object x="499.88885" y="467.32166" z="189.37926" h="63"/>
 		<object x="525.5384" y="467.1385" z="187.68898" h="55"/>
 	</spawn>
-	<!-- Polluted Mudthorn (Monster Elite lvl:50) (from client spawn)-->
+	<!-- Polluted Mudthorn (Monster Elite lvl:50) -->
 	<spawn map="320130000" npcid="214682" pool="13" interval="300">
 		<object x="429.4531" y="756.39294" z="158.19148" h="71"/>
 		<object x="446.13458" y="728.5408" z="156.109" h="2"/>
@@ -460,11 +478,11 @@
 		<object x="520.5206" y="675.7574" z="162.4569" h="36"/>
 		<object x="339.71362" y="667.57214" z="168.88869" h="54"/>
 	</spawn>
-	<!-- Princess Karemiwen (Named Mob Hero lvl:50) (from client spawn)-->
+	<!-- Princess Karemiwen (Named Mob Hero lvl:50) -->
 	<spawn map="320130000" npcid="214695" pool="1" interval="14400">
 		<object x="623.902" y="631.4337" z="191.08675" h="94"/>
 	</spawn>
-	<!-- Ravenous Vampire (Monster Elite lvl:50) (from client spawn)-->
+	<!-- Ravenous Vampire (Monster Elite lvl:50) -->
 	<spawn map="320130000" npcid="214676" pool="14" interval="300">
 		<object x="453.72128" y="398.00778" z="187.49922" h="112"/>
 		<object x="461.77887" y="376.31335" z="189.29857" h="97"/>
@@ -481,7 +499,7 @@
 		<object x="434.206" y="398.84827" z="187.49898" h="113"/>
 		<object x="478.6129" y="391.88715" z="189.2757" h="44"/>
 	</spawn>
-	<!-- Sewer Bloodwing (Monster Normal lvl:50) (from client spawn)-->
+	<!-- Sewer Bloodwing (Monster Normal lvl:50) -->
 	<spawn map="320130000" npcid="214727" pool="10" interval="295">
 		<object x="490.41214" y="793.534" z="161.28404" h="58"/>
 		<object x="339.93845" y="646.3664" z="168.88301" h="64"/>
@@ -494,7 +512,7 @@
 		<object x="456.8725" y="796.46967" z="161.21878" h="46"/>
 		<object x="471.70816" y="770.40424" z="161.08595" h="100"/>
 	</spawn>
-	<!-- Sewer Bloodwing (Monster Elite lvl:50) (from client spawn)-->
+	<!-- Sewer Bloodwing (Monster Elite lvl:50) -->
 	<spawn map="320130000" npcid="214684" pool="10" interval="300">
 		<object x="449.9053" y="738.02155" z="158.16562" h="70"/>
 		<object x="492.3263" y="627.44" z="162.45544" h="17"/>
@@ -507,7 +525,7 @@
 		<object x="474.20108" y="771.57465" z="161.08595" h="29"/>
 		<object x="523.79144" y="614.83844" z="162.45923" h="21"/>
 	</spawn>
-	<!-- Sewer Cellatu (Monster Normal lvl:50) (from client spawn)-->
+	<!-- Sewer Cellatu (Monster Normal lvl:50) -->
 	<spawn map="320130000" npcid="214726" pool="26" interval="295">
 		<object x="389.9051" y="653.6318" z="168.9041" h="71"/>
 		<object x="504.575" y="617.9038" z="162.00914" h="55"/>
@@ -536,12 +554,12 @@
 		<object x="431.589" y="645.9023" z="161.54077" h="8"/>
 		<object x="514.36005" y="657.1505" z="161.8845" h="32"/>
 	</spawn>
-	<!-- Steward Gutorum (Named Mob Elite lvl:50) (from client spawn)-->
+	<!-- Steward Gutorum (Named Mob Elite lvl:50) -->
 	<spawn map="320130000" npcid="214697" pool="1" interval="3600">
 		<object x="525.4004" y="222.72437" z="164.00676" h="88"/>
 		<object x="378.34558" y="222.60951" z="164.00676" h="65"/>
 	</spawn>
-	<!-- Stinky Mudthorn (Monster Normal lvl:50) (from client spawn)-->
+	<!-- Stinky Mudthorn (Monster Normal lvl:50) -->
 	<spawn map="320130000" npcid="214725" pool="14" interval="295">
 		<object x="482.83752" y="708.61847" z="156.82535" h="30"/>
 		<object x="507.82166" y="669.99304" z="162.33513" h="62"/>
@@ -558,15 +576,15 @@
 		<object x="533.3766" y="657.24677" z="162.39871" h="49"/>
 		<object x="531.8119" y="654.61755" z="162.3737" h="109"/>
 	</spawn>
-	<!-- Suspicious Boy (Named Mob Elite lvl:50) (from client spawn)-->
+	<!-- Suspicious Boy (Named Mob Elite lvl:50) -->
 	<spawn map="320130000" npcid="214700" pool="1" interval="3600">
 		<object x="367.17355" y="643.6747" z="169.6935" h="28"/>
 	</spawn>
-	<!-- Templar Taliesin (Named Mob Elite lvl:50) (from client spawn)-->
+	<!-- Templar Taliesin (Named Mob Elite lvl:50) -->
 	<spawn map="320130000" npcid="214699" pool="1" interval="3600">
 		<object x="450.68787" y="475.11966" z="188.92244" h="16"/>
 	</spawn>
-	<!-- Temptress Barmaid (Monster Elite lvl:50) (from client spawn)-->
+	<!-- Temptress Barmaid (Monster Elite lvl:50) -->
 	<spawn map="320130000" npcid="214677" pool="12" interval="300">
 		<object x="464.9975" y="430.4589" z="187.48994" h="109"/>
 		<object x="463.82574" y="392.18582" z="189.32655" h="94"/>
@@ -581,7 +599,7 @@
 		<object x="428.12122" y="429.46564" z="187.49005" h="30"/>
 		<object x="443.893" y="407.68866" z="187.49644" h="64"/>
 	</spawn>
-	<!-- Temptress Servant (Monster Elite lvl:50) (from client spawn)-->
+	<!-- Temptress Servant (Monster Elite lvl:50) -->
 	<spawn map="320130000" npcid="214678" pool="11" interval="300">
 		<object x="486.15964" y="557.4832" z="189.46513" h="89"/>
 		<object x="504.6035" y="566.92" z="189.46513" h="45"/>
@@ -595,7 +613,7 @@
 		<object x="505.36642" y="565.5615" z="189.46513" h="25"/>
 		<object x="516.7397" y="555.4898" z="189.49" h="73"/>
 	</spawn>
-	<!-- Undead Hostler (Monster Elite lvl:50) (from client spawn)-->
+	<!-- Undead Hostler (Monster Elite lvl:50) -->
 	<spawn map="320130000" npcid="214720" pool="7" interval="300">
 		<object x="569.25653" y="734.0767" z="173.48601" h="36"/>
 		<object x="552.0068" y="713.6676" z="173.48601" h="54"/>
@@ -605,7 +623,7 @@
 		<object x="569.2848" y="731.24725" z="173.48601" h="98"/>
 		<object x="568.92285" y="699.8881" z="173.48601" h="115"/>
 	</spawn>
-	<!-- Undead Laborer (Monster Elite lvl:50) (from client spawn)-->
+	<!-- Undead Laborer (Monster Elite lvl:50) -->
 	<spawn map="320130000" npcid="214671" pool="13" interval="300">
 		<object x="338.70956" y="257.68246" z="164.00676" h="17"/>
 		<object x="545.6789" y="227.64247" z="164.00676" h="46"/>
@@ -621,7 +639,7 @@
 		<object x="532.067" y="216.65474" z="164.00676" h="14"/>
 		<object x="338.8098" y="260.0403" z="164.00676" h="16"/>
 	</spawn>
-	<!-- Undead Laborer (Monster Elite lvl:50) (from client spawn)-->
+	<!-- Undead Laborer (Monster Elite lvl:50) -->
 	<spawn map="320130000" npcid="214731" pool="20" interval="300">
 		<object x="391.30273" y="230.91983" z="165.09406" h="62"/>
 		<object x="352.58173" y="245.5765" z="164.00676" h="48"/>
@@ -644,7 +662,7 @@
 		<object x="409.0929" y="216.06638" z="164.00677" h="39"/>
 		<object x="529.59033" y="215.81186" z="164.00676" h="116"/>
 	</spawn>
-	<!-- Unfest Guard (Monster Elite lvl:50) (from client spawn)-->
+	<!-- Unfest Guard (Monster Elite lvl:50) -->
 	<spawn map="320130000" npcid="214680" pool="17" interval="300">
 		<object x="364.36752" y="537.64325" z="180.55038" h="47"/>
 		<object x="341.8481" y="526.80145" z="180.33087" h="74"/>
@@ -664,7 +682,7 @@
 		<object x="341.7061" y="548.02576" z="181.03284" h="87"/>
 		<object x="356.82962" y="520.7399" z="180.33087" h="27"/>
 	</spawn>
-	<!-- Unfest Watch Templar (Monster Elite lvl:50) (from client spawn)-->
+	<!-- Unfest Watch Templar (Monster Elite lvl:50) -->
 	<spawn map="320130000" npcid="214724" pool="7" interval="300">
 		<object x="470.69583" y="317.3798" z="174.00177" h="72"/>
 		<object x="505.5335" y="384.2982" z="185.69566" h="31"/>
@@ -674,7 +692,7 @@
 		<object x="354.49408" y="383.53726" z="185.65312" h="114"/>
 		<object x="602.2821" y="466.23904" z="189.473" h="93"/>
 	</spawn>
-	<!-- Vampiric Fangwing (Monster Normal lvl:50) (from client spawn)-->
+	<!-- Vampiric Fangwing (Monster Normal lvl:50) -->
 	<spawn map="320130000" npcid="214728" pool="10" interval="295">
 		<object x="395.90198" y="749.1916" z="155.75261" h="67"/>
 		<object x="494.87866" y="628.25385" z="162.44131" h="61"/>
@@ -687,7 +705,7 @@
 		<object x="486.4055" y="734.49475" z="157.98242" h="117"/>
 		<object x="459.95004" y="795.73035" z="161.21884" h="93"/>
 	</spawn>
-	<!-- Vampiric Fangwing (Monster Elite lvl:50) (from client spawn)-->
+	<!-- Vampiric Fangwing (Monster Elite lvl:50) -->
 	<spawn map="320130000" npcid="214685" pool="11" interval="300">
 		<object x="477.9801" y="701.0659" z="157.10048" h="22"/>
 		<object x="457.6213" y="794.3793" z="161.21878" h="89"/>
@@ -701,7 +719,7 @@
 		<object x="340.72787" y="648.8729" z="168.88327" h="11"/>
 		<object x="448.986" y="624.4225" z="162.51994" h="48"/>
 	</spawn>
-	<!-- ZombieTrap (Monster Normal lvl:50) (from client spawn)-->
+	<!-- ZombieTrap (Monster Normal lvl:50) -->
 	<spawn map="320130000" npcid="281027" pool="1" interval="295">
 		<object x="575.23865" y="761.0643" z="198.62646" h="100"/>
 	</spawn>

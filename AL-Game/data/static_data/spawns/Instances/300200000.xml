@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <!--
-	This file is part of <Aion Unique>
+	This file is part of aion-unique <aion-unique.org>.
 
-	Aion Underworld is Private software: you can redistribute it and/or modify
+	aion-unique is free software: you can redistribute it and/or modify
 	it under the terms of the GNU General Public License as published by
 	the Free Software Foundation, either version 3 of the License, or
 	(at your option) any later version.
 
-	Aion Underworld is distributed in the hope that it will be useful,
+	aion-unique is distributed in the hope that it will be useful,
 	but WITHOUT ANY WARRANTY; without even the implied warranty of
 	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 	GNU General Public License for more details.
 
 	You should have received a copy of the GNU General Public License
-	along with Aion Underworld. If not, see <http://www.gnu.org/licenses/>.
-	
-	Haramel - Instance Solo level 18-22
+	along with aion-unique.If not, see <http://www.gnu.org/licenses/>.
 
- -->
+	Haramel
+
+-->
 <spawns>
 	<!-- Moorilerk -->
 	<spawn map="300200000" npcid="799522" pool="1" interval="295">
@@ -355,7 +355,7 @@
 		<object x="216.79555" y="359.34976" z="139.23946" h="30"/>
 		<object x="243.94342" y="369.25082" z="137.6986" h="30"/>
 		<object x="233.43576" y="403.12338" z="142.95258" h="30"/>
-	   	<object x="258.10117" y="415.7404" z="90.21123" h="30"/>
+	 	<object x="258.10117" y="415.7404" z="90.21123" h="30"/>
 		<object x="330.64304" y="300.54187" z="90.0806" h="30"/>
 	</spawn>
 	<!-- Hamerun the Bleeder lvl 20 -->

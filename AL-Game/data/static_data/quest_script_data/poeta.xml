@@ -24,6 +24,8 @@
 	<!-- 1004 Neutralizing Odium handled by script -->
 	<!-- 1005 Barring the Gate handled by script -->
 	<!-- 1100 Kalio's Call handled by script -->
+	<!-- 1097 Sword of Transcendence -->
+	<!-- 1098 Pearl of Protection -->
 	<!-- Sleeping on the Job -->
 	<report_to start_npc_id="203049" end_npc_id="203057" id="1101"/>
 	<!-- Kerubar Hunt -->
@@ -46,6 +48,7 @@
 	<item_collecting start_npc_id="798007" action_item_id="700106" id="1109"/>
 	<!-- A Book for Namus -->
 	<report_to start_npc_id="203065" end_npc_id="203075" item_id="182200206" id="1110"/>
+	<!-- 1111 Insomnia Medicine -->
 	<!-- To Fish in Peace -->
 	<monster_hunt start_npc_id="203072" id="1112">
 		<monster_infos npc_id="210259" var_id="0" max_kill="5"/>

@@ -16,8 +16,8 @@
 	along with aion-unique.If not, see <http://www.gnu.org/licenses/>.
 	
 	Inggison
-	@author Leolegolas,
- -->
+	@author Leolegolas
+-->
 <spawns>
 	<spawn map="210050000" npcid="296906" pool="2" interval="295">
 		<object x="893.955" y="1992.58" h="9" z="340.718"/>

@@ -1,11 +1,29 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<!-- Theobomos -->
+<!--
+	This file is part of aion-unique <aion-unique.org>.
+
+	aion-unique is free software: you can redistribute it and/or modify
+	it under the terms of the GNU General Public License as published by
+	the Free Software Foundation, either version 3 of the License, or
+	(at your option) any later version.
+
+	aion-unique is distributed in the hope that it will be useful,
+	but WITHOUT ANY WARRANTY; without even the implied warranty of
+	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+	GNU General Public License for more details.
+
+	You should have received a copy of the GNU General Public License
+	along with aion-unique.If not, see <http://www.gnu.org/licenses/>.
+
+	Theobomos
+
+-->
 <spawns>
-	<!-- Abunka (NPC Elite lvl:50)-->
+	<!-- Abunka (NPC Elite lvl:50) -->
 	<spawn map="210060000" npcid="798178" pool="1" interval="295">
 		<object x="404.18020" y="1216.83600" z="134.58900" h="53"/>
 	</spawn>
-	<!-- Ancient Fossil (Object Normal lvl:1)-->
+	<!-- Ancient Fossil (Object Normal lvl:1) -->
 	<spawn map="210060000" npcid="700375" pool="17" interval="295">
 		<object staticid="59" x="2951.3142" y="1128.6436" z="112.75" h="97"/>
 		<object staticid="57" x="2954.7615" y="1056.3326" z="111.874466" h="107"/>
@@ -25,7 +43,7 @@
 		<object staticid="64" x="2954.507" y="1110.7756" z="111.58569" h="79"/>
 		<object staticid="69" x="2830.937" y="1193.3519" z="78.43356" h="102"/>
 	</spawn>
-	<!-- Ancient Relics (Object Normal lvl:1)-->
+	<!-- Ancient Relics (Object Normal lvl:1) -->
 	<spawn map="210060000" npcid="700338" pool="20" interval="295">
 		<object x="1787.50000" y="1421.55000" z="23.54000" h="108"/>
 		<object x="1794.44000" y="1400.56000" z="19.88000" h="36"/>
@@ -48,19 +66,19 @@
 		<object x="2107.55000" y="1369.25000" z="26.41000" h="119"/>
 		<object x="2116.40000" y="1381.69000" z="28.12000" h="79"/>
 	</spawn>
-	<!-- Ankises (NPC Normal lvl:30)-->
+	<!-- Ankises (NPC Normal lvl:30) -->
 	<spawn map="210060000" npcid="798143" pool="1" interval="295">
 		<object x="1449.77220" y="1506.33840" z="32.37500" h="46"/>
 	</spawn>
-	<!-- Antares (NPC Elite lvl:50)-->
+	<!-- Antares (NPC Elite lvl:50) -->
 	<spawn map="210060000" npcid="798209" pool="1" interval="295">
 		<object x="480.62410" y="2105.86500" z="55.03901" h="64"/>
 	</spawn>
-	<!-- Atropos (NPC Normal lvl:50)-->
+	<!-- Atropos (NPC Normal lvl:50) -->
 	<spawn map="210060000" npcid="798155" pool="1" interval="295">
 		<object x="2295.63800" y="2234.84500" z="62.19004" h="73"/>
 	</spawn>
-	<!-- Belicanon (NPC Elite lvl:3)-->
+	<!-- Belicanon (NPC Elite lvl:3) -->
 	<spawn map="210060000" npcid="798364" pool="1" interval="295">
 		<object x="2867.291" y="1655.8245" z="66.11403" h="28"/>
 	</spawn>
@@ -72,64 +90,64 @@
 		<object x="2681.4082" y="846.03204" z="138.53372" h="104"/>
 		<object x="900.34515" y="2774.0188" z="62.429245" h="24"/>
 	</spawn>
-	<!-- Boburunerk (NPC Normal lvl:45)-->
+	<!-- Boburunerk (NPC Normal lvl:45) -->
 	<spawn map="210060000" npcid="798217" pool="2" interval="295">
 		<object x="539.43600" y="2162.25600" z="48.39425" h="113"/>
 		<object x="2684.00000" y="1067.77300" z="97.00000" h="7"/>
 	</spawn>
-	<!-- Bororinerk (NPC Normal lvl:43)-->
+	<!-- Bororinerk (NPC Normal lvl:43) -->
 	<spawn map="210060000" npcid="798185" pool="1" interval="295">
 		<object x="424.46050" y="1218.66500" z="130.73670" h="57"/>
 	</spawn>
-	<!-- Caballero (NPC Elite lvl:43)-->
+	<!-- Caballero (NPC Elite lvl:43) -->
 	<spawn map="210060000" npcid="798459" pool="1" interval="295">
 		<object x="2675.2534" y="807.5952" z="138.36707" h="22"/>
 	</spawn>
-	<!-- Cabar (NPC Elite lvl:43)-->
+	<!-- Cabar (NPC Elite lvl:43) -->
 	<spawn map="210060000" npcid="799815" pool="1" interval="295">
 		<object x="2221.319" y="2278.991" z="50.12613" h="5"/>
 	</spawn>
-	<!-- Calliope (NPC Elite lvl:50)-->
+	<!-- Calliope (NPC Elite lvl:50) -->
 	<spawn map="210060000" npcid="798198" pool="1" interval="295">
 		<object x="555.70390" y="1185.76300" z="90.01851" h="60"/>
 	</spawn>
-	<!-- Caochenrinerk (NPC Normal lvl:43)-->
+	<!-- Caochenrinerk (NPC Normal lvl:43) -->
 	<spawn map="210060000" npcid="798168" pool="1" interval="295">
 		<object x="2210.0442" y="2186.6062" z="52.0" h="6"/>
 	</spawn>
-	<!-- Charites (NPC Elite lvl:50)-->
+	<!-- Charites (NPC Elite lvl:50) -->
 	<spawn map="210060000" npcid="798175" pool="1" interval="295">
 		<object x="2212.50900" y="2259.16200" z="46.25000" h="8"/>
 	</spawn>
-	<!-- Chaurinrinerk (NPC Junk lvl:20)-->
+	<!-- Chaurinrinerk (NPC Junk lvl:20) -->
 	<spawn map="210060000" npcid="798135" pool="1" interval="295">
 		<object x="1383.0847" y="1502.0082" z="33.101776" h="40"/>
 	</spawn>
-	<!-- Cheorunerk (NPC Normal lvl:43)-->
+	<!-- Cheorunerk (NPC Normal lvl:43) -->
 	<spawn map="210060000" npcid="798169" pool="1" interval="295">
 		<object x="2241.94600" y="2141.67500" z="58.66785" h="8"/>
 	</spawn>
-	<!-- Crios (NPC Normal lvl:30)-->
+	<!-- Crios (NPC Normal lvl:30) -->
 	<spawn map="210060000" npcid="798150" pool="1" interval="295">
 		<object x="1415.33900" y="1564.21500" z="30.87500" h="90"/>
 	</spawn>
-	<!-- Dania (NPC Normal lvl:45)-->
+	<!-- Dania (NPC Normal lvl:45) -->
 	<spawn map="210060000" npcid="798170" pool="1" interval="295">
 		<object x="2308.62600" y="2211.77600" z="61.06424" h="48"/>
 	</spawn>
-	<!-- Danais (NPC Normal lvl:40)-->
+	<!-- Danais (NPC Normal lvl:40) -->
 	<spawn map="210060000" npcid="205253" pool="1" interval="295">
 		<object x="2681.4082" y="846.03204" z="138.53372" h="104"/>
 	</spawn>
-	<!-- Dead Body Of Shugo Merchant (Object Normal lvl:1)-->
+	<!-- Dead Body Of Shugo Merchant (Object Normal lvl:1) -->
 	<spawn map="210060000" npcid="700378" pool="1" interval="295">
 		<object x="1403.36000" y="2318.73000" z="69.60000" h="20"/>
 	</spawn>
-	<!-- Diokuroi (NPC Elite lvl:50)-->
+	<!-- Diokuroi (NPC Elite lvl:50) -->
 	<spawn map="210060000" npcid="798158" pool="1" interval="295">
 		<object x="2219.00000" y="2224.88000" z="43.69501" h="57"/>
 	</spawn>
-	<!-- Dried-Out Vine (Object Normal lvl:1)-->
+	<!-- Dried-Out Vine (Object Normal lvl:1) -->
 	<spawn map="210060000" npcid="730169" pool="5" interval="295">
 		<object x="1985.89000" y="2683.22000" z="45.66000" h="28"/>
 		<object x="2268.31000" y="2830.60000" z="41.11000" h="93"/>
@@ -137,7 +155,7 @@
 		<object x="2846.56000" y="2485.48000" z="23.45000" h="92"/>
 		<object x="2684.64000" y="2938.38000" z="20.07000" h="88"/>
 	</spawn>
-	<!-- Dried-Out Vine (Object Normal lvl:1)-->
+	<!-- Dried-Out Vine (Object Normal lvl:1) -->
 	<spawn map="210060000" npcid="730173" pool="5" interval="295">
 		<object staticid="221" x="2458.17" y="2373.45" z="16.699057" h="49"/>
 		<object staticid="205" x="2684.89" y="2939.19" z="20.16034" h="45"/>
@@ -145,23 +163,23 @@
 		<object staticid="289" x="1985.23" y="2683.59" z="45.731575" h="39"/>
 		<object staticid="287" x="2268.76" y="2831.45" z="41.16098" h="15"/>
 	</spawn>
-	<!-- Dropped Ribbon (Object Normal lvl:1)-->
+	<!-- Dropped Ribbon (Object Normal lvl:1) -->
 	<spawn map="210060000" npcid="700420" pool="1" interval="295">
 		<object x="193.75000" y="1040.82000" z="134.91000" h="28"/>
 	</spawn>
-	<!-- Elektra (NPC Elite lvl:45)-->
+	<!-- Elektra (NPC Elite lvl:45) -->
 	<spawn map="210060000" npcid="798164" pool="1" interval="295">
 		<object x="2200.39100" y="2195.04300" z="52.10056" h="12"/>
 	</spawn>
-	<!-- Epimenides (NPC Elite lvl:50)-->
+	<!-- Epimenides (NPC Elite lvl:50) -->
 	<spawn map="210060000" npcid="798187" pool="1" interval="295">
 		<object x="548.51860" y="1244.11300" z="89.50707" h="77"/>
 	</spawn>
-	<!-- Esclados (NPC Elite lvl:45)-->
+	<!-- Esclados (NPC Elite lvl:45) -->
 	<spawn map="210060000" npcid="798165" pool="1" interval="295">
 		<object x="2207.90200" y="2199.34500" z="51.88112" h="96"/>
 	</spawn>
-	<!-- Eternal Flame (Object Normal lvl:1)-->
+	<!-- Eternal Flame (Object Normal lvl:1) -->
 	<spawn map="210060000" npcid="700390" pool="10" interval="295">
 		<object x="428.50674" y="1959.36050" z="83.77389" h="85"/>
 		<object x="634.72670" y="2251.56700" z="69.57870" h="40"/>
@@ -174,27 +192,27 @@
 		<object x="754.08386" y="2130.68920" z="66.22674" h="96"/>
 		<object x="916.47810" y="1950.13110" z="8157579.00000" h="76"/>
 	</spawn>
-	<!-- Eunomia (NPC Elite lvl:50)-->
+	<!-- Eunomia (NPC Elite lvl:50) -->
 	<spawn map="210060000" npcid="798172" pool="1" interval="295">
 		<object x="2212.00200" y="2251.18800" z="46.24988" h="114"/>
 	</spawn>
-	<!-- Euterpe (NPC Elite lvl:50)-->
+	<!-- Euterpe (NPC Elite lvl:50) -->
 	<spawn map="210060000" npcid="798173" pool="1" interval="295">
 		<object x="2209.37200" y="2261.98000" z="46.37375" h="114"/>
 	</spawn>
-	<!-- Fabios (NPC Elite lvl:50)-->
+	<!-- Fabios (NPC Elite lvl:50) -->
 	<spawn map="210060000" npcid="798460" pool="1" interval="295">
 		<object x="914.0" y="2781.0" z="62.125" h="85"/>
 	</spawn>
-	<!-- Fire Core (Object Normal lvl:1)-->
+	<!-- Fire Core (Object Normal lvl:1) -->
 	<spawn map="210060000" npcid="700416" pool="1" interval="295">
 		<object x="399.03107" y="2523.78380" z="75.28221" h="10"/>
 	</spawn>
-	<!-- First Calydon Stone Plate (Object Normal lvl:1)-->
+	<!-- First Calydon Stone Plate (Object Normal lvl:1) -->
 	<spawn map="210060000" npcid="700391" pool="1" interval="295">
 		<object x="440.11298" y="508.10132" z="121.35090" h="79"/>
 	</spawn>
-	<!-- Foreshore Shell (Object Normal lvl:1)-->
+	<!-- Foreshore Shell (Object Normal lvl:1) -->
 	<spawn map="210060000" npcid="700450" pool="33" interval="295">
 		<object staticid="951" x="2931.6292" y="2430.0098" z="34.804245" h="103"/>
 		<object staticid="959" x="2568.2903" y="2754.3254" z="45.691177" h="108"/>
@@ -230,19 +248,19 @@
 		<object staticid="966" x="2554.1514" y="2174.8628" z="62.386932" h="49"/>
 		<object staticid="948" x="2562.473" y="2152.4658" z="58.434113" h="41"/>
 	</spawn>
-	<!-- Gaix (NPC Elite lvl:50)-->
+	<!-- Gaix (NPC Elite lvl:50) -->
 	<spawn map="210060000" npcid="798154" pool="1" interval="295">
 		<object x="2281.18500" y="2220.11800" z="60.29524" h="72"/>
 	</spawn>
-	<!-- Gastak (NPC Elite lvl:50)-->
+	<!-- Gastak (NPC Elite lvl:50) -->
 	<spawn map="210060000" npcid="798177" pool="1" interval="295">
 		<object x="417.31250" y="1209.47300" z="130.73670" h="30"/>
 	</spawn>
-	<!-- Gerana (NPC Normal lvl:40)-->
+	<!-- Gerana (NPC Normal lvl:40) -->
 	<spawn map="210060000" npcid="798216" pool="1" interval="295">
 		<object x="1395.90700" y="1562.17000" z="32.00000" h="95"/>
 	</spawn>
-	<!-- Giant Parasol Mushroom (Object Normal lvl:1)-->
+	<!-- Giant Parasol Mushroom (Object Normal lvl:1) -->
 	<spawn map="210060000" npcid="700377" pool="34" interval="295">
 		<object staticid="500" x="537.4234" y="431.2584" z="14.375" h="22"/>
 		<object staticid="501" x="870.4072" y="497.9096" z="14.065056" h="13"/>
@@ -279,85 +297,85 @@
 		<object staticid="748" x="332.93503" y="1109.2833" z="14.361353" h="13"/>
 		<object staticid="750" x="314.25284" y="1156.9222" z="14.375" h="86"/>
 	</spawn>
-	<!-- Gojirunerk (NPC Junk lvl:20)-->
+	<!-- Gojirunerk (NPC Junk lvl:20) -->
 	<spawn map="210060000" npcid="798138" pool="1" interval="295">
 		<object x="1413.63270" y="1558.35820" z="30.87500" h="94"/>
 	</spawn>
-	<!-- Grynos (NPC Normal lvl:45)-->
+	<!-- Grynos (NPC Normal lvl:45) -->
 	<spawn map="210060000" npcid="798166" pool="1" interval="295">
 		<object x="2279.76000" y="2181.22100" z="55.73500" h="56"/>
 	</spawn>
-	<!-- Guardian Sentinel Leader (NPC Elite lvl:50)-->
+	<!-- Guardian Sentinel Leader (NPC Elite lvl:50) -->
 	<spawn map="210060000" npcid="798221" pool="1" interval="295">
 		<object x="2060.50000" y="1844.77700" z="25.88512" h="78"/>
 	</spawn>
-	<!-- Guneus (NPC Elite lvl:50)-->
+	<!-- Guneus (NPC Elite lvl:50) -->
 	<spawn map="210060000" npcid="798174" pool="1" interval="295">
 		<object x="2206.54700" y="2257.83400" z="46.37500" h="119"/>
 	</spawn>
-	<!-- Guorinerk (NPC Normal lvl:43)-->
+	<!-- Guorinerk (NPC Normal lvl:43) -->
 	<spawn map="210060000" npcid="798204" pool="1" interval="295">
 		<object x="2686.85600" y="811.90170" z="138.35718" h="34"/>
 	</spawn>
-	<!-- Guruminerk (NPC Junk lvl:20)-->
+	<!-- Guruminerk (NPC Junk lvl:20) -->
 	<spawn map="210060000" npcid="798133" pool="1" interval="295">
 		<object x="1420.03200" y="1509.44570" z="32.37500" h="16"/>
 	</spawn>
-	<!-- Hecuba (NPC Normal lvl:20)-->
+	<!-- Hecuba (NPC Normal lvl:20) -->
 	<spawn map="210060000" npcid="798146" pool="1" interval="295">
 		<object x="1360.40000" y="1480.00000" z="32.42500" h="88"/>
 	</spawn>
-	<!-- Hidden Escape Exit (Object Normal lvl:1)-->
+	<!-- Hidden Escape Exit (Object Normal lvl:1) -->
 	<spawn map="210060000" npcid="730206" pool="1" interval="295">
 		<object staticid="525" x="2978.7993" y="192.61938" z="172.54498" h="32"/>
 	</spawn>
-	<!-- Huge Obstacle (Object Normal lvl:1)-->
+	<!-- Huge Obstacle (Object Normal lvl:1) -->
 	<spawn map="210060000" npcid="700376" pool="1" interval="295">
 		<object x="1405.01000" y="2319.46000" z="69.48000" h="94"/>
 	</spawn>
-	<!-- Icelus (NPC Elite lvl:50)-->
+	<!-- Icelus (NPC Elite lvl:50) -->
 	<spawn map="210060000" npcid="798160" pool="1" interval="295">
 		<object x="2278.40600" y="2223.74300" z="60.30075" h="73"/>
 	</spawn>
-	<!-- Ida (NPC Normal lvl:45)-->
+	<!-- Ida (NPC Normal lvl:45) -->
 	<spawn map="210060000" npcid="798188" pool="1" interval="295">
 		<object x="458.4236" y="1257.4208" z="127.10324" h="84"/>
 	</spawn>
-	<!-- Illithyia (NPC Elite lvl:50)-->
+	<!-- Illithyia (NPC Elite lvl:50) -->
 	<spawn map="210060000" npcid="798196" pool="1" interval="295">
 		<object x="553.84840" y="1194.22600" z="90.15324" h="16"/>
 	</spawn>
-	<!-- Idmene (NPC Normal lvl:40)-->
+	<!-- Idmene (NPC Normal lvl:40) -->
 	<spawn map="210060000" npcid="205254" pool="1" interval="295">
 		<object x="900.3142" y="2774.196" z="62.429245" h="32"/>
 	</spawn>	
-	<!-- Inn Worker Jamanok (NPC Normal lvl:45)-->
+	<!-- Inn Worker Jamanok (NPC Normal lvl:45) -->
 	<spawn map="210060000" npcid="798180" pool="2" interval="295">
 		<object x="397.2572" y="1236.2759" z="124.10263" h="54"/>
 		<object x="403.3605" y="1228.9193" z="124.10263" h="51"/>
 	</spawn>
-	<!-- Inn Worker Jamanok 2 (NPC Normal lvl:45)-->
+	<!-- Inn Worker Jamanok 2 (NPC Normal lvl:45) -->
 	<spawn map="210060000" npcid="798181" pool="2" interval="295">
 		<object x="409.05832" y="1228.2043" z="130.7367" h="52"/>
 		<object x="400.61957" y="1232.4752" z="134.589" h="78" w="91"/>
 	</spawn>
-	<!-- Iphigenia (NPC Elite lvl:50)-->
+	<!-- Iphigenia (NPC Elite lvl:50) -->
 	<spawn map="210060000" npcid="798195" pool="1" interval="295">
 		<object x="550.85640" y="1195.47600" z="90.34225" h="21"/>
 	</spawn>
-	<!-- Ixion (NPC Elite lvl:50)-->
+	<!-- Ixion (NPC Elite lvl:50) -->
 	<spawn map="210060000" npcid="798199" pool="1" interval="295">
 		<object x="2709.05300" y="1653.83600" z="48.62500" h="74"/>
 	</spawn>
-	<!-- Jabala (NPC Elite lvl:50)-->
+	<!-- Jabala (NPC Elite lvl:50) -->
 	<spawn map="210060000" npcid="798179" pool="1" interval="295">
 		<object x="400.74950" y="1230.60600" z="124.10263" h="20"/>
 	</spawn>
-	<!-- Jamanok (NPC Elite lvl:50)-->
+	<!-- Jamanok (NPC Elite lvl:50) -->
 	<spawn map="210060000" npcid="798176" pool="1" interval="295">
 		<object x="402.82320" y="1219.25800" z="134.58900" h="60"/>
 	</spawn>
-	<!-- Jamanok Inn Guard (NPC Elite lvl:50)-->
+	<!-- Jamanok Inn Guard (NPC Elite lvl:50) -->
 	<spawn map="210060000" npcid="798183" pool="6" interval="295">
 		<object x="442.15280" y="1239.17700" z="126.66689" h="119"/>
 		<object x="442.31600" y="1234.17000" z="126.61588" h="94"/>
@@ -366,7 +384,7 @@
 		<object x="456.305" y="1250.3801" z="126.542816" h="88" w="92"/>
 		<object x="587.17505" y="1266.8258" z="89.75" h="103" w="93"/>
 	</spawn>
-	<!-- Jamanok Inn Scout (NPC Elite lvl:50)-->
+	<!-- Jamanok Inn Scout (NPC Elite lvl:50) -->
 	<spawn map="210060000" npcid="798184" pool="5" interval="295">
 		<object x="591.62070" y="1179.82100" z="89.21511" h="85"/>
 		<object x="589.11316" y="1274.3578" z="90.125" h="84"/>
@@ -374,193 +392,193 @@
 		<object x="456.55487" y="1253.6462" z="126.74046" h="90" w="92"/>
 		<object x="589.6777" y="1263.1887" z="89.75" h="101" w="93"/>
 	</spawn>
-	<!-- Jeurunerk (NPC Normal lvl:43)-->
+	<!-- Jeurunerk (NPC Normal lvl:43) -->
 	<spawn map="210060000" npcid="798203" pool="1" interval="295">
 		<object x="2700.77900" y="819.68170" z="138.35718" h="69"/>
 	</spawn>
-	<!-- Jiufarinerk (NPC Normal lvl:43)-->
+	<!-- Jiufarinerk (NPC Normal lvl:43) -->
 	<spawn map="210060000" npcid="798201" pool="1" interval="295">
 		<object x="2693.36700" y="815.99430" z="138.35718" h="44"/>
 	</spawn>
-	<!-- Job Offering (Object Normal lvl:1)-->
+	<!-- Job Offering (Object Normal lvl:1) -->
 	<spawn map="210060000" npcid="730145" pool="1" interval="295">
 		<object x="2211.54000" y="2202.16000" z="53.58126" h="89"/>
 	</spawn>
-	<!-- Josnack (NPC Elite lvl:50)-->
+	<!-- Josnack (NPC Elite lvl:50) -->
 	<spawn map="210060000" npcid="798206" pool="1" interval="295">
 		<object x="906.5777" y="2781.7239" z="62.125" h="34"/>
 	</spawn>
-	<!-- Kairos (NPC Normal lvl:45)-->
+	<!-- Kairos (NPC Normal lvl:45) -->
 	<spawn map="210060000" npcid="205281" pool="1" interval="295">
 		<object x="1437.9004" y="1555.2542" z="30.796616" h="91"/>
 	</spawn>
-	<!-- Kaylelini's Corpse (Object Normal lvl:1)-->
+	<!-- Kaylelini's Corpse (Object Normal lvl:1) -->
 	<spawn map="210060000" npcid="730149" pool="4" interval="295">
 		<object x="557.55000" y="2174.68000" z="45.86000" h="71"/>
 		<object x="392.99000" y="2103.46000" z="66.40000" h="17"/>
 		<object x="649.72000" y="2069.56000" z="46.12000" h="4"/>
 		<object x="429.87000" y="2251.75000" z="58.78000" h="68"/>
 	</spawn>
-	<!-- Klotho (NPC Elite lvl:45)-->
+	<!-- Klotho (NPC Elite lvl:45) -->
 	<spawn map="210060000" npcid="798163" pool="1" interval="295">
 		<object x="2203.0186" y="2195.0715" z="52.0" h="61"/>
 	</spawn>
-	<!-- Koinos (NPC Elite lvl:50)-->
+	<!-- Koinos (NPC Elite lvl:50) -->
 	<spawn map="210060000" npcid="799810" pool="1" interval="295">
 		<object x="2248.9622" y="2282.068" z="51.49527" h="68"/>
 	</spawn>
-	<!-- Koreumtor (NPC Elite lvl:50)-->
+	<!-- Koreumtor (NPC Elite lvl:50) -->
 	<spawn map="210060000" npcid="798215" pool="1" interval="295">
 		<object x="1908.00100" y="118.64390" z="117.26360" h="60"/>
 	</spawn>
-	<!-- Kuomonerk (NPC Junk lvl:20)-->
+	<!-- Kuomonerk (NPC Junk lvl:20) -->
 	<spawn map="210060000" npcid="798137" pool="1" interval="295">
 		<object x="1434.15120" y="1557.04790" z="30.75000" h="78"/>
 	</spawn>
-	<!-- Lianminerk (NPC Junk lvl:20)-->
+	<!-- Lianminerk (NPC Junk lvl:20) -->
 	<spawn map="210060000" npcid="798136" pool="1" interval="295">
 		<object x="1339.34450" y="1539.52800" z="32.25000" h="108"/>
 	</spawn>
-	<!-- Lost Pippi (Monster Normal lvl:1)-->
+	<!-- Lost Pippi (Monster Normal lvl:1) -->
 	<spawn map="210060000" npcid="700421" pool="1" interval="295">
 		<object x="354.39040" y="101.39040" z="165.37500" h="83"/>
 	</spawn>
-	<!-- Mailbox (Object Normal lvl:1)-->
+	<!-- Mailbox (Object Normal lvl:1) -->
 	<spawn map="210060000" npcid="700000" pool="2" interval="295">
 		<object x="1402.62000" y="1568.17000" z="30.88000" h="106"/>
 		<object x="2282.44000" y="2230.92000" z="61.25000" h="0"/>
 	</spawn>
-	<!-- Majirunerk (NPC Normal lvl:43)-->
+	<!-- Majirunerk (NPC Normal lvl:43) -->
 	<spawn map="210060000" npcid="798200" pool="1" interval="295">
 		<object x="2707.04300" y="1655.61200" z="48.62500" h="78"/>
 	</spawn>
-	<!-- Melleas (NPC Elite lvl:50)-->
+	<!-- Melleas (NPC Elite lvl:50) -->
 	<spawn map="210060000" npcid="798208" pool="1" interval="295">
 		<object x="471.58550" y="2101.75800" z="54.87500" h="5"/>
 	</spawn>
-	<!-- Morati (NPC Normal lvl:45)-->
+	<!-- Morati (NPC Normal lvl:45) -->
 	<spawn map="210060000" npcid="798182" pool="1" interval="295">
 		<object x="417.01670" y="1224.22400" z="130.64300" h="30"/>
 	</spawn>
-	<!-- Nagrunerk (NPC Normal lvl:43)-->
+	<!-- Nagrunerk (NPC Normal lvl:43) -->
 	<spawn map="210060000" npcid="798193" pool="1" interval="295">
 		<object x="560.33170" y="1224.99700" z="89.50000" h="118"/>
 	</spawn>
-	<!-- Nagrunerk's Bodyguard (NPC Elite lvl:45)-->
+	<!-- Nagrunerk's Bodyguard (NPC Elite lvl:45) -->
 	<spawn map="210060000" npcid="798192" pool="1" interval="295">
 		<object x="561.87600" y="1228.77900" z="89.50000" h="93"/>
 	</spawn>
-	<!-- Nausikaa (NPC Elite lvl:50)-->
+	<!-- Nausikaa (NPC Elite lvl:50) -->
 	<spawn map="210060000" npcid="798156" pool="1" interval="295">
 		<object x="2280.51400" y="2253.27900" z="61.87500" h="80"/>
 	</spawn>
-	<!-- Neoptolemos (NPC Elite lvl:50)-->
+	<!-- Neoptolemos (NPC Elite lvl:50) -->
 	<spawn map="210060000" npcid="798197" pool="1" interval="295">
 		<object x="556.33010" y="1188.24800" z="90.00000" h="21"/>
 	</spawn>
-	<!-- Noridia (NPC Elite lvl:50)-->
+	<!-- Noridia (NPC Elite lvl:50) -->
 	<spawn map="210060000" npcid="798159" pool="1" interval="295">
 		<object x="2217.52000" y="2234.56000" z="43.75501" h="68"/>
 	</spawn>
-	<!-- Obelisk Observatory Village (Object Normal lvl:3)-->
+	<!-- Obelisk Observatory Village (Object Normal lvl:3) -->
 	<spawn map="210060000" npcid="700255" pool="1" interval="295">
 		<object x="2277.92100" y="2253.41160" z="62.58725" h="75"/>
 	</spawn>
-	<!-- Obelisk Meniherk Excavation Camp (Object Normal lvl:1)-->
+	<!-- Obelisk Meniherk Excavation Camp (Object Normal lvl:1) -->
 	<spawn map="210060000" npcid="250092" pool="1" interval="295">
 		<object x="1426.23720" y="1570.77800" z="31.56350" h="75"/>
 	</spawn>
-	<!-- Obelisk Jamanok Inn (Object Normal lvl:3)-->
+	<!-- Obelisk Jamanok Inn (Object Normal lvl:3) -->
 	<spawn map="210060000" npcid="700256" pool="1" interval="295">
 		<object x="546.81110" y="1245.29520" z="90.21943" h="85"/>
 	</spawn>
-	<!-- Obelisk Josnack's Vigil (Object Normal lvl:3)-->
+	<!-- Obelisk Josnack's Vigil (Object Normal lvl:3) -->
 	<spawn map="210060000" npcid="700820" pool="1" interval="295">
 		<object x="914.8197" y="2779.6018" z="62.742218" h="63"/>
 	</spawn>
-	<!-- Obelisk Anangke Excavation Camp (Object Normal lvl:3)-->
+	<!-- Obelisk Anangke Excavation Camp (Object Normal lvl:3) -->
 	<spawn map="210060000" npcid="730281" pool="1" interval="295">
 		<object x="2673.3025" y="808.04376" z="139.0627" h="20"/>
 	</spawn>
-	<!-- Observatory Protector (NPC Elite lvl:50)-->
+	<!-- Observatory Protector (NPC Elite lvl:50) -->
 	<spawn map="210060000" npcid="798161" pool="2" interval="295">
 		<object x="2272.79200" y="2219.74300" z="58.19930" h="69" w="94"/>
 		<object x="2276.65300" y="2214.54200" z="58.32214" h="69" w="95"/>
 	</spawn>
-	<!-- Observatory Sentinel (NPC Elite lvl:50)-->
+	<!-- Observatory Sentinel (NPC Elite lvl:50) -->
 	<spawn map="210060000" npcid="798162" pool="2" interval="295">
 		<object x="2285.53400" y="2221.84200" z="60.93187" h="72"/>
 		<object x="2281.00600" y="2227.54100" z="61.06839" h="72"/>
 	</spawn>
-	<!-- Oileus (NPC Elite lvl:45)-->
+	<!-- Oileus (NPC Elite lvl:45) -->
 	<spawn map="210060000" npcid="798189" pool="1" interval="295">
 		<object x="403.86470" y="1227.50000" z="134.58900" h="58"/>
 	</spawn>
-	<!-- Old Book (Object Normal lvl:1)-->
+	<!-- Old Book (Object Normal lvl:1) -->
 	<spawn map="210060000" npcid="730195" pool="1" interval="295">
 		<object staticid="92" x="406.01373" y="1235.8484" z="135.1336" h="76"/>
 	</spawn>
-	<!-- Orestes (NPC Normal lvl:45)-->
+	<!-- Orestes (NPC Normal lvl:45) -->
 	<spawn map="210060000" npcid="798207" pool="1" interval="295">
 		<object x="908.33920" y="2777.73600" z="62.12500" h="57"/>
 	</spawn>
-	<!-- Padios (NPC Normal lvl:45)-->
+	<!-- Padios (NPC Normal lvl:45) -->
 	<spawn map="210060000" npcid="798194" pool="1" interval="295">
 		<object x="573.57920" y="1217.86100" z="89.50000" h="81"/>
 	</spawn>
-	<!-- Palimedes (NPC Normal lvl:45)-->
+	<!-- Palimedes (NPC Normal lvl:45) -->
 	<spawn map="210060000" npcid="798157" pool="1" interval="295">
 		<object x="2234.43300" y="2284.57200" z="50.17200" h="80"/>
 	</spawn>
-	<!-- Paominerk (NPC Junk lvl:20)-->
+	<!-- Paominerk (NPC Junk lvl:20) -->
 	<spawn map="210060000" npcid="798134" pool="1" interval="295">
 		<object x="1366.271" y="1574.9874" z="35.362526" h="93"/>
 	</spawn>
-	<!-- Pater (NPC Elite lvl:3)-->
+	<!-- Pater (NPC Elite lvl:3) -->
 	<spawn map="210060000" npcid="798366" pool="1" interval="295">
 		<object x="740.46405" y="494.48575" z="20.622288" h="50"/>
 	</spawn>
-	<!-- Phaon (NPC Elite lvl:45)-->
+	<!-- Phaon (NPC Elite lvl:45) -->
 	<spawn map="210060000" npcid="798140" pool="1" interval="295">
 		<object x="1428.00230" y="1568.78370" z="30.92442" h="79"/>
 	</spawn>
-	<!-- Pollux (NPC Normal lvl:40)-->
+	<!-- Pollux (NPC Normal lvl:40) -->
 	<spawn map="210060000" npcid="798142" pool="1" interval="295">
 		<object x="1446.67140" y="1557.42200" z="30.88084" h="71"/>
 	</spawn>
-	<!-- Polydorus (NPC Normal lvl:3)-->
+	<!-- Polydorus (NPC Normal lvl:3) -->
 	<spawn map="210060000" npcid="798145" pool="1" interval="295">
 		<object x="1395.92440" y="1600.33640" z="35.49314" h="111"/>
 	</spawn>
-	<!-- Priamos (NPC Normal lvl:50)-->
+	<!-- Priamos (NPC Normal lvl:50) -->
 	<spawn map="210060000" npcid="799806" pool="1" interval="295">
 		<object x="2223.1416" y="2276.9155" z="50.04309" h="22"/>
 	</spawn>
-	<!-- Prokinu (NPC Normal lvl:45)-->
+	<!-- Prokinu (NPC Normal lvl:45) -->
 	<spawn map="210060000" npcid="798220" pool="1" interval="295">
 		<object x="2203.64400" y="2116.44300" z="61.64725" h="13"/>
 	</spawn>
-	<!-- Pyrrha (NPC Normal lvl:50)-->
+	<!-- Pyrrha (NPC Normal lvl:50) -->
 	<spawn map="210060000" npcid="798225" pool="1" interval="295">
 		<object x="2969.15600" y="191.77280" z="171.94196" h="35"/>
 	</spawn>
-	<!-- Red Journal (Object Normal lvl:1)-->
+	<!-- Red Journal (Object Normal lvl:1) -->
 	<spawn map="210060000" npcid="730148" pool="1" interval="295">
 		<object staticid="88" x="468.66486" y="2110.1646" z="55.745895" h="73"/>
 	</spawn>
-	<!-- Rosina (NPC Elite lvl:45)-->
+	<!-- Rosina (NPC Elite lvl:45) -->
 	<spawn map="210060000" npcid="798190" pool="1" interval="295">
 		<object x="409.19540" y="1218.75400" z="130.73670" h="3"/>
 	</spawn>
-	<!-- Ruria (NPC Normal lvl:45)-->
+	<!-- Ruria (NPC Normal lvl:45) -->
 	<spawn map="210060000" npcid="798211" pool="1" interval="295">
 		<object x="808.76600" y="1803.61100" z="68.44306" h="24"/>
 	</spawn>
-	<!-- Ryolion (NPC Normal lvl:50)-->
+	<!-- Ryolion (NPC Normal lvl:50) -->
 	<spawn map="210060000" npcid="799812" pool="1" interval="295">
 		<object x="2246.9075" y="2287.4067" z="50.95723" h="61"/>
 	</spawn>
-	<!-- Salt Crystal (Object Normal lvl:1)-->
+	<!-- Salt Crystal (Object Normal lvl:1) -->
 	<spawn map="210060000" npcid="700374" pool="20" interval="295">
 		<object x="2085.90000" y="2609.71000" z="78.92000" h="37"/>
 		<object x="2096.47000" y="2679.72000" z="68.48000" h="88"/>
@@ -583,42 +601,42 @@
 		<object x="1908.64000" y="2556.10000" z="90.86000" h="92"/>
 		<object x="1961.56000" y="2558.09000" z="83.96000" h="48"/>
 	</spawn>
-	<!-- Search For Criminal (Object Normal lvl:1)-->
+	<!-- Search For Criminal (Object Normal lvl:1) -->
 	<spawn map="210060000" npcid="730146" pool="1" interval="295">
 		<object x="542.25000" y="1196.50000" z="92.11086" h="27"/>
 	</spawn>
-	<!-- Second Calydon Stone Plate (Object Normal lvl:1)-->
+	<!-- Second Calydon Stone Plate (Object Normal lvl:1) -->
 	<spawn map="210060000" npcid="700392" pool="1" interval="295">
 		<object x="569.89000" y="577.48000" z="123.72000" h="78"/>
 	</spawn>
-	<!-- Serimnir (NPC Elite lvl:50)-->
+	<!-- Serimnir (NPC Elite lvl:50) -->
 	<spawn map="210060000" npcid="798212" pool="2" interval="295">
 		<object x="1316.46400" y="47.87122" z="80.37685" h="116"/>
 		<object x="1510.32800" y="553.18270" z="80.24693" h="88"/>
 	</spawn>
-	<!-- Sevrian (NPC Normal lvl:45)-->
+	<!-- Sevrian (NPC Normal lvl:45) -->
 	<spawn map="210060000" npcid="798210" pool="1" interval="295">
 		<object x="476.15400" y="2096.63300" z="54.87500" h="11"/>
 	</spawn>
-	<!-- Shaorunerk (NPC Normal lvl:43)-->
+	<!-- Shaorunerk (NPC Normal lvl:43) -->
 	<spawn map="210060000" npcid="798202" pool="1" interval="295">
 		<object x="2695.17200" y="817.86680" z="138.35718" h="53"/>
 	</spawn>
-	<!-- Shugo Corpse (Object Normal lvl:1)-->
+	<!-- Shugo Corpse (Object Normal lvl:1) -->
 	<spawn map="210060000" npcid="700339" pool="1" interval="295">
 		<object x="1805.93000" y="1152.92000" z="28.37000" h="46"/>
 	</spawn>
-	<!-- Shugo Porter (NPC Normal lvl:43)-->
+	<!-- Shugo Porter (NPC Normal lvl:43) -->
 	<spawn map="210060000" npcid="798205" pool="3" interval="295">
 		<object x="2682.98700" y="812.55520" z="138.35718" h="40"/>
 		<object x="2694.65500" y="826.54260" z="138.77509" h="70"/>
 		<object x="2682.3203" y="815.2209" z="138.36707" h="114" w="96"/>
 	</spawn>
-	<!-- Solani (NPC Normal lvl:45)-->
+	<!-- Solani (NPC Normal lvl:45) -->
 	<spawn map="210060000" npcid="798171" pool="1" interval="295">
 		<object x="2250.03100" y="2140.65800" z="58.66785" h="39"/>
 	</spawn>
-	<!-- Stone Above The Statue (Object Normal lvl:1)-->
+	<!-- Stone Above The Statue (Object Normal lvl:1) -->
 	<spawn map="210060000" npcid="700389" pool="7" interval="295">
 		<object staticid="113" x="899.3517" y="3020.0364" z="95.225975" h="31"/>
 		<object staticid="114" x="847.6095" y="2988.1567" z="94.87861" h="73"/>
@@ -628,25 +646,25 @@
 		<object staticid="7" x="937.9234" y="3032.2217" z="176.58954" h="86"/>
 		<object staticid="8" x="931.10693" y="3025.2686" z="100.72789" h="8"/>
 	</spawn>
-	<!-- Stone On The Statue Platform (Object Normal lvl:1)-->
+	<!-- Stone On The Statue Platform (Object Normal lvl:1) -->
 	<spawn map="210060000" npcid="700388" pool="4" interval="295">
 		<object x="930.32000" y="3025.18000" z="101.08000" h="87"/>
 		<object x="932.65000" y="2976.24000" z="94.84000" h="64"/>
 		<object x="898.56000" y="3019.49000" z="95.23000" h="34"/>
 		<object x="848.00000" y="2987.55000" z="94.87000" h="24"/>
 	</spawn>
-	<!-- Talos (NPC Normal lvl:20)-->
+	<!-- Talos (NPC Normal lvl:20) -->
 	<spawn map="210060000" npcid="798144" pool="1" interval="295">
 		<object x="1441.13350" y="1571.70640" z="30.56735" h="72"/>
 	</spawn>
-	<!-- Tamed Bellepig (NPC Junk lvl:1)-->
+	<!-- Tamed Bellepig (NPC Junk lvl:1) -->
 	<spawn map="210060000" npcid="214635" pool="4" interval="295" rw="10">
 		<object staticid="0" x="477.93304" y="1234.2051" z="129.99164" h="59"/>
 		<object staticid="0" x="477.85388" y="1232.273" z="129.98174" h="59"/>
 		<object staticid="0" x="477.76175" y="1230.0298" z="130.09335" h="59"/>
 		<object staticid="0" x="477.66122" y="1227.5801" z="130.10382" h="59"/>
 	</spawn>
-	<!-- Tamed Tipolid (NPC Normal lvl:20)-->
+	<!-- Tamed Tipolid (NPC Normal lvl:20) -->
 	<spawn map="210060000" npcid="798148" pool="22" interval="295">
 		<object x="1421.7758" y="1586.2926" z="31.05059" h="96"/>
 		<object x="1415.9792" y="1584.2223" z="30.91668" h="96"/>
@@ -671,47 +689,47 @@
 		<object x="2194.0884" y="2158.637" z="53.875" h="113"/>
 		<object x="2198.3667" y="2122.8203" z="61.57419" h="4"/>
 	</spawn>
-	<!-- Tanimonerk (NPC Normal lvl:43)-->
+	<!-- Tanimonerk (NPC Normal lvl:43) -->
 	<spawn map="210060000" npcid="798186" pool="1" interval="295">
 		<object x="423.02020" y="1231.05300" z="130.95640" h="77"/>
 	</spawn>
-	<!-- Tartagan (NPC Normal lvl:34)-->
+	<!-- Tartagan (NPC Normal lvl:34) -->
 	<spawn map="210060000" npcid="798149" pool="1" interval="295">
 		<object x="1921.27530" y="1468.86930" z="19.76992" h="15"/>
 	</spawn>
-	<!-- Tears Of Luck (Object Normal lvl:1)-->
+	<!-- Tears Of Luck (Object Normal lvl:1) -->
 	<spawn map="210060000" npcid="700537" pool="1" interval="60">
 		<object x="1158.23800" y="358.13030" z="209.56255" h="40"/>
 	</spawn>
-	<!-- Terusas (NPC Normal lvl:45)-->
+	<!-- Terusas (NPC Normal lvl:45) -->
 	<spawn map="210060000" npcid="798219" pool="1" interval="295">
 		<object x="2204.16100" y="2109.26000" z="61.61398" h="26"/>
 	</spawn>
-	<!-- Themis (NPC Elite lvl:50)-->
+	<!-- Themis (NPC Elite lvl:50) -->
 	<spawn map="210060000" npcid="798222" pool="1" interval="295">
 		<object x="2073.67100" y="1878.91300" z="40.12500" h="59"/>
 	</spawn>
-	<!-- Theobomos Lepharist Research Center Entrance (Object Normal lvl:1)-->
+	<!-- Theobomos Lepharist Research Center Entrance (Object Normal lvl:1) -->
 	<spawn map="210060000" npcid="730154" pool="1" interval="295">
 		<object x="2978.09000" y="193.51000" z="172.14000" h="45"/>
 	</spawn>
-	<!-- Thesaly (NPC Normal lvl:40)-->
+	<!-- Thesaly (NPC Normal lvl:40) -->
 	<spawn map="210060000" npcid="798141" pool="1" interval="295">
 		<object x="1394.57870" y="1561.51180" z="32.00000" h="103"/>
 	</spawn>
-	<!-- Third Calydon Stone Plate (Object Normal lvl:1)-->
+	<!-- Third Calydon Stone Plate (Object Normal lvl:1) -->
 	<spawn map="210060000" npcid="700393" pool="1" interval="295">
 		<object x="467.27000" y="636.91000" z="132.38000" h="103"/>
 	</spawn>
-	<!-- Tiesansanerk (NPC Junk lvl:20)-->
+	<!-- Tiesansanerk (NPC Junk lvl:20) -->
 	<spawn map="210060000" npcid="798139" pool="1" interval="295">
 		<object x="1436.71600" y="1508.43750" z="33.08661" h="17"/>
 	</spawn>
-	<!-- Tityus (NPC Elite lvl:45)-->
+	<!-- Tityus (NPC Elite lvl:45) -->
 	<spawn map="210060000" npcid="798191" pool="1" interval="295">
 		<object x="395.08980" y="1227.32200" z="134.58900" h="13"/>
 	</spawn>
-	<!-- Trader's Bodyguard (NPC Normal lvl:33)-->
+	<!-- Trader's Bodyguard (NPC Normal lvl:33) -->
 	<spawn map="210060000" npcid="798147" pool="11" interval="295">
 		<object x="1471.8329" y="1525.1836" z="31.581161" h="0"/>
 		<object x="1470.2808" y="1546.6302" z="31.646843" h="0"/>
@@ -725,51 +743,51 @@
 		<object x="1387.4213" y="1542.4893" z="31.344421" h="47" w="89"/>
 		<object x="1395.3513" y="1547.091" z="30.875" h="113" w="90"/>
 	</spawn>
-	<!-- Treasure Chest Of Gust Valley (Object Normal lvl:1)-->
+	<!-- Treasure Chest Of Gust Valley (Object Normal lvl:1) -->
 	<spawn map="210060000" npcid="700419" pool="1" interval="295">
 		<object x="564.70000" y="904.43000" z="173.50000" h="24"/>
 	</spawn>
-	<!-- Treasure Chest Of Salt Desert (Object Normal lvl:1)-->
+	<!-- Treasure Chest Of Salt Desert (Object Normal lvl:1) -->
 	<spawn map="210060000" npcid="700418" pool="1" interval="295">
 		<object x="2721.05000" y="1630.99000" z="45.62000" h="22"/>
 	</spawn>
-	<!-- Typhoeus (NPC Normal lvl:50)-->
+	<!-- Typhoeus (NPC Normal lvl:50) -->
 	<spawn map="210060000" npcid="799811" pool="1" interval="295">
 		<object x="2247.0112" y="2284.072" z="51.2424" h="60"/>
 	</spawn>
-	<!-- Unidentified Artifact (Object Normal lvl:1)-->
+	<!-- Unidentified Artifact (Object Normal lvl:1) -->
 	<spawn map="210060000" npcid="700398" pool="1" interval="295">
 		<object x="2806.41000" y="2765.93000" z="57.12000" h="105"/>
 	</spawn>
-	<!-- Unirunerk (NPC Normal lvl:43)-->
+	<!-- Unirunerk (NPC Normal lvl:43) -->
 	<spawn map="210060000" npcid="798218" pool="1" interval="295">
 		<object x="2209.10500" y="2099.74200" z="62.04474" h="22"/>
 	</spawn>
-	<!-- Vison (NPC Elite lvl:48)-->
+	<!-- Vison (NPC Elite lvl:48) -->
 	<spawn map="210060000" npcid="798214" pool="1" interval="295">
 		<object x="1752.97400" y="167.95230" z="84.31711" h="82"/>
 	</spawn>
-	<!-- Wanted By The Police (Object Normal lvl:1)-->
+	<!-- Wanted By The Police (Object Normal lvl:1) -->
 	<spawn map="210060000" npcid="730144" pool="1" interval="295">
 		<object x="2210.44000" y="2202.21000" z="53.58126" h="89"/>
 	</spawn>
-	<!-- Wanted: Fork Ear Rokes (Object Normal lvl:1)-->
+	<!-- Wanted: Fork Ear Rokes (Object Normal lvl:1) -->
 	<spawn map="210060000" npcid="730105" pool="1" interval="295">
 		<object x="1461.75000" y="1554.21000" z="33.15564" h="89"/>
 	</spawn>
-	<!-- Wanted: Malicious Sinis (Object Normal lvl:1)-->
+	<!-- Wanted: Malicious Sinis (Object Normal lvl:1) -->
 	<spawn map="210060000" npcid="730106" pool="1" interval="295">
 		<object x="1462.62000" y="1554.21000" z="33.15564" h="89"/>
 	</spawn>
-	<!-- Yadamonerk (NPC Junk lvl:20)-->
+	<!-- Yadamonerk (NPC Junk lvl:20) -->
 	<spawn map="210060000" npcid="798132" pool="1" interval="295">
 		<object x="1412.72890" y="1513.97180" z="33.00000" h="27"/>
 	</spawn>
-	<!-- Yugorunerk (NPC Normal lvl:43)-->
+	<!-- Yugorunerk (NPC Normal lvl:43) -->
 	<spawn map="210060000" npcid="798167" pool="1" interval="295">
 		<object x="2211.11800" y="2182.79300" z="52.00557" h="8"/>
 	</spawn>
-	<!-- Zirius (NPC Elite lvl:50)-->
+	<!-- Zirius (NPC Elite lvl:50) -->
 	<spawn map="210060000" npcid="798213" pool="1" interval="295" time="DAY">
 		<object x="1531.68100" y="279.73330" z="102.51712" h="102"/>
 	</spawn>

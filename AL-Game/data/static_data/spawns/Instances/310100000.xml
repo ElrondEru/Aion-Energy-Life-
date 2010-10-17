@@ -1,27 +1,45 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<!-- Azoturan Fortress -->
+<!--
+	This file is part of aion-unique <aion-unique.org>.
+
+	aion-unique is free software: you can redistribute it and/or modify
+	it under the terms of the GNU General Public License as published by
+	the Free Software Foundation, either version 3 of the License, or
+	(at your option) any later version.
+
+	aion-unique is distributed in the hope that it will be useful,
+	but WITHOUT ANY WARRANTY; without even the implied warranty of
+	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+	GNU General Public License for more details.
+
+	You should have received a copy of the GNU General Public License
+	along with aion-unique.If not, see <http://www.gnu.org/licenses/>.
+
+	Azoturan Fortress
+
+-->
 <spawns>
-	<!-- Acestes (NPC Normal lvl:45) (from client spawn)-->
+	<!-- Acestes (NPC Normal lvl:45) -->
 	<spawn map="310100000" npcid="204652" pool="1" interval="295">
 		<object x="309.6675" y="336.00333" z="1020.88" h="30"/>
 	</spawn>
-	<!-- Peitho (NPC Normal lvl:45) (from client spawn)-->
+	<!-- Peitho (NPC Normal lvl:45) -->
 	<spawn map="310100000" npcid="204653" pool="1" interval="295">
 		<object x="584.7464" y="508.8139" z="1188.181" h="21"/>
 	</spawn>
-	<!-- Azoturan Assassin (Monster Elite lvl:44) (from client spawn)-->
+	<!-- Azoturan Assassin (Monster Elite lvl:44) -->
 	<spawn map="310100000" npcid="214525" pool="4" interval="300">
 		<object x="468.23843" y="473.11215" z="1046.8585" h="11"/>
 		<object x="478.66467" y="387.97607" z="1046.8594" h="60"/>
 		<object x="507.47736" y="413.7227" z="1051.0375" h="94"/>
 		<object x="434.9022" y="392.30118" z="1009.6871" h="63"/>
 	</spawn>
-	<!-- Azoturan Assassin (Monster Elite lvl:44) (from client spawn)-->
+	<!-- Azoturan Assassin (Monster Elite lvl:44) -->
 	<spawn map="310100000" npcid="214524" pool="2" interval="300">
 		<object x="486.7066" y="444.79114" z="1038.6562" h="76"/>
 		<object x="490.32678" y="420.15985" z="1038.6575" h="14"/>
 	</spawn>
-	<!-- Azoturan Bioscholar (Monster Elite lvl:44) (from client spawn)-->
+	<!-- Azoturan Bioscholar (Monster Elite lvl:44) -->
 	<spawn map="310100000" npcid="214534" pool="5" interval="300">
 		<object x="590.5354" y="283.27826" z="1008.5975" h="109"/>
 		<object x="541.33044" y="299.53943" z="1002.1952" h="53"/>
@@ -29,12 +47,12 @@
 		<object x="533.88605" y="521.52655" z="990.83215" h="54"/>
 		<object x="518.40686" y="514.62573" z="989.37177" h="118"/>
 	</spawn>
-	<!-- Azoturan Breeder (Monster Elite lvl:44) (from client spawn)-->
+	<!-- Azoturan Breeder (Monster Elite lvl:44) -->
 	<spawn map="310100000" npcid="214521" pool="2" interval="300">
 		<object x="268.403" y="396.6635" z="1019.93207" h="79"/>
 		<object x="599.0296" y="673.4047" z="969.731" h="81"/>
 	</spawn>
-	<!-- Azoturan Fighter (Monster Elite lvl:44) (from client spawn)-->
+	<!-- Azoturan Fighter (Monster Elite lvl:44) -->
 	<spawn map="310100000" npcid="214517" pool="21" interval="300">
 		<object x="474.45367" y="393.77542" z="1056.0139" h="55"/>
 		<object x="348.47858" y="380.70322" z="1010.31714" h="43"/>
@@ -58,7 +76,7 @@
 		<object x="633.5205" y="670.9447" z="966.70166" h="96"/>
 		<object x="696.11646" y="341.1825" z="1007.50757" h="6"/>
 	</spawn>
-	<!-- Azoturan Fighter (Monster Elite lvl:44) (from client spawn)-->
+	<!-- Azoturan Fighter (Monster Elite lvl:44) -->
 	<spawn map="310100000" npcid="214518" pool="12" interval="300">
 		<object x="471.41415" y="486.6697" z="1046.8201" h="15"/>
 		<object x="476.52756" y="418.12604" z="991.5393" h="67"/>
@@ -73,7 +91,7 @@
 		<object x="447.59814" y="426.86707" z="1038.6306" h="33"/>
 		<object x="478.47656" y="425.1283" z="1031.66" h="91"/>
 	</spawn>
-	<!-- Azoturan Healer (Monster Elite lvl:45) (from client spawn)-->
+	<!-- Azoturan Healer (Monster Elite lvl:45) -->
 	<spawn map="310100000" npcid="214526" pool="8" interval="300">
 		<object x="482.47897" y="382.0137" z="1020.8383" h="106"/>
 		<object x="488.6942" y="429.71545" z="1039.9552" h="72"/>
@@ -84,7 +102,7 @@
 		<object x="455.023" y="429.20743" z="993.3726" h="24"/>
 		<object x="445.1849" y="449.46533" z="993.3726" h="24"/>
 	</spawn>
-	<!-- Azoturan Outrider (Monster Elite lvl:44) (from client spawn)-->
+	<!-- Azoturan Outrider (Monster Elite lvl:44) -->
 	<spawn map="310100000" npcid="214523" pool="7" interval="300">
 		<object x="475.09152" y="373.81577" z="1046.8202" h="58"/>
 		<object x="423.5769" y="428.04425" z="990.5974" h="97"/>
@@ -94,7 +112,7 @@
 		<object x="465.03708" y="465.7473" z="1056.0105" h="107"/>
 		<object x="457.74155" y="402.2562" z="990.7009" h="13"/>
 	</spawn>
-	<!-- Azoturan Outrider (Monster Elite lvl:44) (from client spawn)-->
+	<!-- Azoturan Outrider (Monster Elite lvl:44) -->
 	<spawn map="310100000" npcid="214522" pool="15" interval="300">
 		<object x="295.3378" y="472.04944" z="1007.90497" h="18"/>
 		<object x="715.19476" y="536.4072" z="983.6032" h="59"/>
@@ -112,7 +130,7 @@
 		<object x="485.90576" y="375.0872" z="1046.8201" h="8"/>
 		<object x="476.71442" y="436.76978" z="1031.7104" h="9"/>
 	</spawn>
-	<!-- Azoturan Researcher (Monster Elite lvl:44) (from client spawn)-->
+	<!-- Azoturan Researcher (Monster Elite lvl:44) -->
 	<spawn map="310100000" npcid="214516" pool="7" interval="300">
 		<object x="376.94113" y="328.34256" z="1005.4763" h="101"/>
 		<object x="451.7227" y="289.31482" z="999.9042" h="78"/>
@@ -122,7 +140,7 @@
 		<object x="537.8188" y="553.1642" z="987.15924" h="67"/>
 		<object x="563.6789" y="458.81616" z="993.06104" h="61"/>
 	</spawn>
-	<!-- Azoturan Scholar (Monster Elite lvl:44) (from client spawn)-->
+	<!-- Azoturan Scholar (Monster Elite lvl:44) -->
 	<spawn map="310100000" npcid="214519" pool="10" interval="300">
 		<object x="656.0685" y="489.04044" z="986.7552" h="82"/>
 		<object x="636.36096" y="672.47986" z="966.5626" h="85"/>
@@ -135,7 +153,7 @@
 		<object x="680.5329" y="394.32178" z="998.8562" h="85"/>
 		<object x="636.8471" y="572.22284" z="980.308" h="57"/>
 	</spawn>
-	<!-- Azoturan Scholar (Monster Elite lvl:44) (from client spawn)-->
+	<!-- Azoturan Scholar (Monster Elite lvl:44) -->
 	<spawn map="310100000" npcid="214520" pool="6" interval="300">
 		<object x="471.90097" y="430.1156" z="1031.708" h="76"/>
 		<object x="451.51205" y="431.845" z="993.3726" h="2"/>
@@ -144,15 +162,15 @@
 		<object x="432.51877" y="401.2006" z="991.2592" h="84"/>
 		<object x="471.74118" y="466.71024" z="1056.022" h="91"/>
 	</spawn>
-	<!-- Betrayer Icaronix (Monster Hero lvl:45) (from client spawn)-->
+	<!-- Betrayer Icaronix (Monster Hero lvl:45) -->
 	<spawn map="310100000" npcid="214598" pool="1" interval="14400">
 		<object x="461.07037" y="439.8757" z="993.0458" h="58"/>
 	</spawn>
-	<!-- Lab Director Elizer (Named Mob Hero lvl:45) (from client spawn)-->
+	<!-- Lab Director Elizer (Named Mob Hero lvl:45) -->
 	<spawn map="310100000" npcid="214801" pool="1" interval="14400">
 		<object x="494.24103" y="372.22928" z="1021.2172" h="5"/>
 	</spawn>
-	<!-- Pretor Fighter (Monster Elite lvl:43) (from client spawn)-->
+	<!-- Pretor Fighter (Monster Elite lvl:43) -->
 	<spawn map="310100000" npcid="214509" pool="7" interval="300">
 		<object x="489.77206" y="585.8803" z="985.52057" h="88"/>
 		<object x="591.7439" y="461.77158" z="992.63934" h="76"/>
@@ -162,7 +180,7 @@
 		<object x="493.5464" y="532.5243" z="990.909" h="112"/>
 		<object x="508.94946" y="337.00534" z="998.3259" h="30"/>
 	</spawn>
-	<!-- Pretor Fighter (Monster Elite lvl:43) (from client spawn)-->
+	<!-- Pretor Fighter (Monster Elite lvl:43) -->
 	<spawn map="310100000" npcid="214508" pool="7" interval="300">
 		<object x="560.175" y="472.1646" z="993.2658" h="41"/>
 		<object x="492.25342" y="530.49316" z="990.95874" h="24"/>
@@ -172,27 +190,27 @@
 		<object x="384.9222" y="398.69568" z="998.1433" h="78"/>
 		<object x="411.6708" y="327.49063" z="1001.05286" h="2"/>
 	</spawn>
-	<!-- Pretor Test Subject (Monster Elite lvl:43) (from client spawn)-->
+	<!-- Pretor Test Subject (Monster Elite lvl:43) -->
 	<spawn map="310100000" npcid="214511" pool="1" interval="300">
 		<object x="535.6483" y="554.52496" z="987.256" h="19"/>
 	</spawn>
-	<!-- Pretor Test Subject (Monster Elite lvl:43) (from client spawn)-->
+	<!-- Pretor Test Subject (Monster Elite lvl:43) -->
 	<spawn map="310100000" npcid="214514" pool="1" interval="300">
 		<object x="422.92487" y="340.78647" z="999.0136" h="51"/>
 	</spawn>
-	<!-- Pretor Test Subject (Monster Elite lvl:43) (from client spawn)-->
+	<!-- Pretor Test Subject (Monster Elite lvl:43) -->
 	<spawn map="310100000" npcid="214510" pool="4" interval="300">
 		<object x="362.56973" y="365.59854" z="1007.75037" h="32"/>
 		<object x="453.52368" y="287.74625" z="999.9059" h="34"/>
 		<object x="378.86218" y="328.31207" z="1005.016" h="63"/>
 		<object x="432.9142" y="549.10944" z="988.07513" h="1"/>
 	</spawn>
-	<!-- Pretor Test Subject (Monster Elite lvl:43) (from client spawn)-->
+	<!-- Pretor Test Subject (Monster Elite lvl:43) -->
 	<spawn map="310100000" npcid="214515" pool="2" interval="300">
 		<object x="593.05756" y="283.8896" z="1008.8055" h="67"/>
 		<object x="520.36237" y="514.0424" z="989.49316" h="38"/>
 	</spawn>
-	<!-- RM-138c (Monster Elite lvl:44) (from client spawn)-->
+	<!-- RM-138c (Monster Elite lvl:44) -->
 	<spawn map="310100000" npcid="214528" pool="10" interval="300">
 		<object x="419.4163" y="413.5811" z="990.2911" h="76"/>
 		<object x="460.39328" y="391.42844" z="991.2237" h="105"/>
@@ -205,22 +223,22 @@
 		<object x="495.84006" y="451.62994" z="1038.9758" h="85"/>
 		<object x="500.51126" y="415.01108" z="1038.9758" h="77"/>
 	</spawn>
-	<!-- RM-138c (Monster Elite lvl:44) (from client spawn)-->
+	<!-- RM-138c (Monster Elite lvl:44) -->
 	<spawn map="310100000" npcid="214527" pool="4" interval="300">
 		<object x="454.15112" y="407.9508" z="1038.9758" h="71"/>
 		<object x="458.3665" y="428.40726" z="1039.991" h="81"/>
 		<object x="425.07428" y="437.73398" z="990.29175" h="117"/>
 		<object x="449.16904" y="446.8045" z="1038.9758" h="4"/>
 	</spawn>
-	<!-- RM-13B (Named Mob Elite lvl:45) (from client spawn)-->
+	<!-- RM-13B (Named Mob Elite lvl:45) -->
 	<spawn map="310100000" npcid="214800" pool="1" interval="3600">
 		<object x="602.70514" y="461.21835" z="990.7102" h="57"/>
 	</spawn>
-	<!-- RM-56c (Named Mob Hero lvl:45) (from client spawn)-->
+	<!-- RM-56c (Named Mob Hero lvl:45) -->
 	<spawn map="310100000" npcid="214802" pool="1" interval="14400">
 		<object x="423.79382" y="395.27588" z="991.22" h="105"/>
 	</spawn>
-	<!-- Strengthened Pretor (Monster Elite lvl:43) (from client spawn)-->
+	<!-- Strengthened Pretor (Monster Elite lvl:43) -->
 	<spawn map="310100000" npcid="214512" pool="9" interval="300">
 		<object x="515.3565" y="349.9762" z="997.6778" h="77"/>
 		<object x="480.15845" y="279.15967" z="1001.06085" h="83"/>
@@ -232,7 +250,7 @@
 		<object x="462.1974" y="584.21375" z="989.86383" h="78"/>
 		<object x="379.72604" y="420.69864" z="996.69836" h="77"/>
 	</spawn>
-	<!-- Strengthened Pretor (Monster Elite lvl:43) (from client spawn)-->
+	<!-- Strengthened Pretor (Monster Elite lvl:43) -->
 	<spawn map="310100000" npcid="214513" pool="9" interval="300">
 		<object x="585.62177" y="342.75525" z="999.5877" h="87"/>
 		<object x="583.89435" y="432.07764" z="994.83575" h="69"/>
@@ -244,7 +262,7 @@
 		<object x="423.68994" y="485.89935" z="988.6885" h="44"/>
 		<object x="574.5174" y="460.6036" z="993.9178" h="98"/>
 	</spawn>
-	<!-- Tamed Kirrin (Monster Elite lvl:43) (from client spawn)-->
+	<!-- Tamed Kirrin (Monster Elite lvl:43) -->
 	<spawn map="310100000" npcid="214504" pool="7" interval="300">
 		<object x="233.15204" y="384.83713" z="1021.9467" h="95"/>
 		<object x="535.0784" y="695.2689" z="982.77826" h="76"/>
@@ -254,7 +272,7 @@
 		<object x="211.49223" y="402.50565" z="1023.69147" h="72"/>
 		<object x="586.15393" y="723.4419" z="981.3491" h="105"/>
 	</spawn>
-	<!-- Tamed Kirrin (Monster Elite lvl:43) (from client spawn)-->
+	<!-- Tamed Kirrin (Monster Elite lvl:43) -->
 	<spawn map="310100000" npcid="214505" pool="16" interval="300">
 		<object x="411.17017" y="463.25467" z="1035.9496" h="2"/>
 		<object x="608.0572" y="731.1933" z="978.901" h="99"/>
