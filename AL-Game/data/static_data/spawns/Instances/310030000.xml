@@ -13,14 +13,6 @@
 	<spawn map="310030000" npcid="700142" pool="1" interval="295">
 		<object x="261.40634" y="229.55475" z="213.92723" h="35"/>
 	</spawn>
-	<!-- Kimeia -->
-	<spawn map="310030000" npcid="204044" pool="1" interval="295">
-		<object x="269.78976" y="176.75081" z="204.34718" h="94"/>
-	</spawn>
-	<!-- Kuninasha (Monster Elite lvl:20)-->
-	<spawn map="310030000" npcid="210753" pool="1" interval="295">
-		<object x="252.39426" y="260.89926" z="227.91757" h="92"/>
-	</spawn>
 	<!-- Crusader (Monster Normal lvl:20)-->
 	<spawn map="310030000" npcid="211624" pool="9" interval="295">
 		<object x="267.6457" y="223.56506" z="211.54387" h="95"/>
