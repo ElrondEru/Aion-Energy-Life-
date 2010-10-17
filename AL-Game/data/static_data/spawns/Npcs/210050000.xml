@@ -3,14 +3,30 @@
 	Inggison 	
  -->
 <spawns>
+	<!-- Lord Skyrose -->
+	<spawn map="210050000" npcid="296488" pool="1" interval="295">
+		<object x="557.632" y="733.041" h="18" z="479.19"/>
+	</spawn>
+	<!-- Lady Pasiphae -->
+	<spawn map="210050000" npcid="296491" pool="1" interval="295">
+		<object x="635.612" y="1271.05" h="17" z="390.75"/>
+	</spawn>
+	<!-- Lady Eiros -->
+	<spawn map="210050000" npcid="296490" pool="1" interval="295">
+		<object x="1370.07" y="1677.99" h="7" z="358.853"/>
+	</spawn>
+	<!-- Lord Agios -->
+	<spawn map="210050000" npcid="296489" pool="1" interval="295">
+		<object x="1784.35" y="1353.87" h="26" z="375.508"/>
+	</spawn>
+	<!-- Trigon -->
+	<spawn map="210050000" npcid="296444" pool="1" interval="295">
+		<object x="2528.33" y="839.822" h="17" z="410.118"/>
+	</spawn>
     <!-- Ebion -->
 	<spawn map="210050000" npcid="799829" pool="1" interval="295">
 		<object x="2779.260010" y="1432.349976" z="392.000000" h="0"/>
 	</spawn>
-	<!-- Zausis -->
-	<spawn map="210050000" npcid="216630" pool="1" interval="295">
-        <object x="1527.946" y="1910.401" z="312.4817" h="57"/>
-    </spawn>
 	<!-- Eriphyle -->
 	<spawn map="210050000" npcid="799800" pool="1" interval="295">
 		<object x="1402.096680" y="319.903320" z="589.579000" h="0"/>
@@ -97,7 +113,7 @@
 	</spawn>
 	<!-- Armond -->
 	<spawn map="210050000" npcid="798956" pool="1" interval="295">
-		<object x="575.693787" y="459.315826" z="460.000000" h="0"/>
+		<object x="575.693787" y="459.315826" z="460.000000" h="115"/>
 	</spawn>
 	<!-- Bukurunerk -->
 	<spawn map="210050000" npcid="799056" pool="1" interval="295">
@@ -187,9 +203,9 @@
 	<spawn map="210050000" npcid="798947" pool="1" interval="295">
 		<object x="1358.5184" y="204.62338" z="599.5087" h="33"/>
 	</spawn>
-	<!-- Everinrinerk -->
+	<!-- Adicia -->
 	<spawn map="210050000" npcid="798988" pool="1" interval="295">
-		<object x="379.700867" y="950.056641" z="462.000000" h="0"/>
+		<object x="379.700867" y="950.056641" z="460.790000" h="0"/>
 	</spawn>
 	<!-- Rollia -->
 	<spawn map="210050000" npcid="798998" pool="1" interval="295">
@@ -213,7 +229,7 @@
 	</spawn>
 	<!-- Scopas -->
 	<spawn map="210050000" npcid="799059" pool="1" interval="295">
-		<object x="1809.035278" y="2213.448975" z="327.256378" h="0"/>
+		<object x="1809.035278" y="2213.448975" z="327.256378" h="71"/>
 	</spawn>
 	<!-- Seneca -->
 	<spawn map="210050000" npcid="798937" pool="1" interval="295">
@@ -237,7 +253,7 @@
 	</spawn>
 	<!-- Delus -->
 	<spawn map="210050000" npcid="798960" pool="1" interval="295">
-		<object x="1061.756226" y="582.337463" z="515.250000" h="0"/>
+		<object x="1061.756226" y="582.337463" z="515.250000" h="30"/>
 	</spawn>
 	<!-- Pilipides -->
 	<spawn map="210050000" npcid="798918" pool="1" interval="295">
@@ -265,7 +281,7 @@
 	</spawn>
 	<!-- Wivius -->
 	<spawn map="210050000" npcid="799010" pool="1" interval="295">
-		<object x="590.060974" y="1583.930176" z="302.000000" h="0"/>
+		<object x="590.060974" y="1583.930176" z="298.076" h="96"/>
 	</spawn>
 	<!-- Jondas -->
 	<spawn map="210050000" npcid="798905" pool="1" interval="295">
@@ -377,7 +393,7 @@
 	</spawn>
 	<!-- Stelvia -->
 	<spawn map="210050000" npcid="798957" pool="1" interval="295">
-		<object x="579.110657" y="461.960541" z="460.000000" h="0"/>
+		<object x="579.110657" y="461.960541" z="460.000000" h="85"/>
 	</spawn>
 	<!-- Tonis -->
 	<spawn map="210050000" npcid="798977" pool="1" interval="295">
@@ -425,7 +441,7 @@
 	</spawn>
 	<!-- Marica -->
 	<spawn map="210050000" npcid="798955" pool="1" interval="295">
-		<object x="580.471863" y="457.019623" z="460.000000" h="0"/>
+		<object x="580.471863" y="457.019623" z="460.000000" h="80"/>
 	</spawn>
 	<!-- Molinos -->
 	<spawn map="210050000" npcid="799826" pool="1" interval="295">
@@ -465,7 +481,7 @@
 	</spawn>
 	<!-- Issonie -->
 	<spawn map="210050000" npcid="799002" pool="1" interval="295">
-		<object x="1812.469604" y="2203.242676" z="327.106628" h="0"/>
+		<object x="1812.469604" y="2203.242676" z="327.106628" h="59"/>
 	</spawn>
 	<!-- Argote -->
 	<spawn map="210050000" npcid="799818" pool="1" interval="295">
@@ -593,7 +609,7 @@
 	</spawn>
 	<!-- Doria -->
 	<spawn map="210050000" npcid="798959" pool="1" interval="295">
-		<object x="1071.362061" y="584.055603" z="514.000000" h="0"/>
+		<object x="1071.362061" y="584.055603" z="514.000000" h="19"/>
 	</spawn>
 	<!-- Caceus -->
 	<spawn map="210050000" npcid="798938" pool="1" interval="295">
