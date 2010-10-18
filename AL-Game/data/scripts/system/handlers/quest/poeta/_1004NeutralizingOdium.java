@@ -102,7 +102,7 @@ public class _1004NeutralizingOdium extends QuestHandler
 						}
 				}
 			}
-			else if(targetId == 700030 && va. == 1 || var == 4)
+			else if(targetId == 700030 && var == 1 || var == 4)
 			{
 				switch(env.getDialogId())
 				{
