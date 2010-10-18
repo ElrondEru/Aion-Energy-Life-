@@ -26,7 +26,7 @@ import com.aionemu.gameserver.utils.PacketSendUtility;
 import com.aionemu.gameserver.utils.chathandlers.AdminCommand;
 
 /**
-* @author Mrakobes
+* @author Mrakobes, Loxo
 *
 */
 public class Heal extends AdminCommand
@@ -44,28 +44,39 @@ public class Heal extends AdminCommand
             PacketSendUtility.sendMessage(admin, "You dont have enough rights to execute this command");
             return;
         }
+		
+		String syntax = "//heal : Full HP and MP\n" +
+		"//heal dp : Full DP, must be used on a player !";
 
-      VisibleObject target = admin.getTarget();
-      if(target == null)
-      {
-         PacketSendUtility.sendMessage(admin, "No target selected");
-         return;
-      }
-      
-      if(target instanceof Creature)
-      {
-         Creature creature = (Creature) target;
-         creature.getLifeStats().increaseHp(TYPE.HP, creature.getLifeStats().getMaxHp()+1); 
-         creature.getLifeStats().increaseMp(TYPE.MP, creature.getLifeStats().getMaxMp()+1); 
+		VisibleObject target = admin.getTarget();
+		if(target == null)
+		{
+			PacketSendUtility.sendMessage(admin, "No target selected");
+			return;
+		}
+		
+		Creature creature = (Creature) target;
+		
+		if (params == null || params.length < 1)
+		{
+			if(target instanceof Creature)
+			{
+				creature.getLifeStats().increaseHp(TYPE.HP, creature.getLifeStats().getMaxHp()+1); 
+				creature.getLifeStats().increaseMp(TYPE.MP, creature.getLifeStats().getMaxMp()+1);
          
-         if(target instanceof Player)
-         {
-        	 ((Player) creature).getCommonData().setDp(creature.getGameStats().getCurrentStat(StatEnum.MAXDP));
-         }
-         
-         PacketSendUtility.sendMessage(admin, creature.getName() + " has been refreshed !");
-      }   
-      
-      
+				PacketSendUtility.sendMessage(admin, creature.getName() + " has been refreshed !");
+			}
+		}
+		else if (params[0].equals("dp") && target instanceof Player)
+		{
+			((Player) creature).getCommonData().setDp(creature.getGameStats().getCurrentStat(StatEnum.MAXDP));
+			
+			PacketSendUtility.sendMessage(admin, creature.getName() + " is now full of DP !");
+		}
+		else
+		{
+			PacketSendUtility.sendMessage(admin, syntax);
+			return;
+		}
    }
 }
