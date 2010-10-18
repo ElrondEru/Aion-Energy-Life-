@@ -145,7 +145,7 @@
 	</spawn>
 	<!-- Bellia (NPC Normal lvl:50) -->
 	<spawn map="110010000" npcid="203760" pool="1" interval="295">
-		<object x="1396.98000" y="1643.54000" z="573.97705" h="62"/>
+		<object x="1396.98000" y="1643.54000" z="573.97705" h="4"/>
 	</spawn>
 	<!-- Benes (NPC Normal lvl:40) -->
 	<spawn map="110010000" npcid="203810" pool="1" interval="295">
