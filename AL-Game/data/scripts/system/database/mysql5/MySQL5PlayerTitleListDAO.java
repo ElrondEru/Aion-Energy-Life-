@@ -108,5 +108,4 @@ public class MySQL5PlayerTitleListDAO extends PlayerTitleListDAO
 	{
 		return MySQL5DAOUtils.supports(databaseName, majorVersion, minorVersion);
 	}
-
 }

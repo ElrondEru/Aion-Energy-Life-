@@ -160,5 +160,4 @@ public class MySQL5PlayerPetsDAO extends PlayerPetsDAO
 	{
 		return MySQL5DAOUtils.supports(databaseName, majorVersion, minorVersion);
 	}
-
 }

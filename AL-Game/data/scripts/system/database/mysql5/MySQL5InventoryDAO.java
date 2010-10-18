@@ -1,5 +1,5 @@
 /*
- * This file is part of aion-unique <aionu-unique.com>.
+ * This file is part of aion-unique <aion-unique.com>.
  *
  *  aion-unique is free software: you can redistribute it and/or modify
  *  it under the terms of the GNU General Public License as published by
@@ -441,5 +441,4 @@ public class MySQL5InventoryDAO extends InventoryDAO
 	{
 		return MySQL5DAOUtils.supports(s, i, i1);
 	}
-
 }

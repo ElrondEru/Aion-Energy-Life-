@@ -156,6 +156,4 @@ public class MySQL5SiegeDAO extends SiegeDAO
 	{
 		return MySQL5DAOUtils.supports(databaseName, majorVersion, minorVersion);
 	}
-
-
 }

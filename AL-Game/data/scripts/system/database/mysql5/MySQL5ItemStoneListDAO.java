@@ -266,5 +266,4 @@ public class MySQL5ItemStoneListDAO extends ItemStoneListDAO
     {
         return MySQL5DAOUtils.supports(s, i, i1);
     }
-
 }

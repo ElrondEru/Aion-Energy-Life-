@@ -173,5 +173,4 @@ public class MySQL5PlayerQuestListDAO extends PlayerQuestListDAO
 	{
 		return MySQL5DAOUtils.supports(s, i, i1);
 	}
-
 }
