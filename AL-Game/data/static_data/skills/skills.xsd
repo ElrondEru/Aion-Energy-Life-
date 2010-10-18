@@ -846,8 +846,8 @@
 	<xs:complexType name="SpellAtkDrainInstantEffect">
 		<xs:complexContent>
 			<xs:extension base="DamageEffect">
-				<xs:attribute name="hp_percent" type="xs:int"/>
-				<xs:attribute name="mp_percent" type="xs:int"/>
+				<xs:attribute name="percent" type="xs:int"/>
+				<xs:attribute name="heal_type" type="HealType"/>
 			</xs:extension>
 		</xs:complexContent>
 	</xs:complexType>
