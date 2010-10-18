@@ -78,6 +78,9 @@ public abstract class Creature extends VisibleObject
 	
 	private AggroList aggroList;
 
+	private int			isAdminNeutral = 0;
+	private int			isAdminEnmity = 0;
+
 	/**
 	 * 
 	 * @param objId
@@ -671,5 +674,38 @@ public abstract class Creature extends VisibleObject
 	public void setZoneInstance(ZoneInstance zoneInstance)
 	{
 		this.zoneInstance = zoneInstance;
+	}
+
+	/**
+	 * @return isAdminNeutral value
+	 */
+	public int getAdminNeutral()
+	{
+		return isAdminNeutral;
+	}
+ 	
+ 	/**
+	 * @param newValue
+	 */
+	public void setAdminNeutral(int newValue)
+	{
+		isAdminNeutral = newValue;
+	}
+
+
+	/**
+	 * @return isAdminEnmity value
+	 */
+	public int getAdminEnmity()
+	{
+		return isAdminEnmity;
+	}
+ 	
+ 	/**
+	 * @param newValue
+	 */
+	public void setAdminEnmity(int newValue)
+	{
+		isAdminEnmity = newValue;
 	}
 }

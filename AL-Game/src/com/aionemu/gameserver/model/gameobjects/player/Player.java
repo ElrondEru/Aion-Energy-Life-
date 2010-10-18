@@ -129,7 +129,6 @@ public class Player extends Creature
 	private Prices 				prices;
 	private boolean				isGagged		= false;
 	private boolean				edit_mode 		= false;
- 	private boolean 			isAdminNeutral = false;
 	private Npc                 questFollowingNpc    = null;
 
 	private Map<Integer, ItemCooldown>	itemCoolDowns;
@@ -1117,8 +1116,9 @@ public class Player extends Creature
 	@Override
 	public boolean isEnemyPlayer(Player player)
 	{
-		return player.getCommonData().getRace() != getCommonData().getRace()
-			|| getController().isDueling(player);
+		return (getAdminEnmity() > 1 || player.getAdminEnmity() > 1) && player.getName() != getName() ?
+			true : player.getCommonData().getRace() != getCommonData().getRace() ||
+				getController().isDueling(player);
 	}
 	
 	/**
@@ -1172,8 +1172,8 @@ public class Player extends Creature
 		// npc's that are 10 or more levels lower don't get aggro on players
 		if(npc.getLevel() + 10 <= getLevel())
 			return false;
-		
-		return isAggroIconTo(currentTribe);
+	
+		return getAdminEnmity() == 1 || getAdminEnmity() == 3 ? true : isAggroIconTo(currentTribe);
 	}
 
 	/**
@@ -1184,6 +1184,9 @@ public class Player extends Creature
 	 */
 	public boolean isAggroIconTo(String npcTribe)
 	{
+		if(getAdminEnmity() == 1 || getAdminEnmity() == 3)
+			return true;
+
 		switch(getCommonData().getRace())
 		{
 			case ELYOS:
@@ -1310,22 +1313,6 @@ public class Player extends Creature
 		if(itemCoolDowns == null)
 			return;
 		itemCoolDowns.remove(itemMask);
-	}
-	
-	/**
-	 * @return isAdminNeutral value
-	 */
-	public boolean getAdminNeutral()
-	{
-		return isAdminNeutral;
-	}
-	
- 	/**
-	 * @param newValue
-	 */
-	public void setAdminNeutral(boolean newValue)
-	{
-		isAdminNeutral = newValue;
 	}
 
 	/**

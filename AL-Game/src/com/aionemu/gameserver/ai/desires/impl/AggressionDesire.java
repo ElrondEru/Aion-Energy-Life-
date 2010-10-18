@@ -58,16 +58,18 @@ public final class AggressionDesire extends AbstractDesire
 			{
 				final Creature creature = (Creature) visibleObject;
 				
-				if(!creature.getLifeStats().isAlreadyDead() && 
-					MathUtil.isIn3dRange(npc, creature, npc.getAggroRange()))
+				if(!creature.getLifeStats().isAlreadyDead() && MathUtil.isIn3dRange(npc, creature, npc.getAggroRange()))
 				{
-
 					if(!npc.canSee(visibleObject))
 						continue;
-					
+
 					if(!npc.isAggressiveTo(creature))
 						continue;
-					
+
+					if(creature.getAdminNeutral() == 1 || creature.getAdminNeutral() == 3 ||
+						creature.getAdminEnmity() == 1 || creature.getAdminEnmity() == 3)
+						continue;
+
 
 					npc.getAi().setAiState(AIState.NONE); // TODO: proper aggro emotion on aggro range enter
 					PacketSendUtility.broadcastPacket(npc, new SM_ATTACK(npc, creature, 0,

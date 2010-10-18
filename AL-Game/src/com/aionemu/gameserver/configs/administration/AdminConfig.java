@@ -81,6 +81,9 @@ public class AdminConfig
 	@Property(key = "gameserver.administration.command.dye", defaultValue = "3")
 	public static int	COMMAND_DYE;
 
+	@Property(key = "gameserver.administration.command.enemy", defaultValue = "3")
+	public static int	COMMAND_ENEMY;
+
 	@Property(key = "gameserver.administration.command.gag", defaultValue = "3")
 	public static int	COMMAND_GAG;
 

@@ -40,7 +40,7 @@ public class SM_PLAYER_INFO extends AionServerPacket
 	 * Visible player
 	 */
 	private final Player	player;
-	private boolean			enemy;
+	private boolean		enemy;
 
 	/**
 	 * Constructs new <tt>SM_PLAYER_INFO </tt> packet
@@ -63,9 +63,18 @@ public class SM_PLAYER_INFO extends AionServerPacket
 	{
 		PlayerCommonData pcd = player.getCommonData();
 		
-		final int raceId = (player.getAdminNeutral() || con.getActivePlayer().getAdminNeutral() ?
-			con.getActivePlayer().getCommonData().getRace().getRaceId() :
-			pcd.getRace().getRaceId());
+		final int raceId;
+
+		if(player.getAdminNeutral() > 1 || con.getActivePlayer().getAdminNeutral() > 1)
+			raceId = con.getActivePlayer().getCommonData().getRace().getRaceId();
+
+		else if((player.getAdminEnmity() > 1 || con.getActivePlayer().getAdminEnmity() > 1) &&
+			con.getActivePlayer().getName() != player.getName() && con.getActivePlayer().isFriend(player))
+			raceId = (con.getActivePlayer().getCommonData().getRace().getRaceId() == 0 ? 1 : 0);
+
+		else 
+			raceId = pcd.getRace().getRaceId();
+
 		final int genderId = pcd.getGender().getGenderId();
 		final PlayerAppearance playerAppearance = player.getPlayerAppearance();
 
@@ -82,7 +91,7 @@ public class SM_PLAYER_INFO extends AionServerPacket
 		 */
 		writeD(buf, player.getTransformedModelId() == 0 ? pcd.getTemplateId() : player.getTransformedModelId());
 		
-    writeC(buf, 0x00); // new 2.0 Packet --- probably pet info?
+		writeC(buf, 0x00); // new 2.0 Packet --- probably pet info?
 		writeC(buf, enemy ? 0x00 : 0x26);
 
 		writeC(buf, raceId); // race

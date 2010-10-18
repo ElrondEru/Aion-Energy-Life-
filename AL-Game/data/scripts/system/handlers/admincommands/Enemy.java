@@ -1,18 +1,18 @@
 /*
- * This file is part of aion-unique <aion-unique.org>.
+ * This file is part of aion-lightning <aion-lightning.org>.
  *
- *  aion-unique is free software: you can redistribute it and/or modify
+ *  aion-lightning is free software: you can redistribute it and/or modify
  *  it under the terms of the GNU General Public License as published by
  *  the Free Software Foundation, either version 3 of the License, or
  *  (at your option) any later version.
  *
- *  aion-unique is distributed in the hope that it will be useful,
+ *  aion-lightning is distributed in the hope that it will be useful,
  *  but WITHOUT ANY WARRANTY; without even the implied warranty of
- *  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ *  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
  *  GNU General Public License for more details.
  *
  *  You should have received a copy of the GNU General Public License
- *  along with aion-unique.  If not, see <http://www.gnu.org/licenses/>.
+ *  along with aion-lightning. If not, see <http://www.gnu.org/licenses/>.
  */
 package admincommands;
 
@@ -23,36 +23,36 @@ import com.aionemu.gameserver.utils.PacketSendUtility;
 import com.aionemu.gameserver.utils.chathandlers.AdminCommand;
 
 /**
- * @author Sarynth, (edited by Pan)
+ * @author Pan
  *
  */
-public class Neutral extends AdminCommand
+public class Enemy extends AdminCommand
 {
 
 	/**
-	 * Make yourself appear neutral to both factions and/or npcs
+	 * Make yourself appear as enemy to both factions and/or npcs
 	 */
-	public Neutral()
+	public Enemy()
 	{
-		super("neutral");
+		super("enemy");
 	}
 
 	@Override
 	public void executeCommand(Player admin, String[] params)
 	{
-		if(admin.getAccessLevel() < AdminConfig.COMMAND_NEUTRAL)
+		if(admin.getAccessLevel() < AdminConfig.COMMAND_ENEMY)
 		{
 			PacketSendUtility.sendMessage(admin, "You dont have enough rights to execute this command");
 			return;
 		}
+		
+		String syntax = "Syntax: //enemy < players | npcs | all | cancel >\n" +
+		"If you're unsure about what you want to do, type //enemy help";
 
-		String syntax = "Syntax: //neutral < players | npcs | all | cancel >\n" +
-		"If you're unsure about what you want to do, type //neutral help";
-
-		String help = "Syntax: //neutral < players | npcs | all | cancel >\n" +
-		"Players - You're neutral to Players of both factions.\n" +
-		"Npcs - You're neutral to all Npcs and Monsters.\n" +
-		"All - You're neutral to Players of both factions and all Npcs.\n" +
+		String help = "Syntax: //enemy < players | npcs | all | cancel >\n" +
+		"Players - You're enemy to Players of both factions.\n" +
+		"Npcs - You're enemy to all Npcs and Monsters.\n" +
+		"All - You're enemy to Players of both factions and all Npcs.\n" +
 		"Cancel - Cancel all. Players and Npcs have default enmity to you.";
 
 		if(params.length != 1)
@@ -61,34 +61,34 @@ public class Neutral extends AdminCommand
 			return;
 		}
 
-		String output = "You now appear neutral to " + params[0] + ".";
+		String output = "You now appear as enemy to " + params[0] + ".";
 
-		int enemyType = admin.getAdminEnmity();
+		int neutralType = admin.getAdminNeutral();
 
 
 		if(params[0].equals("all"))
 		{
-			admin.setAdminNeutral(3);
-			admin.setAdminEnmity(0);
+			admin.setAdminEnmity(3);
+			admin.setAdminNeutral(0);
 		}
 		
 		else if(params[0].equals("players"))
 		{
-			admin.setAdminNeutral(2);
-			if(enemyType > 1)
-				admin.setAdminEnmity(0);
+			admin.setAdminEnmity(2);
+			if(neutralType > 1)
+				admin.setAdminNeutral(0);
 		}
 
 		else if(params[0].equals("npcs"))
 		{
-			admin.setAdminNeutral(1);
-			if(enemyType == 1 || enemyType == 3)
-				admin.setAdminEnmity(0);
+			admin.setAdminEnmity(1);
+			if(neutralType == 1 || neutralType == 3)
+				admin.setAdminNeutral(0);
 		}
 
 		else if(params[0].equals("cancel"))
 		{
-			admin.setAdminNeutral(0);
+			admin.setAdminEnmity(0);
 			output = "You appear regular to both Players and Npcs.";
 		}
 
