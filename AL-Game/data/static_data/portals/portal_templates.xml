@@ -387,18 +387,13 @@
 		<entrypoint mapid="210030000" x="2684.308" y="1068.7382" z="199.375"/>
 		<exitpoint mapid="310030000" x="270.5" y="174.3" z="204.3"/>
 	</portal>
-	<!-- Abyss Gate Aerdina To Verteron [Sealing The Abyss Gate Quest] Elyos -->
-	<portal npcid="730041" minlevel="10" maxlevel="55" group="false">
-		<entrypoint mapid="310030000" x="270.5" y="174.3" z="204.3"/>
-		<exitpoint mapid="210030000" x="2684.308" y="1068.7382" z="199.375"/>
-	</portal>
 	<!-- Abyss Gate Altgard To Bregirun [Sealing The Abyss Gate Quest] Asmodians -->
-	<portal npcid="700143" instance="true" minlevel="15" maxlevel="55" group="false">
+	<portal npcid="700140" instance="true" minlevel="15" maxlevel="55" group="false">
 		<entrypoint mapid="220030000" x="2452.0867" y="2547.304" z="317.40292"/>
 		<exitpoint mapid="320030000" x="273.08926" y="174.22618" z="204.34718"/>
 	</portal>
 	<!-- Abyss Gate Bregirun To Altgard [Sealing The Abyss Gate Quest] Asmodians -->
-	<portal npcid="700140" minlevel="10" maxlevel="55" group="false">
+	<portal npcid="700143" minlevel="10" maxlevel="55" group="false">
 		<entrypoint mapid="320030000" x="273.08926" y="174.22618" z="204.34718"/>
 		<exitpoint mapid="220030000" x="2452.0867" y="2547.304" z="317.40292"/>
 	</portal>

@@ -19,10 +19,12 @@ package quest.verteron;
 import com.aionemu.gameserver.model.gameobjects.Npc;
 import com.aionemu.gameserver.model.gameobjects.player.Player;
 import com.aionemu.gameserver.network.aion.serverpackets.SM_DIALOG_WINDOW;
+import com.aionemu.gameserver.network.aion.serverpackets.SM_PLAY_MOVIE;
 import com.aionemu.gameserver.questEngine.handlers.QuestHandler;
 import com.aionemu.gameserver.questEngine.model.QuestEnv;
 import com.aionemu.gameserver.questEngine.model.QuestState;
 import com.aionemu.gameserver.questEngine.model.QuestStatus;
+import com.aionemu.gameserver.services.ItemService;
 import com.aionemu.gameserver.services.QuestService;
 import com.aionemu.gameserver.utils.PacketSendUtility;
 import com.aionemu.gameserver.world.zone.ZoneName;
@@ -102,6 +104,9 @@ public class _1023ANestofLepharists extends QuestHandler
 					case 25:
 						if(var == 1)
 							return sendQuestDialog(player, env.getVisibleObject().getObjectId(), 1011);
+					case 1012:
+						PacketSendUtility.sendPacket(player, new SM_PLAY_MOVIE(0, 30));
+						return sendQuestDialog(player, env.getVisibleObject().getObjectId(), 1012);
 					case 10000:
 						if(var == 1 || var == 1)
 						{
@@ -133,7 +138,8 @@ public class _1023ANestofLepharists extends QuestHandler
 								}
 								else
 								{
-									player.getInventory().removeFromBagByItemId(182200010, itemCount);
+									PacketSendUtility.sendPacket(player, new SM_PLAY_MOVIE(0, 23));
+									player.getInventory().removeFromBagByItemId(182200010, 1);
 									qs.setQuestVarById(0, var + 1);
 									qs.setStatus(QuestStatus.REWARD);
 									updateQuestStatus(player, qs);

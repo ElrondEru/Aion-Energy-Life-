@@ -104,6 +104,14 @@ public class _2022CrushingtheConspiracy extends QuestHandler
 						PacketSendUtility.sendPacket(player, new SM_DIALOG_WINDOW(env.getVisibleObject().getObjectId(), 10));
 						return true;
 					}
+					else if (qs.getQuestVarById(0) >= 1)
+					{
+						qs.setQuestVarById(0, qs.getQuestVarById(0) + 0);
+						updateQuestStatus(player, qs);
+						TeleportService.teleportTo(player, 320030000, 275.68f, 164.03f, 205.19f, 34);
+						PacketSendUtility.sendPacket(player, new SM_DIALOG_WINDOW(env.getVisibleObject().getObjectId(), 10));
+						return true;
+					}
 				}
 				break;
 				case 700142:

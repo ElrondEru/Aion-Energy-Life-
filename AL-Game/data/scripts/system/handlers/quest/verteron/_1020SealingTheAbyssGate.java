@@ -123,7 +123,7 @@ public class _1020SealingTheAbyssGate extends QuestHandler
 						return false;
 				}
 			case 700141:
-				if(var == 1 && player.getPlayerGroup() != null)
+				if( var == 1 )
 				{
 					final int targetObjectId = env.getVisibleObject().getObjectId();
 					PacketSendUtility.broadcastPacket(player, new SM_EMOTION(player, EmotionType.NEUTRALMODE2, 0, targetObjectId), true);

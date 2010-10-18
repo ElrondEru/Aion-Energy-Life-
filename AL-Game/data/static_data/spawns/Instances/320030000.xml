@@ -20,24 +20,16 @@
 -->
 <spawns>
 	<!-- Abyss Gate (Object Normal lvl:1) -->
-	<spawn map="320030000" npcid="700140" pool="1" interval="295">
+	<spawn map="320030000" npcid="700143" pool="1" interval="295">
 		<object x="276.05295" y="162.95338" z="205.29982" h="94"/>
 	</spawn>
 	<!-- Fissure Of Destiny (Object Normal lvl:1) -->
-	<spawn map="320030000" npcid="700551" pool="1" interval="295">
+	<spawn map="320030000" npcid="700141" pool="1" interval="295">
 		<object x="250.74298" y="272.19238" z="230.46043" h="91"/>
 	</spawn>
 	<!-- Abyss Gate Guardian Stone (Object Normal lvl:1) -->
 	<spawn map="320030000" npcid="700142" pool="1" interval="295">
 		<object x="261.40634" y="229.55475" z="213.92723" h="35"/>
-	</spawn>
-	<!-- Kargate -->
-	<spawn map="320030000" npcid="204432" pool="1" interval="295">
-		<object x="272.82886" y="176.81439" z="204.34718" h="0"/>
-	</spawn>
-	<!-- Kuninasha (Monster Elite lvl:20) --> 
-	<spawn map="320030000" npcid="210753" pool="1" interval="295">
-		<object x="252.49611" y="261.06528" z="227.954" h="91"/>
 	</spawn>
 	<!-- Crusader (Monster Normal lvl:20) -->
 	<spawn map="320030000" npcid="211624" pool="9" interval="295">
