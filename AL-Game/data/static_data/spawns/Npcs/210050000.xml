@@ -41,23 +41,23 @@
 	</spawn>
     <!-- Ebion -->
 	<spawn map="210050000" npcid="799829" pool="1" interval="295">
-		<object x="2779.260010" y="1432.349976" z="392.000000" h="0"/>
+		<object x="2779.260010" y="1432.349976" z="392.000000" h="37"/>
 	</spawn>
 	<!-- Eriphyle -->
 	<spawn map="210050000" npcid="799800" pool="1" interval="295">
-		<object x="1402.096680" y="319.903320" z="589.579000" h="0"/>
+		<object x="1402.096680" y="319.903320" z="589.579000" h="37"/>
 	</spawn>
 	<!-- Cintus -->
 	<spawn map="210050000" npcid="798944" pool="1" interval="295">
-		<object x="1380.126343" y="378.072510" z="558.996704" h="0"/>
+		<object x="1380.126343" y="378.072510" z="558.996704" h="67"/>
 	</spawn>
 	<!-- Lesarius -->
 	<spawn map="210050000" npcid="799827" pool="1" interval="295">
-		<object x="1314.851196" y="323.446106" z="590.000000" h="0"/>
+		<object x="1314.851196" y="323.446106" z="590.000000" h="110"/>
 	</spawn>
 	<!-- Gefeios -->
 	<spawn map="210050000" npcid="799032" pool="1" interval="295">
-		<object x="2743.770020" y="1496.066406" z="384.920319" h="0"/>
+		<object x="2743.770020" y="1496.066406" z="384.920319" h="78"/>
 	</spawn>
 	<!-- Borriello  -->
 	<spawn map="210050000" npcid="798907" pool="1" interval="295">
@@ -65,15 +65,15 @@
 	</spawn>
 	<!-- Limping Daeva -->
 	<spawn map="210050000" npcid="799072" pool="1" interval="295">
-		<object x="1279.630981" y="382.745575" z="549.000000" h="0"/>
+		<object x="1279.630981" y="382.745575" z="549.000000" h="107"/>
 	</spawn>
 	<!-- Cinisca -->
 	<spawn map="210050000" npcid="798963" pool="1" interval="295">
-		<object x="2751.991699" y="1479.508301" z="386.000000" h="0"/>
+		<object x="2751.991699" y="1479.508301" z="386.000000" h="67"/>
 	</spawn>
 	<!-- Roukianos -->
 	<spawn map="210050000" npcid="799821" pool="1" interval="295">
-		<object x="2705.035889" y="1414.442871" z="372.000000" h="0"/>
+		<object x="2705.035889" y="1414.442871" z="372.000000" h="53"/>
 	</spawn>
 	<!-- Tramis -->
 	<spawn map="210050000" npcid="799070" pool="1" interval="295">
@@ -81,23 +81,23 @@
 	</spawn>
 	<!-- Geta -->
 	<spawn map="210050000" npcid="798976" pool="1" interval="295">
-		<object x="2707.799805" y="1398.680176" z="372.000000" h="0"/>
+		<object x="2707.799805" y="1398.680176" z="372.000000" h="25"/>
 	</spawn>
 	<!-- Zaniah -->
 	<spawn map="210050000" npcid="799077" pool="1" interval="295">
-		<object x="1781.229126" y="1744.653076" z="286.000000" h="0"/>
+		<object x="1781.229126" y="1744.653076" z="286.000000" h="67"/>
 	</spawn>
 	<!-- Donatus -->
 	<spawn map="210050000" npcid="799833" pool="1" interval="295">
-		<object x="2709.416504" y="1444.215576" z="386.000000" h="0"/>
+		<object x="2709.416504" y="1444.215576" z="386.000000" h="87"/>
 	</spawn>
 	<!-- Nydrea -->
 	<spawn map="210050000" npcid="799053" pool="1" interval="295">
-		<object x="1273.170313" y="204.542030" z="595.813432" h="0"/>
+		<object x="1273.170313" y="204.542030" z="595.813432" h="17"/>
 	</spawn>
 	<!-- Gelon -->
 	<spawn map="210050000" npcid="798979" pool="1" interval="295">
-		<object x="2764.8738" y="1444.9421" z="384.70273" h="0"/>
+		<object x="2764.8738" y="1444.9421" z="384.70273" h="60"/>
 	</spawn>
 	<!-- Enoitia -->
 	<spawn map="210050000" npcid="798993" pool="1" interval="295">
@@ -105,7 +105,7 @@
 	</spawn>
 	<!-- Cadir -->
 	<spawn map="210050000" npcid="799819" pool="1" interval="295">
-		<object x="2703.845459" y="1411.525879" z="372.000000" h="0"/>
+		<object x="2703.845459" y="1411.525879" z="372.000000" h="60"/>
 	</spawn>
 	<!-- Apelles -->
 	<spawn map="210050000" npcid="798920" pool="1" interval="295">
@@ -125,7 +125,7 @@
 	</spawn>
 	<!-- Squeep -->
 	<spawn map="210050000" npcid="799037" pool="1" interval="295">
-		<object x="225.012405" y="277.936218" z="586.000000" h="0"/>
+		<object x="225.012405" y="277.936218" z="586.000000" h="100"/>
 	</spawn>
 	<!-- Armond -->
 	<spawn map="210050000" npcid="798956" pool="1" interval="295">
@@ -141,7 +141,7 @@
 	</spawn>
 	<!-- Parilae -->
 	<spawn map="210050000" npcid="799804" pool="1" interval="295">
-		<object x="2703.493164" y="1408.555298" z="372.000000" h="0"/>
+		<object x="2703.493164" y="1408.555298" z="372.000000" h="67"/>
 	</spawn>
 	<!-- Rima -->
 	<spawn map="210050000" npcid="799837" pool="1" interval="295">
@@ -161,11 +161,11 @@
 	</spawn>
 	<!-- Marcion -->
 	<spawn map="210050000" npcid="799832" pool="1" interval="295">
-		<object x="2702.830322" y="1443.256226" z="386.000000" h="0"/>
+		<object x="2702.830322" y="1443.256226" z="386.000000" h="90"/>
 	</spawn>
 	<!-- Harknes -->
 	<spawn map="210050000" npcid="798942" pool="1" interval="295">
-		<object x="1357.193726" y="380.832916" z="558.996704" h="0"/>
+		<object x="1357.193726" y="380.832916" z="558.996704" h="60"/>
 	</spawn>
 	<!-- Jienia -->
 	<spawn map="210050000" npcid="799067" pool="1" interval="295">
@@ -173,7 +173,7 @@
 	</spawn>
 	<!-- Arissa -->
 	<spawn map="210050000" npcid="799841" pool="1" interval="295">
-		<object x="2706.768555" y="1442.683472" z="386.000000" h="0"/>
+		<object x="2706.768555" y="1442.683472" z="386.000000" h="97"/>
 	</spawn>
 	<!-- Versetti -->
 	<spawn map="210050000" npcid="798927" pool="1" interval="295">
@@ -181,7 +181,7 @@
 	</spawn>
 	<!-- Favonius -->
 	<spawn map="210050000" npcid="799802" pool="1" interval="295">
-		<object x="1403.232056" y="321.582062" z="589.579000" h="0"/>
+		<object x="1403.232056" y="321.582062" z="589.579000" h="110"/>
 	</spawn>
 	<!-- Kipos -->
 	<spawn map="210050000" npcid="799068" pool="1" interval="295">
@@ -197,23 +197,23 @@
 	</spawn>
 	<!-- Marcellinus -->
 	<spawn map="210050000" npcid="799823" pool="1" interval="295">
-		<object x="1366.676880" y="380.790314" z="558.000000" h="0"/>
+		<object x="1366.676880" y="380.790314" z="558.000000" h="83"/>
 	</spawn>
 	<!-- Lania -->
 	<spawn map="210050000" npcid="798954" pool="1" interval="295">
-		<object x="2652.170654" y="345.094208" z="512.000000" h="0"/>
+		<object x="2652.170654" y="345.094208" z="512.000000" h="3"/>
 	</spawn>
 	<!-- Fabius -->
 	<spawn map="210050000" npcid="798964" pool="1" interval="295">
-		<object x="2740.004883" y="1484.085938" z="386.000000" h="0"/>
+		<object x="2740.004883" y="1484.085938" z="386.000000" h="87"/>
 	</spawn>
 	<!-- Tersichore -->
 	<spawn map="210050000" npcid="799801" pool="1" interval="295">
-		<object x="2702.770020" y="1404.939941" z="372.000000" h="0"/>
+		<object x="2702.770020" y="1404.939941" z="372.000000" h="57"/>
 	</spawn>
 	<!-- Squamp -->
 	<spawn map="210050000" npcid="799036" pool="1" interval="295">
-		<object x="223.668167" y="277.914124" z="586.000000" h="0"/>
+		<object x="223.668167" y="277.914124" z="586.000000" h="77"/>
 	</spawn>
 	<!-- Zenobia -->
 	<spawn map="210050000" npcid="798947" pool="1" interval="295">
@@ -221,11 +221,11 @@
 	</spawn>
 	<!-- Adicia -->
 	<spawn map="210050000" npcid="798988" pool="1" interval="295">
-		<object x="379.700867" y="950.056641" z="460.790000" h="0"/>
+		<object x="379.700867" y="950.056641" z="460.790000" h="117"/>
 	</spawn>
 	<!-- Rollia -->
 	<spawn map="210050000" npcid="798998" pool="1" interval="295">
-		<object x="1073.448853" y="1605.530273" z="408.000000" h="0"/>
+		<object x="1073.448853" y="1605.530273" z="408.000000" h="87"/>
 	</spawn>
 	<!-- Pucio -->
 	<spawn map="210050000" npcid="798931" pool="1" interval="295">
@@ -233,7 +233,7 @@
 	</spawn>
 	<!-- Adias -->
 	<spawn map="210050000" npcid="798953" pool="1" interval="295">
-		<object x="2654.228271" y="345.529663" z="512.000000" h="0"/>
+		<object x="2654.228271" y="345.529663" z="512.000000" h="63"/>
 	</spawn>
 	<!-- Reemul -->
 	<spawn map="210050000" npcid="798909" pool="1" interval="295">
@@ -241,7 +241,7 @@
 	</spawn>
 	<!-- Levilus -->
 	<spawn map="210050000" npcid="798965" pool="1" interval="295">
-		<object x="2750.030762" y="1428.256348" z="386.000000" h="0"/>
+		<object x="2750.030762" y="1428.256348" z="386.000000" h="47"/>
 	</spawn>
 	<!-- Scopas -->
 	<spawn map="210050000" npcid="799059" pool="1" interval="295">
@@ -257,7 +257,7 @@
 	</spawn>
 	<!-- Oconerk -->
 	<spawn map="210050000" npcid="798948" pool="1" interval="295">
-		<object x="2746.226318" y="1425.105469" z="385.482605" h="0"/>
+		<object x="2746.226318" y="1425.105469" z="385.482605" h="33"/>
 	</spawn>
 	<!-- Lothas -->
 	<spawn map="210050000" npcid="799022" pool="1" interval="295">
@@ -281,7 +281,7 @@
 	</spawn>
 	<!-- Socinus -->
 	<spawn map="210050000" npcid="799838" pool="1" interval="295">
-		<object x="2702.664063" y="1436.818726" z="386.000000" h="0"/>
+		<object x="2702.664063" y="1436.818726" z="386.000000" h="113"/>
 	</spawn>
 	<!-- Corocota -->
 	<spawn map="210050000" npcid="798989" pool="1" interval="295">
@@ -289,7 +289,7 @@
 	</spawn>
 	<!-- Meletos -->
 	<spawn map="210050000" npcid="799825" pool="1" interval="295">
-		<object x="1313.570190" y="321.652802" z="590.000000" h="0"/>
+		<object x="1313.570190" y="321.652802" z="590.000000" h="107"/>
 	</spawn>
 	<!-- Steropes -->
 	<spawn map="210050000" npcid="799052" pool="1" interval="295">
@@ -305,15 +305,15 @@
 	</spawn>
 	<!-- Sulla -->
 	<spawn map="210050000" npcid="798975" pool="1" interval="295">
-		<object x="2699.491699" y="1397.742554" z="372.000000" h="0"/>
+		<object x="2699.491699" y="1397.742554" z="372.000000" h="37"/>
 	</spawn>
 	<!-- Concussed Daeva -->
 	<spawn map="210050000" npcid="799073" pool="1" interval="295">
-		<object x="1413.270142" y="225.095963" z="549.459839" h="0"/>
+		<object x="1413.270142" y="225.095963" z="549.459839" h="110"/>
 	</spawn>
 	<!-- Donikia -->
 	<spawn map="210050000" npcid="799020" pool="1" interval="295">
-		<object x="2369.519287" y="2053.514893" z="252.000000" h="0"/>
+		<object x="2369.519287" y="2053.514893" z="252.000000" h="97"/>
 	</spawn>
 	<!-- Yulia -->
 	<spawn map="210050000" npcid="798928" pool="1" interval="295">
@@ -345,11 +345,11 @@
 	</spawn>
 	<!-- Phryne -->
 	<spawn map="210050000" npcid="798936" pool="1" interval="295">
-		<object x="1264.901367" y="281.440430" z="601.000000" h="0"/>
+		<object x="1264.901367" y="281.440430" z="601.000000" h="2"/>
 	</spawn>
 	<!-- Backache Daeva -->
 	<spawn map="210050000" npcid="799074" pool="1" interval="295">
-		<object x="1442.938232" y="268.833344" z="549.337585" h="0"/>
+		<object x="1442.938232" y="268.833344" z="549.337585" h="110"/>
 	</spawn>
 	<!--Brontes -->
 	<spawn map="210050000" npcid="799028" pool="1" interval="295">
@@ -357,15 +357,15 @@
 	</spawn>
 	<!-- Radzen -->
 	<spawn map="210050000" npcid="799839" pool="1" interval="295">
-		<object x="1366.735596" y="373.672729" z="558.000000" h="0"/>
+		<object x="1366.735596" y="373.672729" z="558.000000" h="13"/>
 	</spawn>
 	<!-- Atalos -->
 	<spawn map="210050000" npcid="798972" pool="1" interval="295">
-		<object x="2645.014404" y="1408.623047" z="346.000000" h="0"/>
+		<object x="2645.014404" y="1408.623047" z="346.000000" h="73"/>
 	</spawn>
 	<!-- Rhonna -->
 	<spawn map="210050000" npcid="799816" pool="1" interval="295">
-		<object x="1399.593628" y="316.420288" z="589.779000" h="0"/>
+		<object x="1399.593628" y="316.420288" z="589.779000" h="93"/>
 	</spawn>
 	<!-- Siaqua -->
 	<spawn map="210050000" npcid="799015" pool="1" interval="295">
@@ -381,7 +381,7 @@
 	</spawn>
 	<!-- Maisa -->
 	<spawn map="210050000" npcid="798973" pool="1" interval="295">
-		<object x="2628.889648" y="1418.230713" z="346.000000" h="0"/>
+		<object x="2628.889648" y="1418.230713" z="346.000000" h="83"/>
 	</spawn>
 	<!-- Paulina -->
 	<spawn map="210050000" npcid="798925" pool="1" interval="295">
@@ -413,19 +413,19 @@
 	</spawn>
 	<!-- Tonis -->
 	<spawn map="210050000" npcid="798977" pool="1" interval="295">
-		<object x="2707.085693" y="1430.608154" z="386.000000" h="0"/>
+		<object x="2707.085693" y="1430.608154" z="386.000000" h="70"/>
 	</spawn>
 	<!-- Otus -->
 	<spawn map="210050000" npcid="799066" pool="1" interval="295">
-		<object x="2798.519775" y="1449.102173" z="395.193237" h="0"/>
+		<object x="2798.519775" y="1449.102173" z="395.193237" h="60"/>
 	</spawn>
 	<!-- Chloris -->
 	<spawn map="210050000" npcid="799824" pool="1" interval="295">
-		<object x="1369.685547" y="380.597748" z="558.000000" h="0"/>
+		<object x="1369.685547" y="380.597748" z="558.000000" h="87"/>
 	</spawn>
 	<!-- Juris Po -->
 	<spawn map="210050000" npcid="799840" pool="1" interval="295">
-		<object x="1368.970947" y="369.883972" z="558.000000" h="0"/>
+		<object x="1368.970947" y="369.883972" z="558.000000" h="10"/>
 	</spawn>
 	<!-- Laokon -->
 	<spawn map="210050000" npcid="799025" pool="1" interval="295">
@@ -433,7 +433,7 @@
 	</spawn>
 	<!-- Totus -->
 	<spawn map="210050000" npcid="799008" pool="1" interval="295">
-		<object x="723.12036" y="1511.3799" z="362.2737" h="1"/>
+		<object x="723.12036" y="1511.3799" z="362.2737" h="73"/>
 	</spawn>
 	<!-- Auralia -->
 	<spawn map="210050000" npcid="798999" pool="1" interval="295">
@@ -453,7 +453,7 @@
 	</spawn>
 	<!-- Naiting -->
 	<spawn map="210050000" npcid="799071" pool="1" interval="295">
-		<object x="1270.093018" y="349.461884" z="550.000000" h="0"/>
+		<object x="1270.093018" y="349.461884" z="550.000000" h="33"/>
 	</spawn>
 	<!-- Marica -->
 	<spawn map="210050000" npcid="798955" pool="1" interval="295">
@@ -461,7 +461,7 @@
 	</spawn>
 	<!-- Molinos -->
 	<spawn map="210050000" npcid="799826" pool="1" interval="295">
-		<object x="2781.270020" y="1433.150024" z="392.000000" h="0"/>
+		<object x="2781.270020" y="1433.150024" z="392.000000" h="33"/>
 	</spawn>
 	<!-- Steurios -->
 	<spawn map="210050000" npcid="799031" pool="1" interval="295">
@@ -473,7 +473,7 @@
 	</spawn>
 	<!-- Cretos -->
 	<spawn map="210050000" npcid="799080" pool="1" interval="295">
-		<object x="1780.393921" y="1754.560425" z="286.000000" h="0"/>
+		<object x="1780.393921" y="1754.560425" z="286.000000" h="87"/>
 	</spawn>
 	<!-- Thrax -->
 	<spawn map="210050000" npcid="798974" pool="1" interval="295">
@@ -489,11 +489,11 @@
 	</spawn>
 	<!-- Squip -->
 	<spawn map="210050000" npcid="799035" pool="1" interval="295">
-		<object x="593.920715" y="424.064850" z="460.000000" h="0"/>
+		<object x="593.920715" y="424.064850" z="460.000000" h="53"/>
 	</spawn>
 	<!-- Seikin -->
 	<spawn map="210050000" npcid="798985" pool="1" interval="295">
-		<object x="1867.217529" y="1041.397217" z="395.000000" h="0"/>
+		<object x="1867.217529" y="1041.397217" z="395.000000" h="53"/>
 	</spawn>
 	<!-- Issonie -->
 	<spawn map="210050000" npcid="799002" pool="1" interval="295">
@@ -501,19 +501,19 @@
 	</spawn>
 	<!-- Argote -->
 	<spawn map="210050000" npcid="799818" pool="1" interval="295">
-		<object x="1400.681152" y="327.624115" z="589.579000" h="0"/>
+		<object x="1400.681152" y="327.624115" z="589.579000" h="20"/>
 	</spawn>
 	<!-- Licinius -->
 	<spawn map="210050000" npcid="799822" pool="1" interval="295">
-		<object x="1363.711182" y="375.155212" z="558.000000" h="0"/>
+		<object x="1363.711182" y="375.155212" z="558.000000" h="20"/>
 	</spawn>
 	<!-- Comus -->
 	<spawn map="210050000" npcid="799817" pool="1" interval="295">
-		<object x="1402.372437" y="326.633118" z="589.579000" h="0"/>
+		<object x="1402.372437" y="326.633118" z="589.579000" h="13"/>
 	</spawn>
 	<!-- Mitilene -->
 	<spawn map="210050000" npcid="799083" pool="1" interval="295">
-		<object x="2748.922119" y="1482.770386" z="386.000000" h="0"/>
+		<object x="2748.922119" y="1482.770386" z="386.000000" h="73"/>
 	</spawn>
 	<!-- Moras -->
 	<spawn map="210050000" npcid="799018" pool="1" interval="295">
@@ -529,7 +529,7 @@
 	</spawn>
 	<!-- Pomponia -->
 	<spawn map="210050000" npcid="798986" pool="1" interval="295">
-		<object x="1869.085449" y="1042.568970" z="395.004089" h="0"/>
+		<object x="1869.085449" y="1042.568970" z="395.004089" h="57"/>
 	</spawn>
 	<!-- Titus -->
 	<spawn map="210050000" npcid="798990" pool="1" interval="295">
@@ -541,11 +541,11 @@
 	</spawn>
 	<!-- Dolabella -->
 	<spawn map="210050000" npcid="798961" pool="1" interval="295">
-		<object x="2716.813721" y="1481.226685" z="384.000000" h="0"/>
+		<object x="2716.813721" y="1481.226685" z="384.000000" h="83"/>
 	</spawn>
 	<!-- Warden Angasa -->
 	<spawn map="210050000" npcid="216498" pool="1" interval="295">
-		<object x="2368.442139" y="2035.825928" z="252.000000" h="0"/>
+		<object x="2368.442139" y="2035.825928" z="252.000000" h="87"/>
 	</spawn>
 	<!-- Pilomenes  -->
 	<spawn map="210050000" npcid="798941" pool="1" interval="295">
@@ -561,7 +561,7 @@
 	</spawn>
 	<!-- Eutyches -->
 	<spawn map="210050000" npcid="799834" pool="1" interval="295">
-		<object x="2703.139160" y="1439.293213" z="386.000000" h="0"/>
+		<object x="2703.139160" y="1439.293213" z="386.000000" h="117"/>
 	</spawn>
 	<!-- Hodirunerk -->
 	<spawn map="210050000" npcid="798913" pool="1" interval="295">
@@ -569,7 +569,7 @@
 	</spawn>
 	<!-- Nonnos -->
 	<spawn map="210050000" npcid="798943" pool="1" interval="295">
-		<object x="1377.726807" y="381.166962" z="558.996704" h="0"/>
+		<object x="1377.726807" y="381.166962" z="558.996704" h="80"/>
 	</spawn>
 	<!-- Ambred -->
 	<spawn map="210050000" npcid="798951" pool="1" interval="295">
@@ -597,7 +597,7 @@
 	</spawn>
 	<!-- Crosia	-->
 	<spawn map="210050000" npcid="798952" pool="1" interval="295">
-		<object x="2647.624512" y="331.368347" z="512.000000" h="0"/>
+		<object x="2647.624512" y="331.368347" z="512.000000" h="3"/>
 	</spawn>
 	<!-- Campaspe -->
 	<spawn map="210050000" npcid="798921" pool="1" interval="295">
@@ -605,11 +605,11 @@
 	</spawn>
 	<!-- Warokin -->
 	<spawn map="210050000" npcid="799051" pool="1" interval="295">
-		<object x="1869.025024" y="1044.787476" z="395.004089" h="0"/>
+		<object x="1869.025024" y="1044.787476" z="395.004089" h="70"/>
 	</spawn>
 	<!-- Romaos -->
 	<spawn map="210050000" npcid="799820" pool="1" interval="295">
-		<object x="2707.092285" y="1405.461914" z="372.000000" h="0"/>
+		<object x="2707.092285" y="1405.461914" z="372.000000" h="80"/>
 	</spawn>
 	<!-- Kailaus -->
 	<spawn map="210050000" npcid="798946" pool="1" interval="295">
