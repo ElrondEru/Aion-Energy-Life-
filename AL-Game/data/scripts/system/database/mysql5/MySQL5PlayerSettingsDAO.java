@@ -1,19 +1,19 @@
 /*
- * This file is part of aion-emu <aion-emu.com>.
- *
- *  aion-emu is free software: you can redistribute it and/or modify
- *  it under the terms of the GNU General Public License as published by
- *  the Free Software Foundation, either version 3 of the License, or
- *  (at your option) any later version.
- *
- *  aion-emu is distributed in the hope that it will be useful,
- *  but WITHOUT ANY WARRANTY; without even the implied warranty of
- *  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- *  GNU General Public License for more details.
- *
- *  You should have received a copy of the GNU General Public License
- *  along with aion-emu.  If not, see <http://www.gnu.org/licenses/>.
- */
+	This file is part of aion-emu <aion-emu.com>.
+
+	aion-emu is free software: you can redistribute it and/or modify
+	it under the terms of the GNU General Public License as published by
+	the Free Software Foundation, either version 3 of the License, or
+	(at your option) any later version.
+
+	aion-emu is distributed in the hope that it will be useful,
+	but WITHOUT ANY WARRANTY; without even the implied warranty of
+	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+	GNU General Public License for more details.
+
+	You should have received a copy of the GNU General Public License
+	along with aion-emu. If not, see <http://www.gnu.org/licenses/>.
+*/
 package mysql5;
 
 import java.sql.Connection;
@@ -43,7 +43,7 @@ public class MySQL5PlayerSettingsDAO extends PlayerSettingsDAO
 	 * TODO
 	 * 1) analyze possibility to zip settings
 	 * 2) insert/update instead of replace
-	 * 
+	 *
 	 *  0 - uisettings
 	 *  1 - shortcuts
 	 *  2 - display
@@ -79,7 +79,7 @@ public class MySQL5PlayerSettingsDAO extends PlayerSettingsDAO
 					case 3:
 						playerSettings.setDeny(resultSet.getInt("settings"));
 						break;
-				}			
+				}
 			}
 			resultSet.close();
 			statement.close();
@@ -100,16 +100,16 @@ public class MySQL5PlayerSettingsDAO extends PlayerSettingsDAO
 	public void saveSettings(final Player player)
 	{
 		final int playerId = player.getObjectId();
-		
+
 		PlayerSettings playerSettings = player.getPlayerSettings();
 		if(playerSettings.getPersistentState() == PersistentState.UPDATED)
 			return;
-		
+
 		final byte[] uiSettings = playerSettings.getUiSettings();
 		final byte[] shortcuts = playerSettings.getShortcuts();
 		final int display = playerSettings.getDisplay();
 		final int deny = playerSettings.getDeny();
-		
+
 		if(uiSettings != null)
 		{
 			DB.insertUpdate("REPLACE INTO player_settings values (?, ?, ?)", new IUStH() {
@@ -136,7 +136,7 @@ public class MySQL5PlayerSettingsDAO extends PlayerSettingsDAO
 					stmt.execute();
 				}
 			});
-		}	
+		}
 
 		DB.insertUpdate("REPLACE INTO player_settings values (?, ?, ?)", new IUStH() {
 			@Override

@@ -1,19 +1,19 @@
 /*
- * This file is part of aion-unique <aion-unique.org>.
- *
- *  aion-unique is free software: you can redistribute it and/or modify
- *  it under the terms of the GNU General Public License as published by
- *  the Free Software Foundation, either version 3 of the License, or
- *  (at your option) any later version.
- *
- *  aion-unique is distributed in the hope that it will be useful,
- *  but WITHOUT ANY WARRANTY; without even the implied warranty of
- *  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- *  GNU General Public License for more details.
- *
- *  You should have received a copy of the GNU General Public License
- *  along with aion-unique.  If not, see <http://www.gnu.org/licenses/>.
- */
+	This file is part of aion-unique <aion-unique.org>.
+
+	aion-unique is free software: you can redistribute it and/or modify
+	it under the terms of the GNU General Public License as published by
+	the Free Software Foundation, either version 3 of the License, or
+	(at your option) any later version.
+
+	aion-unique is distributed in the hope that it will be useful,
+	but WITHOUT ANY WARRANTY; without even the implied warranty of
+	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+	GNU General Public License for more details.
+
+	You should have received a copy of the GNU General Public License
+	along with aion-unique. If not, see <http://www.gnu.org/licenses/>.
+*/
 package mysql5;
 
 import java.sql.Connection;
@@ -31,13 +31,13 @@ import com.aionemu.gameserver.model.gameobjects.player.PlayerAppearance;
 
 /**
  * Class that is responsible for loading/storing {@link com.aionemu.gameserver.model.gameobjects.player.PlayerAppearance} in mysql5
- * 
+ *
  * @author SoulKeeper, AEJTester, srx47
  */
 public class MySQL5PlayerAppearanceDAO extends PlayerAppearanceDAO
 {
 	private static final Logger log = Logger.getLogger(PlayerAppearanceDAO.class);
-	
+
 	/**
 	 * {@inheritDoc}
 	 */
@@ -126,7 +126,7 @@ public class MySQL5PlayerAppearanceDAO extends PlayerAppearanceDAO
 	@Override
 	public boolean store(final int id, final PlayerAppearance pa)
 	{
-		
+
 		return DB.insertUpdate("REPLACE INTO player_appearance ("
 			+ "player_id, face, hair, deco, tattoo, skin_rgb, hair_rgb, lip_rgb, eye_rgb, face_shape,"
 			+ "forehead, eye_height, eye_space, eye_width, eye_size, eye_shape, eye_angle,"

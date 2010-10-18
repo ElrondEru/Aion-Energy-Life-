@@ -1,19 +1,19 @@
 /*
- * This file is part of aion-emu <aion-emu.com>.
- *
- *  aion-emu is free software: you can redistribute it and/or modify
- *  it under the terms of the GNU General Public License as published by
- *  the Free Software Foundation, either version 3 of the License, or
- *  (at your option) any later version.
- *
- *  aion-emu is distributed in the hope that it will be useful,
- *  but WITHOUT ANY WARRANTY; without even the implied warranty of
- *  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- *  GNU General Public License for more details.
- *
- *  You should have received a copy of the GNU General Public License
- *  along with aion-emu.  If not, see <http://www.gnu.org/licenses/>.
- */
+	This file is part of aion-emu <aion-emu.com>.
+
+	aion-emu is free software: you can redistribute it and/or modify
+	it under the terms of the GNU General Public License as published by
+	the Free Software Foundation, either version 3 of the License, or
+	(at your option) any later version.
+
+	aion-emu is distributed in the hope that it will be useful,
+	but WITHOUT ANY WARRANTY; without even the implied warranty of
+	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+	GNU General Public License for more details.
+
+	You should have received a copy of the GNU General Public License
+	along with aion-emu. If not, see <http://www.gnu.org/licenses/>.
+*/
 package mysql5;
 
 import java.sql.Connection;
@@ -49,7 +49,7 @@ import com.aionemu.gameserver.world.WorldPosition;
 /**
  * Class that that is responsible for loading/storing {@link com.aionemu.gameserver.model.gameobjects.player.Player}
  * object from MySQL 5.
- * 
+ *
  * @author SoulKeeper, Saelya
  */
 public class MySQL5PlayerDAO extends PlayerDAO
@@ -117,11 +117,11 @@ public class MySQL5PlayerDAO extends PlayerDAO
 				stmt.setString(15,player.getCommonData().getNote());
 				stmt.setInt(16, player.getCommonData().getBindPoint());
 				stmt.setInt(17, player.getCommonData().getTitleId());
-				
+
 				Mailbox mailBox = player.getMailbox();
 				int mails = mailBox != null ? mailBox.size() : player.getCommonData().getMailboxLetters();
 				stmt.setInt(18, mails);
-				
+
 				stmt.setInt(19, player.getObjectId());
 				stmt.execute();
 				stmt.close();
@@ -188,7 +188,7 @@ public class MySQL5PlayerDAO extends PlayerDAO
 		if (player != null)
 			return player.getCommonData();
 		int playerObjId = 0;
-		
+
 		Connection con = null;
 		try
 		{
@@ -209,13 +209,13 @@ public class MySQL5PlayerDAO extends PlayerDAO
 		{
 			DatabaseFactory.close(con);
 		}
-		
+
 		if(playerObjId == 0)
 			return null;
 		else
 			return loadPlayerCommonData(playerObjId);
 	}
-	
+
 	/**
 	 * {@inheritDoc}
 	 */
@@ -275,7 +275,7 @@ public class MySQL5PlayerDAO extends PlayerDAO
 					z = ld.getZ();
 					heading = ld.getHeading();
 					worldId = ld.getMapId();
-				}		
+				}
 
 				WorldPosition position = World.getInstance().createPosition(worldId, x, y, z, heading);
 				cd.setPosition(position);
@@ -488,13 +488,13 @@ public class MySQL5PlayerDAO extends PlayerDAO
 			}
 		});
 	}
-	
+
 	@Override
 	public String getPlayerNameByObjId(final int playerObjId)
 	{
 		final String[] result = new String[1];
 		DB.select("SELECT name FROM players WHERE id = ?", new ParamReadStH(){
-			
+
 			@Override
 			public void handleRead(ResultSet arg0) throws SQLException
 			{
@@ -502,7 +502,7 @@ public class MySQL5PlayerDAO extends PlayerDAO
 				arg0.next();
 				result[0] = arg0.getString("name");
 			}
-			
+
 			@Override
 			public void setParams(PreparedStatement arg0) throws SQLException
 			{
@@ -512,7 +512,7 @@ public class MySQL5PlayerDAO extends PlayerDAO
 		});
 		return result[0];
 	}
-	
+
 	/**
 	 * {@inheritDoc}
 	 */

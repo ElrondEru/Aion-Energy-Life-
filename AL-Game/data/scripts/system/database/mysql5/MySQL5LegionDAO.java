@@ -1,19 +1,19 @@
 /*
- * This file is part of aion-unique <aion-unique.org>.
- *
- *  aion-unique is free software: you can redistribute it and/or modify
- *  it under the terms of the GNU General Public License as published by
- *  the Free Software Foundation, either version 3 of the License, or
- *  (at your option) any later version.
- *
- *  aion-unique is distributed in the hope that it will be useful,
- *  but WITHOUT ANY WARRANTY; without even the implied warranty of
- *  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- *  GNU General Public License for more details.
- *
- *  You should have received a copy of the GNU General Public License
- *  along with aion-unique.  If not, see <http://www.gnu.org/licenses/>.
- */
+	This file is part of aion-unique <aion-unique.org>.
+
+	aion-unique is free software: you can redistribute it and/or modify
+	it under the terms of the GNU General Public License as published by
+	the Free Software Foundation, either version 3 of the License, or
+	(at your option) any later version.
+
+	aion-unique is distributed in the hope that it will be useful,
+	but WITHOUT ANY WARRANTY; without even the implied warranty of
+	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+	GNU General Public License for more details.
+
+	You should have received a copy of the GNU General Public License
+	along with aion-unique. If not, see <http://www.gnu.org/licenses/>.
+*/
 package mysql5;
 
 import java.sql.PreparedStatement;
@@ -42,7 +42,7 @@ import com.aionemu.gameserver.model.legion.LegionWarehouse;
 /**
  * Class that that is responsible for loading/storing {@link com.aionemu.gameserver.model.legion.Legion} object from
  * MySQL 5.
- * 
+ *
  * @author Simple
  */
 public class MySQL5LegionDAO extends LegionDAO
@@ -377,9 +377,9 @@ public class MySQL5LegionDAO extends LegionDAO
 		}
 		legionEmblem.setPersistentState(PersistentState.UPDATED);
 	}
-	
+
 	/**
-	 * 
+	 *
 	 * @param legionId
 	 * @param legionEmblem
 	 * @return
@@ -399,9 +399,9 @@ public class MySQL5LegionDAO extends LegionDAO
 			}
 		});
 	}
-	
+
 	/**
-	 * 
+	 *
 	 * @param legionId
 	 * @param legionEmblem
 	 */
@@ -534,7 +534,7 @@ public class MySQL5LegionDAO extends LegionDAO
 	@Override
 	public void loadLegionHistory(final Legion legion)
 	{
-		
+
 		final Collection<LegionHistory> history = legion.getLegionHistory();
 
 		DB.select(SELECT_HISTORY_QUERY, new ParamReadStH(){

@@ -1,19 +1,19 @@
 /*
- * This file is part of aion-unique <aion-unique.org>.
- *
- *  aion-unique is free software: you can redistribute it and/or modify
- *  it under the terms of the GNU General Public License as published by
- *  the Free Software Foundation, either version 3 of the License, or
- *  (at your option) any later version.
- *
- *  aion-unique is distributed in the hope that it will be useful,
- *  but WITHOUT ANY WARRANTY; without even the implied warranty of
- *  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- *  GNU General Public License for more details.
- *
- *  You should have received a copy of the GNU General Public License
- *  along with aion-unique.  If not, see <http://www.gnu.org/licenses/>.
- */
+	This file is part of aion-unique <aion-unique.org>.
+
+	aion-unique is free software: you can redistribute it and/or modify
+	it under the terms of the GNU General Public License as published by
+	the Free Software Foundation, either version 3 of the License, or
+	(at your option) any later version.
+
+	aion-unique is distributed in the hope that it will be useful,
+	but WITHOUT ANY WARRANTY; without even the implied warranty of
+	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+	GNU General Public License for more details.
+
+	You should have received a copy of the GNU General Public License
+	along with aion-unique. If not, see <http://www.gnu.org/licenses/>.
+*/
 package mysql5;
 
 import java.sql.PreparedStatement;
@@ -48,13 +48,13 @@ import com.aionemu.gameserver.model.gameobjects.player.StorageType;
 public class MySQL5MailDAO extends MailDAO
 {
 	private static final Logger log = Logger.getLogger(MySQL5MailDAO.class);
-	
+
 	@Override
 	public Mailbox loadPlayerMailbox(Player player)
 	{
 		final Mailbox mailbox = new Mailbox();
 		final int playerId = player.getObjectId();
-		
+
 		DB.select("SELECT * FROM mail WHERE mailRecipientId = ?", new ParamReadStH()
 		{
 			@Override
@@ -62,7 +62,7 @@ public class MySQL5MailDAO extends MailDAO
 			{
 				stmt.setInt(1, playerId);
 			}
-			
+
 			@Override
 			public void handleRead(ResultSet rset) throws SQLException
 			{
@@ -86,10 +86,10 @@ public class MySQL5MailDAO extends MailDAO
 							{
 								if(item.getItemTemplate().isArmor() || item.getItemTemplate().isWeapon())
 									DAOManager.getDAO(ItemStoneListDAO.class).load(Collections.singletonList(item));
-								
+
 								attachedItem = item;
 							}
-							
+
 					Letter letter = new Letter(mailUniqueId, recipientId, attachedItem, attachedKinahCount, mailTitle,
 						mailMessage, senderName, recievedTime, unread == 1, express == 1);
 					letter.setPersistState(PersistentState.UPDATED);
@@ -97,14 +97,14 @@ public class MySQL5MailDAO extends MailDAO
 				}
 			}
 		});
-		
+
 		return mailbox;
 	}
-	
+
 	private List<Item> loadMailboxItems(final int playerId)
 	{
 		final List<Item> mailboxItems = new ArrayList<Item>();
-		
+
 		DB.select("SELECT * FROM inventory WHERE `itemOwner` = ? AND `itemLocation` = 127", new ParamReadStH()
 		{
 			@Override
@@ -134,23 +134,23 @@ public class MySQL5MailDAO extends MailDAO
 				}
 			}
 		});
-		
+
 		return mailboxItems;
 	}
-	
+
 	@Override
 	public void storeMailbox(Player player)
 	{
 		Mailbox mailbox = player.getMailbox();
 		if (mailbox == null)
 			return;
-		Collection<Letter> letters = mailbox.getLetters();		
+		Collection<Letter> letters = mailbox.getLetters();
 		for(Letter letter : letters)
 		{
 			storeLetter(letter.getTimeStamp(), letter);
-		}		
+		}
 	}
-	
+
 	@Override
 	public boolean storeLetter(Timestamp time, Letter letter)
 	{
@@ -160,27 +160,27 @@ public class MySQL5MailDAO extends MailDAO
 			case NEW:
 				result = saveLetter(time, letter);
 				break;
-			
+
 			case UPDATE_REQUIRED:
 				result = updateLetter(time, letter);
 				break;
-			/*	
+			/*
 			case DELETED:
 				return deleteLetter(letter);*/
 		}
 		letter.setPersistState(PersistentState.UPDATED);
-		
+
 		return result;
 	}
-	
+
 	private boolean saveLetter(final Timestamp time, final Letter letter)
 	{
 		int attachedItemId = 0;
 		if(letter.getAttachedItem() != null)
 			attachedItemId = letter.getAttachedItem().getObjectId();
-			
+
 		final int fAttachedItemId = attachedItemId;
-		
+
 		return DB.insertUpdate("INSERT INTO `mail` (`mailUniqueId`, `mailRecipientId`, `senderName`, `mailTitle`, `mailMessage`, `unread`, `attachedItemId`, `attachedKinahCount`, `express`, `recievedTime`) VALUES(?,?,?,?,?,?,?,?,?,?)", new IUStH() {
 			@Override
 			public void handleInsertUpdate(PreparedStatement stmt) throws SQLException
@@ -199,15 +199,15 @@ public class MySQL5MailDAO extends MailDAO
 			}
 		});
 	}
-	
+
 	private boolean updateLetter(final Timestamp time, final Letter letter)
 	{
 		int attachedItemId = 0;
 		if(letter.getAttachedItem() != null)
 			attachedItemId = letter.getAttachedItem().getObjectId();
-		
+
 		final int fAttachedItemId = attachedItemId;
-		
+
 		return DB.insertUpdate("UPDATE mail SET  unread=?, attachedItemId=?, attachedKinahCount=?, recievedTime=? WHERE mailUniqueId=?", new IUStH() {
 			@Override
 			public void handleInsertUpdate(PreparedStatement stmt) throws SQLException
@@ -221,7 +221,7 @@ public class MySQL5MailDAO extends MailDAO
 			}
 		});
 	}
-	
+
 	@Override
 	public boolean deleteLetter (final int letterId)
 	{
@@ -242,7 +242,7 @@ public class MySQL5MailDAO extends MailDAO
 			@Override
 			public void handleInsertUpdate(PreparedStatement stmt) throws SQLException
 			{
-				stmt.setInt(1, recipientCommonData.getMailboxLetters());				
+				stmt.setInt(1, recipientCommonData.getMailboxLetters());
 				stmt.setString(2, recipientCommonData.getName());
 				stmt.execute();
 			}
@@ -250,7 +250,7 @@ public class MySQL5MailDAO extends MailDAO
 	}
 
 	@Override
-	public int[] getUsedIDs() 
+	public int[] getUsedIDs()
 	{
 		PreparedStatement statement = DB.prepareStatement("SELECT mailUniqueId FROM mail", ResultSet.TYPE_SCROLL_INSENSITIVE,
 			ResultSet.CONCUR_READ_ONLY);
@@ -280,7 +280,7 @@ public class MySQL5MailDAO extends MailDAO
 
 		return new int[0];
 	}
-	
+
 	@Override
 	public boolean supports(String s, int i, int i1)
 	{

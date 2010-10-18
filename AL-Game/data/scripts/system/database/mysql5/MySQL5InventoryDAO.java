@@ -1,19 +1,19 @@
 /*
- * This file is part of aion-unique <aion-unique.com>.
- *
- *  aion-unique is free software: you can redistribute it and/or modify
- *  it under the terms of the GNU General Public License as published by
- *  the Free Software Foundation, either version 3 of the License, or
- *  (at your option) any later version.
- *
- *  aion-unique is distributed in the hope that it will be useful,
- *  but WITHOUT ANY WARRANTY; without even the implied warranty of
- *  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- *  GNU General Public License for more details.
- *
- *  You should have received a copy of the GNU General Public License
- *  along with aion-unique.  If not, see <http://www.gnu.org/licenses/>.
- */
+	This file is part of aion-unique <aion-unique.org>.
+
+	aion-unique is free software: you can redistribute it and/or modify
+	it under the terms of the GNU General Public License as published by
+	the Free Software Foundation, either version 3 of the License, or
+	(at your option) any later version.
+
+	aion-unique is distributed in the hope that it will be useful,
+	but WITHOUT ANY WARRANTY; without even the implied warranty of
+	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+	GNU General Public License for more details.
+
+	You should have received a copy of the GNU General Public License
+	along with aion-unique. If not, see <http://www.gnu.org/licenses/>.
+*/
 package mysql5;
 
 import java.sql.Connection;
@@ -37,7 +37,7 @@ import com.aionemu.gameserver.model.gameobjects.player.StorageType;
 
 /**
  * @author ATracer
- * 
+ *
  */
 public class MySQL5InventoryDAO extends InventoryDAO
 {
@@ -107,7 +107,7 @@ public class MySQL5InventoryDAO extends InventoryDAO
 	public Equipment loadEquipment(Player player)
 	{
 		final Equipment equipment = new Equipment(player);
-		
+
 		int playerId = player.getObjectId();
 		final int storage = 0;
 		final int equipped = 1;
@@ -228,7 +228,7 @@ public class MySQL5InventoryDAO extends InventoryDAO
 	public boolean store(Player player)
 	{
 		int playerId = player.getObjectId();
-		
+
 		List<Item> allPlayerItems = player.getDirtyItemsToUpdate();
 
 		boolean resultSuccess = true;
@@ -236,7 +236,7 @@ public class MySQL5InventoryDAO extends InventoryDAO
 		{
 			if(item != null)
 				resultSuccess = store(item, playerId);
-		} 
+		}
 		return resultSuccess;
 	}
 
@@ -348,10 +348,10 @@ public class MySQL5InventoryDAO extends InventoryDAO
 	}
 
 	/**
-	 * 
+	 *
 	 * @param item
 	 */
-	private boolean deleteItem(final Item item) 
+	private boolean deleteItem(final Item item)
 	{
 		Connection con = null;
 		try
@@ -402,7 +402,7 @@ public class MySQL5InventoryDAO extends InventoryDAO
 	}
 
 	@Override
-	public int[] getUsedIDs() 
+	public int[] getUsedIDs()
 	{
 		PreparedStatement statement = DB.prepareStatement("SELECT itemUniqueId FROM inventory", ResultSet.TYPE_SCROLL_INSENSITIVE,
 			ResultSet.CONCUR_READ_ONLY);

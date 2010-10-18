@@ -1,19 +1,19 @@
 /*
- * This file is part of aion-unique <aion-unique.org>.
- *
- *  aion-unique is free software: you can redistribute it and/or modify
- *  it under the terms of the GNU General Public License as published by
- *  the Free Software Foundation, either version 3 of the License, or
- *  (at your option) any later version.
- *
- *  aion-unique is distributed in the hope that it will be useful,
- *  but WITHOUT ANY WARRANTY; without even the implied warranty of
- *  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- *  GNU General Public License for more details.
- *
- *  You should have received a copy of the GNU General Public License
- *  along with aion-unique.  If not, see <http://www.gnu.org/licenses/>.
- */
+	This file is part of aion-unique <aion-unique.org>.
+
+	aion-unique is free software: you can redistribute it and/or modify
+	it under the terms of the GNU General Public License as published by
+	the Free Software Foundation, either version 3 of the License, or
+	(at your option) any later version.
+
+	aion-unique is distributed in the hope that it will be useful,
+	but WITHOUT ANY WARRANTY; without even the implied warranty of
+	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+	GNU General Public License for more details.
+
+	You should have received a copy of the GNU General Public License
+	along with aion-unique. If not, see <http://www.gnu.org/licenses/>.
+*/
 package mysql5;
 
 import java.sql.Connection;
@@ -49,7 +49,7 @@ public class MySQL5SiegeDAO extends SiegeDAO
 		boolean success = true;
 		Connection con = null;
 		List<Integer> loaded = new ArrayList<Integer>();
-		
+
 		try
 		{
 			con = DatabaseFactory.getConnection();
@@ -74,7 +74,7 @@ public class MySQL5SiegeDAO extends SiegeDAO
 		{
 			DatabaseFactory.close(con);
 		}
-		
+
 		// Insert locations that are not entered to DB yet.
 		for(FastMap.Entry<Integer, SiegeLocation> e = locations.head(), end = locations.tail();
 			(e = e.getNext()) != end;)
@@ -85,7 +85,7 @@ public class MySQL5SiegeDAO extends SiegeDAO
 				insertSiegeLocation(sLoc);
 			}
 		}
-		
+
 		return success;
 	}
 
@@ -143,7 +143,7 @@ public class MySQL5SiegeDAO extends SiegeDAO
 		finally
 		{
 			DatabaseFactory.close(con);
-	
+
 		}
 		return true;
 	}

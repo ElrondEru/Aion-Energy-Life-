@@ -1,19 +1,19 @@
 /*
- * This file is part of aion-emu <aion-emu.com>.
- *
- *  aion-emu is free software: you can redistribute it and/or modify
- *  it under the terms of the GNU General Public License as published by
- *  the Free Software Foundation, either version 3 of the License, or
- *  (at your option) any later version.
- *
- *  aion-emu is distributed in the hope that it will be useful,
- *  but WITHOUT ANY WARRANTY; without even the implied warranty of
- *  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- *  GNU General Public License for more details.
- *
- *  You should have received a copy of the GNU General Public License
- *  along with aion-emu.  If not, see <http://www.gnu.org/licenses/>.
- */
+	This file is part of aion-emu <aion-emu.com>.
+
+	aion-emu is free software: you can redistribute it and/or modify
+	it under the terms of the GNU General Public License as published by
+	the Free Software Foundation, either version 3 of the License, or
+	(at your option) any later version.
+
+	aion-emu is distributed in the hope that it will be useful,
+	but WITHOUT ANY WARRANTY; without even the implied warranty of
+	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+	GNU General Public License for more details.
+
+	You should have received a copy of the GNU General Public License
+	along with aion-emu. If not, see <http://www.gnu.org/licenses/>.
+*/
 package mysql5;
 
 import java.sql.Connection;
@@ -92,11 +92,11 @@ public class MySQL5PlayerSkillListDAO extends PlayerSkillListDAO
 		SkillListEntry[] skillsDeleted = player.getSkillList().getDeletedSkills();
 		store(player, skillsActive);
 		store(player, skillsDeleted);
-		
+
 		return true;
 	}
 	/**
-	 * 
+	 *
 	 * @param player
 	 * @param skills
 	 */
@@ -120,12 +120,12 @@ public class MySQL5PlayerSkillListDAO extends PlayerSkillListDAO
 			skill.setPersistentState(PersistentState.UPDATED);
 		}
 	}
-	
+
 	/**
 	 * Add a skill information into database
 	 *
 	 * @param playerId player object id
-	 * @param skill    skill contents.
+	 * @param skill	skill contents.
 	 */
 	private void addSkill(final int playerId, final int skillId, final int skillLevel)
 	{
@@ -140,10 +140,10 @@ public class MySQL5PlayerSkillListDAO extends PlayerSkillListDAO
 			}
 		});
 	}
-	
+
 	/**
 	 *  Updates skill in database (after level change)
-	 *  
+	 *
 	 * @param playerId
 	 * @param skillId
 	 * @param skillLevel
@@ -164,12 +164,12 @@ public class MySQL5PlayerSkillListDAO extends PlayerSkillListDAO
 
 	/**
 	 *  Deletes skill from database
-	 *  
+	 *
 	 * @param playerId
 	 * @param skillId
 	 */
 	private void deleteSkill(final int playerId, final int skillId)
-	{		
+	{
 		DB.insertUpdate(DELETE_QUERY, new IUStH()
 		{
 			@Override

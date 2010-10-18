@@ -1,19 +1,19 @@
 /*
- * This file is part of aion-unique <aion-unique.org>.
- *
- *  aion-unique is free software: you can redistribute it and/or modify
- *  it under the terms of the GNU General Public License as published by
- *  the Free Software Foundation, either version 3 of the License, or
- *  (at your option) any later version.
- *
- *  aion-unique is distributed in the hope that it will be useful,
- *  but WITHOUT ANY WARRANTY; without even the implied warranty of
- *  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- *  GNU General Public License for more details.
- *
- *  You should have received a copy of the GNU General Public License
- *  along with aion-unique.  If not, see <http://www.gnu.org/licenses/>.
- */
+	This file is part of aion-unique <aion-unique.org>.
+
+	aion-unique is free software: you can redistribute it and/or modify
+	it under the terms of the GNU General Public License as published by
+	the Free Software Foundation, either version 3 of the License, or
+	(at your option) any later version.
+
+	aion-unique is distributed in the hope that it will be useful,
+	but WITHOUT ANY WARRANTY; without even the implied warranty of
+	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+	GNU General Public License for more details.
+
+	You should have received a copy of the GNU General Public License
+	along with aion-unique. If not, see <http://www.gnu.org/licenses/>.
+*/
 package mysql5;
 
 import java.sql.Connection;
@@ -36,9 +36,9 @@ import com.mysql.jdbc.exceptions.MySQLDataException;
  */
 public class MySQL5PetitionDAO extends PetitionDAO
 {
-	
+
 	private static final Logger log = Logger.getLogger(MySQL5PetitionDAO.class);
-	
+
 	public synchronized int getNextAvailableId()
 	{
 		Connection con = null;
@@ -63,7 +63,7 @@ public class MySQL5PetitionDAO extends PetitionDAO
 		}
 		return result;
 	}
-	
+
 	public Petition getPetitionById(int petitionId)
 	{
 		String query = "SELECT * FROM petitions WHERE id = ?";
@@ -79,7 +79,7 @@ public class MySQL5PetitionDAO extends PetitionDAO
 			{
 				throw new MySQLDataException();
 			}
-			
+
 			String statusValue = rset.getString("status");
 			PetitionStatus status;
 			if(statusValue.equals("PENDING"))
@@ -88,14 +88,14 @@ public class MySQL5PetitionDAO extends PetitionDAO
 				status = PetitionStatus.IN_PROGRESS;
 			else
 				status = PetitionStatus.PENDING;
-			
+
 			result = new Petition(rset.getInt("id"), rset.getInt("playerId"), rset.getInt("type"), rset.getString("title"), rset.getString("message"), rset.getString("addData"), status.getElementId());
-			
+
 			stmt.close();
 		}
 		catch(MySQLDataException mde)
 		{
-			
+
 		}
 		catch (Exception e)
 		{
@@ -107,7 +107,7 @@ public class MySQL5PetitionDAO extends PetitionDAO
 		}
 		return result;
 	}
-	
+
 	public Set<Petition> getPetitions()
 	{
 		String query = "SELECT * FROM petitions WHERE status = 'PENDING' OR status = 'IN_PROGRESS' ORDER BY id ASC";
@@ -128,7 +128,7 @@ public class MySQL5PetitionDAO extends PetitionDAO
 					status = PetitionStatus.IN_PROGRESS;
 				else
 					status = PetitionStatus.PENDING;
-				
+
 				Petition p = new Petition(rset.getInt("id"), rset.getInt("playerId"), rset.getInt("type"), rset.getString("title"), rset.getString("message"), rset.getString("addData"), status.getElementId());
 				results.add(p);
 			}
@@ -145,7 +145,7 @@ public class MySQL5PetitionDAO extends PetitionDAO
 		}
 		return results;
 	}
-	
+
 	public void deletePetition(int playerObjId)
 	{
 		Connection con = null;
@@ -166,7 +166,7 @@ public class MySQL5PetitionDAO extends PetitionDAO
 			DatabaseFactory.close(con);
 		}
 	}
-	
+
 	public void insertPetition(Petition petition)
 	{
 		Connection con = null;
@@ -195,7 +195,7 @@ public class MySQL5PetitionDAO extends PetitionDAO
 			DatabaseFactory.close(con);
 		}
 	}
-	
+
 	@Override
 	public void setReplied(int petitionId)
 	{
@@ -218,7 +218,7 @@ public class MySQL5PetitionDAO extends PetitionDAO
 			DatabaseFactory.close(con);
 		}
 	}
-	
+
 	@Override
 	public boolean supports(String s, int i, int i1)
 	{

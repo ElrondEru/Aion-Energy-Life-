@@ -1,19 +1,19 @@
 /*
- * This file is part of aion-unique <aion-unique.org>.
- *
- *  aion-unique is free software: you can redistribute it and/or modify
- *  it under the terms of the GNU General Public License as published by
- *  the Free Software Foundation, either version 3 of the License, or
- *  (at your option) any later version.
- *
- *  aion-unique is distributed in the hope that it will be useful,
- *  but WITHOUT ANY WARRANTY; without even the implied warranty of
- *  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- *  GNU General Public License for more details.
- *
- *  You should have received a copy of the GNU General Public License
- *  along with aion-unique.  If not, see <http://www.gnu.org/licenses/>.
- */
+	This file is part of aion-unique <aion-unique.org>.
+
+	aion-unique is free software: you can redistribute it and/or modify
+	it under the terms of the GNU General Public License as published by
+	the Free Software Foundation, either version 3 of the License, or
+	(at your option) any later version.
+
+	aion-unique is distributed in the hope that it will be useful,
+	but WITHOUT ANY WARRANTY; without even the implied warranty of
+	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+	GNU General Public License for more details.
+
+	You should have received a copy of the GNU General Public License
+	along with aion-unique. If not, see <http://www.gnu.org/licenses/>.
+*/
 package mysql5;
 
 import java.sql.PreparedStatement;
@@ -38,7 +38,7 @@ public class MySQL5ItemCooldownsDAO extends ItemCooldownsDAO
 	public static final String DELETE_QUERY = "DELETE FROM `item_cooldowns` WHERE `player_id`=?";
 	public static final String SELECT_QUERY = "SELECT `delay_id`, `use_delay`, `reuse_time` FROM `item_cooldowns` WHERE `player_id`=?";
 
-	
+
 	@Override
 	public void loadItemCooldowns(final Player player)
 	{
@@ -58,10 +58,10 @@ public class MySQL5ItemCooldownsDAO extends ItemCooldownsDAO
 					int delayId = rset.getInt("delay_id");
 					int useDelay = rset.getInt("use_delay");
 					long reuseTime = rset.getLong("reuse_time");
-										
+
 					if(reuseTime > System.currentTimeMillis())
 						player.addItemCoolDown(delayId, reuseTime, useDelay);
-					
+
 				}
 			}
 		});
@@ -72,20 +72,20 @@ public class MySQL5ItemCooldownsDAO extends ItemCooldownsDAO
 	public void storeItemCooldowns(final Player player)
 	{
 		deleteItemCooldowns(player);
-		Map<Integer, ItemCooldown> itemCoolDowns = player.getItemCoolDowns();		
-		
+		Map<Integer, ItemCooldown> itemCoolDowns = player.getItemCoolDowns();
+
 		if(itemCoolDowns == null)
 			return;
-		
+
 		for(Map.Entry<Integer, ItemCooldown> entry : itemCoolDowns.entrySet())
 		{
 			final int delayId = entry.getKey();
 			final long reuseTime = entry.getValue().getReuseTime();
 			final int useDelay = entry.getValue().getUseDelay();
-			
+
 			if(reuseTime - System.currentTimeMillis() < 30000)
 				continue;
-			
+
 			DB.insertUpdate(INSERT_QUERY, new IUStH() {
 				@Override
 				public void handleInsertUpdate(PreparedStatement stmt) throws SQLException
@@ -93,13 +93,13 @@ public class MySQL5ItemCooldownsDAO extends ItemCooldownsDAO
 					stmt.setInt(1, player.getObjectId());
 					stmt.setInt(2, delayId);
 					stmt.setInt(3, useDelay);
-					stmt.setLong(4, reuseTime);											
+					stmt.setLong(4, reuseTime);
 					stmt.execute();
 				}
 			});
 		}
 	}
-	
+
 	private void deleteItemCooldowns(final Player player)
 	{
 		DB.insertUpdate(DELETE_QUERY, new IUStH()
