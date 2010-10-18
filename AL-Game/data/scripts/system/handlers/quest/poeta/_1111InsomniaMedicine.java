@@ -1,19 +1,19 @@
 /*
- * This file is part of aion-unique <aion-unique.org>.
- *
- * aion-unique is free software: you can redistribute it and/or modify
- * it under the terms of the GNU General Public License as published by
- * the Free Software Foundation, either version 3 of the License, or
- * (at your option) any later version.
- *
- * aion-unique is distributed in the hope that it will be useful,
- * but WITHOUT ANY WARRANTY; without even the implied warranty of
- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- * GNU General Public License for more details.
- *
- * You should have received a copy of the GNU General Public License
- * along with aion-unique.  If not, see <http://www.gnu.org/licenses/>.
- */
+	This file is part of aion-unique <aion-unique.org>.
+
+	aion-unique is free software: you can redistribute it and/or modify
+	it under the terms of the GNU General Public License as published by
+	the Free Software Foundation, either version 3 of the License, or
+	(at your option) any later version.
+
+	aion-unique is distributed in the hope that it will be useful,
+	but WITHOUT ANY WARRANTY; without even the implied warranty of
+	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+	GNU General Public License for more details.
+
+	You should have received a copy of the GNU General Public License
+	along with aion-unique. If not, see <http://www.gnu.org/licenses/>.
+*/
 package quest.poeta;
 
 import java.util.Collections;
@@ -31,11 +31,11 @@ import com.aionemu.gameserver.model.templates.quest.QuestItems;
 
 /**
  * @author MrPoke
- * 
+ *
  */
 public class _1111InsomniaMedicine extends QuestHandler
 {
-	private final static int	questId	= 1111;
+	private final static int	questId = 1111;
 
 	public _1111InsomniaMedicine()
 	{
@@ -72,15 +72,15 @@ public class _1111InsomniaMedicine extends QuestHandler
 				if(env.getDialogId() == -1)
 				{
 					if(qs.getQuestVarById(0) == 2)
-					{	
+					{
 						player.getInventory().removeFromBagByItemId(182200222, 1);
 						return sendQuestDialog(player, env.getVisibleObject().getObjectId(), 2375);
-					}	
+					}
 					else if(qs.getQuestVarById(0) == 3)
-					{	
+					{
 						player.getInventory().removeFromBagByItemId(182200221, 1);
 						return sendQuestDialog(player, env.getVisibleObject().getObjectId(), 2716);
-					}	
+					}
 					return false;
 				}
 				else if(env.getDialogId() == 1009)

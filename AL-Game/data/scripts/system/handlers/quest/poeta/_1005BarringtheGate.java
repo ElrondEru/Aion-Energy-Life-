@@ -1,19 +1,19 @@
 /*
- * This file is part of aion-unique <aion-unique.org>.
- *
- * aion-unique is free software: you can redistribute it and/or modify
- * it under the terms of the GNU General Public License as published by
- * the Free Software Foundation, either version 3 of the License, or
- * (at your option) any later version.
- *
- * aion-unique is distributed in the hope that it will be useful,
- * but WITHOUT ANY WARRANTY; without even the implied warranty of
- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- * GNU General Public License for more details.
- *
- * You should have received a copy of the GNU General Public License
- * along with aion-unique.  If not, see <http://www.gnu.org/licenses/>.
- */
+	This file is part of aion-unique <aion-unique.org>.
+
+	aion-unique is free software: you can redistribute it and/or modify
+	it under the terms of the GNU General Public License as published by
+	the Free Software Foundation, either version 3 of the License, or
+	(at your option) any later version.
+
+	aion-unique is distributed in the hope that it will be useful,
+	but WITHOUT ANY WARRANTY; without even the implied warranty of
+	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+	GNU General Public License for more details.
+
+	You should have received a copy of the GNU General Public License
+	along with aion-unique. If not, see <http://www.gnu.org/licenses/>.
+*/
 package quest.poeta;
 
 import com.aionemu.gameserver.model.EmotionType;
@@ -37,7 +37,7 @@ import com.aionemu.gameserver.utils.ThreadPoolManager;
  */
 public class _1005BarringtheGate extends QuestHandler
 {
-	private final static int	questId	= 1005;
+	private final static int	questId = 1005;
 
 	public _1005BarringtheGate()
 	{
@@ -185,7 +185,7 @@ public class _1005BarringtheGate extends QuestHandler
 					return false;
 				}
 			}
-			
+
 		}
 		else if (qs.getStatus() == QuestStatus.REWARD)
 		{
@@ -220,7 +220,7 @@ public class _1005BarringtheGate extends QuestHandler
 	private void destroy(final int var, QuestEnv env)
 	{
 		final int targetObjectId = env.getVisibleObject().getObjectId();
-		
+
 		final Player player = env.getPlayer();
 		PacketSendUtility.sendPacket(player, new SM_USE_OBJECT(player.getObjectId(), targetObjectId, 3000, 1));
 		PacketSendUtility.broadcastPacket(player, new SM_EMOTION(player, EmotionType.NEUTRALMODE2, 0, targetObjectId), true);
@@ -237,10 +237,10 @@ public class _1005BarringtheGate extends QuestHandler
 				if (var != -1)
 					qs.setQuestVarById(0, var);
 				else
-				{	
+				{
 					PacketSendUtility.sendPacket(player, new SM_PLAY_MOVIE(0, 21));
 					qs.setStatus(QuestStatus.REWARD);
-				}	
+				}
 				updateQuestStatus(player, qs);
 			}
 		}, 3000);

@@ -1,19 +1,19 @@
 /*
- * This file is part of aion-unique <aion-unique.org>.
- *
- *  aion-unique is free software: you can redistribute it and/or modify
- *  it under the terms of the GNU General Public License as published by
- *  the Free Software Foundation, either version 3 of the License, or
- *  (at your option) any later version.
- *
- *  aion-unique is distributed in the hope that it will be useful,
- *  but WITHOUT ANY WARRANTY; without even the implied warranty of
- *  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- *  GNU General Public License for more details.
- *
- *  You should have received a copy of the GNU General Public License
- *  along with aion-unique.  If not, see <http://www.gnu.org/licenses/>.
- */
+	This file is part of aion-unique <aion-unique.org>.
+
+	aion-unique is free software: you can redistribute it and/or modify
+	it under the terms of the GNU General Public License as published by
+	the Free Software Foundation, either version 3 of the License, or
+	(at your option) any later version.
+
+	aion-unique is distributed in the hope that it will be useful,
+	but WITHOUT ANY WARRANTY; without even the implied warranty of
+	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+	GNU General Public License for more details.
+
+	You should have received a copy of the GNU General Public License
+	along with aion-unique. If not, see <http://www.gnu.org/licenses/>.
+*/
 package quest.poeta;
 
 import java.util.Collections;
@@ -36,7 +36,7 @@ import com.aionemu.gameserver.utils.PacketSendUtility;
 public class _1097SwordofTranscendence extends QuestHandler
 {
 
-	private final static int	questId	= 1097;
+	private final static int	questId = 1097;
 
 	public _1097SwordofTranscendence()
 	{
@@ -52,7 +52,7 @@ public class _1097SwordofTranscendence extends QuestHandler
 		qe.setNpcQuestData(798316).addOnTalkEvent(questId); //Anusis
 		qe.setNpcQuestData(279034).addOnTalkEvent(questId); //Baoninerk
 	}
-	
+
 	@Override
 	public boolean onLvlUpEvent(QuestEnv env)
 	{
@@ -110,7 +110,7 @@ public class _1097SwordofTranscendence extends QuestHandler
 					return defaultQuestEndDialog(env);
 			}
 		}
-		
+
 		else if(targetId == 798316) //Anusis
 		{
 
@@ -131,7 +131,7 @@ public class _1097SwordofTranscendence extends QuestHandler
 			}
 
 		}
-		
+
 		else if(targetId == 279034) //Baoninerk
 		{
 			if(qs != null && qs.getStatus() == QuestStatus.START && qs.getQuestVarById(0) == 2)
@@ -150,7 +150,7 @@ public class _1097SwordofTranscendence extends QuestHandler
 				else
 					return defaultQuestStartDialog(env);
 			}
-		}		
+		}
 		return false;
 	}
 }

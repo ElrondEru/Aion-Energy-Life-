@@ -1,19 +1,19 @@
 /*
- * This file is part of aion-emu <aion-emu.com>.
- *
- *  aion-emu is free software: you can redistribute it and/or modify
- *  it under the terms of the GNU General Public License as published by
- *  the Free Software Foundation, either version 3 of the License, or
- *  (at your option) any later version.
- *
- *  aion-emu is distributed in the hope that it will be useful,
- *  but WITHOUT ANY WARRANTY; without even the implied warranty of
- *  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- *  GNU General Public License for more details.
- *
- *  You should have received a copy of the GNU General Public License
- *  along with aion-emu.  If not, see <http://www.gnu.org/licenses/>.
- */
+	This file is part of aion-emu <aion-emu.com>.
+
+	aion-emu is free software: you can redistribute it and/or modify
+	it under the terms of the GNU General Public License as published by
+	the Free Software Foundation, either version 3 of the License, or
+	(at your option) any later version.
+
+	aion-emu is distributed in the hope that it will be useful,
+	but WITHOUT ANY WARRANTY; without even the implied warranty of
+	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+	GNU General Public License for more details.
+
+	You should have received a copy of the GNU General Public License
+	along with aion-emu. If not, see <http://www.gnu.org/licenses/>.
+*/
 package quest.poeta;
 
 import com.aionemu.gameserver.model.gameobjects.Npc;
@@ -33,9 +33,9 @@ import com.aionemu.gameserver.utils.PacketSendUtility;
 public class _1003IllegalLogging extends QuestHandler
 {
 
-	private final static int	questId	= 1003;
-	private final static int[]	mob_ids	= {210096, 210149, 210145, 210146, 210150, 210151, 210092, 210160, 210154};
-	
+	private final static int	questId = 1003;
+	private final static int[]	mob_ids = {210096, 210149, 210145, 210146, 210150, 210151, 210092, 210160, 210154};
+
 	public _1003IllegalLogging()
 	{
 		super(questId);
@@ -62,7 +62,7 @@ public class _1003IllegalLogging extends QuestHandler
 		updateQuestStatus(player, qs);
 		return true;
 	}
-	
+
 	@Override
 	public boolean onDialogEvent(QuestEnv env)
 	{
@@ -87,7 +87,7 @@ public class _1003IllegalLogging extends QuestHandler
 							return sendQuestDialog(player, env.getVisibleObject().getObjectId(), 1011);
 						else if (var == 13)
 							return sendQuestDialog(player, env.getVisibleObject().getObjectId(), 1352);
-							
+
 					case 10000:
 					case 10001:
 						if (var == 0 || var == 13)
@@ -106,7 +106,7 @@ public class _1003IllegalLogging extends QuestHandler
 		}
 		return false;
 	}
-	
+
 	@Override
 	public boolean onKillEvent(QuestEnv env)
 	{
@@ -124,14 +124,14 @@ public class _1003IllegalLogging extends QuestHandler
 			return false;
 		switch (targetId)
 		{
-			case 210096: 
-			case 210149: 
-			case 210145: 
-			case 210146: 
-			case 210150: 
+			case 210096:
+			case 210149:
+			case 210145:
+			case 210146:
+			case 210150:
 			case 210151:
 			case 210092:
-			case 210154:	
+			case 210154:
 				if (var >=1 && var <=12)
 				{
 					qs.setQuestVarById(0, var + 1);

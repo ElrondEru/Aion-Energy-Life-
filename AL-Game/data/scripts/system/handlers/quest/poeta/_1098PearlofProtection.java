@@ -1,19 +1,19 @@
 /*
- * This file is part of aion-unique <aion-unique.org>.
- *
- *  aion-unique is free software: you can redistribute it and/or modify
- *  it under the terms of the GNU General Public License as published by
- *  the Free Software Foundation, either version 3 of the License, or
- *  (at your option) any later version.
- *
- *  aion-unique is distributed in the hope that it will be useful,
- *  but WITHOUT ANY WARRANTY; without even the implied warranty of
- *  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- *  GNU General Public License for more details.
- *
- *  You should have received a copy of the GNU General Public License
- *  along with aion-unique.  If not, see <http://www.gnu.org/licenses/>.
- */
+	This file is part of aion-unique <aion-unique.org>.
+
+	aion-unique is free software: you can redistribute it and/or modify
+	it under the terms of the GNU General Public License as published by
+	the Free Software Foundation, either version 3 of the License, or
+	(at your option) any later version.
+
+	aion-unique is distributed in the hope that it will be useful,
+	but WITHOUT ANY WARRANTY; without even the implied warranty of
+	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+	GNU General Public License for more details.
+
+	You should have received a copy of the GNU General Public License
+	along with aion-unique. If not, see <http://www.gnu.org/licenses/>.
+*/
 package quest.poeta;
 
 import java.util.Collections;
@@ -37,7 +37,7 @@ import com.aionemu.gameserver.utils.PacketSendUtility;
 public class _1098PearlofProtection extends QuestHandler
 {
 
-	private final static int	questId	= 1098;
+	private final static int	questId = 1098;
 
 	public _1098PearlofProtection()
 	{
@@ -65,7 +65,7 @@ public class _1098PearlofProtection extends QuestHandler
 		qe.setNpcQuestData(798212).addOnTalkEvent(questId); //Serimnir
 		qe.setNpcQuestData(204535).addOnTalkEvent(questId); //Maximus
 	}
-	
+
 	@Override
 	public boolean onLvlUpEvent(QuestEnv env)
 	{
@@ -102,7 +102,7 @@ public class _1098PearlofProtection extends QuestHandler
 						updateQuestStatus(player, qs);
 						PacketSendUtility.sendPacket(player, new SM_DIALOG_WINDOW(env.getVisibleObject()
 						.getObjectId(), 10));
-						if (ItemService.addItems(player, Collections.singletonList(new QuestItems(182206062, 1))));	
+						if (ItemService.addItems(player, Collections.singletonList(new QuestItems(182206062, 1))));
 						return true;
 					}
 
@@ -125,7 +125,7 @@ public class _1098PearlofProtection extends QuestHandler
 					return defaultQuestEndDialog(env);
 			}
 		}
-		
+
 		else if(targetId == 730008) //Daminu
 		{
 
@@ -146,7 +146,7 @@ public class _1098PearlofProtection extends QuestHandler
 			}
 
 		}
-		
+
 		else if(targetId == 730019) //Lodas
 		{
 			if(qs != null && qs.getStatus() == QuestStatus.START && qs.getQuestVarById(0) == 2)
@@ -165,7 +165,7 @@ public class _1098PearlofProtection extends QuestHandler
 					return defaultQuestStartDialog(env);
 			}
 		}
-		
+
 		else if(targetId == 730133) //Arbolu
 		{
 			if(qs != null && qs.getStatus() == QuestStatus.START && qs.getQuestVarById(0) == 3)
@@ -179,14 +179,14 @@ public class _1098PearlofProtection extends QuestHandler
 					updateQuestStatus(player, qs);
 					PacketSendUtility
 						.sendPacket(player, new SM_DIALOG_WINDOW(env.getVisibleObject().getObjectId(), 10));
-					if (ItemService.addItems(player, Collections.singletonList(new QuestItems(182206063, 1))));	
+					if (ItemService.addItems(player, Collections.singletonList(new QuestItems(182206063, 1))));
 					return true;
 				}
 				else
 					return defaultQuestStartDialog(env);
 			}
 		}
-		
+
 		else if(targetId == 203183) //Khidia
 		{
 			if(qs != null && qs.getStatus() == QuestStatus.START && qs.getQuestVarById(0) == 4)
@@ -205,7 +205,7 @@ public class _1098PearlofProtection extends QuestHandler
 					return defaultQuestStartDialog(env);
 			}
 		}
-		
+
 		else if(targetId == 203989) //Tumblusen
 		{
 			if(qs != null && qs.getStatus() == QuestStatus.START && qs.getQuestVarById(0) == 5)
@@ -224,7 +224,7 @@ public class _1098PearlofProtection extends QuestHandler
 					return defaultQuestStartDialog(env);
 			}
 		}
-		
+
 		else if(targetId == 798155) //Atropos
 		{
 			if(qs != null && qs.getStatus() == QuestStatus.START && qs.getQuestVarById(0) == 6)
@@ -262,7 +262,7 @@ public class _1098PearlofProtection extends QuestHandler
 					return defaultQuestStartDialog(env);
 			}
 		}
-		
+
 		else if(targetId == 203752) //Jucleas
 		{
 			if(qs != null && qs.getStatus() == QuestStatus.START && qs.getQuestVarById(0) == 8)
@@ -276,7 +276,7 @@ public class _1098PearlofProtection extends QuestHandler
 					updateQuestStatus(player, qs);
 					PacketSendUtility
 						.sendPacket(player, new SM_DIALOG_WINDOW(env.getVisibleObject().getObjectId(), 10));
-					if (ItemService.addItems(player, Collections.singletonList(new QuestItems(182206064, 1))));	
+					if (ItemService.addItems(player, Collections.singletonList(new QuestItems(182206064, 1))));
 					return true;
 				}
 				else
@@ -302,7 +302,7 @@ public class _1098PearlofProtection extends QuestHandler
 					return defaultQuestStartDialog(env);
 			}
 		}
-		
+
 		else if(targetId == 203917) //Gaia
 		{
 			if(qs != null && qs.getStatus() == QuestStatus.START && qs.getQuestVarById(0) == 10)
@@ -321,7 +321,7 @@ public class _1098PearlofProtection extends QuestHandler
 					return defaultQuestStartDialog(env);
 			}
 		}
-		
+
 		else if(targetId == 203996) //Kimeia
 		{
 			if(qs != null && qs.getStatus() == QuestStatus.START && qs.getQuestVarById(0) == 11)
@@ -359,7 +359,7 @@ public class _1098PearlofProtection extends QuestHandler
 					return defaultQuestStartDialog(env);
 			}
 		}
-		
+
 		else if(targetId == 798212) //Serimnir
 		{
 			if(qs != null && qs.getStatus() == QuestStatus.START && qs.getQuestVarById(0) == 13)

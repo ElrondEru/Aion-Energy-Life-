@@ -1,19 +1,19 @@
 /*
- * This file is part of aion-unique <aion-unique.org>.
- *
- * aion-unique is free software: you can redistribute it and/or modify
- * it under the terms of the GNU General Public License as published by
- * the Free Software Foundation, either version 3 of the License, or
- * (at your option) any later version.
- *
- * aion-unique is distributed in the hope that it will be useful,
- * but WITHOUT ANY WARRANTY; without even the implied warranty of
- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- * GNU General Public License for more details.
- *
- * You should have received a copy of the GNU General Public License
- * along with aion-unique.  If not, see <http://www.gnu.org/licenses/>.
- */
+	This file is part of aion-unique <aion-unique.org>.
+
+	aion-unique is free software: you can redistribute it and/or modify
+	it under the terms of the GNU General Public License as published by
+	the Free Software Foundation, either version 3 of the License, or
+	(at your option) any later version.
+
+	aion-unique is distributed in the hope that it will be useful,
+	but WITHOUT ANY WARRANTY; without even the implied warranty of
+	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+	GNU General Public License for more details.
+
+	You should have received a copy of the GNU General Public License
+	along with aion-unique. If not, see <http://www.gnu.org/licenses/>.
+*/
 package quest.poeta;
 
 import com.aionemu.gameserver.model.gameobjects.Item;
@@ -30,11 +30,11 @@ import com.aionemu.gameserver.utils.PacketSendUtility;
 
 /**
  * @author MrPoke
- * 
+ *
  */
 public class _1107TheLostAxe extends QuestHandler
 {
-	private final static int	questId	= 1107;
+	private final static int	questId = 1107;
 
 	public _1107TheLostAxe()
 	{
@@ -61,7 +61,7 @@ public class _1107TheLostAxe extends QuestHandler
 		{
 			if(env.getDialogId() == 1002)
 			{
-				QuestService.startQuest(env, QuestStatus.START);				
+				QuestService.startQuest(env, QuestStatus.START);
 				PacketSendUtility.sendPacket(player, new SM_DIALOG_WINDOW(0, 0));
 				return true;
 			}
@@ -90,7 +90,7 @@ public class _1107TheLostAxe extends QuestHandler
 		}
 		return false;
 	}
-	
+
 	@Override
 	public boolean onItemUseEvent(QuestEnv env, Item item)
 	{
@@ -105,5 +105,5 @@ public class _1107TheLostAxe extends QuestHandler
 		if(qs == null || qs.getStatus() == QuestStatus.NONE)
 			sendQuestDialog(player, 0, 4);
 			return true;
-	}	
+	}
 }
