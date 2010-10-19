@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<npc_skill_templates>
+<?xml version="1.0" encoding="UTF-8"?>
+<npc_skill_templates xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="npc_skills.xsd">
 	<npcskills npcid="201010" skill_count="6">
 		<npcskill abouthp="false" probability="10" skilllevel="1" skillid="17436" id="1"/>
 		<npcskill abouthp="false" probability="10" skilllevel="1" skillid="17610" id="2"/>

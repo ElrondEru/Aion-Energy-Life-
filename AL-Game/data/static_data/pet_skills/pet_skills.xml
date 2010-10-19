@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<pet_skill_templates>
+<?xml version="1.0" encoding="UTF-8"?>
+<pet_skill_templates xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="pet_skills.xsd">
 	<pet_skill skill_id="17424" pet_id="201011" order_skill="1659"/>
 	<pet_skill skill_id="17428" pet_id="201015" order_skill="1659"/>
 	<pet_skill skill_id="17635" pet_id="201019" order_skill="1659"/>

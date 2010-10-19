@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ae_static_data xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="static_data.xsd">
-<!-- 
-	This file is an entry point for all xml data files. 
+<!--
+	This file is an entry point for all xml data files.
 
 	Server when starting is reading this file and using XmlMerger is including other
 	files according to the <import> tags, output file is saved in /cache/static_data.xml
@@ -15,7 +15,7 @@
 		<import file="some_file.xml"/>
 	Merger will just include content of the some_file.xml (omitting attributes of root node)
 	Instead of some_file.xml we can type name of directory, then all xml files in that
-	directory ( and deeper - recursively ) will be loaded. 
+	directory ( and deeper - recursively ) will be loaded.
 
 	We can add optional attribute "skipRoot":
 		<import file="some_file.xml" skipRoot="true"/>
@@ -57,7 +57,7 @@
 	static_data.xsd schema file must be valid for use both:
 		* by merged xml file ( because it'll be used for validation when loading)
 		* by every single xml file ( IDE will use it to validate xml files, when editing)
- -->
+-->
 	<import file="world_maps.xml"/>
 	<import file="npc_trade_list.xml"/>
 	<import file="npc_teleporter.xml"/>

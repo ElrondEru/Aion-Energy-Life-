@@ -59,7 +59,7 @@
 		<object x="1843.3987" y="1547.3662" z="590.02148" h="0" staticid="38"/>
 		<object x="1853.0854" y="1548.2163" z="590.02148" h="0" staticid="104"/>
 	</spawn>
-	
+
 	<!-- Armor Forge armor_craft -->
 	<spawn map="110010000" npcid="150000010" pool="6" handler="STATIC">
 		<object x="1893.3452" y="1560.7787" z="590.04059" h="0" staticid="21"/>

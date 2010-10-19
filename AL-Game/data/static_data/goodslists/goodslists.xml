@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<goodslists>
+<?xml version="1.0" encoding="UTF-8"?>
+<goodslists xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="goodslists.xsd">
 	<list id="1">
 		<item id="169500001"/>
 		<item id="169500002"/>
@@ -26739,7 +26739,7 @@
 		<item id="112601044"/>
 		<item id="113601054"/>
 		<item id="114601050"/>
-	</list>	
+	</list>
 	<list id="1003">
 		<item id="110101196"/>
 		<item id="111101086"/>

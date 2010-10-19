@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <warehouse_expander xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="warehouse_expander.xsd">
-	<!-- Warehouse Expander	-->
 	<!-- Sanctum -->
 	<warehouse_npc id="203749" name="Bustant">
 		<expand level="1" price="1200"/>
@@ -324,7 +323,7 @@
 		<expand level="8" price="2000000000"/>
 		<expand level="9" price="2000000000"/>
 		<expand level="10" price="2000000000"/>
-	</warehouse_npc>	
+	</warehouse_npc>
 	<warehouse_npc id="799013" name="Phoulion">
 		<expand level="1" price="1200"/>
 		<expand level="2" price="24000"/>

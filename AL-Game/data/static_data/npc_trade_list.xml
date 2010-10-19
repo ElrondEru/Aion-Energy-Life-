@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<npc_trade_list>
+<?xml version="1.0" encoding="UTF-8"?>
+<npc_trade_list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="npc_trade_list.xsd">
 	<tradelist_template npc_id="203060" name="mune" count="4">
 		<tradelist id="129"/>
 		<tradelist id="130"/>
@@ -2311,7 +2311,7 @@
 		<tradelist id="1002"/>
 		<tradelist id="1003"/>
 		<tradelist id="1004"/>
-	</tradelist_template>	
+	</tradelist_template>
 	<tradelist_template npc_id="204766" name="Maponus" count="5">
 		<tradelist id="1000"/>
 		<tradelist id="1001"/>

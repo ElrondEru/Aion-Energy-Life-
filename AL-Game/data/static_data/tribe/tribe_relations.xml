@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<tribe_relations>
+<?xml version="1.0" encoding="UTF-8"?>
+<tribe_relations xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="tribe_relations.xsd">
 	<tribe name="PC">
 		<friend>
 			<to>LIGHT_SUR_MOB</to>

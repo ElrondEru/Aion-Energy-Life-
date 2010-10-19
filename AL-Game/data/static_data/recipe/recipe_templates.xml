@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<recipe_templates>
+<?xml version="1.0" encoding="UTF-8"?>
+<recipe_templates xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="recipe_templates.xsd">
 	<recipe_template id="155000001" nameid="1460557" skillid="40009" race="PC_LIGHT" skillpoint="1" dp="200" autolearn="1" productid="152000401" quantity="3" componentquantity="1">
 		<component quantity="1" itemid="152000901"/>
 	</recipe_template>

@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<item_sets>
+<?xml version="1.0" encoding="UTF-8"?>
+<item_sets xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="item_sets.xsd">
 	<itemset id="1" name="Cloth Armor Set (Test)">
 		<itempart itemid="110100919"/>
 		<itempart itemid="113100831"/>
@@ -3275,9 +3275,9 @@
 		<fullbonus>
 			<modifiers>
 			  <add name="BOOST_HEAL" value="15" bonus="true"/>
-				<add name="PHYSICAL_CRITICAL" value="93" bonus="true"/> 
+				<add name="PHYSICAL_CRITICAL" value="93" bonus="true"/>
 			</modifiers>
-		</fullbonus> 
+		</fullbonus>
 	</itemset>
 	<itemset id="147" name="Forsaken Temple Plate Set">
 		<itempart itemid="110600963"/>
@@ -5146,9 +5146,9 @@
 		<fullbonus>
 			<modifiers>
 			  <add name="HEAL_BOOST" value="15" bonus="true"/>
-				<add name="PHYSICAL_CRITICAL_DAMAGE_REDUCE" value="93" bonus="true"/> 
+				<add name="PHYSICAL_CRITICAL_DAMAGE_REDUCE" value="93" bonus="true"/>
 			</modifiers>
-		</fullbonus> 
+		</fullbonus>
 	</itemset>
 	<itemset id="147" name="Forsaken Temple Plate Set">
 		<itempart itemid="110600963"/>

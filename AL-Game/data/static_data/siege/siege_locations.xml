@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<siege_locations>
+<siege_locations xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="siege_locations.xsd">
 	<siege_location id="0" type="UNDERPASS" world="210050000"/>
 	<siege_location id="0" type="UNDERPASS" world="220070000"/>
 	<siege_location id="1" type="INDUN" world="210040000"/>

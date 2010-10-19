@@ -168,7 +168,7 @@
 	<player_stats class="CLERIC" level="50">
 		<stats_template maxHp="4212" maxMp="5538" power="105" health="110" agility="90" accuracy="90" knowledge="105" will="110" walk_speed="1.5" run_speed="6" fly_speed="9" attack_speed="1.5" evasion="651" block="651" parry="651" main_hand_attack="18" main_hand_accuracy="568" main_hand_crit_rate="1" magic_accuracy="713"/>
 	</player_stats>
-	<!--From here stats calculated by XobotyI--> 
+	<!--From here stats calculated by XobotyI-->
 	<player_stats class="CLERIC" level="51">
 		<stats_template maxHp="4340" maxMp="5642" power="105" health="110" agility="90" accuracy="90" knowledge="110" will="115" walk_speed="1.5" run_speed="6" fly_speed="9" attack_speed="1.5" evasion="664" block="664" parry="664" main_hand_attack="18" main_hand_accuracy="578" main_hand_crit_rate="1" magic_accuracy="724"/>
 	</player_stats>

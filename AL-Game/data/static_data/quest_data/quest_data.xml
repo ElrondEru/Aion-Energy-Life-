@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<quests>
+<quests xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="quest_data.xsd">
 	<quest max_repeat_count="1" minlevel_permitted="99" nameId="2201001" name="Symbol of the Chosen" id="85">
 		<rewards exp="100" gold="100"/>
 	</quest>
@@ -25897,15 +25897,15 @@
 	<quest race_permitted="ASMODIANS" cannot_share="true" max_repeat_count="1" minlevel_permitted="51" id="21073">
 		<rewards exp="884700" gold="22800">
 			<reward_item count="5" item_id="164000070"/>
-		</rewards> 
+		</rewards>
 	</quest>
 	<quest race_permitted="ASMODIANS" cannot_share="true" max_repeat_count="1" minlevel_permitted="51" id="21074">
-		<rewards exp="884700" gold="22800"/> 
+		<rewards exp="884700" gold="22800"/>
 	</quest>
 	<quest race_permitted="ASMODIANS" cannot_share="true" max_repeat_count="10" minlevel_permitted="51" id="21077">
 		<rewards exp="1049100" gold="16100">
 			<reward_item count="5" item_id="162000077"/>
-		</rewards> 
+		</rewards>
 	</quest>
 	<quest race_permitted="ASMODIANS" max_repeat_count="10" minlevel_permitted="50" id="21078">
 		<collect_items>
@@ -26146,7 +26146,7 @@
 		<rewards exp="2974900" gold="34730">
 			<selectable_reward_item count="1" item_id="160002288"/>
 			<selectable_reward_item count="1" item_id="160002290"/>
-		</rewards> 
+		</rewards>
 	</quest>
 	<quest race_permitted="ASMODIANS" max_repeat_count="1" minlevel_permitted="54" id="21200">
 		<collect_items>

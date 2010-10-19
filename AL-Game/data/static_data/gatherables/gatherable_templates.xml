@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gatherable_templates>
+<?xml version="1.0" encoding="UTF-8"?>
+<gatherable_templates xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="gatherable_templates.xsd">
 	<gatherable_template id="400001" name="Kukuru" nameId="701957" sourceType="VEGETABLE" harvestCount="3" skillLevel="20" harvestSkill="30002" successAdj="100" failureAdj="100" aerialAdj="100">
 		<materials>
 			<material rate="10000000" nameid="1404043" itemid="152000001" name="Kukuru"/>

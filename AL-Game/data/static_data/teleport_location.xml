@@ -27,7 +27,7 @@
     <teleloc_template loc_id="110" mapid="120020000" name="DC2_Airport_ZONE_Entrance" posX="1559.2" posY="1426.9" posZ="265.7" heading="0"/>
     <teleloc_template loc_id="97" mapid="120010000" name="DC1_Airport_ZONE_Port" posX="943.9" posY="1126.1" posZ="206.9" heading="0"/>
     <teleloc_template loc_id="98" mapid="220070000" name="DF4_Airport_ZONE" posX="1771.5" posY="2892.2" posZ="548.8" heading="0"/>
-    <!-- ELYOS -->   
+    <!-- ELYOS -->
 	<teleloc_template loc_id="36" mapid="400010000" name="Siels Western Fortress" posX="2984" posY="2596" posZ="1489" heading="33"/>
 	<teleloc_template loc_id="37" mapid="400010000" name="Siels Eastern Fortess" posX="2802" posY="3212" posZ="1472" heading="33"/>
 	<teleloc_template loc_id="39" mapid="400010000" name="Sulfur Archipelago" posX="1402" posY="1179" posZ="1514" heading="0"/>
@@ -38,7 +38,7 @@
 	<teleloc_template loc_id="46" mapid="400010000" name="Kysis Fortress" posX="2530" posY="2094" posZ="3049" heading="93"/>
 	<teleloc_template loc_id="47" mapid="400010000" name="Miren Fortress" posX="1770" posY="2259" posZ="2949" heading="0"/>
 	<teleloc_template loc_id="48" mapid="400010000" name="Asteria Fortress" posX="718" posY="2957" posZ="2920" heading="0"/>
-	<!-- ASMODIANS -->   
+	<!-- ASMODIANS -->
 	<teleloc_template loc_id="50" mapid="400010000" name="Eastern Shard of Latesran" posX="1644" posY="2881" posZ="1667" heading="0"/>
 	<teleloc_template loc_id="52" mapid="400010000" name="Western Shard of Latesran" posX="2100" posY="593" posZ="1567" heading="0"/>
 	<teleloc_template loc_id="54" mapid="400010000" name="Siels Western Fortress" posX="2984" posY="2596" posZ="1489" heading="33"/>
@@ -105,17 +105,17 @@
 	<teleloc_template loc_id="86" mapid="220050000" name="Settler's Camp Site"/>
 	<teleloc_template loc_id="87" mapid="220050000" name="Baltasar Hill Village"/>
 	<teleloc_template loc_id="88" mapid="220050000" name="BuBu Village"/>
-	<!-- Inggison --> 
+	<!-- Inggison -->
     <teleloc_template loc_id="99" mapid="210050000" name="Underground Fortress Observation Base"/>
     <teleloc_template loc_id="100" mapid="210050000" name="Inggison Illusion Fortress"/>
     <teleloc_template loc_id="101" mapid="210050000" name="Sotena Sanctuary Village"/>
-    <!-- Gelkmaros --> 
+    <!-- Gelkmaros -->
     <teleloc_template loc_id="102" mapid="220070000" name="Gelkmaros Fortress"/>
 	<teleloc_template loc_id="103" mapid="220070000" name="Rhombus Refugee Village"/>
 	<teleloc_template loc_id="104" mapid="220070000" name="Underground City observation Post"/>
 	<teleloc_template loc_id="93" mapid="220070000" name="DF4_Dyn_D_3011"/>
 	<teleloc_template loc_id="94" mapid="220070000" name="DF4_Dyn_D_3021"/>
-    <!-- Abyss\Reshanta -->   
+    <!-- Abyss\Reshanta -->
 	<teleloc_template loc_id="43" mapid="400010000" name="Elyos Western Lower Layer Of Latesran"/>
 	<teleloc_template loc_id="41" mapid="400010000" name="Elyos Eastern Lower Layer Of Latesran"/>
 	<teleloc_template loc_id="53" mapid="400010000" name="Asmo Western Lower Layer Of Latesran"/>
