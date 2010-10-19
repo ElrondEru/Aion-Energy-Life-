@@ -1,412 +1,329 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <quest_scripts xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="quest_script_data.xsd">
 <!--
-    Quest Inggison
-    @Author Kortana For Aion: Helion Prime 2.0.0.3
- -->
-        <!-- [Group] Chantra Dredgion Blues -->
-		<item_collecting id="3724" start_npc_id="799069"/>
-		
-        <!-- Oppressed! All Right, Ignored -->
-		<monster_hunt start_npc_id="798939" id="11002">
-            <monster_infos var_id="0" npc_id="215780" max_kill="15"/>
-			<monster_infos var_id="1" npc_id="215496" max_kill="20"/>
-        </monster_hunt>
+	This file is part of aion-unique.
 
-        <!-- Talking Crestlich -->
-		<item_collecting id="11003" start_npc_id="798933" end_npc_id="798997"/>
-		
-		<!-- Alchemical Solution -->
-		<item_collecting id="11004" start_npc_id="798933"/>
-           
-        <!-- Letter Of Encouragement -->
-		<report_to start_npc_id="798927" end_npc_id="798997" item_id="182206710" id="11008"/>
-		
-		<!-- Lapide Preservation -->
-		<monster_hunt start_npc_id="798951" id="11023">
-            <monster_infos var_id="0" npc_id="215498" max_kill="10"/>
-			<monster_infos var_id="1" npc_id="215490" max_kill="20"/>
-        </monster_hunt>
-  
-        <!-- Talking Crestlich -->
-		<item_collecting id="11024" start_npc_id="799049"/>
-		
-		<!-- Do Bocos Tell Bawk-Bawk Jokes? -->
-		<item_collecting id="11025" start_npc_id="798950"/>
-		
-		<!-- Stelvia's Sanctum Support Structure -->
-		<monster_hunt start_npc_id="798951" id="11027">
-            <monster_infos var_id="0" npc_id="215517" max_kill="7"/>
-			<monster_infos var_id="1" npc_id="215516" max_kill="8"/>
-        </monster_hunt>
-		
-		<!-- Fluid Nature Of Evolution -->
-		<item_collecting id="11028" start_npc_id="798951"/>
-		
-		<!-- Poor, Poor Delus -->
-	    <monster_hunt start_npc_id="798960" id="11029">
-            <monster_infos var_id="0" npc_id="215536" max_kill="20"/>
-        </monster_hunt>
-		
-		<!-- Murder The Mosswing -->
-	    <monster_hunt start_npc_id="798960" id="11030">
-            <monster_infos var_id="0" npc_id="216486" max_kill="1"/>
-        </monster_hunt>
-		
-		<!-- Stelvia's Sanctum Support Structure -->
-		<monster_hunt start_npc_id="798957" id="11034">
-            <monster_infos var_id="0" npc_id="215576" max_kill="12"/>
-			<monster_infos var_id="1" npc_id="215528" max_kill="10"/>
-        </monster_hunt>
-		
-		<!-- A Pack Of Plumas -->
-		<monster_hunt start_npc_id="798955" id="11035">
-            <monster_infos var_id="0" npc_id="215530" max_kill="15"/>
-			<monster_infos var_id="1" npc_id="216487" max_kill="1"/>
-        </monster_hunt>
-		
-		<!-- An Amoral Meal -->
-		<item_collecting id="11037" start_npc_id="798956"/>
-		
-		<!-- [Coin/Group] Example: Shulacks -->
-		<item_collecting id="11042" start_npc_id="798957"/>
-		
-		<!-- Pompous Adias -->
-		<item_collecting id="11044" start_npc_id="798953"/>
-		
-		<!-- Crosia's Circumstances -->
-	    <monster_hunt start_npc_id="798952" id="11045">
-            <monster_infos var_id="0" npc_id="215525" max_kill="22"/>
-        </monster_hunt>
-		
-		<!-- [Coin] What's Up, Brohum? -->
-		<item_collecting id="11047" start_npc_id="798952"/>
-		
-		<!-- [Coin] Taloc Rebirth Operation -->
-		<monster_hunt start_npc_id="798954" id="11048">
-            <monster_infos var_id="0" npc_id="216139" max_kill="329"/>
-			<monster_infos var_id="0" npc_id="215464" max_kill="231"/>
-			<monster_infos var_id="1" npc_id="215454" max_kill="77"/>
-        </monster_hunt>
-		
-		<!-- Paris I Love You -->
-		<item_collecting id="11051" start_npc_id="798989"/>
-		
-		<!-- Gloves And Glossy Beads -->
-		<item_collecting id="11052" start_npc_id="798984"/>
-		
-		<!-- These Shoes Are Made For Stalking -->
-		<item_collecting id="11053" start_npc_id="799015"/>
-		
-		<!-- [Group] Accounts About The Armor -->
-		<item_collecting id="11054" start_npc_id="799017"/>
-		
-		<!-- [Group] Another Piece -->
-		<item_collecting id="11055" start_npc_id="798990"/>
-		
-		<!-- [PvP] Temenos's Request -->
-		<item_collecting id="11064" start_npc_id="799043"/>
-		
-		<!-- [PvP] Mudthorn Of Viscum Swamp -->
-		<item_collecting id="11065" start_npc_id="799043"/>
-		
-		<!-- [PvP] A Shield Situation -->
-		<item_collecting id="11066" start_npc_id="799049"/>
-		
-		<!-- [PvP] Temenos's Request -->
-		<item_collecting id="11067" start_npc_id="799049"/>
-		
-		<!-- A Mysterious Wind -->
-		<report_to start_npc_id="799026" end_npc_id="799025" item_id="182206858" id="11068"/>
-		
-		<!-- Mookie Travel Tips -->
-		<report_to start_npc_id="798956" end_npc_id="799035" id="11069"/>
-		
-		<!-- Fish With Feet -->
-	    <monster_hunt start_npc_id="798943" id="11071">
-            <monster_infos var_id="0" npc_id="215532" max_kill="25"/>
-        </monster_hunt>
-		
-		<!-- Night Hunter -->
-	    <monster_hunt start_npc_id="798936" id="11073">
-		    <monster_infos var_id="0" npc_id="215534" max_kill="11"/>
-            <monster_infos var_id="1" npc_id="215528" max_kill="20"/>
-        </monster_hunt>
-		
-		<!-- Ride The Wind -->
-		<report_to start_npc_id="798938" end_npc_id="799025" id="11074"/>
-		
-		<!-- The Netherworld Breathes -->
-		<report_to start_npc_id="798939" end_npc_id="799067" id="11075"/>
-		
-		<!-- Allergic To What? -->
-	    <monster_hunt start_npc_id="798983" id="11100">
-            <monster_infos var_id="0" npc_id="215593" max_kill="20"/>
-        </monster_hunt>
-		
-		<!-- Dragon's Breath -->
-		<item_collecting id="11101" start_npc_id="798981"/>
-		
-		<!-- Petrified Sampling -->
-		<monster_hunt start_npc_id="798981" id="11102">
-            <monster_infos var_id="0" npc_id="216489" max_kill="1"/>
-			<monster_infos var_id="0" npc_id="216490" max_kill="1"/>
-			<monster_infos var_id="1" npc_id="216491" max_kill="1"/>
-        </monster_hunt>
-		
-		<!-- Levilus And His Leather -->
-		<item_collecting id="11108" start_npc_id="798965"/>
-		
-		<!-- The Negotiators -->
-		<report_to start_npc_id="798971" end_npc_id="799075" id="11109"/>
-		
-		<!-- Killing Time -->
-	    <monster_hunt start_npc_id="799075" id="11110">
-		    <monster_infos var_id="0" npc_id="217039" max_kill="10"/>
-            <monster_infos var_id="1" npc_id="217040" max_kill="10"/>
-        </monster_hunt>
-		
-		<!-- Kill The Corrupted Sage -->
-		<monster_hunt start_npc_id="799075" id="11111">
-            <monster_infos var_id="0" npc_id="217074" max_kill="1"/>
-        </monster_hunt>
-		
-		<!-- There's Gold In That Thar Valley -->
-		<item_collecting id="11112" start_npc_id="798984"/>
-		
-		<!-- Not For You! -->
-		<item_collecting id="11113" start_npc_id="798984"/>
-		
-		<!-- Pixiebelle's Gold -->
-		<item_collecting id="11114" start_npc_id="798984"/>
-		
-		<!-- In Our Hour Of Need -->
-		<item_collecting id="11115" start_npc_id="798985"/>
-		
-		<!-- Menacing Creature -->
-		<monster_hunt start_npc_id="798989" id="11119">
-            <monster_infos var_id="0" npc_id="215658" max_kill="15"/>
-			<monster_infos var_id="1" npc_id="215652" max_kill="13"/>
-        </monster_hunt>
-		
-		<!-- Enter The Dragonbound -->
-		<monster_hunt start_npc_id="798991" id="11120">
-            <monster_infos var_id="0" npc_id="215642" max_kill="7"/>
-			<monster_infos var_id="0" npc_id="215644" max_kill="7"/>
-			<monster_infos var_id="1" npc_id="215648" max_kill="7"/>
-        </monster_hunt>
-		
-		<!-- Auralia's Been Angry -->
-		<monster_hunt start_npc_id="798999" id="11124">
-            <monster_infos var_id="0" npc_id="215716" max_kill="12"/>
-			<monster_infos var_id="1" npc_id="215718" max_kill="8"/>
-        </monster_hunt>
-		
-		<!-- Leaking Drana -->
-		<item_collecting id="11125" start_npc_id="798996"/>
-		
-		<!-- A Worthy Adversary -->
-		<monster_hunt start_npc_id="798998" id="11126">
-            <monster_infos var_id="0" npc_id="215694" max_kill="17"/>
-			<monster_infos var_id="1" npc_id="215696" max_kill="15"/>
-        </monster_hunt>
-		
-		<!-- Perfect Killing Machines -->
-		<item_collecting id="11127" start_npc_id="798998"/>
-		
-		<!-- Dead In Three Breaths -->
-		<item_collecting id="11128" start_npc_id="798998"/>
-		
-		<!-- Death Comes With A Smile -->
-	    <monster_hunt start_npc_id="798981" id="11138">
-            <monster_infos var_id="0" npc_id="215597" max_kill="15"/>
-        </monster_hunt>
-		
-		<!-- Me Jewels Be Stoled! -->
-		<monster_hunt start_npc_id="799076" id="11140">
-            <monster_infos var_id="0" npc_id="215599" max_kill="20"/>
-        </monster_hunt>
-		
-		<!-- A Mother's Revenge -->
-		<monster_hunt start_npc_id="798985" id="11141">
-            <monster_infos var_id="0" npc_id="216473" max_kill="12"/>
-        </monster_hunt>
-		
-		<!-- Warm Love -->
-		<item_collecting id="11142" start_npc_id="798986"/>
-		
-		<!-- Sueros's Headache -->
-	    <monster_hunt start_npc_id="799030" id="11144">
-		    <monster_infos var_id="0" npc_id="215656" max_kill="10"/>
-            <monster_infos var_id="1" npc_id="215654" max_kill="7"/>
-        </monster_hunt>
-		
-		<!-- Undirborg Enterprise -->
-	    <monster_hunt start_npc_id="799030" id="11145">
-		    <monster_infos var_id="0" npc_id="215676" max_kill="10"/>
-            <monster_infos var_id="1" npc_id="215686" max_kill="10"/>
-        </monster_hunt>
-		
-		<!-- What Rollia Likes -->
-	    <item_collecting id="11146" start_npc_id="798997"/>
-		
-		<!-- Local Delicacies -->
-		<item_collecting id="11148" start_npc_id="798993"/>
-		
-		<!-- [Alliance] An Urgent Mission -->
-		<monster_hunt start_npc_id="799007" id="11200">
-            <monster_infos var_id="0" npc_id="257065" max_kill="20"/>
-        </monster_hunt>
-		
-		<!-- A Safer Crater -->
-		<monster_hunt start_npc_id="799009" id="11202">
-            <monster_infos var_id="0" npc_id="215730" max_kill="12"/>
-			<monster_infos var_id="1" npc_id="215733" max_kill="10"/>
-        </monster_hunt>
-		
-		<!-- Essence Of Sulfur -->
-	    <item_collecting id="11203" start_npc_id="799008"/>
-		
-		<!-- Protect What's Ours -->
-	    <item_collecting id="11205" start_npc_id="799004"/>
-		
-		<!-- Acidproof Armor -->
-	    <item_collecting id="11206" start_npc_id="799005"/>
-		
-		<!-- Damn Tree Creatures -->
-		<monster_hunt start_npc_id="799019" id="11213">
-            <monster_infos var_id="0" npc_id="215758" max_kill="20"/>
-			<monster_infos var_id="1" npc_id="215870" max_kill="10"/>
-        </monster_hunt>
-		
-		<!-- [Alliance] Moras's Cool Judgment -->
-		<monster_hunt start_npc_id="799018" id="11214">
-            <monster_infos var_id="0" npc_id="257065" max_kill="20"/>
-        </monster_hunt>
-		
-		<!-- Making Do -->
-	    <item_collecting id="11220" start_npc_id="799016"/>
-	    
-		<!-- Living In Obscura Ty -->
-	    <item_collecting id="11221" start_npc_id="799015"/>
-	    
-		<!-- Watching The Past -->
-	    <monster_hunt start_npc_id="257225" id="11222">
-            <monster_infos var_id="0" npc_id="215872" max_kill="10"/>
-			<monster_infos var_id="1" npc_id="215873" max_kill="15"/>
-        </monster_hunt>
-	    
-		<!-- Just A Taste -->
-	    <item_collecting id="11223" start_npc_id="799000"/>
-		
-		<!-- Swords And Spectacles -->
-		<monster_hunt start_npc_id="799019" id="11224">
-            <monster_infos var_id="0" npc_id="216593" max_kill="7"/>
-			<monster_infos var_id="1" npc_id="216594" max_kill="7"/>
-        </monster_hunt>
-		
-		<!-- Easy As 4,3,2,1 -->
-	    <monster_hunt start_npc_id="799076" id="11227">
-            <monster_infos var_id="0" npc_id="217071" max_kill="1"/>
-			<monster_infos var_id="0" npc_id="217070" max_kill="1"/>
-			<monster_infos var_id="1" npc_id="217069" max_kill="1"/>
-			<monster_infos var_id="1" npc_id="217068" max_kill="1"/>
-        </monster_hunt>
-		
-		<!-- Allergic Reaction -->
-		<item_collecting id="11229" start_npc_id="296491"/>
-		
-		<!-- Many Nibbles In A Bite -->
-		<item_collecting start_npc_id="798952" id="11450"/>
-		
-		<!-- For What Ails You -->
-		<report_to start_npc_id="798952" end_npc_id="798933" id="11451"/>
-		
-		<!-- Last Part Of The Cure -->
-		<item_collecting id="11452" start_npc_id="798933"/>
-		
-		<!-- Fruit Of My Labor -->
-		<report_to start_npc_id="798933" end_npc_id="799070" id="11453"/>
-		
-		<!-- The Ripe Stuff -->
-		<item_collecting id="11454" start_npc_id="799070"/>
-		
-		<!-- When The Time Is Ripe -->
-		<report_to start_npc_id="799070" end_npc_id="798946" item_id="182209503" id="11455"/>
-		
-		<!-- The Exterminator -->
-	    <monster_hunt start_npc_id="798952" id="11456">
-            <monster_infos var_id="0" npc_id="215468" max_kill="100"/>
-        </monster_hunt>
-		
-		<!-- Wood-N'T You Know It?-->
-		<item_collecting id="11457" start_npc_id="798953"/>
-		
-		<!-- The Balance -->
-	    <monster_hunt start_npc_id="798952" id="11459">
-            <monster_infos var_id="0" npc_id="215483" max_kill="40"/>
-        </monster_hunt>
-		
-		<!-- The Shulack Of Taloc -->
-		<report_to start_npc_id="798954" end_npc_id="798985" id="11460"/>
-		
-		<!-- Axe A Favor -->
-		<report_to start_npc_id="799032" end_npc_id="799030" id="30012"/>
-		
-		<!-- [Coin/Group] A New Spin On Death -->
-	    <monster_hunt start_npc_id="799031" id="30033">
-            <monster_infos var_id="0" npc_id="215848" max_kill="10"/>
-        </monster_hunt>
-		
-		<!-- Poison Paradise -->
-	    <monster_hunt start_npc_id="799031" id="30053">
-            <monster_infos var_id="0" npc_id="216364" max_kill="5"/>
-			<monster_infos var_id="0" npc_id="216365" max_kill="5"/>
-			<monster_infos var_id="1" npc_id="216366" max_kill="5"/>
-        </monster_hunt>
-		
-		<!-- Supplies Party -->
-		<item_collecting id="30201" start_npc_id="798926"/>
-		
-		<!-- [Group] Halt The Ceremony! -->
-	    <monster_hunt start_npc_id="798926" id="30203">
-            <monster_infos var_id="0" npc_id="216255" max_kill="1"/>
-			<monster_infos var_id="0" npc_id="216257" max_kill="1"/>
-			<monster_infos var_id="1" npc_id="216259" max_kill="1"/>
-			<monster_infos var_id="1" npc_id="216261" max_kill="1"/>
-			<monster_infos var_id="2" npc_id="216263" max_kill="1"/>
-        </monster_hunt>
-		
-		<!-- Pilomenes' Advice -->
-		<report_to start_npc_id="798926" end_npc_id="798941" id="30204"/>
-		
-		<!-- A Monument Rubbed -->
-		<item_collecting id="30205" start_npc_id="798941"/>
-		
-		<!-- Decree of Valor -->
-		<item_collecting id="30214" start_npc_id="798927"/>
-		
-		<!-- To Help A Hushblade -->
-		<item_collecting id="30215" start_npc_id="798928"/>
-		
-		<!-- [Group] Cleansing The Temple -->
-	    <monster_hunt start_npc_id="798926" id="30244">
-            <monster_infos var_id="0" npc_id="216202" max_kill="20"/>
-			<monster_infos var_id="0" npc_id="216215" max_kill="10"/>
-			<monster_infos var_id="1" npc_id="216198" max_kill="40"/>
-        </monster_hunt>
-		
-		<!-- [Coin/Group] Nightshades' Last Days -->
-	    <monster_hunt start_npc_id="798926" id="30245">
-            <monster_infos var_id="0" npc_id="216231" max_kill="12"/>
-        </monster_hunt>
-		
-		<!-- [Daily] A Taste For Adventure -->
-		<item_collecting id="36015" start_npc_id="799837"/>
-		
-		<!-- Sake Of Beauty -->
-		<item_collecting id="38502" start_npc_id="799085"/>
-		
-		<!-- Sake Of Balance -->
-		<item_collecting id="38505" start_npc_id="799085"/>
+	aion-unique is free software: you can redistribute it and/or modify
+	it under the terms of the GNU General Public License as published by
+	the Free Software Foundation, either version 3 of the License, or
+	(at your option) any later version.
+
+	aion-unique is distributed in the hope that it will be useful,
+	but WITHOUT ANY WARRANTY; without even the implied warranty of
+	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+	GNU General Public License for more details.
+
+	You should have received a copy of the GNU General Public License
+	along with aion-unique.  If not, see <http://www.gnu.org/licenses/>.
+
+	@Author Kortana For Aion: Helion Prime 2.0.0.3
+-->
+
+	<!-- [Group] Chantra Dredgion Blues -->
+	<item_collecting id="3724" start_npc_id="799069"/>
+	<!-- Oppressed! All Right, Ignored -->
+	<monster_hunt start_npc_id="798939" id="11002">
+		<monster_infos var_id="0" npc_id="215780" max_kill="15"/>
+		<monster_infos var_id="1" npc_id="215496" max_kill="20"/>
+	</monster_hunt>
+	<!-- Talking Crestlich -->
+	<item_collecting id="11003" start_npc_id="798933" end_npc_id="798997"/>
+	<!-- Alchemical Solution -->
+	<item_collecting id="11004" start_npc_id="798933"/>
+	<!-- Letter Of Encouragement -->
+	<report_to start_npc_id="798927" end_npc_id="798997" item_id="182206710" id="11008"/>
+	<!-- Lapide Preservation -->
+	<monster_hunt start_npc_id="798951" id="11023">
+		<monster_infos var_id="0" npc_id="215498" max_kill="10"/>
+		<monster_infos var_id="1" npc_id="215490" max_kill="20"/>
+	</monster_hunt>
+	<!-- Talking Crestlich -->
+	<item_collecting id="11024" start_npc_id="799049"/>
+	<!-- Do Bocos Tell Bawk-Bawk Jokes? -->
+	<item_collecting id="11025" start_npc_id="798950"/>
+	<!-- Stelvia's Sanctum Support Structure -->
+	<monster_hunt start_npc_id="798951" id="11027">
+		<monster_infos var_id="0" npc_id="215517" max_kill="7"/>
+		<monster_infos var_id="1" npc_id="215516" max_kill="8"/>
+	</monster_hunt>
+	<!-- Fluid Nature Of Evolution -->
+	<item_collecting id="11028" start_npc_id="798951"/>
+	<!-- Poor, Poor Delus -->
+	<monster_hunt start_npc_id="798960" id="11029">
+		<monster_infos var_id="0" npc_id="215536" max_kill="20"/>
+	</monster_hunt>
+	<!-- Murder The Mosswing -->
+	<monster_hunt start_npc_id="798960" id="11030">
+		<monster_infos var_id="0" npc_id="216486" max_kill="1"/>
+	</monster_hunt>
+	<!-- Stelvia's Sanctum Support Structure -->
+	<monster_hunt start_npc_id="798957" id="11034">
+		<monster_infos var_id="0" npc_id="215576" max_kill="12"/>
+		<monster_infos var_id="1" npc_id="215528" max_kill="10"/>
+	</monster_hunt>
+	<!-- A Pack Of Plumas -->
+	<monster_hunt start_npc_id="798955" id="11035">
+		<monster_infos var_id="0" npc_id="215530" max_kill="15"/>
+		<monster_infos var_id="1" npc_id="216487" max_kill="1"/>
+	</monster_hunt>
+	<!-- An Amoral Meal -->
+	<item_collecting id="11037" start_npc_id="798956"/>
+	<!-- [Coin/Group] Example: Shulacks -->
+	<item_collecting id="11042" start_npc_id="798957"/>
+	<!-- Pompous Adias -->
+	<item_collecting id="11044" start_npc_id="798953"/>
+	<!-- Crosia's Circumstances -->
+	<monster_hunt start_npc_id="798952" id="11045">
+		<monster_infos var_id="0" npc_id="215525" max_kill="22"/>
+	</monster_hunt>
+	<!-- [Coin] What's Up, Brohum? -->
+	<item_collecting id="11047" start_npc_id="798952"/>
+	<!-- [Coin] Taloc Rebirth Operation -->
+	<monster_hunt start_npc_id="798954" id="11048">
+		<monster_infos var_id="0" npc_id="216139" max_kill="329"/>
+		<monster_infos var_id="0" npc_id="215464" max_kill="231"/>
+		<monster_infos var_id="1" npc_id="215454" max_kill="77"/>
+	</monster_hunt>
+	<!-- Paris I Love You -->
+	<item_collecting id="11051" start_npc_id="798989"/>
+	<!-- Gloves And Glossy Beads -->
+	<item_collecting id="11052" start_npc_id="798984"/>
+	<!-- These Shoes Are Made For Stalking -->
+	<item_collecting id="11053" start_npc_id="799015"/>
+	<!-- [Group] Accounts About The Armor -->
+	<item_collecting id="11054" start_npc_id="799017"/>
+	<!-- [Group] Another Piece -->
+	<item_collecting id="11055" start_npc_id="798990"/>
+	<!-- [PvP] Temenos's Request -->
+	<item_collecting id="11064" start_npc_id="799043"/>
+	<!-- [PvP] Mudthorn Of Viscum Swamp -->
+	<item_collecting id="11065" start_npc_id="799043"/>
+	<!-- [PvP] A Shield Situation -->
+	<item_collecting id="11066" start_npc_id="799049"/>
+	<!-- [PvP] Temenos's Request -->
+	<item_collecting id="11067" start_npc_id="799049"/>
+	<!-- A Mysterious Wind -->
+	<report_to start_npc_id="799026" end_npc_id="799025" item_id="182206858" id="11068"/>
+	<!-- Mookie Travel Tips -->
+	<report_to start_npc_id="798956" end_npc_id="799035" id="11069"/>
+	<!-- Fish With Feet -->
+	<monster_hunt start_npc_id="798943" id="11071">
+		<monster_infos var_id="0" npc_id="215532" max_kill="25"/>
+	</monster_hunt>
+	<!-- Night Hunter -->
+	<monster_hunt start_npc_id="798936" id="11073">
+		<monster_infos var_id="0" npc_id="215534" max_kill="11"/>
+		<monster_infos var_id="1" npc_id="215528" max_kill="20"/>
+	</monster_hunt>
+	<!-- Ride The Wind -->
+	<report_to start_npc_id="798938" end_npc_id="799025" id="11074"/>
+	<!-- The Netherworld Breathes -->
+	<report_to start_npc_id="798939" end_npc_id="799067" id="11075"/>
+	<!-- Allergic To What? -->
+	<monster_hunt start_npc_id="798983" id="11100">
+		<monster_infos var_id="0" npc_id="215593" max_kill="20"/>
+	</monster_hunt>
+	<!-- Dragon's Breath -->
+	<item_collecting id="11101" start_npc_id="798981"/>
+	<!-- Petrified Sampling -->
+	<monster_hunt start_npc_id="798981" id="11102">
+		<monster_infos var_id="0" npc_id="216489" max_kill="1"/>
+		<monster_infos var_id="0" npc_id="216490" max_kill="1"/>
+		<monster_infos var_id="1" npc_id="216491" max_kill="1"/>
+	</monster_hunt>
+	<!-- Levilus And His Leather -->
+	<item_collecting id="11108" start_npc_id="798965"/>
+	<!-- The Negotiators -->
+	<report_to start_npc_id="798971" end_npc_id="799075" id="11109"/>
+	<!-- Killing Time -->
+	<monster_hunt start_npc_id="799075" id="11110">
+		<monster_infos var_id="0" npc_id="217039" max_kill="10"/>
+		<monster_infos var_id="1" npc_id="217040" max_kill="10"/>
+	</monster_hunt>
+	<!-- Kill The Corrupted Sage -->
+	<monster_hunt start_npc_id="799075" id="11111">
+		<monster_infos var_id="0" npc_id="217074" max_kill="1"/>
+	</monster_hunt>
+	<!-- There's Gold In That Thar Valley -->
+	<item_collecting id="11112" start_npc_id="798984"/>
+	<!-- Not For You! -->
+	<item_collecting id="11113" start_npc_id="798984"/>
+	<!-- Pixiebelle's Gold -->
+	<item_collecting id="11114" start_npc_id="798984"/>
+	<!-- In Our Hour Of Need -->
+	<item_collecting id="11115" start_npc_id="798985"/>
+	<!-- Menacing Creature -->
+	<monster_hunt start_npc_id="798989" id="11119">
+		<monster_infos var_id="0" npc_id="215658" max_kill="15"/>
+		<monster_infos var_id="1" npc_id="215652" max_kill="13"/>
+	</monster_hunt>
+	<!-- Enter The Dragonbound -->
+	<monster_hunt start_npc_id="798991" id="11120">
+		<monster_infos var_id="0" npc_id="215642" max_kill="7"/>
+		<monster_infos var_id="0" npc_id="215644" max_kill="7"/>
+		<monster_infos var_id="1" npc_id="215648" max_kill="7"/>
+	</monster_hunt>
+	<!-- Auralia's Been Angry -->
+	<monster_hunt start_npc_id="798999" id="11124">
+		<monster_infos var_id="0" npc_id="215716" max_kill="12"/>
+		<monster_infos var_id="1" npc_id="215718" max_kill="8"/>
+	</monster_hunt>
+	<!-- Leaking Drana -->
+	<item_collecting id="11125" start_npc_id="798996"/>
+	<!-- A Worthy Adversary -->
+	<monster_hunt start_npc_id="798998" id="11126">
+		<monster_infos var_id="0" npc_id="215694" max_kill="17"/>
+		<monster_infos var_id="1" npc_id="215696" max_kill="15"/>
+	</monster_hunt>
+	<!-- Perfect Killing Machines -->
+	<item_collecting id="11127" start_npc_id="798998"/>
+	<!-- Dead In Three Breaths -->
+	<item_collecting id="11128" start_npc_id="798998"/>
+	<!-- Death Comes With A Smile -->
+	<monster_hunt start_npc_id="798981" id="11138">
+		<monster_infos var_id="0" npc_id="215597" max_kill="15"/>
+	</monster_hunt>
+	<!-- Me Jewels Be Stoled! -->
+	<monster_hunt start_npc_id="799076" id="11140">
+		<monster_infos var_id="0" npc_id="215599" max_kill="20"/>
+	</monster_hunt>
+	<!-- A Mother's Revenge -->
+	<monster_hunt start_npc_id="798985" id="11141">
+		<monster_infos var_id="0" npc_id="216473" max_kill="12"/>
+	</monster_hunt>
+	<!-- Warm Love -->
+	<item_collecting id="11142" start_npc_id="798986"/>
+	<!-- Sueros's Headache -->
+	<monster_hunt start_npc_id="799030" id="11144">
+		<monster_infos var_id="0" npc_id="215656" max_kill="10"/>
+		<monster_infos var_id="1" npc_id="215654" max_kill="7"/>
+	</monster_hunt>
+	<!-- Undirborg Enterprise -->
+	<monster_hunt start_npc_id="799030" id="11145">
+		<monster_infos var_id="0" npc_id="215676" max_kill="10"/>
+		<monster_infos var_id="1" npc_id="215686" max_kill="10"/>
+	</monster_hunt>
+	<!-- What Rollia Likes -->
+	<item_collecting id="11146" start_npc_id="798997"/>
+	<!-- Local Delicacies -->
+	<item_collecting id="11148" start_npc_id="798993"/>
+	<!-- [Alliance] An Urgent Mission -->
+	<monster_hunt start_npc_id="799007" id="11200">
+		<monster_infos var_id="0" npc_id="257065" max_kill="20"/>
+	</monster_hunt>
+	<!-- A Safer Crater -->
+	<monster_hunt start_npc_id="799009" id="11202">
+		<monster_infos var_id="0" npc_id="215730" max_kill="12"/>
+		<monster_infos var_id="1" npc_id="215733" max_kill="10"/>
+	</monster_hunt>
+	<!-- Essence Of Sulfur -->
+	<item_collecting id="11203" start_npc_id="799008"/>
+	<!-- Protect What's Ours -->
+	<item_collecting id="11205" start_npc_id="799004"/>
+	<!-- Acidproof Armor -->
+	<item_collecting id="11206" start_npc_id="799005"/>
+	<!-- Damn Tree Creatures -->
+	<monster_hunt start_npc_id="799019" id="11213">
+		<monster_infos var_id="0" npc_id="215758" max_kill="20"/>
+		<monster_infos var_id="1" npc_id="215870" max_kill="10"/>
+	</monster_hunt>
+	<!-- [Alliance] Moras's Cool Judgment -->
+	<monster_hunt start_npc_id="799018" id="11214">
+		<monster_infos var_id="0" npc_id="257065" max_kill="20"/>
+	</monster_hunt>
+	<!-- Making Do -->
+	<item_collecting id="11220" start_npc_id="799016"/>
+	<!-- Living In Obscura Ty -->
+	<item_collecting id="11221" start_npc_id="799015"/>
+	<!-- Watching The Past -->
+	<monster_hunt start_npc_id="257225" id="11222">
+		<monster_infos var_id="0" npc_id="215872" max_kill="10"/>
+		<monster_infos var_id="1" npc_id="215873" max_kill="15"/>
+	</monster_hunt>
+	<!-- Just A Taste -->
+	<item_collecting id="11223" start_npc_id="799000"/>
+	<!-- Swords And Spectacles -->
+	<monster_hunt start_npc_id="799019" id="11224">
+		<monster_infos var_id="0" npc_id="216593" max_kill="7"/>
+		<monster_infos var_id="1" npc_id="216594" max_kill="7"/>
+	</monster_hunt>
+	<!-- Easy As 4,3,2,1 -->
+	<monster_hunt start_npc_id="799076" id="11227">
+		<monster_infos var_id="0" npc_id="217071" max_kill="1"/>
+		<monster_infos var_id="0" npc_id="217070" max_kill="1"/>
+		<monster_infos var_id="1" npc_id="217069" max_kill="1"/>
+		<monster_infos var_id="1" npc_id="217068" max_kill="1"/>
+	</monster_hunt>
+	<!-- Allergic Reaction -->
+	<item_collecting id="11229" start_npc_id="296491"/>
+	<!-- Many Nibbles In A Bite -->
+	<item_collecting start_npc_id="798952" id="11450"/>
+	<!-- For What Ails You -->
+	<report_to start_npc_id="798952" end_npc_id="798933" id="11451"/>
+	<!-- Last Part Of The Cure -->
+	<item_collecting id="11452" start_npc_id="798933"/>
+	<!-- Fruit Of My Labor -->
+	<report_to start_npc_id="798933" end_npc_id="799070" id="11453"/>
+	<!-- The Ripe Stuff -->
+	<item_collecting id="11454" start_npc_id="799070"/>
+	<!-- When The Time Is Ripe -->
+	<report_to start_npc_id="799070" end_npc_id="798946" item_id="182209503" id="11455"/>
+	<!-- The Exterminator -->
+	<monster_hunt start_npc_id="798952" id="11456">
+		<monster_infos var_id="0" npc_id="215468" max_kill="100"/>
+	</monster_hunt>
+	<!-- Wood-N'T You Know It?-->
+	<item_collecting id="11457" start_npc_id="798953"/>
+	<!-- The Balance -->
+	<monster_hunt start_npc_id="798952" id="11459">
+		<monster_infos var_id="0" npc_id="215483" max_kill="40"/>
+	</monster_hunt>
+	<!-- The Shulack Of Taloc -->
+	<report_to start_npc_id="798954" end_npc_id="798985" id="11460"/>
+	<!-- Axe A Favor -->
+	<report_to start_npc_id="799032" end_npc_id="799030" id="30012"/>
+	<!-- [Coin/Group] A New Spin On Death -->
+	<monster_hunt start_npc_id="799031" id="30033">
+		<monster_infos var_id="0" npc_id="215848" max_kill="10"/>
+	</monster_hunt>
+	<!-- Poison Paradise -->
+	<monster_hunt start_npc_id="799031" id="30053">
+		<monster_infos var_id="0" npc_id="216364" max_kill="5"/>
+		<monster_infos var_id="0" npc_id="216365" max_kill="5"/>
+		<monster_infos var_id="1" npc_id="216366" max_kill="5"/>
+	</monster_hunt>
+	<!-- Supplies Party -->
+	<item_collecting id="30201" start_npc_id="798926"/>
+	<!-- [Group] Halt The Ceremony! -->
+	<monster_hunt start_npc_id="798926" id="30203">
+		<monster_infos var_id="0" npc_id="216255" max_kill="1"/>
+		<monster_infos var_id="0" npc_id="216257" max_kill="1"/>
+		<monster_infos var_id="1" npc_id="216259" max_kill="1"/>
+		<monster_infos var_id="1" npc_id="216261" max_kill="1"/>
+		<monster_infos var_id="2" npc_id="216263" max_kill="1"/>
+	</monster_hunt>
+	<!-- Pilomenes' Advice -->
+	<report_to start_npc_id="798926" end_npc_id="798941" id="30204"/>
+	<!-- A Monument Rubbed -->
+	<item_collecting id="30205" start_npc_id="798941"/>
+	<!-- Decree of Valor -->
+	<item_collecting id="30214" start_npc_id="798927"/>
+	<!-- To Help A Hushblade -->
+	<item_collecting id="30215" start_npc_id="798928"/>
+	<!-- [Group] Cleansing The Temple -->
+	<monster_hunt start_npc_id="798926" id="30244">
+		<monster_infos var_id="0" npc_id="216202" max_kill="20"/>
+		<monster_infos var_id="0" npc_id="216215" max_kill="10"/>
+		<monster_infos var_id="1" npc_id="216198" max_kill="40"/>
+	</monster_hunt>
+	<!-- [Coin/Group] Nightshades' Last Days -->
+	<monster_hunt start_npc_id="798926" id="30245">
+		<monster_infos var_id="0" npc_id="216231" max_kill="12"/>
+	</monster_hunt>
+	<!-- [Daily] A Taste For Adventure -->
+	<item_collecting id="36015" start_npc_id="799837"/>
+	<!-- Sake Of Beauty -->
+	<item_collecting id="38502" start_npc_id="799085"/>
+	<!-- Sake Of Balance -->
+	<item_collecting id="38505" start_npc_id="799085"/>
 </quest_scripts>

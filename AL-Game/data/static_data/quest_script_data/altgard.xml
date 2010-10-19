@@ -1,21 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <quest_scripts xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="quest_script_data.xsd">
 <!--
-  ~ This file is part of aion-unique.
-  ~
-  ~ aion-unique is free software: you can redistribute it and/or modify
-  ~ it under the terms of the GNU General Public License as published by
-  ~ the Free Software Foundation, either version 3 of the License, or
-  ~ (at your option) any later version.
-  ~
-  ~ aion-unique is distributed in the hope that it will be useful,
-  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
-  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-  ~ GNU General Public License for more details.
-  ~
-  ~ You should have received a copy of the GNU General Public License
-  ~ along with aion-unique.  If not, see <http://www.gnu.org/licenses/>.
-  -->
+	This file is part of aion-unique.
+
+	aion-unique is free software: you can redistribute it and/or modify
+	it under the terms of the GNU General Public License as published by
+	the Free Software Foundation, either version 3 of the License, or
+	(at your option) any later version.
+
+	aion-unique is distributed in the hope that it will be useful,
+	but WITHOUT ANY WARRANTY; without even the implied warranty of
+	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+	GNU General Public License for more details.
+
+	You should have received a copy of the GNU General Public License
+	along with aion-unique.  If not, see <http://www.gnu.org/licenses/>.
+-->
+
 	<!-- http://www.aionarmory.com/search.aspx?browse=4.3.6#quests:0+2+1 -->
 	<!-- TODO: [Spend Coin] Iron (Mage and Priest) -->
 	<!-- TODO: [Spend Coin] Iron (Warrior and Scout) -->
@@ -275,6 +276,6 @@
 	</monster_hunt>
 	<!-- Follow The Leaders And Kill'Em -->
 	<monster_hunt start_npc_id="203649" id="28504">
-        <monster_infos var_id="0" npc_id="216912" max_kill="65"/>
-    </monster_hunt>
+		<monster_infos var_id="0" npc_id="216912" max_kill="65"/>
+	</monster_hunt>
 </quest_scripts>

@@ -1,21 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <quest_scripts xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="quest_script_data.xsd">
 <!--
-  ~ This file is part of aion-unique.
-  ~
-  ~ aion-unique is free software: you can redistribute it and/or modify
-  ~ it under the terms of the GNU General Public License as published by
-  ~ the Free Software Foundation, either version 3 of the License, or
-  ~ (at your option) any later version.
-  ~
-  ~ aion-unique is distributed in the hope that it will be useful,
-  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
-  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-  ~ GNU General Public License for more details.
-  ~
-  ~ You should have received a copy of the GNU General Public License
-  ~ along with aion-unique.  If not, see <http://www.gnu.org/licenses/>.
-  -->
+	This file is part of aion-unique.
+
+	aion-unique is free software: you can redistribute it and/or modify
+	it under the terms of the GNU General Public License as published by
+	the Free Software Foundation, either version 3 of the License, or
+	(at your option) any later version.
+
+	aion-unique is distributed in the hope that it will be useful,
+	but WITHOUT ANY WARRANTY; without even the implied warranty of
+	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+	GNU General Public License for more details.
+
+	You should have received a copy of the GNU General Public License
+	along with aion-unique.  If not, see <http://www.gnu.org/licenses/>.
+-->
+
 	<!-- TODO: Unearthing the Truth -->
 	<!-- Kerubar Interference -->
 	<monster_hunt id="3002" start_npc_id="798132">
@@ -234,7 +235,7 @@
 	<!-- TODO: A Decisive Clue -->
 	<!-- A Statue that Came to Life -->
 	<item_collecting id="3104" start_npc_id="798206"/>
-	
+
 	<!-- Berserk Silikor -->
 	<monster_hunt id="3097" start_npc_id="798225">
 		<monster_infos npc_id="214668" var_id="0" max_kill="1"/>
@@ -242,7 +243,7 @@
 	<!-- TODO: Cursed Zirius -->
 	<!-- TODO: Diving for Treasure -->
 	<!-- Examine the Extraction Devices -->
-	<item_collecting id="3096" start_npc_id="798225" />
+	<item_collecting id="3096" start_npc_id="798225"/>
 	<!-- Fugitive Scopind -->
 	<item_collecting id="3055" start_npc_id="798195"/>
 	<!-- In Search of Zirius -->

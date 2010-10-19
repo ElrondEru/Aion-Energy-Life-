@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <quest_scripts xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="quest_script_data.xsd">
 <!--
-  ~ This file is part of aion-unique.
-  ~
-  ~ aion-unique is free software: you can redistribute it and/or modify
-  ~ it under the terms of the GNU General Public License as published by
-  ~ the Free Software Foundation, either version 3 of the License, or
-  ~ (at your option) any later version.
-  ~
-  ~ aion-unique is distributed in the hope that it will be useful,
-  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
-  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-  ~ GNU General Public License for more details.
-  ~
-  ~ You should have received a copy of the GNU General Public License
-  ~ along with aion-unique.  If not, see <http://www.gnu.org/licenses/>.
-  -->
+	This file is part of aion-unique.
+
+	aion-unique is free software: you can redistribute it and/or modify
+	it under the terms of the GNU General Public License as published by
+	the Free Software Foundation, either version 3 of the License, or
+	(at your option) any later version.
+
+	aion-unique is distributed in the hope that it will be useful,
+	but WITHOUT ANY WARRANTY; without even the implied warranty of
+	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+	GNU General Public License for more details.
+
+	You should have received a copy of the GNU General Public License
+	along with aion-unique.  If not, see <http://www.gnu.org/licenses/>.
+-->
 
 	<!-- Love Suicide -->
 	<report_to start_npc_id="798949" end_npc_id="203893" id="3974"/>
@@ -95,8 +95,8 @@
 			<npc_dialog id="1353"/>
 			<set_quest_var var_id="0" value="1"/>
 			</operations>
-			</dialog>			 
-			<dialog id="10000">								
+			</dialog>
+			<dialog id="10000">
 					</dialog>
 				</npc>
 			</var>
@@ -164,7 +164,7 @@
 	<!-- TODO: A Lingering Mystery -->
 	<!-- An Ax For Namus -->
 	<item_collecting id="1918" start_npc_id="203175"/>
-	
+
 	<!-- The Seed Of Evil -->
 	<item_collecting id="1910" start_npc_id="203833"/>
 	<!-- Marmeia's Krall Research -->
@@ -197,25 +197,25 @@
 	<!-- A Costume on Consignment -->
 	<report_to id="1986" start_npc_id="798009" end_npc_id="203810"/>
 	<!-- A Secret Summons -->
-        <xml_quest id="3913" start_npc_id="203725" end_npc_id="278536">
-                <on_talk_event ids="203752">
-                        <var value="0">
-                                <npc id="203752">
-                                        <dialog id="25">
-                                                <operations>
-                                                        <npc_dialog id="1352"/>
-                                                </operations>
-                                        </dialog>
-                                        <dialog id="10000">
-                                                <operations>
-                                                        <set_quest_var var_id="0" value="1"/>
-                                                        <set_quest_status status="REWARD"/>
-                                                </operations>
-                                        </dialog>
-                                </npc>
-                        </var>
-                </on_talk_event>
-        </xml_quest>
+		<xml_quest id="3913" start_npc_id="203725" end_npc_id="278536">
+				<on_talk_event ids="203752">
+						<var value="0">
+								<npc id="203752">
+										<dialog id="25">
+												<operations>
+														<npc_dialog id="1352"/>
+												</operations>
+										</dialog>
+										<dialog id="10000">
+												<operations>
+														<set_quest_var var_id="0" value="1"/>
+														<set_quest_status status="REWARD"/>
+												</operations>
+										</dialog>
+								</npc>
+						</var>
+				</on_talk_event>
+		</xml_quest>
 	<!-- TODO: Chasing a Criminal -->
 	<!-- TODO: Secret Library Access -->
 	<!-- D'yer Ma'ker -->
@@ -340,8 +340,8 @@
 	<item_collecting id="1930" start_npc_id="203767"/>
 	<!-- Going Out Of Business -->
 	<monster_hunt start_npc_id="203703" id="1939">
-        <monster_infos var_id="0" npc_id="700265" max_kill="3"/>
-    </monster_hunt>
+		<monster_infos var_id="0" npc_id="700265" max_kill="3"/>
+	</monster_hunt>
 	<!-- A Matter Of Reputation -->
 	<item_collecting id="1932" start_npc_id="203893"/>
 	<!-- TODO: [Growth] Flora's Second Charm -->
@@ -373,8 +373,8 @@
 	<!-- TODO: [Group] Rescue Haorunerk! -->
 	<!-- Revenge Of Himusus -->
 	<monster_hunt start_npc_id="203703" id="3213">
-        <monster_infos var_id="0" npc_id="203735" max_kill="20"/>
-    </monster_hunt>
+		<monster_infos var_id="0" npc_id="203735" max_kill="20"/>
+	</monster_hunt>
 	<!-- [Group] Steel Rake Spy -->
 	<report_to id="3209" start_npc_id="798320" end_npc_id="798331"/>
 	<!-- [Group] The Difficulties Of Beauty -->

@@ -1,21 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <quest_scripts xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="quest_script_data.xsd">
 <!--
-  ~ This file is part of aion-unique.
-  ~
-  ~ aion-unique is free software: you can redistribute it and/or modify
-  ~ it under the terms of the GNU General Public License as published by
-  ~ the Free Software Foundation, either version 3 of the License, or
-  ~ (at your option) any later version.
-  ~
-  ~ aion-unique is distributed in the hope that it will be useful,
-  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
-  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-  ~ GNU General Public License for more details.
-  ~
-  ~ You should have received a copy of the GNU General Public License
-  ~ along with aion-unique.  If not, see <http://www.gnu.org/licenses/>.
-  -->
+	This file is part of aion-unique.
+
+	aion-unique is free software: you can redistribute it and/or modify
+	it under the terms of the GNU General Public License as published by
+	the Free Software Foundation, either version 3 of the License, or
+	(at your option) any later version.
+
+	aion-unique is distributed in the hope that it will be useful,
+	but WITHOUT ANY WARRANTY; without even the implied warranty of
+	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+	GNU General Public License for more details.
+
+	You should have received a copy of the GNU General Public License
+	along with aion-unique.  If not, see <http://www.gnu.org/licenses/>.
+-->
+
 	<!-- TODO: A Chain of Debt -->
 	<!-- Elementary, My Dear Daeva -->
 	<item_collecting start_npc_id="204141" id="2920"/>
@@ -26,7 +27,7 @@
 	<!-- Secretive Communication -->
 	<report_to id="4965" start_npc_id="204182" end_npc_id="204207" item_id="182207135"/>
 	<!-- Advice Of Destiny -->
-	<report_to id="4930" start_npc_id="204083" end_npc_id="204059" item_id="164000010"/>	
+	<report_to id="4930" start_npc_id="204083" end_npc_id="204059" item_id="164000010"/>
 	<!-- Enlightenment Of Destiny -->
 	<report_to id="4931" start_npc_id="204059" end_npc_id="204059" item_id="164000010"/>
 	<!-- Teachings of Destiny -->

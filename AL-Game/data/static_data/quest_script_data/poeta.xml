@@ -1,21 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <quest_scripts xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="quest_script_data.xsd">
 <!--
-  ~ This file is part of aion-unique.
-  ~
-  ~ aion-unique is free software: you can redistribute it and/or modify
-  ~ it under the terms of the GNU General Public License as published by
-  ~ the Free Software Foundation, either version 3 of the License, or
-  ~ (at your option) any later version.
-  ~
-  ~ aion-unique is distributed in the hope that it will be useful,
-  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
-  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-  ~ GNU General Public License for more details.
-  ~
-  ~ You should have received a copy of the GNU General Public License
-  ~ along with aion-unique.  If not, see <http://www.gnu.org/licenses/>.
-  -->
+	This file is part of aion-unique.
+
+	aion-unique is free software: you can redistribute it and/or modify
+	it under the terms of the GNU General Public License as published by
+	the Free Software Foundation, either version 3 of the License, or
+	(at your option) any later version.
+
+	aion-unique is distributed in the hope that it will be useful,
+	but WITHOUT ANY WARRANTY; without even the implied warranty of
+	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+	GNU General Public License for more details.
+
+	You should have received a copy of the GNU General Public License
+	along with aion-unique.  If not, see <http://www.gnu.org/licenses/>.
+
+	@fix by Undertrey
+-->
 
 	<!-- 1000 Prologue handled by script -->
 	<!-- 1001 The Kerub Threat handled by script -->
@@ -24,8 +26,8 @@
 	<!-- 1004 Neutralizing Odium handled by script -->
 	<!-- 1005 Barring the Gate handled by script -->
 	<!-- 1100 Kalio's Call handled by script -->
-	<!-- 1097 Sword of Transcendence -->
-	<!-- 1098 Pearl of Protection -->
+	<!-- 1097 Sword of Transcendence handled by script -->
+	<!-- 1098 Pearl of Protection handled by script -->
 	<!-- Sleeping on the Job -->
 	<report_to start_npc_id="203049" end_npc_id="203057" id="1101"/>
 	<!-- Kerubar Hunt -->
@@ -48,7 +50,7 @@
 	<item_collecting start_npc_id="798007" action_item_id="700106" id="1109"/>
 	<!-- A Book for Namus -->
 	<report_to start_npc_id="203065" end_npc_id="203075" item_id="182200206" id="1110"/>
-	<!-- 1111 Insomnia Medicine -->
+	<!-- 1111 Insomnia Medicine handled by script -->
 	<!-- To Fish in Peace -->
 	<monster_hunt start_npc_id="203072" id="1112">
 		<monster_infos npc_id="210259" var_id="0" max_kill="5"/>

@@ -1,23 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <quest_scripts xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="quest_script_data.xsd">
 <!--
-  ~ This file is part of aion-unique.
-  ~
-  ~ aion-unique is free software: you can redistribute it and/or modify
-  ~ it under the terms of the GNU General Public License as published by
-  ~ the Free Software Foundation, either version 3 of the License, or
-  ~ (at your option) any later version.
-  ~
-  ~ aion-unique is distributed in the hope that it will be useful,
-  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
-  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-  ~ GNU General Public License for more details.
-  ~
-  ~ You should have received a copy of the GNU General Public License
-  ~ along with aion-unique.  If not, see <http://www.gnu.org/licenses/>.
-  
+	This file is part of aion-unique.
+
+	aion-unique is free software: you can redistribute it and/or modify
+	it under the terms of the GNU General Public License as published by
+	the Free Software Foundation, either version 3 of the License, or
+	(at your option) any later version.
+
+	aion-unique is distributed in the hope that it will be useful,
+	but WITHOUT ANY WARRANTY; without even the implied warranty of
+	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+	GNU General Public License for more details.
+
+	You should have received a copy of the GNU General Public License
+	along with aion-unique.  If not, see <http://www.gnu.org/licenses/>.
+
 	@author Hilgert, alikasfreak, Nephis, Ares, M@xx
 -->
+
 	<!-- TODO: Quest Id: 1701  Governor's Directive -->
 	<!-- TODO: Quest Id: 1072  Abyss Training -->
 	<!-- TODO: Quest Id: 1717  Silver for the Fountain -->
@@ -350,7 +351,7 @@
 	<!-- TODO: Quest Id: 2713  [Spend Coin] Silver (Warrior/Scout) -->
 	<!-- TODO: Quest Id: 2714  [Spend Coin] Silver (Mage/Priest) -->
 	<!-- Vindachinerk's Demand -->
-	<item_collecting id="1796" start_npc_id="279016"/>	
+	<item_collecting id="1796" start_npc_id="279016"/>
 	<!-- Vindachinerk's Scroll -->
 	<report_to id="1797" start_npc_id="279016" end_npc_id="798012" item_id="182202166"/>
 	<!-- TODO: Quest Id: 1799  Pupil's Diary -->
@@ -396,10 +397,10 @@
 	<item_collecting id="1781" start_npc_id="278610"/>
 	<!-- End The Corruption -->
 	<monster_hunt start_npc_id="278611" id="1782">
-    	<monster_infos var_id="0" npc_id="255160" max_kill="10"/>
+		<monster_infos var_id="0" npc_id="255160" max_kill="10"/>
 	</monster_hunt>
 	<!-- The Best Defense Is A Good Offense -->
-    <item_collecting id="1784" start_npc_id="268051"/>
+	<item_collecting id="1784" start_npc_id="268051"/>
 	<!-- Clearing Out The Asmodian Landing -->
 	<item_collecting id="1778" start_npc_id="266553"/>
 	<!-- Tenacious Archon -->
@@ -560,7 +561,7 @@
 	<!-- TODO: Quest Id: 2832  [Craft] Tigraki Tailoring -->
 	<!-- [Group] For The Black Cloud Traders -->
 	<monster_hunt start_npc_id="279010" id="3205">
-    	<monster_infos var_id="0" npc_id="215049" max_kill="15"/>
+		<monster_infos var_id="0" npc_id="215049" max_kill="15"/>
 	</monster_hunt>
 	<!-- TODO: Quest Id: 4205  [Group] Smack the Shulack -->
 	<!-- TODO: Quest Id: 2847  It's All Balaur to Me -->
@@ -569,25 +570,25 @@
 	<item_collecting id="2849" start_npc_id="278006"/>
 	<!-- Cleansing The Asteria Chamber -->
 	<monster_hunt start_npc_id="271068" id="2841">
-    	<monster_infos var_id="0" npc_id="215441" max_kill="44"/>
+		<monster_infos var_id="0" npc_id="215441" max_kill="44"/>
 	</monster_hunt>
 	<!-- Balaur In The Underground Fortress -->
 	<monster_hunt start_npc_id="266568" id="2842">
-    	<monster_infos var_id="0" npc_id="215447" max_kill="39"/>
+		<monster_infos var_id="0" npc_id="215447" max_kill="39"/>
 	</monster_hunt>
 	<!-- Operation: Annihilate -->
 	<monster_hunt start_npc_id="268081" id="2843">
-    	<monster_infos var_id="0" npc_id="215122" max_kill="80"/>
+		<monster_infos var_id="0" npc_id="215122" max_kill="80"/>
 		<monster_infos var_id="1" npc_id="215134" max_kill="1"/>
 	</monster_hunt>
 	<!-- Simple But Difficult -->
 	<monster_hunt start_npc_id="269266" id="2844">
-    	<monster_infos var_id="0" npc_id="215166" max_kill="80"/>
+		<monster_infos var_id="0" npc_id="215166" max_kill="80"/>
 		<monster_infos var_id="1" npc_id="215177" max_kill="1"/>
 	</monster_hunt>
 	<!-- Take Out The Trash -->
 	<monster_hunt start_npc_id="215220" id="2845">
-    	<monster_infos var_id="0" npc_id="215208" max_kill="80"/>
+		<monster_infos var_id="0" npc_id="215208" max_kill="80"/>
 		<monster_infos var_id="1" npc_id="215220" max_kill="1"/>
 	</monster_hunt>
 	<!-- TODO: Quest Id: 2720  [Group] Challenge Elyos Generals -->
@@ -598,25 +599,25 @@
 	<item_collecting id="1848" start_npc_id="278506"/>
 	<!-- Enemy In The Abyss -->
 	<monster_hunt start_npc_id="271067" id="1840">
-    	<monster_infos var_id="0" npc_id="214754" max_kill="44"/>
+		<monster_infos var_id="0" npc_id="214754" max_kill="44"/>
 	</monster_hunt>
 	<!-- The Balaur Below -->
 	<monster_hunt start_npc_id="266567" id="1841">
-    	<monster_infos var_id="0" npc_id="215447" max_kill="39"/>
+		<monster_infos var_id="0" npc_id="215447" max_kill="39"/>
 	</monster_hunt>
 	<!-- A New Battle -->
 	<monster_hunt start_npc_id="268080" id="1842">
-    	<monster_infos var_id="0" npc_id="215122" max_kill="80"/>
+		<monster_infos var_id="0" npc_id="215122" max_kill="80"/>
 		<monster_infos var_id="1" npc_id="215134" max_kill="1"/>
 	</monster_hunt>
 	<!-- Pain In The Fortress -->
 	<monster_hunt start_npc_id="269265" id="1843">
-    	<monster_infos var_id="0" npc_id="215166" max_kill="80"/>
+		<monster_infos var_id="0" npc_id="215166" max_kill="80"/>
 		<monster_infos var_id="1" npc_id="215177" max_kill="1"/>
 	</monster_hunt>
 	<!-- Target: Balaur -->
 	<monster_hunt start_npc_id="270165" id="1844">
-    	<monster_infos var_id="0" npc_id="215208" max_kill="80"/>
+		<monster_infos var_id="0" npc_id="215208" max_kill="80"/>
 		<monster_infos var_id="1" npc_id="215220" max_kill="1"/>
 	</monster_hunt>
 	<!-- TODO: Quest Id: 1077  Fragment of Memory 3 -->
@@ -718,4 +719,4 @@
 	</monster_hunt>
 	<!-- 1826 Plus Two More Great Protectors -->
 	<item_collecting id="1826" start_npc_id="260235"/>
- </quest_scripts>
+</quest_scripts>

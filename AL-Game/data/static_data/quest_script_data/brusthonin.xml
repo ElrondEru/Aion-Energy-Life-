@@ -1,21 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <quest_scripts xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="quest_script_data.xsd">
 <!--
-  ~ This file is part of aion-unique.
-  ~
-  ~ aion-unique is free software: you can redistribute it and/or modify
-  ~ it under the terms of the GNU General Public License as published by
-  ~ the Free Software Foundation, either version 3 of the License, or
-  ~ (at your option) any later version.
-  ~
-  ~ aion-unique is distributed in the hope that it will be useful,
-  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
-  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-  ~ GNU General Public License for more details.
-  ~
-  ~ You should have received a copy of the GNU General Public License
-  ~ along with aion-unique.  If not, see <http://www.gnu.org/licenses/>.
-  -->
+	This file is part of aion-unique.
+
+	aion-unique is free software: you can redistribute it and/or modify
+	it under the terms of the GNU General Public License as published by
+	the Free Software Foundation, either version 3 of the License, or
+	(at your option) any later version.
+
+	aion-unique is distributed in the hope that it will be useful,
+	but WITHOUT ANY WARRANTY; without even the implied warranty of
+	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+	GNU General Public License for more details.
+
+	You should have received a copy of the GNU General Public License
+	along with aion-unique.  If not, see <http://www.gnu.org/licenses/>.
+-->
+
 	<!-- [Coin] For the Future Settlers -->
 	<item_collecting id="4062" start_npc_id="205205"/>
 	<!-- [Coin] Mopping up the Brohum -->
@@ -92,14 +93,13 @@
 		<monster_infos npc_id="214464" var_id="0" max_kill="25"/>
 		<monster_infos npc_id="214465" var_id="1" max_kill="35"/>
 		<monster_infos npc_id="214466" var_id="1" max_kill="35"/>
-	</monster_hunt>	
+	</monster_hunt>
 	<!-- Forest Decon -->
 	<item_collecting id="4035" start_npc_id="205151" action_item_id="700383"/>
-
 	<!-- Frightcorn-Ucopia -->
 	<item_collecting id="4006" start_npc_id="205121" action_item_id="700341"/>
 	<!-- TODO: Gathering the Herb Pouches //need careful test maybe tweak xsd files for different action_item_id for each item_collect -->
-	<!-- TODO: Duplicated Quests... Need to remade it in scripts...	
+	<!-- TODO: Duplicated Quests... Need to remade it in scripts...
 	<item_collecting id="4082" start_npc_id="205190" action_item_id="700430"/>
 	<item_collecting id="4082" start_npc_id="205190" action_item_id="700431"/>
 	<item_collecting id="4082" start_npc_id="205190" action_item_id="700432"/> -->
@@ -180,13 +180,12 @@
 	<!-- Plant for Filling -->
 	<item_collecting id="4076" start_npc_id="205158"/>
 	<!-- Pollution Solution -->
-	<item_collecting id="4009" start_npc_id="205122"/>	
+	<item_collecting id="4009" start_npc_id="205122"/>
 	<!-- Porgus Roundup -->
 	<monster_hunt id="4008" start_npc_id="205131">
-		<monster_infos var_id="0" max_kill="10" npc_id="213865" />
-		<monster_infos var_id="0" max_kill="10" npc_id="213866" />
+		<monster_infos var_id="0" max_kill="10" npc_id="213865"/>
+		<monster_infos var_id="0" max_kill="10" npc_id="213866"/>
 	</monster_hunt>
-
 	<!-- Retrieving The Contaminated Seeds -->
 	<item_collecting id="4041" start_npc_id="205193"/>
 	<!-- Return to Aether's Flow -->
@@ -213,7 +212,6 @@
 	</monster_hunt>
 	<!-- The Bribed Chieftain -->
 	<report_to id="4086" start_npc_id="205164" end_npc_id="205170" item_id="182209045"/>
-
 	<!-- The Elyos Of Brusthonin -->
 	<item_collecting id="4016" start_npc_id="205130"/>
 	<!-- The Fields are Infested -->
