@@ -190,7 +190,7 @@
 			<xs:enumeration value="LEATHER"/>
 			<xs:enumeration value="PLATE"/>
 			<xs:enumeration value="ROBE"/>
-			<xs:enumeration value="SHARD"/> <!-- todo to category -->
+			<xs:enumeration value="SHARD"/><!-- todo to category -->
 			<xs:enumeration value="ARROW"/>
 			<xs:enumeration value="SHIELD"/>
 		</xs:restriction>
