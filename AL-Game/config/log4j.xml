@@ -144,7 +144,7 @@
 		public static class MyLoggerInstance extends Logger{
 
 			public static MyLoggerInstance getLogger(String name){
-				return new MyLoggerInstance(); // caching with WeakHashMap can be used here	 
+				return new MyLoggerInstance(); // caching with WeakHashMap can be used here
 			}
 		}
 	-->
