@@ -112,7 +112,7 @@ public class PlayerController extends CreatureController<Player>
 	{
 		super.see(object);
 		if(object instanceof Player)
-    {
+		{
 			Player player = (Player)object;
 			PacketSendUtility.sendPacket(getOwner(), new SM_PLAYER_INFO(player, getOwner().isEnemyPlayer((Player)object)));
 			if(player.getToyPet() != null)
@@ -120,8 +120,8 @@ public class PlayerController extends CreatureController<Player>
 			Logger.getLogger(PlayerController.class).debug("Player " + getOwner().getName() + " sees " + object.getName() + " that has toypet");
 			PacketSendUtility.sendPacket(getOwner(), new SM_PET(3, player.getToyPet()));
 			} 
-      getOwner().getEffectController().sendEffectIconsTo((Player) object);		
-	 } 
+			getOwner().getEffectController().sendEffectIconsTo((Player) object);
+		} 
 		else if (object instanceof Kisk)
 		{
 			Kisk kisk = ((Kisk) object);
@@ -152,12 +152,12 @@ public class PlayerController extends CreatureController<Player>
 					}
 				}
 			}
-			if(update)
-				updateNearbyQuestList();
+				if(update)
+					updateNearbyQuestList();
 		}
 		else if(object instanceof Summon)
 		{
-			Summon npc = ((Summon) object);		
+			Summon npc = ((Summon) object);
 			PacketSendUtility.sendPacket(getOwner(), new SM_NPC_INFO(npc));
 		}
 		else if(object instanceof Gatherable || object instanceof StaticObject)
@@ -223,13 +223,13 @@ public class PlayerController extends CreatureController<Player>
 	 */
 	@Override
 	public void onDie(Creature lastAttacker)
-	{		
+	{
 		Player player = this.getOwner();
-		
+
 		Creature master = null;
 		if(lastAttacker != null)
 			master = lastAttacker.getMaster();
-		
+
 		if(master instanceof Player)
 		{
 			if(isDueling((Player) master))
@@ -238,12 +238,12 @@ public class PlayerController extends CreatureController<Player>
 				return;
 			}
 		}
-		
+
 		this.doReward();
-		
+
 		// Effects removed with super.onDie()
 		boolean hasSelfRezEffect = player.getReviveController().checkForSelfRezEffect(player);
-		
+
 		super.onDie(lastAttacker);
 		
 		if(master instanceof Npc || master == player)
@@ -251,7 +251,7 @@ public class PlayerController extends CreatureController<Player>
 			if(player.getLevel() > 4)
 				player.getCommonData().calculateExpLoss();
 		}
-		
+
 		/**
 		 * Release summon
 		 */
@@ -261,7 +261,7 @@ public class PlayerController extends CreatureController<Player>
 
 		PacketSendUtility.broadcastPacket(player, new SM_EMOTION(player, EmotionType.DIE, 0, lastAttacker == null ? 0 :
 			lastAttacker.getObjectId()), true);
-		
+
 		// SM_DIE Packet
 		int kiskTimeRemaining = (player.getKisk() != null ? player.getKisk().getRemainingLifetime() : 0);
 		boolean hasSelfRezItem = player.getReviveController().checkForSelfRezItem(player);
@@ -271,20 +271,19 @@ public class PlayerController extends CreatureController<Player>
 		QuestEngine.getInstance().onDie(new QuestEnv(null, player, 0, 0));
 	}
 
-    @Override
+	@Override
 	public void doReward()
 	{
 		Player victim = getOwner();
 		PvpService.getInstance().doReward(victim);
-		
-		// DP reward 
+
+		// DP reward
 		// TODO: Figure out what DP reward should be for PvP
 		//int currentDp = winner.getCommonData().getDp();
 		//int dpReward = StatFunctions.calculateSoloDPReward(winner, getOwner());
 		//winner.getCommonData().setDp(dpReward + currentDp);
-		
 	}
-	
+
 	@Override
 	public void onRespawn()
 	{
@@ -296,7 +295,7 @@ public class PlayerController extends CreatureController<Player>
 	public void attackTarget(Creature target)
 	{
 		Player player = getOwner();
-		
+
 		/**
 		 * Check all prerequisites
 		 */
@@ -327,7 +326,7 @@ public class PlayerController extends CreatureController<Player>
 		 * notify attack observers
 		 */
 		super.attackTarget(target);
-		
+
 		/**
 		 * Calculate and apply damage
 		 */
@@ -354,14 +353,12 @@ public class PlayerController extends CreatureController<Player>
 	{
 		if(getOwner().getLifeStats().isAlreadyDead())
 			return;
-		
 
-	
 		if(getOwner().isInvul())
 			damage = 0;
-    		
+
 		super.onAttack(creature, skillId, type, damage);
-				
+
 		PacketSendUtility.broadcastPacket(getOwner(), new SM_ATTACK_STATUS(getOwner(), type, skillId, damage), true);
 	}
 
@@ -375,9 +372,9 @@ public class PlayerController extends CreatureController<Player>
 	public void useSkill(int skillId, int targetType, float x, float y, float z)
 	{
 		Player player = getOwner();
-		
+
 		Skill skill = SkillEngine.getInstance().getSkillFor(player, skillId, player.getTarget());
-		
+
 		if(skill != null)
 		{
 			skill.setTargetType(targetType, x, y, z);
@@ -387,12 +384,11 @@ public class PlayerController extends CreatureController<Player>
 			skill.useSkill();
 		}
 	}
-	
+
 	@Override
 	public void onMove()
 	{
 		super.onMove();
-		
 	}
 
 	@Override
@@ -407,7 +403,7 @@ public class PlayerController extends CreatureController<Player>
 		cancelCurrentSkill();
 		super.onStartMove();
 	}
-	
+
 	/**
 	 * Cancel current skill and remove cooldown
 	 */
@@ -422,7 +418,7 @@ public class PlayerController extends CreatureController<Player>
 			player.setCasting(null);
 			PacketSendUtility.sendPacket(player, new SM_SKILL_CANCEL(player, skillId));
 			PacketSendUtility.sendPacket(player, SM_SYSTEM_MESSAGE.STR_SKILL_CANCELED());
-		}	
+		}
 	}
 
 	/**
@@ -458,7 +454,7 @@ public class PlayerController extends CreatureController<Player>
 				break;
 		}
 	}
-	
+
 	/**
 	 * 
 	 * @param player
@@ -512,12 +508,12 @@ public class PlayerController extends CreatureController<Player>
 
 		PlayerStatsTemplate statsTemplate = DataManager.PLAYER_STATS_DATA.getTemplate(player);
 		player.setPlayerStatsTemplate(statsTemplate);
-		
+
 		// update stats after setting new template
 		player.getGameStats().doLevelUpgrade();
 		player.getLifeStats().synchronizeWithMaxStats();
 		player.getLifeStats().updateCurrentStats();
-		
+
 		PacketSendUtility.broadcastPacket(player, new SM_LEVEL_UPDATE(player.getObjectId(), 0, level), true);
 
 		// Temporal
@@ -525,18 +521,11 @@ public class PlayerController extends CreatureController<Player>
 
 		QuestEngine.getInstance().onLvlUp(new QuestEnv(null, player, 0, 0));
 		updateNearbyQuests();
-		
+
 		PacketSendUtility.sendPacket(player, new SM_STATS_INFO(player));
 
-		if(level == 10 && player.getSkillList().getSkillEntry(30001) != null)
-		{
-			int skillLevel = player.getSkillList().getSkillLevel(30001);
-			player.getSkillList().removeSkill(30001);
-			PacketSendUtility.sendPacket(player, new SM_SKILL_LIST(player));
-			player.getSkillList().addSkill(player, 30002, skillLevel, true);
-		}
-		// add new skills
-		SkillLearnService.addNewSkills(player, false);
+		// add Missing Skills
+		SkillLearnService.addMissingSkills(player);
 
 		/**
 		 * Broadcast Update to all that may care.
@@ -611,20 +600,20 @@ public class PlayerController extends CreatureController<Player>
 		Player player = getOwner();
 		World world = World.getInstance();
 		float z = player.getZ();
-		
+
 		if(player.getLifeStats().isAlreadyDead())
 			return;
-		
+
 		if(z < world.getWorldMap(player.getWorldId()).getDeathLevel())
 		{
 			die();
 			return;
 		}
-		
+
 		ZoneInstance currentZone = player.getZoneInstance();
 		if(currentZone != null && currentZone.isBreath())
 			return;
-		
+
 		//TODO need fix character height
 		float playerheight = player.getPlayerAppearance().getHeight() * 1.6f;
 		if(z < world.getWorldMap(player.getWorldId()).getWaterLevel() - playerheight)
@@ -643,11 +632,9 @@ public class PlayerController extends CreatureController<Player>
 		PacketSendUtility.broadcastPacket(summon, new SM_EMOTION(summon, EmotionType.START_EMOTE2));
 		PacketSendUtility.broadcastPacket(summon, new SM_SUMMON_UPDATE(summon));
 	}
-	
+
 	public boolean addItems(int itemId, int count)
 	{
 		return ItemService.addItems(getOwner(), Collections.singletonList(new QuestItems(itemId, count)));
 	}
-
-
 }
