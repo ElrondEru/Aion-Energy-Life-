@@ -146,4 +146,10 @@
 	<spawn map="300080000" npcid="206089" pool="1" interval="295">
 		<object x="572.7178" y="585.92645" z="354.0" h="60"/>
 	</spawn>
+	<!-- Ancient Treasure Box (Object Normal lvl:1) -->
+    <spawn map="300080000" npcid="214804" pool="3" interval="295">
+        <object x="196.13242" y="619.54596" z="364.6045" h="117"/>
+        <object x="208.58965" y="684.08765" z="364.6045" h="115"/>
+        <object x="232.86606" y="745.9801" z="364.6045" h="110"/>
+    </spawn>
 </spawns>

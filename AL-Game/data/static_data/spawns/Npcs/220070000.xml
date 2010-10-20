@@ -18,6 +18,7 @@
 	Gelkmaros
 	TODO: Increase stats of NPCs in npc_templates.xml
 	@author Leolegolas,Salvator
+	
  -->
 <spawns>
 	<!-- Karystli -->
@@ -1521,4 +1522,8 @@
 		<object x="1194.39" y="788.815" h="0" z="313.423"/>
 		<object x="1878.96" y="1027.46" h="0" z="330.272"/>
 	</spawn>
+	<!-- Silentera Canyon -->
+	<spawn map="220070000" npcid="730260" pool="1" interval="295">
+		<object x="1449.097" y="905.3585" z="294.02194" h="34"/>
+	</spawn>	
 </spawns>

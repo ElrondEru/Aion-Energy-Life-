@@ -916,4 +916,8 @@
 		<object h="0" staticid="169" x="644.8822" y="227.17566" z="532.1845"/>
 		<object h="0" staticid="526" x="705.13367" y="316.8855" z="529.1564"/>
 	</spawn>
+	<!-- Silentera Canyon -->
+	<spawn map="210050000" npcid="730256" pool="1" interval="295">
+		<object x="1362.5396" y="2302.1187" z="296.6737" h="93"/>
+	</spawn>	
 </spawns>

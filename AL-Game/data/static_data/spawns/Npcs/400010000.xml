@@ -963,9 +963,13 @@
 		<object x="2712.5066" y="757.6218" z="2854.295" h="0" staticid="1210"/>
 	</spawn>
 	<!-- Old Stone Door Object normal lvl:1) -->
-	<spawn interval="295" map="400010000" npcid="700535" pool="1">
-		<object h="0" staticid="32" x="2532.26" y="2064.39" z="3034.0"/>
+	<spawn map="400010000" npcid="700535" pool="1" interval="295">
+		<object x="2532.26" y="2064.39" z="3034.0" h="0" staticid="32"/>
 	</spawn>
+	<!-- Old Stone Door Object normal lvl:1) -->
+	<spawn map="400010000" npcid="700536" pool="1" interval="295">
+		<object x="1815.0714" y="2321.572" z="2931.347" h="0" staticid="1217"/>
+	</spawn>	
 	<!-- Ozur (NPC Normal lvl:45 Subtext: Combat Administration Officer) -->
 	<spawn map="400010000" npcid="278023" pool="1" interval="295">
 		<object x="904.4367" y="3022.5898" z="1655.4788" h="14"/>
@@ -1402,9 +1406,6 @@
 		<object x="2981.8604" y="1270.8308" z="2912.4946" h="0" staticid="1024"/>
 		<object x="3233.729" y="1077.1211" z="2677.814" h="0" staticid="1026"/>
 		<object x="3088.2869" y="1238.31" z="2634.161" h="0" staticid="1031"/>
-	</spawn>
-	<spawn map="400010000" npcid="700536" pool="1" interval="295">
-		<object x="1815.0714" y="2321.572" z="2931.347" h="0" staticid="1217"/>
 	</spawn>
 	<spawn map="400010000" npcid="700530" pool="1" interval="295">
 		<object x="2784.9946" y="2664.0283" z="1486.7031" h="0" staticid="1216"/>

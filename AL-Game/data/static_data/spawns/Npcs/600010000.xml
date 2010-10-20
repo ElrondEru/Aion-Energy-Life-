@@ -71,7 +71,7 @@
 	</spawn>
 	<!-- "Elatos" (NPC Normal Elyos) -->
 	<spawn map="600010000" npcid="799382" pool="1" interval="295">
-		<object x="484.78" y="359.57" z="327.522" h="20"/>
+        <object x="476.31937" y="360.13507" z="327.50983" h="19"/>
 	</spawn>
 	<!-- "Vergelan" (NPC Normal Asmo) -->
 	<spawn map="600010000" npcid="799383" pool="1" interval="295">
@@ -80,10 +80,6 @@
 	<!-- "Arne" (NPC Normal Asmo) -->
 	<spawn map="600010000" npcid="799384" pool="1" interval="295">
 		<object x="554.02" y="1143.97" z="332.85" h="18"/>
-	</spawn>
-	<!-- "Wisplight Legionary" (NPC Normal Elyos) -->
-	<spawn map="600010000" npcid="799385" pool="1" interval="295">
-		<object x="481.16" y="377.825" z="327.151" h="20"/>
 	</spawn>
 	<!-- "Wisplight Legionary" (NPC Normal Elyos) -->
 	<spawn map="600010000" npcid="799386" pool="1" interval="295">
@@ -98,8 +94,9 @@
 		<object x="486.79" y="367.78" z="327.13" h="18"/>
 	</spawn>
 	<!-- "Wisplight Legionary" (NPC Normal Elyos) -->
-	<spawn map="600010000" npcid="799389" pool="1" interval="295">
+	<spawn map="600010000" npcid="799389" pool="2" interval="295">
 		<object x="479.49" y="374.85" z="327.08" h="20"/>
+		<object x="481.16" y="377.825" z="327.151" h="20"/>
 	</spawn>
 	<!-- "Wisplight Legionary" (NPC Normal Elyos) -->
 	<spawn map="600010000" npcid="799390" pool="1" interval="295">
@@ -146,18 +143,14 @@
 	<spawn map="600010000" npcid="799400" pool="1" interval="295">
 		<object x="543.99" y="1138.57" z="332.7304" h="59"/>
 	</spawn>
-	<!--   -->
-	<spawn map="600010000" npcid="799382" pool="1" interval="295">
-		<object x="481.835327" y="362.631195" z="328.043396" h="0"/>
-	</spawn>
-	<!-- Teleporter -->
+	<!--  Teleporter -->
 	<spawn map="600010000" npcid="799381" pool="1" interval="295">
 		<object x="477.275421" y="362.739441" z="328.043396" h="0"/>
-	</spawn>
+	</spawn>	
 	<!--   -->
 	<spawn map="600010000" npcid="799033" pool="1" interval="295">
 		<object x="482.177338" y="427.394135" z="328.918610" h="0"/>
-	</spawn>
+	</spawn>	
 	<!--   -->
 	<spawn map="600010000" npcid="799338" pool="1" interval="295">
 		<object x="496.797577" y="1109.359863" z="334.154633" h="0"/>
@@ -175,6 +168,13 @@
 		<object staticid="33" x="1418.7687" y="766.22546" h="0" z="312.86633"/>
 	</spawn>
 	<!-- Portals Exit -->
+    <spawn map="600010000" npcid="730271" pool="1" interval="295">
+        <object x="532.3113" y="1129.8337" z="332.40997" h="30"/>
+    </spawn>
+	<!-- Portals Exit -->
+    <spawn map="600010000" npcid="730270" pool="1" interval="295">
+        <object x="481.74783" y="387.25375" z="327.05804" h="116"/>
+    </spawn>	
 	<spawn map="600010000" npcid="730257" pool="1" interval="295">
 		<object x="486.70847" y="105.148705" z="326.16504" h="59"/>
 	</spawn>
