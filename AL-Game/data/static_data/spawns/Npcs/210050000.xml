@@ -59,7 +59,7 @@
 	<spawn map="210050000" npcid="799032" pool="1" interval="295">
 		<object x="2743.770020" y="1496.066406" z="384.920319" h="78"/>
 	</spawn>
-	<!-- Borriello  -->
+	<!-- Borriello -->
 	<spawn map="210050000" npcid="798907" pool="1" interval="295">
 		<object x="1360.3037" y="345.3622" z="558.0366" h="19"/>
 	</spawn>
@@ -319,7 +319,7 @@
 	<spawn map="210050000" npcid="798928" pool="1" interval="295">
 		<object x="1245.188384" y="278.631033" z="599.771000" h="60"/>
 	</spawn>
-	<!-- Mesalina  -->
+	<!-- Mesalina -->
 	<spawn map="210050000" npcid="798949" pool="1" interval="295">
 		<object x="1359.9852" y="350.5153" z="558.0366" h="108"/>
 	</spawn>
@@ -547,7 +547,7 @@
 	<spawn map="210050000" npcid="216498" pool="1" interval="295">
 		<object x="2368.442139" y="2035.825928" z="252.000000" h="87"/>
 	</spawn>
-	<!-- Pilomenes  -->
+	<!-- Pilomenes -->
 	<spawn map="210050000" npcid="798941" pool="1" interval="295">
 		<object x="1302.0372" y="312.23233" z="589.97845" h="109"/>
 	</spawn>

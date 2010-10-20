@@ -150,7 +150,7 @@
 	<spawn map="600010000" npcid="799382" pool="1" interval="295">
 		<object x="481.835327" y="362.631195" z="328.043396" h="0"/>
 	</spawn>
-	<!--  Teleporter -->
+	<!-- Teleporter -->
 	<spawn map="600010000" npcid="799381" pool="1" interval="295">
 		<object x="477.275421" y="362.739441" z="328.043396" h="0"/>
 	</spawn>

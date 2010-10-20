@@ -253,11 +253,11 @@
 	</spawn>
 	<!-- Ellon (NPC Normal lvl:30) -->
 	<spawn interval="295" map="120010000" npcid="798403" pool="1">
-	  <object h="30" x="1274.78" y="1347.7" z="204.461"/>
+		<object h="30" x="1274.78" y="1347.7" z="204.461"/>
 	</spawn>
 	<!-- Elma (NPC Normal lvl:55) -->
 	<spawn interval="295" map="120010000" npcid="799792" pool="1">
-	  <object h="102" x="1246.69" y="1356.16" z="204.42"/>
+		<object h="102" x="1246.69" y="1356.16" z="204.42"/>
 	</spawn>
 	<!-- Emvelu (NPC Normal lvl:10) -->
 	<spawn map="120010000" npcid="204165" pool="1" interval="295">
@@ -794,7 +794,7 @@
 	</spawn>
 	<!-- Murea (NPC Normal lvl:55) -->
 	<spawn interval="295" map="120010000" npcid="799794" pool="1">
-	  <object h="0" x="1244.51" y="1363.39" z="204.42"/>
+		<object h="0" x="1244.51" y="1363.39" z="204.42"/>
 	</spawn>
 	<!-- Myorunerk (NPC Normal lvl:15) -->
 	<spawn map="120010000" npcid="798064" pool="1" interval="295">
@@ -918,7 +918,7 @@
 	</spawn>
 	<!-- Reira (NPC Normal lvl:30) -->
 	<spawn interval="295" map="120010000" npcid="798402" pool="1">
-	  <object h="90" x="1274.78" y="1350.7" z="204.461"/>
+		<object h="90" x="1274.78" y="1350.7" z="204.461"/>
 	</spawn>
 	<!-- Relir (NPC Normal lvl:10) -->
 	<spawn map="120010000" npcid="204097" pool="1" interval="295">
@@ -992,7 +992,7 @@
 	</spawn>
 	<!-- Sihein (NPC Normal lvl:55) -->
 	<spawn interval="295" map="120010000" npcid="799793" pool="1">
-	  <object h="0" x="1244.62" y="1351.65" z="204.42"/>
+		<object h="0" x="1244.62" y="1351.65" z="204.42"/>
 	</spawn>
 	<!-- Sinamara (NPC Normal lvl:40) -->
 	<spawn map="120010000" npcid="204290" pool="1" interval="295">
