@@ -14,10 +14,10 @@
 
 	You should have received a copy of the GNU General Public License
 	along with aion-unique. If not, see <http://www.gnu.org/licenses/>.
-	
+
 	Eltnen
-	
- -->
+
+-->
 <spawns>
 	<!-- Rubashi -->
 	<spawn map="210020000" npcid="400004" pool="24" interval="230">
@@ -484,7 +484,7 @@
 		<object x="309.1689" y="627.3893" z="291.68588" h="1"/>
 		<object x="1174.244" y="1832.228" z="288.58752" h="115"/>
 	</spawn>
-	<!-- Adamantium 200p-->
+	<!-- Adamantium 200p -->
 	<spawn map="210020000" npcid="400206" pool="278" interval="230">
 		<object x="1981.242" y="1761.541" z="352.46442" h="8"/>
 		<object x="2080.594" y="1619.633" z="365.38715" h="35"/>

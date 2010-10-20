@@ -9,11 +9,11 @@
 
 	aion-unique is distributed in the hope that it will be useful,
 	but WITHOUT ANY WARRANTY; without even the implied warranty of
-	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
 	GNU General Public License for more details.
 
 	You should have received a copy of the GNU General Public License
-	along with aion-unique.If not, see <http://www.gnu.org/licenses/>.
+	along with aion-unique. If not, see <http://www.gnu.org/licenses/>.
 
 	Theobomos
 
@@ -348,7 +348,7 @@
 	<!-- Idmene (NPC Normal lvl:40) -->
 	<spawn map="210060000" npcid="205254" pool="1" interval="295">
 		<object x="900.3142" y="2774.196" z="62.429245" h="32"/>
-	</spawn>	
+	</spawn>
 	<!-- Inn Worker Jamanok (NPC Normal lvl:45) -->
 	<spawn map="210060000" npcid="798180" pool="2" interval="295">
 		<object x="397.2572" y="1236.2759" z="124.10263" h="54"/>

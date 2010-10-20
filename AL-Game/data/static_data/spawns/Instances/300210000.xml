@@ -9,17 +9,17 @@
 
 	aion-unique is distributed in the hope that it will be useful,
 	but WITHOUT ANY WARRANTY; without even the implied warranty of
-	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
 	GNU General Public License for more details.
 
 	You should have received a copy of the GNU General Public License
-	along with aion-unique.If not, see <http://www.gnu.org/licenses/>.
+	along with aion-unique. If not, see <http://www.gnu.org/licenses/>.
 
 	Chantra Dredgion
 
 -->
 <spawns>
-	<!-- Captain Zanata (Monsters Elite lvl:55) --> 
+	<!-- Captain Zanata (Monsters Elite lvl:55) -->
 	<spawn map="300210000" npcid="216886" pool="1" interval="295">
 		<object x="485.33307" y="832.26874" z="416.63434" h="30"/>
 	</spawn>

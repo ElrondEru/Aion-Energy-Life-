@@ -14,10 +14,10 @@
 
 	You should have received a copy of the GNU General Public License
 	along with aion-unique. If not, see <http://www.gnu.org/licenses/>.
-	
+
 	Taloc's Hollow
 	@author Nephis
- -->
+-->
 <spawns>
 	<spawn map="300190000" interval="105" npcid="400111" pool="5">
 		<object x="426.01279" y="933.96399" h="0" z="1266.8346"/>

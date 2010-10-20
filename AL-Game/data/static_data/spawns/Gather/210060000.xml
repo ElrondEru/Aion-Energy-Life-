@@ -14,10 +14,10 @@
 
 	You should have received a copy of the GNU General Public License
 	along with aion-unique. If not, see <http://www.gnu.org/licenses/>.
-	
+
 	Theomobos
-	
- -->
+
+-->
 <spawns>
 	<!-- Dado -->
 	<spawn map="210060000" npcid="400003" pool="18" interval="230">

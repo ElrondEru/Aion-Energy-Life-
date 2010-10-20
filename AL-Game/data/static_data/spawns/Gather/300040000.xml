@@ -14,10 +14,10 @@
 
 	You should have received a copy of the GNU General Public License
 	along with aion-unique. If not, see <http://www.gnu.org/licenses/>.
-	
+
 	Dark Poeta
-	
- -->
+
+-->
 <spawns>
 	<!-- Huge Vine 300p -->
 	<spawn map="300040000" npcid="401111" pool="1" interval="105">

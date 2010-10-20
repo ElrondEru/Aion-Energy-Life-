@@ -9,11 +9,11 @@
 
 	aion-unique is distributed in the hope that it will be useful,
 	but WITHOUT ANY WARRANTY; without even the implied warranty of
-	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
 	GNU General Public License for more details.
 
 	You should have received a copy of the GNU General Public License
-	along with aion-unique.If not, see <http://www.gnu.org/licenses/>.
+	along with aion-unique. If not, see <http://www.gnu.org/licenses/>.
 
 	Beshmundir Temple
 
@@ -411,9 +411,9 @@
 	<!-- Teleporter Macumbello Exit -->
 	<spawn map="300170000" npcid="730276" pool="1" interval="295">
 		<object x="790.68585" y="319.889" z="220.89594" h="90"/>
-	</spawn>	
+	</spawn>
 	<!-- Teleporter Macumbello -->
-	<spawn map="300170000" npcid="730287" pool="1" interval="295">	
+	<spawn map="300170000" npcid="730287" pool="1" interval="295">
 		<object x="1028.6996" y="314.83682" z="220.96474" h="119"/>
 	</spawn>
 	<!-- Undead Drakan Swift Shot Commissioned Officer (Monster Elite lvl:55) -->

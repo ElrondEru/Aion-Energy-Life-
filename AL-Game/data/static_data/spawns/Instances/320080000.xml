@@ -9,11 +9,11 @@
 
 	aion-unique is distributed in the hope that it will be useful,
 	but WITHOUT ANY WARRANTY; without even the implied warranty of
-	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
 	GNU General Public License for more details.
 
 	You should have received a copy of the GNU General Public License
-	along with aion-unique.If not, see <http://www.gnu.org/licenses/>.
+	along with aion-unique. If not, see <http://www.gnu.org/licenses/>.
 
 	Draupnir Cave
 
@@ -24,14 +24,14 @@
 		<object x="395.90402" y="606.67664" z="597.9613" h="88"/>
 		<object x="398.85376" y="577.7569" z="599.8154" h="29"/>
 	</spawn>
-	<!-- Bakarma scaleguard-->
+	<!-- Bakarma scaleguard -->
 	<spawn map="320080000" npcid="213377" pool="4" interval="1200">
 		<object x="491.20874" y="401.75433" z="614.5058" h="102"/>
 		<object x="471.84668" y="405.82108" z="614.57306" h="6"/>
 		<object x="499.91214" y="421.3018" z="617.47375" h="77"/>
 		<object x="374.4023" y="713.8165" z="590.4289" h="113"/>
 	</spawn>
-	<!-- Bakarma scalewatch-->
+	<!-- Bakarma scalewatch -->
 	<spawn map="320080000" npcid="213378" pool="2" interval="1200">
 		<object x="555.9266" y="621.6363" z="578.26483" h="71"/>
 		<object x="558.21844" y="618.9637" z="578.4327" h="93"/>
@@ -69,16 +69,16 @@
 		<object x="393.2788" y="563.7119" z="601.70624" h="23"/>
 		<object x="582.33234" y="613.5438" z="579.96375" h="26"/>
 	</spawn>
-	<!-- Bakarma comitatus-->
+	<!-- Bakarma comitatus -->
 	<spawn map="320080000" npcid="213385" pool="1" interval="1200">
 		<object x="456.1817" y="411.15277" z="619.32556" h="50"/>
 	</spawn>
-	<!-- Bakarma comitatus-->
+	<!-- Bakarma comitatus -->
 	<spawn map="320080000" npcid="213386" pool="2" interval="1200">
 		<object x="382.43124" y="614.89105" z="597.93054" h="105"/>
 		<object x="377.70728" y="613.2934" z="598.76416" h="93"/>
 	</spawn>
-	<!-- Bakarma destroyer-->
+	<!-- Bakarma destroyer -->
 	<spawn map="320080000" npcid="213387" pool="1" interval="1200">
 		<object x="537.9755" y="438.161" z="614.574" h="101"/>
 	</spawn>
@@ -88,7 +88,7 @@
 		<object x="517.3385" y="473.41315" z="615.2313" h="62"/>
 		<object x="548.05804" y="433.18307" z="613.591" h="65"/>
 	</spawn>
-	<!-- Bakarma shadowscale-->
+	<!-- Bakarma shadowscale -->
 	<spawn map="320080000" npcid="213389" pool="13" interval="1200">
 		<object x="403.35312" y="590.74066" z="600.706" h="92"/>
 		<object x="406.54752" y="612.3756" z="599.3836" h="79"/>
@@ -117,26 +117,26 @@
 		<object x="302.4881" y="729.905" z="596.8229" h="82"/>
 		<object x="577.6449" y="639.1754" z="582.5656" h="77"/>
 	</spawn>
-	<!-- Trained monitor-->
+	<!-- Trained monitor -->
 	<spawn map="320080000" npcid="213397" pool="3" interval="1200">
 		<object x="395.32172" y="509.3701" z="514.0723" h="3"/>
 		<object x="369.71234" y="515.94586" z="511.4521" h="55"/>
 		<object x="353.03836" y="534.8215" z="511.69455" h="99"/>
 	</spawn>
-	<!-- Bakarma ranger-->
+	<!-- Bakarma ranger -->
 	<spawn map="320080000" npcid="213400" pool="3" interval="1200">
 		<object x="452.30777" y="453.47357" z="624.76636" h="69"/>
 		<object x="476.2314" y="454.36932" z="627.6022" h="52"/>
 		<object x="339.55847" y="706.1146" z="598.2368" h="3"/>
 	</spawn>
-	<!-- Bakarma ranger-->
+	<!-- Bakarma ranger -->
 	<spawn map="320080000" npcid="213401" pool="4" interval="1200">
 		<object x="461.7136" y="506.1424" z="616.6666" h="105"/>
 		<object x="392.268" y="667.72986" z="599.1859" h="96"/>
 		<object x="561.808" y="635.32135" z="579.44086" h="48"/>
 		<object x="554.0452" y="640.3522" z="578.67755" h="110"/>
 	</spawn>
-	<!-- Bakarma mystic-->
+	<!-- Bakarma mystic -->
 	<spawn map="320080000" npcid="213409" pool="8" interval="1200">
 		<object x="453.12292" y="413.52304" z="619.2767" h="19"/>
 		<object x="444.16592" y="425.67505" z="619.2469" h="119"/>
@@ -147,14 +147,14 @@
 		<object x="284.58453" y="716.2725" z="596.8169" h="105"/>
 		<object x="324.75864" y="724.7625" z="597.5997" h="92"/>
 	</spawn>
-	<!-- Bakarma mystic-->
+	<!-- Bakarma mystic -->
 	<spawn map="320080000" npcid="213410" pool="4" interval="1200">
 		<object x="513.785" y="448.24915" z="615.3595" h="36"/>
 		<object x="523.6416" y="431.74103" z="615.1249" h="74"/>
 		<object x="540.6458" y="441.7848" z="615.07117" h="46"/>
 		<object x="531.7024" y="456.8226" z="615.1051" h="49"/>
 	</spawn>
-	<!-- Bakarma mender-->
+	<!-- Bakarma mender -->
 	<spawn map="320080000" npcid="213411" pool="1" interval="1200">
 		<object x="324.09164" y="687.501" z="596.8752" h="24"/>
 	</spawn>
@@ -170,26 +170,26 @@
 	<spawn map="320080000" npcid="213416" pool="1" interval="1200">
 		<object x="391.69394" y="648.16327" z="597.0437" h="85"/>
 	</spawn>
-	<!-- Bakarma protector-->
+	<!-- Bakarma protector -->
 	<spawn map="320080000" npcid="213417" pool="3" interval="1200">
 		<object x="412.448" y="687.8717" z="588.2567" h="69"/>
 		<object x="338.69818" y="540.03827" z="510.81424" h="114"/>
 		<object x="301.66263" y="576.1616" z="506.79172" h="107"/>
 	</spawn>
-	<!-- Bakarma scourge-->
+	<!-- Bakarma scourge -->
 	<spawn map="320080000" npcid="213420" pool="3" interval="1200">
 		<object x="387.09607" y="679.21545" z="481.50778" h="60"/>
 		<object x="387.14557" y="670.5194" z="482.0092" h="62"/>
 		<object x="425.28064" y="648.71686" z="472.90146" h="19"/>
 	</spawn>
-	<!-- Bakarma mutilator-->
+	<!-- Bakarma mutilator -->
 	<spawn map="320080000" npcid="213423" pool="4" interval="1200">
 		<object x="652.42554" y="415.75488" z="322.43503" h="114"/>
 		<object x="637.1179" y="412.03635" z="319.49487" h="47"/>
 		<object x="645.9048" y="452.307" z="309.66125" h="14"/>
 		<object x="650.87994" y="448.56824" z="310.07196" h="18"/>
 	</spawn>
-	<!-- Bakarma lifeender-->
+	<!-- Bakarma lifeender -->
 	<spawn map="320080000" npcid="213424" pool="2" interval="1200">
 		<object x="581.21356" y="445.38855" z="445.8218" h="20"/>
 		<object x="597.11597" y="461.76758" z="442.62012" h="118"/>
@@ -225,20 +225,20 @@
 	<spawn map="320080000" npcid="213438" pool="1" interval="1200">
 		<object x="646.39044" y="421.28104" z="445.87845" h="46"/>
 	</spawn>
-	<!-- Bakarma cursewitch-->
+	<!-- Bakarma cursewitch -->
 	<spawn map="320080000" npcid="213445" pool="1" interval="1200">
 		<object x="576.84607" y="452.56714" z="444.9203" h="27"/>
 	</spawn>
-	<!-- Bakarma bloodlock-->
+	<!-- Bakarma bloodlock -->
 	<spawn map="320080000" npcid="213446" pool="2" interval="1200">
 		<object x="658.0789" y="415.97583" z="444.6894" h="31"/>
 		<object x="637.5218" y="431.56607" z="311.61685" h="62"/>
 	</spawn>
-	<!-- Bakarma bloodlock-->
+	<!-- Bakarma bloodlock -->
 	<spawn map="320080000" npcid="213447" pool="1" interval="1200">
 		<object x="649.7584" y="408.80933" z="322.91556" h="10"/>
 	</spawn>
-	<!-- Worldbender's minion-->
+	<!-- Worldbender's minion -->
 	<spawn map="320080000" npcid="213449" pool="1" interval="1200">
 		<object x="451.30756" y="674.2777" z="466.2672" h="64"/>
 	</spawn>
@@ -246,11 +246,11 @@
 	<spawn map="320080000" npcid="213451" pool="1" interval="1200">
 		<object x="651.67377" y="406.2962" z="323.16013" h="10"/>
 	</spawn>
-	<!-- Worldbender's minion-->
+	<!-- Worldbender's minion -->
 	<spawn map="320080000" npcid="213452" pool="1" interval="1200">
 		<object x="659.74023" y="415.15143" z="444.90005" h="29"/>
 	</spawn>
-	<!-- Worldbender's minion-->
+	<!-- Worldbender's minion -->
 	<spawn map="320080000" npcid="213454" pool="4" interval="1200">
 		<object x="590.37775" y="447.78152" z="446.30923" h="12"/>
 		<object x="613.8873" y="451.66437" z="445.2002" h="69"/>
@@ -263,25 +263,25 @@
 		<object x="186.342" y="664.7776" z="524.26685" h="3"/>
 		<object x="636.3527" y="430.6262" z="311.66745" h="42"/>
 	</spawn>
-	<!-- Bakarma scaleguard-->
+	<!-- Bakarma scaleguard -->
 	<spawn map="320080000" npcid="213457" pool="2" interval="1200">
 		<object x="480.80817" y="483.572" z="620.9148" h="86"/>
 		<object x="427.31558" y="535.646" z="606.484" h="103"/>
 	</spawn>
-	<!-- Bakarma scaleguard-->
+	<!-- Bakarma scaleguard -->
 	<spawn map="320080000" npcid="213459" pool="1" interval="1200">
 		<object x="535.4125" y="597.09644" z="579.0821" h="3"/>
 	</spawn>
-	<!-- Bakarma scaleguard-->
+	<!-- Bakarma scaleguard -->
 	<spawn map="320080000" npcid="213460" pool="1" interval="1200">
 		<object x="476.0127" y="655.75977" z="581.8394" h="26"/>
 	</spawn>
-	<!-- Bakarma dragonblade-->
+	<!-- Bakarma dragonblade -->
 	<spawn map="320080000" npcid="213461" pool="1" interval="1200">
 		<object x="483.37106" y="653.78455" z="580.739" h="19"/>
 		<object x="484.35068" y="583.5889" z="513.329" h="0"/>
 	</spawn>
-	<!-- Bakarma fangguard-->
+	<!-- Bakarma fangguard -->
 	<spawn map="320080000" npcid="213463" pool="1" interval="1200">
 		<object x="428.18915" y="552.23425" z="606.34204" h="79"/>
 	</spawn>
@@ -291,14 +291,14 @@
 		<object x="572.40356" y="560.5067" z="574.2939" h="52"/>
 		<object x="412.80826" y="667.6466" z="473.9614" h="53"/>
 	</spawn>
-	<!-- Bakarma shadowscale-->
+	<!-- Bakarma shadowscale -->
 	<spawn map="320080000" npcid="213465" pool="4" interval="1200">
 		<object x="504.53027" y="686.1687" z="587.0396" h="83"/>
 		<object x="528.01404" y="664.58545" z="581.0101" h="0"/>
 		<object x="448.9188" y="610.64386" z="509.4865" h="45"/>
 		<object x="451.09012" y="605.5067" z="509.55075" h="104"/>
 	</spawn>
-	<!-- Bakarma shadowscale-->
+	<!-- Bakarma shadowscale -->
 	<spawn map="320080000" npcid="213466" pool="7" interval="1200">
 		<object x="425.4587" y="523.4179" z="609.1438" h="114"/>
 		<object x="482.05084" y="555.21735" z="511.84302" h="58"/>
@@ -308,20 +308,20 @@
 		<object x="184.02768" y="546.88446" z="503.42273" h="46"/>
 		<object x="162.8943" y="541.3322" z="504.10605" h="63"/>
 	</spawn>
-	<!-- Bakarma mistscale-->
+	<!-- Bakarma mistscale -->
 	<spawn map="320080000" npcid="213467" pool="4" interval="1200">
 		<object x="305.50183" y="699.0553" z="598.27185" h="93"/>
 		<object x="301.93085" y="695.11334" z="598.28265" h="73"/>
 		<object x="294.9369" y="696.2619" z="598.3049" h="38"/>
 		<object x="295.00684" y="700.33734" z="598.42596" h="0"/>
 	</spawn>
-	<!-- Bakarma breeder-->
+	<!-- Bakarma breeder -->
 	<spawn map="320080000" npcid="213469" pool="3" interval="1200">
 		<object x="397.25885" y="509.78027" z="514.8871" h="114"/>
 		<object x="370.3278" y="514.5079" z="511.6896" h="90"/>
 		<object x="354.8599" y="532.9965" z="511.79004" h="88"/>
 	</spawn>
-	<!-- Bakarma ranger-->
+	<!-- Bakarma ranger -->
 	<spawn map="320080000" npcid="213471" pool="3" interval="1200">
 		<object x="478.6192" y="691.02655" z="584.3722" h="43"/>
 		<object x="559.3867" y="596.78687" z="575.62085" h="18"/>
@@ -331,7 +331,7 @@
 	<spawn map="320080000" npcid="213472" pool="1" interval="1200">
 		<object x="480.74417" y="691.6491" z="584.47906" h="43"/>
 	</spawn>
-	<!-- Bakarma shadowshot-->
+	<!-- Bakarma shadowshot -->
 	<spawn map="320080000" npcid="213474" pool="4" interval="1200">
 		<object x="614.1604" y="554.4178" z="564.6333" h="12"/>
 		<object x="637.75653" y="572.6751" z="557.9656" h="19"/>
@@ -367,11 +367,11 @@
 		<object x="420.4052" y="521.372" z="518.1067" h="20"/>
 		<object x="326.99506" y="574.1438" z="503.71133" h="67"/>
 	</spawn>
-	<!-- Bakarma deathbringer-->
+	<!-- Bakarma deathbringer -->
 	<spawn map="320080000" npcid="213489" pool="1" interval="1200">
 		<object x="471.69116" y="586.75275" z="512.5508" h="43"/>
 	</spawn>
-	<!-- Bakarma deathbringer-->
+	<!-- Bakarma deathbringer -->
 	<spawn map="320080000" npcid="213490" pool="10" interval="1200">
 		<object x="488.19278" y="602.4596" z="512.7917" h="94"/>
 		<object x="210.69997" y="691.4487" z="525.62854" h="94"/>
@@ -384,7 +384,7 @@
 		<object x="461.2086" y="665.1094" z="457.54608" h="56"/>
 		<object x="461.30032" y="663.4925" z="457.37045" h="60"/>
 	</spawn>
-	<!-- Bakarma guardian-->
+	<!-- Bakarma guardian -->
 	<spawn map="320080000" npcid="213491" pool="21" interval="1200">
 		<object x="539.15576" y="657.39246" z="528.6863" h="14"/>
 		<object x="534.7728" y="662.57477" z="528.88885" h="21"/>
@@ -415,7 +415,7 @@
 		<object x="256.49197" y="443.45563" z="512.8898" h="99"/>
 		<object x="210.42221" y="463.06955" z="511.53485" h="63"/>
 	</spawn>
-	<!-- Bakarma dragonpriest-->
+	<!-- Bakarma dragonpriest -->
 	<spawn map="320080000" npcid="213495" pool="2" interval="1200">
 		<object x="242.42372" y="705.8044" z="528.0825" h="61"/>
 		<object x="175.12541" y="662.2319" z="525.2751" h="11"/>
@@ -438,7 +438,7 @@
 		<object x="258.18945" y="527.2869" z="503.8863" h="17"/>
 		<object x="318.29465" y="582.3504" z="502.27805" h="33"/>
 	</spawn>
-	<!-- Bakarma lifegrabber-->
+	<!-- Bakarma lifegrabber -->
 	<spawn map="320080000" npcid="213499" pool="15" interval="1200">
 		<object x="492.3974" y="615.31323" z="512.3092" h="100"/>
 		<object x="498.7471" y="588.85004" z="511.66617" h="25"/>
@@ -456,14 +456,14 @@
 		<object x="535.882" y="485.99695" z="449.97415" h="39"/>
 		<object x="579.477" y="469.8147" z="443.45755" h="115"/>
 	</spawn>
-	<!-- Bakarma soultwister-->
+	<!-- Bakarma soultwister -->
 	<spawn map="320080000" npcid="213500" pool="4" interval="1200">
 		<object x="480.26407" y="624.72125" z="512.12427" h="93"/>
 		<object x="198.98303" y="714.91003" z="529.3255" h="116"/>
 		<object x="184.04309" y="707.9347" z="529.37506" h="93"/>
 		<object x="228.88754" y="685.5884" z="524.9005" h="58"/>
 	</spawn>
-	<!-- Bakarma black mage-->
+	<!-- Bakarma black mage -->
 	<spawn map="320080000" npcid="213501" pool="3" interval="1200">
 		<object x="190.68858" y="587.5118" z="502.99753" h="57"/>
 		<object x="169.97937" y="626.41626" z="502.1991" h="101"/>
@@ -482,7 +482,7 @@
 		<object x="115.52925" y="567.0887" z="494.80054" h="99"/>
 		<object x="587.6945" y="480.2758" z="443.8812" h="83"/>
 	</spawn>
-	<!-- Bakarma bloodlock-->
+	<!-- Bakarma bloodlock -->
 	<spawn map="320080000" npcid="213505" pool="3" interval="1200">
 		<object x="204.98286" y="654.90247" z="523.7712" h="20"/>
 		<object x="186.84547" y="663.6285" z="524.1782" h="7"/>
@@ -499,7 +499,7 @@
 		<object x="613.08966" y="452.88034" z="445.27356" h="76"/>
 		<object x="591.7062" y="446.53296" z="446.18677" h="14"/>
 	</spawn>
-	<!-- Bakarma drakeblade-->
+	<!-- Bakarma drakeblade -->
 	<spawn map="320080000" npcid="213551" pool="2" interval="1200">
 		<object x="446.19846" y="703.9693" z="584.129" h="82"/>
 		<object x="442.0489" y="702.533" z="582.82965" h="51"/>
@@ -512,7 +512,7 @@
 	<spawn map="320080000" npcid="213553" pool="1" interval="1200">
 		<object x="481.6965" y="600.4075" z="513.7992" h="77"/>
 	</spawn>
-	<!-- Bakarma grappler-->
+	<!-- Bakarma grappler -->
 	<spawn map="320080000" npcid="213554" pool="4" interval="1200">
 		<object x="299.57" y="702.7766" z="598.3645" h="83"/>
 		<object x="303.13043" y="702.0623" z="598.28375" h="76"/>
@@ -525,12 +525,12 @@
 		<object x="292.9067" y="699.0915" z="598.28394" h="96"/>
 		<object x="296.53128" y="702.9941" z="598.38513" h="97"/>
 	</spawn>
-	<!-- Bakarma berseker-->
+	<!-- Bakarma berseker -->
 	<spawn map="320080000" npcid="213557" pool="2" interval="1200">
 		<object x="482.35425" y="627.47943" z="512.7152" h="92"/>
 		<object x="292.47543" y="590.91815" z="510.46664" h="89"/>
 	</spawn>
-	<!-- Tiny drakie-->
+	<!-- Tiny drakie -->
 	<spawn map="320080000" npcid="213563" pool="14" interval="1200">
 		<object x="276.10678" y="526.61786" z="506.35715" h="96"/>
 		<object x="272.0409" y="520.47" z="504.62793" h="68"/>
@@ -589,7 +589,7 @@
 		<object x="211.71712" y="451.9751" z="511.92554" h="81"/>
 	</spawn>
 	<!-- boss -->
-	<!-- Lazy Dragashum-->
+	<!-- Lazy Dragashum -->
 	<spawn map="320080000" npcid="213774" pool="1" interval="2400">
 		<object x="547.7762" y="418.7222" z="616.7117" h="32"/>
 	</spawn>
@@ -601,19 +601,19 @@
 	<spawn map="320080000" npcid="213773" pool="1" interval="2400">
 		<object x="380.69363" y="611.95557" z="598.5229" h="98"/>
 	</spawn>
-	<!-- Instructor Afrane-->
+	<!-- Instructor Afrane -->
 	<spawn map="320080000" npcid="213776" pool="1" interval="2400">
 		<object x="255.62642" y="698.7573" z="600.9462" h="113"/>
 	</spawn>
-	<!-- Hungry Ooze-->
+	<!-- Hungry Ooze -->
 	<spawn map="320080000" npcid="213587" pool="1" interval="2400">
 		<object x="567.4385" y="700.87506" z="538.70123" h="7"/>
 	</spawn>
-	<!-- Shadowmaster Takrin-->
+	<!-- Shadowmaster Takrin -->
 	<spawn map="320080000" npcid="213772" pool="1" interval="2400">
 		<object x="557.164" y="620.3145" z="578.3563" h="78"/>
 	</spawn>
-	<!-- Greatscholar Jaadis-->
+	<!-- Greatscholar Jaadis -->
 	<spawn map="320080000" npcid="213775" pool="1" interval="2400">
 		<object x="485.35547" y="595.45905" z="514.253" h="5"/>
 	</spawn>
@@ -625,15 +625,15 @@
 	<spawn map="320080000" npcid="213778" pool="1" interval="2400">
 		<object x="131.04027" y="586.6768" z="501.58148" h="3"/>
 	</spawn>
-	<!-- Lucky Golden Saam-->
+	<!-- Lucky Golden Saam -->
 	<spawn map="320080000" npcid="213588" pool="1" interval="2400">
 		<object x="166.80019" y="536.28455" z="505.8016" h="9"/>
 	</spawn>
-	<!-- Commander Nimbarka-->
+	<!-- Commander Nimbarka -->
 	<spawn map="320080000" npcid="213779" pool="1" interval="2400">
 		<object x="186.18234" y="720.8597" z="529.7642" h="99"/>
 	</spawn>
-	<!-- Deputy Brigade General Yavant-->
+	<!-- Deputy Brigade General Yavant -->
 	<spawn map="320080000" npcid="214026" pool="1" interval="2400">
 		<object x="767.75543" y="427.97748" z="321.62454" h="55"/>
 	</spawn>

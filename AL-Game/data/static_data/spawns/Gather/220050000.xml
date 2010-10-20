@@ -14,10 +14,10 @@
 
 	You should have received a copy of the GNU General Public License
 	along with aion-unique. If not, see <http://www.gnu.org/licenses/>.
-	
+
 	Brusthonin
 
- -->
+-->
 <spawns>
 	<!-- Zeller 290p -->
 	<spawn map="220050000" npcid="400057" pool="68" interval="230">

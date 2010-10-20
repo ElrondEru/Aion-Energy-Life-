@@ -9,11 +9,11 @@
 
 	aion-unique is distributed in the hope that it will be useful,
 	but WITHOUT ANY WARRANTY; without even the implied warranty of
-	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
 	GNU General Public License for more details.
 
 	You should have received a copy of the GNU General Public License
-	along with aion-unique.If not, see <http://www.gnu.org/licenses/>.
+	along with aion-unique. If not, see <http://www.gnu.org/licenses/>.
 
 	Altgard
 
@@ -471,7 +471,7 @@
 	<!-- Lemel (NPC Normal lvl:30) -->
 	<spawn map="220030000" npcid="205259" pool="1" interval="295">
 		<object x="1466.5082" y="2560.8982" z="299.13995" h="100"/>
-	</spawn>	
+	</spawn>
 	<!-- Lenat (NPC Normal lvl:40) -->
 	<spawn map="220030000" npcid="203561" pool="1" interval="295">
 		<object x="1754.35080" y="1807.72270" z="255.22043" h="70"/>

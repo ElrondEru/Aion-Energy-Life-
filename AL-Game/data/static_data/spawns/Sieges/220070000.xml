@@ -18,7 +18,7 @@
 	Fortress & Artifact System Gelkmaros
 	Spawn By Kortana For Aion: Helion Prime 2.0.0.3
  -->
-<spawns>	
+<spawns>
 	<!-- GATES 3011 -->
 	<!-- ELYOS -->
 	<spawn siegeid="3011" map="220070000" npcid="258230" race="ELYOS" pool="1" interval="295">

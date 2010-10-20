@@ -9,11 +9,11 @@
 
 	aion-unique is distributed in the hope that it will be useful,
 	but WITHOUT ANY WARRANTY; without even the implied warranty of
-	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
 	GNU General Public License for more details.
 
 	You should have received a copy of the GNU General Public License
-	along with aion-unique.If not, see <http://www.gnu.org/licenses/>.
+	along with aion-unique. If not, see <http://www.gnu.org/licenses/>.
 
 	Eltnen
 
@@ -176,7 +176,7 @@
 	<!-- Cyrus (NPC Normal lvl:45) -->
 	<spawn map="210020000" npcid="205250" pool="1" interval="295">
 		<object x="945.8000" y="2218.6000" z="252.5000" h="100"/>
-	</spawn>	
+	</spawn>
 	<!-- Daedalus (NPC Normal lvl:45) -->
 	<spawn map="210020000" npcid="203930" pool="1" interval="295">
 		<object x="386.00000" y="2704.00000" z="265.98907" h="60"/>
@@ -781,7 +781,7 @@
 	<!-- Orius (NPC Normal lvl:30) -->
 	<spawn map="210020000" npcid="205252" pool="1" interval="295">
 		<object x="2413.181" y="2725.2183" z="361.78366" h="39"/>
-	</spawn>	
+	</spawn>
 	<!-- Paion (NPC Elite lvl:45) -->
 	<spawn map="210020000" npcid="203941" pool="1" interval="295">
 		<object x="2032.52810" y="1400.75350" z="429.84723" h="17"/>

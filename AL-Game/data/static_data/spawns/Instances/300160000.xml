@@ -9,11 +9,11 @@
 
 	aion-unique is distributed in the hope that it will be useful,
 	but WITHOUT ANY WARRANTY; without even the implied warranty of
-	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
 	GNU General Public License for more details.
 
 	You should have received a copy of the GNU General Public License
-	along with aion-unique.If not, see <http://www.gnu.org/licenses/>.
+	along with aion-unique. If not, see <http://www.gnu.org/licenses/>.
 
 	Lower Udas Temple
 
@@ -562,7 +562,7 @@
 		<object fly="0" staticid="0" x="1108.372" y="1216.6937" z="126.840675" h="113" w="0" rw="0"/>
 		<object fly="0" staticid="0" x="1087.929" y="1216.6445" z="128.11137" h="109" w="0" rw="0"/>
 		<object fly="0" staticid="0" x="1090.3744" y="1220.8688" z="128.2126" h="109" w="0" rw="0"/>
-		<object fly="0" staticid="0" x="1177.0264" y="1208.6522" z="119.59898" h="117" w="0" rw="0"/> 
+		<object fly="0" staticid="0" x="1177.0264" y="1208.6522" z="119.59898" h="117" w="0" rw="0"/>
 	</spawn>
 	<!-- Venomous Sheluk (Monster Elite lvl:54) -->
 	<spawn map="300160000" npcid="215834" pool="12" interval="295">

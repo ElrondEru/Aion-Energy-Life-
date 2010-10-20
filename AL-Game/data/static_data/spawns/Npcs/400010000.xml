@@ -9,11 +9,11 @@
 
 	aion-unique is distributed in the hope that it will be useful,
 	but WITHOUT ANY WARRANTY; without even the implied warranty of
-	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
 	GNU General Public License for more details.
 
 	You should have received a copy of the GNU General Public License
-	along with aion-unique.If not, see <http://www.gnu.org/licenses/>.
+	along with aion-unique. If not, see <http://www.gnu.org/licenses/>.
 
 	Reshanta
 
@@ -1410,7 +1410,7 @@
 		<object x="2784.9946" y="2664.0283" z="1486.7031" h="0" staticid="1216"/>
 	</spawn>
 	<!-- Artifacts Spawn = for Fortress AI BALAUR
-	<spawn map="400010000" npcid_dr="295058" pool="1" interval="295">	
+	<spawn map="400010000" npcid_dr="295058" pool="1" interval="295">
 		<object x="2144.6284" y="1956.2332" z="1595.6572" h="0" staticid="290"/>
 	</spawn>
 	-->

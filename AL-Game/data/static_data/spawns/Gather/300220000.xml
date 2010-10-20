@@ -14,10 +14,10 @@
 
 	You should have received a copy of the GNU General Public License
 	along with aion-unique. If not, see <http://www.gnu.org/licenses/>.
-	
+
 	Debris Of Abyss
 	@author Nephis
- -->
+-->
 <spawns>
 	<spawn map="300220000" npcid="400324" pool="12" interval="295">
 		<object x="398.94455" y="686.06445" z="233.25095" h="0"/>

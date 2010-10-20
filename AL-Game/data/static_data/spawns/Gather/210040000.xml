@@ -14,10 +14,10 @@
 
 	You should have received a copy of the GNU General Public License
 	along with aion-unique. If not, see <http://www.gnu.org/licenses/>.
-	
+
 	Heiron
-	
- -->
+
+-->
 <spawns>
 	<!-- Ruta -->
 	<spawn map="210040000" npcid="400005" pool="20" interval="230">
@@ -1845,7 +1845,7 @@
 		<object x="808.4036" y="1297.099" z="112.04932" h="74"/>
 		<object x="1183.61" y="2088.738" z="123.32362" h="45"/>
 	</spawn>
-	<!-- Lunime 385p-->
+	<!-- Lunime 385p -->
 	<spawn map="210040000" npcid="400712" pool="25" interval="230">
 		<object x="335.13" y="2554.42" z="117.006256" h="23"/>
 		<object x="544.5" y="2759.1" z="115.931244" h="16"/>

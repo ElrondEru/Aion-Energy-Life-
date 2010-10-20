@@ -9,12 +9,12 @@
 
 	aion-unique is distributed in the hope that it will be useful,
 	but WITHOUT ANY WARRANTY; without even the implied warranty of
-	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
 	GNU General Public License for more details.
 
 	You should have received a copy of the GNU General Public License
-	along with aion-unique.  If not, see <http://www.gnu.org/licenses/>.
-	
+	along with aion-unique. If not, see <http://www.gnu.org/licenses/>.
+
 	Gelkmaros
 	TODO: Increase stats of NPCs in npc_templates.xml
 	@author Leolegolas,Salvator
@@ -1100,7 +1100,7 @@
 		<object x="1834.66" y="2810.77" h="0" z="529.568"/>
 		<object x="1837.72" y="2812.45" h="0" z="529.552"/>
 		<object x="1839.98" y="2813.21" h="0" z="529.543"/>
-	</spawn>	
+	</spawn>
 	<!-- -->
 	<spawn map="220070000" interval="295" npcid="209213" pool="3">
 		<object x="1835.09" y="2809.22" h="0" z="529.562"/>
@@ -1110,7 +1110,7 @@
 	<!-- -->
 	<spawn map="220070000" interval="295" npcid="209214" pool="1">
 		<object x="1842.93" y="2811.07" h="0" z="529.54"/>
-	</spawn>	
+	</spawn>
 	<!-- -->
 	<spawn map="220070000" interval="295" npcid="209223" pool="5">
 		<object x="1837.98" y="2808.52" h="0" z="529.542"/>
@@ -1317,21 +1317,21 @@
 		<object x="1151.07" y="891.408" h="0" z="308.983"/>
 		<object x="1255.23" y="855.9" h="0" z="311.704"/>
 	</spawn>
-  <!-- -->	
+  <!-- -->
 	<spawn map="220070000" interval="295" npcid="257835" pool="2">
 		<object x="1150.46" y="918.155" h="0" z="307.486"/>
 		<object x="1285.38" y="882.937" h="0" z="307.477"/>
-	</spawn>	
+	</spawn>
 	<!-- -->
 	<spawn map="220070000" interval="295" npcid="258100" pool="2">
 		<object x="1938.76" y="1094.42" h="0" z="328.833"/>
 		<object x="1833.03" y="1128.82" h="0" z="323.501"/>
-	</spawn>	
+	</spawn>
 	<!-- -->
 	<spawn map="220070000" interval="295" npcid="258135" pool="2">
 		<object x="1831.01" y="1155.4" h="0" z="323.493"/>
 		<object x="1968.25" y="1122.71" h="0" z="324.944"/>
-	</spawn>	
+	</spawn>
   <!-- -->
 	<spawn map="220070000" interval="295" npcid="281822" pool="1">
 		<object x="2933.77" y="868.841" h="0" z="35.2889"/>
@@ -1520,5 +1520,5 @@
 	<spawn map="220070000" interval="295" npcid="296906" pool="2">
 		<object x="1194.39" y="788.815" h="0" z="313.423"/>
 		<object x="1878.96" y="1027.46" h="0" z="330.272"/>
-	</spawn>	
+	</spawn>
 </spawns>

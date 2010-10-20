@@ -9,11 +9,11 @@
 
 	aion-unique is distributed in the hope that it will be useful,
 	but WITHOUT ANY WARRANTY; without even the implied warranty of
-	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
 	GNU General Public License for more details.
 
 	You should have received a copy of the GNU General Public License
-	along with aion-unique.If not, see <http://www.gnu.org/licenses/>.
+	along with aion-unique. If not, see <http://www.gnu.org/licenses/>.
 
 	Verteron
 
@@ -89,7 +89,7 @@
 	<!-- Archemenes (NPC Normal lvl:30) -->
 	<spawn map="210030000" npcid="205249" pool="1" interval="295">
 		<object x="2336.6000" y="1817.4000" z="193.2000" h="58"/>
-	</spawn>	
+	</spawn>
 	<!-- Aremine (NPC Normal lvl:20) -->
 	<spawn map="210030000" npcid="203112" pool="1" interval="295">
 		<object x="1664.4967" y="1499.9943" z="118.875" h="47" w="59"/>
@@ -563,7 +563,7 @@
 	<!-- Nestos (NPC Normal lvl:30) -->
 	<spawn map="210030000" npcid="205248" pool="1" interval="295">
 		<object x="1288.6000" y="2206.5000" z="142.3000" h="2"/>
-	</spawn>	
+	</spawn>
 	<!-- Nola (NPC Normal lvl:5) -->
 	<spawn map="210030000" npcid="730001" pool="1" interval="295">
 		<object x="1273.27" y="1881.26" z="121.57875" h="120"/>

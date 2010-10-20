@@ -9,11 +9,11 @@
 
 	aion-unique is distributed in the hope that it will be useful,
 	but WITHOUT ANY WARRANTY; without even the implied warranty of
-	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
 	GNU General Public License for more details.
 
 	You should have received a copy of the GNU General Public License
-	along with aion-unique.If not, see <http://www.gnu.org/licenses/>.
+	along with aion-unique. If not, see <http://www.gnu.org/licenses/>.
 
 	Beluslan
 
@@ -136,10 +136,10 @@
 	<spawn map="220040000" npcid="204733" pool="1" interval="295">
 		<object x="319.65778" y="376.33453" z="230.0" h="0"/>
 	</spawn>
-	<!-- Berta (NPC Normal lvl:50) -->	
+	<!-- Berta (NPC Normal lvl:50) -->
 	<spawn map="220040000" npcid="205267" pool="1" interval="295">
 		<object x="1942.7509" y="511.4761" z="412.46124" h="62"/>
-	</spawn>	
+	</spawn>
 	<!-- Betoni (NPC Elite lvl:50) -->
 	<spawn map="220040000" npcid="204775" pool="1" interval="295">
 		<object x="2444.8" y="2020.66" z="593.0" h="0"/>
@@ -578,10 +578,10 @@
 	<spawn map="220040000" npcid="204753" pool="1" interval="295">
 		<object x="1911.6976" y="485.8836" z="413.0" h="0"/>
 	</spawn>
-	<!-- Konradin (NPC Normal lvl:50) -->	
+	<!-- Konradin (NPC Normal lvl:50) -->
 	<spawn map="220040000" npcid="205268" pool="1" interval="295">
 		<object x="2430.5632" y="2062.4226" z="579.838" h="6"/>
-	</spawn>		
+	</spawn>
 	<!-- Kunbernan (NPC Normal lvl:50) -->
 	<spawn map="220040000" npcid="204747" pool="1" interval="295">
 		<object x="532.4299" y="1866.7869" z="261.995" h="0"/>
@@ -1044,7 +1044,7 @@
 	<!-- Suomi (NPC Normal lvl:50) -->
 	<spawn map="220040000" npcid="205266" pool="1" interval="295">
 		<object x="1245.425" y="820.90765" z="260.10034" h="106"/>
-	</spawn>	
+	</spawn>
 	<!-- Sturluson (NPC Normal lvl:50) -->
 	<spawn map="220040000" npcid="204726" pool="1" interval="295">
 		<object x="252.92116" y="408.50604" z="237.78409" h="0"/>

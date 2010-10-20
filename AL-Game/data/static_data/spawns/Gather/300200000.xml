@@ -14,10 +14,10 @@
 
 	You should have received a copy of the GNU General Public License
 	along with aion-unique. If not, see <http://www.gnu.org/licenses/>.
-	
+
 	Haramel
-	
- -->
+
+-->
 <spawns>
 	<spawn map="300200000" npcid="400101" pool="3" interval="295">
 		<object x="246.43724" y="364.1123" z="138.16985" h="0"/>

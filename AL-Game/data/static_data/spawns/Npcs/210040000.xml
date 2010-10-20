@@ -9,11 +9,11 @@
 
 	aion-unique is distributed in the hope that it will be useful,
 	but WITHOUT ANY WARRANTY; without even the implied warranty of
-	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
 	GNU General Public License for more details.
 
 	You should have received a copy of the GNU General Public License
-	along with aion-unique.If not, see <http://www.gnu.org/licenses/>.
+	along with aion-unique. If not, see <http://www.gnu.org/licenses/>.
 
 	Heiron
 
@@ -420,7 +420,7 @@
 	<!-- Erdina (NPC Normal lvl:30) -->
 	<spawn map="210040000" npcid="205257" pool="1" interval="295">
 		<object x="918.20465" y="2255.6482" z="157.55992" h="68"/>
-	</spawn>	
+	</spawn>
 	<!-- Erone (NPC Normal lvl:50) -->
 	<spawn map="210040000" npcid="204568" pool="1" interval="295">
 		<object x="139.37701" y="1631.72440" z="121.71547" h="85"/>
@@ -767,7 +767,7 @@
 	<!-- Nikipe (NPC Normal lvl:50) -->
 	<spawn map="210040000" npcid="205256" pool="1" interval="295">
 		<object x="1998.3999" y="1390.7593" z="118.29142" h="17"/>
-	</spawn>	
+	</spawn>
 	<!-- Niobus (NPC Normal lvl:3) -->
 	<spawn map="210040000" npcid="730011" pool="1" interval="295">
 		<object staticid="331" x="1677.0" y="2520.0" z="100.25" h="54"/>

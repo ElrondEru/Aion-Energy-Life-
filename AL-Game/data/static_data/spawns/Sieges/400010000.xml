@@ -564,7 +564,7 @@
 	<spawn siegeid="1254" interval="295" pool="2" npcid="271735" race="ELYOS" map="400010000">
 		<object x="612.5545" y="2879.3726" z="2683.9873" h="63"/>
 		<object x="629.62463" y="2867.8362" z="2687.2444" h="100"/>
-	</spawn>	
+	</spawn>
 	<!-- Siege 1132 -->
 	<!-- BALAUR -->
 	<spawn siegeid="1132" interval="295" pool="17" npcid="263501" race="BALAUR" map="400010000">

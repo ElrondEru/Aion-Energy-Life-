@@ -9,11 +9,11 @@
 
 	aion-unique is distributed in the hope that it will be useful,
 	but WITHOUT ANY WARRANTY; without even the implied warranty of
-	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
 	GNU General Public License for more details.
 
 	You should have received a copy of the GNU General Public License
-	along with aion-unique.If not, see <http://www.gnu.org/licenses/>.
+	along with aion-unique. If not, see <http://www.gnu.org/licenses/>.
 
 	Brusthonin
 
@@ -69,7 +69,7 @@
 	<!-- Archon Sentinel Leader (NPC Elite lvl:50) -->
 	<spawn map="220050000" npcid="205140" pool="2" interval="295">
 		<object x="1763.4475" y="2315.6123" z="11.308762" h="21"/>
-		<object x="1985.2228" y="1928.4219" z="25.201424" h="16"/>		
+		<object x="1985.2228" y="1928.4219" z="25.201424" h="16"/>
 	</spawn>
 	<!-- Asmodian Worker Corpse (Object Normal lvl:1) -->
 	<spawn map="220050000" npcid="730107" pool="1" interval="295">
@@ -577,7 +577,7 @@
 	<!-- Parica (NPC Elite lvl:50) -->
 	<spawn map="220050000" npcid="205141" pool="2" interval="295">
 		<object x="1982.323" y="1935.6166" z="25.101036" h="11"/>
-		<object x="1764.7834" y="2310.1516" z="11.566559" h="16"/>		
+		<object x="1764.7834" y="2310.1516" z="11.566559" h="16"/>
 	</spawn>
 	<!-- Phyper (NPC Elite lvl:50) -->
 	<spawn map="220050000" npcid="798300" pool="1" interval="295">

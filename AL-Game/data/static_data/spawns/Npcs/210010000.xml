@@ -9,11 +9,11 @@
 
 	aion-unique is distributed in the hope that it will be useful,
 	but WITHOUT ANY WARRANTY; without even the implied warranty of
-	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
 	GNU General Public License for more details.
 
 	You should have received a copy of the GNU General Public License
-	along with aion-unique.If not, see <http://www.gnu.org/licenses/>.
+	along with aion-unique. If not, see <http://www.gnu.org/licenses/>.
 
 	Poeta
 
@@ -375,5 +375,5 @@
 		<object x="657.68" y="890.9" z="103.661255" h="78"/>
 		<object x="641.84" y="884.38" z="103.625" h="9"/>
 		<object x="632.62" y="889.38" z="104.455185" h="109"/>
-	</spawn>	
+	</spawn>
 </spawns>

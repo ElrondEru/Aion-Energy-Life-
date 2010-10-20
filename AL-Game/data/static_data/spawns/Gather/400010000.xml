@@ -14,10 +14,10 @@
 
 	You should have received a copy of the GNU General Public License
 	along with aion-unique. If not, see <http://www.gnu.org/licenses/>.
-	
+
 	Reshanta
-	
- -->
+
+-->
 <spawns>
 	<!-- Gold 160p -->
 	<spawn map="400010000" npcid="400102" pool="26" interval="230">

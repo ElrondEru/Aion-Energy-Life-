@@ -9,11 +9,11 @@
 
 	aion-unique is distributed in the hope that it will be useful,
 	but WITHOUT ANY WARRANTY; without even the implied warranty of
-	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
 	GNU General Public License for more details.
 
 	You should have received a copy of the GNU General Public License
-	along with aion-unique.If not, see <http://www.gnu.org/licenses/>.
+	along with aion-unique. If not, see <http://www.gnu.org/licenses/>.
 
 	Silentera Canyon
 
@@ -153,11 +153,11 @@
 	<!--  Teleporter -->
 	<spawn map="600010000" npcid="799381" pool="1" interval="295">
 		<object x="477.275421" y="362.739441" z="328.043396" h="0"/>
-	</spawn>	
+	</spawn>
 	<!--   -->
 	<spawn map="600010000" npcid="799033" pool="1" interval="295">
 		<object x="482.177338" y="427.394135" z="328.918610" h="0"/>
-	</spawn>	
+	</spawn>
 	<!--   -->
 	<spawn map="600010000" npcid="799338" pool="1" interval="295">
 		<object x="496.797577" y="1109.359863" z="334.154633" h="0"/>

@@ -14,10 +14,10 @@
 
 	You should have received a copy of the GNU General Public License
 	along with aion-unique. If not, see <http://www.gnu.org/licenses/>.
-	
+
 	Morheim
-	
- -->
+
+-->
 <spawns>
 	<!-- Rabano -->
 	<spawn map="220020000" npcid="400054" pool="12" interval="230">
@@ -589,7 +589,7 @@
 		<object x="1617.861" y="1126.914" z="22.565811" h="105"/>
 		<object x="2111.953" y="2064.633" z="217.28496" h="29"/>
 	</spawn>
-	<!-- Wrud Log 110p-->
+	<!-- Wrud Log 110p -->
 	<spawn map="220020000" npcid="400453" pool="60" interval="230">
 		<object x="492.6177" y="1709.118" z="426.2592" h="0"/>
 		<object x="574.5186" y="1914.555" z="431.88647" h="90"/>

@@ -14,11 +14,10 @@
 
 	You should have received a copy of the GNU General Public License
 	along with aion-unique. If not, see <http://www.gnu.org/licenses/>.
-	
+
 	Inggison
 	@author Nephis
-	
- -->
+-->
 <spawns>
 	<spawn map="210050000" interval="105" npcid="400010" pool="33">
 		<object x="909.92395" y="230.16745" h="0" z="537.85632"/>

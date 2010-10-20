@@ -9,11 +9,11 @@
 
 	aion-unique is distributed in the hope that it will be useful,
 	but WITHOUT ANY WARRANTY; without even the implied warranty of
-	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
 	GNU General Public License for more details.
 
 	You should have received a copy of the GNU General Public License
-	along with aion-unique.If not, see <http://www.gnu.org/licenses/>.
+	along with aion-unique. If not, see <http://www.gnu.org/licenses/>.
 
 	Morheim
 
@@ -144,7 +144,7 @@
 	<!-- Belhaven (NPC Normal lvl:45) -->
 	<spawn map="220020000" npcid="205262" pool="1" interval="295">
 		<object x="2345.3174" y="2218.558" z="127.14464" h="19"/>
-	</spawn>	
+	</spawn>
 	<!-- Bergthora (NPC Normal lvl:45) -->
 	<spawn map="220020000" npcid="204328" pool="1" interval="295">
 		<object x="274.0" y="2262.0" z="447.46188" h="5"/>
@@ -530,7 +530,7 @@
 	<!-- Igraine (NPC Normal lvl:3) -->
 	<spawn map="220020000" npcid="204347" pool="2" interval="295">
 		<object x="2479.4648" y="1801.015" z="95.654686" h="75"/>
-		<object x="2522.29" y="1703.93" z="92.04063" h="50"/>		
+		<object x="2522.29" y="1703.93" z="92.04063" h="50"/>
 	</spawn>
 	<!-- Ipoderr (NPC Normal lvl:45) -->
 	<spawn map="220020000" npcid="204325" pool="1" interval="295">
@@ -805,7 +805,7 @@
 	<!-- Olav (NPC Normal lvl:45) -->
 	<spawn map="220020000" npcid="205263" pool="1" interval="295">
 		<object x="2795.471" y="1122.0485" z="171.51566" h="81"/>
-	</spawn>	
+	</spawn>
 	<!-- Old Barrel (Object Normal lvl:1) -->
 	<spawn map="220020000" npcid="700280" pool="5" interval="5">
 		<object x="696.06" y="2970.97" z="291.75" h="2"/>
@@ -995,7 +995,7 @@
 	<!-- Severin (NPC Normal lvl:45) -->
 	<spawn map="220020000" npcid="205261" pool="1" interval="295">
 		<object x="1772.1938" y="1664.4111" z="197.68127" h="19"/>
-	</spawn>	
+	</spawn>
 	<!-- Shabby Prison (Monster Normal lvl:1) -->
 	<spawn map="220020000" npcid="700263" pool="3" interval="295">
 		<object x="2662.15" y="799.86" z="248.26" h="120"/>
@@ -1209,7 +1209,7 @@
 	<!-- Virashak (NPC Normal lvl:45) -->
 	<spawn map="220020000" npcid="204348" pool="2" interval="295">
 		<object x="2488.7197" y="1795.9559" z="96.0" h="112"/>
-		<object x="1510.0671" y="2804.3687" z="363.60614" h="73"/>		
+		<object x="1510.0671" y="2804.3687" z="363.60614" h="73"/>
 	</spawn>
 	<!-- Vivi (NPC Normal lvl:25) -->
 	<spawn map="220020000" npcid="204386" pool="1" interval="295">

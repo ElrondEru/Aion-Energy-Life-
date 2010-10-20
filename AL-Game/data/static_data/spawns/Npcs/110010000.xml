@@ -9,11 +9,11 @@
 
 	aion-unique is distributed in the hope that it will be useful,
 	but WITHOUT ANY WARRANTY; without even the implied warranty of
-	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
 	GNU General Public License for more details.
 
 	You should have received a copy of the GNU General Public License
-	along with aion-unique.If not, see <http://www.gnu.org/licenses/>.
+	along with aion-unique. If not, see <http://www.gnu.org/licenses/>.
 
 	Sanctum
 
@@ -451,7 +451,7 @@
 	<!-- Illusion Gate (Object Normal lvl:1) -->
 	<spawn map="110010000" npcid="749017" pool="1" interval="295">
 		<object h="46" x="1873.1509" y="1510.2394" z="806.0178"/>
-	</spawn>	
+	</spawn>
 	<!-- Inofe (NPC Normal lvl:40) -->
 	<spawn map="110010000" npcid="203807" pool="1" interval="295">
 		<object x="1921.47730" y="1396.93620" z="590.40220" h="59"/>
@@ -1035,7 +1035,7 @@
 	<!-- Tercus (NPC Normal lvl:40) -->
 	<spawn map="110010000" npcid="203762" pool="1" interval="295">
 		<object x="1471.86600" y="1363.22100" z="566.00000" h="110"/>
-	</spawn>	
+	</spawn>
 	<!-- Thersites (NPC Normal lvl:40) -->
 	<spawn map="110010000" npcid="203893" pool="1" interval="295">
 		<object x="1755.26540" y="1401.51670" z="575.83844" h="119"/>
