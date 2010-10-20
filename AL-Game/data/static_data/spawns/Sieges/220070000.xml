@@ -53,317 +53,334 @@
 	</spawn>
 	<!-- Siege 3011 -->
 	<!-- ELYOS -->
-	<spawn siegeid="3011" map="220070000" npcid="257093" race="ELYOS" pool="23" interval="295">
-		<object x="1874.2543" y="1209.0992" z="334.81375" h="17"/>
-		<object x="1868.4608" y="1208.8812" z="334.81375" h="43"/>
-		<object x="1831.1066" y="1202.1888" z="334.75223" h="17"/>
-		<object x="1819.4713" y="1202.2262" z="334.7481" h="30"/>
-		<object x="1831.591" y="1193.908" z="334.7511" h="21"/>
-		<object x="1852.72" y="1194.4242" z="334.81357" h="38"/>
-		<object x="1841.8896" y="1194.0092" z="334.7241" h="30"/>
-		<object x="1886.141" y="1208.9147" z="334.81375" h="42"/>
-		<object x="1892.2124" y="1208.8842" z="334.81375" h="21"/>
-		<object x="1940.8002" y="1202.2703" z="334.8378" h="36"/>
-		<object x="1929.4095" y="1202.0776" z="334.8711" h="42"/>
-		<object x="1908.1127" y="1194.1494" z="334.78827" h="26"/>
-		<object x="1928.8896" y="1193.8606" z="334.87372" h="39"/>
-		<object x="1919.6154" y="1193.8717" z="334.81393" h="30"/>
-		<object x="1842.9696" y="1137.51" z="332.68973" h="40"/>
-		<object x="1859.5242" y="1141.8202" z="334.5874" h="40"/>
-		<object x="1901.1246" y="1141.7998" z="334.11832" h="22"/>
-		<object x="1955.6885" y="1151.2441" z="335.2072" h="0"/>
-		<object x="1948.9795" y="1159.779" z="335.2072" h="60"/>
-		<object x="1968.0719" y="1117.332" z="335.6458" h="30"/>
-		<object x="1952.0106" y="1117.1501" z="335.6458" h="30"/>
-		<object x="1937.2294" y="1117.4939" z="335.6458" h="30"/>
-		<object x="1831.1139" y="1117.73" z="335.71667" h="31"/>
+	<spawn siegeid="3011" interval="295" map="220070000" npcid="257660" race="ELYOS" pool="7">
+		<object h="30" x="1149.3888" y="826.43024" z="310.09656"/>
+		<object h="45" x="1167.6912" y="843.9236" z="309.3598"/>
+		<object h="8" x="1230.6212" y="886.9573" z="307.16296"/>
+		<object h="0" x="1142.2675" y="910.3563" z="304.382"/>
+		<object h="114" x="1174.1611" y="924.6624" z="303.99667"/>
+		<object h="21" x="1228.3066" y="913.09064" z="303.99673"/>
+		<object h="30" x="1204.5289" y="973.5226" z="303.555"/>
 	</spawn>
-	<spawn siegeid="3011" map="220070000" npcid="258050" race="ELYOS" pool="3" interval="295">
-		<object x="1829.6395" y="1059.3691" z="326.90027" h="30"/>
-		<object x="1817.5482" y="1059.511" z="326.89655" h="30"/>
-		<object x="1823.69" y="1070.8966" z="326.965" h="30"/>
+	<spawn siegeid="3011" interval="295" map="220070000" npcid="257645" race="ELYOS" pool="2">
+		<object h="23" x="1154.5475" y="854.7742" z="309.4674"/>
+		<object h="109" x="1256.8403" y="838.3089" z="310.12497"/>
 	</spawn>
-	<spawn siegeid="3011" map="220070000" npcid="257072" race="ELYOS" pool="15" interval="295">
-		<object x="1886.015" y="1208.3584" z="320.66943" h="50"/>
-		<object x="1875.2485" y="1206.9851" z="320.6434" h="20"/>
-		<object x="1880.4082" y="1201.2852" z="321.81757" h="30"/>
-		<object x="1888.729" y="1159.1283" z="321.99487" h="61"/>
-		<object x="1871.2211" y="1158.9279" z="321.99445" h="0"/>
-		<object x="1880.2792" y="1148.4843" z="322.78116" h="30"/>
-		<object x="1938.6481" y="1151.2885" z="321.4603" h="59"/>
-		<object x="1938.9791" y="1160.3372" z="321.6209" h="59"/>
-		<object x="1876.7025" y="1124.8328" z="324.13638" h="29"/>
-		<object x="1883.576" y="1124.6393" z="324.15894" h="30"/>
-		<object x="1880.3619" y="1135.7386" z="324.13385" h="89"/>
-		<object x="1919.2534" y="1129.0947" z="324.01028" h="89"/>
-		<object x="1929.522" y="1129.16" z="324.0094" h="89"/>
-		<object x="1842.253" y="1142.1295" z="321.0793" h="24"/>
-		<object x="1830.4778" y="1146.6093" z="321.0578" h="24"/>
+	<spawn siegeid="3011" interval="295" map="220070000" npcid="257615" race="ELYOS" pool="1">
+		<object h="30" x="1188.6337" y="852.8507" z="309.3598"/>
 	</spawn>
-	<spawn siegeid="3011" map="220070000" npcid="281492" race="ELYOS" pool="2" interval="295">
-		<object x="1890.2623" y="1239.3097" z="321.1414" h="34"/>
-		<object x="1873.0862" y="1237.6687" z="320.93127" h="22"/>
+	<spawn siegeid="3011" interval="295" map="220070000" npcid="257654" race="ELYOS" pool="2">
+		<object h="30" x="1193.2325" y="886.4624" z="307.28668"/>
+		<object h="60" x="1205.2273" y="937.5056" z="306.83365"/>
 	</spawn>
-	<spawn siegeid="3011" map="220070000" npcid="257081" race="ELYOS" pool="2" interval="295">
-		<object x="1854.1838" y="1087.31" z="326.2095" h="48"/>
-		<object x="1907.0027" y="1087.1167" z="326.2095" h="19"/>
+	<spawn siegeid="3011" interval="295" map="220070000" npcid="257663" race="ELYOS" pool="20">
+		<object h="30" x="1178.8722" y="879.0345" z="318.7671"/>
+		<object h="30" x="1225.5784" y="877.68085" z="318.7961"/>
+		<object h="30" x="1246.9222" y="877.3728" z="318.7961"/>
+		<object h="30" x="1150.0778" y="878.89484" z="318.6641"/>
+		<object h="0" x="1210.6211" y="920.9197" z="317.9748"/>
+		<object h="60" x="1186.1781" y="922.0845" z="317.99063"/>
+		<object h="36" x="1243.997" y="901.20715" z="315.80945"/>
+		<object h="96" x="1155.1334" y="938.4148" z="316.05743"/>
+		<object h="83" x="1239.1372" y="938.0319" z="316.1418"/>
+		<object h="30" x="1220.4009" y="958.3025" z="317.96405"/>
+		<object h="30" x="1177.9769" y="959.2943" z="317.96405"/>
+		<object h="30" x="1162.5768" y="955.6813" z="317.86996"/>
+		<object h="30" x="1275.837" y="876.8354" z="318.7961"/>
+		<object h="30" x="1235.3154" y="954.50616" z="317.95746"/>
+		<object h="30" x="1248.8761" y="962.263" z="318.01965"/>
+		<object h="30" x="1209.8579" y="970.11884" z="317.96408"/>
+		<object h="30" x="1206.0532" y="970.2361" z="317.96408"/>
+		<object h="30" x="1192.1066" y="970.58044" z="317.96405"/>
+		<object h="30" x="1188.2996" y="970.4093" z="317.96405"/>
+		<object h="30" x="1149.277" y="964.1016" z="317.9022"/>
 	</spawn>
-	<spawn siegeid="3011" map="220070000" npcid="257084" race="ELYOS" pool="2" interval="295">
-		<object x="1817.3031" y="1135.1322" z="323.18866" h="0"/>
-		<object x="1817.5731" y="1126.4812" z="323.1883" h="0"/>
+	<spawn siegeid="3011" interval="295" map="220070000" npcid="257669" race="ELYOS" pool="6">
+		<object h="30" x="1205.6168" y="852.32196" z="309.4926"/>
+		<object h="0" x="1192.7493" y="915.36444" z="305.1476"/>
+		<object h="60" x="1254.2708" y="923.1608" z="304.20038"/>
+		<object h="116" x="1279.3903" y="889.72424" z="305.96368"/>
+		<object h="32" x="1228.1304" y="975.5259" z="303.4027"/>
+		<object h="26" x="1209.4369" y="999.4268" z="302.63"/>
 	</spawn>
-	<spawn siegeid="3011" map="220070000" npcid="257075" race="ELYOS" pool="3" interval="295">
-		<object x="1817.898" y="1149.9565" z="322.83847" h="119"/>
-		<object x="1817.9878" y="1166.036" z="322.93405" h="119"/>
-		<object x="1817.8418" y="1157.477" z="322.83878" h="119"/>
+	<spawn siegeid="3011" interval="295" map="220070000" npcid="257651" race="ELYOS" pool="1">
+		<object h="30" x="1202.341" y="886.51514" z="307.3193"/>
 	</spawn>
-	<spawn siegeid="3011" map="220070000" npcid="257096" race="ELYOS" pool="4" interval="295">
-		<object x="1848.4745" y="1155.6194" z="320.84637" h="0"/>
-		<object x="1848.2761" y="1161.3342" z="320.84637" h="0"/>
-		<object x="1915.9601" y="1161.2458" z="320.84644" h="58"/>
-		<object x="1915.4818" y="1152.8326" z="320.84644" h="58"/>
+	<spawn siegeid="3011" interval="295" map="220070000" npcid="257666" race="ELYOS" pool="6">
+		<object h="15" x="1226.5475" y="842.6695" z="309.35977"/>
+		<object h="30" x="1130.241" y="826.4351" z="310.0397"/>
+		<object h="1" x="1163.1293" y="913.17035" z="303.99664"/>
+		<object h="2" x="1239.714" y="923.36725" z="303.99673"/>
+		<object h="30" x="1193.4277" y="973.33685" z="303.3807"/>
+		<object h="15" x="1169.4523" y="977.64374" z="304.375"/>
 	</spawn>
-	<spawn siegeid="3011" map="220070000" npcid="257087" race="ELYOS" pool="4" interval="295">
-		<object x="1885.9738" y="1090.0359" z="326.35028" h="30"/>
-		<object x="1874.349" y="1090.0144" z="326.2095" h="30"/>
-		<object x="1833.4103" y="1098.58" z="326.2473" h="111"/>
-		<object x="1927.0946" y="1098.855" z="326.3184" h="70"/>
+	<spawn siegeid="3011" interval="295" map="220070000" npcid="257657" race="ELYOS" pool="6">
+		<object h="8" x="1239.9197" y="854.0444" z="309.35406"/>
+		<object h="60" x="1203.5004" y="914.933" z="305.14438"/>
+		<object h="117" x="1260.1163" y="885.9753" z="307.15967"/>
+		<object h="0" x="1142.8154" y="925.0237" z="304.2014"/>
+		<object h="0" x="1129.4769" y="918.3003" z="305.96207"/>
+		<object h="30" x="1193.0011" y="999.641" z="302.6807"/>
 	</spawn>
-	<spawn siegeid="3011" map="220070000" npcid="257090" race="ELYOS" pool="6" interval="295">
-		<object x="1884.5656" y="1104.2782" z="337.94455" h="90"/>
-		<object x="1875.7545" y="1103.9592" z="337.94455" h="90"/>
-		<object x="1863.2367" y="1107.421" z="335.61682" h="59"/>
-		<object x="1894.7974" y="1106.8616" z="335.6272" h="0"/>
-		<object x="1840.8846" y="1080.1741" z="326.2066" h="34"/>
-		<object x="1920.0831" y="1080.1608" z="326.2062" h="26"/>
+	<spawn siegeid="3011" interval="295" map="220070000" npcid="799039" race="ELYOS" pool="1">
+		<object h="60" x="1279.7877" y="849.596" z="310.5409"/>
 	</spawn>
-	<spawn siegeid="3011" map="220070000" npcid="260004" race="ELYOS" pool="1" interval="295" stype="PROTECTOR">
-		<object x="1880.8625" y="1042.1963" z="330.30103" h="29"/>
+	<spawn siegeid="3011" interval="295" map="220070000" npcid="257801" race="ELYOS" pool="1" stype="ARTIFACT">
+		<object h="0" x="1139.6185" y="826.4529" z="310.09113"/>
 	</spawn>
-	<spawn siegeid="3011" map="220070000" npcid="799046" race="ELYOS" pool="1" interval="295">
-		<object x="1952.4083" y="1090.068" z="327.39075" h="59"/>
+	<spawn siegeid="3011" map="220070000" npcid="257304" race="ELYOS" pool="1" interval="295" stype="PROTECTOR">
+		<object x="1196.99" y="802.957" z="313.45" h="30"/>
 	</spawn>
-	<spawn siegeid="3011" map="220070000" npcid="799048" race="ELYOS" pool="1" interval="295">
-		<object x="1952.2329" y="1099.8688" z="327.39072" h="60"/>
+	<spawn siegeid="3011" interval="295" map="220070000" npcid="799043" race="ELYOS" pool="1">
+		<object h="0" x="1171.0245" y="889.20337" z="307.2867"/>
 	</spawn>
-	<spawn siegeid="3011" map="220070000" npcid="799062" race="ELYOS" pool="1" interval="295">
-		<object x="1967.2966" y="1089.9344" z="327.3908" h="60"/>
+	<spawn siegeid="3011" interval="295" map="220070000" npcid="257831" race="ELYOS" pool="1">
+		<object h="0" x="1128.4174" y="892.3023" z="306.34015"/>
 	</spawn>
-	<spawn siegeid="3011" map="220070000" npcid="799050" race="ELYOS" pool="1" interval="295">
-		<object x="1967.28" y="1099.6943" z="327.3907" h="59"/>
+	<spawn siegeid="3011" interval="295" map="220070000" npcid="257833" race="ELYOS" pool="2">
+		<object h="30" x="1150.4626" y="918.1547" z="303.99664"/>
+		<object h="76" x="1285.3765" y="882.9367" z="306.0251"/>
 	</spawn>
-	<spawn siegeid="3011" map="220070000" npcid="799047" race="ELYOS" pool="1" interval="295">
-		<object x="1817.3738" y="1087.2014" z="327.56616" h="119"/>
+	<spawn siegeid="3011" interval="295" map="220070000" npcid="257630" race="ELYOS" pool="1">
+		<object h="0" x="1191.8339" y="937.46967" z="306.83365"/>
 	</spawn>
-	<spawn siegeid="3011" map="220070000" npcid="799049" race="ELYOS" pool="1" interval="295">
-		<object x="1806.4275" y="1086.8972" z="327.5662" h="1"/>
+	<spawn siegeid="3011" interval="295" map="220070000" npcid="257642" race="ELYOS" pool="2">
+		<object h="60" x="1254.2109" y="911.1628" z="303.99673"/>
+		<object h="60" x="1289.0566" y="915.50665" z="305.9637"/>
 	</spawn>
-	<spawn siegeid="3011" map="220070000" npcid="799045" race="ELYOS" pool="1" interval="295">
-		<object x="1806.0857" y="1096.7972" z="327.56604" h="119"/>
+	<spawn siegeid="3011" interval="295" map="220070000" npcid="799040" race="ELYOS" pool="1">
+		<object h="60" x="1280.0168" y="858.89246" z="310.54138"/>
+	</spawn>
+	<spawn siegeid="3011" interval="295" map="220070000" npcid="799061" race="ELYOS" pool="1">
+		<object x="1125.585938" y="849.355469" z="312.276093" h="0"/>
+	</spawn>
+	<spawn siegeid="3011" interval="295" map="220070000" npcid="799306" race="ELYOS" pool="1">
+		<object x="1132.474487" y="849.088135" z="312.276093" h="0"/>
+	</spawn>
+	<spawn siegeid="3011" interval="295" map="220070000" npcid="799044" race="ELYOS" pool="1">
+		<object x="1272.767090" y="849.932373" z="312.123322" h="0"/>
+	</spawn>
+	<spawn siegeid="3011" interval="295" map="220070000" npcid="799042" race="ELYOS" pool="1">
+		<object x="1273.086792" y="859.039429" z="312.123322" h="0"/>
+	</spawn>
+	<spawn siegeid="3011" interval="295" map="220070000" npcid="257198" race="ELYOS" pool="2">
+		<object x="1151.07" y="891.408" h="0" z="308.983"/>
+		<object x="1255.23" y="855.9" h="0" z="311.704"/>
 	</spawn>
 	<!-- ASMODIANS -->
-	<spawn siegeid="3011" map="220070000" npcid="257094" race="ASMODIANS" pool="23" interval="295">
-		<object x="1874.2543" y="1209.0992" z="334.81375" h="17"/>
-		<object x="1868.4608" y="1208.8812" z="334.81375" h="43"/>
-		<object x="1831.1066" y="1202.1888" z="334.75223" h="17"/>
-		<object x="1819.4713" y="1202.2262" z="334.7481" h="30"/>
-		<object x="1831.591" y="1193.908" z="334.7511" h="21"/>
-		<object x="1852.72" y="1194.4242" z="334.81357" h="38"/>
-		<object x="1841.8896" y="1194.0092" z="334.7241" h="30"/>
-		<object x="1886.141" y="1208.9147" z="334.81375" h="42"/>
-		<object x="1892.2124" y="1208.8842" z="334.81375" h="21"/>
-		<object x="1940.8002" y="1202.2703" z="334.8378" h="36"/>
-		<object x="1929.4095" y="1202.0776" z="334.8711" h="42"/>
-		<object x="1908.1127" y="1194.1494" z="334.78827" h="26"/>
-		<object x="1928.8896" y="1193.8606" z="334.87372" h="39"/>
-		<object x="1919.6154" y="1193.8717" z="334.81393" h="30"/>
-		<object x="1842.9696" y="1137.51" z="332.68973" h="40"/>
-		<object x="1859.5242" y="1141.8202" z="334.5874" h="40"/>
-		<object x="1901.1246" y="1141.7998" z="334.11832" h="22"/>
-		<object x="1955.6885" y="1151.2441" z="335.2072" h="0"/>
-		<object x="1948.9795" y="1159.779" z="335.2072" h="60"/>
-		<object x="1968.0719" y="1117.332" z="335.6458" h="30"/>
-		<object x="1952.0106" y="1117.1501" z="335.6458" h="30"/>
-		<object x="1937.2294" y="1117.4939" z="335.6458" h="30"/>
-		<object x="1831.1139" y="1117.73" z="335.71667" h="31"/>
+	<spawn siegeid="3011" interval="295" map="220070000" npcid="257661" race="ASMODIANS" pool="7">
+		<object h="30" x="1149.3888" y="826.43024" z="310.09656"/>
+		<object h="45" x="1167.6912" y="843.9236" z="309.3598"/>
+		<object h="8" x="1230.6212" y="886.9573" z="307.16296"/>
+		<object h="0" x="1142.2675" y="910.3563" z="304.382"/>
+		<object h="114" x="1174.1611" y="924.6624" z="303.99667"/>
+		<object h="21" x="1228.3066" y="913.09064" z="303.99673"/>
+		<object h="30" x="1204.5289" y="973.5226" z="303.555"/>
 	</spawn>
-	<spawn siegeid="3011" map="220070000" npcid="258052" race="ASMODIANS" pool="3" interval="295">
-		<object x="1829.6395" y="1059.3691" z="326.90027" h="30"/>
-		<object x="1817.5482" y="1059.511" z="326.89655" h="30"/>
-		<object x="1823.69" y="1070.8966" z="326.965" h="30"/>
+	<spawn siegeid="3011" interval="295" map="220070000" npcid="257646" race="ASMODIANS" pool="2">
+		<object h="23" x="1154.5475" y="854.7742" z="309.4674"/>
+		<object h="109" x="1256.8403" y="838.3089" z="310.12497"/>
 	</spawn>
-	<spawn siegeid="3011" map="220070000" npcid="257073" race="ASMODIANS" pool="15" interval="295">
-		<object x="1886.015" y="1208.3584" z="320.66943" h="50"/>
-		<object x="1875.2485" y="1206.9851" z="320.6434" h="20"/>
-		<object x="1880.4082" y="1201.2852" z="321.81757" h="30"/>
-		<object x="1888.729" y="1159.1283" z="321.99487" h="61"/>
-		<object x="1871.2211" y="1158.9279" z="321.99445" h="0"/>
-		<object x="1880.2792" y="1148.4843" z="322.78116" h="30"/>
-		<object x="1938.6481" y="1151.2885" z="321.4603" h="59"/>
-		<object x="1938.9791" y="1160.3372" z="321.6209" h="59"/>
-		<object x="1876.7025" y="1124.8328" z="324.13638" h="29"/>
-		<object x="1883.576" y="1124.6393" z="324.15894" h="30"/>
-		<object x="1880.3619" y="1135.7386" z="324.13385" h="89"/>
-		<object x="1919.2534" y="1129.0947" z="324.01028" h="89"/>
-		<object x="1929.522" y="1129.16" z="324.0094" h="89"/>
-		<object x="1842.253" y="1142.1295" z="321.0793" h="24"/>
-		<object x="1830.4778" y="1146.6093" z="321.0578" h="24"/>
+	<spawn siegeid="3011" interval="295" map="220070000" npcid="257620" race="ASMODIANS" pool="1">
+		<object h="30" x="1188.6337" y="852.8507" z="309.3598"/>
 	</spawn>
-	<spawn siegeid="3011" map="220070000" npcid="281493" race="ASMODIANS" pool="2" interval="295">
-		<object x="1890.2623" y="1239.3097" z="321.1414" h="34"/>
-		<object x="1873.0862" y="1237.6687" z="320.93127" h="22"/>
+	<spawn siegeid="3011" interval="295" map="220070000" npcid="257655" race="ASMODIANS" pool="2">
+		<object h="30" x="1193.2325" y="886.4624" z="307.28668"/>
+		<object h="60" x="1205.2273" y="937.5056" z="306.83365"/>
 	</spawn>
-	<spawn siegeid="3011" map="220070000" npcid="257082" race="ASMODIANS" pool="2" interval="295">
-		<object x="1854.1838" y="1087.31" z="326.2095" h="48"/>
-		<object x="1907.0027" y="1087.1167" z="326.2095" h="19"/>
+	<spawn siegeid="3011" interval="295" map="220070000" npcid="257664" race="ASMODIANS" pool="20">
+		<object h="30" x="1178.8722" y="879.0345" z="318.7671"/>
+		<object h="30" x="1225.5784" y="877.68085" z="318.7961"/>
+		<object h="30" x="1246.9222" y="877.3728" z="318.7961"/>
+		<object h="30" x="1150.0778" y="878.89484" z="318.6641"/>
+		<object h="0" x="1210.6211" y="920.9197" z="317.9748"/>
+		<object h="60" x="1186.1781" y="922.0845" z="317.99063"/>
+		<object h="36" x="1243.997" y="901.20715" z="315.80945"/>
+		<object h="96" x="1155.1334" y="938.4148" z="316.05743"/>
+		<object h="83" x="1239.1372" y="938.0319" z="316.1418"/>
+		<object h="30" x="1220.4009" y="958.3025" z="317.96405"/>
+		<object h="30" x="1177.9769" y="959.2943" z="317.96405"/>
+		<object h="30" x="1162.5768" y="955.6813" z="317.86996"/>
+		<object h="30" x="1275.837" y="876.8354" z="318.7961"/>
+		<object h="30" x="1235.3154" y="954.50616" z="317.95746"/>
+		<object h="30" x="1248.8761" y="962.263" z="318.01965"/>
+		<object h="30" x="1209.8579" y="970.11884" z="317.96408"/>
+		<object h="30" x="1206.0532" y="970.2361" z="317.96408"/>
+		<object h="30" x="1192.1066" y="970.58044" z="317.96405"/>
+		<object h="30" x="1188.2996" y="970.4093" z="317.96405"/>
+		<object h="30" x="1149.277" y="964.1016" z="317.9022"/>
 	</spawn>
-	<spawn siegeid="3011" map="220070000" npcid="257085" race="ASMODIANS" pool="2" interval="295">
-		<object x="1817.3031" y="1135.1322" z="323.18866" h="0"/>
-		<object x="1817.5731" y="1126.4812" z="323.1883" h="0"/>
+	<spawn siegeid="3011" interval="295" map="220070000" npcid="257670" race="ASMODIANS" pool="6">
+		<object h="30" x="1205.6168" y="852.32196" z="309.4926"/>
+		<object h="0" x="1192.7493" y="915.36444" z="305.1476"/>
+		<object h="60" x="1254.2708" y="923.1608" z="304.20038"/>
+		<object h="116" x="1279.3903" y="889.72424" z="305.96368"/>
+		<object h="32" x="1228.1304" y="975.5259" z="303.4027"/>
+		<object h="26" x="1209.4369" y="999.4268" z="302.63"/>
 	</spawn>
-	<spawn siegeid="3011" map="220070000" npcid="257076" race="ASMODIANS" pool="3" interval="295">
-		<object x="1817.898" y="1149.9565" z="322.83847" h="119"/>
-		<object x="1817.9878" y="1166.036" z="322.93405" h="119"/>
-		<object x="1817.8418" y="1157.477" z="322.83878" h="119"/>
+	<spawn siegeid="3011" interval="295" map="220070000" npcid="257652" race="ASMODIANS" pool="1">
+		<object h="30" x="1202.341" y="886.51514" z="307.3193"/>
 	</spawn>
-	<spawn siegeid="3011" map="220070000" npcid="257097" race="ASMODIANS" pool="4" interval="295">
-		<object x="1848.4745" y="1155.6194" z="320.84637" h="0"/>
-		<object x="1848.2761" y="1161.3342" z="320.84637" h="0"/>
-		<object x="1915.9601" y="1161.2458" z="320.84644" h="58"/>
-		<object x="1915.4818" y="1152.8326" z="320.84644" h="58"/>
+	<spawn siegeid="3011" interval="295" map="220070000" npcid="257667" race="ASMODIANS" pool="6">
+		<object h="15" x="1226.5475" y="842.6695" z="309.35977"/>
+		<object h="30" x="1130.241" y="826.4351" z="310.0397"/>
+		<object h="1" x="1163.1293" y="913.17035" z="303.99664"/>
+		<object h="2" x="1239.714" y="923.36725" z="303.99673"/>
+		<object h="30" x="1193.4277" y="973.33685" z="303.3807"/>
+		<object h="15" x="1169.4523" y="977.64374" z="304.375"/>
 	</spawn>
-	<spawn siegeid="3011" map="220070000" npcid="257088" race="ASMODIANS" pool="4" interval="295">
-		<object x="1885.9738" y="1090.0359" z="326.35028" h="30"/>
-		<object x="1874.349" y="1090.0144" z="326.2095" h="30"/>
-		<object x="1833.4103" y="1098.58" z="326.2473" h="111"/>
-		<object x="1927.0946" y="1098.855" z="326.3184" h="70"/>
+	<spawn siegeid="3011" interval="295" map="220070000" npcid="257658" race="ASMODIANS" pool="6">
+		<object h="8" x="1239.9197" y="854.0444" z="309.35406"/>
+		<object h="60" x="1203.5004" y="914.933" z="305.14438"/>
+		<object h="117" x="1260.1163" y="885.9753" z="307.15967"/>
+		<object h="0" x="1142.8154" y="925.0237" z="304.2014"/>
+		<object h="0" x="1129.4769" y="918.3003" z="305.96207"/>
+		<object h="30" x="1193.0011" y="999.641" z="302.6807"/>
 	</spawn>
-	<spawn siegeid="3011" map="220070000" npcid="257091" race="ASMODIANS" pool="6" interval="295">
-		<object x="1884.5656" y="1104.2782" z="337.94455" h="90"/>
-		<object x="1875.7545" y="1103.9592" z="337.94455" h="90"/>
-		<object x="1863.2367" y="1107.421" z="335.61682" h="59"/>
-		<object x="1894.7974" y="1106.8616" z="335.6272" h="0"/>
-		<object x="1840.8846" y="1080.1741" z="326.2066" h="34"/>
-		<object x="1920.0831" y="1080.1608" z="326.2062" h="26"/>
+	<spawn siegeid="3011" interval="295" map="220070000" npcid="799301" race="ASMODIANS" pool="1">
+		<object h="60" x="1279.7877" y="849.596" z="310.5409"/>
 	</spawn>
-	<spawn siegeid="3011" map="220070000" npcid="260006" race="ASMODIANS" pool="1" interval="295" stype="PROTECTOR">
-		<object x="1880.8625" y="1042.1963" z="330.30103" h="29"/>
+	<spawn siegeid="3011" interval="295" map="220070000" npcid="257802" race="ASMODIANS" pool="1" stype="ARTIFACT">
+		<object h="0" staticid="853" x="1139.6185" y="826.4529" z="310.09113"/>
 	</spawn>
-	<spawn siegeid="3011" map="220070000" npcid="799315" race="ASMODIANS" pool="1" interval="295">
-		<object x="1952.4083" y="1090.068" z="327.39075" h="59"/>
+	<spawn siegeid="3011" map="220070000" npcid="257607" race="ASMODIANS" pool="1" interval="295" stype="PROTECTOR">
+		<object x="1196.99" y="802.957" z="313.45" h="30"/>
 	</spawn>
-	<spawn siegeid="3011" map="220070000" npcid="799312" race="ASMODIANS" pool="1" interval="295">
-		<object x="1952.2329" y="1099.8688" z="327.39072" h="60"/>
+	<spawn siegeid="3011" interval="295" map="220070000" npcid="257826" race="ASMODIANS" pool="1">
+		<object h="0" x="1132.8119" y="859.6353" z="310.71637"/>
 	</spawn>
-	<spawn siegeid="3011" map="220070000" npcid="799373" race="ASMODIANS" pool="1" interval="295">
-		<object x="1967.2966" y="1089.9344" z="327.3908" h="60"/>
+	<spawn siegeid="3011" interval="295" map="220070000" npcid="799327" race="ASMODIANS" pool="1">
+		<object h="0" x="1171.0245" y="889.20337" z="307.2867"/>
 	</spawn>
-	<spawn siegeid="3011" map="220070000" npcid="799328" race="ASMODIANS" pool="1" interval="295">
-		<object x="1967.28" y="1099.6943" z="327.3907" h="59"/>
+	<spawn siegeid="3011" interval="295" map="220070000" npcid="257832" race="ASMODIANS" pool="1">
+		<object h="0" x="1128.4174" y="892.3023" z="306.34015"/>
 	</spawn>
-	<spawn siegeid="3011" map="220070000" npcid="799310" race="ASMODIANS" pool="1" interval="295">
-		<object x="1817.3738" y="1087.2014" z="327.56616" h="119"/>
+	<spawn siegeid="3011" interval="295" map="220070000" npcid="257834" race="ASMODIANS" pool="2">
+		<object h="30" x="1150.4626" y="918.1547" z="303.99664"/>
+		<object h="76" x="1285.3765" y="882.9367" z="306.0251"/>
 	</spawn>
-	<spawn siegeid="3011" map="220070000" npcid="799363" race="ASMODIANS" pool="1" interval="295">
-		<object x="1806.4275" y="1086.8972" z="327.5662" h="1"/>
+	<spawn siegeid="3011" interval="295" map="220070000" npcid="257631" race="ASMODIANS" pool="1">
+		<object h="0" x="1191.8339" y="937.46967" z="306.83365"/>
 	</spawn>
-	<spawn siegeid="3011" map="220070000" npcid="799313" race="ASMODIANS" pool="1" interval="295">
-		<object x="1806.0857" y="1096.7972" z="327.56604" h="119"/>
+	<spawn siegeid="3011" interval="295" map="220070000" npcid="257643" race="ASMODIANS" pool="2">
+		<object h="60" x="1254.2109" y="911.1628" z="303.99673"/>
+		<object h="60" x="1289.0566" y="915.50665" z="305.9637"/>
 	</spawn>
-	<spawn siegeid="3011" map="220070000" npcid="258126" race="ASMODIANS" pool="1" interval="295">
-		<object x="1816.5471" y="1097.0419" z="327.5661" h="0"/>
+	<spawn siegeid="3011" interval="295" map="220070000" npcid="799302" race="ASMODIANS" pool="1">
+		<object h="60" x="1280.0168" y="858.89246" z="310.54138"/>
 	</spawn>
-	<spawn siegeid="3011" map="220070000" npcid="799311" race="ASMODIANS" pool="1" interval="295">
-		<object x="1810.9626" y="1092.0353" z="327.56833" h="0"/>
+	<spawn siegeid="3011" interval="295" map="220070000" npcid="799372" race="ASMODIANS" pool="1">
+		<object x="1125.585938" y="849.355469" z="312.276093" h="0"/>
 	</spawn>
-	<spawn siegeid="3011" map="220070000" npcid="257395" race="BALAUR" pool="23" interval="295">
-		<object x="1874.2543" y="1209.0992" z="334.81375" h="17"/>
-		<object x="1868.4608" y="1208.8812" z="334.81375" h="43"/>
-		<object x="1831.1066" y="1202.1888" z="334.75223" h="17"/>
-		<object x="1819.4713" y="1202.2262" z="334.7481" h="30"/>
-		<object x="1831.591" y="1193.908" z="334.7511" h="21"/>
-		<object x="1852.72" y="1194.4242" z="334.81357" h="38"/>
-		<object x="1841.8896" y="1194.0092" z="334.7241" h="30"/>
-		<object x="1886.141" y="1208.9147" z="334.81375" h="42"/>
-		<object x="1892.2124" y="1208.8842" z="334.81375" h="21"/>
-		<object x="1940.8002" y="1202.2703" z="334.8378" h="36"/>
-		<object x="1929.4095" y="1202.0776" z="334.8711" h="42"/>
-		<object x="1908.1127" y="1194.1494" z="334.78827" h="26"/>
-		<object x="1928.8896" y="1193.8606" z="334.87372" h="39"/>
-		<object x="1919.6154" y="1193.8717" z="334.81393" h="30"/>
-		<object x="1842.9696" y="1137.51" z="332.68973" h="40"/>
-		<object x="1859.5242" y="1141.8202" z="334.5874" h="40"/>
-		<object x="1901.1246" y="1141.7998" z="334.11832" h="22"/>
-		<object x="1955.6885" y="1151.2441" z="335.2072" h="0"/>
-		<object x="1948.9795" y="1159.779" z="335.2072" h="60"/>
-		<object x="1968.0719" y="1117.332" z="335.6458" h="30"/>
-		<object x="1952.0106" y="1117.1501" z="335.6458" h="30"/>
-		<object x="1937.2294" y="1117.4939" z="335.6458" h="30"/>
-		<object x="1831.1139" y="1117.73" z="335.71667" h="31"/>
+	<spawn siegeid="3011" interval="295" map="220070000" npcid="799306" race="ASMODIANS" pool="1">
+		<object x="1132.474487" y="849.088135" z="312.276093" h="0"/>
 	</spawn>
-	<spawn siegeid="3011" map="220070000" npcid="257401" race="BALAUR" pool="3" interval="295">
-		<object x="1829.6395" y="1059.3691" z="326.90027" h="30"/>
-		<object x="1817.5482" y="1059.511" z="326.89655" h="30"/>
-		<object x="1823.69" y="1070.8966" z="326.965" h="30"/>
+	<spawn siegeid="3011" interval="295" map="220070000" npcid="799305" race="ASMODIANS" pool="1">
+		<object x="1272.767090" y="849.932373" z="312.123322" h="0"/>
 	</spawn>
-	<spawn siegeid="3011" map="220070000" npcid="257374" race="BALAUR" pool="15" interval="295">
-		<object x="1886.015" y="1208.3584" z="320.66943" h="50"/>
-		<object x="1875.2485" y="1206.9851" z="320.6434" h="20"/>
-		<object x="1880.4082" y="1201.2852" z="321.81757" h="30"/>
-		<object x="1888.729" y="1159.1283" z="321.99487" h="61"/>
-		<object x="1871.2211" y="1158.9279" z="321.99445" h="0"/>
-		<object x="1880.2792" y="1148.4843" z="322.78116" h="30"/>
-		<object x="1938.6481" y="1151.2885" z="321.4603" h="59"/>
-		<object x="1938.9791" y="1160.3372" z="321.6209" h="59"/>
-		<object x="1876.7025" y="1124.8328" z="324.13638" h="29"/>
-		<object x="1883.576" y="1124.6393" z="324.15894" h="30"/>
-		<object x="1880.3619" y="1135.7386" z="324.13385" h="89"/>
-		<object x="1919.2534" y="1129.0947" z="324.01028" h="89"/>
-		<object x="1929.522" y="1129.16" z="324.0094" h="89"/>
-		<object x="1842.253" y="1142.1295" z="321.0793" h="24"/>
-		<object x="1830.4778" y="1146.6093" z="321.0578" h="24"/>
+	<spawn siegeid="3011" interval="295" map="220070000" npcid="799304" race="ASMODIANS" pool="1">
+		<object x="1273.086792" y="859.039429" z="312.123322" h="0"/>
 	</spawn>
-	<spawn siegeid="3011" map="220070000" npcid="257383" race="BALAUR" pool="2" interval="295">
-		<object x="1854.1838" y="1087.31" z="326.2095" h="48"/>
-		<object x="1907.0027" y="1087.1167" z="326.2095" h="19"/>
+	<spawn siegeid="3011" interval="295" map="220070000" npcid="257800" race="ASMODIANS" pool="2">
+		<object x="1151.07" y="891.408" h="0" z="308.983"/>
+		<object x="1255.23" y="855.9" h="0" z="311.704"/>
 	</spawn>
-	<spawn siegeid="3011" map="220070000" npcid="257386" race="BALAUR" pool="2" interval="295">
-		<object x="1817.3031" y="1135.1322" z="323.18866" h="0"/>
-		<object x="1817.5731" y="1126.4812" z="323.1883" h="0"/>
+	<!-- Balaur -->
+	<spawn siegeid="3011" interval="295" map="220070000" npcid="257662" race="BALAUR" pool="7">
+		<object h="30" x="1149.3888" y="826.43024" z="310.09656"/>
+		<object h="45" x="1167.6912" y="843.9236" z="309.3598"/>
+		<object h="8" x="1230.6212" y="886.9573" z="307.16296"/>
+		<object h="0" x="1142.2675" y="910.3563" z="304.382"/>
+		<object h="114" x="1174.1611" y="924.6624" z="303.99667"/>
+		<object h="21" x="1228.3066" y="913.09064" z="303.99673"/>
+		<object h="30" x="1204.5289" y="973.5226" z="303.555"/>
 	</spawn>
-	<spawn siegeid="3011" map="220070000" npcid="257377" race="BALAUR" pool="3" interval="295">
-		<object x="1817.898" y="1149.9565" z="322.83847" h="119"/>
-		<object x="1817.9878" y="1166.036" z="322.93405" h="119"/>
-		<object x="1817.8418" y="1157.477" z="322.83878" h="119"/>
+	<spawn siegeid="3011" interval="295" map="220070000" npcid="257647" race="BALAUR" pool="2">
+		<object h="23" x="1154.5475" y="854.7742" z="309.4674"/>
+		<object h="109" x="1256.8403" y="838.3089" z="310.12497"/>
 	</spawn>
-	<spawn siegeid="3011" map="220070000" npcid="257398" race="BALAUR" pool="4" interval="295">
-		<object x="1848.4745" y="1155.6194" z="320.84637" h="0"/>
-		<object x="1848.2761" y="1161.3342" z="320.84637" h="0"/>
-		<object x="1915.9601" y="1161.2458" z="320.84644" h="58"/>
-		<object x="1915.4818" y="1152.8326" z="320.84644" h="58"/>
+	<spawn siegeid="3011" interval="295" map="220070000" npcid="257625" race="BALAUR" pool="1">
+		<object h="30" x="1188.6337" y="852.8507" z="309.3598"/>
 	</spawn>
-	<spawn siegeid="3011" map="220070000" npcid="257389" race="BALAUR" pool="4" interval="295">
-		<object x="1885.9738" y="1090.0359" z="326.35028" h="30"/>
-		<object x="1874.349" y="1090.0144" z="326.2095" h="30"/>
-		<object x="1833.4103" y="1098.58" z="326.2473" h="111"/>
-		<object x="1927.0946" y="1098.855" z="326.3184" h="70"/>
+	<spawn siegeid="3011" interval="295" map="220070000" npcid="257656" race="BALAUR" pool="2">
+		<object h="30" x="1193.2325" y="886.4624" z="307.28668"/>
+		<object h="60" x="1205.2273" y="937.5056" z="306.83365"/>
 	</spawn>
-	<spawn siegeid="3011" map="220070000" npcid="257392" race="BALAUR" pool="6" interval="295">
-		<object x="1884.5656" y="1104.2782" z="337.94455" h="90"/>
-		<object x="1875.7545" y="1103.9592" z="337.94455" h="90"/>
-		<object x="1863.2367" y="1107.421" z="335.61682" h="59"/>
-		<object x="1894.7974" y="1106.8616" z="335.6272" h="0"/>
-		<object x="1840.8846" y="1080.1741" z="326.2066" h="34"/>
-		<object x="1920.0831" y="1080.1608" z="326.2062" h="26"/>
+	<spawn siegeid="3011" interval="295" map="220070000" npcid="257665" race="BALAUR" pool="20">
+		<object h="30" x="1178.8722" y="879.0345" z="318.7671"/>
+		<object h="30" x="1225.5784" y="877.68085" z="318.7961"/>
+		<object h="30" x="1246.9222" y="877.3728" z="318.7961"/>
+		<object h="30" x="1150.0778" y="878.89484" z="318.6641"/>
+		<object h="0" x="1210.6211" y="920.9197" z="317.9748"/>
+		<object h="60" x="1186.1781" y="922.0845" z="317.99063"/>
+		<object h="36" x="1243.997" y="901.20715" z="315.80945"/>
+		<object h="96" x="1155.1334" y="938.4148" z="316.05743"/>
+		<object h="83" x="1239.1372" y="938.0319" z="316.1418"/>
+		<object h="30" x="1220.4009" y="958.3025" z="317.96405"/>
+		<object h="30" x="1177.9769" y="959.2943" z="317.96405"/>
+		<object h="30" x="1162.5768" y="955.6813" z="317.86996"/>
+		<object h="30" x="1275.837" y="876.8354" z="318.7961"/>
+		<object h="30" x="1235.3154" y="954.50616" z="317.95746"/>
+		<object h="30" x="1248.8761" y="962.263" z="318.01965"/>
+		<object h="30" x="1209.8579" y="970.11884" z="317.96408"/>
+		<object h="30" x="1206.0532" y="970.2361" z="317.96408"/>
+		<object h="30" x="1192.1066" y="970.58044" z="317.96405"/>
+		<object h="30" x="1188.2996" y="970.4093" z="317.96405"/>
+		<object h="30" x="1149.277" y="964.1016" z="317.9022"/>
 	</spawn>
-	<spawn siegeid="3011" map="220070000" npcid="257310" race="BALAUR" pool="1" interval="295" stype="PROTECTOR">
-		<object x="1880.8625" y="1042.1963" z="330.30103" h="29"/>
+	<spawn siegeid="3011" interval="295" map="220070000" npcid="257671" race="BALAUR" pool="6">
+		<object h="30" x="1205.6168" y="852.32196" z="309.4926"/>
+		<object h="0" x="1192.7493" y="915.36444" z="305.1476"/>
+		<object h="60" x="1254.2708" y="923.1608" z="304.20038"/>
+		<object h="116" x="1279.3903" y="889.72424" z="305.96368"/>
+		<object h="32" x="1228.1304" y="975.5259" z="303.4027"/>
+		<object h="26" x="1209.4369" y="999.4268" z="302.63"/>
+	</spawn>
+	<spawn siegeid="3011" interval="295" map="220070000" npcid="257653" race="BALAUR" pool="1">
+		<object h="30" x="1202.341" y="886.51514" z="307.3193"/>
+	</spawn>
+	<spawn siegeid="3011" interval="295" map="220070000" npcid="257668" race="BALAUR" pool="6">
+		<object h="15" x="1226.5475" y="842.6695" z="309.35977"/>
+		<object h="30" x="1130.241" y="826.4351" z="310.0397"/>
+		<object h="1" x="1163.1293" y="913.17035" z="303.99664"/>
+		<object h="2" x="1239.714" y="923.36725" z="303.99673"/>
+		<object h="30" x="1193.4277" y="973.33685" z="303.3807"/>
+		<object h="15" x="1169.4523" y="977.64374" z="304.375"/>
+	</spawn>
+	<spawn siegeid="3011" interval="295" map="220070000" npcid="257659" race="BALAUR" pool="6">
+		<object h="8" x="1239.9197" y="854.0444" z="309.35406"/>
+		<object h="60" x="1203.5004" y="914.933" z="305.14438"/>
+		<object h="117" x="1260.1163" y="885.9753" z="307.15967"/>
+		<object h="0" x="1142.8154" y="925.0237" z="304.2014"/>
+		<object h="0" x="1129.4769" y="918.3003" z="305.96207"/>
+		<object h="30" x="1193.0011" y="999.641" z="302.6807"/>
+	</spawn>
+	<spawn siegeid="3011" interval="295" map="220070000" npcid="257803" race="BALAUR" pool="1" stype="ARTIFACT">
+		<object h="0" x="1139.6185" y="826.4529" z="310.09113"/>
+	</spawn>
+	<spawn siegeid="3011" map="220070000" npcid="257612" race="BALAUR" pool="1" interval="295" stype="PROTECTOR">
+		<object x="1196.99" y="802.957" z="313.45" h="30"/>
+	</spawn>
+	<spawn siegeid="3011" interval="295" map="220070000" npcid="257835" race="BALAUR" pool="2">
+		<object h="30" x="1150.4626" y="918.1547" z="303.99664"/>
+		<object h="76" x="1285.3765" y="882.9367" z="306.0251"/>
+	</spawn>
+	<spawn siegeid="3011" interval="295" map="220070000" npcid="257632" race="BALAUR" pool="1">
+		<object h="0" x="1191.8339" y="937.46967" z="306.83365"/>
+	</spawn>
+	<spawn siegeid="3011" interval="295" map="220070000" npcid="257644" race="BALAUR" pool="2">
+		<object h="60" x="1254.2109" y="911.1628" z="303.99673"/>
+		<object h="60" x="1289.0566" y="915.50665" z="305.9637"/>
+	</spawn>
+	<spawn siegeid="3011" interval="295" map="220070000" npcid="257200" race="BALAUR" pool="2">
+		<object x="1151.07" y="891.408" h="0" z="308.983"/>
+		<object x="1255.23" y="855.9" h="0" z="311.704"/>
 	</spawn>
 	<!-- Siege 3012 -->
 	<!-- Artifact (E): Alukina's Mischief -->
 	<!-- ELYOS -->
 	<spawn siegeid="3012" map="220070000" npcid="257804" race="ELYOS" pool="1" interval="295" stype="ARTIFACT">
-		<object x="1250.6554" y="1180.1423" z="270.51828" h="89"/>
+		<object x="1250.8159" y="1180.4683" z="264.88126" h="89"/>
 	</spawn>
 	<spawn siegeid="3012" map="220070000" npcid="257102" race="ELYOS" pool="1" interval="295" stype="PROTECTOR">
 		<object x="1249.9336" y="1167.6138" z="266.14914" h="89"/>
@@ -383,7 +400,7 @@
 	<!-- Artifact (A): Alukina's Mischief -->
 	<!-- ASMODIANS -->
 	<spawn siegeid="3012" map="220070000" npcid="257805" race="ASMODIANS" pool="1" interval="295" stype="ARTIFACT">
-		<object x="1250.6554" y="1180.1423" z="270.51828" h="89"/>
+		<object staticid="845" x="1250.8159" y="1180.4683" z="264.88126" h="89"/>
 	</spawn>
 	<spawn siegeid="3012" map="220070000" npcid="257107" race="ASMODIANS" pool="1" interval="295" stype="PROTECTOR">
 		<object x="1249.9336" y="1167.6138" z="266.14914" h="89"/>
@@ -403,9 +420,9 @@
 	<!-- Artifact (B): Alukina's Mischief -->
 	<!-- BALAUR -->
 	<spawn siegeid="3012" map="220070000" npcid="257806" race="BALAUR" pool="1" interval="295" stype="ARTIFACT">
-		<object x="1250.6554" y="1180.1423" z="270.51828" h="89"/>
+		<object x="1250.8159" y="1180.4683" z="264.88126" h="89"/>
 	</spawn>
-	<spawn siegeid="3012" map="220070000" npcid="257101" race="BALAUR" pool="1" interval="295" stype="PROTECTOR">
+	<spawn siegeid="3012" map="220070000" npcid="257757" race="BALAUR" pool="1" interval="295" stype="PROTECTOR">
 		<object x="1249.9336" y="1167.6138" z="266.14914" h="89"/>
 	</spawn>
 	<spawn siegeid="3012" map="220070000" npcid="257122" race="BALAUR" pool="2" interval="295">
@@ -424,10 +441,10 @@
 	<!-- Artifact (E): Glimmering Aura -->
 	<!-- ELYOS -->
 	<spawn siegeid="3013" map="220070000" npcid="257204" race="ELYOS" pool="1" interval="295" stype="ARTIFACT">
-		<object x="1150.0043" y="1517.5654" z="282.75" h="4"/>
+		<object h="0" x="1135.6504" y="1515.0028" z="282.75"/>
 	</spawn>
-	<spawn siegeid="3013" map="220070000" npcid="257102" race="ELYOS" pool="1" interval="295" stype="PROTECTOR">
-		<object x="1542.2198" y="2099.7207" z="321.42017" h="98"/>
+	<spawn siegeid="3013" map="220070000" npcid="257747" race="ELYOS" pool="1" interval="295" stype="PROTECTOR">
+		<object h="0" x="1119.6987" y="1511.5748" z="282.75"/>
 	</spawn>
 	<spawn siegeid="3013" map="220070000" npcid="257126" race="ELYOS" pool="2" interval="295">
 		<object x="1133.1031" y="1528.42" z="284.5083" h="2"/>
@@ -444,10 +461,10 @@
 	<!-- Artifact (A): Glimmering Aura -->
 	<!-- ASMODIANS -->
 	<spawn siegeid="3013" map="220070000" npcid="257205" race="ASMODIANS" pool="1" interval="295" stype="ARTIFACT">
-		<object x="1150.0043" y="1517.5654" z="282.75" h="4"/>
+		<object h="0" x="1135.6504" y="1515.0028" z="282.75"/>
 	</spawn>
-	<spawn siegeid="3013" map="220070000" npcid="257107" race="ASMODIANS" pool="1" interval="295" stype="PROTECTOR">
-		<object x="1542.2198" y="2099.7207" z="321.42017" h="98"/>
+	<spawn siegeid="3013" map="220070000" npcid="257752" race="ASMODIANS" pool="1" interval="295" stype="PROTECTOR">
+		<object h="0" x="1119.6987" y="1511.5748" z="282.75"/>
 	</spawn>
 	<spawn siegeid="3013" map="220070000" npcid="257127" race="ASMODIANS" pool="2" interval="295">
 		<object x="1133.1031" y="1528.42" z="284.5083" h="2"/>
@@ -464,10 +481,10 @@
 	<!-- Artifact (B): Glimmering Aura -->
 	<!-- BALAUR -->
 	<spawn siegeid="3013" map="220070000" npcid="257206" race="BALAUR" pool="1" interval="295" stype="ARTIFACT">
-		<object x="1150.0043" y="1517.5654" z="282.75" h="4"/>
+		<object h="0" x="1135.6504" y="1515.0028" z="282.75"/>
 	</spawn>
-	<spawn siegeid="3013" map="220070000" npcid="257101" race="BALAUR" pool="1" interval="295" stype="PROTECTOR">
-		<object x="1542.2198" y="2099.7207" z="321.42017" h="98"/>
+	<spawn siegeid="3013" map="220070000" npcid="257757" race="BALAUR" pool="1" interval="295" stype="PROTECTOR">
+		<object h="0" x="1119.6987" y="1511.5748" z="282.75"/>
 	</spawn>
 	<spawn siegeid="3013" map="220070000" npcid="257128" race="BALAUR" pool="2" interval="295">
 		<object x="1133.1031" y="1528.42" z="284.5083" h="2"/>
@@ -592,6 +609,9 @@
 		<object x="1806.0857" y="1096.7972" z="327.56604" h="119"/>
 	</spawn>
 	<!-- ASMODIANS -->
+	<spawn interval="295" map="220070000" npcid="258102" pool="1">
+		<object h="0" staticid="857" x="1823.7633" y="1064.033" z="326.94418"/>
+	</spawn>
 	<spawn siegeid="3021" map="220070000" npcid="257094" race="ASMODIANS" pool="23" interval="295">
 		<object x="1874.2543" y="1209.0992" z="334.81375" h="17"/>
 		<object x="1868.4608" y="1208.8812" z="334.81375" h="43"/>
@@ -706,6 +726,7 @@
 	<spawn siegeid="3021" map="220070000" npcid="799311" race="ASMODIANS" pool="1" interval="295">
 		<object x="1810.9626" y="1092.0353" z="327.56833" h="0"/>
 	</spawn>
+	<!-- Balaur -->
 	<spawn siegeid="3021" map="220070000" npcid="257395" race="BALAUR" pool="23" interval="295">
 		<object x="1874.2543" y="1209.0992" z="334.81375" h="17"/>
 		<object x="1868.4608" y="1208.8812" z="334.81375" h="43"/>
@@ -835,7 +856,7 @@
 	<spawn siegeid="3022" map="220070000" npcid="257506" race="BALAUR" pool="1" interval="295" stype="ARTIFACT">
 		<object x="2043.2117" y="1482.7008" z="337.76624" h="98"/>
 	</spawn>
-	<spawn siegeid="3022" map="220070000" npcid="257101" race="BALAUR" pool="1" interval="295" stype="PROTECTOR">
+	<spawn siegeid="3022" map="220070000" npcid="257112" race="BALAUR" pool="1" interval="295" stype="PROTECTOR">
 		 <object x="2045.9788" y="1476.5498" z="335.61115" h="99"/>
 	</spawn>
 	<spawn siegeid="3022" map="220070000" npcid="257122" race="BALAUR" pool="2" interval="295">
@@ -896,7 +917,7 @@
 	<spawn siegeid="3023" map="220070000" npcid="257509" race="BALAUR" pool="1" interval="295" stype="ARTIFACT">
 		<object x="1677.7999" y="1317.7151" z="331.95013" h="23"/>
 	</spawn>
-	<spawn siegeid="3023" map="220070000" npcid="257101" race="BALAUR" pool="1" interval="295" stype="PROTECTOR">
+	<spawn siegeid="3023" map="220070000" npcid="257757" race="BALAUR" pool="1" interval="295" stype="PROTECTOR">
 		<object x="1682.8406" y="1331.8667" z="326.75833" h="22"/>
 	</spawn>
 	<spawn siegeid="3023" map="220070000" npcid="257122" race="BALAUR" pool="2" interval="295">

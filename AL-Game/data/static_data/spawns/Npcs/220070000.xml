@@ -21,10 +21,6 @@
 	
  -->
 <spawns>
-	<!-- Karystli -->
-	<spawn map="220070000" npcid="257826" pool="1" interval="295">
-		<object x="1132.811890" y="859.635315" z="312.283081" h="0"/>
-	</spawn>
 	<!-- Beldeg -->
 	<spawn map="220070000" npcid="799221" pool="1" interval="295">
 		<object x="1926.527832" y="2888.052979" z="561.56323" h="65"/>
@@ -44,14 +40,6 @@
 	<!-- Tetzkin -->
 	<spawn map="220070000" npcid="799261" pool="1" interval="295">
 		<object x="884.483521" y="1726.413696" z="357.655273" h="0"/>
-	</spawn>
-	<!-- Alcibia -->
-	<spawn map="220070000" npcid="799039" pool="1" interval="295">
-		<object x="1279.787720" y="849.596008" z="312.123322" h="0"/>
-	</spawn>
-	<!-- Bafur -->
-	<spawn map="220070000" npcid="799301" pool="1" interval="295">
-		<object x="1279.787720" y="849.596008" z="312.123322" h="0"/>
 	</spawn>
 	<!-- Rayera -->
 	<spawn map="220070000" npcid="799203" pool="1" interval="295">
@@ -165,10 +153,6 @@
 	<spawn map="220070000" npcid="799041" pool="1" interval="295">
 		<object x="1125.716797" y="859.809448" z="312.276093" h="0"/>
 	</spawn>
-	<!-- Inthedra -->
-	<spawn map="220070000" npcid="799303" pool="1" interval="295">
-		<object x="1125.716797" y="859.809448" z="312.276093" h="0"/>
-	</spawn>
 	<!-- Toorunerk -->
 	<spawn map="220070000" npcid="799211" pool="1" interval="295">
 		<object x="1887.747070" y="2878.976074" z="532.83527" h="69"/>
@@ -200,14 +184,6 @@
 	<!-- Stephano -->
 	<spawn map="220070000" npcid="799293" pool="1" interval="295">
 		<object x="2317.110840" y="1986.095459" z="399.000000" h="0"/>
-	</spawn>
-	<!-- Arianos -->
-	<spawn map="220070000" npcid="799042" pool="1" interval="295">
-		<object x="1273.086792" y="859.039429" z="312.123322" h="0"/>
-	</spawn>
-	<!-- Moritz -->
-	<spawn map="220070000" npcid="799304" pool="1" interval="295">
-		<object x="1273.086792" y="859.039429" z="312.123322" h="0"/>
 	</spawn>
 	<!-- Yolyer -->
 	<spawn map="220070000" npcid="799277" pool="1" interval="295">
@@ -284,14 +260,6 @@
 	<!-- Gennaro -->
 	<spawn map="220070000" npcid="799205" pool="1" interval="295">
 		<object x="1715.674316" y="2820.248535" z="560.5355" h="10"/>
-	</spawn>
-	<!-- Liriope -->
-	<spawn map="220070000" npcid="799044" pool="1" interval="295">
-		<object x="1272.767090" y="849.932373" z="312.123322" h="0"/>
-	</spawn>
-	<!-- Krizarid -->
-	<spawn map="220070000" npcid="799305" pool="1" interval="295">
-		<object x="1272.767090" y="849.932373" z="312.123322" h="0"/>
 	</spawn>
 	<!-- Svasuth -->
 	<spawn map="220070000" npcid="799408" pool="1" interval="295">
@@ -505,14 +473,6 @@
 	<spawn map="220070000" npcid="799248" pool="1" interval="295">
 		<object x="1031.256104" y="2787.864258" z="388.655273" h="0"/>
 	</spawn>
-	<!-- Stanis -->
-	<spawn map="220070000" npcid="799043" pool="1" interval="295">
-		<object x="1171.024536" y="889.203369" z="308.916077" h="0"/>
-	</spawn>
-	<!-- Ranack -->
-	<spawn map="220070000" npcid="799327" pool="1" interval="295">
-		<object x="1171.024536" y="889.203369" z="308.916077" h="0"/>
-	</spawn>
 	<!-- Godin -->
 	<spawn map="220070000" npcid="799215" pool="1" interval="295">
 		<object x="1711.219971" y="2890.086914" z="556.144960" h="83"/>
@@ -581,14 +541,6 @@
 	<spawn map="220070000" npcid="799409" pool="1" interval="295">
 		<object x="1601.294556" y="2629.435303" z="484.875000" h="0"/>
 	</spawn>
-	<!-- Madonia -->
-	<spawn map="220070000" npcid="799040" pool="1" interval="295">
-		<object x="1280.016846" y="858.892456" z="312.459076" h="0"/>
-	</spawn>
-	<!-- Isseim -->
-	<spawn map="220070000" npcid="799302" pool="1" interval="295">
-		<object x="1280.016846" y="858.892456" z="312.459076" h="0"/>
-	</spawn>
 	<!-- Yumir -->
 	<spawn map="220070000" npcid="799321" pool="1" interval="295">
 		<object x="1823.512207" y="2930.431396" z="548.52606" h="30"/>
@@ -641,10 +593,6 @@
 	<spawn map="220070000" npcid="799209" pool="1" interval="295">
 		<object x="1869.89" y="2904.5" z="554.981" h="79"/>
 	</spawn>
-	<!-- Esendia -->
-	<spawn map="220070000" npcid="799306" pool="1" interval="295">
-		<object x="1132.474487" y="849.088135" z="312.276093" h="0"/>
-	</spawn>
 	<!-- Duminunerk -->
 	<spawn map="220070000" npcid="799369" pool="1" interval="295">
 		<object x="1896.716797" y="2928.422119" z="562.537800" h="44"/>
@@ -680,14 +628,6 @@
 	<!-- Greeta -->
 	<spawn map="220070000" npcid="799244" pool="1" interval="295">
 		<object x="1700.816895" y="2888.873047" z="556.077700" h="0"/>
-	</spawn>
-	<!-- Macar -->
-	<spawn map="220070000" npcid="799061" pool="1" interval="295">
-		<object x="1125.585938" y="849.355469" z="312.276093" h="0"/>
-	</spawn>
-	<!-- Dilbeek -->
-	<spawn map="220070000" npcid="799372" pool="1" interval="295">
-		<object x="1125.585938" y="849.355469" z="312.276093" h="0"/>
 	</spawn>
 	<!-- Altina -->
 	<spawn map="220070000" npcid="799337" pool="1" interval="295">
@@ -1317,11 +1257,6 @@
 	<spawn map="220070000" interval="295" npcid="257800" pool="2">
 		<object x="1151.07" y="891.408" h="0" z="308.983"/>
 		<object x="1255.23" y="855.9" h="0" z="311.704"/>
-	</spawn>
-	<!-- -->
-	<spawn map="220070000" interval="295" npcid="257835" pool="2">
-		<object x="1150.46" y="918.155" h="0" z="307.486"/>
-		<object x="1285.38" y="882.937" h="0" z="307.477"/>
 	</spawn>
 	<!-- -->
 	<spawn map="220070000" interval="295" npcid="258100" pool="2">

@@ -2673,7 +2673,7 @@
 	<spawn siegeid="1011" interval="295" pool="1" npcid="260033" race="ELYOS" map="400010000">
 		<object x="2134.707" y="1974.5842" z="2556.6926" h="50"/>
 	</spawn>
-	<spawn siegeid="1011" interval="295" pool="1" npcid="260004" race="ELYOS" map="400010000" stype="PROTECTOR">
+	<spawn siegeid="1011" interval="295" pool="1" npcid="260003" race="ELYOS" map="400010000" stype="PROTECTOR">
 		<object x="2135.9543" y="1931.4821" z="2323.4438" h="90"/>
 	</spawn>
 	<spawn siegeid="1011" interval="295" pool="1" npcid="260019" race="ELYOS" map="400010000">
