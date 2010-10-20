@@ -20,12 +20,11 @@ import org.apache.log4j.Logger;
 
 import com.aionemu.gameserver.network.aion.AionClientPacket;
 import com.aionemu.gameserver.network.aion.serverpackets.SM_PONG;
-import com.aionemu.gameserver.utils.PacketSendUtility;
 
 /**
  * I have no idea wtf is this
  * 
- * @author -Aion Gates-
+ * @author -Nemesiss-
  * 
  */
 public class CM_PING extends AionClientPacket
@@ -70,8 +69,14 @@ public class CM_PING extends AionClientPacket
 				if(getConnection().getActivePlayer() != null)
 					name = getConnection().getActivePlayer().getName();
 				log.info("[AUDIT] possible client timer cheat kicking player: " + pingInterval + " by " + name + ", ip=" + ip);
-				PacketSendUtility.sendMessage(getConnection().getActivePlayer(), "You have been triggered Speed Hack detection so you're disconnected.");
-				getConnection().getActivePlayer().getClientConnection().close(true);
+				
+				//ATracer:
+				//this method is unreliable and gives false positives
+				// in order to enable disconnection using it - 
+				// make first configuration for a)disable/enable b) interval
+				
+//				PacketSendUtility.sendMessage(getConnection().getActivePlayer(), "You have been triggered Speed Hack detection so you're disconnected.");
+//				getConnection().getActivePlayer().getClientConnection().close(true);
 			}
 		}
 		getConnection().setLastPingTimeMS(System.currentTimeMillis());
