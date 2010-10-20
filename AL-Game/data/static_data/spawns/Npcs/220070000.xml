@@ -149,10 +149,6 @@
 	<spawn map="220070000" npcid="799884" pool="1" interval="295">
 		<object x="1849.4636" y="2787.3398" z="529.84326" h="90"/>
 	</spawn>
-	<!-- Becaria -->
-	<spawn map="220070000" npcid="799041" pool="1" interval="295">
-		<object x="1125.716797" y="859.809448" z="312.276093" h="0"/>
-	</spawn>
 	<!-- Toorunerk -->
 	<spawn map="220070000" npcid="799211" pool="1" interval="295">
 		<object x="1887.747070" y="2878.976074" z="532.83527" h="69"/>
