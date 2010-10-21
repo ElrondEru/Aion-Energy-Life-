@@ -1261,7 +1261,7 @@
 			<point x="208.177597" y="1118.050659" />
 		</points>
 	</zone>
-	<zone mapid="210050000" name="CONQUEROR_RAVINE_210050000" priority="16">
+	<zone mapid="210050000" name="CONQUEROR_RAVINE_210050000" priority="16" fly="true">
 		<points>
 			<point x="2320.963379" y="1984.030273" />
 			<point x="2261.594971" y="2010.308105" />
@@ -1332,7 +1332,7 @@
 		</points>
 		<link>ANGRIEF_RUINS_210050000</link>
 	</zone>
-	<zone mapid="210050000" name="SKYSLING_CANYON_210050000" priority="10">
+	<zone mapid="210050000" name="SKYSLING_CANYON_210050000" priority="10" fly="true">
 		<points>
 			<point x="818.250000" y="838.585083" />
 			<point x="734.864929" y="902.961731" />
@@ -1449,7 +1449,7 @@
 			<point x="729.626831" y="1497.224731" />
 		</points>
 	</zone>
-	<zone mapid="210050000" name="TALOC_FOREST_210050000" priority="12">
+	<zone mapid="210050000" name="TALOC_FOREST_210050000" priority="12" fly="true">
 		<points>
 			<point x="2688.219971" y="110.260002" />
 			<point x="2645.262207" y="254.034424" />

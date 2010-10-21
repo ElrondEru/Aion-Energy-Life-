@@ -41,7 +41,7 @@
 		<link>GELKMAROS_FALLS_220070000</link>
 		<link>SPIRITFALL_GATE_220070000</link>
 	</zone>
-	<zone mapid="220070000" name="KRUG_BASIN_TEST_SITE_220070000" priority="5">
+	<zone mapid="220070000" name="KRUG_BASIN_TEST_SITE_220070000" priority="5" fly="true">
 		<points>
 			<point x="1228.356812" y="2459.566162" />
 			<point x="1218.271362" y="2473.778076" />
@@ -1093,7 +1093,7 @@
 			<point x="1310.332397" y="1533.707153" />
 		</points>
 	</zone>
-	<zone mapid="220070000" name="GALLOWS_RUN_220070000" priority="10">
+	<zone mapid="220070000" name="GALLOWS_RUN_220070000" priority="10" fly="true">
 		<points>
 			<point x="972.005554" y="2317.815186" />
 			<point x="905.677979" y="2266.648193" />
@@ -1674,7 +1674,7 @@
 		<link>PETRALITH_CANYON_220070000</link>
 		<link>VAGABATAM_GATE_220070000</link>
 	</zone>
-	<zone mapid="220070000" name="KRUG_BASIN_220070000" priority="13">
+	<zone mapid="220070000" name="KRUG_BASIN_220070000" priority="13" fly="true">
 		<points>
 			<point x="953.969971" y="2595.439941" />
 			<point x="907.653992" y="2537.896729" />
@@ -1750,7 +1750,7 @@
 			<point x="1491.997314" y="899.476013" />
 		</points>
 	</zone>
-	<zone mapid="220070000" name="AZURE_GULLY_220070000" priority="13">
+	<zone mapid="220070000" name="AZURE_GULLY_220070000" priority="13" fly="true">
 		<points>
 			<point x="983.130005" y="1579.670044" />
 			<point x="977.553955" y="1530.689575" />
