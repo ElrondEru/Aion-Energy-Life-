@@ -93,4 +93,10 @@
 	<summon_stats npc_id_light="201036" npc_id_dark="201037" level="50">
 		<stats_template maxHp="4906" pdefense="609" mresist="951" main_hand_attack="294" run_speed="11.0"/>
 	</summon_stats>
+	<summon_stats npc_id_light="201036" npc_id_dark="201037" level="51">
+		<stats_template maxHp="5056" pdefense="620" mresist="966" main_hand_attack="298" run_speed="11.0"/>
+	</summon_stats>
+	<summon_stats npc_id_light="201036" npc_id_dark="201037" level="52">
+		<stats_template maxHp="5206" pdefense="631" mresist="981" main_hand_attack="302" run_speed="11.0"/>
+	</summon_stats>	
 </summon_stats_templates>

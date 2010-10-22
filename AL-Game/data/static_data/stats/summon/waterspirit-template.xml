@@ -87,4 +87,19 @@
 	<summon_stats npc_id_light="201032" npc_id_dark="201033" level="50">
 		<stats_template maxHp="3317" pdefense="310" mresist="948" main_hand_attack="264" run_speed="8.0"/>
 	</summon_stats>
+	<summon_stats npc_id_light="201060" npc_id_dark="201061" level="51">
+		<stats_template maxHp="3409" pdefense="317" mresist="964" main_hand_attack="268" run_speed="8.0"/>
+	</summon_stats>	
+	<summon_stats npc_id_light="201060" npc_id_dark="201061" level="52">
+		<stats_template maxHp="3501" pdefense="324" mresist="980" main_hand_attack="272" run_speed="8.0"/>
+	</summon_stats>	
+	<summon_stats npc_id_light="201060" npc_id_dark="201061" level="53">
+		<stats_template maxHp="3614" pdefense="331" mresist="996" main_hand_attack="276" run_speed="8.0"/>
+	</summon_stats>	
+	<summon_stats npc_id_light="201060" npc_id_dark="201061" level="54">
+		<stats_template maxHp="3751" pdefense="338" mresist="1012" main_hand_attack="280" run_speed="8.0"/>
+	</summon_stats>	
+	<summon_stats npc_id_light="201060" npc_id_dark="201061" level="55">
+		<stats_template maxHp="3903" pdefense="345" mresist="1028" main_hand_attack="284" run_speed="8.0"/>
+	</summon_stats>		
 </summon_stats_templates>
