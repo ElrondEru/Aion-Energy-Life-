@@ -168,7 +168,7 @@ public class _4937RecognitionOfThePreceptors extends QuestHandler
 						{
 							// Get HACTION_QUEST_SELECT in the eddit-HyperLinks.xml
 							case 25:
-								if(player.getInventory().getItemCountByItemId(186000085) >= 1)
+								if(player.getInventory().getItemCountByItemId(186000084) >= 1)
 									// Send select5 to eddit-HtmlPages.xml
 									return sendQuestDialog(player, env.getVisibleObject().getObjectId(), 2375);
 								else
@@ -180,7 +180,7 @@ public class _4937RecognitionOfThePreceptors extends QuestHandler
 									return sendQuestDialog(player, env.getVisibleObject().getObjectId(), 10002);
 							// Get HACTION_SELECT_QUEST_REWARD in the eddit-HyperLinks.xml
 							case 1009:
-									player.getInventory().removeFromBagByItemId(186000085, 1);	
+									player.getInventory().removeFromBagByItemId(186000084, 1);	
 									qs.setStatus(QuestStatus.REWARD);
 									updateQuestStatus(player, qs);	
 									// Send select_quest_reward1 to eddit-HtmlPages.xml									
