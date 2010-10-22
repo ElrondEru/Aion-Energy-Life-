@@ -92,7 +92,7 @@
 		<entrypoint mapid="220040000" x="2203.19" y="2923.57" z="699.81"/>
 		<exitpoint mapid="320110000" x="602.62976" y="526.6474" z="200.05792"/>
 	</portal>
-  <!-- Secret Port Entrance -->
+	<!-- Secret Port Entrance -->
 	<portal npcid="700359" instance="true" minlevel="40" maxlevel="55" group="false" race="ASMODIANS">
 		<entrypoint mapid="220040000" x="1654.75" y="1499.61" z="333.51" race="ASMODIANS"/>
 		<exitpoint mapid="320110000" x="609.808" y="527.38477" z="200.05792"/>
@@ -154,12 +154,12 @@
 		<entrypoint mapid="400010000" x="989.72034" y="2933.3706" z="1642.3381" race="ASMODIANS"/>
 		<exitpoint mapid="300110000" x="418.16174" y="203.66518" z="429.66397"/>
 	</portal>	
-	<!-- Adma Stronghold Secret Entrance -->
+	<!-- Adma Stronghold Entrance -->
 	<portal npcid="730151" instance="true" minlevel="46" maxlevel="55" group="true" usedelay="1800">
 		<entrypoint mapid="220050000" x="1840.48" y="887.51" z="59.108303"/>
 		<exitpoint mapid="320130000" x="450.66864" y="199.70248" z="167.84444"/>
 	</portal>	
-	<!-- Adma Stronghold -->
+	<!-- Adma Stronghold Secret Passage -->
 	<portal npcid="730165" instance="true" minlevel="46" maxlevel="55" group="true">
 		<entrypoint mapid="220050000" x="2339.747" y="160.00119" z="246.44734"/>
 		<exitpoint mapid="320130000" x="450.66864" y="199.70248" z="167.84444"/>
@@ -476,7 +476,7 @@
 	<portal npcid="730076" minlevel="25" maxlevel="55" instance="false" group="false" race="ASMODIANS">
 		<entrypoint mapid="400010000" x="0" y="0" z="0" race="ASMODIANS"/>
 		<exitpoint mapid="220030000" x="1748" y="1807" z="254"/>
-	</portal>
+	</portal>	
 	<!-- 1.9 PORTAL'S -->
 	<!-- Kaisinel Teleport -->
 	<portal npcid="730265" minlevel="50" maxlevel="55" group="false">
@@ -497,28 +497,7 @@
 	<portal npcid="730269" minlevel="50" maxlevel="55" group="false">
 		<entrypoint mapid="120020000" x="1557.2" y="1429.4" z="265.7"/>
 		<exitpoint mapid="120010000" x="1602.999" y="1389.1866" z="193.12862"/>
-	</portal>
-	<!-- 2.0 PORTAL'S -->
-	<!-- Inggison To Sanctum -->
-	<portal npcid="730220" minlevel="50" maxlevel="55" group="false">
-		<entrypoint mapid="210050000" x="1324.0519" y="261.2691" z="591.3652"/>
-		<exitpoint mapid="110010000" x="1366.0005" y="1539.527" z="569.0382"/>
-	</portal>
-	<!-- Gelkmaros To Pandaemonium -->
-	<portal npcid="730221" minlevel="50" maxlevel="55" group="false">
-		<entrypoint mapid="220070000" x="1892.9479" y="2853.2244" z="555.0163"/>
-		<exitpoint mapid="120010000" x="1602.999" y="1389.1866" z="193.12862"/>
 	</portal>	
-	<!-- Sanctum To Inggison -->
-	<portal npcid="730218" minlevel="50" maxlevel="55" group="false">
-		<entrypoint mapid="110010000" x="1313.592" y="1512.1525" z="568.107"/>
-		<exitpoint mapid="210050000" x="1324.7362" y="261.8812" z="591.36"/>
-	</portal>
-	<!-- Pandaemonium To Gelkmaros -->
-	<portal npcid="730219" minlevel="50" maxlevel="55" group="false">
-		<entrypoint mapid="120010000" x="1685.5969" y="1400.5013" z="195.3448"/>
-		<exitpoint mapid="220070000" x="1771.5" y="2892.2" z="548.8"/>
-	</portal>			
 	<!-- SCROLL TELEPORTS ELYOS -->
 	<portal name="AB1_LIGHT_RETURN_ALIAS">
 		<exitpoint mapid="400010000" x="2867" y="1036" z="1528"/>

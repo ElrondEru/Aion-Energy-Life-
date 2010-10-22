@@ -12,43 +12,6 @@
 			<telelocation loc_id="82" price="1400"/>
 		</locations>
 	</teleporter_template>
-	<!-- Pandaemonium - Marchutan Sanctuary Teleports -->
-	<teleporter_template npc_id="730268" name="DC1_Airport_ZONE_Entrance" teleportId="58" type="REGULAR">
-		<locations>
-			<telelocation loc_id="110" price="50"/>
-		</locations>
-	</teleporter_template>
-	<!-- Marchutan Sanctuary - Pandaemonium Teleports -->
-	<teleporter_template npc_id="730269" name="DC2_Airport_ZONE_Entrance" teleportId="59" type="REGULAR">
-		<locations>
-			<telelocation loc_id="109" price="50"/>
-		</locations>
-	</teleporter_template>
-	<!-- Gelkmaros - Pandaemonium Teleports -->
-	<teleporter_template npc_id="730221" name="LF4_LC1_TELEPORT" teleportId="8" type="REGULAR">
-		<locations>
-			<telelocation loc_id="95" price="5300"/>
-		</locations>
-	</teleporter_template>
-	<!-- Pandaemonium - Gelkmaros Teleports -->
-	<teleporter_template npc_id="730219" name="LC1_LF4_TELEPORT" teleportId="7" type="REGULAR">
-		<locations>
-			<telelocation loc_id="96" price="5300"/>
-		</locations>
-	</teleporter_template>
-	<!-- Gelkmaros - Pandaemonium Teleports -->
-	<teleporter_template npc_id="730221" name="DF4_DC1_TELEPORT" teleportId="57" type="REGULAR">
-		<locations>
-			<telelocation loc_id="97" price="5300"/>
-		</locations>
-	</teleporter_template>
-	<!-- Gelkmaros Fortress-->
-	<teleporter_template npc_id="799201" name="Rhonnam Refugee Village" teleportId="215" type="FLIGHT">
-		<locations>
-			<telelocation loc_id="103" teleportid="102001" price="2500"/>
-			<telelocation loc_id="104" teleportid="96001" price="2100"/>
-		</locations>
-	</teleporter_template>
 	<teleporter_template npc_id="799260" name="Gelkmaros Fortress" teleportId="216" type="FLIGHT">
 		<locations>
 			<telelocation loc_id="102" teleportid="103001" price="2500"/>
@@ -81,6 +44,37 @@
 			<telelocation loc_id="34" price="800"/>
 		</locations>
 	</teleporter_template>
+	<!-- Pandaemonium - Marchutan Sanctuary Teleports -->
+	<teleporter_template npc_id="730268" name="DC1_Airport_ZONE_Entrance" teleportId="58" type="REGULAR">
+		<locations>
+			<telelocation loc_id="110" price="0"/>
+		</locations>
+	</teleporter_template>
+	<!-- Marchutan Sanctuary - Pandaemonium Teleports -->
+	<teleporter_template npc_id="730269" name="DC2_Airport_ZONE_Entrance" teleportId="59" type="REGULAR">
+		<locations>
+			<telelocation loc_id="109" price="0"/>
+		</locations>
+	</teleporter_template>
+	<!-- Pandaemonium - Gelkmaros Teleports -->
+	<teleporter_template npc_id="730219" name="DC1_DF4_TELEPORT" teleportId="56" type="REGULAR">
+		<locations>
+			<telelocation loc_id="98" price="9300"/>
+		</locations>
+	</teleporter_template>
+	<!-- Gelkmaros - Pandaemonium Teleports -->
+	<teleporter_template npc_id="730221" name="DF4_DC1_TELEPORT" teleportId="57" type="REGULAR">
+		<locations>
+			<telelocation loc_id="97" price="9300"/>
+		</locations>
+	</teleporter_template>	
+	<!-- Gelkmaros Fortress-->
+	<teleporter_template npc_id="799201" name="Rhonnam Refugee Village" teleportId="215" type="FLIGHT">
+		<locations>
+			<telelocation loc_id="103" teleportid="102001" price="2500"/>
+			<telelocation loc_id="104" teleportid="96001" price="2100"/>
+		</locations>
+	</teleporter_template>	
 	<!-- Ishalgen -->
 	<teleporter_template npc_id="203679" name="Osmar" teleportId="51" type="REGULAR">
 		<locations>
@@ -325,6 +319,30 @@
 			<telelocation loc_id="106" price="800"/>
 		</locations>
 	</teleporter_template>
+	<!-- Sanctum - Sanctuary Teleports -->
+	<teleporter_template npc_id="730265" name="LC1_Airport_ZONE_Entrance" teleportId="56" type="REGULAR">
+		<locations>
+			<telelocation loc_id="108" price="50"/>
+		</locations>
+	</teleporter_template>
+	<!-- Kaisinel - Sanctum Teleports -->
+	<teleporter_template npc_id="730266" name="LC2_Airport_ZONE_Entrance" teleportId="57" type="REGULAR">
+		<locations>
+			<telelocation loc_id="107" price="50"/>
+		</locations>
+	</teleporter_template>	
+	<!-- Sanctum - Inggison Teleports -->
+	<teleporter_template npc_id="730218" name="LC1_LF4_TELEPORT" teleportId="54" type="REGULAR">
+		<locations>
+			<telelocation loc_id="96" price="9300"/>
+		</locations>
+	</teleporter_template>	
+	<!-- Inggison - Sanctum Teleports -->
+	<teleporter_template npc_id="730220" name="LF4_LC1_TELEPORT" teleportId="55" type="REGULAR">
+		<locations>
+			<telelocation loc_id="95" price="9300"/>
+		</locations>
+	</teleporter_template>	
 	<!-- Inggison Fortress-->
 	<teleporter_template npc_id="798901" name="Inggison Illusion Fortress" teleportId="116" type="FLIGHT">
 		<locations>

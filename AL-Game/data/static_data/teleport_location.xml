@@ -13,6 +13,8 @@
     <teleloc_template loc_id="105" mapid="110010000" name="LC1_Airport_SPOT_Dock" posX="1817" posY="2157" posZ="527" heading="0"/>
     <teleloc_template loc_id="95" mapid="110010000" name="LC1_Airport_ZONE_Port" posX="1743.5588" posY="2059.158" posZ="518.0106" heading="0"/>
     <teleloc_template loc_id="96" mapid="210050000" name="LF4_Airport_ZONE" posX="1324.7362" posY="261.8812" posZ="591.36" heading="0"/>
+	<teleloc_template loc_id="107" mapid="110010000" name="LC1_Airport_ZONE_Entrance" posX="1366.7887" posY="1539.4947" posZ="569.01" heading="0"/>
+	<teleloc_template loc_id="108" mapid="110020000" name="LC2_Airport_ZONE_Entrance" posX="2155.596" posY="1566.8854" posZ="1204.901" heading="0"/>	
 	<!-- ASMODIANS -->
 	<teleloc_template loc_id="7" mapid="120010000" name="Pandemonium" posX="1685.5665" posY="1399.6561" posZ="195.38385" heading="0"/>
 	<teleloc_template loc_id="8" mapid="220010000" name="Ishalgen" posX="528.59595" posY="2449.176" posZ="281.59262" heading="0"/>
