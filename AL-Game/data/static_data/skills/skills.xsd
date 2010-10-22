@@ -26,6 +26,7 @@
 		<xs:attribute name="stack" type="xs:string"/>
 		<xs:attribute name="lvl" type="xs:int"/>
 		<xs:attribute name="skilltype" type="skillType" use="required"/>
+		<xs:attribute name="attacktype" type="attackType"/>
 		<xs:attribute name="skillsubtype" type="skillSubType" use="required"/>
 		<xs:attribute name="tslot" type="TargetSlot"/>
 		<xs:attribute name="tslot_level" use="optional" type="xs:int" default="0"/>
@@ -37,7 +38,7 @@
 		<xs:attribute name="chain_skill_prob" type="xs:int" use="optional" default="0"/>
 		<xs:attribute name="cancel_rate" type="xs:int" use="optional" default="0"/>
 		<xs:attribute name="stance" type="xs:boolean" use="optional" default="false"/>
-		<xs:attribute name="skillset_exception" type="xs:int" use="optional" default="0"/>
+		<xs:attribute name="skillset_exception" type="xs:int" use="optional" default="0"/> 		
 	</xs:complexType>
 	<xs:complexType name="Effects">
 		<xs:sequence minOccurs="0" maxOccurs="unbounded">
@@ -125,6 +126,7 @@
 			<xs:element name="rebirth" type="RebirthEffect" minOccurs="0" maxOccurs="1"/>
 			<xs:element name="onetimeboostskillcritical" type="OneTimeBoostSkillCriticalEffect" minOccurs="0" maxOccurs="1"/>
 			<xs:element name="changemp" type="ChangeMpConsumptionEffect" minOccurs="0" maxOccurs="1"/>
+			<xs:element name="protect" type="ProtectEffect" minOccurs="0" maxOccurs="1" />				
 			<xs:element name="resurrectbase" type="ResurrectBaseEffect" minOccurs="0" maxOccurs="1"/>
 			<xs:element name="magiccounteratk" type="MagicCounterAtkEffect" minOccurs="0" maxOccurs="1"/>
 			<xs:element name="recallinstant" type="RecallInstantEffect" minOccurs="0" maxOccurs="1"/>
@@ -909,6 +911,16 @@
 			</xs:extension>
 		</xs:complexContent>
 	</xs:complexType>
+	<xs:complexType name="ProtectEffect">
+		<xs:complexContent>
+			<xs:extension base="Effect">
+				<xs:attribute name="percent" type="xs:boolean" />
+				<xs:attribute name="value" type="xs:int" />
+				<xs:attribute name="range" type="xs:int" />
+				<xs:attribute name="attacktype" type="attackType" />
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
 	<xs:complexType name="MagicCounterAtkEffect">
 		<xs:complexContent>
 			<xs:extension base="Effect">
@@ -1070,6 +1082,14 @@
 		<xs:restriction base="xs:string">
 			<xs:enumeration value="EFFECTID"/>
 			<xs:enumeration value="EFFECTTYPE"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="attackType">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="EVERYHIT"/>
+			<xs:enumeration value="PHYSICAL_SKILL"/>
+			<xs:enumeration value="MAGICAL_SKILL"/>
+			<xs:enumeration value="ALL_SKILL"/>
 		</xs:restriction>
 	</xs:simpleType>
 	<xs:simpleType name="skillType">
