@@ -24,6 +24,7 @@ import org.apache.log4j.Logger;
 import com.aionemu.commons.database.dao.DAOManager;
 import com.aionemu.gameserver.controllers.ActionitemController;
 import com.aionemu.gameserver.controllers.BindpointController;
+import com.aionemu.gameserver.controllers.ChestController;
 import com.aionemu.gameserver.controllers.GatherableController;
 import com.aionemu.gameserver.controllers.KiskController;
 import com.aionemu.gameserver.controllers.MonsterController;
@@ -166,6 +167,11 @@ public class SpawnEngine
 						break;
 					case PORTAL:
 						npc = new Npc(iDFactory.nextId(), new PortalController(), spawn,
+							template);
+						npc.setKnownlist(new StaticObjectKnownList(npc));
+						break;
+					case CHEST:
+						npc = new Npc(iDFactory.nextId(), new ChestController(), spawn,
 							template);
 						npc.setKnownlist(new StaticObjectKnownList(npc));
 						break;

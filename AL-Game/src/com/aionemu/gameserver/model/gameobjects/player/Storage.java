@@ -228,7 +228,7 @@ public class Storage
 			if(count == 0)
 				break;
 		}
-		boolean result = count >=0;
+		boolean result = count > 0;
 		if(result)
 			setPersistentState(PersistentState.UPDATE_REQUIRED);
 		return result;

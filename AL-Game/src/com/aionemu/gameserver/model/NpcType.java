@@ -18,7 +18,7 @@ package com.aionemu.gameserver.model;
 
 /**
  * @author Luno
- *
+ * modified by Wakizashi (CHEST)
  */
 public enum NpcType
 {
@@ -36,6 +36,8 @@ public enum NpcType
         USEITEM(38),
         /** Portals **/
         PORTAL(38),
+		/** Portals **/
+        CHEST(38),
         /** Artifact **/
         ARTIFACT(38),
         /** High Protector **/

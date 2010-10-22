@@ -27,7 +27,7 @@ import javax.xml.bind.annotation.XmlRootElement;
  * An instance of this class is the result of data loading.
  * 
  * @author Luno, orz
- * 
+ * Modified by Wakizashi (CHEST)
  */
 @XmlRootElement(name = "ae_static_data")
 @XmlAccessorType(XmlAccessType.NONE)
@@ -111,6 +111,9 @@ public class StaticData
 	@XmlElement(name = "portal_templates")
 	public PortalData				portalData;
 
+	@XmlElement(name = "chest_templates")
+	public ChestData				chestData;
+	
 	@XmlElement(name = "item_sets")
 	public ItemSetData				itemSetData;
 
@@ -156,6 +159,7 @@ public class StaticData
 		DataManager.log.info("Loaded " + tribeRelationsData.size() + " tribe relation entries");
 		DataManager.log.info("Loaded " + recipeData.size() + " recipe entries");
 		DataManager.log.info("Loaded " + portalData.size() + " portal entries");
+		DataManager.log.info("Loaded " + chestData.size() + " chest locations");
 		DataManager.log.info("Loaded " + itemSetData.size() + " item set entries");
 		DataManager.log.info("Loaded " + npcSkillData.size() + " npc skill list entries");
 		DataManager.log.info("Loaded " + petSkillData.size() + " pet skill list entries");

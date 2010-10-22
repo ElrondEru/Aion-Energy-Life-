@@ -67,6 +67,7 @@
 			<xs:enumeration value="RESURRECT"/>
 			<xs:enumeration value="USEITEM"/>
 			<xs:enumeration value="PORTAL"/>
+			<xs:enumeration value="CHEST"/>
 			<xs:enumeration value="NON_ATTACKABLE"/>
 			<xs:enumeration value="ARTIFACT"/>
 			<xs:enumeration value="ARTIFACT_PROTECTOR"/>

@@ -30,7 +30,7 @@ import com.aionemu.gameserver.utils.Util;
  * This class temporarily also contains data loaded from txt files by DataLoaders. It'll be changed later.
  * 
  * @author Luno , orz
- * 
+ * modified by Wakizashi(CHEST)
  */
 
 public final class DataManager
@@ -125,6 +125,8 @@ public final class DataManager
 	
 	public static PortalData			PORTAL_DATA;
 	
+	public static ChestData				CHEST_DATA;
+	
 	public static ItemSetData			ITEM_SET_DATA;
 	
 	public static NpcSkillData			NPC_SKILL_DATA;
@@ -184,6 +186,7 @@ public final class DataManager
 		TRIBE_RELATIONS_DATA = data.tribeRelationsData;
 		RECIPE_DATA = data.recipeData;
 		PORTAL_DATA = data.portalData;
+		CHEST_DATA = data.chestData;
 		ITEM_SET_DATA  = data.itemSetData;
 		NPC_SKILL_DATA = data.npcSkillData;
 		PET_SKILL_DATA = data.petSkillData;

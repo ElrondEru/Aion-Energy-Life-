@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<chest_templates xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="chests_template.xsd">
+    <!-- INSTANCES -->
+    <!-- Roah -->
+    <chest npcid="700472">
+        <keyitem id="1" itemid="185000036" quantity="1"/>
+    </chest>
+	<chest npcid="700473">
+        <keyitem id="1" itemid="185000037" quantity="1"/>
+    </chest>
+	<chest npcid="700474">
+        <keyitem id="1" itemid="185000038" quantity="1"/>
+    </chest>
+	<!-- Asteria -->
+	<chest npcid="700475">
+        <keyitem id="1" itemid="185000033" quantity="1"/>
+    </chest>
+	<chest npcid="700476">
+        <keyitem id="1" itemid="185000034" quantity="1"/>
+    </chest>
+	<chest npcid="700477">
+        <keyitem id="1" itemid="185000035" quantity="1"/>
+	</chest>
+</chest_templates>
