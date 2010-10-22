@@ -163,7 +163,7 @@ public class _1035RefreshingtheSprings extends QuestHandler
 						PacketSendUtility.sendPacket(player, new SM_USE_OBJECT(player.getObjectId(), targetObjectId, 3000, 0));
 						PacketSendUtility.broadcastPacket(player, new SM_EMOTION(player, EmotionType.START_LOOT, 0, targetObjectId), true);
 						player.getInventory().removeFromBagByItemId(182201014, 1);
-						qs.setQuestVarById(0, qs.getQuestVarById(0) + 1);
+						qs.setQuestVarById(0, 3);
 						updateQuestStatus(player, qs);						
 					}
 				}, 3000);
@@ -265,19 +265,21 @@ public class _1035RefreshingtheSprings extends QuestHandler
 					if(var == 9)
 						return sendQuestDialog(player, env.getVisibleObject().getObjectId(), 3398);
 					else if(var == 11)
-						return sendQuestDialog(player, env.getVisibleObject().getObjectId(), 3739);						
+						return sendQuestDialog(player, env.getVisibleObject().getObjectId(), 3739);	
+					break;
 				case 10007:
 					if(var == 9)
 					{
 						qs.setQuestVarById(0, var + 1);
 						updateQuestStatus(player, qs);
 						PacketSendUtility.sendPacket(player, new SM_DIALOG_WINDOW(env.getVisibleObject().getObjectId(), 10));
+						return true;
 					}
 					else if(var == 11)
 					{
-						PacketSendUtility.sendPacket(player, new SM_DIALOG_WINDOW(env.getVisibleObject().getObjectId(), 10));					
 						qs.setStatus(QuestStatus.REWARD);
 						updateQuestStatus(player, qs);
+						PacketSendUtility.sendPacket(player, new SM_DIALOG_WINDOW(env.getVisibleObject().getObjectId(), 10));
 						return true;
 					}						
 				return false;
@@ -297,7 +299,7 @@ public class _1035RefreshingtheSprings extends QuestHandler
 						PacketSendUtility.sendPacket(player, new SM_USE_OBJECT(player.getObjectId(), targetObjectId, 3000, 0));
 						PacketSendUtility.broadcastPacket(player, new SM_EMOTION(player, EmotionType.START_LOOT, 0, targetObjectId), true);
 						player.getInventory().removeFromBagByItemId(182201025, 1);
-						qs.setQuestVarById(0, qs.getQuestVarById(0) + 1);
+						qs.setQuestVarById(0, 11);
 						updateQuestStatus(player, qs);						
 					}
 				}, 3000);
