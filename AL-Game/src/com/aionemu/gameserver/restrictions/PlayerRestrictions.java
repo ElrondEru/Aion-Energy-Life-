@@ -56,7 +56,8 @@ public class PlayerRestrictions extends AbstractRestrictions
 			return false;
 		}
 
-		if(player.getEffectController().isAbnormalState(EffectId.CANT_ATTACK_STATE))
+		if((player.getEffectController().isAbnormalState(EffectId.CANT_ATTACK_STATE))
+		&& (skill.getSkillTemplate().getSkillId() != 1968))
 			return false;
 
 		if(player.isInState(CreatureState.PRIVATE_SHOP))
@@ -76,7 +77,7 @@ public class PlayerRestrictions extends AbstractRestrictions
 		if(player.isCasting())
 			return false;
 		
-		if(!player.canAttack())
+		if ((!player.canAttack()) && (skill.getSkillTemplate().getSkillId() != 1968))
 			return false;
 		
 		if(skill.getSkillTemplate().getType() == SkillType.MAGICAL 
