@@ -1,12 +1,21 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<tribe_relations xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="tribe_relations.xsd">
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<tribe_relations>
 	<tribe name="PC">
 		<friend>
 			<to>LIGHT_SUR_MOB</to>
 			<to>LIGHT_LICH</to>
 		</friend>
 	</tribe>
-	<tribe name="GENERAL"/>
+		<tribe name="GENERAL">		  
+			<aggro>
+			<to>PC_DARK</to>
+			<to>GENERAL_DARK</to>
+			<to>GENERAL_DRAGON</to>
+		</aggro>
+    <hostile>
+		  <to>PC_DARK</to>
+		</hostile>		
+	</tribe>
 	<tribe name="GUARD">
 		<friend>
 			<to>DUMMY</to>
@@ -22,7 +31,16 @@
 			<to>FIELD_OBJECT_ALL</to>
 		</neutral>
 	</tribe>
-	<tribe name="GENERAL_DARK"/>
+		<tribe name="GENERAL_DARK">       
+		<aggro>
+			<to>PC</to>     	
+			<to>GENERAL</to>
+			<to>GENERAL_DRAGON</to>
+		</aggro>
+		<hostile>
+		  <to>PC</to>
+		</hostile> 
+	</tribe>
 	<tribe name="GUARD_DARK">
 		<friend>
 			<to>DUMMY</to>

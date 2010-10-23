@@ -29,7 +29,8 @@ import javax.xml.bind.annotation.XmlType;
 @XmlAccessorType(XmlAccessType.FIELD)
 @XmlType(name = "Tribe")
 public class Tribe
-{
+{ public static final String GENERAL_DARK = "GENERAL_DARK";
+	public static final String GENERAL = "GENERAL"; 
 	public static final String GUARD_DARK = "GUARD_DARK";
 	public static final String GUARD_LIGHT = "GUARD";
 	
