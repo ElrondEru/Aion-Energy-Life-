@@ -59,6 +59,7 @@ import com.aionemu.gameserver.services.ArmsfusionService;
 import com.aionemu.gameserver.services.ToyPetService;
 import com.aionemu.gameserver.services.SystemMailService;
 import com.aionemu.gameserver.spawnengine.SpawnEngine;
+import com.aionemu.gameserver.taskmanager.TaskManagerFromDB;
 import com.aionemu.gameserver.taskmanager.tasks.PacketBroadcaster;
 import com.aionemu.gameserver.utils.AEVersions;
 import com.aionemu.gameserver.utils.DeadlockDetector;
@@ -152,7 +153,7 @@ public class GameServer
 		PetitionService.getInstance();
 
 		ChatHandlers.getInstance();
-
+		TaskManagerFromDB.getInstance();
 		Util.printSection("System");
 		AEVersions.printFullVersionInfo();
 		System.gc();
