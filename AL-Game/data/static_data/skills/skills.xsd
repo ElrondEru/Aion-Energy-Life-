@@ -38,7 +38,7 @@
 		<xs:attribute name="chain_skill_prob" type="xs:int" use="optional" default="0"/>
 		<xs:attribute name="cancel_rate" type="xs:int" use="optional" default="0"/>
 		<xs:attribute name="stance" type="xs:boolean" use="optional" default="false"/>
-		<xs:attribute name="skillset_exception" type="xs:int" use="optional" default="0"/> 		
+		<xs:attribute name="skillset_exception" type="xs:int" use="optional" default="0"/>
 	</xs:complexType>
 	<xs:complexType name="Effects">
 		<xs:sequence minOccurs="0" maxOccurs="unbounded">
@@ -126,14 +126,14 @@
 			<xs:element name="rebirth" type="RebirthEffect" minOccurs="0" maxOccurs="1"/>
 			<xs:element name="onetimeboostskillcritical" type="OneTimeBoostSkillCriticalEffect" minOccurs="0" maxOccurs="1"/>
 			<xs:element name="changemp" type="ChangeMpConsumptionEffect" minOccurs="0" maxOccurs="1"/>
-			<xs:element name="protect" type="ProtectEffect" minOccurs="0" maxOccurs="1" />				
+			<xs:element name="protect" type="ProtectEffect" minOccurs="0" maxOccurs="1"/>
 			<xs:element name="resurrectbase" type="ResurrectBaseEffect" minOccurs="0" maxOccurs="1"/>
 			<xs:element name="magiccounteratk" type="MagicCounterAtkEffect" minOccurs="0" maxOccurs="1"/>
 			<xs:element name="recallinstant" type="RecallInstantEffect" minOccurs="0" maxOccurs="1"/>
-            <xs:element name="leap" type="LeapEffect" minOccurs="0" maxOccurs="1"/>
+			<xs:element name="leap" type="LeapEffect" minOccurs="0" maxOccurs="1"/>
 			<xs:element name="dispelbuffcounteratk" type="DispelBuffCounterAtkEffect" minOccurs="0" maxOccurs="1"/>
 			<xs:element name="procatk_instant" type="ProcAtkInstantEffect" minOccurs="0" maxOccurs="1"/>
-  		    <xs:element name="deboostheal" type="DeboostHealEffect" minOccurs="0" maxOccurs="1"/>
+			<xs:element name="deboostheal" type="DeboostHealEffect" minOccurs="0" maxOccurs="1"/>
 			<xs:element name="onetimeboostheal" type="OneTimeBoostHealEffect" minOccurs="0" maxOccurs="1"/>
 		</xs:sequence>
 		<xs:attribute name="food" type="xs:boolean"/>
@@ -914,10 +914,10 @@
 	<xs:complexType name="ProtectEffect">
 		<xs:complexContent>
 			<xs:extension base="Effect">
-				<xs:attribute name="percent" type="xs:boolean" />
-				<xs:attribute name="value" type="xs:int" />
-				<xs:attribute name="range" type="xs:int" />
-				<xs:attribute name="attacktype" type="attackType" />
+				<xs:attribute name="percent" type="xs:boolean"/>
+				<xs:attribute name="value" type="xs:int"/>
+				<xs:attribute name="range" type="xs:int"/>
+				<xs:attribute name="attacktype" type="attackType"/>
 			</xs:extension>
 		</xs:complexContent>
 	</xs:complexType>
@@ -1201,7 +1201,7 @@
 			<xs:enumeration value="MAGICALMONSTER"/>
 			<xs:enumeration value="ELEMENTAL"/>
 			<xs:enumeration value="PC_ALL"/>
-    </xs:restriction>
+	</xs:restriction>
 	</xs:simpleType>
 	<xs:simpleType name="SkillElement">
 		<xs:restriction base="xs:string">

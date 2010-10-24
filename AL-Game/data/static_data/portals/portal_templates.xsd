@@ -24,7 +24,7 @@
 		<xs:attribute name="name" type="xs:string"/>
 		<xs:attribute name="npcid" type="xs:int"/>
 		<xs:attribute name="titleid" type="xs:int"/>
-    <xs:attribute name="usedelay" type="xs:int"/>
+	<xs:attribute name="usedelay" type="xs:int"/>
 	</xs:complexType>
 	<xs:complexType name="EntryPoint">
 		<xs:attribute name="mapid" type="xs:int"/>

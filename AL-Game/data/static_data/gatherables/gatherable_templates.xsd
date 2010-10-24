@@ -32,9 +32,9 @@
 		</xs:restriction>
 	</xs:simpleType>
 	<xs:complexType name="Materials">
-	  <xs:sequence>
-		<xs:element name="material" type="Material" minOccurs="0" maxOccurs="6"/>
-	  </xs:sequence>
+		<xs:sequence>
+			<xs:element name="material" type="Material" minOccurs="0" maxOccurs="6"/>
+		</xs:sequence>
 	</xs:complexType>
 	<xs:complexType name="Material">
 		<xs:attribute name="name" type="xs:string"/>

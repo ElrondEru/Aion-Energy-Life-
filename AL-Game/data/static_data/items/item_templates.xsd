@@ -5,8 +5,7 @@
 	<xs:element name="item_templates">
 		<xs:complexType>
 			<xs:sequence>
-				<xs:element name="item_template" type="itemTemplate"
-					minOccurs="1" maxOccurs="unbounded"/>
+				<xs:element name="item_template" type="itemTemplate" minOccurs="1" maxOccurs="unbounded"/>
 			</xs:sequence>
 		</xs:complexType>
 	</xs:element>
