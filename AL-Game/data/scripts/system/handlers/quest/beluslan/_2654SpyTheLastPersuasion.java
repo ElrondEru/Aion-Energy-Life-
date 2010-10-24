@@ -25,7 +25,7 @@ public class _2654SpyTheLastPersuasion extends QuestHandler
    {
       qe.setNpcQuestData(204775).addOnQuestStart(questId);
       qe.setNpcQuestData(204775).addOnTalkEvent(questId);
-      qe.setNpcQuestData(204621).addOnTalkEvent(questId);
+      qe.setNpcQuestData(204655).addOnTalkEvent(questId);
    }
    
    public boolean onLvlUpEvent(QuestEnv env)
@@ -58,7 +58,7 @@ public class _2654SpyTheLastPersuasion extends QuestHandler
 				   return defaultQuestStartDialog(env);
 		   }
       }
-      else if(targetId == 204621)
+      else if(targetId == 204655)
       {
           if(qs != null)
           {
