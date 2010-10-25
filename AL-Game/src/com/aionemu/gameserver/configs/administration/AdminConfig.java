@@ -122,6 +122,9 @@ public class AdminConfig
 
 	@Property(key = "gameserver.administration.command.legion", defaultValue = "3")
 	public static int	COMMAND_LEGION;
+	
+	@Property(key = "gameserver.administration.command.loc", defaultValue = "3")
+	public static int	COMMAND_LOC;
 
 	@Property(key = "gameserver.administration.command.morph", defaultValue = "3")
 	public static int	COMMAND_MORPH;
