@@ -47,7 +47,7 @@ public class _1023ANestofLepharists extends QuestHandler
 	{
 		qe.setNpcQuestData(203098).addOnTalkEvent(questId);
 		qe.setNpcQuestData(203183).addOnTalkEvent(questId);
-		qe.setQuestEnterZone(ZoneName.MYSTERIOUS_SHIPWRECK).add(questId);
+		qe.setQuestEnterZone(ZoneName.MYSTERIOUS_SHIPWRECK_210030000).add(questId);
 		qe.addQuestLvlUp(questId);
 	}
 
@@ -166,7 +166,7 @@ public class _1023ANestofLepharists extends QuestHandler
 	@Override
 	public boolean onEnterZoneEvent(QuestEnv env, ZoneName zoneName)
 	{
-		if(zoneName != ZoneName.MYSTERIOUS_SHIPWRECK)
+		if(zoneName != ZoneName.MYSTERIOUS_SHIPWRECK_210030000)
 			return false;
 		final Player player = env.getPlayer();
 		final QuestState qs = player.getQuestStateList().getQuestState(questId);

@@ -68,7 +68,7 @@ public class _1361FindingDrinkingWater extends QuestHandler
 
 		if(id != 182201326) //Empty Bucket
 			return false;
-		if(!ZoneService.getInstance().isInsideZone(player, ZoneName.MYSTIC_SPRING_OF_ANATHE))
+		if(!ZoneService.getInstance().isInsideZone(player, ZoneName.MYSTIC_SPRING_OF_ANATHE_210020000))
 			return false;
 		final QuestState qs = player.getQuestStateList().getQuestState(questId);
 		if(qs == null)

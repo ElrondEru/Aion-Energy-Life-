@@ -43,7 +43,7 @@ public class _1500OrdersFromPerento extends QuestHandler
 	public void register()
 	{
 		qe.setNpcQuestData(204500).addOnTalkEvent(questId);
-		qe.setQuestEnterZone(ZoneName.NEW_HEIRON_GATE).add(questId);
+		qe.setQuestEnterZone(ZoneName.NEW_HEIRON_GATE_210040000).add(questId);
 	}
 
 	@Override
@@ -103,7 +103,7 @@ public class _1500OrdersFromPerento extends QuestHandler
 	@Override
 	public boolean onEnterZoneEvent(QuestEnv env, ZoneName zoneName)
 	{
-		if(zoneName != ZoneName.NEW_HEIRON_GATE)
+		if(zoneName != ZoneName.NEW_HEIRON_GATE_210040000)
 			return false;
 		final Player player = env.getPlayer();
 		final QuestState qs = player.getQuestStateList().getQuestState(questId);

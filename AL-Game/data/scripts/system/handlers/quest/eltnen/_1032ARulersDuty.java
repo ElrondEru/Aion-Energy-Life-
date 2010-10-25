@@ -72,7 +72,7 @@ public class _1032ARulersDuty extends QuestHandler
 
 		if(id != 182201001)
 			return false;
-		if(!ZoneService.getInstance().isInsideZone(player, ZoneName.PUTRID_MIRE))
+		if(!ZoneService.getInstance().isInsideZone(player, ZoneName.PUTRID_MIRE_210020000))
 			return false;
 		final QuestState qs = player.getQuestStateList().getQuestState(questId);
 		PacketSendUtility.broadcastPacket(player, new SM_ITEM_USAGE_ANIMATION(player.getObjectId(), itemObjId, id, 3000, 0, 0), true);

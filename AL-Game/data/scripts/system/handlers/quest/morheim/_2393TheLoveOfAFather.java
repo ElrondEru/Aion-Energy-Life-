@@ -63,7 +63,7 @@ public class _2393TheLoveOfAFather extends QuestHandler
 
 		if(id != 182204162)
 			return false;
-		if(!ZoneService.getInstance().isInsideZone(player, ZoneName.Q2393))
+		if(!ZoneService.getInstance().isInsideZone(player, ZoneName.Q2393_220020000))
 			return false;
 		final QuestState qs = player.getQuestStateList().getQuestState(questId);
 		if(qs == null)

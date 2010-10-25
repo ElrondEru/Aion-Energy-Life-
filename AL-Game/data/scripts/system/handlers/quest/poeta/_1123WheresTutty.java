@@ -44,7 +44,7 @@ public class _1123WheresTutty extends QuestHandler
 	{
 		qe.setNpcQuestData(790001).addOnTalkEvent(questId);
 		qe.setNpcQuestData(790001).addOnQuestStart(questId);
-		qe.setQuestEnterZone(ZoneName.Q1123).add(questId);
+		qe.setQuestEnterZone(ZoneName.Q1123_210010000).add(questId);
 	}
 
 	@Override
@@ -77,7 +77,7 @@ public class _1123WheresTutty extends QuestHandler
 	@Override
 	public boolean onEnterZoneEvent(QuestEnv env, ZoneName zoneName)
 	{
-		if(zoneName != ZoneName.Q1123)
+		if(zoneName != ZoneName.Q1123_210010000)
 			return false;
 		final Player player = env.getPlayer();
 		final QuestState qs = player.getQuestStateList().getQuestState(questId);

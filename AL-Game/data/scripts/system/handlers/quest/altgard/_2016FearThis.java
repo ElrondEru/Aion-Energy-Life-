@@ -157,7 +157,7 @@ public class _2016FearThis extends QuestHandler
 
 		if(id != 182203019)
 			return false;
-		if(!ZoneService.getInstance().isInsideZone(player, ZoneName.Q2016))
+		if(!ZoneService.getInstance().isInsideZone(player, ZoneName.Q2016_220030000))
 			return false;
 		final QuestState qs = player.getQuestStateList().getQuestState(questId);
 		if(qs == null)

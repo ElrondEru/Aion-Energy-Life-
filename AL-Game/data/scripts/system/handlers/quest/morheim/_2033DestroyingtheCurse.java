@@ -226,7 +226,7 @@ public class _2033DestroyingtheCurse extends QuestHandler
 		if(id != itemId)
 			return false;
 		
-		if(!ZoneService.getInstance().isInsideZone(player, ZoneName.Q2033))
+		if(!ZoneService.getInstance().isInsideZone(player, ZoneName.Q2033_220020000))
 			return false;
 		
 		final QuestState qs = player.getQuestStateList().getQuestState(questId);

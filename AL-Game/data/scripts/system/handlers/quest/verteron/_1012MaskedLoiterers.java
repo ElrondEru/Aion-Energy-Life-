@@ -44,7 +44,7 @@ public class _1012MaskedLoiterers extends QuestHandler
 	public void register()
 	{
 		qe.setNpcQuestData(203111).addOnTalkEvent(questId);
-		qe.setQuestEnterZone(ZoneName.Q1012).add(questId);
+		qe.setQuestEnterZone(ZoneName.Q1012_210030000).add(questId);
 		qe.addQuestLvlUp(questId);
 	}
 
@@ -141,7 +141,7 @@ public class _1012MaskedLoiterers extends QuestHandler
 	@Override
 	public boolean onEnterZoneEvent(QuestEnv env, ZoneName zoneName)
 	{
-		if(zoneName != ZoneName.Q1012)
+		if(zoneName != ZoneName.Q1012_210030000)
 			return false;
 		final Player player = env.getPlayer();
 		final QuestState qs = player.getQuestStateList().getQuestState(questId);

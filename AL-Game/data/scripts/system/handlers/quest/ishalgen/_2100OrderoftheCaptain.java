@@ -42,7 +42,7 @@ public class _2100OrderoftheCaptain extends QuestHandler
 	public void register()
 	{
 		qe.setNpcQuestData(203516).addOnTalkEvent(questId);
-		qe.setQuestEnterZone(ZoneName.ALDELLE_VILLAGE).add(questId);
+		qe.setQuestEnterZone(ZoneName.ALDELLE_VILLAGE_220010000).add(questId);
 	}
 
 	@Override
@@ -86,7 +86,7 @@ public class _2100OrderoftheCaptain extends QuestHandler
 	@Override
 	public boolean onEnterZoneEvent(QuestEnv env, ZoneName zoneName)
 	{
-		if(zoneName != ZoneName.ALDELLE_VILLAGE)
+		if(zoneName != ZoneName.ALDELLE_VILLAGE_220010000)
 			return false;
 		final Player player = env.getPlayer();
 		final QuestState qs = player.getQuestStateList().getQuestState(questId);

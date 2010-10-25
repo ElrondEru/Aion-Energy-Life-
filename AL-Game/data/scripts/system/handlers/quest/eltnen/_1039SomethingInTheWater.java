@@ -83,7 +83,7 @@ public class _1039SomethingInTheWater extends QuestHandler
 
 		if(id != 182201009) //Empty Water Bottle
 			return false;
-		if(!ZoneService.getInstance().isInsideZone(player, ZoneName.MYSTIC_SPRING_OF_AGAIRON))
+		if(!ZoneService.getInstance().isInsideZone(player, ZoneName.MYSTIC_SPRING_OF_AGAIRON_210020000))
 			return false;
 		final QuestState qs = player.getQuestStateList().getQuestState(questId);
 		if(qs == null)

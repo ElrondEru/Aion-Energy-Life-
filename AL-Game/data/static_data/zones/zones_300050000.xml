@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<zones xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="zones.xsd">
-	<zone mapid="300050000" name="SubzoneShapeIDAbRe_Up_Asteria_Subzone1" priority="16">
-		<points bottom="168.974213" top="268.974213" >
-			<point x="454.986847" y="566.667603"/>
-			<point x="500.517639" y="716.297485"/>
-			<point x="536.327637" y="719.873657"/>
-			<point x="708.567749" y="573.302368"/>
-			<point x="522.758362" y="402.364777"/>
-			<point x="468.440063" y="446.401794"/>
-		</points>
-	</zone>
+
+<zones>
+    <zone mapid="300050000" name="ASTERIA_CHAMBER_300050000" priority="16">
+        <points bottom="168.97421" top="268.9742">
+            <point x="454.98685" y="566.6676"/>
+            <point x="500.51764" y="716.2975"/>
+            <point x="536.32764" y="719.87366"/>
+            <point x="708.56775" y="573.30237"/>
+            <point x="522.75836" y="402.36478"/>
+            <point x="468.44006" y="446.4018"/>
+        </points>
+    </zone>
 </zones>

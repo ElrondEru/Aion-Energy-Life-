@@ -58,7 +58,7 @@ public class _1019FlyingReconnaissance extends QuestHandler
 	{
 		qe.addQuestLvlUp(questId);
 		qe.setNpcQuestData(203146).addOnTalkEvent(questId);  		// estino
-		qe.setQuestEnterZone(ZoneName.TURSIN_OUTPOST).add(questId); 
+		qe.setQuestEnterZone(ZoneName.TURSIN_OUTPOST_210030000).add(questId); 
 		qe.setNpcQuestData(203098).addOnTalkEvent(questId);
 		qe.setNpcQuestData(203147).addOnTalkEvent(questId);
 		qe.setNpcQuestData(210158).addOnAttackEvent(questId);
@@ -188,13 +188,13 @@ public class _1019FlyingReconnaissance extends QuestHandler
 	@Override
 	public boolean onEnterZoneEvent(QuestEnv env, ZoneName zoneName)
 	{
-		if(zoneName != ZoneName.TURSIN_OUTPOST)
+		if(zoneName != ZoneName.TURSIN_OUTPOST_210030000)
 			return false;
 		final Player player = env.getPlayer();
 		final QuestState qs = player.getQuestStateList().getQuestState(questId);
 		if(qs == null)
 			return false;
-		if(zoneName == ZoneName.TURSIN_OUTPOST_ENTRANCE)
+		if(zoneName == ZoneName.TURSIN_OUTPOST_ENTRANCE_210030000)
 			PacketSendUtility.sendPacket(player, new SM_PLAY_MOVIE(0, 18));
 		if (qs.getQuestVarById(0) == 1)
 		{
@@ -236,7 +236,7 @@ public class _1019FlyingReconnaissance extends QuestHandler
 
 		if(id != 182200023)
 			return false;
-		if(!ZoneService.getInstance().isInsideZone(player, ZoneName.TURSIN_TOTEM_POLE))
+		if(!ZoneService.getInstance().isInsideZone(player, ZoneName.TURSIN_TOTEM_POLE_210030000))
 			return false;
 		final QuestState qs = player.getQuestStateList().getQuestState(questId);
 		if(qs == null)

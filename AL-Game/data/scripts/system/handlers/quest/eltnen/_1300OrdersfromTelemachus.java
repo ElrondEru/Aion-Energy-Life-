@@ -42,7 +42,7 @@ public class _1300OrdersfromTelemachus extends QuestHandler
 	public void register()
 	{
 		qe.setNpcQuestData(203901).addOnTalkEvent(questId);
-		qe.setQuestEnterZone(ZoneName.ELTNEN_FORTRESS).add(questId);
+		qe.setQuestEnterZone(ZoneName.ELTNEN_FORTRESS_210020000).add(questId);
 	}
 
 	@Override
@@ -101,7 +101,7 @@ public class _1300OrdersfromTelemachus extends QuestHandler
 	@Override
 	public boolean onEnterZoneEvent(QuestEnv env, ZoneName zoneName)
 	{
-		if(zoneName != ZoneName.ELTNEN_FORTRESS)
+		if(zoneName != ZoneName.ELTNEN_FORTRESS_210020000)
 			return false;
 		final Player player = env.getPlayer();
 		final QuestState qs = player.getQuestStateList().getQuestState(questId);

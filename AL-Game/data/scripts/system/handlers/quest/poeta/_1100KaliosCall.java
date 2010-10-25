@@ -43,7 +43,7 @@ public class _1100KaliosCall extends QuestHandler
 	public void register()
 	{
 		qe.setNpcQuestData(203067).addOnTalkEvent(questId);
-		qe.setQuestEnterZone(ZoneName.AKARIOS_VILLAGE).add(questId);
+		qe.setQuestEnterZone(ZoneName.AKARIOS_VILLAGE_210010000).add(questId);
 	}
 
 	@Override
@@ -89,7 +89,7 @@ public class _1100KaliosCall extends QuestHandler
 	@Override
 	public boolean onEnterZoneEvent(QuestEnv env, ZoneName zoneName)
 	{
-		if(zoneName != ZoneName.AKARIOS_VILLAGE)
+		if(zoneName != ZoneName.AKARIOS_VILLAGE_210010000)
 			return false;
 		final Player player = env.getPlayer();
 		final QuestState qs = player.getQuestStateList().getQuestState(questId);

@@ -43,7 +43,7 @@ public class _1130SummonstotheCitadel extends QuestHandler
 	public void register()
 	{
 		qe.setNpcQuestData(203098).addOnTalkEvent(questId);
-		qe.setQuestEnterZone(ZoneName.VERTERON_CITADEL).add(questId);
+		qe.setQuestEnterZone(ZoneName.VERTERON_CITADEL_210030000).add(questId);
 	}
 
 	@Override
@@ -89,7 +89,7 @@ public class _1130SummonstotheCitadel extends QuestHandler
 	@Override
 	public boolean onEnterZoneEvent(QuestEnv env, ZoneName zoneName)
 	{
-		if(zoneName != ZoneName.VERTERON_CITADEL)
+		if(zoneName != ZoneName.VERTERON_CITADEL_210030000)
 			return false;
 		final Player player = env.getPlayer();
 		final QuestState qs = player.getQuestStateList().getQuestState(questId);

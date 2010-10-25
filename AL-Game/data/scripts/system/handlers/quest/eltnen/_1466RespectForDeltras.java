@@ -64,7 +64,7 @@ public class _1466RespectForDeltras extends QuestHandler
 
 		if(id != 182201385)
 			return false;
-		if(!ZoneService.getInstance().isInsideZone(player, ZoneName.Q1466))
+		if(!ZoneService.getInstance().isInsideZone(player, ZoneName.Q1466_220020000))
 			return false;
 		final QuestState qs = player.getQuestStateList().getQuestState(questId);
 		if(qs == null)

@@ -329,7 +329,7 @@ public class _1006Ascension extends QuestHandler
 
 		if(id != 182200007)
 			return false;
-		if(!ZoneService.getInstance().isInsideZone(player, ZoneName.ITEMUSE_Q1006))
+		if(!ZoneService.getInstance().isInsideZone(player, ZoneName.Q1006_210010000))
 			return false;
 		final QuestState qs = player.getQuestStateList().getQuestState(questId);
 		if(qs == null)

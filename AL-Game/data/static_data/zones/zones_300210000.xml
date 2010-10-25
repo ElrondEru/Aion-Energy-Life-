@@ -20,7 +20,7 @@
 			<point x="484.087341" y="1095.942505" />
 		</points>
 	</zone>
-	<zone mapid="300210000" name="BARRACKS_300210000" priority="2">
+	<zone mapid="300210000" name="BARRACKS_2_300210000" priority="2">
 		<points>
 			<point x="502.709015" y="634.609985" />
 			<point x="468.457275" y="634.220764" />
@@ -32,7 +32,7 @@
 			<point x="525.879639" y="614.985474" />
 		</points>
 	</zone>
-	<zone mapid="300210000" name="ESCAPE_HATCH_300210000" priority="2">
+	<zone mapid="300210000" name="ESCAPE_HATCH_2_300210000" priority="2">
 		<points>
 			<point x="423.851715" y="175.564941" />
 			<point x="392.234222" y="198.030014" />
@@ -41,7 +41,7 @@
 			<point x="419.049866" y="148.815552" />
 		</points>
 	</zone>
-	<zone mapid="300210000" name="GRAVITY_CONTROL_300210000" priority="2">
+	<zone mapid="300210000" name="GRAVITY_CONTROL_2_300210000" priority="2">
 		<points>
 			<point x="511.303589" y="341.700287" />
 			<point x="513.584778" y="293.909576" />
@@ -51,7 +51,7 @@
 			<point x="464.123230" y="342.200378" />
 		</points>
 	</zone>
-	<zone mapid="300210000" name="WEAPONS_DECK_300210000" priority="2">
+	<zone mapid="300210000" name="WEAPONS_DECK_2_300210000" priority="2">
 		<points>
 			<point x="426.199493" y="614.058167" />
 			<point x="432.427094" y="551.782166" />
@@ -65,7 +65,7 @@
 			<point x="403.484802" y="599.697510" />
 		</points>
 	</zone>
-	<zone mapid="300210000" name="THE_BRIDGE_300210000" priority="2">
+	<zone mapid="300210000" name="THE_BRIDGE_2_300210000" priority="2">
 		<points>
 			<point x="517.179993" y="846.210022" />
 			<point x="452.887329" y="846.443848" />
@@ -102,7 +102,7 @@
 			<point x="264.636993" y="360.265137" />
 		</points>
 	</zone>
-	<zone mapid="300210000" name="LOADING_ZONE_300210000" priority="3">
+	<zone mapid="300210000" name="LOADING_ZONE_2_300210000" priority="3">
 		<points>
 			<point x="402.667755" y="125.432579" />
 			<point x="569.911011" y="125.874802" />
@@ -114,7 +114,7 @@
 			<point x="362.590851" y="166.664627" />
 		</points>
 	</zone>
-	<zone mapid="300210000" name="READY_ROOM_1_300210000" priority="2">
+	<zone mapid="300210000" name="READY_ROOM_1_2_300210000" priority="2">
 		<points>
 			<point x="441.525269" y="507.152985" />
 			<point x="442.692963" y="482.631805" />
@@ -124,7 +124,7 @@
 			<point x="428.602173" y="531.311279" />
 		</points>
 	</zone>
-	<zone mapid="300210000" name="SECONDARY_ESCAPE_HATCH_300210000" priority="2">
+	<zone mapid="300210000" name="SECONDARY_ESCAPE_HATCH_2_300210000" priority="2">
 		<points>
 			<point x="602.652588" y="162.921692" />
 			<point x="577.240784" y="197.625778" />
@@ -133,7 +133,7 @@
 			<point x="576.678101" y="138.375412" />
 		</points>
 	</zone>
-	<zone mapid="300210000" name="ENGINE_ROOM_300210000" priority="2">
+	<zone mapid="300210000" name="ENGINE_ROOM_2_300210000" priority="2">
 		<points>
 			<point x="429.512299" y="439.890045" />
 			<point x="421.313385" y="396.435608" />
@@ -145,7 +145,7 @@
 			<point x="306.438690" y="464.357239" />
 		</points>
 	</zone>
-	<zone mapid="300210000" name="BACKUP_ARMORY_300210000" priority="2">
+	<zone mapid="300210000" name="BACKUP_ARMORY_2_300210000" priority="2">
 		<points>
 			<point x="564.612061" y="251.352463" />
 			<point x="528.834351" y="258.424774" />
@@ -182,7 +182,7 @@
 			<point x="357.213776" y="778.760132" />
 		</points>
 	</zone>
-	<zone mapid="300210000" name="LOWER_WEAPONS_DECK_300210000" priority="2">
+	<zone mapid="300210000" name="LOWER_WEAPONS_DECK_2_300210000" priority="2">
 		<points>
 			<point x="638.326538" y="543.673889" />
 			<point x="611.803406" y="540.382324" />
@@ -206,7 +206,7 @@
 			<point x="522.989746" y="816.108459" />
 		</points>
 	</zone>
-	<zone mapid="300210000" name="READY_ROOM_2_300210000" priority="2">
+	<zone mapid="300210000" name="READY_ROOM_2_2_300210000" priority="2">
 		<points>
 			<point x="602.201721" y="509.593719" />
 			<point x="601.034058" y="475.341919" />
@@ -228,7 +228,7 @@
 			<point x="682.825500" y="458.624084" />
 		</points>
 	</zone>
-	<zone mapid="300210000" name="PRIMARY_ARMORY_300210000" priority="2">
+	<zone mapid="300210000" name="PRIMARY_ARMORY_2_300210000" priority="2">
 		<points>
 			<point x="439.869568" y="259.936218" />
 			<point x="414.076355" y="255.359970" />

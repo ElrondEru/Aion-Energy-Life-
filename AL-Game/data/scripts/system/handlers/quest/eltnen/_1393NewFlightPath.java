@@ -52,7 +52,7 @@ public class _1393NewFlightPath extends QuestHandler
 	{
 		qe.setNpcQuestData(204041).addOnQuestStart(questId);
 		qe.setNpcQuestData(204041).addOnTalkEvent(questId);
-		qe.setQuestEnterZone(ZoneName.LEPHARIST_CITADEL).add(questId);
+		qe.setQuestEnterZone(ZoneName.LEPHARIST_CITADEL_210020000).add(questId);
 	}
 
 	@Override
@@ -109,7 +109,7 @@ public class _1393NewFlightPath extends QuestHandler
 	@Override
 	public boolean onEnterZoneEvent(QuestEnv env, ZoneName zoneName)
 	{
-		if(zoneName != ZoneName.LEPHARIST_CITADEL)
+		if(zoneName != ZoneName.LEPHARIST_CITADEL_210020000)
 			return false;
 
 		final Player player = env.getPlayer();

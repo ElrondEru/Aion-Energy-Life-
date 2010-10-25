@@ -30,7 +30,7 @@ public class _1194ReducingTursinStrength extends QuestHandler
         qe.setNpcQuestData(203098).addOnTalkEvent(questId);
         qe.setNpcQuestData(210185).addOnKillEvent(questId);
         qe.setNpcQuestData(210186).addOnKillEvent(questId);
-        qe.setQuestEnterZone(ZoneName.TURSIN_GARRISON).add(questId);
+        qe.setQuestEnterZone(ZoneName.TURSIN_GARRISON_210030000).add(questId);
     }
 
     @Override
@@ -89,7 +89,7 @@ public class _1194ReducingTursinStrength extends QuestHandler
     @Override
     public boolean onEnterZoneEvent(QuestEnv env, ZoneName zoneName)
     {
-        if(zoneName != ZoneName.TURSIN_GARRISON)
+        if(zoneName != ZoneName.TURSIN_GARRISON_210030000)
             return false;
 
         final Player player = env.getPlayer();

@@ -227,7 +227,7 @@ public class _1059TheArchonofStorms extends QuestHandler
 
 		if(id != 182201619)
 			return false;
-		if(!ZoneService.getInstance().isInsideZone(player, ZoneName.PATEMA_GEYSER))
+		if(!ZoneService.getInstance().isInsideZone(player, ZoneName.PATEMA_GEYSER_210040000))
 			return false;
 		final QuestState qs = player.getQuestStateList().getQuestState(questId);
 		if(qs == null)
