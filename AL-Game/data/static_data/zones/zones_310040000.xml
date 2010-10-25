@@ -1,12 +1,30 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+	This file is part of aion-lightning<aion-lightning.org>.
 
-<zones>
-    <zone mapid="310040000" name="GERANAIA_310040000" priority="16">
-        <points bottom="65.0" top="365.0">
-            <point x="140.23" y="329.67"/>
-            <point x="208.97089" y="87.48357"/>
-            <point x="361.93286" y="131.23796"/>
-            <point x="289.44894" y="371.80634"/>
-        </points>
-    </zone>
+	aion-lightning is free software: you can redistribute it and/or modify
+	it under the terms of the GNU General Public License as published by
+	the Free Software Foundation, either version 3 of the License, or
+	(at your option) any later version.
+
+	aion-lightning is distributed in the hope that it will be useful,
+	but WITHOUT ANY WARRANTY; without even the implied warranty of
+	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+	GNU General Public License for more details.
+
+	You should have received a copy of the GNU General Public License
+	along with aion-emu. If not, see<http://www.gnu.org/licenses/>.
+
+	@author Destin
+
+-->
+<zones xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="zones.xsd">
+	<zone mapid="310040000" name="GERANAIA_310040000" priority="16">
+		<points bottom="65.0" top="365.0">
+			<point x="140.23" y="329.67"/>
+			<point x="208.97089" y="87.48357"/>
+			<point x="361.93286" y="131.23796"/>
+			<point x="289.44894" y="371.80634"/>
+		</points>
+	</zone>
 </zones>

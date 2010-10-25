@@ -1,13 +1,31 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+	This file is part of aion-lightning<aion-lightning.org>.
 
-<zones>
-    <zone mapid="900020000" name="TEST_900020000" priority="16">
-        <points bottom="5.0" top="55.0">
-            <point x="62.875496" y="4.097646"/>
-            <point x="44.56287" y="57.670586"/>
-            <point x="96.34728" y="85.02531"/>
-            <point x="142.1898" y="52.951923"/>
-            <point x="122.31849" y="2.727989"/>
-        </points>
-    </zone>
+	aion-lightning is free software: you can redistribute it and/or modify
+	it under the terms of the GNU General Public License as published by
+	the Free Software Foundation, either version 3 of the License, or
+	(at your option) any later version.
+
+	aion-lightning is distributed in the hope that it will be useful,
+	but WITHOUT ANY WARRANTY; without even the implied warranty of
+	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+	GNU General Public License for more details.
+
+	You should have received a copy of the GNU General Public License
+	along with aion-emu. If not, see<http://www.gnu.org/licenses/>.
+
+	@author Destin
+
+-->
+<zones xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="zones.xsd">
+	<zone mapid="900020000" name="TEST_900020000" priority="16">
+		<points bottom="5.0" top="55.0">
+			<point x="62.875496" y="4.097646"/>
+			<point x="44.56287" y="57.670586"/>
+			<point x="96.34728" y="85.02531"/>
+			<point x="142.1898" y="52.951923"/>
+			<point x="122.31849" y="2.727989"/>
+		</points>
+	</zone>
 </zones>

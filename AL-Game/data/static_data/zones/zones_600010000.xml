@@ -1,289 +1,307 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+	This file is part of aion-lightning<aion-lightning.org>.
 
-<zones>
-    <zone mapid="600010000" name="BESHMUNDIR_TEMPLE_600010000" priority="15">
-        <points bottom="207.37039" top="607.3704">
-            <point x="1522.8046" y="698.92145"/>
-            <point x="1283.7314" y="700.9073"/>
-            <point x="1257.9159" y="743.10583"/>
-            <point x="1257.9159" y="791.7583"/>
-            <point x="1282.7385" y="830.97815"/>
-            <point x="1523.7975" y="830.1495"/>
-        </points>
-    </zone>
-    <zone mapid="600010000" name="MARAKA_CAVE_600010000" priority="16">
-        <points bottom="206.67" top="606.67">
-            <point x="682.5793" y="1227.3041"/>
-            <point x="681.9668" y="1381.9834"/>
-            <point x="692.9163" y="1516.5936"/>
-            <point x="954.0587" y="1514.916"/>
-            <point x="1055.5813" y="1417.6718"/>
-            <point x="851.19165" y="1147.632"/>
-            <point x="828.13367" y="1080.885"/>
-            <point x="717.6978" y="1080.885"/>
-            <point x="714.05707" y="1156.1271"/>
-        </points>
-    </zone>
-    <zone mapid="600010000" name="MOURNERS_WALK_600010000" priority="17">
-        <points bottom="207.37051" top="607.37054">
-            <point x="832.3067" y="771.2039"/>
-            <point x="997.5938" y="772.92566"/>
-            <point x="1001.89813" y="835.76917"/>
-            <point x="1069.046" y="845.2388"/>
-            <point x="1069.9069" y="945.9606"/>
-            <point x="927.8633" y="914.1084"/>
-            <point x="912.3676" y="884.8388"/>
-            <point x="860.7154" y="864.1779"/>
-            <point x="829.72406" y="861.5953"/>
-        </points>
-    </zone>
-    <zone mapid="600010000" name="JOTUN_SQUARE_600010000" priority="10">
-        <points bottom="206.67" top="606.67">
-            <point x="509.65" y="656.6601"/>
-            <point x="509.65002" y="879.4354"/>
-            <point x="839.073" y="880.6204"/>
-            <point x="836.7031" y="656.66016"/>
-        </points>
-    </zone>
-    <zone mapid="600010000" name="EASTERN_ENTRANCE_OF_SILENTERA_CANYON_600010000" priority="14">
-        <points bottom="206.67" top="606.67">
-            <point x="435.6" y="1087.37"/>
-            <point x="436.81357" y="1208.728"/>
-            <point x="525.40497" y="1223.291"/>
-            <point x="632.2001" y="1160.1848"/>
-            <point x="611.5692" y="1105.5737"/>
-            <point x="521.7642" y="1060.6713"/>
-        </points>
-    </zone>
-    <zone mapid="600010000" name="VORGALTEM_PASS_600010000" priority="15">
-        <points bottom="206.67" top="606.67">
-            <point x="840.02" y="1274.34"/>
-            <point x="773.27313" y="1324.0967"/>
-            <point x="790.8961" y="1445.3483"/>
-            <point x="960.5157" y="1489.8109"/>
-            <point x="1014.19806" y="1365.1113"/>
-            <point x="878.3146" y="1265.5752"/>
-        </points>
-    </zone>
-    <zone mapid="600010000" name="ANGRIEF_PASS_600010000" priority="16">
-        <points bottom="206.67" top="606.67">
-            <point x="252.57239" y="55.61383"/>
-            <point x="347.16702" y="20.763184"/>
-            <point x="547.0249" y="19.340714"/>
-            <point x="574.05194" y="122.470215"/>
-            <point x="433.41647" y="214.36891"/>
-        </points>
-    </zone>
-    <zone mapid="600010000" name="SULLEN_PASSAGE_600010000" priority="17">
-        <points bottom="207.17032" top="607.17035">
-            <point x="720.543" y="875.1725"/>
-            <point x="861.3184" y="867.891"/>
-            <point x="914.3633" y="891.25995"/>
-            <point x="926.1882" y="933.3825"/>
-            <point x="948.69617" y="1046.2874"/>
-            <point x="1107.6752" y="1031.7245"/>
-            <point x="1216.7966" y="1030.2437"/>
-            <point x="1195.0531" y="1159.1504"/>
-            <point x="875.88135" y="1180.9948"/>
-            <point x="840.6875" y="1134.8788"/>
-            <point x="830.9788" y="1099.6849"/>
-            <point x="709.62085" y="1099.6849"/>
-        </points>
-    </zone>
-    <zone mapid="600010000" name="PRIMEVAL_PASS_600010000" priority="15">
-        <points bottom="207.37051" top="607.37054">
-            <point x="933.74054" y="484.95337"/>
-            <point x="936.96704" y="607.56104"/>
-            <point x="1030.5361" y="606.48553"/>
-            <point x="1033.7626" y="482.80234"/>
-        </points>
-    </zone>
-    <zone mapid="600010000" name="CHANTERS_WALK_600010000" priority="15">
-        <points bottom="206.67" top="606.67">
-            <point x="515.98" y="459.91"/>
-            <point x="546.00806" y="428.0052"/>
-            <point x="603.2491" y="424.25168"/>
-            <point x="652.0447" y="367.94904"/>
-            <point x="709.2857" y="383.90146"/>
-            <point x="709.2857" y="470.23215"/>
-            <point x="701.591" y="505.542"/>
-            <point x="612.6328" y="505.6493"/>
-            <point x="532.8639" y="491.30298"/>
-        </points>
-    </zone>
-    <zone mapid="600010000" name="VISALA_GROTTO_600010000" priority="16">
-        <points bottom="206.67" top="606.67">
-            <point x="745.83295" y="168.85211"/>
-            <point x="704.7824" y="297.2005"/>
-            <point x="703.57764" y="384.5717"/>
-            <point x="703.57764" y="464.4966"/>
-            <point x="822.05225" y="462.9492"/>
-            <point x="884.4753" y="321.15967"/>
-            <point x="1041.9886" y="153.41301"/>
-            <point x="942.13666" y="48.336266"/>
-            <point x="793.51984" y="24.534332"/>
-        </points>
-    </zone>
-    <zone mapid="600010000" name="PRAYERFUL_PASSAGE_600010000" priority="17">
-        <points bottom="207.27042" top="607.2704">
-            <point x="691.79205" y="446.75272"/>
-            <point x="833.26013" y="458.19446"/>
-            <point x="853.2528" y="376.68427"/>
-            <point x="1216.902" y="379.09253"/>
-            <point x="1175.9613" y="513.95575"/>
-            <point x="1007.38226" y="506.73096"/>
-            <point x="919.4803" y="583.79565"/>
-            <point x="903.82654" y="652.4314"/>
-            <point x="827.96594" y="663.2686"/>
-            <point x="691.89856" y="662.0645"/>
-        </points>
-    </zone>
-    <zone mapid="600010000" name="EASTERN_CORRIDOR_600010000" priority="16">
-        <points bottom="206.76993" top="606.76996">
-            <point x="568.73334" y="871.8869"/>
-            <point x="509.26788" y="913.1486"/>
-            <point x="302.95917" y="913.1486"/>
-            <point x="302.95917" y="1180.1364"/>
-            <point x="425.53082" y="1182.5635"/>
-            <point x="429.17154" y="1069.7006"/>
-            <point x="682.8099" y="1063.6326"/>
-            <point x="691.305" y="867.0326"/>
-        </points>
-    </zone>
-    <zone mapid="600010000" name="PACIFISTS_WALK_600010000" priority="15">
-        <points bottom="206.87003" top="606.87006">
-            <point x="528.09814" y="1031.39"/>
-            <point x="723.4846" y="1016.827"/>
-            <point x="725.91174" y="1185.5148"/>
-            <point x="656.7377" y="1187.9419"/>
-            <point x="627.61176" y="1134.5443"/>
-            <point x="623.971" y="1109.0591"/>
-            <point x="525.67096" y="1095.7097"/>
-        </points>
-    </zone>
-    <zone mapid="600010000" name="WESTERN_ENTRANCE_OF_SILENTERA_CANYON_600010000" priority="14">
-        <points bottom="206.87003" top="606.87006">
-            <point x="400.8363" y="294.11642"/>
-            <point x="416.95303" y="410.15683"/>
-            <point x="428.77197" y="475.69818"/>
-            <point x="514.72784" y="478.92154"/>
-            <point x="537.29126" y="438.0925"/>
-            <point x="595.09344" y="391.24237"/>
-            <point x="501.606" y="295.01987"/>
-        </points>
-    </zone>
-    <zone mapid="600010000" name="EARTHFANG_PASS_600010000" priority="15">
-        <points bottom="207.37051" top="607.37054">
-            <point x="940.1936" y="908.7027"/>
-            <point x="943.4201" y="1031.3104"/>
-            <point x="1036.9893" y="1030.2349"/>
-            <point x="1040.2156" y="906.55164"/>
-        </points>
-    </zone>
-    <zone mapid="600010000" name="SHADOWS_EGRESS_600010000" priority="17">
-        <points bottom="206.87003" top="606.87006">
-            <point x="290.51898" y="1176.7573"/>
-            <point x="222.55846" y="1259.2808"/>
-            <point x="231.05351" y="1500.7832"/>
-            <point x="602.2192" y="1496.4874"/>
-            <point x="406.01794" y="1335.3204"/>
-            <point x="406.0564" y="1251.1465"/>
-            <point x="416.73135" y="1191.3202"/>
-        </points>
-    </zone>
-    <zone mapid="600010000" name="MITRAKAND_PASS_600010000" priority="16">
-        <points bottom="206.97012" top="606.9701">
-            <point x="371.00247" y="1347.2108"/>
-            <point x="327.0633" y="1489.9364"/>
-            <point x="470.58014" y="1495.8912"/>
-            <point x="566.7142" y="1461.7543"/>
-            <point x="541.23157" y="1345.2124"/>
-        </points>
-    </zone>
-    <zone mapid="600010000" name="HANARKAND_PASS_600010000" priority="15">
-        <points bottom="206.67" top="606.67">
-            <point x="758.2" y="95.31"/>
-            <point x="767.6234" y="238.00726"/>
-            <point x="869.93463" y="330.8951"/>
-            <point x="1015.8631" y="172.57373"/>
-            <point x="913.1085" y="50.080956"/>
-        </points>
-    </zone>
-    <zone mapid="600010000" name="FELONS_FLIGHT_600010000" priority="17">
-        <points bottom="206.67" top="606.67">
-            <point x="249.57" y="46.74"/>
-            <point x="233.92876" y="241.65404"/>
-            <point x="301.30646" y="366.784"/>
-            <point x="408.38885" y="369.19037"/>
-            <point x="406.80075" y="282.18265"/>
-            <point x="406.82727" y="232.28511"/>
-            <point x="651.57983" y="150.92192"/>
-            <point x="574.05493" y="18.63166"/>
-            <point x="341.4801" y="16.497936"/>
-        </points>
-    </zone>
-    <zone mapid="600010000" name="WESTERN_CORRIDOR_600010000" priority="16">
-        <points bottom="206.87003" top="606.87006">
-            <point x="313.33557" y="360.76614"/>
-            <point x="424.02747" y="360.76614"/>
-            <point x="444.4814" y="469.0517"/>
-            <point x="669.4748" y="487.0993"/>
-            <point x="677.897" y="667.57526"/>
-            <point x="562.39233" y="667.57526"/>
-            <point x="521.4845" y="597.7912"/>
-            <point x="316.94507" y="602.6039"/>
-        </points>
-    </zone>
-    <zone mapid="600010000" name="SILENTERA_CANYON_600010000" priority="18">
-        <points bottom="206.6654" top="606.6654">
-            <point x="180.06316" y="826.88385"/>
-            <point x="177.67348" y="1522.3188"/>
-            <point x="549.9103" y="1522.4026"/>
-            <point x="1103.083" y="1522.5256"/>
-            <point x="1103.3442" y="1142.117"/>
-            <point x="1103.6467" y="828.38306"/>
-        </points>
-    </zone>
-    <zone mapid="600010000" name="PAUPERS_PATH_600010000" priority="17">
-        <points bottom="207.27042" top="607.2704">
-            <point x="829.7241" y="666.17773"/>
-            <point x="834.02844" y="767.76044"/>
-            <point x="996.733" y="768.62134"/>
-            <point x="1001.0373" y="705.7778"/>
-            <point x="1069.907" y="692.00385"/>
-            <point x="1066.4635" y="593.0038"/>
-            <point x="920.2844" y="596.7905"/>
-            <point x="908.9242" y="658.4299"/>
-        </points>
-    </zone>
-    <zone mapid="600010000" name="BESHMUNDIRS_WALK_600010000" priority="10">
-        <points bottom="312.4877" top="327.4877">
-            <point x="1371.869" y="744.05505"/>
-            <point x="1371.7996" y="789.8821"/>
-            <point x="1418.7308" y="790.309"/>
-            <point x="1419.2455" y="743.90546"/>
-        </points>
-    </zone>
-    <zone mapid="600010000" name="HOPES_DEMISE_600010000" priority="16">
-        <points bottom="207.27042" top="607.2704">
-            <point x="1066.3126" y="495.0546"/>
-            <point x="1037.1866" y="595.7818"/>
-            <point x="1035.973" y="975.6325"/>
-            <point x="1097.8657" y="1047.2338"/>
-            <point x="1198.5929" y="1046.0201"/>
-            <point x="1519.7618" y="1045.404"/>
-            <point x="1518.7891" y="491.9513"/>
-            <point x="1279.9028" y="491.41385"/>
-        </points>
-    </zone>
-    <zone mapid="600010000" name="SILENTERA_CANYON_600010000" priority="18">
-        <points bottom="206.6654" top="606.6654">
-            <point x="183.80421" y="25.257206"/>
-            <point x="181.41454" y="720.69214"/>
-            <point x="553.65137" y="720.7759"/>
-            <point x="1100.6985" y="720.89905"/>
-            <point x="1096.0593" y="340.49026"/>
-            <point x="1133.1154" y="24.306229"/>
-        </points>
-    </zone>
+	aion-lightning is free software: you can redistribute it and/or modify
+	it under the terms of the GNU General Public License as published by
+	the Free Software Foundation, either version 3 of the License, or
+	(at your option) any later version.
+
+	aion-lightning is distributed in the hope that it will be useful,
+	but WITHOUT ANY WARRANTY; without even the implied warranty of
+	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+	GNU General Public License for more details.
+
+	You should have received a copy of the GNU General Public License
+	along with aion-emu. If not, see<http://www.gnu.org/licenses/>.
+
+	@author Destin
+
+-->
+<zones xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="zones.xsd">
+	<zone mapid="600010000" name="BESHMUNDIR_TEMPLE_600010000" priority="15">
+		<points bottom="207.37039" top="607.3704">
+			<point x="1522.8046" y="698.92145"/>
+			<point x="1283.7314" y="700.9073"/>
+			<point x="1257.9159" y="743.10583"/>
+			<point x="1257.9159" y="791.7583"/>
+			<point x="1282.7385" y="830.97815"/>
+			<point x="1523.7975" y="830.1495"/>
+		</points>
+	</zone>
+	<zone mapid="600010000" name="MARAKA_CAVE_600010000" priority="16">
+		<points bottom="206.67" top="606.67">
+			<point x="682.5793" y="1227.3041"/>
+			<point x="681.9668" y="1381.9834"/>
+			<point x="692.9163" y="1516.5936"/>
+			<point x="954.0587" y="1514.916"/>
+			<point x="1055.5813" y="1417.6718"/>
+			<point x="851.19165" y="1147.632"/>
+			<point x="828.13367" y="1080.885"/>
+			<point x="717.6978" y="1080.885"/>
+			<point x="714.05707" y="1156.1271"/>
+		</points>
+	</zone>
+	<zone mapid="600010000" name="MOURNERS_WALK_600010000" priority="17">
+		<points bottom="207.37051" top="607.37054">
+			<point x="832.3067" y="771.2039"/>
+			<point x="997.5938" y="772.92566"/>
+			<point x="1001.89813" y="835.76917"/>
+			<point x="1069.046" y="845.2388"/>
+			<point x="1069.9069" y="945.9606"/>
+			<point x="927.8633" y="914.1084"/>
+			<point x="912.3676" y="884.8388"/>
+			<point x="860.7154" y="864.1779"/>
+			<point x="829.72406" y="861.5953"/>
+		</points>
+	</zone>
+	<zone mapid="600010000" name="JOTUN_SQUARE_600010000" priority="10">
+		<points bottom="206.67" top="606.67">
+			<point x="509.65" y="656.6601"/>
+			<point x="509.65002" y="879.4354"/>
+			<point x="839.073" y="880.6204"/>
+			<point x="836.7031" y="656.66016"/>
+		</points>
+	</zone>
+	<zone mapid="600010000" name="EASTERN_ENTRANCE_OF_SILENTERA_CANYON_600010000" priority="14">
+		<points bottom="206.67" top="606.67">
+			<point x="435.6" y="1087.37"/>
+			<point x="436.81357" y="1208.728"/>
+			<point x="525.40497" y="1223.291"/>
+			<point x="632.2001" y="1160.1848"/>
+			<point x="611.5692" y="1105.5737"/>
+			<point x="521.7642" y="1060.6713"/>
+		</points>
+	</zone>
+	<zone mapid="600010000" name="VORGALTEM_PASS_600010000" priority="15">
+		<points bottom="206.67" top="606.67">
+			<point x="840.02" y="1274.34"/>
+			<point x="773.27313" y="1324.0967"/>
+			<point x="790.8961" y="1445.3483"/>
+			<point x="960.5157" y="1489.8109"/>
+			<point x="1014.19806" y="1365.1113"/>
+			<point x="878.3146" y="1265.5752"/>
+		</points>
+	</zone>
+	<zone mapid="600010000" name="ANGRIEF_PASS_600010000" priority="16">
+		<points bottom="206.67" top="606.67">
+			<point x="252.57239" y="55.61383"/>
+			<point x="347.16702" y="20.763184"/>
+			<point x="547.0249" y="19.340714"/>
+			<point x="574.05194" y="122.470215"/>
+			<point x="433.41647" y="214.36891"/>
+		</points>
+	</zone>
+	<zone mapid="600010000" name="SULLEN_PASSAGE_600010000" priority="17">
+		<points bottom="207.17032" top="607.17035">
+			<point x="720.543" y="875.1725"/>
+			<point x="861.3184" y="867.891"/>
+			<point x="914.3633" y="891.25995"/>
+			<point x="926.1882" y="933.3825"/>
+			<point x="948.69617" y="1046.2874"/>
+			<point x="1107.6752" y="1031.7245"/>
+			<point x="1216.7966" y="1030.2437"/>
+			<point x="1195.0531" y="1159.1504"/>
+			<point x="875.88135" y="1180.9948"/>
+			<point x="840.6875" y="1134.8788"/>
+			<point x="830.9788" y="1099.6849"/>
+			<point x="709.62085" y="1099.6849"/>
+		</points>
+	</zone>
+	<zone mapid="600010000" name="PRIMEVAL_PASS_600010000" priority="15">
+		<points bottom="207.37051" top="607.37054">
+			<point x="933.74054" y="484.95337"/>
+			<point x="936.96704" y="607.56104"/>
+			<point x="1030.5361" y="606.48553"/>
+			<point x="1033.7626" y="482.80234"/>
+		</points>
+	</zone>
+	<zone mapid="600010000" name="CHANTERS_WALK_600010000" priority="15">
+		<points bottom="206.67" top="606.67">
+			<point x="515.98" y="459.91"/>
+			<point x="546.00806" y="428.0052"/>
+			<point x="603.2491" y="424.25168"/>
+			<point x="652.0447" y="367.94904"/>
+			<point x="709.2857" y="383.90146"/>
+			<point x="709.2857" y="470.23215"/>
+			<point x="701.591" y="505.542"/>
+			<point x="612.6328" y="505.6493"/>
+			<point x="532.8639" y="491.30298"/>
+		</points>
+	</zone>
+	<zone mapid="600010000" name="VISALA_GROTTO_600010000" priority="16">
+		<points bottom="206.67" top="606.67">
+			<point x="745.83295" y="168.85211"/>
+			<point x="704.7824" y="297.2005"/>
+			<point x="703.57764" y="384.5717"/>
+			<point x="703.57764" y="464.4966"/>
+			<point x="822.05225" y="462.9492"/>
+			<point x="884.4753" y="321.15967"/>
+			<point x="1041.9886" y="153.41301"/>
+			<point x="942.13666" y="48.336266"/>
+			<point x="793.51984" y="24.534332"/>
+		</points>
+	</zone>
+	<zone mapid="600010000" name="PRAYERFUL_PASSAGE_600010000" priority="17">
+		<points bottom="207.27042" top="607.2704">
+			<point x="691.79205" y="446.75272"/>
+			<point x="833.26013" y="458.19446"/>
+			<point x="853.2528" y="376.68427"/>
+			<point x="1216.902" y="379.09253"/>
+			<point x="1175.9613" y="513.95575"/>
+			<point x="1007.38226" y="506.73096"/>
+			<point x="919.4803" y="583.79565"/>
+			<point x="903.82654" y="652.4314"/>
+			<point x="827.96594" y="663.2686"/>
+			<point x="691.89856" y="662.0645"/>
+		</points>
+	</zone>
+	<zone mapid="600010000" name="EASTERN_CORRIDOR_600010000" priority="16">
+		<points bottom="206.76993" top="606.76996">
+			<point x="568.73334" y="871.8869"/>
+			<point x="509.26788" y="913.1486"/>
+			<point x="302.95917" y="913.1486"/>
+			<point x="302.95917" y="1180.1364"/>
+			<point x="425.53082" y="1182.5635"/>
+			<point x="429.17154" y="1069.7006"/>
+			<point x="682.8099" y="1063.6326"/>
+			<point x="691.305" y="867.0326"/>
+		</points>
+	</zone>
+	<zone mapid="600010000" name="PACIFISTS_WALK_600010000" priority="15">
+		<points bottom="206.87003" top="606.87006">
+			<point x="528.09814" y="1031.39"/>
+			<point x="723.4846" y="1016.827"/>
+			<point x="725.91174" y="1185.5148"/>
+			<point x="656.7377" y="1187.9419"/>
+			<point x="627.61176" y="1134.5443"/>
+			<point x="623.971" y="1109.0591"/>
+			<point x="525.67096" y="1095.7097"/>
+		</points>
+	</zone>
+	<zone mapid="600010000" name="WESTERN_ENTRANCE_OF_SILENTERA_CANYON_600010000" priority="14">
+		<points bottom="206.87003" top="606.87006">
+			<point x="400.8363" y="294.11642"/>
+			<point x="416.95303" y="410.15683"/>
+			<point x="428.77197" y="475.69818"/>
+			<point x="514.72784" y="478.92154"/>
+			<point x="537.29126" y="438.0925"/>
+			<point x="595.09344" y="391.24237"/>
+			<point x="501.606" y="295.01987"/>
+		</points>
+	</zone>
+	<zone mapid="600010000" name="EARTHFANG_PASS_600010000" priority="15">
+		<points bottom="207.37051" top="607.37054">
+			<point x="940.1936" y="908.7027"/>
+			<point x="943.4201" y="1031.3104"/>
+			<point x="1036.9893" y="1030.2349"/>
+			<point x="1040.2156" y="906.55164"/>
+		</points>
+	</zone>
+	<zone mapid="600010000" name="SHADOWS_EGRESS_600010000" priority="17">
+		<points bottom="206.87003" top="606.87006">
+			<point x="290.51898" y="1176.7573"/>
+			<point x="222.55846" y="1259.2808"/>
+			<point x="231.05351" y="1500.7832"/>
+			<point x="602.2192" y="1496.4874"/>
+			<point x="406.01794" y="1335.3204"/>
+			<point x="406.0564" y="1251.1465"/>
+			<point x="416.73135" y="1191.3202"/>
+		</points>
+	</zone>
+	<zone mapid="600010000" name="MITRAKAND_PASS_600010000" priority="16">
+		<points bottom="206.97012" top="606.9701">
+			<point x="371.00247" y="1347.2108"/>
+			<point x="327.0633" y="1489.9364"/>
+			<point x="470.58014" y="1495.8912"/>
+			<point x="566.7142" y="1461.7543"/>
+			<point x="541.23157" y="1345.2124"/>
+		</points>
+	</zone>
+	<zone mapid="600010000" name="HANARKAND_PASS_600010000" priority="15">
+		<points bottom="206.67" top="606.67">
+			<point x="758.2" y="95.31"/>
+			<point x="767.6234" y="238.00726"/>
+			<point x="869.93463" y="330.8951"/>
+			<point x="1015.8631" y="172.57373"/>
+			<point x="913.1085" y="50.080956"/>
+		</points>
+	</zone>
+	<zone mapid="600010000" name="FELONS_FLIGHT_600010000" priority="17">
+		<points bottom="206.67" top="606.67">
+			<point x="249.57" y="46.74"/>
+			<point x="233.92876" y="241.65404"/>
+			<point x="301.30646" y="366.784"/>
+			<point x="408.38885" y="369.19037"/>
+			<point x="406.80075" y="282.18265"/>
+			<point x="406.82727" y="232.28511"/>
+			<point x="651.57983" y="150.92192"/>
+			<point x="574.05493" y="18.63166"/>
+			<point x="341.4801" y="16.497936"/>
+		</points>
+	</zone>
+	<zone mapid="600010000" name="WESTERN_CORRIDOR_600010000" priority="16">
+		<points bottom="206.87003" top="606.87006">
+			<point x="313.33557" y="360.76614"/>
+			<point x="424.02747" y="360.76614"/>
+			<point x="444.4814" y="469.0517"/>
+			<point x="669.4748" y="487.0993"/>
+			<point x="677.897" y="667.57526"/>
+			<point x="562.39233" y="667.57526"/>
+			<point x="521.4845" y="597.7912"/>
+			<point x="316.94507" y="602.6039"/>
+		</points>
+	</zone>
+	<zone mapid="600010000" name="SILENTERA_CANYON_600010000" priority="18">
+		<points bottom="206.6654" top="606.6654">
+			<point x="180.06316" y="826.88385"/>
+			<point x="177.67348" y="1522.3188"/>
+			<point x="549.9103" y="1522.4026"/>
+			<point x="1103.083" y="1522.5256"/>
+			<point x="1103.3442" y="1142.117"/>
+			<point x="1103.6467" y="828.38306"/>
+		</points>
+	</zone>
+	<zone mapid="600010000" name="PAUPERS_PATH_600010000" priority="17">
+		<points bottom="207.27042" top="607.2704">
+			<point x="829.7241" y="666.17773"/>
+			<point x="834.02844" y="767.76044"/>
+			<point x="996.733" y="768.62134"/>
+			<point x="1001.0373" y="705.7778"/>
+			<point x="1069.907" y="692.00385"/>
+			<point x="1066.4635" y="593.0038"/>
+			<point x="920.2844" y="596.7905"/>
+			<point x="908.9242" y="658.4299"/>
+		</points>
+	</zone>
+	<zone mapid="600010000" name="BESHMUNDIRS_WALK_600010000" priority="10">
+		<points bottom="312.4877" top="327.4877">
+			<point x="1371.869" y="744.05505"/>
+			<point x="1371.7996" y="789.8821"/>
+			<point x="1418.7308" y="790.309"/>
+			<point x="1419.2455" y="743.90546"/>
+		</points>
+	</zone>
+	<zone mapid="600010000" name="HOPES_DEMISE_600010000" priority="16">
+		<points bottom="207.27042" top="607.2704">
+			<point x="1066.3126" y="495.0546"/>
+			<point x="1037.1866" y="595.7818"/>
+			<point x="1035.973" y="975.6325"/>
+			<point x="1097.8657" y="1047.2338"/>
+			<point x="1198.5929" y="1046.0201"/>
+			<point x="1519.7618" y="1045.404"/>
+			<point x="1518.7891" y="491.9513"/>
+			<point x="1279.9028" y="491.41385"/>
+		</points>
+	</zone>
+	<zone mapid="600010000" name="SILENTERA_CANYON_600010000" priority="18">
+		<points bottom="206.6654" top="606.6654">
+			<point x="183.80421" y="25.257206"/>
+			<point x="181.41454" y="720.69214"/>
+			<point x="553.65137" y="720.7759"/>
+			<point x="1100.6985" y="720.89905"/>
+			<point x="1096.0593" y="340.49026"/>
+			<point x="1133.1154" y="24.306229"/>
+		</points>
+	</zone>
 </zones>

@@ -1,29 +1,47 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+	This file is part of aion-lightning<aion-lightning.org>.
 
-<zones>
-    <zone mapid="320010000" name="ATAXIAR_320010000" priority="16">
-        <points bottom="0.1" top="500.1">
-            <point x="170.0" y="324.0"/>
-            <point x="168.0" y="147.0"/>
-            <point x="356.0" y="146.0"/>
-            <point x="354.0" y="348.0"/>
-            <point x="172.0" y="347.0"/>
-        </points>
-    </zone>
-    <zone mapid="320010000" name="FLOATING_ISLAND_A_320010000" priority="16">
-        <points bottom="0.1" top="500.1">
-            <point x="46.0" y="152.0"/>
-            <point x="116.0" y="180.0"/>
-            <point x="100.0" y="219.0"/>
-            <point x="35.0" y="188.0"/>
-        </points>
-    </zone>
-    <zone mapid="320010000" name="VANPERN_OBELISK_320010000" priority="16">
-        <points bottom="0.1" top="500.1">
-            <point x="409.0" y="444.0"/>
-            <point x="410.0" y="374.0"/>
-            <point x="482.0" y="374.0"/>
-            <point x="478.0" y="449.0"/>
-        </points>
-    </zone>
+	aion-lightning is free software: you can redistribute it and/or modify
+	it under the terms of the GNU General Public License as published by
+	the Free Software Foundation, either version 3 of the License, or
+	(at your option) any later version.
+
+	aion-lightning is distributed in the hope that it will be useful,
+	but WITHOUT ANY WARRANTY; without even the implied warranty of
+	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+	GNU General Public License for more details.
+
+	You should have received a copy of the GNU General Public License
+	along with aion-emu. If not, see<http://www.gnu.org/licenses/>.
+
+	@author Destin
+
+-->
+<zones xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="zones.xsd">
+	<zone mapid="320010000" name="ATAXIAR_320010000" priority="16">
+		<points bottom="0.1" top="500.1">
+			<point x="170.0" y="324.0"/>
+			<point x="168.0" y="147.0"/>
+			<point x="356.0" y="146.0"/>
+			<point x="354.0" y="348.0"/>
+			<point x="172.0" y="347.0"/>
+		</points>
+	</zone>
+	<zone mapid="320010000" name="FLOATING_ISLAND_A_320010000" priority="16">
+		<points bottom="0.1" top="500.1">
+			<point x="46.0" y="152.0"/>
+			<point x="116.0" y="180.0"/>
+			<point x="100.0" y="219.0"/>
+			<point x="35.0" y="188.0"/>
+		</points>
+	</zone>
+	<zone mapid="320010000" name="VANPERN_OBELISK_320010000" priority="16">
+		<points bottom="0.1" top="500.1">
+			<point x="409.0" y="444.0"/>
+			<point x="410.0" y="374.0"/>
+			<point x="482.0" y="374.0"/>
+			<point x="478.0" y="449.0"/>
+		</points>
+	</zone>
 </zones>

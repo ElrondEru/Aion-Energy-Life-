@@ -1,12 +1,30 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+	This file is part of aion-lightning<aion-lightning.org>.
 
-<zones>
-    <zone mapid="320090000" name="TRINIEL_UNDERGROUND_ARENA_320090000" priority="16">
-        <points bottom="134.89746" top="234.89746">
-            <point x="203.27206" y="145.04845"/>
-            <point x="342.86502" y="143.4931"/>
-            <point x="342.47617" y="316.91498"/>
-            <point x="202.88322" y="316.52612"/>
-        </points>
-    </zone>
+	aion-lightning is free software: you can redistribute it and/or modify
+	it under the terms of the GNU General Public License as published by
+	the Free Software Foundation, either version 3 of the License, or
+	(at your option) any later version.
+
+	aion-lightning is distributed in the hope that it will be useful,
+	but WITHOUT ANY WARRANTY; without even the implied warranty of
+	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+	GNU General Public License for more details.
+
+	You should have received a copy of the GNU General Public License
+	along with aion-emu. If not, see<http://www.gnu.org/licenses/>.
+
+	@author Destin
+
+-->
+<zones xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="zones.xsd">
+	<zone mapid="320090000" name="TRINIEL_UNDERGROUND_ARENA_320090000" priority="16">
+		<points bottom="134.89746" top="234.89746">
+			<point x="203.27206" y="145.04845"/>
+			<point x="342.86502" y="143.4931"/>
+			<point x="342.47617" y="316.91498"/>
+			<point x="202.88322" y="316.52612"/>
+		</points>
+	</zone>
 </zones>
