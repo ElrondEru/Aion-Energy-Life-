@@ -30,7 +30,7 @@ import com.aionemu.gameserver.skillengine.properties.Properties;
 
 /**
  * @author ATracer
- * 
+ * modified by Wakizashi
  */
 @XmlAccessorType(XmlAccessType.FIELD)
 @XmlType(name = "skillTemplate", propOrder = {
@@ -84,6 +84,10 @@ public class SkillTemplate
     protected int cancelRate;
     @XmlAttribute(name = "stance")
     protected boolean stance;
+	@XmlAttribute(name = "skillset_exception")
+    protected int skillSetException;
+	@XmlAttribute(name = "skillset_maxoccur")
+    protected int skillSetMaxOccur;
 
     /**
 	 * @return the initProperties
@@ -329,6 +333,20 @@ public class SkillTemplate
 	public boolean isStance()
 	{
 		return stance;
+	}
+	
+	/**
+	 * @return skillSetException
+	 */
+	public int getSkillSetException() {
+		return skillSetException;
+	}
+	
+	/**
+	 * @return skillSetMaxOccur
+	 */
+	public int getSkillSetMaxOccur() {
+		return skillSetMaxOccur;
 	}
 	
 	public boolean hasResurrectEffect()

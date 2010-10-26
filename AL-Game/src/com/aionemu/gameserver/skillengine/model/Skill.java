@@ -33,6 +33,7 @@ import com.aionemu.gameserver.utils.ThreadPoolManager;
 
 /**
  * @author ATracer
+ * Modified by Wakzashi
  */
 public class Skill
 {
@@ -283,6 +284,7 @@ public class Skill
 				Effect effect = new Effect(effector, effected, skillTemplate, skillLevel, 0, itemTemplate);
 				effect.initialize();
 				spellStatus = effect.getSpellStatus().getId();
+				checkSkillSetException(effected);
 				effects.add(effect);
 			}
 		}
@@ -446,6 +448,25 @@ public class Skill
 			}
 		}
 		return true;
+	}
+	
+	private void checkSkillSetException(Creature effected)
+	{
+		int setNumber = skillTemplate.getSkillSetException();
+		int maxOccur = skillTemplate.getSkillSetMaxOccur();
+		if (effected instanceof Creature)
+		{
+			Creature creature = (Creature)effected;
+			if (setNumber != 0)
+			{
+				if (maxOccur != 0)
+					creature.getEffectController().removeEffectBySetNumber(setNumber, maxOccur);
+				else
+					creature.getEffectController().removeEffectBySetNumber(setNumber, 1);
+			}
+			else
+				creature.getEffectController().removeEffectWithSetNumberReserved();
+		}
 	}
 
 	/**

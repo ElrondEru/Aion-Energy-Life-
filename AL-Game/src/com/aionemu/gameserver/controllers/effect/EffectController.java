@@ -36,7 +36,7 @@ import com.aionemu.gameserver.utils.PacketSendUtility;
 
 /**
  * @author ATracer
- *
+ * modified by Wakizashi
  */
 public class EffectController
 {
@@ -176,6 +176,82 @@ public class EffectController
 				abnormalEffectMap.remove(effect.getStack());
 			}
 		}
+	}
+	
+	/**
+	 * Removes the effect by SkillSetException Number.
+	 * 
+	 * @param SkillSetException Number
+	 */
+	public void removeEffectBySetNumber(final int setNumber, int maxOccur)
+	{
+		int i = 0;
+		//Count the occurences of effects of the setNumbet.
+		for(Effect effect : abnormalEffectMap.values())
+		{
+			if(effect.getSkillSetException() == setNumber)
+				i++;
+		}
+		//if there are too much occurences of effects of the setNumbet then remove the oldest effect.
+		if (maxOccur <= i)
+		{
+			for(Effect effect : abnormalEffectMap.values())
+			{
+				if(effect.getSkillSetException() == setNumber)
+				{
+				effect.endEffect();
+				abnormalEffectMap.remove(effect.getStack());
+				break;
+				}
+			}
+		}
+		
+		i = 0;
+		for(Effect effect : passiveEffectMap.values())
+		{
+			if(effect.getSkillSetException() == setNumber)
+				i++;
+		}
+		if (maxOccur <= i)
+		{
+			for(Effect effect : passiveEffectMap.values())
+			{
+				if(effect.getSkillSetException() == setNumber)
+				{
+					effect.endEffect();
+					passiveEffectMap.remove(effect.getStack());
+					break;
+				}
+			}
+		}
+		
+		i = 0;
+		for(Effect effect : noshowEffects.values())
+		{
+			if(effect.getSkillSetException() == setNumber)
+				i++;
+		}
+		if (maxOccur <= i)
+		{
+			for(Effect effect : noshowEffects.values())
+			{
+				if(effect.getSkillSetException() == setNumber)
+				{
+					effect.endEffect();
+					noshowEffects.remove(effect.getStack());
+					break;
+				}
+			}
+		}
+	}
+	
+	/**
+	 * Removes the effect with SkillSetException Reserved Number (aka 1).
+	 * 
+	 */
+	public void removeEffectWithSetNumberReserved()
+	{
+		removeEffectBySetNumber(1, 1);
 	}
 
 	/**

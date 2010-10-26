@@ -39,6 +39,7 @@
 		<xs:attribute name="cancel_rate" type="xs:int" use="optional" default="0"/>
 		<xs:attribute name="stance" type="xs:boolean" use="optional" default="false"/>
 		<xs:attribute name="skillset_exception" type="xs:int" use="optional" default="0"/>
+		<xs:attribute name="skillset_maxoccur" type="xs:int" use="optional" default="0"/>
 	</xs:complexType>
 	<xs:complexType name="Effects">
 		<xs:sequence minOccurs="0" maxOccurs="unbounded">

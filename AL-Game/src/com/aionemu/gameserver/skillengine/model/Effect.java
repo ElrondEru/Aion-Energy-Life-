@@ -39,7 +39,7 @@ import com.aionemu.gameserver.utils.ThreadPoolManager;
 
 /**
  * @author ATracer
- *
+ * modified by Wakizashi
  */
 public class Effect
 {
@@ -143,6 +143,22 @@ public class Effect
 	public int getSkillId()
 	{
 		return skillTemplate.getSkillId();
+	}
+	
+	/**
+	 * @return the SkillSetException
+	 */
+	public int getSkillSetException()
+	{
+		return skillTemplate.getSkillSetException();
+	}
+	
+	/**
+	 * @return the SkillSetMaxOccur
+	 */
+	public int getSkillSetMaxOccur()
+	{
+		return skillTemplate.getSkillSetMaxOccur();
 	}
 
 	/**
