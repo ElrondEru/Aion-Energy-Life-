@@ -73,13 +73,13 @@
 		<exitpoint mapid="310050000" x="348.7295" y="235.60219" z="147.67067"/>
 	</portal>
 	<!-- Alukina's Palace Entrance -->
-	<portal npcid="700184" minlevel="38" maxlevel="55" group="false" race="ASMODIANS">
-		<entrypoint mapid="220040000" x="555.1192" y="2517.245" z="291.5097" race="ASMODIANS"/>
+	<portal npcid="730137" minlevel="38" maxlevel="55" group="false" race="ASMODIANS">
+		<entrypoint mapid="220040000" x="576.73724" y="2503.9868" z="290.09546" race="ASMODIANS"/>
 		<exitpoint mapid="220040000" x="593" y="2535" z="289"/>
 	</portal>
 	<!-- Alukina's Palace Exit -->
-	<portal npcid="700185" minlevel="38" maxlevel="55" group="false">
-		<entrypoint mapid="220040000" x="585.1498" y="2539.9917" z="289.0606"/>
+	<portal npcid="730138" minlevel="38" maxlevel="55" group="false">
+		<entrypoint mapid="220040000" x="589.1326" y="2534.8586" z="288.48273"/>
 		<exitpoint mapid="220040000" x="543.44214" y="2500.1926" z="286.55652"/>
 	</portal>	
 	<!-- Draupnir Cave Entrance -->

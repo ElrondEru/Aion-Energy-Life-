@@ -138,7 +138,7 @@
 		<object x="319.65778" y="376.33453" z="230.0" h="120"/>
 	</spawn>
 	<!-- Berta (NPC Normal lvl:50) -->
-	<spawn map="220040000" npcid="798457" pool="1" interval="295">
+	<spawn map="220040000" npcid="205267" pool="1" interval="295">
 		<object x="1943.8955" y="512.9023" z="412.4612" h="75"/>
 	</spawn>
 	<!-- Betoni (NPC Elite lvl:50) -->
@@ -320,8 +320,8 @@
 		<object x="1931.2153" y="486.83466" z="413.00177" h="65"/>
 	</spawn>
 	<!-- Fafnir - Ajelmo (NPC Normal lvl:50) -->
-	<spawn map="220040000" npcid="204722" pool="1" interval="295">
-		<object x="293.3412" y="416.4197" z="232.0" h="10"/>
+	<spawn map="220040000" npcid="798383" pool="1" interval="295">
+		<object x="300.0" y="284.0" z="233.0" h="100"/>
 	</spawn>
 	<!-- Field Suppressor (Monster Normal lvl:1) -->
 	<spawn map="220040000" npcid="700290" pool="3" interval="295">
@@ -580,7 +580,7 @@
 		<object x="1911.6976" y="485.8836" z="413.0" h="92"/>
 	</spawn>
 	<!-- Konradin (NPC Normal lvl:50) -->
-	<spawn map="220040000" npcid="798458" pool="1" interval="295">
+	<spawn map="220040000" npcid="205268" pool="1" interval="295">
 		<object x="2429.537" y="2061.0334" z="579.8380" h="15"/>
 	</spawn>
 	<!-- Kunbernan (NPC Normal lvl:50) -->
@@ -794,6 +794,10 @@
 	<!-- Obelisk (Object Normal lvl:3) -->
 	<spawn map="220040000" npcid="700301" pool="1" interval="295">
 		<object x="1902.7673" y="504.19073" z="412.49243" h="95"/>
+	</spawn>
+	<!-- Obelisk (Object Normal lvl:3) -->
+	<spawn map="220040000" npcid="700825" pool="1" interval="295">
+		<object x="1277.6088" y="839.453" z="263.8312" h="73"/>
 	</spawn>
 	<!-- Obelisk (Object Normal lvl:3) -->
 	<spawn map="220040000" npcid="700300" pool="1" interval="295">
@@ -1011,7 +1015,7 @@
 		<object x="1447.0" y="1288.0" z="248.5" h="75"/>
 	</spawn>
 	<!-- Suomi (NPC Normal lvl:50) -->
-	<spawn map="220040000" npcid="798456" pool="1" interval="295">
+	<spawn map="220040000" npcid="205266" pool="1" interval="295">
 		<object x="1245.6118" y="822.4523" z="260.10034" h="105"/>
 	</spawn>
 	<!-- Sturluson (NPC Normal lvl:50) -->
