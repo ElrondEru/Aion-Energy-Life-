@@ -48,13 +48,13 @@
 		<exitpoint mapid="300060000" x="462.352" y="345.609" z="162.817"/>
 	</portal>
 	<!-- Eracus Temple Entrance -->
-	<portal npcid="203981" instance="true" minlevel="30" maxlevel="55" group="false" race="ELYOS">
+	<portal npcid="203981" instance="false" minlevel="30" maxlevel="55" group="false" race="ELYOS">
 		<entrypoint mapid="210020000" x="446.38937" y="428.9423" z="274.5" race="ELYOS"/>
 		<exitpoint mapid="210020000" x="437.04294" y="422.63818" z="274.375"/>
 	</portal>         
 	<!-- Eracus Temple Exit -->
-	<portal npcid="203982" minlevel="30" maxlevel="55" group="false">
-		<entrypoint mapid="210020000" x="437.04294" y="422.63818" z="274.375"/>
+	<portal npcid="203982" minlevel="30" maxlevel="55" group="false" race="ELYOS">
+		<entrypoint mapid="210020000" x="437.04294" y="422.63818" z="274.375" race="ELYOS"/>
 		<exitpoint mapid="210020000" x="446.38937" y="428.9423" z="274.5"/>
 	</portal>	
 	<!-- Shadow Court Dungeon Elyos -->
